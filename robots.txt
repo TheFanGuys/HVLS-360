@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thefanguys.github.io/HVLS-360/sitemap.xml

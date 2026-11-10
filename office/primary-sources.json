@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "geographic_priority": "US",
+  "international_exception": "Documented significant US field, product, technology or regulatory impact",
+  "sources": [
+    {
+      "name": "Big Ass Fans",
+      "type": "manufacturer_research",
+      "url": "https://bigassfans.com/",
+      "topics": [
+        "research studies",
+        "technical resources",
+        "case studies",
+        "airflow",
+        "destratification"
+      ],
+      "verification": "Discover and validate exact official research-library URLs before crawling"
+    },
+    {
+      "name": "Rite-Hite",
+      "type": "manufacturer_research",
+      "url": "https://www.ritehite.com/",
+      "topics": [
+        "HVLS",
+        "safety",
+        "industrial applications"
+      ],
+      "verification": "Validate official document links"
+    },
+    {
+      "name": "MacroAir",
+      "type": "manufacturer_research",
+      "url": "https://macroairfans.com/",
+      "topics": [
+        "fan research",
+        "applications",
+        "product changes"
+      ],
+      "verification": "Validate official document links"
+    },
+    {
+      "name": "ABB",
+      "type": "controls_research",
+      "url": "https://new.abb.com/",
+      "topics": [
+        "VFD application notes",
+        "drives",
+        "safety"
+      ],
+      "verification": "Validate official documents"
+    },
+    {
+      "name": "Invertek Drives",
+      "type": "controls_research",
+      "url": "https://www.invertekdrives.com/",
+      "topics": [
+        "Optidrive",
+        "technical manuals",
+        "firmware"
+      ],
+      "verification": "Validate official documents"
+    },
+    {
+      "name": "OSHA",
+      "type": "US_regulatory",
+      "url": "https://www.osha.gov/",
+      "topics": [
+        "workplace heat",
+        "ventilation",
+        "aerial lifts"
+      ],
+      "verification": "Identify rule versus guidance and jurisdiction"
+    },
+    {
+      "name": "AMCA International",
+      "type": "standards_research",
+      "url": "https://www.amca.org/",
+      "topics": [
+        "fan performance",
+        "air movement"
+      ],
+      "verification": "Check standards edition and applicability"
+    },
+    {
+      "name": "ASHRAE",
+      "type": "engineering_research",
+      "url": "https://www.ashrae.org/",
+      "topics": [
+        "thermal comfort",
+        "ventilation",
+        "research"
+      ],
+      "verification": "Check study and standards edition"
+    }
+  ],
+  "suggested_new_sources": [],
+  "last_audit": null
+}

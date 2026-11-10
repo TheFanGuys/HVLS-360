@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "budget_policy": {
+    "default_monthly_spend_usd": 0,
+    "approval": "explicit_case_by_case",
+    "auto_renewal_allowed": false
+  },
+  "department_status": "planning_only",
+  "proposed_expenses": [],
+  "sponsor_prospects": [],
+  "campaigns": [],
+  "revenue_events": [],
+  "reporting": {
+    "verified_monthly_visitors": null,
+    "verified_ad_revenue_usd": null,
+    "verified_sponsor_revenue_usd": null
+  }
+}

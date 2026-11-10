@@ -11,7 +11,8 @@ BAD=("market size","market forecast","market to 2035","market to 2033","market r
      "stock price","market research report")
 FIELD=("hvls","large diameter fan","industrial ceiling fan","scissor lift","boom lift",
        "aerial lift","mewp","equipment rental","warehouse construction","industrial ventilation",
-       "destratification","fire sprinkler","industrial fan","manufacturing facility")
+       "destratification","fire sprinkler","industrial fan","manufacturing facility","industrial construction","warehouse development",
+       "manufacturing plant","aerial work platform","powered access equipment")
 INTERNATIONAL=("european","europe","nigeria","kenya","india","china","czech","gombe","homa bay","nyandiwa","uk market","britain","germany","france")
 USA=("united states","u.s.","usa","american","arizona","utah","texas","california",
      "ohio","florida","georgia","north america")
@@ -24,8 +25,8 @@ def triage(title,department,url):
         return "hold",["International story without demonstrated U.S. impact; editor may override with evidence"]
     if any(k in t for k in BAD):
         return "hold",["Generic market promotion or off-topic headline; requires editor review"]
-    if not any(k in t for k in FIELD) and not any(k in department.lower() for k in ("lift","rental","construction")):
-        return "hold",["No explicit HVLS or field relevance in headline"]
+    if not any(k in t for k in FIELD):
+        return "hold",["No explicit HVLS or field relevance in headline; department label alone is insufficient"]
     if not any(k in t for k in USA):
         reasons.append("U.S. applicability not established from headline")
     if "news.google.com" in host:

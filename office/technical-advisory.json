@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "division": "Technical Engineering & Field Advisory",
+  "status": "expert_review_framework_not_autonomous_agents",
+  "publisher": "Big Fan Guys / HVLS 360",
+  "roles": [
+    {
+      "id": "chief",
+      "name": "Chief Technical Engineer",
+      "checks": [
+        "Coordinate multidisciplinary technical reviews",
+        "Track unresolved assumptions",
+        "Escalate safety-critical claims"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "HVLS Mechanical & Structural Reviewer",
+      "checks": [
+        "Fan motor and blade specifications",
+        "Mounting loads and approved structures",
+        "Vibration and clearances"
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical & VFD Reviewer",
+      "checks": [
+        "NEC edition and AHJ",
+        "Motor/VFD ratings and manufacturer manuals",
+        "Grounding, wiring and control power"
+      ]
+    },
+    {
+      "id": "airflow",
+      "name": "Airflow & HVAC Reviewer",
+      "checks": [
+        "Air velocity versus airflow claims",
+        "Destratification and thermal comfort",
+        "Ventilation versus recirculation distinction"
+      ]
+    },
+    {
+      "id": "automation",
+      "name": "Controls & Automation Reviewer",
+      "checks": [
+        "BACnet/Modbus integration",
+        "Interlocks and control sequence",
+        "Sensor/AI claims and fail-safe behavior"
+      ]
+    },
+    {
+      "id": "safety",
+      "name": "Codes & Safety Reviewer",
+      "checks": [
+        "OSHA and ANSI/SAIA access equipment guidance",
+        "Fire alarm and sprinkler coordination",
+        "Applicable jurisdiction and code edition"
+      ]
+    },
+    {
+      "id": "field",
+      "name": "Field Installation & Service Reviewer",
+      "checks": [
+        "Practical commissioning steps",
+        "Lift access and work sequence",
+        "Troubleshooting reproducibility"
+      ]
+    },
+    {
+      "id": "methods",
+      "name": "Research Methods & Evidence Reviewer",
+      "checks": [
+        "Manufacturer funding and conflicts",
+        "Test methods and baseline",
+        "Independent replication and limitations"
+      ]
+    }
+  ],
+  "review_policy": {
+    "no_licensed_engineer_impersonation": true,
+    "never_claim_unverified_calculations": true,
+    "no_unreviewed_safety_critical_instructions": true,
+    "technical_publication_requires_source_citations": true,
+    "professional_seal_or_AHJ_review_when_required": true,
+    "publisher_approval_required": true,
+    "no_automatic_spending": true
+  },
+  "implementation": "Structured review rubric and role definitions only; no autonomous specialist runtime or chat assistant yet."
+}

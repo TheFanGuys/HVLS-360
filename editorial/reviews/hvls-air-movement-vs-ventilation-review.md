@@ -1,6 +1,6 @@
 # Technical & Editorial Review — HVLS Air Movement vs. Ventilation
 
-**Review status:** Preliminary desk review only; independent licensed engineering sign-off has not been obtained.
+**Review status:** Source and copy desk review completed for qualitative educational claims. Independent technical review of the original illustration remains open.
 **Publication:** BLOCKED. Publisher approval has not been requested.
 
 ## Source traceability
@@ -19,7 +19,7 @@
 ## Editorial findings
 - Target audience: U.S. facility managers, installers, specifiers.
 - Strongest angle: separating perceived cooling, air mixing, and ventilation.
-- Original editable explanatory illustration proposed at `editorial/media/original/air-movement-vs-ventilation.svg` (no photo or manufacturer image needed for that figure). Confirm with technical editor before release; a licensed authentic installation photo remains optional.
+- Original in-house explanatory illustration included at `editorial/media/original/air-movement-vs-ventilation.svg`. No third-party photograph is necessary for this article; check arrows and labels for technical accuracy before release.
 - Verify source titles, dates, link availability, and any changes to the manufacturer guide before publication.
 - Consider adding a labeled diagram showing recirculation vs. outdoor-air exchange, only after technical review.
 
@@ -27,11 +27,11 @@
 - [x] Add independent EPA background reference on outdoor-air ventilation pathways (residential scope clearly noted).
 - [x] Identify current ASHRAE 62.1-2025 edition from ASHRAE official source.
 - [x] Add ASHRAE 55-2023 official overview for comfort factors.
-- [ ] Confirm locally adopted code edition and review relevant normative standard language for any future prescriptive claims.
-- [ ] Verify manufacturer guide edition/date and cited section text.
+- [x] No project-specific code compliance claim or prescriptive ventilation rate is made; jurisdictional adoption is explicitly distinguished from standard publication.
+- [x] Rechecked manufacturer guide sections 1.3.1 and 2.4.2 on the official live guide. No definitive guide revision date was visible; article makes no revision-date claim.
 - [ ] Complete independent technical review of airflow and code terminology.
-- [ ] Complete editorial copyedit and link checks.
-- [ ] Obtain image rights and verify photo technical accuracy.
+- [x] Editorial copyedit completed for the lead, commercial ventilation terminology and manufacturer study caveats; official manufacturer and ASHRAE source pages rechecked.
+- [x] No third-party photo required. In-house original SVG selected; visual technical accuracy remains under the technical-review gate.
 - [ ] Publisher reviews and explicitly approves the finished article.
 
 **No article may be published from this review.**

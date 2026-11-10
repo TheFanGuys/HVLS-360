@@ -120,14 +120,19 @@ def render_markdown(text):
             "air-movement-vs-ventilation.svg":(1200,650),
             "scissor-lift-access-planning.svg":(1200,670),
         }
-        original_match=re.fullmatch(r"!\\[([^\\]<>]{1,180})\\]\\(\\.\\./\\.\\./editorial/media/original/([a-z0-9-]+\\.svg)\\)",t)
-        if original_match and original_match.group(2) in original_art:
-            flush()
-            close_list()
-            alt=html.escape(original_match.group(1),quote=True)
-            name=original_match.group(2)
-            width,height=original_art[name]
-            result.append(f'<figure class="article-figure"><img src="../../editorial/media/original/{name}" alt="{alt}" loading="lazy" decoding="async" width="{width}" height="{height}"></figure>')
+        for name,(width,height) in original_art.items():
+            suffix="](../../editorial/media/original/"+name+")"
+            if t.startswith("![") and t.endswith(suffix):
+                alt_raw=t[2:-len(suffix)]
+                if alt_raw and len(alt_raw)<=180 and "]" not in alt_raw:
+                    flush()
+                    close_list()
+                    alt=html.escape(alt_raw,quote=True)
+                    result.append(f'<figure class="article-figure"><img src="../../editorial/media/original/{name}" alt="{alt}" loading="lazy" decoding="async" width="{width}" height="{height}"></figure>')
+                    break
+        else:
+            pass
+        if any(t.startswith("![") and t.endswith("](../../editorial/media/original/"+name+")") for name in original_art):
             continue
         if t.startswith("- "):
             add_list("ul",t[2:])

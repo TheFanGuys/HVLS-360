@@ -3,7 +3,8 @@ import re
 import subprocess
 import tempfile
 html=(Path(__file__).resolve().parents[1]/"office"/"media-desk.html").read_text()
-assert "No images are downloaded or published here" in html
+assert "Find the source, record image rights" in html
+assert 'name="robots" content="noindex,nofollow,noarchive"' in html
 assert "Image usage rights checked" in html
 assert "local_visual_review_not_publication" in html
 assert "innerHTML" not in html

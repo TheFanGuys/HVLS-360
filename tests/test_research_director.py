@@ -12,8 +12,8 @@ class DirectorTests(unittest.TestCase):
         self.assertEqual(status,"review")
     def test_international_not_automatically_approved(self):
         status,notes=rd.triage("Industrial ventilation HVLS fan launched in Europe","New Products","https://example.org/a")
-        self.assertEqual(status,"review")
-        self.assertTrue(any("U.S. applicability" in n for n in notes))
+        self.assertEqual(status,"hold")
+        self.assertTrue(any("International story" in n for n in notes))
     def test_off_topic(self):
         status,_=rd.triage("Supermarket fridges hit by cyberattack","Controls & VFDs","https://example.org/a")
         self.assertEqual(status,"hold")

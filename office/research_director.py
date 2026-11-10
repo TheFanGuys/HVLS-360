@@ -12,6 +12,7 @@ BAD=("market size","market forecast","market to 2035","market to 2033","market r
 FIELD=("hvls","large diameter fan","industrial ceiling fan","scissor lift","boom lift",
        "aerial lift","mewp","equipment rental","warehouse construction","industrial ventilation",
        "destratification","fire sprinkler","industrial fan","manufacturing facility")
+INTERNATIONAL=("european","europe","nigeria","kenya","india","china","czech","gombe","homa bay","nyandiwa","uk market","britain","germany","france")
 USA=("united states","u.s.","usa","american","arizona","utah","texas","california",
      "ohio","florida","georgia","north america")
 OFFICIAL=("osha.gov","amca.org","ashrae.org","nfpa.org","ul.com","icc-safe.org")
@@ -19,6 +20,8 @@ def triage(title,department,url):
     t=title.lower()
     host=urlparse(url).hostname or ""
     reasons=[]
+    if any(k in t for k in INTERNATIONAL) and not any(k in t for k in USA):
+        return "hold",["International story without demonstrated U.S. impact; editor may override with evidence"]
     if any(k in t for k in BAD):
         return "hold",["Generic market promotion or off-topic headline; requires editor review"]
     if not any(k in t for k in FIELD) and not any(k in department.lower() for k in ("lift","rental","construction")):

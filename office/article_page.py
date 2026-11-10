@@ -121,9 +121,9 @@ def build_html(root,slug):
     for line in body.splitlines():
         clean=line.strip()
         if clean and not clean.startswith(("#","*","[","-")):
-            description=re.sub(r"<script\\b[^>]*>.*?</script\\s*>","",clean,flags=re.I)
-            description=re.sub(r"\\[([^\\]]+)\\]\\(https://[^\\s)]+\\)",r"\\1",description)
-            description=re.sub(r"https?://\\S+","",description)
+            description=re.sub(r"<script\b[^>]*>.*?</script\s*>","",clean,flags=re.I)
+            description=re.sub(r"\[([^\]]+)\]\(https://[^\s)]+\)",r"\1",description)
+            description=re.sub(r"https?://\S+","",description)
             description=re.sub(r"\*+","",description)[:155]
             break
     if not description:

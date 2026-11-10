@@ -10,6 +10,9 @@ assert "No approval control is provided" in html
 assert "innerHTML" not in html
 assert "fetch(" not in html, "The hosted workbench must never fetch unpublished manuscripts"
 assert "file.text()" in html
+assert "air-movement-vs-ventilation.svg" in html
+assert "img.loading=" in html
+assert "img.src=" in html
 assert "renderMarkdown" in html
 assert "rel='noopener noreferrer'" in html
 assert "View source page" in html

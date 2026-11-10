@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "article": "editorial/drafts/abb-2026-ip66-vfd-field-report.md",
+  "status": "authentic_source_candidates_rights_not_cleared",
+  "candidates": [
+    {
+      "subject": "ACH580 IP66/UL Type 4X product installed in HVACR environment",
+      "manufacturer": "ABB",
+      "model": "ACH580-01 +B063",
+      "original_page": "https://new.abb.com/us/us-motion-business-area/drives-products/ach5804X",
+      "provenance": "ABB manufacturer product page with authentic product and application photography",
+      "image_url": null,
+      "license": "not_verified",
+      "publication_allowed": false,
+      "caption_proposal": "ABB ACH580 IP66/UL Type 4X drive for demanding HVACR environments; photo rights pending.",
+      "technical_review": "Check product option and depicted enclosure"
+    },
+    {
+      "subject": "ACH580 sealed drive product photograph from ABB 2026 release",
+      "manufacturer": "ABB",
+      "model": "ACH580 IP66",
+      "original_page": "https://new.abb.com/news/detail/136092/abb-expands-portfolio-with-new-ip66-type-4x-drives-for-demanding-environments",
+      "provenance": "ABB May 27, 2026 launch announcement includes manufacturer-supplied product photo",
+      "image_url": null,
+      "license": "not_verified",
+      "publication_allowed": false,
+      "caption_proposal": "ABB introduced IP66/Type 4X drive variants in May 2026; manufacturer image, permission pending.",
+      "technical_review": "Check device shown is ACH580 rather than ACS580 or ACQ580"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "workflow": "Technical expert to Media & Art desk",
+  "status": "review_queue_rules_not_automated_media_agents",
+  "trigger": [
+    "Article mentions specific manufacturer model",
+    "Article contains a technical claim best illustrated visually",
+    "Article describes installation or equipment details requiring authentic photography"
+  ],
+  "specialist_output": [
+    "Exact product model and variant",
+    "Official manufacturer product page",
+    "Official manuals and technical documents",
+    "Candidate image source URL and usage context",
+    "Verification notes for depicted equipment"
+  ],
+  "media_output": [
+    "Confirm image rights and attribution",
+    "Reject inaccurate or AI-generated fake product photography",
+    "Check image model and installation context",
+    "Optimize responsive formats, caption and alt text",
+    "Record license and final editor approval"
+  ],
+  "approval_rules": {
+    "no_unlicensed_republication": true,
+    "no_fabricated_product_photos": true,
+    "no_auto_publish": true,
+    "publisher_approval_required": true
+  },
+  "example": {
+    "product": "ABB ACH580 HVACR drive",
+    "official_product_page": "https://new.abb.com/us/us-motion-business-area/drives-products/industry-specific-drives/drives-for-hvac/ach580",
+    "image_status": "Official product page available; image rights not cleared",
+    "article_link_allowed": true,
+    "product_photo_republication_allowed": false
+  }
+}

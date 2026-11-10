@@ -29,9 +29,7 @@ CFEI compares a fan's measured electrical input power against the power of a def
 
 ## Which fans are covered?
 
-The U.S. Department of Energy (DOE) defines a **large-diameter ceiling fan** by a blade span greater than **7 feet**, including wing tips where applicable [2]. The large-diameter regulatory category is broader than the industry's everyday use of the term HVLS: a large-diameter fan does not automatically qualify as an HVLS fan in every product or application sense.
-
-AMCA explains that the CFEI method applies to covered large-diameter ceiling fans and that there are exceptions, including certain belt-driven products [2]. Don't assume that a floor fan, directional air circulator, exhaust fan or packaged air-handling unit should be evaluated under the identical rule. Those products can fall under other test procedures, metrics or regulatory categories [3].
+Under DOE's current test-procedure definitions, a **large-diameter ceiling fan** has a represented blade span **greater than 7 feet** and is not a belt-driven or highly decorative ceiling fan [8]. Blade span is based on measured outermost blade reach, not simply an unqualified sales designation. A marketing label such as “HVLS” does not establish a DOE product classification. Appendix U distinguishes large-diameter ceiling fans from other categories, including high-speed belt-driven fans that also use CFEI testing [8]. Floor fans, directional air circulators, exhaust fans and packaged air-handling units may be evaluated under different procedures and metrics [3].
 
 ## What to request from a manufacturer
 
@@ -55,7 +53,11 @@ The commissioning plan therefore needs two sets of evidence: **what the fan is r
 
 ## A note on changing rules
 
-The DOE still lists federal ceiling-fan standards and test procedures on its official ceiling-fans page [7]. In an October 21, 2025 industry regulatory update, AMCA reported that an anticipated increase in minimum CFEI requirements had been withdrawn during 2025 and that existing federal requirements remained in place [3]. Because rulemakings and local code adoption can change, purchasers should check the current DOE text and the applicable local energy and mechanical codes before putting a specific compliance claim in a purchase order.
+The **current federal rule** is more useful than a loose claim that a fan is “CFEI compliant.” As displayed by the eCFR on November 10, 2026 (Title 10 current through November 6), **10 CFR 430.32(s)(2)(ii)** requires covered large-diameter ceiling fans to achieve **CFEI of at least 1.00 at high speed** and **at least 1.31 at 40% speed** (or the nearest available speed not below 40%) [9]. These are **two different operating points**, not interchangeable scores; they say nothing about installation-specific air speed or energy savings.
+
+DOE's **Appendix U, section 3.5** directs that covered large-diameter ceiling fans be tested at both operating points using the referenced AMCA 208-18 method. It specifies that active power be measured for all electrical phases together and includes the fan's power-consuming components as defined by the test procedure [8]. For a VFD-controlled fan, the result cannot be independently reconstructed by dividing a catalog CFM figure by motor-nameplate watts.
+
+The DOE continues to list federal ceiling-fan standards and test procedures [7]. AMCA's October 21, 2025 industry update describes the withdrawal of a proposed tightening in 2025 [3], but the **enforceable current figures above come directly from the eCFR**, not from that historical newsletter. Product class, exceptions, federal rule changes and local building-code obligations must be assessed separately.
 
 That is a reason to verify the rule, not a reason to avoid efficiency data. CFEI remains a useful way to ask better questions of competing large-diameter ceiling fans.
 
@@ -79,9 +81,13 @@ That is a reason to verify the rule, not a reason to avoid efficiency data. CFEI
 
 [7] U.S. Department of Energy, *Ceiling Fans* (current regulations hub): https://www.energy.gov/cmei/buildings/ceiling-fans
 
+[8] eCFR, *10 CFR Part 430, Subpart B, Appendix U*, especially sections 1.12, 3.5 and 5, checked November 10, 2026: https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20U%20to%20Subpart%20B%20of%20Part%20430
+
+[9] eCFR, *10 CFR 430.32(s)(2)(ii)*, federal CFEI thresholds for large-diameter ceiling fans, checked November 10, 2026 (eCFR Title 10 current through November 6, 2026): https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32
+
 ### Editorial research notes (not for live publication)
 
 - AMCA is an industry standards body; its technical articles are authoritative for method background but do not replace DOE primary regulation text or independent product verification.
 - Current standards listings were checked November 10, 2026. The 2025 regulatory update is dated; check for a later DOE action before presenting it as the current legal situation.
 - No laboratory testing, hands-on product testing or independent measurement was performed for this article.
-- Before publication: confirm primary federal regulatory text, exact applicable test procedure and any exceptions with technical editor; independent copyedit; link QA; final approved graphics and rights; publisher approval.
+- Primary federal regulation and Appendix U have now been checked at the eCFR on November 10, 2026. Technical review must still assess product applicability and exceptions, confirm current editions before release, complete independent copyedit and link QA, clear artwork, and obtain publisher approval.

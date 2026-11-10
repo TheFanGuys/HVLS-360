@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "bfg-hero-main",
+      "source": "https://bigfanguys.com/assets/hero-main.jpg",
+      "rights": "Big Fan Guys website asset; publisher to confirm ownership and permission for editorial reuse",
+      "caption": "HVLS fan installation photograph from Big Fan Guys",
+      "alt": "Industrial HVLS fan installation photographed by Big Fan Guys",
+      "review_status": "pending",
+      "usage": "V3 homepage preview",
+      "notes": "Check crop, subject accuracy, original resolution and rights before approval."
+    }
+  ]
+}

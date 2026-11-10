@@ -3,6 +3,8 @@ on:
   pull_request:
     paths:
       - 'office/command-center.html'
+      - 'office/editorial-board.html'
+      - 'tests/test_editorial_board.py'
       - 'tests/test_command_center.py'
       - '.github/workflows/command-center-checks.yml'
   workflow_dispatch:
@@ -17,4 +19,6 @@ jobs:
         with:
           python-version: '3.12'
       - name: Check command center structure and JavaScript
-        run: python tests/test_command_center.py
+        run: |
+          python tests/test_command_center.py
+          python tests/test_editorial_board.py

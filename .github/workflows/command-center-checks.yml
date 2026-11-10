@@ -4,6 +4,8 @@ on:
     paths:
       - 'office/command-center.html'
       - 'office/editorial-board.html'
+      - 'office/technical-review.html'
+      - 'tests/test_technical_review_desk.py'
       - 'tests/test_editorial_board.py'
       - 'tests/test_command_center.py'
       - '.github/workflows/command-center-checks.yml'
@@ -22,3 +24,4 @@ jobs:
         run: |
           python tests/test_command_center.py
           python tests/test_editorial_board.py
+          python tests/test_technical_review_desk.py

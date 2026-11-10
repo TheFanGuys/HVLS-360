@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "departments": [
     {
       "id": "manufacturers",
@@ -122,6 +122,78 @@
         {
           "name": "Technical and regulatory discovery",
           "url": "https://news.google.com/rss/search?q=industrial%20ceiling%20fan%20press%20release%20new%20product&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
+    {
+      "id": "access-equipment",
+      "name": "Scissor Lifts, Boom Lifts & MEWPs",
+      "feeds": [
+        {
+          "name": "Specialist discovery 1",
+          "url": "https://news.google.com/rss/search?q=(%22JLG%22%20OR%20%22Genie%22%20OR%20%22Skyjack%22%20OR%20%22Haulotte%22%20OR%20%22Snorkel%22)%20(scissor%20lift%20OR%20boom%20lift%20OR%20MEWP)%20(new%20OR%20safety%20OR%20product)&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Specialist discovery 2",
+          "url": "https://news.google.com/rss/search?q=(%22ANSI%20A92%22%20OR%20%22OSHA%22)%20(MEWP%20OR%20aerial%20lift)%20safety%20updates&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Specialist discovery 3",
+          "url": "https://news.google.com/rss/search?q=electric%20scissor%20lift%20boom%20lift%20lithium%20battery%20indoor%20warehouse%20construction&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
+    {
+      "id": "equipment-rental",
+      "name": "Rental Industry & Jobsite Economics",
+      "feeds": [
+        {
+          "name": "Specialist discovery 1",
+          "url": "https://news.google.com/rss/search?q=(%22United%20Rentals%22%20OR%20%22Sunbelt%20Rentals%22%20OR%20%22Herc%20Rentals%22%20OR%20%22EquipmentShare%22)%20(rental%20rates%20OR%20fleet%20OR%20expansion)&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Specialist discovery 2",
+          "url": "https://news.google.com/rss/search?q=equipment%20rental%20industry%20scissor%20lift%20boom%20lift%20availability%20pricing%20forecast&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Specialist discovery 3",
+          "url": "https://news.google.com/rss/search?q=aerial%20equipment%20rental%20delivery%20fuel%20surcharge%20utilization%20jobsite&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
+    {
+      "id": "construction",
+      "name": "Construction Pipeline & Industrial Projects",
+      "feeds": [
+        {
+          "name": "Specialist discovery 1",
+          "url": "https://news.google.com/rss/search?q=new%20warehouse%20distribution%20center%20manufacturing%20plant%20construction%20projects%20United%20States&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Specialist discovery 2",
+          "url": "https://news.google.com/rss/search?q=industrial%20construction%20cold%20storage%20logistics%20facilities%20manufacturing%20expansion&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Specialist discovery 3",
+          "url": "https://news.google.com/rss/search?q=industrial%20building%20construction%20HVAC%20ventilation%20HVLS%20ceiling%20fan%20specification&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
+    {
+      "id": "field-impact",
+      "name": "HVLS Installation Field Impact",
+      "feeds": [
+        {
+          "name": "Specialist discovery 1",
+          "url": "https://news.google.com/rss/search?q=warehouse%20racking%20mezzanine%20construction%20overhead%20work%20lift%20access%20installation&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Specialist discovery 2",
+          "url": "https://news.google.com/rss/search?q=industrial%20construction%20labor%20electrical%20contractor%20lead%20times%20equipment%20safety&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Specialist discovery 3",
+          "url": "https://news.google.com/rss/search?q=fire%20sprinkler%20ceiling%20fan%20warehouse%20construction%20design%20coordination&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     }

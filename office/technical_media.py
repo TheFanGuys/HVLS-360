@@ -15,10 +15,23 @@ def requests(article_text):
               "alt_text":None,"caption":None,"status":"media_research_required",
               "notes":"Link to official product page is allowed; do not copy or republish manufacturer photo without rights review."})
     return out
+def article_requests(article_text, filename):
+    if "publication_allowed: false" not in article_text:
+        return []
+    results=requests(article_text)
+    if len(article_text.split()) >= 250:
+        results.insert(0,{"subject":"Authentic HVLS fan installation for "+filename,
+            "manufacturer_link":None,"visual_type":"authentic_editorial_hero_photo",
+            "image_url":None,"image_rights":"not_verified","model_accuracy":"not_verified",
+            "alt_text":None,"caption":None,"status":"media_research_required",
+            "notes":"Find a real industrial installation photo with permission, accurate fan/structure depiction and appropriate crop."})
+    return [{**item,"draft_file":filename} for item in results]
 def main():
-    draft=ROOT/"editorial"/"drafts"/"hvls-air-movement-vs-ventilation.md"
+    records=[]
+    for draft in sorted((ROOT/"editorial"/"drafts").glob("*.md")):
+        records.extend(article_requests(draft.read_text(encoding="utf-8"),draft.name))
     out={"schema_version":1,"status":"visual_requests_not_approved_assets",
-         "requests":requests(draft.read_text(encoding="utf-8"))}
+         "requests":records}
     dest=ROOT/"office"/"reports"/"technical-media-requests.json"
     dest.parent.mkdir(parents=True,exist_ok=True)
     dest.write_text(json.dumps(out,indent=2)+"\n",encoding="utf-8")

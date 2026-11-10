@@ -56,11 +56,15 @@ def run(now, dry=False):
     seen=set()
     report=[]
     problems=[]
+    diagnostics=[]
     for dept in cfg["departments"]:
         found=[]
         for feed in dept["feeds"]:
             try:
-                for item in entries(fetch(feed["url"])):
+                parsed=list(entries(fetch(feed["url"])))
+                recent=sum(1 for item in parsed if date_ok(item["published"],now))
+                diagnostics.append("{} / {}: {} parsed, {} recent".format(dept["name"],feed["name"],len(parsed),recent))
+                for item in parsed:
                     if not date_ok(item["published"],now): continue
                     key=hashlib.sha256(re.sub(r"\W+","",item["title"].lower()).encode()).hexdigest()
                     if key in seen: continue
@@ -69,6 +73,7 @@ def run(now, dry=False):
                     found.append(item)
                     if len(found)>=6: break
             except Exception as e:
+                diagnostics.append("{} / {}: FETCH OR PARSE ERROR".format(dept["name"],feed["name"]))
                 problems.append(f"{dept['name']}: {type(e).__name__}: {str(e)[:120]}")
         report.append({"department":dept["name"],"leads":found[:6]})
     out=["# HVLS 360 — Research Desk","",f"Run: {now.strftime('%Y-%m-%d %H:%M UTC')}","",
@@ -81,6 +86,9 @@ def run(now, dry=False):
             out += [f"- [{title}]({x['url']}) — {x['published']} ({x['feed']})"]
         out += [""]
     out += ["## Editor-in-Chief review","- [ ] Verify original primary sources and dates","- [ ] Check whether this is genuinely new","- [ ] Determine practical field impact","- [ ] Reject marketing-only or unsupported claims","- [ ] Flag safety-critical topics for expert review","","## COO summary","Research candidate counts: "+", ".join(f"{x['department']} {len(x['leads'])}" for x in report),""]
+    out += ["## Feed diagnostics"]+["- "+d for d in diagnostics]+[""]
+    if not any(x["leads"] for x in report):
+        out += ["## Quality warning", "**No usable leads were collected. This is NOT a successful editorial research result.** Investigate feed accessibility, dates and source selection before trusting the schedule.", ""]
     if problems: out+=["## Feed errors"]+["- "+p for p in problems]
     text="\n".join(out)+"\n"
     if dry:

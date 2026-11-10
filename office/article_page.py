@@ -43,7 +43,7 @@ def safe_anchor(url,label):
         return html.escape(label)
     return '<a href="'+html.escape(url,quote=True)+'" rel="noopener noreferrer" target="_blank">'+html.escape(label)+'</a>'
 
-TOKENS=re.compile(r"(\*\*[^*]+\*\*|\[[^\]]+\]\(https://[^\s)]+\)|https://[^\s<>]+)")
+TOKENS=re.compile(r"(\*\*[^*]+\*\*|\*[^*]+\*|\[[^\]]+\]\(https://[^\s)]+\)|https://[^\s<>]+)")
 def inline_markup(s):
     result=[]
     pos=0
@@ -94,7 +94,7 @@ def render_markdown(text):
             flush()
             close_list()
             continue
-        head=re.match(r"^(#{1,4})\\s+(.+)$",t)
+        head=re.match(r"^(#{1,4})\s+(.+)$",t)
         if head:
             name=head.group(2).strip()
             # Internal verification notes are never rendered to the public website;
@@ -113,19 +113,19 @@ def render_markdown(text):
             continue
         # Draft-specific desk bylines are not copy. Public pages already
         # have their own genuine byline and date above the article.
-        if re.match(r"^\\*HVLS 360(?:°)?\\s*\\|.*\\*$",t,re.I):
+        if re.match(r"^\*HVLS 360(?:°)?\s*\|.*\*$",t,re.I):
             flush()
             continue
         if t.startswith("- "):
             add_list("ul",t[2:])
-        elif re.match(r"^\\d+[.)]\\s+",t):
-            add_list("ol",re.sub(r"^\\d+[.)]\\s+","",t))
+        elif re.match(r"^\d+[.)]\s+",t):
+            add_list("ol",re.sub(r"^\d+[.)]\s+","",t))
         else:
             close_list()
             para.append(t)
     flush()
     close_list()
-    return "\\n".join(result)
+    return "\n".join(result)
 
 def build_html(root,slug):
     root=pathlib.Path(root)

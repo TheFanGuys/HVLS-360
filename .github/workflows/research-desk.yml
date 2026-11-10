@@ -41,6 +41,9 @@ jobs:
       - name: Discover manufacturer technical research URLs
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/manufacturer_research.py
+      - name: Prepare manufacturer study evidence review assignments
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/manufacturer_study_review.py
       - name: Upload private research report artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -53,6 +56,7 @@ jobs:
             office/reports/editorial-assignments.json
             office/reports/source-preflight.json
             office/reports/original-source-candidates.json
+            office/reports/manufacturer-study-reviews.json
           if-no-files-found: error
           retention-days: 30
 

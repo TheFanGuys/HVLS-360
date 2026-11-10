@@ -116,13 +116,18 @@ def render_markdown(text):
         if re.match(r"^\*HVLS 360(?:°)?\s*\|.*\*$",t,re.I):
             flush()
             continue
-        image_suffix="](../../editorial/media/original/air-movement-vs-ventilation.svg)"
-        illustration=t.startswith("![") and t.endswith(image_suffix) and 0<len(t[2:-len(image_suffix)])<=180
-        if illustration:
+        original_art={
+            "air-movement-vs-ventilation.svg":(1200,650),
+            "scissor-lift-access-planning.svg":(1200,670),
+        }
+        original_match=re.fullmatch(r"!\\[([^\\]<>]{1,180})\\]\\(\\.\\./\\.\\./editorial/media/original/([a-z0-9-]+\\.svg)\\)",t)
+        if original_match and original_match.group(2) in original_art:
             flush()
             close_list()
-            alt=html.escape(t[2:-len(image_suffix)],quote=True)
-            result.append('<figure class="article-figure"><img src="../../editorial/media/original/air-movement-vs-ventilation.svg" alt="'+alt+'" loading="lazy" decoding="async" width="1200" height="650"></figure>')
+            alt=html.escape(original_match.group(1),quote=True)
+            name=original_match.group(2)
+            width,height=original_art[name]
+            result.append(f'<figure class="article-figure"><img src="../../editorial/media/original/{name}" alt="{alt}" loading="lazy" decoding="async" width="{width}" height="{height}"></figure>')
             continue
         if t.startswith("- "):
             add_list("ul",t[2:])

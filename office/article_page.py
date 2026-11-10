@@ -116,13 +116,23 @@ def render_markdown(text):
         if re.match(r"^\*HVLS 360(?:°)?\s*\|.*\*$",t,re.I):
             flush()
             continue
-        image_suffix="](../../editorial/media/original/air-movement-vs-ventilation.svg)"
-        illustration=t.startswith("![") and t.endswith(image_suffix) and 0<len(t[2:-len(image_suffix)])<=180
-        if illustration:
-            flush()
-            close_list()
-            alt=html.escape(t[2:-len(image_suffix)],quote=True)
-            result.append('<figure class="article-figure"><img src="../../editorial/media/original/air-movement-vs-ventilation.svg" alt="'+alt+'" loading="lazy" decoding="async" width="1200" height="650"></figure>')
+        original_art={
+            "air-movement-vs-ventilation.svg":(1200,650),
+            "scissor-lift-access-planning.svg":(1200,670),
+        }
+        for name,(width,height) in original_art.items():
+            suffix="](../../editorial/media/original/"+name+")"
+            if t.startswith("![") and t.endswith(suffix):
+                alt_raw=t[2:-len(suffix)]
+                if alt_raw and len(alt_raw)<=180 and "]" not in alt_raw:
+                    flush()
+                    close_list()
+                    alt=html.escape(alt_raw,quote=True)
+                    result.append(f'<figure class="article-figure"><img src="../../editorial/media/original/{name}" alt="{alt}" loading="lazy" decoding="async" width="{width}" height="{height}"></figure>')
+                    break
+        else:
+            pass
+        if any(t.startswith("![") and t.endswith("](../../editorial/media/original/"+name+")") for name in original_art):
             continue
         if t.startswith("- "):
             add_list("ul",t[2:])

@@ -18,5 +18,7 @@ jobs:
           python-version: '3.12'
       - name: Run offline unit tests
         run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Audit all editorial draft citations and media
+        run: python office/editorial_readiness.py
       - name: Check Python syntax
         run: python -m compileall -q office tests

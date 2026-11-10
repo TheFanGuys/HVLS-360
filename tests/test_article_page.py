@@ -96,6 +96,14 @@ class ArticleReleaseTests(unittest.TestCase):
         rendered=render_markdown(markup)
         self.assertIn('<figure class="article-figure">',rendered)
         self.assertIn('alt="HVLS circulation compared with outdoor air"',rendered)
+    def test_original_lift_diagram_renders_safely(self):
+        markup='![Lift access planning](../../editorial/media/original/scissor-lift-access-planning.svg)'
+        rendered=render_markdown(markup)
+        self.assertIn('scissor-lift-access-planning.svg',rendered)
+        self.assertIn('alt="Lift access planning"',rendered)
+    def test_unlisted_local_diagram_is_not_embedded(self):
+        rendered=render_markdown('![Unknown](../../editorial/media/original/unknown.svg)')
+        self.assertNotIn('<img ',rendered)
     def test_unapproved_external_image_is_not_embedded(self):
         rendered=render_markdown('![fake](https://untrusted.example/photo.png)')
         self.assertNotIn('<img ',rendered)

@@ -1,13 +1,21 @@
 {
-  "version": 1,
+  "version": 2,
   "departments": [
     {
       "id": "manufacturers",
       "name": "Manufacturer Watch",
       "feeds": [
         {
-          "name": "Targeted industry news discovery",
-          "url": "https://news.google.com/rss/search?q=%22Big%20Ass%20Fans%22%20OR%20%22MacroAir%22%20OR%20%22Go%20Fan%20Yourself%22&hl=en-US&gl=US&ceid=US:en"
+          "name": "Manufacturer and industry discovery",
+          "url": "https://news.google.com/rss/search?q=(%22Big%20Ass%20Fans%22%20OR%20%22Rite-Hite%22%20OR%20%22MacroAir%22%20OR%20%22Go%20Fan%20Yourself%22)%20(fan%20OR%20HVLS)%20(press%20release%20OR%20announcement%20OR%20product)&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Technical and regulatory discovery",
+          "url": "https://news.google.com/rss/search?q=(%22Vivid%20Air%22%20OR%20%22Patterson%20Fan%22%20OR%20%22Hunter%20Industrial%22%20OR%20%22Entrematic%22)%20(HVLS%20OR%20industrial%20fan)&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Additional specialist discovery",
+          "url": "https://news.google.com/rss/search?q=(%22Greenheck%22%20OR%20%22Airius%22%20OR%20%22Refresh%20Fans%22%20OR%20%22Canarm%22%20OR%20%22Jan%20Fan%22)%20(HVLS%20OR%20air%20movement)&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -16,8 +24,16 @@
       "name": "Controls & VFDs",
       "feeds": [
         {
-          "name": "Targeted industry news discovery",
-          "url": "https://news.google.com/rss/search?q=%22Invertek%22%20%22fan%22%20OR%20%22ABB%22%20%22HVLS%22&hl=en-US&gl=US&ceid=US:en"
+          "name": "Manufacturer and industry discovery",
+          "url": "https://news.google.com/rss/search?q=(%22ABB%22%20OR%20%22Invertek%20Drives%22%20OR%20%22Danfoss%22%20OR%20%22Yaskawa%22)%20(VFD%20OR%20drive%20OR%20fan%20control)%20(launch%20OR%20update)&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Technical and regulatory discovery",
+          "url": "https://news.google.com/rss/search?q=(%22Schneider%20Electric%22%20OR%20%22Siemens%22%20OR%20%22Rockwell%20Automation%22%20OR%20%22WEG%22)%20(variable%20frequency%20drive%20OR%20industrial%20controls)&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Additional specialist discovery",
+          "url": "https://news.google.com/rss/search?q=(%22Thingz%22%20OR%20%22AI%20building%20controls%22%20OR%20%22smart%20fan%20controls%22)%20(HVLS%20OR%20ventilation%20OR%20industrial%20airflow)&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -26,8 +42,12 @@
       "name": "Installation & Commissioning",
       "feeds": [
         {
-          "name": "Targeted industry news discovery",
-          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22installation%22%20OR%20%22commissioning%22&hl=en-US&gl=US&ceid=US:en"
+          "name": "Manufacturer and industry discovery",
+          "url": "https://news.google.com/rss/search?q=HVLS%20fan%20installation%20mounting%20seismic%20structural%20requirements&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Technical and regulatory discovery",
+          "url": "https://news.google.com/rss/search?q=HVLS%20fan%20commissioning%20wiring%20fire%20alarm%20interlock&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -36,8 +56,12 @@
       "name": "Service & Troubleshooting",
       "feeds": [
         {
-          "name": "Targeted industry news discovery",
-          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22maintenance%22%20OR%20%22service%22&hl=en-US&gl=US&ceid=US:en"
+          "name": "Manufacturer and industry discovery",
+          "url": "https://news.google.com/rss/search?q=HVLS%20fan%20maintenance%20service%20bulletin%20recall%20inspection&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Technical and regulatory discovery",
+          "url": "https://news.google.com/rss/search?q=industrial%20fan%20VFD%20fault%20troubleshooting%20firmware%20service&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -46,8 +70,16 @@
       "name": "Codes & Safety",
       "feeds": [
         {
-          "name": "Targeted industry news discovery",
-          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22fire%22%20OR%20%22safety%22&hl=en-US&gl=US&ceid=US:en"
+          "name": "Manufacturer and industry discovery",
+          "url": "https://news.google.com/rss/search?q=site%3Aosha.gov%20industrial%20ventilation%20workplace%20heat%20guidance%20rule&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Technical and regulatory discovery",
+          "url": "https://news.google.com/rss/search?q=site%3Anfpa.org%20ceiling%20fans%20sprinkler%20obstructions%20NFPA%2013&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Additional specialist discovery",
+          "url": "https://news.google.com/rss/search?q=site%3Aul.com%20industrial%20ceiling%20fan%20safety%20certification&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -56,8 +88,12 @@
       "name": "Airflow Engineering",
       "feeds": [
         {
-          "name": "Targeted industry news discovery",
-          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22airflow%22%20OR%20%22destratification%22&hl=en-US&gl=US&ceid=US:en"
+          "name": "Manufacturer and industry discovery",
+          "url": "https://news.google.com/rss/search?q=site%3Aamca.org%20HVLS%20air%20movement%20standards%20performance&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Technical and regulatory discovery",
+          "url": "https://news.google.com/rss/search?q=industrial%20HVLS%20destratification%20ventilation%20energy%20study&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -66,8 +102,12 @@
       "name": "Market Intelligence",
       "feeds": [
         {
-          "name": "Targeted industry news discovery",
-          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22market%22%20OR%20%22acquisition%22&hl=en-US&gl=US&ceid=US:en"
+          "name": "Manufacturer and industry discovery",
+          "url": "https://news.google.com/rss/search?q=HVLS%20manufacturer%20acquisition%20distribution%20partnership%20industrial%20fans&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Technical and regulatory discovery",
+          "url": "https://news.google.com/rss/search?q=industrial%20ventilation%20market%20manufacturer%20expansion&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -76,8 +116,12 @@
       "name": "New Products",
       "feeds": [
         {
-          "name": "Targeted industry news discovery",
-          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22new%22%20OR%20%22launch%22&hl=en-US&gl=US&ceid=US:en"
+          "name": "Manufacturer and industry discovery",
+          "url": "https://news.google.com/rss/search?q=HVLS%20fans%20new%20product%20launch%20motor%20controls&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "name": "Technical and regulatory discovery",
+          "url": "https://news.google.com/rss/search?q=industrial%20ceiling%20fan%20press%20release%20new%20product&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     }

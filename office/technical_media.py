@@ -35,5 +35,7 @@ def main():
     dest=ROOT/"office"/"reports"/"technical-media-requests.json"
     dest.parent.mkdir(parents=True,exist_ok=True)
     dest.write_text(json.dumps(out,indent=2)+"\n",encoding="utf-8")
+    public=ROOT/"office"/"media-latest.json"
+    public.write_text(json.dumps(out,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print("Technical media requests:",len(out["requests"]))
 if __name__=="__main__":main()

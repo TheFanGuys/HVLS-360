@@ -7,6 +7,8 @@ assert "No images are downloaded or published here" in html
 assert "Image usage rights checked" in html
 assert "local_visual_review_not_publication" in html
 assert "innerHTML" not in html
+assert "media-latest.json?fresh=" in html
+assert "No image permissions assumed" in html
 script=re.search(r"<script>(.*?)</script>",html,re.S)
 assert script
 with tempfile.NamedTemporaryFile(mode="w",suffix=".js") as f:

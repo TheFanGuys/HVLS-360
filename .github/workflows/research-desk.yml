@@ -1,0 +1,37 @@
+name: HVLS 360 Research Desk
+on:
+  workflow_dispatch:
+  schedule:
+    # Arizona stays UTC-7 year-round: 08:00 MST = 15:00 UTC
+    - cron: '0 15 * * 2,5'
+permissions:
+  contents: read
+  issues: write
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Gather public feed leads
+        id: research
+        run: |
+          set +e
+          python office/research.py
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Open private-workflow editorial issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          report=$(find office/reports -name '*-research.md' -type f | sort | tail -1)
+          if [ -z "$report" ]; then
+            echo "No report produced"; exit 1
+          fi
+          title="HVLS 360 Research Desk — $(date -u +%Y-%m-%d)"
+          gh issue create --repo "$REPO" --title "$title" --body-file "$report" --label "editorial-research" || gh issue create --repo "$REPO" --title "$title" --body-file "$report"

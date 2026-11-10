@@ -4,7 +4,7 @@ category: "Research & Engineering"
 status: "EDITORIAL DRAFT — NOT APPROVED"
 publication_allowed: false
 primary_market: "United States"
-image_status: "No licensed image selected"
+image_status: "Original in-house airflow diagram; technical review pending"
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
@@ -15,6 +15,8 @@ publisher_approval: "Required"
 *HVLS 360° | Research & Engineering | Editorial draft for technical and publisher review*
 
 A large-diameter ceiling fan can make a hot industrial space feel more comfortable without functioning as an air conditioner. It can also redistribute warm air trapped near a high ceiling during heating season. But those benefits are often confused with **ventilation**, a separate building-system function. The distinction matters when specifying fans for U.S. warehouses, factories, gyms and other large facilities.
+
+![Diagram comparing indoor air recirculation under an HVLS fan with mechanical outdoor-air supply and exhaust](../../editorial/media/original/air-movement-vs-ventilation.svg)
 
 ## Air movement is not the same as cooling the air
 

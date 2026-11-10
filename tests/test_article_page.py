@@ -10,7 +10,7 @@ sys.path.insert(0,str(ROOT/"office"))
 from publish_approved import publish
 from render_release import prepare
 from publication_guard import audit
-from article_page import build_html,frontmatter,inline_markup
+from article_page import build_html,frontmatter,inline_markup,render_markdown
 
 SLUG="test-hvls-article"
 BODY='''---
@@ -91,6 +91,18 @@ class ArticleReleaseTests(unittest.TestCase):
         prepare(SLUG,self.root)
         with self.assertRaisesRegex(ValueError,"already exists"):
             prepare(SLUG,self.root)
+    def test_original_illustration_renders_with_accessible_alt(self):
+        markup='![HVLS circulation compared with outdoor air](../../editorial/media/original/air-movement-vs-ventilation.svg)'
+        rendered=render_markdown(markup)
+        self.assertIn('<figure class="article-figure">',rendered)
+        self.assertIn('alt="HVLS circulation compared with outdoor air"',rendered)
+    def test_unapproved_external_image_is_not_embedded(self):
+        rendered=render_markdown('![fake](https://untrusted.example/photo.png)')
+        self.assertNotIn('<img ',rendered)
+    def test_illustration_alt_escapes_markup(self):
+        rendered=render_markdown('![<script>alert(1)</script>](../../editorial/media/original/air-movement-vs-ventilation.svg)')
+        self.assertIn('&lt;script&gt;',rendered)
+        self.assertNotIn('<script>alert(1)</script>',rendered)
     def test_unsafe_link_does_not_render_active_anchor(self):
         rendered=inline_markup("[safe](https://example.com) and <img src=x>")
         self.assertIn('href="https://example.com"',rendered)

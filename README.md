@@ -4,6 +4,7 @@ A U.S.-focused industrial air movement magazine from Big Fan Guys. A fast, stati
 
 **Public site:** https://thefanguys.github.io/HVLS-360/  
 **Editorial office:** https://thefanguys.github.io/HVLS-360/office/command-center.html  
+**All-drafts review desk:** https://thefanguys.github.io/HVLS-360/office/editorial-queue.html  
 **First article review packet:** https://thefanguys.github.io/HVLS-360/office/first-article-review.html  
 **Public reference library:** https://thefanguys.github.io/HVLS-360/resources/
 
@@ -18,11 +19,13 @@ A U.S.-focused industrial air movement magazine from Big Fan Guys. A fast, stati
 
 ## Editorial inventory (November 10, 2026)
 
-Three evidence-backed working drafts, **none published**:
+Five evidence-backed working drafts, **none published**:
 
 1. **Air movement vs. ventilation** — first full review packet, ASHRAE/DOE/EPA and manufacturer sources, original explanatory SVG pending technical and publisher review.
 2. **ABB 2026 IP66/Type 4X drive expansion** — ABB announcements and product leaflet are sourced; drive/OEM compatibility review and photo rights remain open.
 3. **CFEI vs. CFM per watt** — AMCA, DOE and eCFR sources, including 2026 verified CFEI thresholds; independent technical copy review and media still pending.
+4. **Greenheck revised DS-3/DS-6** — December 2025 announcement and current 2026 manuals; product-specific installation/controls review pending.
+5. **Big Ass Fans Powerfoil 6** — official product page and November 2025 installation guide; electrical variants, mounting, fire relay, maintenance and authentic images tracked.
 
 See `editorial/drafts/`, `editorial/reviews/` and `editorial/media/`. Manufacturer photographs linked as candidates **are not cleared for reuse**.
 

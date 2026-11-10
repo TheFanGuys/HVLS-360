@@ -36,6 +36,14 @@ But the release's statement that these features can reduce installation time by 
 
 For a quote, request the current model-specific instructions and confirm exactly which wiring is factory-terminated versus field-supplied. A field-adjustable extension tube is helpful only if the selected drop length still satisfies the approved mount, clearances and any specified airflow layout. Some obstructions simply require a different location.
 
+## Check the shipping date before grabbing the wiring diagram
+
+There is one particularly useful detail buried on **both current Greenheck product pages**: the instruction-manual list separates **Model DS #487917 IOM** from the older **Model DS #483568 IOM**, explicitly marked **“Shipped prior to 1/1/26”** [3][4]. It also lists the older **DS-QD supplement and VFD wiring #483972** as applying to fans shipped before that date.
+
+This is exactly the sort of distinction that can derail an otherwise straightforward service call. If the site has an earlier DS Series fan, a technician should not assume that a new-generation controller diagram or connector arrangement matches it. Record the fan serial and full model information and select the instructions identified for that configuration. The **shipping-date distinction is published by Greenheck**; it does not prove that every component changed on January 1.
+
+For a revised DS-3 or DS-6 installation, get the current **#487917 Model DS installation and maintenance manual** and the specific control manual listed for the supplied package. The public product pages list separate 4-speed, multispeed, keypad and touchscreen controller manuals [3][4]. Those documents belong with the job submittal, especially when a BAS connection or external shutdown sequence is involved.
+
 ## Controls should be specified as a sequence, not a buzzword
 
 The announcement lists **Modbus RTU, BACnet MS/TP and 0–10 VDC** among available control integrations, as well as multiple factory-programmed control choices [1].

@@ -7,6 +7,8 @@ assert "publisher_approved:false" in html
 assert "unapproved_draft" in html
 assert "NOT approved or published" in html
 assert "localStorage" in html
+assert "hvls360.article.handoff.v1" in html
+assert "assignment=1" in html
 assert "innerHTML" not in html
 script=re.search(r"<script>(.*?)</script>",html,re.S)
 assert script

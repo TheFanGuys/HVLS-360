@@ -121,7 +121,9 @@ def build_html(root,slug):
     for line in body.splitlines():
         clean=line.strip()
         if clean and not clean.startswith(("#","*","[","-")):
-            description=re.sub(r"https?://\S+","",clean)
+            description=re.sub(r"<script\\b[^>]*>.*?</script\\s*>","",clean,flags=re.I)
+            description=re.sub(r"\\[([^\\]]+)\\]\\(https://[^\\s)]+\\)",r"\\1",description)
+            description=re.sub(r"https?://\\S+","",description)
             description=re.sub(r"\*+","",description)[:155]
             break
     if not description:
@@ -141,7 +143,8 @@ def build_html(root,slug):
         "mainEntityOfPage":{"@type":"WebPage","@id":url},
         "publisher":{"@type":"Organization","name":"Big Fan Guys","url":"https://bigfanguys.com/"},
         "author":{"@type":"Organization","name":"HVLS 360° Editorial Desk"}}
-    ld=json.dumps(schema,ensure_ascii=False,separators=(",",":")).replace("</","<\\/")
+    ld=(json.dumps(schema,ensure_ascii=False,separators=(",",":"))
+        .replace("&",r"\u0026").replace("<",r"\u003c").replace(">",r"\u003e"))
     body_html=render_markdown(body)
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{heading} | HVLS 360°</title><meta name="description" content="{desc}"><meta name="robots" content="index,follow,max-image-preview:large">

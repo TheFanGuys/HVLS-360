@@ -5,6 +5,7 @@ import json
 import pathlib
 import re
 import sys
+from article_page import build_html
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 SLUG=re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
@@ -12,7 +13,23 @@ def audit(root=ROOT):
     problems=[]
     articles=root/"articles"
     if not articles.exists():
-        return problems
+        # A Markdown approval is not permission to bypass review with an arbitrary
+    # static HTML page. Keep every new reader-facing article page byte-for-byte
+    # reproducible from the corresponding approved Markdown and approval date.
+    for page in sorted(articles.glob("*/index.html")):
+        slug=page.parent.name
+        if slug=="editorial-standards":
+            continue  # Existing publisher policy page, not an article
+        if not SLUG.fullmatch(slug) or not (articles/(slug+".md")).exists():
+            problems.append(f"{slug}: orphan article HTML (no approved Markdown)")
+            continue
+        try:
+            expected=build_html(root,slug)
+            if page.read_text(encoding="utf-8")!=expected:
+                problems.append(f"{slug}: article HTML differs from generated approved version")
+        except (ValueError,OSError,KeyError,json.JSONDecodeError) as error:
+            problems.append(f"{slug}: HTML cannot be verified ({error})")
+    return problems
     for article in sorted(articles.glob("*.md")):
         slug=article.stem
         if not SLUG.fullmatch(slug):

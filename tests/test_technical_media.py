@@ -10,7 +10,7 @@ class Tests(unittest.TestCase):
   self.assertIsNone(r["image_url"])
   self.assertEqual(r["image_rights"],"not_verified")
  def test_authentic_hero_request_for_real_draft(self):
-  article="publication_allowed: false\\n"+("HVLS installation engineering field evidence. "*30)
+  article="publication_allowed: false\\n"+("HVLS installation engineering field evidence. "*70)
   r=m.article_requests(article,"example.md")
   self.assertEqual(r[0]["visual_type"],"authentic_editorial_hero_photo")
   self.assertIsNone(r[0]["image_url"])

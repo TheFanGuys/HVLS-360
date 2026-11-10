@@ -38,6 +38,9 @@ jobs:
       - name: Resolve original publisher candidates
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/original_source.py
+      - name: Assign specialist technical reviewers
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/technical_advisory.py
       - name: Discover manufacturer technical research URLs
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/manufacturer_research.py
@@ -61,6 +64,7 @@ jobs:
             office/reports/original-source-candidates.json
             office/reports/manufacturer-study-reviews.json
             office/reports/manufacturer-excerpts.json
+            office/reports/technical-review-assignments.json
           if-no-files-found: error
           retention-days: 30
 

@@ -13,6 +13,7 @@
 | 8–24 ft diameters, 209,800 / 281,700 cfm maxima | Greenheck DS-3 and DS-6 product pages | Source supports individual series maxima, not apples-to-apples size comparison. |
 | Comfort effect 11°F/15°F | Same Greenheck pages | Manufacturer claims about perceived cooling, not physical room temperature reduction. |
 | Plug-and-play wiring, adjustable extension, diagnostics | Greenheck official December 2025 release | Product feature claims verified on source page; exact applicable configurations still need manuals. |
+| Current vs pre-2026 service manuals | Greenheck current DS-3 and DS-6 official product pages, documents tab | Both product pages list Model DS #487917 and pre-1/1/26 #483568, plus pre-1/1/26 DS-QD supplement #483972. This date/configuration split is valuable for field diagnosis. Manuals themselves must still be checked by qualified technical reviewer. |
 | Installation time reduced by half | Greenheck announcement | No independent field baseline or study found in announcement. Keep attributed. |
 | Modbus RTU, BACnet MS/TP, 0–10 VDC | Greenheck announcement | Protocols cited; OEM manuals must establish actual control options, wiring and fire sequence. |
 | IP66, max operating 130°F (55°C) | Greenheck announcement | Source-supported; cannot automatically apply enclosure claim to every accessory. |
@@ -21,7 +22,7 @@
 
 ## Outstanding validation
 
-- [ ] Review current official DS-3 and DS-6 installation/maintenance manuals for mounting, clearance and commissioning details.
+- [ ] Open current #487917 and older #483568 installation/maintenance manuals and verify mounting, control, clearance and commissioning details against serial/model era.
 - [ ] Electrical and controls reviewer checks available controller SKUs, BAS options and actual wiring/protocol notes.
 - [ ] Confirm environmental ratings with product-specific instructions and location suitability.
 - [ ] Confirm CFEI dataset for the exact cited diameter/voltage; no inferred values in copy.

@@ -15,6 +15,10 @@ class GreenheckEvidenceTests(unittest.TestCase):
         self.assertIn("manufacturer claims",s.lower())
         self.assertIn("https://www.greenheck.com/",s)
         self.assertIn("https://www.ecfr.gov/",s)
+        self.assertIn("Model DS #487917 IOM",s)
+        self.assertIn("Model DS #483568 IOM",s)
+        self.assertIn("Shipped prior to 1/1/26",s)
+        self.assertIn("DS-QD",s)
         self.assertFalse((ROOT/"articles"/(SLUG+".md")).exists())
         self.assertFalse((ROOT/"articles"/SLUG/"index.html").exists())
 

@@ -35,6 +35,9 @@ jobs:
       - name: Source verification preflight
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/source_preflight.py
+      - name: Resolve original publisher candidates
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/original_source.py
       - name: Discover manufacturer technical research URLs
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/manufacturer_research.py
@@ -49,6 +52,7 @@ jobs:
             office/reports/manufacturer-research-candidates.json
             office/reports/editorial-assignments.json
             office/reports/source-preflight.json
+            office/reports/original-source-candidates.json
           if-no-files-found: error
           retention-days: 30
 

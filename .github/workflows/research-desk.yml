@@ -26,12 +26,15 @@ jobs:
           if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then
             exit "$code"
           fi
+      - name: Research Director relevance audit
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/research_director.py
       - name: Upload private research report artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: hvls360-research-${{ github.run_id }}
-          path: office/reports/*-research.md
+          path: |\n            office/reports/*-research.md\n            office/reports/research-director-latest.md
           if-no-files-found: error
           retention-days: 30
 

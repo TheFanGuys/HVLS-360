@@ -6,8 +6,8 @@
       "name": "Manufacturer Watch",
       "feeds": [
         {
-          "name": "Google News — HVLS manufacturers",
-          "url": "https://news.google.com/rss/search?q=HVLS+fan+manufacturer+product+launch&hl=en-US&gl=US&ceid=US:en"
+          "name": "Targeted industry news discovery",
+          "url": "https://news.google.com/rss/search?q=%22Big%20Ass%20Fans%22%20OR%20%22MacroAir%22%20OR%20%22Go%20Fan%20Yourself%22&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -16,8 +16,8 @@
       "name": "Controls & VFDs",
       "feeds": [
         {
-          "name": "Google News — industrial fan drives",
-          "url": "https://news.google.com/rss/search?q=industrial+fan+VFD+controls&hl=en-US&gl=US&ceid=US:en"
+          "name": "Targeted industry news discovery",
+          "url": "https://news.google.com/rss/search?q=%22Invertek%22%20%22fan%22%20OR%20%22ABB%22%20%22HVLS%22&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -26,8 +26,8 @@
       "name": "Installation & Commissioning",
       "feeds": [
         {
-          "name": "Google News — HVLS installation",
-          "url": "https://news.google.com/rss/search?q=HVLS+fan+installation+commissioning&hl=en-US&gl=US&ceid=US:en"
+          "name": "Targeted industry news discovery",
+          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22installation%22%20OR%20%22commissioning%22&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -36,8 +36,8 @@
       "name": "Service & Troubleshooting",
       "feeds": [
         {
-          "name": "Google News — HVLS service",
-          "url": "https://news.google.com/rss/search?q=HVLS+fan+maintenance+service&hl=en-US&gl=US&ceid=US:en"
+          "name": "Targeted industry news discovery",
+          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22maintenance%22%20OR%20%22service%22&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -46,8 +46,8 @@
       "name": "Codes & Safety",
       "feeds": [
         {
-          "name": "Google News — industrial fan safety",
-          "url": "https://news.google.com/rss/search?q=industrial+ceiling+fan+fire+code+safety&hl=en-US&gl=US&ceid=US:en"
+          "name": "Targeted industry news discovery",
+          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22fire%22%20OR%20%22safety%22&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -56,8 +56,8 @@
       "name": "Airflow Engineering",
       "feeds": [
         {
-          "name": "Google News — destratification",
-          "url": "https://news.google.com/rss/search?q=HVLS+destratification+industrial+ventilation&hl=en-US&gl=US&ceid=US:en"
+          "name": "Targeted industry news discovery",
+          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22airflow%22%20OR%20%22destratification%22&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -66,8 +66,8 @@
       "name": "Market Intelligence",
       "feeds": [
         {
-          "name": "Google News — industrial ventilation market",
-          "url": "https://news.google.com/rss/search?q=industrial+ventilation+HVLS+market&hl=en-US&gl=US&ceid=US:en"
+          "name": "Targeted industry news discovery",
+          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22market%22%20OR%20%22acquisition%22&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -76,8 +76,8 @@
       "name": "New Products",
       "feeds": [
         {
-          "name": "Google News — HVLS new products",
-          "url": "https://news.google.com/rss/search?q=new+HVLS+fans+products&hl=en-US&gl=US&ceid=US:en"
+          "name": "Targeted industry news discovery",
+          "url": "https://news.google.com/rss/search?q=%22HVLS%22%20%22new%22%20OR%20%22launch%22&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     }

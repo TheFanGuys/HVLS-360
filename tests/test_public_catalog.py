@@ -73,7 +73,7 @@ class PublicCatalogTests(unittest.TestCase):
         item = ET.parse(self.root/"rss.xml").find(".//item")
         self.assertEqual(item.find("link").text, BASE+"articles/"+SLUG+"/")
         self.assertEqual(item.find("title").text, "Fan Drive <Release> & Commissioning")
-        self.assertEqual(len(ET.parse(self.root/"sitemap.xml").findall(".//{*}loc")), 3)
+        self.assertEqual(len(ET.parse(self.root/"sitemap.xml").findall(".//{*}loc")), 4)
 
     def test_manual_spoofed_feed_item_detected(self):
         write(self.root)

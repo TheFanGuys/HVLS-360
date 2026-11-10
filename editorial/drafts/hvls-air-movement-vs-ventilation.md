@@ -12,8 +12,6 @@ publisher_approval: "Required"
 
 # HVLS Fans, Air Movement and Ventilation: What Facility Managers Need to Know
 
-*HVLS 360° | Research & Engineering | Editorial draft for technical and publisher review*
-
 A large-diameter ceiling fan can make a hot industrial space feel more comfortable without functioning as an air conditioner. It can also redistribute warm air trapped near a high ceiling during heating season. But those benefits are often confused with **ventilation**, a separate building-system function. The distinction matters when specifying fans for U.S. warehouses, factories, gyms and other large facilities.
 
 ![Diagram comparing indoor air recirculation under an HVLS fan with mechanical outdoor-air supply and exhaust](../../editorial/media/original/air-movement-vs-ventilation.svg)
@@ -38,7 +36,7 @@ A useful field assessment starts with temperature measurements at multiple heigh
 
 Moving existing indoor air is not equivalent to bringing outdoor air into the building or exhausting contaminants. The U.S. Environmental Protection Agency identifies outdoor-air pathways including natural ventilation, infiltration, and mechanical outdoor-air intakes or exhaust fans [3]. Its overview primarily discusses homes, so it should not be used as a substitute for commercial-building ventilation design criteria. HVAC ventilation requirements, contaminant control and any required local exhaust must be assessed separately.
 
-For occupied commercial and industrial spaces, **ANSI/ASHRAE Standard 62.1-2025** provides the current national consensus framework for ventilation and acceptable indoor air quality [4]. It addresses outdoor-air and air-cleaning system design, not just air motion. The applicable edition on a specific job depends on what the jurisdiction has adopted; a new edition's publication does not automatically make it local law.
+For many commercial and industrial occupancies, **ANSI/ASHRAE Standard 62.1-2025** provides a recognized framework for ventilation and acceptable indoor air quality [4]. It addresses mechanical and natural ventilation, filtration and air cleaning, controls, and building operation—not just air motion. The applicable edition on a specific job depends on what the jurisdiction has adopted; a new edition's publication does not automatically make it local law.
 
 An HVLS fan may complement an engineered ventilation system by influencing air distribution, but it should not be presented as a substitute for required outdoor-air supply or source capture without a design-specific engineering basis.
 
@@ -78,5 +76,5 @@ HVLS fans can be valuable components of an industrial air-movement strategy, but
 - **Independent corroboration:** ASHRAE 55-2023 describes thermal-comfort factors and ASHRAE 62.1-2025 addresses commercial ventilation. DOE and EPA provide accessible introductory examples but are largely residential in scope. Neither the standards overview nor these background sources proves a particular installation's performance or local code compliance.
 - **Claims deliberately omitted:** No unverified energy-savings percentages, temperature reductions, CFM comparisons, or regulatory compliance claims.
 - **Technical review needed:** Confirm ventilation terminology, installation/code caveats, and operational implications with a qualified reviewer and applicable standards.
-- **Media review needed:** Source an authentic licensed HVLS installation image or original diagram.
+- **Media review needed:** Review the original in-house airflow diagram for technical accuracy; third-party manufacturer photographs are not required for this article.
 - **Publisher approval:** Not requested. This file must not be added to the live article index or published automatically.

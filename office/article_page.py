@@ -43,7 +43,7 @@ def safe_anchor(url,label):
         return html.escape(label)
     return '<a href="'+html.escape(url,quote=True)+'" rel="noopener noreferrer" target="_blank">'+html.escape(label)+'</a>'
 
-TOKENS=re.compile(r"(\*\*[^*]+\*\*|\[[^\]]+\]\(https://[^\s)]+\)|https://[^\s<>]+)")
+TOKENS=re.compile(r"(\*\*[^*]+\*\*|\*[^*]+\*|\[[^\]]+\]\(https://[^\s)]+\)|https://[^\s<>]+)")
 def inline_markup(s):
     result=[]
     pos=0
@@ -52,6 +52,8 @@ def inline_markup(s):
         token=match.group(0)
         if token.startswith("**"):
             result.append("<strong>"+html.escape(token[2:-2])+"</strong>")
+        elif token.startswith("*"):
+            result.append("<em>"+html.escape(token[1:-1])+"</em>")
         elif token.startswith("["):
             i=token.index("](")
             result.append(safe_anchor(token[i+2:-1],token[1:i]))
@@ -67,16 +69,24 @@ def render_markdown(text):
     lines=text.splitlines()
     result=[]
     para=[]
-    in_list=False
+    list_type=None
     def flush():
         if para:
             result.append("<p>"+inline_markup(" ".join(para))+"</p>")
             para.clear()
     def close_list():
-        nonlocal in_list
-        if in_list:
-            result.append("</ul>")
-            in_list=False
+        nonlocal list_type
+        if list_type:
+            result.append("</"+list_type+">")
+            list_type=None
+    def add_list(kind,entry):
+        nonlocal list_type
+        flush()
+        if list_type!=kind:
+            close_list()
+            result.append("<"+kind+">")
+            list_type=kind
+        result.append("<li>"+inline_markup(entry)+"</li>")
     skip_title=True
     for line in lines:
         t=line.strip()
@@ -84,23 +94,32 @@ def render_markdown(text):
             flush()
             close_list()
             continue
-        if re.match(r"^#{2,3} ",t) and t.lstrip("# ").lower() in INTERNAL:
-            break
-        if re.match(r"^# ",t) and skip_title:
-            skip_title=False
-            continue
         head=re.match(r"^(#{1,4})\s+(.+)$",t)
         if head:
+            name=head.group(2).strip()
+            # Internal verification notes are never rendered to the public website;
+            # some headings have qualifiers such as "(exclude from published page)".
+            if len(head.group(1))>=2 and any(name.lower().startswith(prefix) for prefix in INTERNAL):
+                break
+            if len(head.group(1))==1 and skip_title:
+                skip_title=False
+                continue
             flush()
             close_list()
             level=max(2,min(4,len(head.group(1))))
-            result.append(f"<h{level}>"+inline_markup(head.group(2))+f"</h{level}>")
-        elif t.startswith("- "):
+            if name.lower()=="source record":
+                name="Sources"
+            result.append(f"<h{level}>"+inline_markup(name)+f"</h{level}>")
+            continue
+        # Draft-specific desk bylines are not copy. Public pages already
+        # have their own genuine byline and date above the article.
+        if re.match(r"^\*HVLS 360(?:°)?\s*\|.*\*$",t,re.I):
             flush()
-            if not in_list:
-                result.append("<ul>")
-                in_list=True
-            result.append("<li>"+inline_markup(t[2:])+"</li>")
+            continue
+        if t.startswith("- "):
+            add_list("ul",t[2:])
+        elif re.match(r"^\d+[.)]\s+",t):
+            add_list("ol",re.sub(r"^\d+[.)]\s+","",t))
         else:
             close_list()
             para.append(t)

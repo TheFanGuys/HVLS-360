@@ -14,3 +14,11 @@
 .latest-empty p{margin:0 0 10px}
 @media(max-width:900px){.story-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.story-grid{grid-template-columns:1fr}.story-card{min-height:auto;padding:20px}.latest-empty{padding:23px}}
+
+/* Long-form editorial typography for verified technical articles. */
+.article-body{overflow-wrap:anywhere}
+.article-body ol,.article-body ul{padding-left:1.45rem;color:#cfdfeb}
+.article-body li{padding-left:.15rem;line-height:1.65}
+.article-body li+li{margin-top:.55rem}
+.article-body em{font-style:italic;color:#d9e8f2}
+.article-body h3{margin-top:30px;font-size:clamp(18px,2.5vw,24px)}

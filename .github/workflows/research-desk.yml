@@ -37,7 +37,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: hvls360-research-${{ github.run_id }}
-          path: |\n            office/reports/*-research.md\n            office/reports/research-director-latest.md\n            office/reports/manufacturer-research-candidates.json
+          path: |
+            office/reports/*-research.md
+            office/reports/research-director-latest.md
+            office/reports/manufacturer-research-candidates.json
           if-no-files-found: error
           retention-days: 30
 

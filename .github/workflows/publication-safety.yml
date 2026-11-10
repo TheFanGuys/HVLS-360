@@ -7,6 +7,7 @@ on:
       - 'editorial/drafts/**'
       - 'office/publication_guard.py'
       - 'office/public_catalog.py'
+      - 'resources/**'
       - 'index.html'
       - 'rss.xml'
       - 'sitemap.xml'
@@ -16,6 +17,7 @@ on:
       - 'tests/test_article_page.py'
       - 'tests/test_production_copy.py'
       - 'tests/test_public_catalog.py'
+      - 'tests/test_reference_library.py'
       - '.github/workflows/publication-safety.yml'
   push:
     branches: [main]
@@ -25,6 +27,7 @@ on:
       - 'editorial/drafts/**'
       - 'office/publication_guard.py'
       - 'office/public_catalog.py'
+      - 'resources/**'
       - 'index.html'
       - 'rss.xml'
       - 'sitemap.xml'
@@ -52,3 +55,4 @@ jobs:
           python -m unittest discover -s tests -p 'test_article_page.py' -v
           python -m unittest discover -s tests -p 'test_production_copy.py' -v
           python -m unittest discover -s tests -p 'test_public_catalog.py' -v
+          python -m unittest discover -s tests -p 'test_reference_library.py' -v

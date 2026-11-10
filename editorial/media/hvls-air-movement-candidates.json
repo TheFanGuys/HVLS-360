@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "authentic_source_candidates_rights_not_cleared",
+  "article": "editorial/drafts/hvls-air-movement-vs-ventilation.md",
+  "candidates": [
+    {
+      "subject": "Big Ass Fans Powerfoil 6 — industrial application photograph",
+      "manufacturer": "Big Ass Fans",
+      "model": "Powerfoil 6",
+      "original_page": "https://bigassfans.com/powerfoil-6-hvls-fan/",
+      "image_url": "https://cdn11.bigcommerce.com/s-sywvraqwr6/images/stencil/1280w/products/147/704/Powerfoil%25206_PDP%2520Carousel%2520Tiles_2026Application_1__73132.1772645084.jpg?compression=lossy",
+      "provenance": "Image URL found on official manufacturer product page",
+      "license": "not_verified",
+      "publication_allowed": false,
+      "caption_proposal": "Powerfoil 6 industrial application image, courtesy of Big Ass Fans (permission pending)",
+      "technical_review": "Check that visible equipment and installation are accurately described"
+    },
+    {
+      "subject": "Big Ass Fans Powerfoil 6 — product photograph",
+      "manufacturer": "Big Ass Fans",
+      "model": "Powerfoil 6",
+      "original_page": "https://bigassfans.com/powerfoil-6-hvls-fan/",
+      "image_url": "https://cdn11.bigcommerce.com/s-sywvraqwr6/images/stencil/1280w/products/147/701/Powerfoil%25206_PDP%2520Carousel%2520Tiles_2026Full%2520Product__84332.1772645057.jpg?compression=lossy",
+      "provenance": "Image URL found on official manufacturer product page",
+      "license": "not_verified",
+      "publication_allowed": false,
+      "caption_proposal": "Powerfoil 6 HVLS fan product image, courtesy of Big Ass Fans (permission pending)",
+      "technical_review": "Check model depiction and relevance to general HVLS article"
+    }
+  ]
+}

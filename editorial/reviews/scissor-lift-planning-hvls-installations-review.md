@@ -12,7 +12,7 @@
 - [ ] Qualified safety reviewer: assess guardrail, fall protection and OSHA references in the context of U.S. construction/general-industry workplaces.
 - [ ] Field installer: review practical HVLS access survey sequence and whether any critical constraint is missing.
 - [ ] Copyeditor: check accuracy of source references, scope and readability.
-- [ ] Media reviewer: choose original diagram or properly licensed photograph; check technical accuracy.
+- [ ] Media reviewer: inspect original in-house access-planning diagram at `editorial/media/original/scissor-lift-access-planning.svg` for technical accuracy; no third-party photograph is required.
 - [ ] Publisher: explicit approval of final article.
 
 No article publication has been authorized.

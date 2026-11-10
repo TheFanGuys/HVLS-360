@@ -50,5 +50,7 @@ def main():
     target=ROOT/"office"/"reports"/"editorial-assignments.json"
     target.parent.mkdir(parents=True,exist_ok=True)
     target.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    public={"schema_version":1,"generated_at":payload["generated_at"],"status":"unverified_assignment_briefs_not_articles","briefs":briefs}
+    (ROOT/"office"/"editorial-latest.json").write_text(json.dumps(public,ensure_ascii=False,indent=2)+chr(10),encoding="utf-8")
     print("Editorial assignment briefs prepared:",len(briefs))
 if __name__=="__main__":main()

@@ -27,7 +27,9 @@ for id in ("items","importResearch","researchFile","add","export","import","clea
     assert id in p.ids, "Missing control: "+id
 assert p.scripts==1, "Expected exactly one local script"
 assert "Approved locally" in html
-assert "does not publish" in html
+assert "publishing and spending are separate publisher actions" in html.lower()
+assert 'name="robots" content="noindex,nofollow,noarchive"' in html
+assert "https://api.github.com" not in html
 assert "Import research report" in html
 assert "eval(" not in html
 assert "research-latest.json" in html, "Missing research feed integration"

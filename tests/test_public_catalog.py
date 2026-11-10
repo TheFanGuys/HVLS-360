@@ -59,7 +59,7 @@ class PublicCatalogTests(unittest.TestCase):
         site = ET.parse(self.root / "sitemap.xml")
         self.assertNotIn("Fan Drive", home)
         self.assertEqual(len(rss.findall(".//item")), 0)
-        self.assertEqual(len(site.findall(".//{*}loc")), 2)
+        self.assertEqual(len(site.findall(".//{*}loc")), 3)
         self.assertEqual(check(self.root), [])
 
     def test_approved_release_in_all_three_discovery_outputs(self):

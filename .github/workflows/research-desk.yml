@@ -29,6 +29,9 @@ jobs:
       - name: Research Director relevance audit
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/research_director.py
+      - name: Prepare Editor-in-Chief assignment briefs
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/editorial_briefs.py
       - name: Discover manufacturer technical research URLs
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/manufacturer_research.py
@@ -41,6 +44,7 @@ jobs:
             office/reports/*-research.md
             office/reports/research-director-latest.md
             office/reports/manufacturer-research-candidates.json
+            office/reports/editorial-assignments.json
           if-no-files-found: error
           retention-days: 30
 

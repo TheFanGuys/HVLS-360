@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": "editorial/drafts/greenheck-ds-series-2026-field-report.md",
+  "status": "authentic_source_candidates_rights_not_cleared",
+  "candidates": [
+    {
+      "subject": "Greenheck redesigned DS-3 overhead HVLS fan official product photograph",
+      "manufacturer": "Greenheck",
+      "model": "DS-3",
+      "original_page": "https://www.greenheck.com/products/fans/overhead-hvls/ds-3",
+      "provenance": "Official Greenheck U.S. product page showing redesigned three-blade fan",
+      "image_url": null,
+      "license": "not_verified",
+      "publication_allowed": false,
+      "caption_proposal": "Greenheck's redesigned three-blade DS-3 overhead HVLS fan. Image courtesy of Greenheck, subject to permission.",
+      "technical_review": "Verify configuration depicted matches current DS-3 product, blade count and mounting arrangement."
+    },
+    {
+      "subject": "Greenheck redesigned DS-6 overhead HVLS fan official product photograph",
+      "manufacturer": "Greenheck",
+      "model": "DS-6",
+      "original_page": "https://www.greenheck.com/products/fans/overhead-hvls/ds-6",
+      "provenance": "Official Greenheck U.S. product page showing redesigned six-blade fan",
+      "image_url": null,
+      "license": "not_verified",
+      "publication_allowed": false,
+      "caption_proposal": "Greenheck DS-6 overhead HVLS fan. Image courtesy of Greenheck, subject to permission.",
+      "technical_review": "Verify depicted device is the redesigned DS-6, not older DS-6 artwork."
+    },
+    {
+      "subject": "Greenheck manufacturer's announcement illustrating redesigned DS Series",
+      "manufacturer": "Greenheck",
+      "model": "DS-3 / DS-6",
+      "original_page": "https://www.greenheck.com/about-us/news/2025/12/31/greenheck-redesigns-hvls-overhead-fans",
+      "provenance": "Greenheck original manufacturer news release, announced December 2025",
+      "image_url": null,
+      "license": "not_verified",
+      "publication_allowed": false,
+      "caption_proposal": "Greenheck announced redesigned DS-3 and DS-6 HVLS fans in December 2025. Manufacturer image rights pending.",
+      "technical_review": "Match image model and legend to the actual announced series."
+    }
+  ]
+}

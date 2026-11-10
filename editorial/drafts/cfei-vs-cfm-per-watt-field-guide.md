@@ -29,7 +29,7 @@ CFEI compares a fan's measured electrical input power against the power of a def
 
 ## Which fans are covered?
 
-Under DOE's current test-procedure definitions, a **large-diameter ceiling fan** has a represented blade span **greater than 7 feet** and is not a belt-driven or highly decorative ceiling fan [8]. Blade span is based on measured outermost blade reach, not simply an unqualified sales designation. The federal category is broader than the industry's everyday use of the term HVLS. A fan sold as “HVLS” is not automatically in a regulatory product class by virtue of its marketing name alone. DOE's Appendix U separates large-diameter fans from other categories, including certain high-speed belt-driven fans that also use CFEI testing [8]. Don't assume that a floor fan, directional air circulator, exhaust fan or packaged air-handling unit should be evaluated under the identical rule. Those products can fall under other test procedures, metrics or regulatory categories [3].
+Under DOE's current test-procedure definitions, a **large-diameter ceiling fan** has a represented blade span **greater than 7 feet** and is not a belt-driven or highly decorative ceiling fan [8]. Blade span is based on measured outermost blade reach, not simply an unqualified sales designation. A marketing label such as “HVLS” does not establish a DOE product classification. Appendix U distinguishes large-diameter ceiling fans from other categories, including high-speed belt-driven fans that also use CFEI testing [8]. Floor fans, directional air circulators, exhaust fans and packaged air-handling units may be evaluated under different procedures and metrics [3].
 
 ## What to request from a manufacturer
 

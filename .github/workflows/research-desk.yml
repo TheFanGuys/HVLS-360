@@ -41,6 +41,9 @@ jobs:
       - name: Discover manufacturer technical research URLs
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/manufacturer_research.py
+      - name: Extract public manufacturer HTML excerpts
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/technical_document.py
       - name: Prepare manufacturer study evidence review assignments
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/manufacturer_study_review.py
@@ -57,6 +60,7 @@ jobs:
             office/reports/source-preflight.json
             office/reports/original-source-candidates.json
             office/reports/manufacturer-study-reviews.json
+            office/reports/manufacturer-excerpts.json
           if-no-files-found: error
           retention-days: 30
 

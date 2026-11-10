@@ -6,5 +6,5 @@ assert 'publisher_approval: "Required"' in text
 assert 'https://learn.bigassfans.com/design-guide' in text
 assert 'https://www.energy.gov/articles/' in text
 assert 'Technical review needed' in text
-assert 'Publisher approval: Not requested' in text
+assert 'Publisher approval:** Not requested' in text
 print("First editorial draft safeguards passed")

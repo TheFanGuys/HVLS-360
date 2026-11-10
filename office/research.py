@@ -91,6 +91,11 @@ def run(now, dry=False):
         out += ["## Quality warning", "**No usable leads were collected. This is NOT a successful editorial research result.** Investigate feed accessibility, dates and source selection before trusting the schedule.", ""]
     if problems: out+=["## Feed errors"]+["- "+p for p in problems]
     text="\n".join(out)+"\n"
+    if not dry:
+        # Public, unverified headlines only. Never include private customer or job data.
+        public={"schema_version":1,"generated_at":now.isoformat(),"status":"unverified_research_leads","departments":report,"errors":problems,"disclaimer":"Discovery leads only. Not fact-checked or approved for publication."}
+        json_path=ROOT/"office"/"research-latest.json"
+        json_path.write_text(json.dumps(public,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
     if dry:
         print(text[:12000])
     else:

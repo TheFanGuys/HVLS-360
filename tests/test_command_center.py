@@ -30,7 +30,8 @@ assert "Approved locally" in html
 assert "does not publish" in html
 assert "Import research report" in html
 assert "eval(" not in html
-assert "fetch(" not in html, "Unexpected remote data fetch in local-only preview"
+assert "research-latest.json" in html, "Missing research feed integration"
+assert "syncResearch" in p.ids, "Missing research sync control"
 js=re.search(r"<script>(.*?)</script>",html,re.S)
 assert js, "Inline script not found"
 with tempfile.NamedTemporaryFile(suffix=".js",mode="w",encoding="utf-8") as temp:

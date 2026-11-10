@@ -41,6 +41,9 @@ jobs:
       - name: Assign specialist technical reviewers
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/technical_advisory.py
+      - name: Prepare citation-backed article skeletons
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/article_skeletons.py
       - name: Discover manufacturer technical research URLs
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/manufacturer_research.py
@@ -65,6 +68,7 @@ jobs:
             office/reports/manufacturer-study-reviews.json
             office/reports/manufacturer-excerpts.json
             office/reports/technical-review-assignments.json
+            office/reports/article-skeletons.json
           if-no-files-found: error
           retention-days: 30
 

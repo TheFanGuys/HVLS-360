@@ -116,6 +116,13 @@ def render_markdown(text):
         if re.match(r"^\*HVLS 360(?:°)?\s*\|.*\*$",t,re.I):
             flush()
             continue
+        illustration=re.fullmatch(r'!\\[([^\\]]{1,180})\\]\\((\\.\\./\\.\\./editorial/media/original/air-movement-vs-ventilation\\.svg)\\)',t)
+        if illustration:
+            flush()
+            close_list()
+            alt=html.escape(illustration.group(1),quote=True)
+            result.append('<figure class="article-figure"><img src="../../editorial/media/original/air-movement-vs-ventilation.svg" alt="'+alt+'" loading="lazy" decoding="async" width="1200" height="650"></figure>')
+            continue
         if t.startswith("- "):
             add_list("ul",t[2:])
         elif re.match(r"^\d+[.)]\s+",t):

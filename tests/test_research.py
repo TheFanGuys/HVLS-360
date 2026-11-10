@@ -50,6 +50,10 @@ class ResearchTests(unittest.TestCase):
             self.assertEqual(status, 0)
             report = (root / "office" / "reports" / "2026-11-09-research.md").read_text(encoding="utf-8")
             self.assertIn("New HVLS drive announced", report)
+            import json
+            public=json.loads((root / "office" / "research-latest.json").read_text(encoding="utf-8"))
+            self.assertEqual(public["schema_version"],1)
+            self.assertEqual(len(public["departments"][0]["leads"]),1)
             self.assertNotIn("Outdated announcement", report)
             self.assertIn("not verified reporting", report)
 

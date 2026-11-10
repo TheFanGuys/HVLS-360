@@ -23,9 +23,10 @@ def check_article(path,root=ROOT):
             k,v=line.split(":",1)
             metadata[k.strip()]=v.strip().strip('"')
     body=raw[match.end():]
-    public=body.split("### Editorial verification record",1)[0]
-    sources=public.split("### Sources",1)[1] if "### Sources" in public else ""
-    narrative=public.split("### Sources",1)[0]
+    public=re.split(r"^### (?:Editorial verification record|Editorial research notes)",body,maxsplit=1,flags=re.M)[0]
+    parts=re.split(r"^### (?:Sources|Source record)\\s*$",public,maxsplit=1,flags=re.M)
+    narrative=parts[0]
+    sources=parts[1] if len(parts)>1 else ""
     referenced=set(CITATION.findall(narrative))
     defined=set(re.findall(r"^\[(\d+)\]\s+",sources,re.M))
     if not defined:

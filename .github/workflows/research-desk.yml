@@ -53,6 +53,9 @@ jobs:
       - name: Prepare manufacturer study evidence review assignments
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/manufacturer_study_review.py
+      - name: Prepare Media and Art requests from editorial drafts
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/technical_media.py
       - name: Upload private research report artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -69,6 +72,7 @@ jobs:
             office/reports/manufacturer-excerpts.json
             office/reports/technical-review-assignments.json
             office/reports/article-skeletons.json
+            office/reports/technical-media-requests.json
           if-no-files-found: error
           retention-days: 30
 

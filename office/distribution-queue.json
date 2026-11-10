@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "approval_policy": "publisher_authorization_required",
+  "status": "planning_only",
+  "placements": [],
+  "channels": [
+    {
+      "name": "LinkedIn",
+      "type": "owned_or_permitted_professional_post",
+      "status": "needs_account_and_rules_review"
+    },
+    {
+      "name": "Trade newsletters",
+      "type": "editorial_pitch",
+      "status": "research_destinations"
+    },
+    {
+      "name": "Industry communities",
+      "type": "discussion_participation",
+      "status": "review_rules_first"
+    },
+    {
+      "name": "Manufacturer/distributor partners",
+      "type": "partner_submission",
+      "status": "permission_required"
+    },
+    {
+      "name": "Trade associations",
+      "type": "editorial_submission",
+      "status": "research_destinations"
+    }
+  ]
+}

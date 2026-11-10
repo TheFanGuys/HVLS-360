@@ -5,7 +5,7 @@ status: "EDITORIAL DRAFT — NOT APPROVED"
 publication_allowed: false
 primary_market: "United States"
 research_checked: "2026-11-10"
-image_status: "Original diagram proposed; no third-party imagery"
+image_status: "Original in-house access-planning diagram; technical review pending"
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
@@ -16,6 +16,8 @@ publisher_approval: "Required"
 A scissor lift can be one of the most familiar pieces of equipment on an HVLS fan job. It is also easy to treat as a last-minute rental detail. For a crew working beneath joists, sprinkler piping, lights and active warehouse traffic, lift selection can determine whether the installation proceeds smoothly or stops before the first blade reaches the hub.
 
 OSHA's *Working Safely with Scissor Lifts* hazard alert identifies three recurring problems in investigated incidents: fall protection, stabilization and positioning [1]. Those categories are a practical way to organize an HVLS pre-installation survey.
+
+![Conceptual HVLS installation access planning showing a scissor lift, overhead obstructions, floor access and traffic separation](../../editorial/media/original/scissor-lift-access-planning.svg)
 
 ## Start with the actual work envelope
 

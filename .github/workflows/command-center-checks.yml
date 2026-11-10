@@ -6,6 +6,8 @@ on:
       - 'office/editorial-board.html'
       - 'office/technical-review.html'
       - 'office/article-editor.html'
+      - 'office/media-desk.html'
+      - 'tests/test_media_desk.py'
       - 'tests/test_article_editor.py'
       - 'tests/test_technical_review_desk.py'
       - 'tests/test_editorial_board.py'
@@ -28,3 +30,4 @@ jobs:
           python tests/test_editorial_board.py
           python tests/test_technical_review_desk.py
           python tests/test_article_editor.py
+          python tests/test_media_desk.py

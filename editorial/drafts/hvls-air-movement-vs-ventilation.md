@@ -34,7 +34,7 @@ A useful field assessment starts with temperature measurements at multiple heigh
 
 ## A ceiling fan does not automatically provide outdoor-air ventilation
 
-Moving existing indoor air is not equivalent to bringing outdoor air into the building or exhausting contaminants. HVAC ventilation requirements, contaminant control and any required local exhaust must be assessed separately.
+Moving existing indoor air is not equivalent to bringing outdoor air into the building or exhausting contaminants. The U.S. Environmental Protection Agency identifies outdoor-air pathways including natural ventilation, infiltration, and mechanical outdoor-air intakes or exhaust fans [3]. Its overview primarily discusses homes, so it should not be used as a substitute for commercial-building ventilation design criteria. HVAC ventilation requirements, contaminant control and any required local exhaust must be assessed separately.
 
 An HVLS fan may complement an engineered ventilation system by influencing air distribution, but it should not be presented as a substitute for required outdoor-air supply or source capture without a design-specific engineering basis.
 
@@ -62,10 +62,12 @@ HVLS fans can be valuable components of an industrial air-movement strategy, but
 
 [2] U.S. Department of Energy, *Top 11 Things You Didn't Know About Saving Energy at Home: Summer Edition*: https://www.energy.gov/articles/top-11-things-you-didnt-know-about-saving-energy-home-summer-edition
 
+[3] U.S. Environmental Protection Agency, *How does outdoor air enter a building?*: https://www.epa.gov/indoor-air-quality-iaq/how-does-outdoor-air-enter-building
+
 ### Editorial verification record
 
 - **Primary manufacturer reference:** Read for thermal comfort concepts and destratification scope.
-- **Independent corroboration:** DOE consumer guidance confirms fans cool people rather than rooms; it does not validate industrial HVLS energy-savings percentages.
+- **Independent corroboration:** DOE consumer guidance confirms fans cool people rather than rooms; EPA guidance identifies outdoor-air ventilation pathways. Both sources are general or residential in scope, not industrial HVLS performance studies or commercial code determinations.
 - **Claims deliberately omitted:** No unverified energy-savings percentages, temperature reductions, CFM comparisons, or regulatory compliance claims.
 - **Technical review needed:** Confirm ventilation terminology, installation/code caveats, and operational implications with a qualified reviewer and applicable standards.
 - **Media review needed:** Source an authentic licensed HVLS installation image or original diagram.

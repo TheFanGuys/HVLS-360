@@ -84,7 +84,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           test -f office/editorial-latest.json
-          git add office/research-latest.json office/editorial-latest.json
+          test -f office/media-latest.json
+          git add office/research-latest.json office/editorial-latest.json office/media-latest.json
           if ! git diff --cached --quiet; then
             git commit -m "Update unverified research lead index [skip ci]"
             git push

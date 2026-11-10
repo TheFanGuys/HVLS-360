@@ -7,15 +7,15 @@
       "feeds": [
         {
           "name": "Manufacturer and industry discovery",
-          "url": "https://news.google.com/rss/search?q=(%22Big%20Ass%20Fans%22%20OR%20%22Rite-Hite%22%20OR%20%22MacroAir%22%20OR%20%22Go%20Fan%20Yourself%22)%20(fan%20OR%20HVLS)%20(press%20release%20OR%20announcement%20OR%20product)&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=(%22Big%20Ass%20Fans%22%20OR%20%22Rite-Hite%22%20OR%20%22MacroAir%22%20OR%20%22Go%20Fan%20Yourself%22)%20(fan%20OR%20HVLS)%20(press%20release%20OR%20announcement%20OR%20product)%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Technical and regulatory discovery",
-          "url": "https://news.google.com/rss/search?q=(%22Vivid%20Air%22%20OR%20%22Patterson%20Fan%22%20OR%20%22Hunter%20Industrial%22%20OR%20%22Entrematic%22)%20(HVLS%20OR%20industrial%20fan)&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=(%22Vivid%20Air%22%20OR%20%22Patterson%20Fan%22%20OR%20%22Hunter%20Industrial%22%20OR%20%22Entrematic%22)%20(HVLS%20OR%20industrial%20fan)%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Additional specialist discovery",
-          "url": "https://news.google.com/rss/search?q=(%22Greenheck%22%20OR%20%22Airius%22%20OR%20%22Refresh%20Fans%22%20OR%20%22Canarm%22%20OR%20%22Jan%20Fan%22)%20(HVLS%20OR%20air%20movement)&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=(%22Greenheck%22%20OR%20%22Airius%22%20OR%20%22Refresh%20Fans%22%20OR%20%22Canarm%22%20OR%20%22Jan%20Fan%22)%20(HVLS%20OR%20air%20movement)%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -25,15 +25,15 @@
       "feeds": [
         {
           "name": "Manufacturer and industry discovery",
-          "url": "https://news.google.com/rss/search?q=(%22ABB%22%20OR%20%22Invertek%20Drives%22%20OR%20%22Danfoss%22%20OR%20%22Yaskawa%22)%20(VFD%20OR%20drive%20OR%20fan%20control)%20(launch%20OR%20update)&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=(%22ABB%22%20OR%20%22Invertek%20Drives%22%20OR%20%22Danfoss%22%20OR%20%22Yaskawa%22)%20(VFD%20OR%20drive%20OR%20fan%20control)%20(launch%20OR%20update)%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Technical and regulatory discovery",
-          "url": "https://news.google.com/rss/search?q=(%22Schneider%20Electric%22%20OR%20%22Siemens%22%20OR%20%22Rockwell%20Automation%22%20OR%20%22WEG%22)%20(variable%20frequency%20drive%20OR%20industrial%20controls)&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=(%22Schneider%20Electric%22%20OR%20%22Siemens%22%20OR%20%22Rockwell%20Automation%22%20OR%20%22WEG%22)%20(variable%20frequency%20drive%20OR%20industrial%20controls)%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Additional specialist discovery",
-          "url": "https://news.google.com/rss/search?q=(%22Thingz%22%20OR%20%22AI%20building%20controls%22%20OR%20%22smart%20fan%20controls%22)%20(HVLS%20OR%20ventilation%20OR%20industrial%20airflow)&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=(%22Thingz%22%20OR%20%22AI%20building%20controls%22%20OR%20%22smart%20fan%20controls%22)%20(HVLS%20OR%20ventilation%20OR%20industrial%20airflow)%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "feeds": [
         {
           "name": "Manufacturer and industry discovery",
-          "url": "https://news.google.com/rss/search?q=HVLS%20fan%20installation%20mounting%20seismic%20structural%20requirements&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=HVLS%20fan%20installation%20mounting%20seismic%20structural%20requirements%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Technical and regulatory discovery",
-          "url": "https://news.google.com/rss/search?q=HVLS%20fan%20commissioning%20wiring%20fire%20alarm%20interlock&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=HVLS%20fan%20commissioning%20wiring%20fire%20alarm%20interlock%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -57,11 +57,11 @@
       "feeds": [
         {
           "name": "Manufacturer and industry discovery",
-          "url": "https://news.google.com/rss/search?q=HVLS%20fan%20maintenance%20service%20bulletin%20recall%20inspection&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=HVLS%20fan%20maintenance%20service%20bulletin%20recall%20inspection%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Technical and regulatory discovery",
-          "url": "https://news.google.com/rss/search?q=industrial%20fan%20VFD%20fault%20troubleshooting%20firmware%20service&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=industrial%20fan%20VFD%20fault%20troubleshooting%20firmware%20service%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -71,15 +71,15 @@
       "feeds": [
         {
           "name": "Manufacturer and industry discovery",
-          "url": "https://news.google.com/rss/search?q=site%3Aosha.gov%20industrial%20ventilation%20workplace%20heat%20guidance%20rule&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=site%3Aosha.gov%20industrial%20ventilation%20workplace%20heat%20guidance%20rule%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Technical and regulatory discovery",
-          "url": "https://news.google.com/rss/search?q=site%3Anfpa.org%20ceiling%20fans%20sprinkler%20obstructions%20NFPA%2013&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=site%3Anfpa.org%20ceiling%20fans%20sprinkler%20obstructions%20NFPA%2013%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Additional specialist discovery",
-          "url": "https://news.google.com/rss/search?q=site%3Aul.com%20industrial%20ceiling%20fan%20safety%20certification&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=site%3Aul.com%20industrial%20ceiling%20fan%20safety%20certification%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -89,11 +89,11 @@
       "feeds": [
         {
           "name": "Manufacturer and industry discovery",
-          "url": "https://news.google.com/rss/search?q=site%3Aamca.org%20HVLS%20air%20movement%20standards%20performance&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=site%3Aamca.org%20HVLS%20air%20movement%20standards%20performance%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Technical and regulatory discovery",
-          "url": "https://news.google.com/rss/search?q=industrial%20HVLS%20destratification%20ventilation%20energy%20study&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=industrial%20HVLS%20destratification%20ventilation%20energy%20study%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -103,11 +103,11 @@
       "feeds": [
         {
           "name": "Manufacturer and industry discovery",
-          "url": "https://news.google.com/rss/search?q=HVLS%20manufacturer%20acquisition%20distribution%20partnership%20industrial%20fans&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=HVLS%20manufacturer%20acquisition%20distribution%20partnership%20industrial%20fans%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Technical and regulatory discovery",
-          "url": "https://news.google.com/rss/search?q=industrial%20ventilation%20market%20manufacturer%20expansion&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=industrial%20ventilation%20market%20manufacturer%20expansion%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -117,11 +117,11 @@
       "feeds": [
         {
           "name": "Manufacturer and industry discovery",
-          "url": "https://news.google.com/rss/search?q=HVLS%20fans%20new%20product%20launch%20motor%20controls&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=HVLS%20fans%20new%20product%20launch%20motor%20controls%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Technical and regulatory discovery",
-          "url": "https://news.google.com/rss/search?q=industrial%20ceiling%20fan%20press%20release%20new%20product&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=industrial%20ceiling%20fan%20press%20release%20new%20product%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -131,15 +131,15 @@
       "feeds": [
         {
           "name": "Specialist discovery 1",
-          "url": "https://news.google.com/rss/search?q=(%22JLG%22%20OR%20%22Genie%22%20OR%20%22Skyjack%22%20OR%20%22Haulotte%22%20OR%20%22Snorkel%22)%20(scissor%20lift%20OR%20boom%20lift%20OR%20MEWP)%20(new%20OR%20safety%20OR%20product)&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=(%22JLG%22%20OR%20%22Genie%22%20OR%20%22Skyjack%22%20OR%20%22Haulotte%22%20OR%20%22Snorkel%22)%20(scissor%20lift%20OR%20boom%20lift%20OR%20MEWP)%20(new%20OR%20safety%20OR%20product)%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Specialist discovery 2",
-          "url": "https://news.google.com/rss/search?q=(%22ANSI%20A92%22%20OR%20%22OSHA%22)%20(MEWP%20OR%20aerial%20lift)%20safety%20updates&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=(%22ANSI%20A92%22%20OR%20%22OSHA%22)%20(MEWP%20OR%20aerial%20lift)%20safety%20updates%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Specialist discovery 3",
-          "url": "https://news.google.com/rss/search?q=electric%20scissor%20lift%20boom%20lift%20lithium%20battery%20indoor%20warehouse%20construction&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=electric%20scissor%20lift%20boom%20lift%20lithium%20battery%20indoor%20warehouse%20construction%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -149,15 +149,15 @@
       "feeds": [
         {
           "name": "Specialist discovery 1",
-          "url": "https://news.google.com/rss/search?q=(%22United%20Rentals%22%20OR%20%22Sunbelt%20Rentals%22%20OR%20%22Herc%20Rentals%22%20OR%20%22EquipmentShare%22)%20(rental%20rates%20OR%20fleet%20OR%20expansion)&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=(%22United%20Rentals%22%20OR%20%22Sunbelt%20Rentals%22%20OR%20%22Herc%20Rentals%22%20OR%20%22EquipmentShare%22)%20(rental%20rates%20OR%20fleet%20OR%20expansion)%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Specialist discovery 2",
-          "url": "https://news.google.com/rss/search?q=equipment%20rental%20industry%20scissor%20lift%20boom%20lift%20availability%20pricing%20forecast&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=equipment%20rental%20industry%20scissor%20lift%20boom%20lift%20availability%20pricing%20forecast%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Specialist discovery 3",
-          "url": "https://news.google.com/rss/search?q=aerial%20equipment%20rental%20delivery%20fuel%20surcharge%20utilization%20jobsite&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=aerial%20equipment%20rental%20delivery%20fuel%20surcharge%20utilization%20jobsite%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -167,15 +167,15 @@
       "feeds": [
         {
           "name": "Specialist discovery 1",
-          "url": "https://news.google.com/rss/search?q=new%20warehouse%20distribution%20center%20manufacturing%20plant%20construction%20projects%20United%20States&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=new%20warehouse%20distribution%20center%20manufacturing%20plant%20construction%20projects%20United%20States%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Specialist discovery 2",
-          "url": "https://news.google.com/rss/search?q=industrial%20construction%20cold%20storage%20logistics%20facilities%20manufacturing%20expansion&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=industrial%20construction%20cold%20storage%20logistics%20facilities%20manufacturing%20expansion%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Specialist discovery 3",
-          "url": "https://news.google.com/rss/search?q=industrial%20building%20construction%20HVAC%20ventilation%20HVLS%20ceiling%20fan%20specification&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=industrial%20building%20construction%20HVAC%20ventilation%20HVLS%20ceiling%20fan%20specification%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     },
@@ -185,17 +185,23 @@
       "feeds": [
         {
           "name": "Specialist discovery 1",
-          "url": "https://news.google.com/rss/search?q=warehouse%20racking%20mezzanine%20construction%20overhead%20work%20lift%20access%20installation&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=warehouse%20racking%20mezzanine%20construction%20overhead%20work%20lift%20access%20installation%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Specialist discovery 2",
-          "url": "https://news.google.com/rss/search?q=industrial%20construction%20labor%20electrical%20contractor%20lead%20times%20equipment%20safety&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=industrial%20construction%20labor%20electrical%20contractor%20lead%20times%20equipment%20safety%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },
         {
           "name": "Specialist discovery 3",
-          "url": "https://news.google.com/rss/search?q=fire%20sprinkler%20ceiling%20fan%20warehouse%20construction%20design%20coordination&hl=en-US&gl=US&ceid=US:en"
+          "url": "https://news.google.com/rss/search?q=fire%20sprinkler%20ceiling%20fan%20warehouse%20construction%20design%20coordination%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         }
       ]
     }
-  ]
+  ],
+  "editorial_focus": {
+    "primary_market": "United States",
+    "international": "Include only with documented significance for US installers or market",
+    "director": "Director of Research & Intelligence",
+    "primary_source_registry": "office/primary-sources.json"
+  }
 }

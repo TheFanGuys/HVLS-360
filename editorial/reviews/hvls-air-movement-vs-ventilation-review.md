@@ -10,7 +10,7 @@
 ## Technical findings
 - **Air movement and perceived cooling:** Explanation is consistent with the cited sources. No unsupported temperature-drop figure used.
 - **Destratification:** Reasonable qualitative explanation; energy-savings claims are explicitly conditional. No claimed numerical performance or guaranteed savings.
-- **Ventilation:** Distinction between recirculating indoor air and providing outdoor air is important. **Needs an authoritative ventilation standard/source** before final technical approval; the current two references do not independently establish all building ventilation requirements.
+- **Ventilation:** Distinction between recirculating indoor air and providing outdoor air is important. **EPA independent background source now added** to distinguish outdoor-air exchange from indoor air movement. EPA page addresses homes, not industrial design requirements. An applicable commercial ventilation standard and jurisdiction-specific technical review are still needed before final approval.
 - **Mounting and fire interlocks:** Draft appropriately directs readers to the exact product manual, local AHJ and project-specific engineering. **Needs model-specific manuals and applicable code references** before making more specific claims.
 - **Safety and professional boundaries:** No prescriptive wiring or structural installation details are given. No claim of PE certification.
 
@@ -22,7 +22,8 @@
 - Consider adding a labeled diagram showing recirculation vs. outdoor-air exchange, only after technical review.
 
 ## Outstanding gates
-- [ ] Add an authoritative independent ventilation definition/standard reference.
+- [x] Add independent EPA background reference on outdoor-air ventilation pathways (residential scope clearly noted).
+- [ ] Verify applicable commercial-building ventilation standard, edition and jurisdiction before technical sign-off.
 - [ ] Verify manufacturer guide edition/date and cited section text.
 - [ ] Complete independent technical review of airflow and code terminology.
 - [ ] Complete editorial copyedit and link checks.

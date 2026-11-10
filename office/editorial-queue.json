@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-11-10",
+  "description": "Read-only registry for previewing unpublished editorial materials. It is not an approval record.",
+  "items": [
+    {
+      "slug": "hvls-air-movement-vs-ventilation",
+      "title": "Air Movement vs. Ventilation",
+      "category": "Research & Engineering",
+      "angle": "The distinction every facility specification needs.",
+      "draft": "editorial/drafts/hvls-air-movement-vs-ventilation.md",
+      "review": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
+      "media": "editorial/media/hvls-air-movement-candidates.json"
+    },
+    {
+      "slug": "abb-2026-ip66-vfd-field-report",
+      "title": "ABB IP66 Drive Expansion",
+      "category": "Controls & VFDs",
+      "angle": "Drive environmental ratings and field application questions.",
+      "draft": "editorial/drafts/abb-2026-ip66-vfd-field-report.md",
+      "review": "editorial/reviews/abb-2026-ip66-vfd-field-report-review.md",
+      "media": null
+    },
+    {
+      "slug": "cfei-vs-cfm-per-watt-field-guide",
+      "title": "CFEI vs. CFM per Watt",
+      "category": "Research & Engineering",
+      "angle": "What the efficiency index measures and what it doesn't.",
+      "draft": "editorial/drafts/cfei-vs-cfm-per-watt-field-guide.md",
+      "review": "editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md",
+      "media": null
+    },
+    {
+      "slug": "greenheck-ds-series-2026-field-report",
+      "title": "Greenheck's Redesigned DS Series",
+      "category": "Industry News",
+      "angle": "Controls, installation and the 2026 shipping-date manual split.",
+      "draft": "editorial/drafts/greenheck-ds-series-2026-field-report.md",
+      "review": "editorial/reviews/greenheck-ds-series-2026-field-report-review.md",
+      "media": "editorial/media/greenheck-ds-series-2026-candidates.json"
+    },
+    {
+      "slug": "powerfoil6-field-brief",
+      "title": "Powerfoil 6 — Field Briefing",
+      "category": "Product Intelligence",
+      "angle": "What the current manual tells installers about the job.",
+      "draft": "editorial/drafts/powerfoil6-field-brief.md",
+      "review": "editorial/reviews/powerfoil6-field-brief-review.md",
+      "media": "editorial/media/powerfoil6-field-brief-candidates.json"
+    }
+  ]
+}

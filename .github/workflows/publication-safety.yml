@@ -1,0 +1,33 @@
+name: Publication Safety Gate
+on:
+  pull_request:
+    paths:
+      - 'articles/**'
+      - 'editorial/approvals/**'
+      - 'editorial/drafts/**'
+      - 'office/publication_guard.py'
+      - 'tests/test_publication_guard.py'
+      - '.github/workflows/publication-safety.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'articles/**'
+      - 'editorial/approvals/**'
+      - 'editorial/drafts/**'
+      - 'office/publication_guard.py'
+      - '.github/workflows/publication-safety.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run publisher release audit
+        run: python office/publication_guard.py
+      - name: Run release guard tests
+        run: python -m unittest discover -s tests -p 'test_publication_guard.py' -v

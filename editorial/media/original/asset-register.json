@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "article": "editorial/drafts/hvls-air-movement-vs-ventilation.md",
+  "assets": [
+    {
+      "id": "hvls360-original-circulation-ventilation-01",
+      "kind": "original_vector_diagram",
+      "subject": "Indoor HVLS recirculation versus mechanical outdoor-air supply and exhaust",
+      "file": "editorial/media/original/air-movement-vs-ventilation.svg",
+      "creation_method": "original editable SVG drawn for HVLS 360 editorial",
+      "third_party_material": false,
+      "rights_holder": "HVLS 360 / Big Fan Guys (original artwork)",
+      "publication_rights": "original work; publisher sign-off required",
+      "external_license_required": false,
+      "source_basis": [
+        "https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2",
+        "https://www.epa.gov/indoor-air-quality-iaq/how-does-outdoor-air-enter-building"
+      ],
+      "technical_review": "pending",
+      "editorial_review": "pending",
+      "publisher_approval": "pending",
+      "alt_text": "Side-by-side warehouse schematics show a ceiling fan circulating air inside a building and a separate system bringing in outdoor air while exhausting indoor air.",
+      "caption": "An HVLS ceiling fan circulates indoor air; a separate ventilation system can introduce outdoor air and remove indoor air. Conceptual illustration.",
+      "publication_allowed": false
+    }
+  ]
+}

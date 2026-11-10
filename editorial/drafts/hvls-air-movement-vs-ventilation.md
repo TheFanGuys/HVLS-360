@@ -20,7 +20,7 @@ A large-diameter ceiling fan can make a hot industrial space feel more comfortab
 
 A ceiling fan primarily moves air. When air moves across people, convective and evaporative heat transfer can increase, changing how warm the space feels. That is different from reducing the dry-bulb temperature of the entire room.
 
-Big Ass Fans' *Ceiling Fan Design Guide* describes thermal comfort as a combination of environmental and personal factors, including air speed, humidity, radiant temperature, activity and clothing [1]. The U.S. Department of Energy similarly reminds readers that fans cool people rather than rooms [2]. DOE's example concerns home cooling; the underlying distinction between perceived cooling and actual air-temperature reduction is relevant when evaluating industrial fan claims, although industrial applications require their own design analysis.
+Big Ass Fans' *Ceiling Fan Design Guide* describes thermal comfort as a combination of environmental and personal factors, including air speed, humidity, radiant temperature, activity and clothing [1]. ASHRAE's **Standard 55-2023** likewise evaluates thermal conditions using air speed, temperature, radiation, humidity, clothing and activity [5]. The U.S. Department of Energy similarly reminds readers that fans cool people rather than rooms [2]. DOE's example concerns home cooling; the underlying distinction between perceived cooling and actual air-temperature reduction is relevant when evaluating industrial fan claims, although industrial applications require their own design analysis.
 
 For an industrial facility, this means that a sales claim such as “feels up to X degrees cooler” should not be interpreted as “the fan lowers room air temperature by X degrees.” A credible comparison needs to specify air speed, occupancy, environmental conditions and the comfort model or measurement method used.
 
@@ -35,6 +35,8 @@ A useful field assessment starts with temperature measurements at multiple heigh
 ## A ceiling fan does not automatically provide outdoor-air ventilation
 
 Moving existing indoor air is not equivalent to bringing outdoor air into the building or exhausting contaminants. The U.S. Environmental Protection Agency identifies outdoor-air pathways including natural ventilation, infiltration, and mechanical outdoor-air intakes or exhaust fans [3]. Its overview primarily discusses homes, so it should not be used as a substitute for commercial-building ventilation design criteria. HVAC ventilation requirements, contaminant control and any required local exhaust must be assessed separately.
+
+For occupied commercial and industrial spaces, **ANSI/ASHRAE Standard 62.1-2025** provides the current national consensus framework for ventilation and acceptable indoor air quality [4]. It addresses outdoor-air and air-cleaning system design, not just air motion. The applicable edition on a specific job depends on what the jurisdiction has adopted; a new edition's publication does not automatically make it local law.
 
 An HVLS fan may complement an engineered ventilation system by influencing air distribution, but it should not be presented as a substitute for required outdoor-air supply or source capture without a design-specific engineering basis.
 
@@ -64,10 +66,14 @@ HVLS fans can be valuable components of an industrial air-movement strategy, but
 
 [3] U.S. Environmental Protection Agency, *How does outdoor air enter a building?*: https://www.epa.gov/indoor-air-quality-iaq/how-does-outdoor-air-enter-building
 
+[4] ASHRAE, *Standard 62.1-2025, Ventilation and Acceptable Indoor Air Quality* (official overview): https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2
+
+[5] ASHRAE, *Standard 55-2023, Thermal Environmental Conditions for Human Occupancy* (official overview): https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy
+
 ### Editorial verification record
 
 - **Primary manufacturer reference:** Read for thermal comfort concepts and destratification scope.
-- **Independent corroboration:** DOE consumer guidance confirms fans cool people rather than rooms; EPA guidance identifies outdoor-air ventilation pathways. Both sources are general or residential in scope, not industrial HVLS performance studies or commercial code determinations.
+- **Independent corroboration:** ASHRAE 55-2023 describes thermal-comfort factors and ASHRAE 62.1-2025 addresses commercial ventilation. DOE and EPA provide accessible introductory examples but are largely residential in scope. Neither the standards overview nor these background sources proves a particular installation's performance or local code compliance.
 - **Claims deliberately omitted:** No unverified energy-savings percentages, temperature reductions, CFM comparisons, or regulatory compliance claims.
 - **Technical review needed:** Confirm ventilation terminology, installation/code caveats, and operational implications with a qualified reviewer and applicable standards.
 - **Media review needed:** Source an authentic licensed HVLS installation image or original diagram.

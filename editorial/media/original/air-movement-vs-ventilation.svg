@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Air circulation compared with outdoor-air ventilation</title>
+<desc id="desc">Two side-by-side warehouse cross-sections. At left, an HVLS ceiling fan drives indoor air circulation with return paths inside the same building. At right, a mechanical supply introduces outdoor air while a separate exhaust discharges indoor air outdoors.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071724"/><stop offset="1" stop-color="#102a3c"/></linearGradient>
+<linearGradient id="panel" x2="0" y2="1"><stop stop-color="#18374b"/><stop offset="1" stop-color="#10202f"/></linearGradient>
+<marker id="cyan" markerWidth="8" markerHeight="8" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#61d5e8"/></marker>
+<marker id="lime" markerWidth="8" markerHeight="8" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#b1dc78"/></marker>
+<marker id="gold" markerWidth="8" markerHeight="8" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#f4b965"/></marker>
+<style>
+text{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#ebf6fa}
+.head{font-size:26px;font-weight:750;letter-spacing:-.5px}.sub{font-size:15px;fill:#a8c3d3}.label{font-size:16px;font-weight:650}
+.line{fill:none;stroke:#61d5e8;stroke-width:6;stroke-linecap:round;marker-end:url(#cyan)}
+.airin{fill:none;stroke:#b1dc78;stroke-width:7;stroke-linecap:round;marker-end:url(#lime)}
+.airout{fill:none;stroke:#f4b965;stroke-width:7;stroke-linecap:round;marker-end:url(#gold)}
+.build{fill:url(#panel);stroke:#7da1b4;stroke-width:3;stroke-linejoin:round}
+</style></defs>
+<rect width="1200" height="650" fill="url(#bg)"/>
+<text x="52" y="55" class="sub" style="letter-spacing:3px;font-weight:750">HVLS 360°  /  ENGINEERING EXPLAINER</text>
+<text x="52" y="103" style="font-size:34px;font-weight:800;letter-spacing:-1px">Moving air and exchanging air are different jobs.</text>
+<g transform="translate(35 140)">
+<rect width="548" height="455" rx="18" fill="#102536" stroke="#29495d"/>
+<text x="27" y="43" class="head">01  Indoor air circulation</text>
+<text x="27" y="70" class="sub">Mixes air already inside the building</text>
+<path class="build" d="M47 196L274 110L501 196V379H47Z"/>
+<path d="M47 196L274 110L501 196" fill="none" stroke="#88a6b8" stroke-width="5"/>
+<!-- HVLS suspension and blade -->
+<path d="M274 113V165" stroke="#c3d9e6" stroke-width="6"/>
+<ellipse cx="274" cy="172" rx="120" ry="8" fill="#61d5e8"/>
+<rect x="257" y="160" width="34" height="28" rx="7" fill="#d6eef3"/>
+<path d="M270 196V308" class="line"/>
+<path d="M250 212V309" class="line"/>
+<path d="M221 323C130 331 110 255 128 229" class="line"/>
+<path d="M333 323C428 326 448 254 422 230" class="line"/>
+<path d="M139 214C156 198 170 191 186 189" class="line"/>
+<path d="M414 210C389 191 379 190 359 189" class="line"/>
+<text x="75" y="416" class="label" fill="#61d5e8">Recirculation loop</text>
+<text x="75" y="438" class="sub">No dedicated outdoor-air path is shown.</text>
+</g>
+<g transform="translate(617 140)">
+<rect width="548" height="455" rx="18" fill="#102536" stroke="#29495d"/>
+<text x="27" y="43" class="head">02  Outdoor-air ventilation</text>
+<text x="27" y="70" class="sub">Introduces outside air and removes inside air</text>
+<path class="build" d="M82 196L274 110L466 196V379H82Z"/>
+<path d="M82 196L274 110L466 196" fill="none" stroke="#88a6b8" stroke-width="5"/>
+<!-- supply supply schematic -->
+<rect x="49" y="226" width="78" height="54" rx="5" fill="#1e4551" stroke="#c6e8c1" stroke-width="3"/>
+<path d="M23 249H165L215 287" class="airin"/>
+<path d="M194 292L242 317" class="airin"/>
+<text x="25" y="216" class="sub">Outdoor supply</text>
+<!-- exhaust high side -->
+<rect x="412" y="222" width="88" height="48" rx="5" fill="#433c32" stroke="#f4b965" stroke-width="3"/>
+<path d="M285 290L361 253H520" class="airout"/>
+<text x="411" y="205" class="sub">Exhaust</text>
+<path d="M315 335C342 321 360 314 377 309" fill="none" stroke="#f4b965" stroke-width="3" stroke-dasharray="7 7"/>
+<path d="M204 340C246 355 277 347 298 330" fill="none" stroke="#b1dc78" stroke-width="3" stroke-dasharray="7 7"/>
+<text x="77" y="416" class="label">Separate ventilation system</text>
+<text x="77" y="438" class="sub">Supply and exhaust paths are illustrated.</text>
+</g>
+<g transform="translate(38 615)"><circle cx="11" cy="-2" r="6" fill="#61d5e8"/><text x="28" y="3" font-size="14" fill="#bdd0dc">Indoor mixing</text><circle cx="205" cy="-2" r="6" fill="#b1dc78"/><text x="224" y="3" font-size="14" fill="#bdd0dc">Outdoor supply</text><circle cx="405" cy="-2" r="6" fill="#f4b965"/><text x="423" y="3" font-size="14" fill="#bdd0dc">Air exhausted outside</text><text x="821" y="3" font-size="13" fill="#92abbb">Conceptual schematic · Not to scale</text></g>
+</svg>

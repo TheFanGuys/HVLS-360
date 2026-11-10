@@ -6,6 +6,8 @@
 ## Source traceability
 1. **Big Ass Fans Ceiling Fan Design Guide** — https://learn.bigassfans.com/design-guide — accessed for source review. Manufacturer-authored reference, not independent peer review. Relevant sections include thermal comfort and ceiling fan use in heating.
 2. **U.S. Department of Energy consumer guidance** — https://www.energy.gov/articles/top-11-things-you-didnt-know-about-saving-energy-home-summer-edition — independent source for the broad distinction between fans cooling people and cooling rooms. **Limitation:** Residential context, not a controlled HVLS industrial study.
+3. **ASHRAE Standard 55-2023** — https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy — official standard overview describes thermal-comfort factors. Actual standard text not purchased or reviewed.
+4. **ASHRAE Standard 62.1-2025** — https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2 — official overview confirms the current commercial ventilation consensus standard edition. Jurisdictional adoption must be independently checked before a code compliance statement.
 
 ## Technical findings
 - **Air movement and perceived cooling:** Explanation is consistent with the cited sources. No unsupported temperature-drop figure used.
@@ -17,13 +19,15 @@
 ## Editorial findings
 - Target audience: U.S. facility managers, installers, specifiers.
 - Strongest angle: separating perceived cooling, air mixing, and ventilation.
-- Needs an authentic licensed photo of a real HVLS installation and useful technical alt text.
+- Original editable explanatory illustration proposed at `editorial/media/original/air-movement-vs-ventilation.svg` (no photo or manufacturer image needed for that figure). Confirm with technical editor before release; a licensed authentic installation photo remains optional.
 - Verify source titles, dates, link availability, and any changes to the manufacturer guide before publication.
 - Consider adding a labeled diagram showing recirculation vs. outdoor-air exchange, only after technical review.
 
 ## Outstanding gates
 - [x] Add independent EPA background reference on outdoor-air ventilation pathways (residential scope clearly noted).
-- [ ] Verify applicable commercial-building ventilation standard, edition and jurisdiction before technical sign-off.
+- [x] Identify current ASHRAE 62.1-2025 edition from ASHRAE official source.
+- [x] Add ASHRAE 55-2023 official overview for comfort factors.
+- [ ] Confirm locally adopted code edition and review relevant normative standard language for any future prescriptive claims.
 - [ ] Verify manufacturer guide edition/date and cited section text.
 - [ ] Complete independent technical review of airflow and code terminology.
 - [ ] Complete editorial copyedit and link checks.

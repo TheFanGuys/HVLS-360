@@ -8,6 +8,8 @@ assert 'publisher_review' in html
 assert 'does not publish' in html.lower()
 assert 'Import editorial assignments' in html
 assert 'innerHTML' not in html
+assert "fetch('./editorial-latest.json?fresh='" in html
+assert 'unverified_assignment_briefs_not_articles' in html
 js=re.search(r"<script>(.*?)</script>",html,re.S)
 assert js
 with tempfile.NamedTemporaryFile(mode="w",suffix=".js") as tmp:

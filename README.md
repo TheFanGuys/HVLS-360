@@ -4,11 +4,13 @@ A U.S.-focused industrial air movement magazine from Big Fan Guys. A fast, stati
 
 **Public site:** https://thefanguys.github.io/HVLS-360/  
 **Editorial office:** https://thefanguys.github.io/HVLS-360/office/command-center.html  
-**First article review packet:** https://thefanguys.github.io/HVLS-360/office/first-article-review.html
+**First article review packet:** https://thefanguys.github.io/HVLS-360/office/first-article-review.html  
+**Public reference library:** https://thefanguys.github.io/HVLS-360/resources/
 
 ## What is live
 
 - Responsive magazine homepage, navigation, brand, canonical metadata, social preview metadata, editorial standards and RSS/sitemap.
+- Searchable, free public field-reference library linking directly to verified manufacturer manuals, VFD support, AMCA ratings, ASHRAE overviews and federal resources (no copied manuals or licensed photo reuse).
 - An approved-only latest-articles section that populates from actual publisher-authorized story releases. No placeholder articles are shown as news.
 - GitHub Actions research desk scheduled Tuesdays and Fridays at 08:00 America/Phoenix (15:00 UTC), using public source leads, topical filtering, source preflight, assignments and technical review routing. Raw artifacts remain GitHub Actions artifacts; sanitized lead indexes are separate from publication.
 - Editorial office HTML review tools. These are **browser-side workflow aids**, not authenticated publishing accounts or autonomous AI employees.

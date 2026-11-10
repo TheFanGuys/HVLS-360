@@ -109,7 +109,7 @@ def make_rss(rows):
 def make_sitemap(rows):
     ET.register_namespace("", SITE_NS)
     site = ET.Element("{"+SITE_NS+"}urlset")
-    base_urls = [BASE, BASE+"articles/editorial-standards/"]
+    base_urls = [BASE, BASE+"articles/editorial-standards/", BASE+"resources/"]
     for link in base_urls + [row["url"] for row in rows]:
         url = ET.SubElement(site, "{"+SITE_NS+"}url")
         ET.SubElement(url, "{"+SITE_NS+"}loc").text = link

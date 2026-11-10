@@ -5,6 +5,8 @@ on:
       - 'office/command-center.html'
       - 'office/editorial-board.html'
       - 'office/technical-review.html'
+      - 'office/article-editor.html'
+      - 'tests/test_article_editor.py'
       - 'tests/test_technical_review_desk.py'
       - 'tests/test_editorial_board.py'
       - 'tests/test_command_center.py'
@@ -25,3 +27,4 @@ jobs:
           python tests/test_command_center.py
           python tests/test_editorial_board.py
           python tests/test_technical_review_desk.py
+          python tests/test_article_editor.py

@@ -10,7 +10,7 @@ class ABBNewsroomTests(unittest.TestCase):
         article=(ROOT/"editorial"/"drafts"/(SLUG+".md")).read_text(encoding="utf-8")
         self.assertIn("publication_allowed: false",article)
         self.assertIn("2026-05-27",article)
-        self.assertIn("2026-09-29",article)
+        self.assertIn("September 29, 2026",article)
         self.assertIn("5.5 to 22 kW",article)
         self.assertIn("OEM",article)
         self.assertIn("https://new.abb.com/news/detail/136092/",article)

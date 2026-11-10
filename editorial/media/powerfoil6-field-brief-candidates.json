@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "authentic_source_candidates_rights_not_cleared",
+  "article": "editorial/drafts/powerfoil6-field-brief.md",
+  "reviewed_at": "2026-11-10",
+  "candidates": [
+    {
+      "subject": "Powerfoil 6 — official full-fan product image",
+      "manufacturer": "Big Ass Fans",
+      "model": "Powerfoil 6",
+      "original_page": "https://bigassfans.com/powerfoil-6-hvls-fan/",
+      "image_url": "https://cdn11.bigcommerce.com/s-sywvraqwr6/images/stencil/1280w/products/147/701/Powerfoil%25206_PDP%2520Carousel%2520Tiles_2026Full%2520Product__84332.1772645057.jpg?compression=lossy",
+      "provenance": "Image linked directly from official product page; manually inspected November 10, 2026",
+      "license": "not_verified",
+      "publication_allowed": false,
+      "caption_proposal": "Big Ass Fans Powerfoil 6, six-airfoil configuration (photo licensing required)",
+      "technical_review": "Confirm image matches the same model and current product details",
+      "intended_use": "Potential opener/hero photo after permission"
+    },
+    {
+      "subject": "Powerfoil 6 — official drive/hub and safety cable detail",
+      "manufacturer": "Big Ass Fans",
+      "model": "Powerfoil 6",
+      "original_page": "https://bigassfans.com/powerfoil-6-hvls-fan/",
+      "image_url": "https://cdn11.bigcommerce.com/s-sywvraqwr6/images/stencil/1280w/products/147/699/Powerfoil%25206_PDP%2520Carousel%2520Tiles_2026Product%2520Detail_1__95485.1772645057.jpg?compression=lossy",
+      "provenance": "Image linked directly from official product page; manually inspected November 10, 2026",
+      "license": "not_verified",
+      "publication_allowed": false,
+      "caption_proposal": "Powerfoil 6 drive enclosure and hub assembly (photo licensing required)",
+      "technical_review": "Check that hardware callouts and safety cable terms match the exact manual revision",
+      "intended_use": "Potential document-based technical callout after permission"
+    }
+  ]
+}

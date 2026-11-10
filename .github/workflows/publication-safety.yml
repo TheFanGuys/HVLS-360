@@ -6,7 +6,10 @@ on:
       - 'editorial/approvals/**'
       - 'editorial/drafts/**'
       - 'office/publication_guard.py'
+      - 'office/article_page.py'
+      - 'office/render_release.py'
       - 'tests/test_publication_guard.py'
+      - 'tests/test_article_page.py'
       - '.github/workflows/publication-safety.yml'
   push:
     branches: [main]
@@ -15,6 +18,8 @@ on:
       - 'editorial/approvals/**'
       - 'editorial/drafts/**'
       - 'office/publication_guard.py'
+      - 'office/article_page.py'
+      - 'office/render_release.py'
       - '.github/workflows/publication-safety.yml'
   workflow_dispatch:
 permissions:
@@ -29,5 +34,7 @@ jobs:
           python-version: '3.12'
       - name: Run publisher release audit
         run: python office/publication_guard.py
-      - name: Run release guard tests
-        run: python -m unittest discover -s tests -p 'test_publication_guard.py' -v
+      - name: Run publisher and HTML release tests
+        run: |
+          python -m unittest discover -s tests -p 'test_publication_guard.py' -v
+          python -m unittest discover -s tests -p 'test_article_page.py' -v

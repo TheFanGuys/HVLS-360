@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "departments": [
+    {
+      "id": "manufacturers",
+      "name": "Manufacturer Watch",
+      "feeds": [
+        {
+          "name": "Google News — HVLS manufacturers",
+          "url": "https://news.google.com/rss/search?q=HVLS+fan+manufacturer+product+launch&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
+    {
+      "id": "controls",
+      "name": "Controls & VFDs",
+      "feeds": [
+        {
+          "name": "Google News — industrial fan drives",
+          "url": "https://news.google.com/rss/search?q=industrial+fan+VFD+controls&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
+    {
+      "id": "installation",
+      "name": "Installation & Commissioning",
+      "feeds": [
+        {
+          "name": "Google News — HVLS installation",
+          "url": "https://news.google.com/rss/search?q=HVLS+fan+installation+commissioning&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "name": "Service & Troubleshooting",
+      "feeds": [
+        {
+          "name": "Google News — HVLS service",
+          "url": "https://news.google.com/rss/search?q=HVLS+fan+maintenance+service&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "name": "Codes & Safety",
+      "feeds": [
+        {
+          "name": "Google News — industrial fan safety",
+          "url": "https://news.google.com/rss/search?q=industrial+ceiling+fan+fire+code+safety&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "name": "Airflow Engineering",
+      "feeds": [
+        {
+          "name": "Google News — destratification",
+          "url": "https://news.google.com/rss/search?q=HVLS+destratification+industrial+ventilation&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Market Intelligence",
+      "feeds": [
+        {
+          "name": "Google News — industrial ventilation market",
+          "url": "https://news.google.com/rss/search?q=industrial+ventilation+HVLS+market&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "New Products",
+      "feeds": [
+        {
+          "name": "Google News — HVLS new products",
+          "url": "https://news.google.com/rss/search?q=new+HVLS+fans+products&hl=en-US&gl=US&ceid=US:en"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+name: HVLS 360 Research Desk
+on:
+  workflow_dispatch:
+  schedule:
+    # 08:00 America/Phoenix (Arizona does not observe daylight saving time)
+    - cron: '0 15 * * 2,5'
+permissions:
+  contents: read
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect research leads
+        id: research
+        shell: bash
+        run: |
+          set +e
+          python office/research.py
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then
+            exit "$code"
+          fi
+      - name: Upload private research report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hvls360-research-${{ github.run_id }}
+          path: office/reports/*-research.md
+          if-no-files-found: error
+          retention-days: 30

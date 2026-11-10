@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "visual_requests_not_approved_assets",
+  "requests": [
+    {
+      "subject": "Authentic HVLS fan installation for abb-2026-ip66-vfd-field-report.md",
+      "manufacturer_link": null,
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "not_verified",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "Find a real industrial installation photo with permission, accurate fan/structure depiction and appropriate crop.",
+      "draft_file": "abb-2026-ip66-vfd-field-report.md"
+    },
+    {
+      "subject": "Authentic HVLS fan installation for cfei-vs-cfm-per-watt-field-guide.md",
+      "manufacturer_link": null,
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "not_verified",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "Find a real industrial installation photo with permission, accurate fan/structure depiction and appropriate crop.",
+      "draft_file": "cfei-vs-cfm-per-watt-field-guide.md"
+    },
+    {
+      "subject": "Authentic HVLS fan installation for greenheck-ds-series-2026-field-report.md",
+      "manufacturer_link": null,
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "not_verified",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "Find a real industrial installation photo with permission, accurate fan/structure depiction and appropriate crop.",
+      "draft_file": "greenheck-ds-series-2026-field-report.md"
+    },
+    {
+      "subject": "Authentic HVLS fan installation for hvls-air-movement-vs-ventilation.md",
+      "manufacturer_link": null,
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "not_verified",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "Find a real industrial installation photo with permission, accurate fan/structure depiction and appropriate crop.",
+      "draft_file": "hvls-air-movement-vs-ventilation.md"
+    },
+    {
+      "subject": "Authentic HVLS fan installation for powerfoil6-field-brief.md",
+      "manufacturer_link": null,
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "not_verified",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "Find a real industrial installation photo with permission, accurate fan/structure depiction and appropriate crop.",
+      "draft_file": "powerfoil6-field-brief.md"
+    }
+  ]
+}

@@ -65,6 +65,9 @@ jobs:
       - name: COO Head of Research triage
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/coo_research_head.py
+      - name: COO Evidence Researcher public metadata investigation
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/coo_evidence_researcher.py
       - name: COO synthesis and department handoffs
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/coo_brief.py
@@ -88,6 +91,7 @@ jobs:
             office/reports/coo-routing-latest.json
             office/reports/coo-source-audit.json
             office/reports/coo-research-head-decisions.json
+            office/reports/coo-evidence-research.json
           if-no-files-found: error
           retention-days: 30
 

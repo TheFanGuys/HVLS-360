@@ -1,9 +1,16 @@
 name: HVLS 360 Research Desk
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/research-desk.yml'
   schedule:
     # 08:00 America/Phoenix (Arizona does not observe daylight saving time)
     - cron: '0 15 * * 2,5'
+concurrency:
+  group: hvls360-research-${{ github.ref }}
+  cancel-in-progress: false
 permissions:
   contents: write
   issues: write
@@ -102,6 +109,7 @@ jobs:
             office/reports/coo-research-head-decisions.json
             office/reports/coo-evidence-research.json
             office/reports/coo-managing-editor-intake.json
+            office/reports/coo-issues-sync.json
           if-no-files-found: error
           retention-days: 30
 

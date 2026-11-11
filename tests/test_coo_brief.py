@@ -32,8 +32,15 @@ class COOBriefTests(unittest.TestCase):
   workflow=(ROOT/".github/workflows/research-desk.yml").read_text()
   self.assertIn("python office/coo_brief.py",workflow)
   self.assertIn("git add office/research-latest.json office/editorial-latest.json office/media-latest.json office/coo-latest.json",workflow)
- def test_initial_snapshot_is_unpublished(self):
+ def test_committed_brief_is_unpublished(self):
   data=json.loads((ROOT/"office/coo-latest.json").read_text())
   self.assertFalse(data["publication_allowed"])
-  self.assertIn("snapshot",data["status"])
+  self.assertIn(data["status"],("initial_snapshot_from_existing_research_indices_not_a_new_run","automated_operational_brief_not_autonomous_agent"))
+ def test_shared_sync_evidence_is_whitelisted(self):
+  def fixture(name):
+   return {"status":"synced_unverified_leads","issues_created":2,"eligible_candidates":4,"run_id":"123","deduplication_check":"created_items_rechecked_no_duplicates","private_notes":"DO-NOT-EXPORT"} if name=="reports/coo-issues-sync.json" else {}
+  with patch('coo_brief.load',side_effect=fixture):d=build()
+  self.assertEqual(d["shared_issue_sync"]["issues_created"],2)
+  self.assertEqual(d["shared_issue_sync"]["run_id"],"123")
+  self.assertNotIn("DO-NOT-EXPORT",json.dumps(d))
 if __name__=="__main__":unittest.main()

@@ -9,7 +9,7 @@
 | ID | Primary source | Verified observations | Scope |
 | --- | --- | --- | --- |
 | PF6-01 | [Big Ass Fans, Powerfoil 6 product page](https://bigassfans.com/powerfoil-6-hvls-fan/) | Eight diameter choices, web product configuration options, onboard VFD, standard OLED control, BAFCon upgrade and advertised 24-fan control | Manufacturer's current marketing/product listing, reviewed 2026-11-10 |
-| PF6-02 | [Big Ass Fans, Powerfoil 6 Installation Guide Rev. D](https://bigassfans.com/docs/powerfoil6/powerfoil6-install-guide.pdf) | Dated 2025-11-19; electrical supply and protection, mount rules, relay arrangements, inspection requirements | Product-specific original manual; parsed text cross-checked, diagrams and supply variants need independent final examination |
+| PF6-02 | [Big Ass Fans, Powerfoil 6 Installation Guide Rev. D](https://bigassfans.widen.net/view/pdf/7t3u2vurlm/powerfoil6-install-guide.pdf) | Dated 2025-11-19; electrical supply and protection, mount rules, relay arrangements, inspection requirements | Product-specific original manual; parsed text cross-checked, diagrams and supply variants need independent final examination |
 
 ## Findings worth carrying into release
 
@@ -39,3 +39,15 @@
 - Consider replacing the draft's closing editorial notes with a clean end-of-article source section in the approved release.
 
 **Remaining:** Expert reviews, final source recheck, image rights, publisher sign-off. No article release authorized.
+
+
+## Primary-document recovery — November 11, 2026
+
+The previous `/docs/powerfoil6/powerfoil6-install-guide.pdf` citation failed with a redirect loop. Recovered the current manual link from the original HTML of [Big Ass Fans Powerfoil 6 Support](https://bigassfans.com/support/hvls-fans/powerfoil-6/). The Widen URL above is its linked document viewer; retrieved the actual PDF from the viewer-provided asset and checked its title/revision and printed pages. No manufacturer PDF or screenshot is republished in this repository.
+
+- Confirmed Rev. D, November 19, 2025. Printed p. 1 and p. 21 include the 575–600 VAC three-phase category; this still does not prove an orderable SKU.
+- Confirmed printed p. 2: prescribed angle irons, restriction on strut substitution and prohibition on a single purlin/truss/bar-joist attachment.
+- Visually inspected the original diagrams on printed pp. 23–24 (PDF pages 25–26). The normally-open arrangement energizes the relay coil for shutdown; the optional normally-closed arrangement keeps the coil energized for operation. The article's distinction is supported by these manufacturer pages; it is not a generic wiring instruction for other fans.
+- Maintenance begins on printed p. 26; the Annual Maintenance Checklist is printed p. 31. Updated manuscript source page range.
+
+The missing-manual retrieval blocker is resolved. Independent specialist judgment, applicability to the supplied equipment, image rights and founder approval remain open. This is a primary-source verification record, not an independent licensed engineering attestation.

@@ -17,7 +17,7 @@ class Powerfoil6PackageTests(unittest.TestCase):
     def test_product_specific_source_trace(self):
         for url in (
             "https://bigassfans.com/powerfoil-6-hvls-fan/",
-            "https://bigassfans.com/docs/powerfoil6/powerfoil6-install-guide.pdf",
+            "https://bigassfans.widen.net/view/pdf/7t3u2vurlm/powerfoil6-install-guide.pdf",
         ):
             self.assertIn(url,self.article)
             self.assertIn(url,self.review)

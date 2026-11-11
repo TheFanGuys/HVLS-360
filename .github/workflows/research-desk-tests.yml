@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - 'office/**'
+      - 'editorial/**'
       - 'tests/**'
       - '.github/workflows/research-desk-tests.yml'
   workflow_dispatch:
@@ -20,5 +21,7 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_*.py' -v
       - name: Audit all editorial draft citations and media
         run: python office/editorial_readiness.py
+      - name: Verify qualified technical signoff register
+        run: python office/technical_signoff_audit.py
       - name: Check Python syntax
         run: python -m compileall -q office tests

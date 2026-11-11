@@ -60,7 +60,7 @@ HVLS fans can be valuable components of an industrial air-movement strategy, but
 
 ### Sources
 
-[1] Big Ass Fans, *BAF Ceiling Fan Design Guide*, especially sections 1.3 (Thermal Comfort) and 2.4 (Ceiling Fan Use in Heating): https://learn.bigassfans.com/design-guide
+[1] Big Ass Fans, *BAF Ceiling Fan Design Guide*, especially sections 2.1 (Thermal Comfort) and 2.4 (Ceiling Fan Use in Heating): https://learn.bigassfans.com/design-guide
 
 [2] U.S. Department of Energy, *Top 11 Things You Didn't Know About Saving Energy at Home: Summer Edition*: https://www.energy.gov/articles/top-11-things-you-didnt-know-about-saving-energy-home-summer-edition
 

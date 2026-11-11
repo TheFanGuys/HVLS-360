@@ -32,7 +32,7 @@ class NewsIndex(HTMLParser):
         if not title:return
         self.rows.append({'title':title,'url':item['url'],'published':date,
                           'date_basis':'publisher_reported_date_only','source_kind':'official_manufacturer_index',
-                          'discovery_url':self.base})
+                          'discovery_url':self.base,'index_scope':f'First {MAX_ARTICLES} dated articles within {MAX_BYTES} bytes; not exhaustive coverage'})
 def entries(html,url):
     parser=NewsIndex(url);parser.feed(html.decode('utf-8',errors='replace') if isinstance(html,bytes) else html)
     return parser.rows
@@ -44,5 +44,10 @@ def fetch(url):
         if actual.scheme!='https' or actual.hostname!=expected.hostname:raise ValueError('Official index redirected outside source')
         if 'text/html' not in response.headers.get('Content-Type','').lower():raise ValueError('Official index is not HTML')
         raw=response.read(MAX_BYTES+1)
-        if len(raw)>MAX_BYTES:raise ValueError('Official news index too large')
+        if len(raw)>MAX_BYTES:
+            sample=raw[:MAX_BYTES]
+            if len(entries(sample,url))<MAX_ARTICLES:
+                raise ValueError('Official index exceeds bounded sample without enough complete dated entries')
+            # A complete bounded latest-news sample is sufficient; do not fetch the archive/footer.
+            return sample
         return raw

@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/research-desk.yml'
       - 'office/sources.json'
+      - 'office/manufacturer_news.py'
   schedule:
     # 08:00 America/Phoenix (Arizona does not observe daylight saving time)
     - cron: '0 15 * * 2,5'

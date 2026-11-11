@@ -147,6 +147,16 @@ def render_markdown(text):
     close_list()
     return "\n".join(result)
 
+def image_presentation(media, placement):
+    """Only reviewed fit/position values can enter the image style."""
+    spec=media.get("presentation",{}).get(placement,{})
+    fit=spec.get("fit","contain")
+    position=spec.get("position",media.get("position","50% 50%"))
+    if fit not in ("contain","cover") or not re.fullmatch(r"(?:100|[0-9]{1,2})% (?:100|[0-9]{1,2})%",position):
+        raise ValueError("Invalid image presentation")
+    return "object-fit:"+fit+";object-position:"+position
+
+
 def article_hero(root,slug):
     root=pathlib.Path(root)
     manifest=root/"editorial/media/article-images.json"
@@ -159,7 +169,7 @@ def article_hero(root,slug):
         raise ValueError("Missing or unsafe article lead image")
     esc=lambda v:html.escape(str(v),quote=True)
     kind="photo" if media.get("kind")=="photo" else "diagram"
-    return '<figure class="article-lead '+kind+'"><img src="../../'+esc(path)+'" alt="'+esc(media["alt"])+'" loading="lazy" decoding="async" style="object-position:'+esc(media.get("position","50% 50%"))+'"><figcaption>'+esc(media["caption"])+' — '+esc(media["credit"])+'</figcaption></figure>'
+    return '<figure class="article-lead '+kind+'"><img src="../../'+esc(path)+'" alt="'+esc(media["alt"])+'" loading="lazy" decoding="async" style="'+esc(image_presentation(media,"lead"))+'"><figcaption>'+esc(media["caption"])+' — '+esc(media["credit"])+'</figcaption></figure>'
 
 def build_html(root,slug):
     root=pathlib.Path(root)
@@ -210,7 +220,7 @@ def build_html(root,slug):
 <meta property="og:image" content="{BASE}assets/masthead.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="HVLS 360 RSS" href="{BASE}rss.xml">
 <link rel="stylesheet" href="../../assets/style.css"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{ld}</script><link rel="stylesheet" href="../../assets/publication.css?v=20261111-image-led"></head><body>
+<script type="application/ld+json">{ld}</script><link rel="stylesheet" href="../../assets/publication.css?v=20261111-crop-review"></head><body>
 <div class="top"><div class="wrap"><span>HVLS 360° / Industry Intelligence</span><span>Presented by Big Fan Guys</span></div></div>
 <header class="masthead wrap"><a href="../../" aria-label="HVLS 360 home"><img src="../../assets/masthead.png" alt="HVLS 360 Industry Intelligence" width="2048" height="896"></a></header>
 <nav class="nav" aria-label="Primary"><div class="wrap"><a href="../../">Home</a><a href="../../#departments">Industry News</a><a href="../../#departments">Technology</a><a href="../../#departments">Installation</a><a href="../../#departments">Service &amp; VFDs</a></div></nav>

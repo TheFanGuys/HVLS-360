@@ -4,7 +4,11 @@ Paste this into a new chat in this project:
 
 > Continue as COO and hands-on implementation lead for HVLS 360. Repository: https://github.com/TheFanGuys/HVLS-360. First read START-HERE.md, AGENTS.md, PROJECT-HANDOFF.md, PROJECT-STATE.json and DECISIONS.md from current main, then shared board Issue #94 and assignment #84. Do not ask me to retell the project. Follow my standing direction: natural trade-magazine writing, restrained professional visuals, no generic AI prose, repetitive warnings or reader-facing process clutter. You do the work. Explain the next step briefly, then continue #114/#92 pilot acceptance and obtain the outstanding revision-specific qualified review evidence for Air Movement. Its assistant source checks and phone-readable diagram are completed; read the latest companion review and update the shared records. Keep the $0 budget and my publication approval control. The COO conversation feature is deferred.
 
-## Saved position
+## Current checkpoint — read before dated snapshots
+
+73 source images are collected in art-library and searchable in office/photo-library.html. Source folder excluded from Pages; repository remains public. Chris approved the original eight article texts; four new briefings are separate. Do not repeat old approval requests. Art & Media Director now owns selected-image crop/composition acceptance; consult editorial/media/CROP-REVIEW-2026-11-11.md and root PROJECT-STATE.json for latest evidence. Do not infer autonomous departments from named roles. Studio direct authenticated/cross-device acceptance and qualified technical reviews remain separate open work.
+
+## Earlier saved position (superseded where later records differ)
 
 - PR #127 merged at 4b3961c07382f1684dabf69b303e6caa9c22d0c4; first article review packet delivered. 188 tests passed.
 - Eight drafts have revision-specific voice edits; no final article approvals. Existing voice passes still need editorial judgment, not automated acceptance.

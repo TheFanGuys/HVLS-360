@@ -9,7 +9,7 @@ class ResearchShelfTests(unittest.TestCase):
    self.assertTrue(r['url'].startswith('https://'));self.assertIn(r['url'],page)
    self.assertIn(r['group'],['Studies & research','Laws & regulations','Standards & technical information'])
   self.assertNotIn('install-guide.pdf',page)
-  self.assertIn('Research &amp; regulation desk',(ROOT/'index.html').read_text())
+  self.assertIn('Research, studies &amp; regulation',(ROOT/'index.html').read_text())
  def test_original_founder_approvals_stay_revision_bound(self):
   data=json.loads((ROOT/'editorial/founder-approval-register.json').read_text())
   self.assertEqual(len(data['records']),8)

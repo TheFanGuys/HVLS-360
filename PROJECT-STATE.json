@@ -11,11 +11,11 @@
   "drafts": 12,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
-  "last_verified_python_tests": 192,
+  "last_verified_python_tests": 194,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Build a serious, substantial trade publication: expand sourced content and finish release requirements without requesting approval again for original eight.",
-  "next_task": "Continue substantive expansion and release requirements; 12-piece preview and 24-source public research shelf are deployed. Preserve original eight approvals; new briefings #133–136 are separate.",
+  "next_task": "Verify deployed image-led magazine and all article images; continue release requirements without re-requesting original eight approvals.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Content/design deployment verified November 11: PR #137 merged at 2eb6044e8afb179cc2ad569b9b39d6cf87f658c1; Pages run 43062393678 succeeded; all three GitHub checks passed. Live browser observed 12 preview cards, opened all four new briefings with rendered bodies/no horizontal overflow, confirmed the public homepage's six-source research rail, and tested OSHA search: 7 of 24 reference entries. Paper-toned design and compact masthead visually inspected. 192 Python tests, six JavaScript suites and 267 local references passed. Existing eight founder approvals remain recorded; four new briefings remain distinct review assignments.",
+  "latest_verified_change": "Construction Today reference inspected in live browser. Rebuilt review edition as an image-led trade magazine: black compact masthead, BFG blue/orange, featured + supporting story, image grid, useful sidebar and captioned article headers. All twelve pieces have an image mapping; authentic publisher-authorized field photos used where applicable, original diagrams for technical subjects. Three site-owned photos visually checked, resized/compressed with metadata stripped; source/model/caption provenance recorded. Public research rail also has clearly labeled illustrations. Founder article approval remains unchanged.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,

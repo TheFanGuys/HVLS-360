@@ -132,3 +132,8 @@ Delivered content/design expansion: twelve original pieces in the full preview (
 ## Expanded publication — deployed acceptance
 
 Content/design deployment verified November 11: PR #137 merged at 2eb6044e8afb179cc2ad569b9b39d6cf87f658c1; Pages run 43062393678 succeeded; all three GitHub checks passed. Live browser observed 12 preview cards, opened all four new briefings with rendered bodies/no horizontal overflow, confirmed the public homepage's six-source research rail, and tested OSHA search: 7 of 24 reference entries. Paper-toned design and compact masthead visually inspected. 192 Python tests, six JavaScript suites and 267 local references passed. Existing eight founder approvals remain recorded; four new briefings remain distinct review assignments.
+
+
+## November 11 — image-led magazine direction
+
+Construction Today reference inspected in live browser. Rebuilt review edition as an image-led trade magazine: black compact masthead, BFG blue/orange, featured + supporting story, image grid, useful sidebar and captioned article headers. All twelve pieces have an image mapping; authentic publisher-authorized field photos used where applicable, original diagrams for technical subjects. Three site-owned photos visually checked, resized/compressed with metadata stripped; source/model/caption provenance recorded. Public research rail also has clearly labeled illustrations. Founder article approval remains unchanged. Tests: 194 Python cases, six executable JavaScript suites pass. Publish renderer consumes the same safe media map. No borrowed Construction Today content/images or unlicensed manufacturer photographs. Deployment verification follows.

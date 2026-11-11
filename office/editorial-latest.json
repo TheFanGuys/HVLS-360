@@ -1,6 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T15:40:01.262619+00:00",
+  "generated_at": "2026-11-11T15:44:30.636124+00:00",
   "status": "unverified_assignment_briefs_not_articles",
-  "briefs": []
+  "briefs": [
+    {
+      "id": "lead-001",
+      "working_title": "Invertek Drives Optidrive E4 delivers increased capability without complexity",
+      "desk": "Controls & VFDs",
+      "lead_url": "https://www.invertekdrives.com/news/general-news/invertek-drives-optidrive-e4-delivers-increased-capability-without-complexity",
+      "status": "research_required",
+      "us_relevance": "unverified",
+      "source_verification": "pending",
+      "technical_review": "pending",
+      "image_rights_review": "pending",
+      "editorial_review": "pending",
+      "publisher_approval": "not_requested",
+      "assignment_questions": [
+        "Find the original primary source, publication date and author.",
+        "What changed and why does it matter to U.S. installers or facilities?",
+        "Which technical claims can be supported with original documentation?",
+        "Are there limitations, commercial interests or contradictory evidence?",
+        "What would an HVLS field technician or facility manager do differently?"
+      ],
+      "notes": [
+        "U.S. applicability not established from headline"
+      ]
+    }
+  ]
 }

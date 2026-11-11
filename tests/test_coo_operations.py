@@ -10,6 +10,7 @@ class COOOperationsTests(unittest.TestCase):
    self.assertIn("'"+department+"'",page)
   for term in ("localStorage","Export COO handoff JSON","Publisher approval","browser-local"):
    self.assertIn(term,page)
-  self.assertNotIn("fetch(",page)
+  self.assertIn("coo-latest.json",page)
+  self.assertNotIn("editorial/drafts/",page)
   self.assertNotIn("innerHTML",page)
 if __name__=="__main__":unittest.main()

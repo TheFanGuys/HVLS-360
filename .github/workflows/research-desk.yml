@@ -59,6 +59,9 @@ jobs:
       - name: COO specialist assignment routing
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/coo_route.py
+      - name: COO Source Checker evidence audit
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/coo_source_checker.py
       - name: COO synthesis and department handoffs
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/coo_brief.py
@@ -80,6 +83,7 @@ jobs:
             office/reports/article-skeletons.json
             office/reports/technical-media-requests.json
             office/reports/coo-routing-latest.json
+            office/reports/coo-source-audit.json
           if-no-files-found: error
           retention-days: 30
 

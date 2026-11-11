@@ -36,3 +36,22 @@ class ManufacturerNewsTests(unittest.TestCase):
    with patch.object(research,'ROOT',root),patch.object(news,'fetch',return_value=b'<html>changed layout</html>'):
     self.assertEqual(research.run(dt.datetime(2026,11,11,tzinfo=dt.timezone.utc)),2)
    self.assertTrue(json.loads((root/'office/research-latest.json').read_text())['errors'])
+
+class SampleLimitTests(unittest.TestCase):
+ def test_large_archive_uses_complete_bounded_sample(self):
+  import io
+  class Response(io.BytesIO):
+   headers={'Content-Type':'text/html'}
+   def geturl(self):return BASE
+  data=(article()*50).encode()
+  with patch.object(news,'MAX_ARTICLES',2),patch.object(news,'MAX_BYTES',len(article().encode())*3),patch('urllib.request.urlopen',return_value=Response(data)):
+   raw=news.fetch(BASE)
+   self.assertEqual(len(raw),len(article().encode())*3)
+   self.assertEqual(len(news.entries(raw,BASE)),2)
+ def test_incomplete_oversized_archive_stays_visible_failure(self):
+  import io
+  class Response(io.BytesIO):
+   headers={'Content-Type':'text/html'}
+   def geturl(self):return BASE
+  with patch.object(news,'MAX_BYTES',50),patch('urllib.request.urlopen',return_value=Response(b'<html>'+b'x'*100)):
+   with self.assertRaisesRegex(ValueError,'bounded sample'):news.fetch(BASE)

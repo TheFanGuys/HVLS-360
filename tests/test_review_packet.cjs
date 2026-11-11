@@ -1,0 +1,29 @@
+const assert=require('node:assert/strict');
+require('../office/review-repository.js');require('../office/review-packet.js');
+const content='---\nstatus: "EDITORIAL DRAFT — NOT APPROVED"\npublication_allowed: false\n---\n# Fixture';
+(async()=>{
+ let calls=[];
+ const response=value=>({ok:true,json:async()=>({sha:'one',content:Buffer.from(typeof value==='string'?value:JSON.stringify(value)).toString('base64')})});
+ const transport=async(url,options)=>{
+  calls.push(url);assert.equal(options.method||'GET','GET');assert.equal(options.headers.Authorization,undefined);
+  if(url.includes('editorial/decisions/'))return {ok:false,status:404};
+  if(url.includes('editorial/drafts/'))return response(content);
+  if(url.includes('-review.md'))return response('# Technical review\nPending specialist review.');
+  if(url.includes('editorial-queue.json'))return response({items:[{slug:'test-article',media:'editorial/media/example.json'}]});
+  if(url.includes('field-photo-inventory'))return response({assets:[{story:'test-article',status:'retained',id:'right'},{story:'other',status:'candidate',id:'wrong'},{story:'test-article',status:'rejected',id:'excluded'}]});
+  return response({candidates:[{id:'source-candidate',publication_allowed:false}]});
+ };
+ const reader=HVLSReviewRepository.reader(transport);
+ assert.equal((await reader.read('test-article')).content,content);
+ assert.deepEqual(await reader.reviews('test-article'),[]);
+ const before=calls.length;
+ await assert.rejects(reader.save('test-article',content,'one'),/Connect/);
+ await assert.rejects(reader.recordReview('test-article',content,'one','editorial_text_reviewed','Review'),/Connect/);
+ assert.equal(calls.length,before);
+ const packet=await HVLSReviewPacket.packet('test-article',transport);
+ assert.match(packet.review,/Pending specialist/);assert.deepEqual(packet.media.map(x=>x.id),['right','source-candidate']);
+ const failure=await HVLSReviewPacket.packet('test-article',async()=>({ok:false,status:403}));
+ assert.match(failure.reviewError,/403/);assert.match(failure.mediaError,/403/);
+ await assert.rejects(HVLSReviewPacket.packet('../escape',transport),/Invalid/);
+ console.log('Public review packet: anonymous reads, writes blocked, matching records only, rejection exclusion and partial failure reporting passed.');
+})().catch(e=>{console.error(e);process.exit(1)});

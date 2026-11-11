@@ -10,13 +10,13 @@ function reviewOnly(text) {
  if (!front || !/^publication_allowed: false\s*$/m.test(front[1]) || !/^status: "EDITORIAL DRAFT — NOT APPROVED"\s*$/m.test(front[1])) throw Error('Save blocked: manuscript must remain an unapproved editorial draft.');
  return text;
 }
-function client(token, transport = fetch) {
+function client(token, transport = fetch, readOnly = false) {
  token=token.trim();
- if (!token) throw Error('Enter a repository-scoped GitHub token.');
+ if (!token && !readOnly) throw Error('Enter a repository-scoped GitHub token.');
  async function request(slug, method = 'GET', body) {
   if (!valid(slug)) throw Error('Invalid article identifier');
   const response = await transport(base + 'editorial/drafts/' + slug + '.md' + (method === 'GET' ? '?ref=main' : ''), {
-   method, cache: 'no-store', headers: {Accept:'application/vnd.github+json', Authorization:'Bearer '+token, 'X-GitHub-Api-Version':'2022-11-28', ...(body ? {'Content-Type':'application/json'} : {})},
+   method, cache: 'no-store', headers: {Accept:'application/vnd.github+json', ...(token?{Authorization:'Bearer '+token}:{}), 'X-GitHub-Api-Version':'2022-11-28', ...(body ? {'Content-Type':'application/json'} : {})},
    ...(body ? {body:JSON.stringify(body)} : {})
   });
   if (!response.ok) throw Error([409,422].includes(response.status) ? 'Conflict: repository draft changed. Your edit is retained; download it, reopen GitHub draft and reconcile before saving.' : 'GitHub request failed (HTTP '+response.status+'). Check repository access; your edit is retained.');
@@ -26,7 +26,7 @@ function client(token, transport = fetch) {
  async function decisionRequest(slug,method='GET',body){
   if(!valid(slug))throw Error('Invalid article identifier');
   const response=await transport(base+'editorial/decisions/'+slug+'.json'+(method==='GET'?'?ref=main':''),{
-   method,cache:'no-store',headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+token,'X-GitHub-Api-Version':'2022-11-28',...(body?{'Content-Type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{})
+   method,cache:'no-store',headers:{Accept:'application/vnd.github+json',...(token?{Authorization:'Bearer '+token}:{}),'X-GitHub-Api-Version':'2022-11-28',...(body?{'Content-Type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{})
   });
   if(method==='GET'&&response.status===404)return null;
   if(!response.ok)throw Error([409,422].includes(response.status)?'Review conflict: another decision was recorded. Reopen and retry; your notes are retained.':'Review request failed (HTTP '+response.status+'). Your notes are retained.');
@@ -38,6 +38,7 @@ function client(token, transport = fetch) {
   if(record.schema_version!==1||record.slug!==slug||record.publication_allowed!==false||!Array.isArray(record.events))throw Error('Review history requires Managing Editor inspection.');
   return record.events;
  }, async recordReview(slug,content,sha,decision,note){
+  if(readOnly)throw Error('Connect to GitHub before recording a shared review.');
   if(!['revisions_requested','editorial_text_reviewed'].includes(decision))throw Error('Invalid editorial decision; publication approval is unavailable.');
   note=String(note||'').trim();if(!note||note.length>2000)throw Error('Enter review notes between 1 and 2000 characters.');
   reviewOnly(content);
@@ -54,6 +55,7 @@ function client(token, transport = fetch) {
   const latest=await read(slug);
   return {event,commit:result.commit.sha,current:latest.sha===sha&&latest.content===content};
  }, async save(slug, content, sha) {
+  if(readOnly)throw Error('Connect to GitHub before saving a shared draft.');
   reviewOnly(content);
   if (!sha) throw Error('Open the GitHub draft before saving.');
   const result = await request(slug, 'PUT', {branch:'main', sha, content:encode(content), message:'Founder review: revise '+slug+' (unapproved)'});
@@ -62,5 +64,5 @@ function client(token, transport = fetch) {
   return {...verified, commit:result.commit.sha};
  }};
 }
-root.HVLSReviewRepository = {client, reviewOnly};
+root.HVLSReviewRepository = {client, reviewOnly, reader: transport=>client('',transport||fetch,true)};
 })(globalThis);

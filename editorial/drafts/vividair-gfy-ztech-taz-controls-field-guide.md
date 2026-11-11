@@ -21,7 +21,7 @@ Go Fan Yourself's legacy product documentation and VividAir's current catalog no
 
 VividAir's current Z-Tech product page lists nine standard fan diameters from **8 to 24 feet** and describes a pitched-blade system intended for large warehouses and manufacturing facilities [2]. It also advertises a Z-Chill upgrade path and publishes a Z-Tech specification sheet dated November 2025, a January 2023 installation and technical operations guide, and an October 2026 sell sheet [2].
 
-That document trail is useful, but not interchangeable. A current sell sheet may describe a controller or option that differs from the one installed years earlier. Before replacing a drive, keypad or motor component, identify the actual fan and control hardware, record its labels and compare the applicable technical guide with the supplied submittal.
+Those documents span different equipment generations and should not be treated as interchangeable. A current sell sheet may describe a controller or option that differs from the one installed years earlier. Before replacing a drive, keypad or motor component, identify the actual fan and control hardware, record its labels and compare the applicable technical guide with the supplied submittal.
 
 The older Go Fan Yourself Z-Tech page describes a product partnership involving ABB and a Dodge Quantis Z-Tech drive system [3]. That historical description is relevant to legacy service work; it does **not** establish that every current VividAir Z-Tech fan uses the same exact drive, firmware or control arrangement.
 
@@ -37,7 +37,7 @@ VividAir advertises up to 135 feet of linear cooling coverage and up to 75,200 C
 
 VividAir's current Z-Tech page identifies **VividAir Navigator** as a platform for centralized individual and group fan control [2]. The historical Go Fan Yourself Z-Tech page highlights ABB-based system components [3].
 
-Neither statement is enough to design a retrofit from a distance. A service technician should document the actual keypad, controller, drive nameplate, motor, communications wiring and any building-management or fire-alarm interface before recommending a replacement.
+Neither product description establishes the controls installed at a particular facility. A service technician should document the actual keypad, controller, drive nameplate, motor, communications wiring and any building-management or fire-alarm interface before recommending a replacement.
 
 A recurring mistake in the large-fan business is to assume that a VFD with the right input voltage and horsepower can be substituted without considering the fan manufacturer's motor characteristics and safety/control sequence. The exact OEM-approved combination and documentation govern the work. This is particularly relevant where a site has a mixture of older GFY installations and newer VividAir equipment.
 

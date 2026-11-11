@@ -15,6 +15,21 @@ class ManufacturerTests(unittest.TestCase):
         found,errors=m.discover(src,lambda url:XML)
         self.assertEqual(len(found[0]["candidate_urls"]),1)
         self.assertEqual(errors,[])
+    def test_direct_sources_survive_sitemap_failure(self):
+        def unavailable(url):
+            raise OSError("sitemap unavailable")
+        source=[{"name":"VividAir","url":"https://vividairmovement.com/",
+                 "direct_source_urls":["https://vividairmovement.com/product/taz/",
+                                       "https://example.com/unsafe/"]}]
+        found,errors=m.discover(source,unavailable)
+        self.assertEqual(found[0]["candidate_urls"],["https://vividairmovement.com/product/taz/"])
+        self.assertEqual(len(errors),1)
+    def test_direct_source_deduped_with_sitemap(self):
+        source=[{"name":"VividAir","url":"https://vividairmovement.com/",
+                 "direct_source_urls":["https://vividairmovement.com/product/taz/"]}]
+        xml=b'<urlset><url><loc>https://vividairmovement.com/product/taz/</loc></url></urlset>'
+        found,_=m.discover(source,lambda url:xml)
+        self.assertEqual(found[0]["candidate_urls"],["https://vividairmovement.com/product/taz/"])
     def test_external_domain_rejected(self):
         xml=b'<urlset><url><loc>https://example.com/research/study</loc></url></urlset>'
         found,_=m.discover([{"name":"BAF","url":"https://bigassfans.com/"}],lambda url:xml)

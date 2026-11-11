@@ -15,7 +15,7 @@ seo_description: "Understand how HVLS air movement differs from outdoor-air vent
 
 # HVLS Fans, Air Movement and Ventilation: What Facility Managers Need to Know
 
-A ceiling fan can make a warehouse feel more comfortable without bringing in any outdoor air. That matters when a facility is buying fans to solve complaints about heat, stagnant air or indoor air quality. Each complaint calls for a different assessment; moving more indoor air does not answer all three.
+A ceiling Fan can make a warehouse feel more comfortable without bringing in any outdoor air. That matters when a facility is buying fans to solve complaints about heat, stagnant air or indoor air quality. Each complaint calls for a different assessment; moving more indoor air does not answer all three.
 
 ![Diagram comparing indoor air recirculation under an HVLS fan with mechanical outdoor-air supply and exhaust](../../editorial/media/original/air-movement-vs-ventilation.svg)
 

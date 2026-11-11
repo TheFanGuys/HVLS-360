@@ -68,7 +68,12 @@
       "direct_source_urls": [
         "https://www.ritehite.com/en/am/products/industrial-fans",
         "https://www.ritehite.com/en/am/products/industrial-fans/hvls-fans"
-      ]
+      ],
+      "sitemap_url": "https://www.ritehite.com/ritehitesitemap/sitemap.am.xml",
+      "preferred_path_prefixes": [
+        "/en/am/"
+      ],
+      "sitemap_basis": "November 11, 2026: robots.txt advertises /sitemapindex.xml; its AM sitemap child retrieved as valid XML. English Americas URLs prioritized; bounded URL discovery only."
     },
     {
       "name": "MacroAir",
@@ -94,7 +99,12 @@
       "direct_source_urls": [
         "https://new.abb.com/us/us-motion-business-area/drives-products/ach5804X",
         "https://new.abb.com/news/detail/136092/abb-expands-portfolio-with-new-ip66-type-4x-drives-for-demanding-environments"
-      ]
+      ],
+      "sitemap_url": "https://new.abb.com/us/sitemap/sitemap.xml",
+      "preferred_path_prefixes": [
+        "/us/"
+      ],
+      "sitemap_basis": "November 11, 2026: robots.txt advertises /sitemap_index.xml; its US child returns gzip bytes without Content-Encoding. Decompression bounded to 2 MB; US URL discovery only, not complete ABB coverage."
     },
     {
       "name": "Invertek Drives",
@@ -109,7 +119,12 @@
       "direct_source_urls": [
         "https://www.invertekdrives.com/variable-frequency-drives/optidrive-e4",
         "https://www.invertekdrives.com/news"
-      ]
+      ],
+      "preferred_path_prefixes": [
+        "/variable-frequency-drives/",
+        "/news/"
+      ],
+      "sitemap_basis": "November 11, 2026: official sitemap parsed at 1,552,694 bytes; within revised hard 2 MB limit. Product/news candidates preferred, not verified claims or US availability."
     },
     {
       "name": "OSHA",

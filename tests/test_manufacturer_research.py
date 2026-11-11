@@ -42,4 +42,43 @@ class ManufacturerTests(unittest.TestCase):
         xml=b'<urlset><url><loc>https://example.com/research/study</loc></url></urlset>'
         found,_=m.discover([{"name":"BAF","url":"https://bigassfans.com/"}],lambda url:xml)
         self.assertEqual(found[0]["candidate_urls"],[])
+
+class SourceRepairTests(unittest.TestCase):
+    def test_configured_official_path_is_used(self):
+        calls=[]
+        def fake(url):calls.append(url);return XML
+        found,errors=m.discover([{'name':'BAF','url':'https://bigassfans.com/','sitemap_url':'https://bigassfans.com/official/index.xml'}],fake)
+        self.assertEqual(calls,['https://bigassfans.com/official/index.xml'])
+        self.assertFalse(errors)
+        self.assertEqual(found[0]['sitemap_status'],'parsed')
+
+    def test_unsafe_override_not_requested(self):
+        calls=[]
+        found,errors=m.discover([{'name':'BAF','url':'https://bigassfans.com/','sitemap_url':'https://other.example/sitemap.xml'}],lambda url:calls.append(url))
+        self.assertEqual(calls,[])
+        self.assertEqual(len(errors),1)
+        self.assertEqual(found[0]['sitemap_status'],'incomplete')
+
+    def test_gzip_and_limits(self):
+        import gzip
+        self.assertEqual(m.bounded_xml(gzip.compress(XML)),XML)
+        self.assertEqual(m.bounded_xml(b'x'*1_552_694),b'x'*1_552_694)
+        with self.assertRaises(ValueError):m.bounded_xml(b'x'*(m.MAX_BYTES+1))
+        with self.assertRaises(ValueError):m.bounded_xml(gzip.compress(b'x'*(m.MAX_BYTES+1)))
+
+    def test_html_is_not_reported_as_parsed_sitemap(self):
+        found,errors=m.discover([{'name':'BAF','url':'https://bigassfans.com/'}],lambda url:b'<html><title>404</title></html>')
+        self.assertEqual(len(errors),1)
+        self.assertEqual(found[0]['sitemap_status'],'incomplete')
+
+    def test_preferred_paths_survive_cap_and_insecure_links_excluded(self):
+        links=['https://example.org/de/hvls/'+str(n) for n in range(45)]+['https://example.org/en/am/hvls/target','http://example.org/hvls/insecure']
+        xml=('<urlset>'+''.join('<url><loc>'+u+'</loc></url>' for u in links)+'</urlset>').encode()
+        found,errors=m.discover([{'name':'Test','url':'https://example.org/','preferred_path_prefixes':['/en/am/']}],lambda url:xml)
+        self.assertFalse(errors)
+        self.assertEqual(found[0]['candidate_urls'][0],'https://example.org/en/am/hvls/target')
+        self.assertTrue(found[0]['candidate_limit_reached'])
+        self.assertEqual(found[0]['discovered_candidate_count'],46)
+        self.assertFalse(any(x.startswith('http:') for x in found[0]['candidate_urls']))
+
 if __name__=="__main__":unittest.main()

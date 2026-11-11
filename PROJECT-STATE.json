@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "evidence_baseline": "6ca460d991cbccd11d412942639b25142bbeb28b",
+  "evidence_baseline": "2ed2c616f286385e124449990b0fe5c976d70953",
   "checkpoint_type": "dated_operator_checkpoint_not_automatic_chat_sync",
   "repository": "TheFanGuys/HVLS-360",
   "board_issue": 94,
@@ -11,11 +11,11 @@
   "drafts": 8,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
-  "last_verified_python_tests": 163,
+  "last_verified_python_tests": 168,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish GitHub editorial pilot acceptance. Founder deferred the COO conversation link; do not spend work on it unless requested again.",
-  "next_task": "Resolve manufacturer discovery coverage for Rite-Hite (sitemap serves 404 HTML), ABB (HTTP error), and Invertek (sitemap over 1.5 MB). Then verify the expanded scheduled research-to-Issues run. Continue phone/article acceptance where access permits.",
+  "next_task": "Verify the expanded real GitHub research run through deduplicated shared Issues and current summary commits, with failure reporting. Three formerly failing manufacturer sitemap paths now parse in a bounded live check; this is not full source or claim verification. Continue phone/article acceptance where access permits.",
   "active_issues": [
     92,
     93,
@@ -44,5 +44,5 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Research date parser accepts Atom/ISO timestamps; two new tests cover dates and actual Atom feed collection. 163 Python tests and publication guard passed."
+  "latest_verified_change": "Configured official Rite-Hite Americas/ABB US sitemap paths, added bounded gzip decoding and hard 2 MB limit, prioritized relevant paths. Live recheck: all three parsed, zero errors in this scope; 168 Python tests passed."
 }

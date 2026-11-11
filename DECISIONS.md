@@ -30,3 +30,10 @@ Chris said “Don’t worry about the coo conversation link.” Defer #116; no c
 Reproduced a collector bug: email.utils.parsedate_to_datetime raises on normal Atom/RFC 3339 dates, so the intended ISO fallback was never reached. Recent Atom leads were silently rejected. Added the fallback on RSS parse failure plus timestamp/offset/stale/future/invalid checks and end-to-end Atom collection coverage. 163 Python tests and publication guard passed locally.
 
 Bounded live sitemap recheck: Rite-Hite returned HTML at https://www.ritehite.com/en/am/404; ABB request raised HTTPError; Invertek XML exceeded 1,500,000 bytes. These remain source-coverage blockers, not fixed by the timestamp repair. Local/live checks do not prove the updated scheduled workflow ran. Next: resolve bounded manufacturer retrieval and verify expanded shared intake; retain all article/founder gates.
+
+
+## November 11, 2026 — manufacturer sitemap retrieval repaired
+
+Official robots files pointed to the correct sitemap indexes. Retrieved Rite-Hite's Americas child (409,794 bytes), ABB's US child (gzip magic bytes, 1,541 compressed / 14,003 expanded bytes), and Invertek's valid 1,552,694-byte sitemap. Configured those regional sources, added bounded gzip decoding, raised the hard limit from 1.5 to 2 MB for wire and expanded bytes, rejected non-sitemap HTML/unsafe source overrides, and prioritized relevant paths before the 40-URL cap.
+
+Actual repaired collector live recheck: Rite-Hite 148 candidate URLs discovered / 40 retained; ABB 25 / 25; Invertek 5,504 / 40. All three parsed with no errors in this scoped check. This is URL discovery, not source-claim verification or exhaustive coverage. The current COO summary records this limited scope and preserves its original research timestamp; other manufacturers were not rechecked. 168 offline tests pass including gzip/expanded-size protection, configured roots, unsafe overrides, HTML rejection and prioritized capped candidates. No paid service or publication. Next: verify the expanded actual research-to-Issues pipeline.

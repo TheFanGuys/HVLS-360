@@ -7,10 +7,10 @@
     "research_leads": 17,
     "editorial_briefs": 5,
     "media_requests": 5,
-    "source_errors": 3,
+    "source_errors": 0,
     "approval_records": 0,
     "published_articles": 0,
-    "manufacturer_source_errors": 3
+    "manufacturer_source_errors": 0
   },
   "assignments": [
     {
@@ -74,9 +74,10 @@
     "Initial snapshot, scheduled synthesis will replace on next research run.",
     "Leads are unverified; no autonomous LLM experts invoked.",
     "No unpublished article text or private notes included.",
-    "Manual manufacturer recheck: 3 sitemap failures across Rite-Hite, ABB and Invertek. Two official candidates per affected source retained, not verified coverage; other sources were not rechecked."
+    "Manual recheck of three repaired manufacturer sitemap paths passed. This is bounded URL discovery, not exhaustive coverage or verified claims. Other manufacturers were not rechecked; feed count uses the existing research snapshot."
   ],
   "publication_allowed": false,
-  "manufacturer_discovery_generated_at": "2026-11-11T12:16:04.217952+00:00",
-  "manufacturer_discovery_scope": "Manual recheck of Rite-Hite, ABB and Invertek only; original research snapshot timestamp is unchanged."
+  "manufacturer_discovery_generated_at": "2026-11-11T15:19:18.914870+00:00",
+  "manufacturer_discovery_scope": "Manual recheck of Rite-Hite, ABB and Invertek only; original research snapshot timestamp is unchanged.",
+  "source_error_scope": "Saved feed snapshot plus the three manually rechecked manufacturers; other manufacturer statuses unverified."
 }

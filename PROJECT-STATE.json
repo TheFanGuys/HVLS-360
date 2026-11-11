@@ -11,11 +11,11 @@
   "drafts": 8,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
-  "last_verified_python_tests": 188,
+  "last_verified_python_tests": 190,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish GitHub editorial pilot acceptance. Founder deferred the COO conversation link; do not spend work on it unless requested again.",
-  "next_task": "Obtain exact-revision qualified technical review evidence for first article; Studio direct Save and second-device acceptance remain open. Continue accessible pilot work.",
+  "next_task": "Verify deployed full-magazine preview and complete remaining live acceptance; first release still requires qualified review evidence and Chris approval.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Chris verified iPhone GitHub editor commit and same-device Review Studio reopen. Current manuscript SHA-256 6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b; founder edits preserved, voice/technical delta rechecked, SEO packet checksum refreshed. Studio direct Save and second physical device remain unverified; qualified technical review and final founder approval remain open.",
+  "latest_verified_change": "Full-site acceptance: 190 Python tests, six JavaScript suites, editorial/metadata/publication checks and 191 local HTML references passed. Live homepage/reference search/shared board inspected; board loaded 17 tasks and search worked. Added nine-page unindexed full magazine preview of all eight current drafts, fixed airflow renderer dimensions, stale Powerfoil reference and personal-note labeling. Report: office/FULL-SITE-ACCEPTANCE-2026-11-11.md.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,

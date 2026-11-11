@@ -107,3 +107,8 @@ Pages deployment 43055755724 succeeded for b39c383519216faa86381321ee4513122daf3
 ## November 11 — founder iPhone save/reopen acceptance
 
 Chris verified iPhone GitHub editor commit and same-device Review Studio reopen. Current manuscript SHA-256 6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b; founder edits preserved, voice/technical delta rechecked, SEO packet checksum refreshed. Studio direct Save and second physical device remain unverified; qualified technical review and final founder approval remain open. Repository evidence: commits c170cbb and 84c39bf, blob e0d72e2c15c20f49803d63068c0b924e11873f78. Technical delta is capitalization/whitespace only; prior source and diagram findings still apply. Next: qualified review evidence for the first article; continue other accessible pilot tasks while direct Studio/second-device acceptance remains open.
+
+
+## November 11 — full-site acceptance and magazine preview
+
+Full-site acceptance: 190 Python tests, six JavaScript suites, editorial/metadata/publication checks and 191 local HTML references passed. Live homepage/reference search/shared board inspected; board loaded 17 tasks and search worked. Added nine-page unindexed full magazine preview of all eight current drafts, fixed airflow renderer dimensions, stale Powerfoil reference and personal-note labeling. Report: office/FULL-SITE-ACCEPTANCE-2026-11-11.md. Preview deployment/browser acceptance follows. Public catalog/RSS/sitemap remain unchanged; founder release and qualified review are still outstanding. Direct Studio physical-device and second-device acceptance remain open.

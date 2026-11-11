@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "evidence_baseline": "40e1af1b479f633f387df2528725de0aecb1ff36",
+  "evidence_baseline": "845c79b543ef304b5e305466c2b4cbad8774720c",
   "checkpoint_type": "dated_operator_checkpoint_not_automatic_chat_sync",
   "repository": "TheFanGuys/HVLS-360",
   "board_issue": 94,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Processed the previously underfilled BigFanGuys.com image request: inventoried 80 gallery entries across seven sections, visually reviewed 20 samples, prepared seven additional distinct web photographs, and replaced repeated imagery on six stories. TAZ photograph remains assigned to the TAZ story only. Exact source URLs, model limits and visual-review scope recorded in editorial/media/big-fan-guys-gallery-inventory.json. Remaining unsampled images are discovered, not visually cleared.",
+  "latest_verified_change": "PR #140 merged at 845c79b543ef304b5e305466c2b4cbad8774720c; Research Desk Tests and Pages deployment 43120081611 succeeded. Actual deployed image bytes matched local SHA-256 for all six replaced story images. Fresh deployed preview contains the new warehouse-HVLS lead image. Seven added photos, 20 visually reviewed samples and 80 discovered gallery entries across seven site sections are recorded. TAZ remains on its own story.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,

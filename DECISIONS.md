@@ -129,3 +129,8 @@ Image-led BFG magazine accepted live November 11. PRs #138/#139 merged; versione
 ## November 11 — Big Fan Guys gallery request processed
 
 Processed the previously underfilled BigFanGuys.com image request: inventoried 80 gallery entries across seven sections, visually reviewed 20 samples, prepared seven additional distinct web photographs, and replaced repeated imagery on six stories. TAZ photograph remains assigned to the TAZ story only. Exact source URLs, model limits and visual-review scope recorded in editorial/media/big-fan-guys-gallery-inventory.json. Remaining unsampled images are discovered, not visually cleared.
+
+
+### Gallery replacement deployment evidence
+
+PR #140 merged at 845c79b543ef304b5e305466c2b4cbad8774720c; Research Desk Tests and Pages deployment 43120081611 succeeded. Actual deployed image bytes matched local SHA-256 for all six replaced story images. Fresh deployed preview contains the new warehouse-HVLS lead image. Seven added photos, 20 visually reviewed samples and 80 discovered gallery entries across seven site sections are recorded. TAZ remains on its own story.

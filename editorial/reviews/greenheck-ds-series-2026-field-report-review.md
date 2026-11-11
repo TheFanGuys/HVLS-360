@@ -21,6 +21,8 @@
 | Federal CFEI threshold (1.00 high / 1.31 at 40%) | eCFR 10 CFR 430.32(s)(2)(ii), Title 10 page current through Nov. 6, checked Nov. 10 | Primary source verified. Product-class exceptions and publication-date changes need re-check before live release. |
 
 ## Outstanding validation
+- [x] Reopened Greenheck's official DS-Series redesign announcement; source remains accessible and performance/cooling claims are attributed to the manufacturer, not treated as independent testing.
+
 
 - [ ] Open current #487917 and older #483568 installation/maintenance manuals and verify mounting, control, clearance and commissioning details against serial/model era.
 - [ ] Electrical and controls reviewer checks available controller SKUs, BAS options and actual wiring/protocol notes.

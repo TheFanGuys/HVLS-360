@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-11",
+  "gallery_entries": 70,
+  "visually_reviewed_sample": 20,
+  "galleries": [
+    {
+      "page": "https://bigfanguys.com/warehouse.html",
+      "images": [
+        "https://bigfanguys.com/gallery/warehouse/IMG_2732.JPG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_2737.JPG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_2742.JPG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_3956.JPG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_4341.jpg",
+        "https://bigfanguys.com/gallery/warehouse/IMG_4685.JPEG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_5441.JPEG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_5844.JPEG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_5847.JPEG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_9670.JPEG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_9674.JPEG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_9685.JPEG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_9828.JPEG",
+        "https://bigfanguys.com/gallery/warehouse/IMG_9910.JPEG"
+      ]
+    },
+    {
+      "page": "https://bigfanguys.com/manufacturing.html",
+      "images": [
+        "https://bigfanguys.com/gallery/manufacturing/IMG_0256.JPG",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_0258.JPG",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_2657.JPG",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_3550.jpg",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_4830.JPG",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_4833.JPG",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_4834.JPG",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_4836.JPG",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_5662.jpg",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_5663.jpg",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_5667.JPG",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_5668.JPG",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_6903.JPEG",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_7830.jpg",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_8348.jpg",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_8703.JPG",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_8712.jpg",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_8715.jpg",
+        "https://bigfanguys.com/gallery/manufacturing/IMG_9565.JPEG"
+      ]
+    },
+    {
+      "page": "https://bigfanguys.com/aviation.html",
+      "images": [
+        "https://bigfanguys.com/gallery/aviation/IMG_2385.JPEG",
+        "https://bigfanguys.com/gallery/aviation/IMG_6148.JPG",
+        "https://bigfanguys.com/gallery/aviation/IMG_6150.JPG",
+        "https://bigfanguys.com/gallery/aviation/IMG_6153.JPG",
+        "https://bigfanguys.com/gallery/aviation/IMG_6206.JPG",
+        "https://bigfanguys.com/gallery/aviation/IMG_6212.JPG",
+        "https://bigfanguys.com/gallery/aviation/IMG_6274.JPG",
+        "https://bigfanguys.com/gallery/aviation/IMG_6293.JPG",
+        "https://bigfanguys.com/gallery/aviation/IMG_6298.JPG",
+        "https://bigfanguys.com/gallery/aviation/IMG_6300.JPG",
+        "https://bigfanguys.com/gallery/aviation/IMG_9636.jpg"
+      ]
+    },
+    {
+      "page": "https://bigfanguys.com/agriculture.html",
+      "images": [
+        "https://bigfanguys.com/gallery/agriculture/IMG_0247.JPG",
+        "https://bigfanguys.com/gallery/agriculture/IMG_0248.JPG",
+        "https://bigfanguys.com/gallery/agriculture/IMG_0249.JPG",
+        "https://bigfanguys.com/gallery/agriculture/IMG_0250.jpg",
+        "https://bigfanguys.com/gallery/agriculture/IMG_0251.jpg",
+        "https://bigfanguys.com/gallery/agriculture/IMG_0252.jpg"
+      ]
+    },
+    {
+      "page": "https://bigfanguys.com/government.html",
+      "images": [
+        "https://bigfanguys.com/gallery/government/815246BE-7923-4CDF-9338-120E936D4C8C.JPG",
+        "https://bigfanguys.com/gallery/government/IMG_0246.JPG",
+        "https://bigfanguys.com/gallery/government/IMG_5618.jpg",
+        "https://bigfanguys.com/gallery/government/IMG_5686.JPG",
+        "https://bigfanguys.com/gallery/government/IMG_5687.JPG",
+        "https://bigfanguys.com/gallery/government/IMG_7825.JPG",
+        "https://bigfanguys.com/gallery/government/IMG_9636.jpg"
+      ]
+    },
+    {
+      "page": "https://bigfanguys.com/automotive.html",
+      "images": [
+        "https://bigfanguys.com/gallery/automotive/IMG_0255.jpeg",
+        "https://bigfanguys.com/gallery/automotive/IMG_6357.jpeg"
+      ]
+    },
+    {
+      "page": "https://bigfanguys.com/install-service.html",
+      "images": [
+        "https://bigfanguys.com/gallery/install-service/IMG_0254.jpg",
+        "https://bigfanguys.com/gallery/install-service/IMG_4970.JPEG",
+        "https://bigfanguys.com/gallery/install-service/IMG_4971.JPEG",
+        "https://bigfanguys.com/gallery/install-service/IMG_5669.JPG",
+        "https://bigfanguys.com/gallery/install-service/IMG_7178.JPEG",
+        "https://bigfanguys.com/gallery/install-service/IMG_7580.JPG",
+        "https://bigfanguys.com/gallery/install-service/IMG_7721.JPEG",
+        "https://bigfanguys.com/gallery/install-service/IMG_9303.JPEG",
+        "https://bigfanguys.com/gallery/install-service/IMG_9305.JPEG",
+        "https://bigfanguys.com/gallery/install-service/IMG_9306.JPEG",
+        "https://bigfanguys.com/gallery/install-service/IMG_9307.JPEG"
+      ]
+    }
+  ],
+  "processed": [
+    {
+      "file": "editorial/media/publisher/bfg-field/warehouse-hvls.webp",
+      "source": "https://bigfanguys.com/gallery/warehouse/IMG_4341.jpg",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "description": "Overhead fan above warehouse racking",
+      "model": "unasserted",
+      "visual_review": "2026-11-11; original inspected in contact sheet",
+      "rights_basis": "Publisher authorization for BigFanGuys.com editorial imagery",
+      "bytes": 145464
+    },
+    {
+      "file": "editorial/media/publisher/bfg-field/production-floor.webp",
+      "source": "https://bigfanguys.com/gallery/manufacturing/IMG_0256.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "description": "Overhead fans across an industrial production floor",
+      "model": "unasserted",
+      "visual_review": "2026-11-11; original inspected in contact sheet",
+      "rights_basis": "Publisher authorization for BigFanGuys.com editorial imagery",
+      "bytes": 59952
+    },
+    {
+      "file": "editorial/media/publisher/bfg-field/industrial-install.webp",
+      "source": "https://bigfanguys.com/gallery/manufacturing/IMG_2657.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "description": "Fan installation and access equipment inside an industrial building",
+      "model": "unasserted",
+      "visual_review": "2026-11-11; original inspected in contact sheet",
+      "rights_basis": "Publisher authorization for BigFanGuys.com editorial imagery",
+      "bytes": 93222
+    },
+    {
+      "file": "editorial/media/publisher/bfg-field/ceiling-fan.webp",
+      "source": "https://bigfanguys.com/gallery/install-service/IMG_0254.jpg",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "description": "Installed multi-blade ceiling fan beneath a steel roof",
+      "model": "unasserted",
+      "visual_review": "2026-11-11; original inspected in contact sheet",
+      "rights_basis": "Publisher authorization for BigFanGuys.com editorial imagery",
+      "bytes": 31894
+    },
+    {
+      "file": "editorial/media/publisher/bfg-field/fan-hub.webp",
+      "source": "https://bigfanguys.com/gallery/automotive/IMG_6357.jpeg",
+      "source_page": "https://bigfanguys.com/automotive.html",
+      "description": "Elevated close view of a directional-fan motor assembly",
+      "model": "unasserted",
+      "visual_review": "2026-11-11; original inspected in contact sheet",
+      "rights_basis": "Publisher authorization for BigFanGuys.com editorial imagery",
+      "bytes": 66260
+    },
+    {
+      "file": "editorial/media/publisher/bfg-field/mount-detail.webp",
+      "source": "https://bigfanguys.com/gallery/install-service/IMG_4970.JPEG",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "description": "Close view of a fan mounting flange and fasteners",
+      "model": "unasserted",
+      "visual_review": "2026-11-11; original inspected in contact sheet",
+      "rights_basis": "Publisher authorization for BigFanGuys.com editorial imagery",
+      "bytes": 51836
+    },
+    {
+      "file": "editorial/media/publisher/bfg-field/elevated-install.webp",
+      "source": "https://bigfanguys.com/gallery/warehouse/IMG_3956.JPG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "description": "Elevated view of a fan motor assembly and blades",
+      "model": "unasserted",
+      "visual_review": "2026-11-11; original inspected in contact sheet",
+      "rights_basis": "Publisher authorization for BigFanGuys.com editorial imagery",
+      "bytes": 90592
+    }
+  ],
+  "use_policy": "No gallery dump. Match context to story; do not assert product model, customer, measured performance or study participation from a photo."
+}

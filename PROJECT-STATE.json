@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Build a serious, substantial trade publication: expand sourced content and finish release requirements without requesting approval again for original eight.",
-  "next_task": "Continue substantive editorial/release work; image-led 12-article preview and 24-source public research shelf delivered. Original eight approvals remain recorded.",
+  "next_task": "Verify expanded photo mapping on deployed preview; continue story-specific selection from discovered site galleries instead of recycling TAZ imagery.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Image-led BFG magazine accepted live November 11. PRs #138/#139 merged; versioned stylesheet commit 40e1af1b479f633f387df2528725de0aecb1ff36 deployed successfully in Pages run 43065072180. Fresh preview URL ?v=20261111-image-led verified: black BFG masthead, blue/orange branding, 320px feature photograph, concise card headlines, distinct supporting photograph and sidebar. All twelve article header images/captions previously opened live with no broken images or tested desktop overflow. Final homepage overflow false. 194 Python tests, six JavaScript suites and 280 local references passed. Existing founder approvals unchanged.",
+  "latest_verified_change": "Processed the previously underfilled BigFanGuys.com image request: inventoried 80 gallery entries across seven sections, visually reviewed 20 samples, prepared seven additional distinct web photographs, and replaced repeated imagery on six stories. TAZ photograph remains assigned to the TAZ story only. Exact source URLs, model limits and visual-review scope recorded in editorial/media/big-fan-guys-gallery-inventory.json. Remaining unsampled images are discovered, not visually cleared.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,

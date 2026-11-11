@@ -101,6 +101,10 @@ class ArticleReleaseTests(unittest.TestCase):
         rendered=render_markdown(markup)
         self.assertIn('scissor-lift-access-planning.svg',rendered)
         self.assertIn('alt="Lift access planning"',rendered)
+    def test_original_vfd_diagram_renders_safely(self):
+        rendered=render_markdown('![VFD selection](../../editorial/media/original/vfd-compatibility-check.svg)')
+        self.assertIn('vfd-compatibility-check.svg',rendered)
+        self.assertIn('alt="VFD selection"',rendered)
     def test_unlisted_local_diagram_is_not_embedded(self):
         rendered=render_markdown('![Unknown](../../editorial/media/original/unknown.svg)')
         self.assertNotIn('<img ',rendered)

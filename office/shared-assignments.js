@@ -41,7 +41,26 @@
    for(const [label,value] of [['Owner',field(issue.body,'Owner')||field(issue.body,'Assigned role')||'Managing Editor — assign next owner'],['Checkpoint',field(issue.body,'Next checkpoint')||field(issue.body,'Target')||'See issue'],['Updated',issue.updated_at]]) {
     const p=document.createElement('p');p.className='meta';p.textContent=label+': '+value;box.append(p);
    }
-   const details=document.createElement('details'),summary=document.createElement('summary'),text=document.createElement('pre');summary.textContent='Blockers, evidence and handoff history';text.textContent=issue.body||'See GitHub assignment.';details.append(summary,text);box.append(details);host.append(box);
+   const details=document.createElement('details'),summary=document.createElement('summary'),text=document.createElement('pre');summary.textContent='Blockers, evidence and handoff history';text.textContent=issue.body||'See GitHub assignment.';details.append(summary,text);box.append(details);
+   const match=(issue.body||'').match(/\/editorial\/drafts\/([a-z0-9-]+)\.md/);
+   if(category(issue)==='article'&&match){
+    const button=document.createElement('button'),outcome=document.createElement('p');button.type='button';button.textContent='Load shared editorial review';outcome.setAttribute('role','status');
+    button.addEventListener('click',async()=>{
+     button.disabled=true;outcome.textContent='Loading review…';const slug=match[1];
+     try{
+      const response=await fetch('https://api.github.com/repos/TheFanGuys/HVLS-360/contents/editorial/decisions/'+slug+'.json?ref=main',{cache:'no-store'});
+      if(response.status===404){outcome.textContent='No shared editorial decision recorded. Publication remains unapproved.';return;}
+      if(!response.ok)throw Error('HTTP '+response.status);
+      const file=await response.json();const data=JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(file.content.replace(/\s/g,'')),c=>c.charCodeAt(0))));
+      if(data.schema_version!==1||data.slug!==slug||data.publication_allowed!==false||!Array.isArray(data.events))throw Error('Invalid review record');
+      const last=data.events[data.events.length-1];if(!last)throw Error('Empty review history');
+      const current=await fetch('https://api.github.com/repos/TheFanGuys/HVLS-360/contents/editorial/drafts/'+slug+'.md?ref=main',{cache:'no-store'});
+      const version=current.ok?((await current.json()).sha===last.manuscript_blob_sha?'current manuscript':'previous manuscript revision'):'current revision not checked';
+      outcome.textContent=last.decision+' · '+last.recorded_at+' · '+version+' · '+last.note+' · No publication authorization';
+     }catch(error){outcome.textContent='Shared review unavailable: '+error.message;}finally{button.disabled=false;}
+    });box.append(button,outcome);
+   }
+   host.append(box);
   }
   if(!shown.length) {const p=document.createElement('p');p.className='empty';p.textContent='No matching open assignments.';host.append(p);}
  }

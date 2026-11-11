@@ -23,7 +23,37 @@ function client(token, transport = fetch) {
   return response.json();
  }
  async function read(slug) { const file = await request(slug); return {sha:file.sha, content:decode(file.content)}; }
- return {read, async save(slug, content, sha) {
+ async function decisionRequest(slug,method='GET',body){
+  if(!valid(slug))throw Error('Invalid article identifier');
+  const response=await transport(base+'editorial/decisions/'+slug+'.json'+(method==='GET'?'?ref=main':''),{
+   method,cache:'no-store',headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+token,'X-GitHub-Api-Version':'2022-11-28',...(body?{'Content-Type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{})
+  });
+  if(method==='GET'&&response.status===404)return null;
+  if(!response.ok)throw Error([409,422].includes(response.status)?'Review conflict: another decision was recorded. Reopen and retry; your notes are retained.':'Review request failed (HTTP '+response.status+'). Your notes are retained.');
+  return response.json();
+ }
+ return {read, async reviews(slug){
+  const file=await decisionRequest(slug);if(!file)return [];
+  const record=JSON.parse(decode(file.content));
+  if(record.schema_version!==1||record.slug!==slug||record.publication_allowed!==false||!Array.isArray(record.events))throw Error('Review history requires Managing Editor inspection.');
+  return record.events;
+ }, async recordReview(slug,content,sha,decision,note){
+  if(!['revisions_requested','editorial_text_reviewed'].includes(decision))throw Error('Invalid editorial decision; publication approval is unavailable.');
+  note=String(note||'').trim();if(!note||note.length>2000)throw Error('Enter review notes between 1 and 2000 characters.');
+  reviewOnly(content);
+  const current=await read(slug);
+  if(!sha||current.sha!==sha||current.content!==content)throw Error('Review blocked: save your edits and reopen the current GitHub revision first.');
+  const previous=await decisionRequest(slug);
+  const record=previous?JSON.parse(decode(previous.content)):{schema_version:1,slug,publication_allowed:false,events:[]};
+  if(record.schema_version!==1||record.slug!==slug||record.publication_allowed!==false||!Array.isArray(record.events)||record.events.length>=200)throw Error('Existing decision history needs Managing Editor review.');
+  const event={decision,manuscript_blob_sha:sha,recorded_at:new Date().toISOString(),note,publication_allowed:false};
+  record.events.push(event);
+  const result=await decisionRequest(slug,'PUT',{branch:'main',...(previous?{sha:previous.sha}:{}),content:encode(JSON.stringify(record,null,2)+'\n'),message:'Editorial review: '+decision+' for '+slug+' (no publication approval)'});
+  const verified=await decisionRequest(slug);
+  if(!verified||verified.sha!==result.content.sha||decode(verified.content)!==JSON.stringify(record,null,2)+'\n')throw Error('Review commit created but readback differs; inspect GitHub history before retrying.');
+  const latest=await read(slug);
+  return {event,commit:result.commit.sha,current:latest.sha===sha&&latest.content===content};
+ }, async save(slug, content, sha) {
   reviewOnly(content);
   if (!sha) throw Error('Open the GitHub draft before saving.');
   const result = await request(slug, 'PUT', {branch:'main', sha, content:encode(content), message:'Founder review: revise '+slug+' (unapproved)'});

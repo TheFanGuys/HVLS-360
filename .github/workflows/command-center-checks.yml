@@ -4,6 +4,9 @@ on:
     paths:
       - 'office/command-center.html'
       - 'office/coo-operations.html'
+      - 'office/shared-assignments.html'
+      - 'office/shared-assignments.js'
+      - 'tests/test_shared_assignments.cjs'
       - 'office/coo-latest.json'
       - 'office/coo_brief.py'
       - 'tests/test_coo_brief.py'
@@ -39,6 +42,7 @@ jobs:
       - name: Check command center structure and JavaScript
         run: |
           python tests/test_command_center.py
+          node tests/test_shared_assignments.cjs
           python tests/test_coo_operations.py
           python tests/test_coo_brief.py
           python tests/test_coo_issues.py

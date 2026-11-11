@@ -1,6 +1,16 @@
 # HVLS 360 — durable COO handoff
 
-Checkpoint: November 11, 2026. Repository: https://github.com/TheFanGuys/HVLS-360 . Evidence baseline: main 8435d7bf9c098be58fdd46d007eda3df9b04347f. This handoff is maintained in GitHub so recovery does not depend on a ChatGPT thread. It is a dated checkpoint, not automatic chat synchronization. Verify newer commits, Issues and Actions before declaring current status.
+Checkpoint: November 11, 2026. Repository: https://github.com/TheFanGuys/HVLS-360 . Evidence baseline: main 4b3961c07382f1684dabf69b303e6caa9c22d0c4 (PR #127). This handoff is maintained in GitHub so recovery does not depend on a ChatGPT thread. It is a dated checkpoint, not automatic chat synchronization. Verify newer commits, Issues and Actions before declaring current status.
+
+## Latest checkpoint — ready to change chats
+
+PR #127 is merged. The Air Movement vs. Ventilation founder text-review packet is in its companion review file. Manuscript unchanged; voice revision hash retained. 188 tests passed, as did GitHub Research Desk Tests and local editorial, technical and publication audits. No code or article task is mid-operation at this checkpoint.
+
+Chris's latest request is to move to a fresh chat and stop the AI voice, visual clutter and repetitive warnings. This is a standing requirement, not a new feature pitch. Follow the detailed direction in AGENTS.md and editorial/COPYDESK-STANDARD.md. Do the editing and implementation; give Chris finished work and specific decisions, not another list of chores.
+
+**First task in the new chat:** finish the Air Movement article's remaining source checks (BAF, DOE, Standard 55), inspect its original SVG and make it readable on a phone. Resolve exact technical questions from evidence; keep the register honest without inventing an external-review requirement for every general statement. Update manuscript/hash only if text changes, run relevant checks, deliver through GitHub and maintain #84/#94. Then continue pilot acceptance #114 and Studio acceptance #92. COO conversation #116 stays deferred.
+
+Start prompt is in START-HERE.md. No need to recover the old chat transcript to begin.
 
 ## Read this first in a replacement chat
 

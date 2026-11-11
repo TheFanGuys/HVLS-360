@@ -18,3 +18,14 @@ Chris confirmed on November 11, 2026 that the COO conversation and project must 
 Before substantive work in any fresh/replacement session, read root PROJECT-HANDOFF.md, PROJECT-STATE.json and DECISIONS.md, then the latest shared board Issue #94 and relevant task evidence. Do not ask Chris to retell recoverable project history or repeat settled decisions. Check for newer commits and distinguish dated snapshots from current verification.
 
 After every meaningful task or new founder decision, update those durable records and the relevant shared GitHub Issues before handing back. Record what changed, verified evidence, unresolved blockers and the next concrete action. Do not promise automatic chat synchronization; this is an explicit operator maintenance responsibility. If repository access is unavailable, use the copied recovery packet, disclose that current state is unverified and preserve the work for later reconciliation.
+
+## Founder direction — voice, design and working style
+
+Chris reaffirmed November 11: the entire publication must read and look like a serious trade magazine. The assistant does the work; Chris makes editorial and business decisions. Do not make him clean up AI prose or supervise routine execution.
+
+- Write directly, with concrete field detail, useful reporting and natural sentence rhythm. Cut padded intros, generic transitions, forced contrasts, repeated caveats and formulaic conclusions.
+- Keep legal boilerplate, review checklists, approval reminders, confidence labels and internal process commentary out of reader-facing articles and artwork. Keep a short qualification only where it changes the reader's understanding of a claim or action. State it once, where relevant.
+- Do not add warnings, badges, disclaimers or requests for outside experts reflexively. Identify the actual unsupported claim, verify it, narrow it or remove it. Request specialist input only for a specific consequential question that cannot be resolved responsibly from available evidence. Record outstanding work internally.
+- Use restrained trade-publication design: strong typography, legible diagrams, accurate relevant field images and clean spacing. Avoid generic AI artwork, decorative dashboard clutter, excessive cards, icons and status banners. Review phone presentation as well as desktop.
+- Apply this to all current/future stories, office screens, graphics and user updates, regardless of plugin or author. Separate factual verification from voice and visual editing. Do not invent experience or certainty.
+- Keep updates short: result, real obstacle if any, next action. Maintain the publication approval control internally; do not append the same warning to every reply.

@@ -59,7 +59,7 @@ Before mobilization, resolve four things in writing: **the exact ordered electri
 
 [1] Big Ass Fans, *Powerfoil 6 HVLS Fan* (product page; reviewed November 10, 2026): https://bigassfans.com/powerfoil-6-hvls-fan/
 
-[2] Big Ass Fans, *Powerfoil 6 Installation Guide*, Rev. D, November 19, 2025; pp. 1–4, 21–24 and 26–30: https://bigassfans.com/docs/powerfoil6/powerfoil6-install-guide.pdf
+[2] Big Ass Fans, *Powerfoil 6 Installation Guide*, Rev. D, November 19, 2025; pp. 1–4, 21–24 and 26–31 (current link recovered from the manufacturer support page on November 11, 2026): https://bigassfans.widen.net/view/pdf/7t3u2vurlm/powerfoil6-install-guide.pdf
 
 ### Editorial verification record
 

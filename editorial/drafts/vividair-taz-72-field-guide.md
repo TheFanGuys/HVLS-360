@@ -30,7 +30,7 @@ The manufacturer says the fan can be installed flat or angled and describes one-
 
 ## Two sizes, two technical guides
 
-The current VividAir TAZ product page links a **72-inch Installation and Technical Operations Guide** dated January 2023 and a separate guide for the 36-inch version [1][2]. The 72-inch guide itself carries Go Fan Yourself branding alongside VividAir references, making it a useful document for understanding the product's brand continuity.
+The current VividAir TAZ product page labels its January 2023 download as the **72-inch Installation and Technical Operations Guide**, alongside a separate 36-inch guide [1][2]. Inside that linked document, however, the headings identify a **7ft TAZ Fan**, while the power-requirements section lists **GFY-TAZ-72-480** and **GFY-TAZ-72-240** [2, printed p. 13]. That inconsistency needs manufacturer clarification against the supplied unit. The download label alone does not establish the unit's dimensions or the applicability of every drawing.
 
 The guide's installation check-in procedure calls for the contractor and customer to review the fan layout, controller locations and supply panels before unloading, and to review the mounting method for each location [2]. Include those decisions in the site survey, before equipment and labor are mobilized.
 
@@ -61,13 +61,13 @@ This matters especially at mixed-generation facilities. Legacy documentation may
 
 ## Establish the discharge path
 
-For a TAZ layout, identify where the air must reach and what blocks its path. Then check the selected size, orientation and mounting arrangement against the applicable guide. Retain the model-specific controls documentation with the installation record.
+For a TAZ layout, identify where the air must reach and what blocks its path. Then check the selected size, orientation and mounting arrangement against the applicable guide. Retain the model-specific controls documentation with the installation record, and resolve the linked guide’s size-label inconsistency before treating it as the final installation reference.
 
 ### Sources
 
 [1] VividAir, *TAZ product page*, including current product literature and model-specific guide links: https://vividairmovement.com/product/taz/
 
-[2] VividAir / Go Fan Yourself, *TAZ Fan Installation & Technical Operations Guide*, January 2023, 72-inch model: https://vividairmovement.com/wp-content/uploads/2023/01/TAZ_Installation_and_Technical_Operations_Guide_1.2023.pdf
+[2] VividAir / Go Fan Yourself, *TAZ Fan Installation & Technical Operations Guide*, January 2023; linked as 72-inch on the product page, with conflicting 7ft headings in the document: https://vividairmovement.com/wp-content/uploads/2023/01/TAZ_Installation_and_Technical_Operations_Guide_1.2023.pdf
 
 ### Editorial verification record
 

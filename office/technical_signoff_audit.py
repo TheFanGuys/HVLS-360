@@ -16,12 +16,15 @@ def audit(root=ROOT):
   seen.add(slug)
   if not (root/record["primary_review_file"]).is_file():
    errors.append("missing review: "+slug)
+  if record.get("ai_expert_review")=="complete":
+   ai_file=root/record.get("ai_expert_review_file","")
+   if not ai_file.is_file():errors.append("missing AI expert review: "+slug)
   if record["technical_status"]=="complete" and not all(record.get(k) for k in ("reviewer_identity","review_date","review_evidence")):
    errors.append("unsubstantiated technical completion: "+slug)
   if record["technical_status"] not in ("awaiting_qualified_review","complete"):
    errors.append("unknown review status: "+slug)
  if seen!=drafts:errors.append("review coverage mismatch: "+", ".join(sorted(seen^drafts)))
- return {"articles":len(records),"technical_signoffs":sum(r["technical_status"]=="complete" for r in records),"errors":errors}
+ return {"articles":len(records),"technical_signoffs":sum(r["technical_status"]=="complete" for r in records),"ai_expert_reviews":sum(r.get("ai_expert_review")=="complete" for r in records),"errors":errors}
 if __name__=="__main__":
  result=audit()
  print(json.dumps(result,indent=2))

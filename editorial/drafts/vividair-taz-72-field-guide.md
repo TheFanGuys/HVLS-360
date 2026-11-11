@@ -5,7 +5,7 @@ status: "EDITORIAL DRAFT — NOT APPROVED"
 publication_allowed: false
 primary_market: "United States"
 research_checked: "2026-11-10"
-image_status: "Publisher-owned 72-inch TAZ installation photographs cleared for editorial use; binary files pending repository import"
+image_status: "Two publisher-owned field photos 02 and 03 in repository; model/caption verification pending"
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"

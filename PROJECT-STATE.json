@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Build a serious, substantial trade publication: expand sourced content and finish release requirements without requesting approval again for original eight.",
-  "next_task": "Verify expanded photo mapping on deployed preview; continue story-specific selection from discovered site galleries instead of recycling TAZ imagery.",
+  "next_task": "Verify Art Desk photo browser and Pages exclusion after deployment; continue article image selection from the shared library and future uploads.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "PR #140 merged at 845c79b543ef304b5e305466c2b4cbad8774720c; Research Desk Tests and Pages deployment 43120081611 succeeded. Actual deployed image bytes matched local SHA-256 for all six replaced story images. Fresh deployed preview contains the new warehouse-HVLS lead image. Seven added photos, 20 visually reviewed samples and 80 discovered gallery entries across seven site sections are recorded. TAZ remains on its own story.",
+  "latest_verified_change": "Created the shared Art Department source library: 70 gallery photographs plus 3 homepage brand images collected as web-sized copies under art-library/bigfanguys-com, organized in seven industry folders plus brand. Original source URLs retained; files are collected candidates, not all visually/model cleared. art-library/uploads accepts future additions. office/photo-library.html reads catalog and GitHub tree, so new uploads appear on open/refresh without manual website edits. _config.yml excludes art-library from Pages; public GitHub access is still possible. Art Desk/Command Center links and standing Art Department collection-first instructions added. No autonomous media agents claimed.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,
@@ -54,5 +54,8 @@
   "iphone_acceptance_basis": "Founder reported GitHub commit and same-iPhone Studio reopen; repository changes verified.",
   "founder_approved_articles": 8,
   "new_briefings": 4,
-  "reference_sources": 24
+  "reference_sources": 24,
+  "art_library_files": 73,
+  "art_library_folder": "art-library",
+  "autonomous_art_agents_running": false
 }

@@ -1,0 +1,1235 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-11",
+  "source": "https://bigfanguys.com/",
+  "scope": "All 70 image entries from seven project galleries plus three homepage brand images. Web-sized copies; originals remain linked.",
+  "processing": "Web-sized archival copies; orientation/compression and metadata stripping. Original source URLs retained. Originals remain on BigFanGuys.com.",
+  "assets": [
+    {
+      "id": "warehouse/IMG_2732",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_2732.JPG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_2732.webp",
+      "original_filename": "IMG_2732.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "8672f896c3887b9cd5af7b29e6113b4ffcff9e46a9788d07db14d3c5448f3a2c",
+      "bytes": 100746
+    },
+    {
+      "id": "warehouse/IMG_2737",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_2737.JPG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_2737.webp",
+      "original_filename": "IMG_2737.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "344f0ddcd2c29a7b35b3edc2b7357bb601e36a9f69f4913ba6d80de83b6031d5",
+      "bytes": 103256
+    },
+    {
+      "id": "warehouse/IMG_2742",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_2742.JPG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_2742.webp",
+      "original_filename": "IMG_2742.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "e8093575c68ca0011bafe9afe492169644a62f97cd0e26db4594a780a4c0bf70",
+      "bytes": 98114
+    },
+    {
+      "id": "warehouse/IMG_3956",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_3956.JPG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_3956.webp",
+      "original_filename": "IMG_3956.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "13bb08dda92816e061d764fb4d72a1c05417b3d321d7a1c4a0424bbdfc32e8c3",
+      "bytes": 92640
+    },
+    {
+      "id": "warehouse/IMG_4341",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_4341.jpg",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_4341.webp",
+      "original_filename": "IMG_4341.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "7a94931ec561a614fcd4605d2fbe4eec369d78c5bedab99b1bdde45a370c54cb",
+      "bytes": 148116
+    },
+    {
+      "id": "warehouse/IMG_4685",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_4685.JPEG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_4685.webp",
+      "original_filename": "IMG_4685.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "13886136e4955aa6056270d23a5fb1d5c7b88549cc6d39c3b189da667fb47324",
+      "bytes": 133566
+    },
+    {
+      "id": "warehouse/IMG_5441",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_5441.JPEG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_5441.webp",
+      "original_filename": "IMG_5441.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "631391dd78b904aa1e89998962a802ef3f17ffc9df1b66ac93c7084e7d5fa486",
+      "bytes": 121832
+    },
+    {
+      "id": "warehouse/IMG_5844",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_5844.JPEG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_5844.webp",
+      "original_filename": "IMG_5844.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "4b112379590166791fbf93a4789de4c1b5f13e07b9b256ad5f8a29ac7262a84b",
+      "bytes": 75422
+    },
+    {
+      "id": "warehouse/IMG_5847",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_5847.JPEG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_5847.webp",
+      "original_filename": "IMG_5847.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "20f7bde22dd8fc36f0234c307b0063ea891aeebaaf7b9c92479fe85e2b9663cb",
+      "bytes": 104434
+    },
+    {
+      "id": "warehouse/IMG_9670",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_9670.JPEG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_9670.webp",
+      "original_filename": "IMG_9670.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "b373c69eb760402e52259692abe54de807acfb2083957b14e65994da437555f8",
+      "bytes": 124194
+    },
+    {
+      "id": "warehouse/IMG_9674",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_9674.JPEG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_9674.webp",
+      "original_filename": "IMG_9674.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "ea2cb93cf4e312a28651cbfe7c950c1ae283769da89ae10f4ea19955287d043c",
+      "bytes": 115466
+    },
+    {
+      "id": "warehouse/IMG_9685",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_9685.JPEG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_9685.webp",
+      "original_filename": "IMG_9685.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "52350a968619f31a40fbeea2b25079dbde77b60635dabbe81f2ffc25ba6673d4",
+      "bytes": 117836
+    },
+    {
+      "id": "warehouse/IMG_9828",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_9828.JPEG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_9828.webp",
+      "original_filename": "IMG_9828.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "cc0acb76e79f30ec1374b205ffdd9e6498aea450724d3f630b4989c38254db5a",
+      "bytes": 54682
+    },
+    {
+      "id": "warehouse/IMG_9910",
+      "category": "warehouse",
+      "source_url": "https://bigfanguys.com/gallery/warehouse/IMG_9910.JPEG",
+      "source_page": "https://bigfanguys.com/warehouse.html",
+      "repository_file": "art-library/bigfanguys-com/warehouse/IMG_9910.webp",
+      "original_filename": "IMG_9910.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "warehouse"
+      ],
+      "description": "warehouse field photograph",
+      "sha256": "18f266985b20b60470e722f5e0f1d339e401ca31fcdc98761cef90042a685e0f",
+      "bytes": 149376
+    },
+    {
+      "id": "manufacturing/IMG_0256",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_0256.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_0256.webp",
+      "original_filename": "IMG_0256.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "f47f369421d4fcb33259a2e33b43b952dff5180025e56097497c4a95e5b66055",
+      "bytes": 61094
+    },
+    {
+      "id": "manufacturing/IMG_0258",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_0258.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_0258.webp",
+      "original_filename": "IMG_0258.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "11e2a5396dcb0ab1cf1e10a4b03131517548911bd7365ab85c28da6ee60144c5",
+      "bytes": 58720
+    },
+    {
+      "id": "manufacturing/IMG_2657",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_2657.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_2657.webp",
+      "original_filename": "IMG_2657.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "7fb266cec95a90343b3c569b914406374ab42f0b26cb685ac86252eba3b512af",
+      "bytes": 95040
+    },
+    {
+      "id": "manufacturing/IMG_3550",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_3550.jpg",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_3550.webp",
+      "original_filename": "IMG_3550.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "cede83a3820bebc41b301608c3bc83f56d5b3e54eb913200ddedc77a1da7ce7e",
+      "bytes": 100494
+    },
+    {
+      "id": "manufacturing/IMG_4830",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_4830.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_4830.webp",
+      "original_filename": "IMG_4830.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "59cfba917ee0a8fb3717d7c77960b125484d7f65e6403428cf6682f71135da89",
+      "bytes": 119266
+    },
+    {
+      "id": "manufacturing/IMG_4833",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_4833.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_4833.webp",
+      "original_filename": "IMG_4833.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "1256e744e99fdbcd7e44295ecef65764a01537f75af3dbef3c1cba3f4b96522e",
+      "bytes": 105068
+    },
+    {
+      "id": "manufacturing/IMG_4834",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_4834.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_4834.webp",
+      "original_filename": "IMG_4834.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "496e5ad734b31dd34e8fb753088921304aa280b7403d8742cb1932a7f2010424",
+      "bytes": 97764
+    },
+    {
+      "id": "manufacturing/IMG_4836",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_4836.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_4836.webp",
+      "original_filename": "IMG_4836.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "5ab0c6795b97167463e25cd1d91968aa09cf141e73fd3695a9d6d85f586caa02",
+      "bytes": 133812
+    },
+    {
+      "id": "manufacturing/IMG_5662",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_5662.jpg",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_5662.webp",
+      "original_filename": "IMG_5662.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "07d8886c46106118b22badeef00fe5937f1402f4b772c6e8851d3638e6ccf5c3",
+      "bytes": 157306
+    },
+    {
+      "id": "manufacturing/IMG_5663",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_5663.jpg",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_5663.webp",
+      "original_filename": "IMG_5663.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "9f2f1193123a91db6d8e4f7744072a943f8c418245fb8dadbddc2dd72468173c",
+      "bytes": 121970
+    },
+    {
+      "id": "manufacturing/IMG_5667",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_5667.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_5667.webp",
+      "original_filename": "IMG_5667.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "1ca93fa088720dcf4d4f98717c1ae4038de2e093d72040b0f9aed484961d51b3",
+      "bytes": 63118
+    },
+    {
+      "id": "manufacturing/IMG_5668",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_5668.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_5668.webp",
+      "original_filename": "IMG_5668.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "6aedb67e293000072f56340b5c268a2c982152098b83c3db90b40c24fefed87f",
+      "bytes": 66096
+    },
+    {
+      "id": "manufacturing/IMG_6903",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_6903.JPEG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_6903.webp",
+      "original_filename": "IMG_6903.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "cba3270f816ef94f5137d2d91a81fb77eee98ff1b4d520a5e8208d2e7cd97cfa",
+      "bytes": 110376
+    },
+    {
+      "id": "manufacturing/IMG_7830",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_7830.jpg",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_7830.webp",
+      "original_filename": "IMG_7830.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "611eebad1988a9380a7f2e9078677f02f0b8c2f739b1ff85ca50d581aaf11cda",
+      "bytes": 121254
+    },
+    {
+      "id": "manufacturing/IMG_8348",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_8348.jpg",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_8348.webp",
+      "original_filename": "IMG_8348.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "92e67c5489091ce1a09294bf6de5d8e1b24b9c1995fd4f872537c58ea0ea9ccf",
+      "bytes": 71694
+    },
+    {
+      "id": "manufacturing/IMG_8703",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_8703.JPG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_8703.webp",
+      "original_filename": "IMG_8703.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "ec6ced0228e83f303109c4ba57970f771c7d3c2c482f728d055f577494e3bf60",
+      "bytes": 92194
+    },
+    {
+      "id": "manufacturing/IMG_8712",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_8712.jpg",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_8712.webp",
+      "original_filename": "IMG_8712.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "ec6f6a27a932235b8f1310e93496c481b8d20ff0252ef7a45b5c2169b0a1dbf2",
+      "bytes": 91818
+    },
+    {
+      "id": "manufacturing/IMG_8715",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_8715.jpg",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_8715.webp",
+      "original_filename": "IMG_8715.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "854256ae89fdb86cea37761ec04d22aa31fe0fe3bc0af0e27126d952183db56a",
+      "bytes": 91082
+    },
+    {
+      "id": "manufacturing/IMG_9565",
+      "category": "manufacturing",
+      "source_url": "https://bigfanguys.com/gallery/manufacturing/IMG_9565.JPEG",
+      "source_page": "https://bigfanguys.com/manufacturing.html",
+      "repository_file": "art-library/bigfanguys-com/manufacturing/IMG_9565.webp",
+      "original_filename": "IMG_9565.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "manufacturing"
+      ],
+      "description": "manufacturing field photograph",
+      "sha256": "f62f4bf08eb57056652da5b8ea41b206cdadb34d76db86b252671de19d9b39ba",
+      "bytes": 133430
+    },
+    {
+      "id": "aviation/IMG_2385",
+      "category": "aviation",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_2385.JPEG",
+      "source_page": "https://bigfanguys.com/aviation.html",
+      "repository_file": "art-library/bigfanguys-com/aviation/IMG_2385.webp",
+      "original_filename": "IMG_2385.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "aviation"
+      ],
+      "description": "aviation field photograph",
+      "sha256": "14aa0c67c97a848974aab7c0fda9ebf86e4f1a598f2ee882b2448ac209d43505",
+      "bytes": 98870
+    },
+    {
+      "id": "aviation/IMG_6148",
+      "category": "aviation",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_6148.JPG",
+      "source_page": "https://bigfanguys.com/aviation.html",
+      "repository_file": "art-library/bigfanguys-com/aviation/IMG_6148.webp",
+      "original_filename": "IMG_6148.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "aviation"
+      ],
+      "description": "aviation field photograph",
+      "sha256": "f722587e606b6e37c53fab2ae26591c33152fefc68ab39442be451f6b2806e26",
+      "bytes": 151288
+    },
+    {
+      "id": "aviation/IMG_6150",
+      "category": "aviation",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_6150.JPG",
+      "source_page": "https://bigfanguys.com/aviation.html",
+      "repository_file": "art-library/bigfanguys-com/aviation/IMG_6150.webp",
+      "original_filename": "IMG_6150.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "aviation"
+      ],
+      "description": "aviation field photograph",
+      "sha256": "bdb2750e637b96a0d798a1e7dc2a9ade38b048030c0c565242368b71e9cf63c4",
+      "bytes": 95516
+    },
+    {
+      "id": "aviation/IMG_6153",
+      "category": "aviation",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_6153.JPG",
+      "source_page": "https://bigfanguys.com/aviation.html",
+      "repository_file": "art-library/bigfanguys-com/aviation/IMG_6153.webp",
+      "original_filename": "IMG_6153.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "aviation"
+      ],
+      "description": "aviation field photograph",
+      "sha256": "247c8cd479bef7cc75938c002db88b611e36a17e5ac5ce517210018fd7a598e3",
+      "bytes": 103932
+    },
+    {
+      "id": "aviation/IMG_6206",
+      "category": "aviation",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_6206.JPG",
+      "source_page": "https://bigfanguys.com/aviation.html",
+      "repository_file": "art-library/bigfanguys-com/aviation/IMG_6206.webp",
+      "original_filename": "IMG_6206.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "aviation"
+      ],
+      "description": "aviation field photograph",
+      "sha256": "8a7c0b5a9887e606558e68c3e9eb6f20bff8d81d295b4d802a01b27197aa2e71",
+      "bytes": 60566
+    },
+    {
+      "id": "aviation/IMG_6212",
+      "category": "aviation",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_6212.JPG",
+      "source_page": "https://bigfanguys.com/aviation.html",
+      "repository_file": "art-library/bigfanguys-com/aviation/IMG_6212.webp",
+      "original_filename": "IMG_6212.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "aviation"
+      ],
+      "description": "aviation field photograph",
+      "sha256": "a726a30309967ae37871c67728760cf1e894577d263958b887e1605fc5ecc714",
+      "bytes": 65800
+    },
+    {
+      "id": "aviation/IMG_6274",
+      "category": "aviation",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_6274.JPG",
+      "source_page": "https://bigfanguys.com/aviation.html",
+      "repository_file": "art-library/bigfanguys-com/aviation/IMG_6274.webp",
+      "original_filename": "IMG_6274.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "aviation"
+      ],
+      "description": "aviation field photograph",
+      "sha256": "37e0f8571a0ee964d842ccd9d589cdfa85dce3fb1347ee5e13f7b7fb65d57d7c",
+      "bytes": 153078
+    },
+    {
+      "id": "aviation/IMG_6293",
+      "category": "aviation",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_6293.JPG",
+      "source_page": "https://bigfanguys.com/aviation.html",
+      "repository_file": "art-library/bigfanguys-com/aviation/IMG_6293.webp",
+      "original_filename": "IMG_6293.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "aviation"
+      ],
+      "description": "aviation field photograph",
+      "sha256": "4afd76342cafb6643f5c688eab15db7d880757f1302dc9fdf32c83c56f77dad2",
+      "bytes": 129002
+    },
+    {
+      "id": "aviation/IMG_6298",
+      "category": "aviation",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_6298.JPG",
+      "source_page": "https://bigfanguys.com/aviation.html",
+      "repository_file": "art-library/bigfanguys-com/aviation/IMG_6298.webp",
+      "original_filename": "IMG_6298.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "aviation"
+      ],
+      "description": "aviation field photograph",
+      "sha256": "5135cf1f4a44296acb1d844c4ccc62b9ff157e70d11014c93dc899837247d64d",
+      "bytes": 116344
+    },
+    {
+      "id": "aviation/IMG_6300",
+      "category": "aviation",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_6300.JPG",
+      "source_page": "https://bigfanguys.com/aviation.html",
+      "repository_file": "art-library/bigfanguys-com/aviation/IMG_6300.webp",
+      "original_filename": "IMG_6300.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "aviation"
+      ],
+      "description": "aviation field photograph",
+      "sha256": "2c89c50792655327785acc3238285a468b31ffea86ee32ea0351d9cc37cf1e9e",
+      "bytes": 127104
+    },
+    {
+      "id": "aviation/IMG_9636",
+      "category": "aviation",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_9636.jpg",
+      "source_page": "https://bigfanguys.com/aviation.html",
+      "repository_file": "art-library/bigfanguys-com/aviation/IMG_9636.webp",
+      "original_filename": "IMG_9636.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "aviation"
+      ],
+      "description": "aviation field photograph",
+      "sha256": "b2870fafefaf326b8265d66bc7105225d766863fcac3b10a6208c53c35ff5e7f",
+      "bytes": 161590
+    },
+    {
+      "id": "agriculture/IMG_0247",
+      "category": "agriculture",
+      "source_url": "https://bigfanguys.com/gallery/agriculture/IMG_0247.JPG",
+      "source_page": "https://bigfanguys.com/agriculture.html",
+      "repository_file": "art-library/bigfanguys-com/agriculture/IMG_0247.webp",
+      "original_filename": "IMG_0247.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "agriculture"
+      ],
+      "description": "agriculture field photograph",
+      "sha256": "28d935cd4a3f18663ac68d0008c1e2f63234d9c696f7e1b0403c0e4e1bc4cb5b",
+      "bytes": 51568
+    },
+    {
+      "id": "agriculture/IMG_0248",
+      "category": "agriculture",
+      "source_url": "https://bigfanguys.com/gallery/agriculture/IMG_0248.JPG",
+      "source_page": "https://bigfanguys.com/agriculture.html",
+      "repository_file": "art-library/bigfanguys-com/agriculture/IMG_0248.webp",
+      "original_filename": "IMG_0248.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "agriculture"
+      ],
+      "description": "agriculture field photograph",
+      "sha256": "d7cde89d95e349f84ce402ae1aae10c2202c10b5c458eca41dc5ea461bb123e8",
+      "bytes": 45084
+    },
+    {
+      "id": "agriculture/IMG_0249",
+      "category": "agriculture",
+      "source_url": "https://bigfanguys.com/gallery/agriculture/IMG_0249.JPG",
+      "source_page": "https://bigfanguys.com/agriculture.html",
+      "repository_file": "art-library/bigfanguys-com/agriculture/IMG_0249.webp",
+      "original_filename": "IMG_0249.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "agriculture"
+      ],
+      "description": "agriculture field photograph",
+      "sha256": "efaf560e5cb9899c66bebbe4681323b3a5c79a6c508ca92279090387cab1672e",
+      "bytes": 55116
+    },
+    {
+      "id": "agriculture/IMG_0250",
+      "category": "agriculture",
+      "source_url": "https://bigfanguys.com/gallery/agriculture/IMG_0250.jpg",
+      "source_page": "https://bigfanguys.com/agriculture.html",
+      "repository_file": "art-library/bigfanguys-com/agriculture/IMG_0250.webp",
+      "original_filename": "IMG_0250.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "agriculture"
+      ],
+      "description": "agriculture field photograph",
+      "sha256": "9954e4bf3de742638f1b657a69dc62ff2b4a38278e9722ebfd138f06db8d33c1",
+      "bytes": 89500
+    },
+    {
+      "id": "agriculture/IMG_0251",
+      "category": "agriculture",
+      "source_url": "https://bigfanguys.com/gallery/agriculture/IMG_0251.jpg",
+      "source_page": "https://bigfanguys.com/agriculture.html",
+      "repository_file": "art-library/bigfanguys-com/agriculture/IMG_0251.webp",
+      "original_filename": "IMG_0251.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "agriculture"
+      ],
+      "description": "agriculture field photograph",
+      "sha256": "ff924babae9bced5a6201321c850d2c0d052e8fec36fca25de487fee4a1ee465",
+      "bytes": 101760
+    },
+    {
+      "id": "agriculture/IMG_0252",
+      "category": "agriculture",
+      "source_url": "https://bigfanguys.com/gallery/agriculture/IMG_0252.jpg",
+      "source_page": "https://bigfanguys.com/agriculture.html",
+      "repository_file": "art-library/bigfanguys-com/agriculture/IMG_0252.webp",
+      "original_filename": "IMG_0252.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "agriculture"
+      ],
+      "description": "agriculture field photograph",
+      "sha256": "9855a365413b9e44b43995f2b44af57abde9cf633c376777735052a3071ecdbb",
+      "bytes": 110868
+    },
+    {
+      "id": "government/815246BE-7923-4CDF-9338-120E936D4C8C",
+      "category": "government",
+      "source_url": "https://bigfanguys.com/gallery/government/815246BE-7923-4CDF-9338-120E936D4C8C.JPG",
+      "source_page": "https://bigfanguys.com/government.html",
+      "repository_file": "art-library/bigfanguys-com/government/815246BE-7923-4CDF-9338-120E936D4C8C.webp",
+      "original_filename": "815246BE-7923-4CDF-9338-120E936D4C8C.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "government"
+      ],
+      "description": "government field photograph",
+      "sha256": "bbdcc25130ca6a75a6a9ad5b537e010fe1b894e1696234be0017df4e2ee8421e",
+      "bytes": 135364
+    },
+    {
+      "id": "government/IMG_0246",
+      "category": "government",
+      "source_url": "https://bigfanguys.com/gallery/government/IMG_0246.JPG",
+      "source_page": "https://bigfanguys.com/government.html",
+      "repository_file": "art-library/bigfanguys-com/government/IMG_0246.webp",
+      "original_filename": "IMG_0246.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "government"
+      ],
+      "description": "government field photograph",
+      "sha256": "e4f638e0deedd4514803b2be1f34a63938248d9cc91558b101750663a6afb43c",
+      "bytes": 37438
+    },
+    {
+      "id": "government/IMG_5618",
+      "category": "government",
+      "source_url": "https://bigfanguys.com/gallery/government/IMG_5618.jpg",
+      "source_page": "https://bigfanguys.com/government.html",
+      "repository_file": "art-library/bigfanguys-com/government/IMG_5618.webp",
+      "original_filename": "IMG_5618.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "government"
+      ],
+      "description": "government field photograph",
+      "sha256": "78141a32a56127b6a72eb00301aed6ecd13106e72507999694d64c1041b62787",
+      "bytes": 82680
+    },
+    {
+      "id": "government/IMG_5686",
+      "category": "government",
+      "source_url": "https://bigfanguys.com/gallery/government/IMG_5686.JPG",
+      "source_page": "https://bigfanguys.com/government.html",
+      "repository_file": "art-library/bigfanguys-com/government/IMG_5686.webp",
+      "original_filename": "IMG_5686.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "government"
+      ],
+      "description": "government field photograph",
+      "sha256": "ef0a2ffab360f47b8fd34aab4ed6b1a1981e0ff36f4c40e69df9319fd06d59fd",
+      "bytes": 91456
+    },
+    {
+      "id": "government/IMG_5687",
+      "category": "government",
+      "source_url": "https://bigfanguys.com/gallery/government/IMG_5687.JPG",
+      "source_page": "https://bigfanguys.com/government.html",
+      "repository_file": "art-library/bigfanguys-com/government/IMG_5687.webp",
+      "original_filename": "IMG_5687.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "government"
+      ],
+      "description": "government field photograph",
+      "sha256": "05332b521fd6191fab3691fd118823fc5d4202261807e09b0d653b9558543719",
+      "bytes": 71438
+    },
+    {
+      "id": "government/IMG_7825",
+      "category": "government",
+      "source_url": "https://bigfanguys.com/gallery/government/IMG_7825.JPG",
+      "source_page": "https://bigfanguys.com/government.html",
+      "repository_file": "art-library/bigfanguys-com/government/IMG_7825.webp",
+      "original_filename": "IMG_7825.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "government"
+      ],
+      "description": "government field photograph",
+      "sha256": "678fc5f0b41f650fbb72e80001b6f443f7a056dce98e018158d7347ba06978a8",
+      "bytes": 215918
+    },
+    {
+      "id": "government/IMG_9636",
+      "category": "government",
+      "source_url": "https://bigfanguys.com/gallery/government/IMG_9636.jpg",
+      "source_page": "https://bigfanguys.com/government.html",
+      "repository_file": "art-library/bigfanguys-com/government/IMG_9636.webp",
+      "original_filename": "IMG_9636.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "government"
+      ],
+      "description": "government field photograph",
+      "sha256": "b2870fafefaf326b8265d66bc7105225d766863fcac3b10a6208c53c35ff5e7f",
+      "bytes": 161590
+    },
+    {
+      "id": "automotive/IMG_0255",
+      "category": "automotive",
+      "source_url": "https://bigfanguys.com/gallery/automotive/IMG_0255.jpeg",
+      "source_page": "https://bigfanguys.com/automotive.html",
+      "repository_file": "art-library/bigfanguys-com/automotive/IMG_0255.webp",
+      "original_filename": "IMG_0255.jpeg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "automotive"
+      ],
+      "description": "automotive field photograph",
+      "sha256": "08dc4bd190fc85a4fe8e0ccc6dc862786011f3f0b04c157f0ff07b703f912766",
+      "bytes": 67450
+    },
+    {
+      "id": "automotive/IMG_6357",
+      "category": "automotive",
+      "source_url": "https://bigfanguys.com/gallery/automotive/IMG_6357.jpeg",
+      "source_page": "https://bigfanguys.com/automotive.html",
+      "repository_file": "art-library/bigfanguys-com/automotive/IMG_6357.webp",
+      "original_filename": "IMG_6357.jpeg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "automotive"
+      ],
+      "description": "automotive field photograph",
+      "sha256": "825b32ee47d5230dd2fa1de650802b9dbf0baa36cb937f3e2ad9caf6f808f909",
+      "bytes": 67924
+    },
+    {
+      "id": "install-service/IMG_0254",
+      "category": "install-service",
+      "source_url": "https://bigfanguys.com/gallery/install-service/IMG_0254.jpg",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "repository_file": "art-library/bigfanguys-com/install-service/IMG_0254.webp",
+      "original_filename": "IMG_0254.jpg",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "install-service"
+      ],
+      "description": "install service field photograph",
+      "sha256": "e31c9f16918211de3337f8570da08dac3223a94bb0587a735dfa5ff1d8d63276",
+      "bytes": 33438
+    },
+    {
+      "id": "install-service/IMG_4970",
+      "category": "install-service",
+      "source_url": "https://bigfanguys.com/gallery/install-service/IMG_4970.JPEG",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "repository_file": "art-library/bigfanguys-com/install-service/IMG_4970.webp",
+      "original_filename": "IMG_4970.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "install-service"
+      ],
+      "description": "install service field photograph",
+      "sha256": "a37ca15acfa5652c354fb80d789e3e505b32414e7f1d4013b5e86bae1c15ba52",
+      "bytes": 54680
+    },
+    {
+      "id": "install-service/IMG_4971",
+      "category": "install-service",
+      "source_url": "https://bigfanguys.com/gallery/install-service/IMG_4971.JPEG",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "repository_file": "art-library/bigfanguys-com/install-service/IMG_4971.webp",
+      "original_filename": "IMG_4971.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "install-service"
+      ],
+      "description": "install service field photograph",
+      "sha256": "9bf535cae1f983b97ded0106378385aa1694ab039662095dd66480ee6ed17235",
+      "bytes": 70142
+    },
+    {
+      "id": "install-service/IMG_5669",
+      "category": "install-service",
+      "source_url": "https://bigfanguys.com/gallery/install-service/IMG_5669.JPG",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "repository_file": "art-library/bigfanguys-com/install-service/IMG_5669.webp",
+      "original_filename": "IMG_5669.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "install-service"
+      ],
+      "description": "install service field photograph",
+      "sha256": "a6011124f79cce789b4f056ecdb6a73bbd2755df5de904e26e2bfe7f9a788e4d",
+      "bytes": 65276
+    },
+    {
+      "id": "install-service/IMG_7178",
+      "category": "install-service",
+      "source_url": "https://bigfanguys.com/gallery/install-service/IMG_7178.JPEG",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "repository_file": "art-library/bigfanguys-com/install-service/IMG_7178.webp",
+      "original_filename": "IMG_7178.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "install-service"
+      ],
+      "description": "install service field photograph",
+      "sha256": "98f1d1205c37f5a2d3780b1a5bcce7fc12316ed055d2c06e57a9da00d47d31c3",
+      "bytes": 38234
+    },
+    {
+      "id": "install-service/IMG_7580",
+      "category": "install-service",
+      "source_url": "https://bigfanguys.com/gallery/install-service/IMG_7580.JPG",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "repository_file": "art-library/bigfanguys-com/install-service/IMG_7580.webp",
+      "original_filename": "IMG_7580.JPG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "install-service"
+      ],
+      "description": "install service field photograph",
+      "sha256": "f77b862b05cdec15a54bfe9e13de81678f4dd5ea0b754ec8a8447dea5c9423e5",
+      "bytes": 32656
+    },
+    {
+      "id": "install-service/IMG_7721",
+      "category": "install-service",
+      "source_url": "https://bigfanguys.com/gallery/install-service/IMG_7721.JPEG",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "repository_file": "art-library/bigfanguys-com/install-service/IMG_7721.webp",
+      "original_filename": "IMG_7721.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "install-service"
+      ],
+      "description": "install service field photograph",
+      "sha256": "bc2caf948efb57521d6c5a4d73a2cd3d22070858cdbb43956da279fd51e3b246",
+      "bytes": 31018
+    },
+    {
+      "id": "install-service/IMG_9303",
+      "category": "install-service",
+      "source_url": "https://bigfanguys.com/gallery/install-service/IMG_9303.JPEG",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "repository_file": "art-library/bigfanguys-com/install-service/IMG_9303.webp",
+      "original_filename": "IMG_9303.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "install-service"
+      ],
+      "description": "install service field photograph",
+      "sha256": "70f1324438ce91bf4e0881d92a0c867ebda2f4fcfa572a28cdb5d01901d876a7",
+      "bytes": 61074
+    },
+    {
+      "id": "install-service/IMG_9305",
+      "category": "install-service",
+      "source_url": "https://bigfanguys.com/gallery/install-service/IMG_9305.JPEG",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "repository_file": "art-library/bigfanguys-com/install-service/IMG_9305.webp",
+      "original_filename": "IMG_9305.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "install-service"
+      ],
+      "description": "install service field photograph",
+      "sha256": "b9bcfc05f15a98dcd659174be0b350a346330b86bfacc876c440cb83bb6822dd",
+      "bytes": 55000
+    },
+    {
+      "id": "install-service/IMG_9306",
+      "category": "install-service",
+      "source_url": "https://bigfanguys.com/gallery/install-service/IMG_9306.JPEG",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "repository_file": "art-library/bigfanguys-com/install-service/IMG_9306.webp",
+      "original_filename": "IMG_9306.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "install-service"
+      ],
+      "description": "install service field photograph",
+      "sha256": "a6fd4f7f87982cc2467914d2511709538717221bf26e29e4e10efdd90128a429",
+      "bytes": 99566
+    },
+    {
+      "id": "install-service/IMG_9307",
+      "category": "install-service",
+      "source_url": "https://bigfanguys.com/gallery/install-service/IMG_9307.JPEG",
+      "source_page": "https://bigfanguys.com/install-service.html",
+      "repository_file": "art-library/bigfanguys-com/install-service/IMG_9307.webp",
+      "original_filename": "IMG_9307.JPEG",
+      "model_identification": "Not established from gallery label",
+      "review_status": "collected_not_selected_for_publication",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+      "tags": [
+        "install-service"
+      ],
+      "description": "install service field photograph",
+      "sha256": "ede8825aeda4527e01cacd99bff1c35d89f0e385dd8c952bf40d6e3e8cddd91e",
+      "bytes": 100496
+    },
+    {
+      "id": "brand/logo",
+      "category": "brand",
+      "source_url": "https://bigfanguys.com/assets/logo.png",
+      "source_page": "https://bigfanguys.com/",
+      "repository_file": "art-library/bigfanguys-com/brand/logo.webp",
+      "original_filename": "logo.png",
+      "description": "logo",
+      "review_status": "brand_reference",
+      "rights_basis": "Publisher-owned website brand artwork",
+      "bytes": 70510
+    },
+    {
+      "id": "brand/mascot",
+      "category": "brand",
+      "source_url": "https://bigfanguys.com/assets/mascot.png",
+      "source_page": "https://bigfanguys.com/",
+      "repository_file": "art-library/bigfanguys-com/brand/mascot.webp",
+      "original_filename": "mascot.png",
+      "description": "mascot",
+      "review_status": "brand_reference",
+      "rights_basis": "Publisher-owned website brand artwork",
+      "bytes": 80238
+    },
+    {
+      "id": "brand/coverage-map",
+      "category": "brand",
+      "source_url": "https://bigfanguys.com/assets/coverage-map.jpg",
+      "source_page": "https://bigfanguys.com/",
+      "repository_file": "art-library/bigfanguys-com/brand/coverage-map.webp",
+      "original_filename": "coverage-map.jpg",
+      "description": "coverage map",
+      "review_status": "brand_reference",
+      "rights_basis": "Publisher-owned website brand artwork",
+      "bytes": 112920
+    }
+  ]
+}

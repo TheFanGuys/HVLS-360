@@ -152,3 +152,8 @@ Processed the previously underfilled BigFanGuys.com image request: inventoried 8
 ### Gallery replacement deployment evidence
 
 PR #140 merged at 845c79b543ef304b5e305466c2b4cbad8774720c; Research Desk Tests and Pages deployment 43120081611 succeeded. Actual deployed image bytes matched local SHA-256 for all six replaced story images. Fresh deployed preview contains the new warehouse-HVLS lead image. Seven added photos, 20 visually reviewed samples and 80 discovered gallery entries across seven site sections are recorded. TAZ remains on its own story.
+
+
+## November 11 — shared Art Department library delivered
+
+Created the shared Art Department source library: 70 gallery photographs plus 3 homepage brand images collected as web-sized copies under art-library/bigfanguys-com, organized in seven industry folders plus brand. Original source URLs retained; files are collected candidates, not all visually/model cleared. art-library/uploads accepts future additions. office/photo-library.html reads catalog and GitHub tree, so new uploads appear on open/refresh without manual website edits. _config.yml excludes art-library from Pages; public GitHub access is still possible. Art Desk/Command Center links and standing Art Department collection-first instructions added. No autonomous media agents claimed. Earlier 80-gallery-entry statement corrected: exact source count is 70 across seven galleries, plus three brand assets.

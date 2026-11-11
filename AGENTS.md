@@ -34,3 +34,8 @@ Chris reaffirmed November 11: the entire publication must read and look like a s
 ## November 11 — founder approval and resource direction
 
 Chris reaffirmed approval of all eight current articles. Recorded revision hashes in editorial/founder-approval-register.json; do not keep asking for founder article approval. Independent technical/media findings are separate and are not fabricated by this record. Public resources now focus on studies, laws, regulations and technical information; removed manufacturer manual/product-support listings. Manuals may remain internal source citations.
+
+
+## Shared Art Department collection
+
+Before selecting an article image, read art-library/README.md and art-library/catalog.json. Search existing collection and new uploads first. Store additional candidates there with source and review status; publish only selected derivatives under editorial/media/publisher. Avoid reusing TAZ for unrelated subjects. office/photo-library.html discovers new uploads from GitHub when opened/refreshed. This is shared storage and a read-only browser, not an autonomous image-selection runtime.

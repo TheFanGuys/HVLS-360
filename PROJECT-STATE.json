@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "evidence_baseline": "49b12d1105192827209cc444007fba6332eaeac2",
+  "evidence_baseline": "b39c383519216faa86381321ee4513122daf30a6",
   "checkpoint_type": "dated_operator_checkpoint_not_automatic_chat_sync",
   "repository": "TheFanGuys/HVLS-360",
   "board_issue": 94,
@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish GitHub editorial pilot acceptance. Founder deferred the COO conversation link; do not spend work on it unless requested again.",
-  "next_task": "Verify deployed Studio changes, then real authenticated phone/save/reopen and second-device acceptance (#92); first-article qualified review remains outstanding.",
+  "next_task": "Complete real authenticated phone save/reopen and second-device acceptance (#92) when the device/session is available; first-article qualified review remains outstanding.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Review Studio now shows the newer GitHub manuscript alongside a retained local edit after a save conflict; explicit reconciliation is required before retrying. Verified saves show local date/time and refresh review history so prior-revision reviews are marked stale. Corrected airflow image dimensions to the new 700\u00d71110 artwork. Controlled tests pass; actual authenticated device acceptance remains open.",
+  "latest_verified_change": "Review Studio now shows the newer GitHub manuscript alongside a retained local edit after a save conflict; explicit reconciliation is required before retrying. Verified saves show local date/time and refresh review history so prior-revision reviews are marked stale. Corrected airflow image dimensions to the new 700×1110 artwork. Controlled tests pass; actual authenticated device acceptance remains open. Pages deployment 43055755724 succeeded for b39c383519216faa86381321ee4513122daf30a6. Live browser reloaded the new Studio, confirmed hidden conflict controls, opened Air Movement, loaded the 700×1110 diagram at its correct aspect ratio, and showed no horizontal overflow in the tested desktop viewport. Guest GitHub Save remained disabled. This is deployed read/UI evidence; real authenticated writes and physical-phone/cross-device acceptance remain open.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,

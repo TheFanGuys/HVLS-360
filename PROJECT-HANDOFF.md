@@ -97,3 +97,8 @@ After each meaningful task, update this handoff/state/decision log AND the relev
 ## November 11 — first article review packet
 
 Prepared founder-facing review packet in editorial/reviews/hvls-air-movement-vs-ventilation-review.md for unchanged manuscript SHA-256 3e5562a223bfca819a64db283e1268e21e33dbb01419e1c2e387aaba5fe5d7a7. EPA and ASHRAE 62.1 public pages rechecked; remaining source rechecks and phone-width diagram acceptance assigned to assistant roles for next active session. Chris can judge text now. Original diagram means optional third-party photograph permission is not required. Qualified technical signoff remains zero; no release authorized. This is a review packet, not a completed technical/visual clearance.
+
+
+### Studio deployment acceptance — November 11
+
+Pages deployment 43055755724 succeeded for b39c383519216faa86381321ee4513122daf30a6. Live browser reloaded the new Studio, confirmed hidden conflict controls, opened Air Movement, loaded the 700×1110 diagram at its correct aspect ratio, and showed no horizontal overflow in the tested desktop viewport. Guest GitHub Save remained disabled. This is deployed read/UI evidence; real authenticated writes and physical-phone/cross-device acceptance remain open.

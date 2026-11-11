@@ -79,3 +79,8 @@ Read the live rendered BAF guide sections 2.1 and 2.4, DOE item 5 (June 8, 2012)
 Review Studio now shows the newer GitHub manuscript alongside a retained local edit after a save conflict; explicit reconciliation is required before retrying. Verified saves show local date/time and refresh review history so prior-revision reviews are marked stale. Corrected airflow image dimensions to the new 700×1110 artwork.
 
 Reproduced gaps by code inspection and executable Studio script tests. Added conflict comparison, preserved working edit, explicit reconciled retry against latest blob, save date/time, and review-history refresh. Existing API SHA check still rejects later races. Controlled tests and 188 Python tests pass; editorial/launch/publication audits pass. No repository credential is available to this Studio session, so real browser-authenticated write and physical iPhone/second-device acceptance are not claimed. No article or editorial approval created. Next: deployed layout check and remaining #92 acceptance.
+
+
+### Studio deployment acceptance — November 11
+
+Pages deployment 43055755724 succeeded for b39c383519216faa86381321ee4513122daf30a6. Live browser reloaded the new Studio, confirmed hidden conflict controls, opened Air Movement, loaded the 700×1110 diagram at its correct aspect ratio, and showed no horizontal overflow in the tested desktop viewport. Guest GitHub Save remained disabled. This is deployed read/UI evidence; real authenticated writes and physical-phone/cross-device acceptance remain open.

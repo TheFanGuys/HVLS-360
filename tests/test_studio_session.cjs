@@ -4,7 +4,7 @@ const html=fs.readFileSync(process.argv[2]||'office/first-article-review.html','
 class Element {
  constructor(){this.value='';this.textContent='';this.style={};this.children=[];this.listeners={};this.disabled=false;}
  append(...els){this.children.push(...els)} replaceChildren(){this.children=[]}
- addEventListener(type,handler){this.listeners[type]=handler} focus(){} setAttribute(){}
+ addEventListener(type,handler){this.listeners[type]=handler} focus(){this.focused=true} scrollIntoView(){this.scrolled=true} setAttribute(){}
  async fire(type){return this.listeners[type]?.()}
 }
 (async()=>{
@@ -19,6 +19,8 @@ class Element {
  const guestOpen=get('articleLibrary').children[0].children[1];await guestOpen.fire('click');
  assert.equal(get('editorText').value,content);assert.equal(get('saveRepo').disabled,true);
  assert.match(get('repoState').textContent,/Public reading mode/);
+ assert.equal(get('draft').scrolled,true);assert.equal(get('draft').focused,true);
+ assert.match(get('openState').textContent,/Article opened below/);
  get('repoToken').value='test-session';await get('connectRepo').fire('click');
  assert.match(get('repoState').textContent,/Credential loaded/, 'Denied local storage must not invalidate connection');
  const open=get('articleLibrary').children[0].children[1];await open.fire('click');

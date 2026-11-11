@@ -23,7 +23,7 @@ A fan diameter and mounting height do not tell you everything about the lift req
 
 Before booking equipment, record the finished-floor-to-work-point height, overhead obstacles, platform access route and the actual tasks at each position. A lift that reaches the bottom of the fan may not provide workable access to the upper mounting hardware. A platform that can reach the height may still be too wide to pass through a door or between installed machinery.
 
-**The useful measurement is not just maximum platform height; it is the usable work position.** Verify the selected lift's platform dimensions, capacity, reach and operating limitations in its exact manufacturer manual.
+Maximum platform height alone does not establish a usable work position. Verify the selected lift's platform dimensions, capacity, reach and operating limitations in its exact manufacturer manual.
 
 ## The slab and travel path matter
 
@@ -31,7 +31,7 @@ Industrial facilities can have trench covers, floor drains, uneven expansion joi
 
 The crew should inspect the intended route and every elevated work location. Verify the equipment's allowable surface conditions and whether it can travel while raised. OSHA notes that manufacturer instructions commonly restrict moving scissor lifts in the elevated position [1]; this is not a universal permission or prohibition for every model.
 
-Platform loading also deserves its own calculation. Workers, tools, components and materials count toward the rated platform load. An HVLS hub or motor assembly may need a separate lifting plan; the scissor lift should not be treated as a crane simply because it is already on site.
+The platform load includes workers, tools and every component carried aloft. Workers, tools, components and materials count toward the rated platform load. An HVLS hub or motor assembly may need a separate lifting plan; the scissor lift should not be treated as a crane simply because it is already on site.
 
 ## Overhead clearance and active traffic
 

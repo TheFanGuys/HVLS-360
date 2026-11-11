@@ -31,7 +31,7 @@ For a facility specification, describe the occupied work areas and the comfort c
 
 In a tall heated building, warmer air can collect near the ceiling while workers remain cold below. Ceiling fans can mix that air to reduce the vertical temperature difference; Big Ass Fans covers this use in its design guide [1].
 
-Take temperature readings at several elevations before deciding how to operate the fans. Record thermostat locations, heating equipment and fan settings. After changes, repeat the survey under comparable conditions. Door use, insulation, heating controls and operating hours all affect the result, so a savings percentage from another building is not a reliable guarantee for this one.
+Take temperature readings at several elevations before deciding how to operate the fans. Record thermostat locations, heating equipment and fan settings. After changes, repeat the survey under comparable conditions. Door use, insulation, heating controls and operating hours all affect the result, so a savings percentage from another building is not a reliable guarantee for this one. 
 
 ## Where the outdoor air comes from
 

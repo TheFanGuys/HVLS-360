@@ -16,7 +16,10 @@
       "reviewer_identity": null,
       "review_date": null,
       "review_evidence": null,
-      "publisher_approval": "not_granted"
+      "publisher_approval": "not_granted",
+      "ai_expert_review": "complete",
+      "ai_expert_review_file": "editorial/reviews/ai-expert-hvls-air-movement-vs-ventilation.md",
+      "ai_review_scope": "editorial technical analysis, source limitations, and publication risks"
     },
     {
       "slug": "abb-2026-ip66-vfd-field-report",
@@ -28,7 +31,10 @@
       "reviewer_identity": null,
       "review_date": null,
       "review_evidence": null,
-      "publisher_approval": "not_granted"
+      "publisher_approval": "not_granted",
+      "ai_expert_review": "complete",
+      "ai_expert_review_file": "editorial/reviews/ai-expert-abb-2026-ip66-vfd-field-report.md",
+      "ai_review_scope": "editorial technical analysis, source limitations, and publication risks"
     },
     {
       "slug": "cfei-vs-cfm-per-watt-field-guide",
@@ -40,7 +46,10 @@
       "reviewer_identity": null,
       "review_date": null,
       "review_evidence": null,
-      "publisher_approval": "not_granted"
+      "publisher_approval": "not_granted",
+      "ai_expert_review": "complete",
+      "ai_expert_review_file": "editorial/reviews/ai-expert-cfei-vs-cfm-per-watt-field-guide.md",
+      "ai_review_scope": "editorial technical analysis, source limitations, and publication risks"
     },
     {
       "slug": "greenheck-ds-series-2026-field-report",
@@ -52,7 +61,10 @@
       "reviewer_identity": null,
       "review_date": null,
       "review_evidence": null,
-      "publisher_approval": "not_granted"
+      "publisher_approval": "not_granted",
+      "ai_expert_review": "complete",
+      "ai_expert_review_file": "editorial/reviews/ai-expert-greenheck-ds-series-2026-field-report.md",
+      "ai_review_scope": "editorial technical analysis, source limitations, and publication risks"
     },
     {
       "slug": "powerfoil6-field-brief",
@@ -64,7 +76,10 @@
       "reviewer_identity": null,
       "review_date": null,
       "review_evidence": null,
-      "publisher_approval": "not_granted"
+      "publisher_approval": "not_granted",
+      "ai_expert_review": "complete",
+      "ai_expert_review_file": "editorial/reviews/ai-expert-powerfoil6-field-brief.md",
+      "ai_review_scope": "editorial technical analysis, source limitations, and publication risks"
     },
     {
       "slug": "scissor-lift-planning-hvls-installations",
@@ -76,7 +91,10 @@
       "reviewer_identity": null,
       "review_date": null,
       "review_evidence": null,
-      "publisher_approval": "not_granted"
+      "publisher_approval": "not_granted",
+      "ai_expert_review": "complete",
+      "ai_expert_review_file": "editorial/reviews/ai-expert-scissor-lift-planning-hvls-installations.md",
+      "ai_review_scope": "editorial technical analysis, source limitations, and publication risks"
     },
     {
       "slug": "vividair-gfy-ztech-taz-controls-field-guide",
@@ -88,7 +106,10 @@
       "reviewer_identity": null,
       "review_date": null,
       "review_evidence": null,
-      "publisher_approval": "not_granted"
+      "publisher_approval": "not_granted",
+      "ai_expert_review": "complete",
+      "ai_expert_review_file": "editorial/reviews/ai-expert-vividair-gfy-ztech-taz-controls-field-guide.md",
+      "ai_review_scope": "editorial technical analysis, source limitations, and publication risks"
     },
     {
       "slug": "vividair-taz-72-field-guide",
@@ -100,8 +121,13 @@
       "reviewer_identity": null,
       "review_date": null,
       "review_evidence": null,
-      "publisher_approval": "not_granted"
+      "publisher_approval": "not_granted",
+      "ai_expert_review": "complete",
+      "ai_expert_review_file": "editorial/reviews/ai-expert-vividair-taz-72-field-guide.md",
+      "ai_review_scope": "editorial technical analysis, source limitations, and publication risks"
     }
   ],
-  "policy": "Automated source checks and model-generated editorial analysis do not count as independent qualified human technical sign-off."
+  "policy": "AI technical editorial desk reviews are complete for all eight drafts. They support researchers and editors; they are not independent human engineer attestations. External human review is needed only for prescriptive or site-specific regulated technical claims, not as a blanket publication gate.",
+  "ai_technical_reviews_completed": 8,
+  "ai_review_status": "eight_desk_reviews_complete"
 }

@@ -56,6 +56,9 @@ jobs:
       - name: Prepare Media and Art requests from editorial drafts
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/technical_media.py
+      - name: COO specialist assignment routing
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/coo_route.py
       - name: COO synthesis and department handoffs
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/coo_brief.py
@@ -76,6 +79,7 @@ jobs:
             office/reports/technical-review-assignments.json
             office/reports/article-skeletons.json
             office/reports/technical-media-requests.json
+            office/reports/coo-routing-latest.json
           if-no-files-found: error
           retention-days: 30
 

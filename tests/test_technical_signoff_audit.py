@@ -10,9 +10,9 @@ class SignoffAuditTests(unittest.TestCase):
  def test_all_drafts_have_review_records(self):
   result=audit()
   self.assertEqual(result["errors"],[])
-  self.assertEqual(result["articles"],8)
+  self.assertEqual(result["articles"],len(list((ROOT/"editorial/drafts").glob("*.md"))))
   self.assertEqual(result["technical_signoffs"],0)
-  self.assertEqual(result["ai_expert_reviews"],8)
+  self.assertEqual(result["ai_expert_reviews"],result["articles"])
  def test_fake_completed_review_fails_closed(self):
   data=json.loads((ROOT/"editorial/reviews/technical-review-register.json").read_text())
   data["records"][0]["technical_status"]="complete"

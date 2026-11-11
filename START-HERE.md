@@ -21,3 +21,7 @@ Chris is building a real trade publication. The assistant owns research, editing
 ## Full-site review checkpoint
 
 Full-site acceptance: 190 Python tests, six JavaScript suites, editorial/metadata/publication checks and 191 local HTML references passed. Live homepage/reference search/shared board inspected; board loaded 17 tasks and search worked. Added nine-page unindexed full magazine preview of all eight current drafts, fixed airflow renderer dimensions, stale Powerfoil reference and personal-note labeling. Report: office/FULL-SITE-ACCEPTANCE-2026-11-11.md. Open office/preview/ to browse the complete unreleased magazine. Read the full-site acceptance report before repeating checks.
+
+## Content expansion checkpoint
+
+Delivered content/design expansion: twelve original pieces in the full preview (eight existing plus four sourced briefings); twenty-four research/regulatory/technical source entries; six-source research rail on the public homepage. New subjects: industrial-fan study evidence, CFIAC research, OSHA lift classification and fan guarding. Compact masthead, paper-toned reading surface, serif headlines and restrained source cards replace the oversized dark presentation. Original eight founder approvals preserved; four new assignments #133–136 remain separate. No manufacturer manual listings restored.

@@ -104,3 +104,8 @@ PR #131 merged at 80c2464b35aebcb7d8b3ba31f577d76d4f3cfea5. All three PR checks 
 ## November 11 — founder approval and resource direction
 
 Chris reaffirmed approval of all eight current articles. Recorded revision hashes in editorial/founder-approval-register.json; do not keep asking for founder article approval. Independent technical/media findings are separate and are not fabricated by this record. Public resources now focus on studies, laws, regulations and technical information; removed manufacturer manual/product-support listings. Manuals may remain internal source citations.
+
+
+## November 11 — content depth and trade-publication redesign
+
+Delivered content/design expansion: twelve original pieces in the full preview (eight existing plus four sourced briefings); twenty-four research/regulatory/technical source entries; six-source research rail on the public homepage. New subjects: industrial-fan study evidence, CFIAC research, OSHA lift classification and fan guarding. Compact masthead, paper-toned reading surface, serif headlines and restrained source cards replace the oversized dark presentation. Original eight founder approvals preserved; four new assignments #133–136 remain separate. No manufacturer manual listings restored. Source and voice reviews carry exact hashes; new briefs are concise and not padded to feature length. Technical register coverage and launch metadata updated. New public items are source-library entries, not falsely labeled original reporting. Preview and library deployment acceptance follows.

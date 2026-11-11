@@ -10,7 +10,7 @@ class PreviewTests(unittest.TestCase):
    shutil.copytree(ROOT/'editorial/drafts',root/'editorial/drafts')
    (root/'office').mkdir()
    shutil.copy(ROOT/'office/launch-package.json',root/'office/launch-package.json')
-   self.assertEqual(build(root),9)
+   self.assertEqual(build(root),len(json.loads((root/"office/launch-package.json").read_text())["items"])+1)
    for p in (root/'office/preview').glob('*.html'):
     self.assertEqual(p.read_text(),(ROOT/'office/preview'/p.name).read_text(),'Preview stale; rebuild')
     self.assertIn('noindex,nofollow,noarchive',p.read_text())

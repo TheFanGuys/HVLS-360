@@ -6,7 +6,7 @@ publication_allowed: false
 primary_market: "United States"
 reported_event_date: "2026-05-27"
 research_checked: "2026-11-10"
-image_status: "Manufacturer image candidates; rights not cleared"
+image_status: "Original in-house VFD compatibility diagram; technical review pending"
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
@@ -17,6 +17,8 @@ publisher_approval: "Required"
 *HVLS 360° | Controls & VFDs | Product watch*
 
 **ABB expanded its ACS580, ACH580 and ACQ580 drive families with IP66 / UL Type 4X variants on May 27, 2026.** It's a worthwhile development for industrial ventilation contractors—but not a universal replacement for the VFD supplied with an HVLS fan.
+
+![Conceptual three-stage HVLS fan drive compatibility check covering exact motor, OEM approval and installation environment](../../editorial/media/original/vfd-compatibility-check.svg)
 
 The distinction matters because a fan installer may see the familiar ABB drive names and assume that a sealed, outdoor-rated package can simply replace an existing controller. The announcement says something narrower: ABB has added environmental protection choices across several drive families, with models aimed at different industries [1].
 

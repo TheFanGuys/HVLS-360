@@ -29,6 +29,8 @@
 - **Media editor:** Choose original photography with permission, or original commissioned technical diagram; do not reproduce product-page photos without license.
 
 ## Suggested copy-edit pass
+- [x] Reopened the live Big Ass Fans Powerfoil 6 product page; technical documentation remains linked. Verify any changing model options against the actual submittal before release.
+
 
 - Preserve the field perspective; no unsupported first-person hands-on testing.
 - Keep the 2025 manual revision and November 2026 web review clearly distinguished.

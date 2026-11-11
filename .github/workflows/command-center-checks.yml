@@ -7,6 +7,8 @@ on:
       - 'office/coo-latest.json'
       - 'office/coo_brief.py'
       - 'tests/test_coo_brief.py'
+      - 'tests/test_coo_issues.py'
+      - 'office/coo_issues.py'
       - 'tests/test_coo_operations.py'
       - 'office/editorial-board.html'
       - 'office/technical-review.html'
@@ -36,6 +38,7 @@ jobs:
           python tests/test_command_center.py
           python tests/test_coo_operations.py
           python tests/test_coo_brief.py
+          python tests/test_coo_issues.py
           python tests/test_editorial_board.py
           python tests/test_technical_review_desk.py
           python tests/test_article_editor.py

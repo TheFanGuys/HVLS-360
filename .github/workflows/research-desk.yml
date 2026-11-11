@@ -6,6 +6,7 @@ on:
     - cron: '0 15 * * 2,5'
 permissions:
   contents: write
+  issues: write
 jobs:
   research:
     runs-on: ubuntu-latest
@@ -71,6 +72,11 @@ jobs:
       - name: COO Research Head to Managing Editor evidence handoff
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/coo_editorial_handoff.py
+      - name: Sync Managing Editor assignments to shared GitHub Issues
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python office/coo_issues.py
       - name: COO synthesis and department handoffs
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/coo_brief.py

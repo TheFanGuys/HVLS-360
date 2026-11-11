@@ -52,5 +52,11 @@
     "Fire-alarm and BAS integration changes",
     "Service and commissioning bulletins"
   ],
-  "editorial_policy": "Do not imply independent testing, approved replacement compatibility or image rights without evidence."
+  "editorial_policy": "Do not imply independent testing, approved replacement compatibility or image rights without evidence.",
+  "visual_identification_policy": {
+    "misidentified_reference": "An image previously described as TAZ was identified by the publisher as Patterson barrel fans; never use it for TAZ.",
+    "publisher_supplied_reference": "Three photographs provided in conversation and identified as a 72-inch TAZ installation; not uploaded to public repository.",
+    "publication_permission": "Not yet requested or granted.",
+    "requirement": "Confirm exact product model and photo rights before publishing a captioned manufacturer image."
+  }
 }

@@ -21,3 +21,16 @@
 - [ ] Publisher: explicitly approve final text and artwork before release.
 
 **No article is authorized for publication.**
+
+## Photo identification correction — publisher field reference
+
+The publisher identified a previously presented internet image labeled as a TAZ as actually showing Patterson barrel fans. **Do not reuse or caption that image as a VividAir/Go Fan Yourself TAZ.**
+
+The publisher supplied three separate field photographs in conversation, identified by the publisher as a **72-inch TAZ** installation. They show a suspended cylindrical fan assembly with discharge louvers and a protective grille in an industrial facility. Treat these as publisher-supplied identification references, not as licensed article media automatically.
+
+- [ ] Confirm the installation's exact model/nameplate and appropriate caption if published.
+- [ ] Obtain explicit permission from the photographer/rightsholder and facility for public use before adding images to the magazine repository.
+- [ ] Check for sensitive facility details, labels, people or location identifiers before release.
+- [ ] Use original official manufacturer product imagery only when model identification and publication rights are verified.
+
+This correction does not constitute publisher approval to publish the article or photographs.

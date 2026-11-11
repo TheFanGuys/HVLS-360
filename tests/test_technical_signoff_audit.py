@@ -12,6 +12,7 @@ class SignoffAuditTests(unittest.TestCase):
   self.assertEqual(result["errors"],[])
   self.assertEqual(result["articles"],8)
   self.assertEqual(result["technical_signoffs"],0)
+  self.assertEqual(result["ai_expert_reviews"],8)
  def test_fake_completed_review_fails_closed(self):
   data=json.loads((ROOT/"editorial/reviews/technical-review-register.json").read_text())
   data["records"][0]["technical_status"]="complete"
@@ -21,6 +22,7 @@ class SignoffAuditTests(unittest.TestCase):
    (root/"editorial/drafts").mkdir(parents=True)
    for record in data["records"]:
     (root/record["primary_review_file"]).touch()
+    (root/record["ai_expert_review_file"]).touch()
     (root/"editorial/drafts"/(record["slug"]+".md")).touch()
    (root/"editorial/reviews/technical-review-register.json").write_text(json.dumps(data))
    self.assertTrue(any("unsubstantiated" in x for x in audit(root)["errors"]))

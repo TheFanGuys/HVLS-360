@@ -29,3 +29,8 @@ Chris reaffirmed November 11: the entire publication must read and look like a s
 - Use restrained trade-publication design: strong typography, legible diagrams, accurate relevant field images and clean spacing. Avoid generic AI artwork, decorative dashboard clutter, excessive cards, icons and status banners. Review phone presentation as well as desktop.
 - Apply this to all current/future stories, office screens, graphics and user updates, regardless of plugin or author. Separate factual verification from voice and visual editing. Do not invent experience or certainty.
 - Keep updates short: result, real obstacle if any, next action. Maintain the publication approval control internally; do not append the same warning to every reply.
+
+
+## November 11 — founder approval and resource direction
+
+Chris reaffirmed approval of all eight current articles. Recorded revision hashes in editorial/founder-approval-register.json; do not keep asking for founder article approval. Independent technical/media findings are separate and are not fabricated by this record. Public resources now focus on studies, laws, regulations and technical information; removed manufacturer manual/product-support listings. Manuals may remain internal source citations.

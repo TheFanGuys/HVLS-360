@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-11-11",
+  "publisher": "Chris",
+  "decision": "articles_approved_by_founder",
+  "evidence": "Founder stated in project chat: I’ve already approved the articles",
+  "scope": "All eight articles in the current review queue",
+  "technical_signoff_inferred": false,
+  "records": [
+    {
+      "slug": "hvls-air-movement-vs-ventilation",
+      "article_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+      "founder_approved": true
+    },
+    {
+      "slug": "abb-2026-ip66-vfd-field-report",
+      "article_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+      "founder_approved": true
+    },
+    {
+      "slug": "cfei-vs-cfm-per-watt-field-guide",
+      "article_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+      "founder_approved": true
+    },
+    {
+      "slug": "greenheck-ds-series-2026-field-report",
+      "article_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+      "founder_approved": true
+    },
+    {
+      "slug": "powerfoil6-field-brief",
+      "article_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+      "founder_approved": true
+    },
+    {
+      "slug": "scissor-lift-planning-hvls-installations",
+      "article_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+      "founder_approved": true
+    },
+    {
+      "slug": "vividair-gfy-ztech-taz-controls-field-guide",
+      "article_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+      "founder_approved": true
+    },
+    {
+      "slug": "vividair-taz-72-field-guide",
+      "article_sha256": "8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1",
+      "founder_approved": true
+    }
+  ]
+}

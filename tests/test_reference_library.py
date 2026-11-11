@@ -31,7 +31,7 @@ class ReferenceLibraryTests(unittest.TestCase):
         self.assertGreaterEqual(self.links.cards,13)
         official={"bigassfans.com","www.greenheck.com","www.ritehite.com",
           "www.invertekdrives.com","new.abb.com","www.amca.org",
-          "www.ashrae.org","www.energy.gov","www.ecfr.gov"}
+          "www.ashrae.org","www.energy.gov","www.ecfr.gov","cbe.berkeley.edu","www.energy.ca.gov","www.osha.gov","www.epa.gov"}
         external=[x for x in self.links.links if x.get("target")=="_blank"]
         self.assertEqual(len(external),self.links.cards)
         for link in external:
@@ -45,4 +45,8 @@ class ReferenceLibraryTests(unittest.TestCase):
         self.assertIn('aria-live="polite"',self.page)
         self.assertNotIn("/editorial/drafts/",self.page)
         self.assertNotIn("permission pending",self.page.lower())
+        self.assertNotIn("install-guide.pdf",self.page)
+        self.assertNotIn("Fans &amp; manuals",self.page)
+        self.assertIn("Studies &amp; research",self.page)
+        self.assertIn("Laws &amp; regulations",self.page)
 if __name__=="__main__":unittest.main()

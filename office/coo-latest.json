@@ -4,17 +4,18 @@
     "status": "synced_unverified_leads",
     "issues_created": 0,
     "eligible_candidates": 0,
-    "run_id": "43048487736",
-    "deduplication_check": "no_new_items_to_recheck"
+    "run_id": "43050580115",
+    "deduplication_check": "no_new_items_to_recheck",
+    "matched_existing_count": 0
   },
-  "generated_at": "2026-11-11T15:28:03.532045+00:00",
+  "generated_at": "2026-11-11T15:40:50.013889+00:00",
   "status": "automated_operational_brief_not_autonomous_agent",
-  "research_generated_at": "2026-11-11T15:27:16.796507+00:00",
+  "research_generated_at": "2026-11-11T15:39:49.622719+00:00",
   "metrics": {
-    "research_leads": 14,
+    "research_leads": 15,
     "editorial_briefs": 0,
     "media_requests": 8,
-    "source_errors": 1,
+    "source_errors": 2,
     "manufacturer_source_errors": 1,
     "approval_records": 0,
     "published_articles": 0
@@ -26,7 +27,7 @@
       "owner": "Head of Research",
       "status": "needs_review",
       "task": "Screen recent research leads and verify original sources",
-      "count": 14
+      "count": 15
     },
     {
       "id": "coo-editorial",
@@ -77,7 +78,7 @@
       "count": 8
     }
   ],
-  "manufacturer_discovery_generated_at": "2026-11-11T15:27:47.079966+00:00",
+  "manufacturer_discovery_generated_at": "2026-11-11T15:40:34.159277+00:00",
   "warnings": [
     "Research headlines and dates are unverified until original sources are checked.",
     "No autonomous LLM agents or publisher approval are executed by this report.",

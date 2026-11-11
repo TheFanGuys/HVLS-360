@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish GitHub editorial pilot acceptance. Founder deferred the COO conversation link; do not spend work on it unless requested again.",
-  "next_task": "Prepare the first existing article for substantive founder review: verify its specific source/technical/visual holds and remove blanket review ambiguity without inventing signoffs. Keep #92 authenticated phone acceptance open. Research now maps a real official dated lead to existing assignment #96; ABB timeout, next schedule and genuinely new Issue creation remain tracked.",
+  "next_task": "Complete the first article packet: recheck remaining BAF/DOE/55 sources and render a phone-legible original diagram. Chris may review text now; technical/visual holds and #92 remain open.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "PRs #124/#125 add bounded official dated Invertek intake, explicit controls relevance, exact-source match to existing pitches and one timeout retry. Actual run 43051318664: 18 leads, 1 research brief, matched #96, zero duplicates/new Issues; one ABB timeout still visible. 188 tests passed.",
+  "latest_verified_change": "Prepared revision-specific founder text-review packet for Air Movement vs. Ventilation. EPA and ASHRAE 62.1 public pages rechecked November 11; original diagram selected, optional uncleared manufacturer photos excluded. No manuscript change, signoff or approval.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true

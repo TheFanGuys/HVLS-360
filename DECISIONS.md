@@ -55,3 +55,8 @@ PR #124 adds an official Invertek news-index parser: same-host HTTPS article URL
 Actual run 43051318664 at e08a6259be9b378f2bd151af1596baf4910891e8 completed: 18 collected, 1 research brief, existing Issue #96 matched, 0 duplicates/new Issues; summary commit 8435d7bf9c098be58fdd46d007eda3df9b04347f. The first attempt 43050580115 exposed the oversized news archive and did not accept a lead; no false acceptance was claimed. Latest official E4 lead is publisher-reported October 29, 2026, not its original launch; performance and US applicability remain unverified. The Nuremberg exhibition is held. ABB still times out after the retry and is reported in Actions/COO warnings.
 
 188 tests passed. New Issue creation/readback and the next scheduled trigger remain unverified; do not fabricate a test story. Next: prepare the first existing article for specific substantive founder review, keeping technical/media/phone gates intact. No spending or article publication.
+
+
+## November 11 — first article review packet
+
+Prepared founder-facing review packet in editorial/reviews/hvls-air-movement-vs-ventilation-review.md for unchanged manuscript SHA-256 3e5562a223bfca819a64db283e1268e21e33dbb01419e1c2e387aaba5fe5d7a7. EPA and ASHRAE 62.1 public pages rechecked; remaining source rechecks and phone-width diagram acceptance assigned to assistant roles for next active session. Chris can judge text now. Original diagram means optional third-party photograph permission is not required. Qualified technical signoff remains zero; no release authorized. This is a review packet, not a completed technical/visual clearance.

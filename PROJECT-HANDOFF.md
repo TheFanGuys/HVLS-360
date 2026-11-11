@@ -112,3 +112,8 @@ Chris verified iPhone GitHub editor commit and same-device Review Studio reopen.
 ## November 11 — full-site acceptance and magazine preview
 
 Full-site acceptance: 190 Python tests, six JavaScript suites, editorial/metadata/publication checks and 191 local HTML references passed. Live homepage/reference search/shared board inspected; board loaded 17 tasks and search worked. Added nine-page unindexed full magazine preview of all eight current drafts, fixed airflow renderer dimensions, stale Powerfoil reference and personal-note labeling. Report: office/FULL-SITE-ACCEPTANCE-2026-11-11.md. Preview deployment/browser acceptance follows. Public catalog/RSS/sitemap remain unchanged; founder release and qualified review are still outstanding. Direct Studio physical-device and second-device acceptance remain open.
+
+
+## Deployed full-preview acceptance
+
+PR #131 merged at 80c2464b35aebcb7d8b3ba31f577d76d4f3cfea5. All three PR checks and main Publication Safety Gate passed. Pages deployment 43059631543 succeeded. Live browser verified eight magazine cards and opened all eight article pages: content rendered, zero broken loaded images and no horizontal overflow in the tested desktop viewport. Preview noindex confirmed; Air Movement diagram loaded. Team/COO/editorial/technical/media screens also opened without displayed loading errors. Full preview: https://thefanguys.github.io/HVLS-360/office/preview/ . Physical full-site iPhone acceptance is not claimed.

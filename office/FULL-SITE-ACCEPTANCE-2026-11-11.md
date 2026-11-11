@@ -28,3 +28,8 @@ Baseline: main 834841dc4c250c162ae3dd69f5c0096bb2966cb1. This report records act
 ## Remaining acceptance
 
 Direct Studio authenticated physical-device writes, real second-device reopening, expanded scheduled research/new-Issue path, revision-specific qualified technical review, and founder authorization for an article release. No paid service, external outreach, new credential or release was performed.
+
+
+## Deployed full-preview acceptance
+
+PR #131 merged at 80c2464b35aebcb7d8b3ba31f577d76d4f3cfea5. All three PR checks and main Publication Safety Gate passed. Pages deployment 43059631543 succeeded. Live browser verified eight magazine cards and opened all eight article pages: content rendered, zero broken loaded images and no horizontal overflow in the tested desktop viewport. Preview noindex confirmed; Air Movement diagram loaded. Team/COO/editorial/technical/media screens also opened without displayed loading errors. Full preview: https://thefanguys.github.io/HVLS-360/office/preview/ . Physical full-site iPhone acceptance is not claimed.

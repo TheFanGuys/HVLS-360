@@ -105,6 +105,10 @@ class ArticleReleaseTests(unittest.TestCase):
         rendered=render_markdown('![VFD selection](../../editorial/media/original/vfd-compatibility-check.svg)')
         self.assertIn('vfd-compatibility-check.svg',rendered)
         self.assertIn('alt="VFD selection"',rendered)
+    def test_original_gfy_vividair_diagram(self):
+        rendered=render_markdown('![System identification](../../editorial/media/original/fan-system-documentation.svg)')
+        self.assertIn('fan-system-documentation.svg',rendered)
+        self.assertIn('alt="System identification"',rendered)
     def test_unlisted_local_diagram_is_not_embedded(self):
         rendered=render_markdown('![Unknown](../../editorial/media/original/unknown.svg)')
         self.assertNotIn('<img ',rendered)

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "manufacturer": "VividAir",
+  "legacy_brand": "Go Fan Yourself",
+  "status": "manufacturer_watch_primary_sources",
+  "verified_at": "2026-11-10",
+  "official_sites": [
+    "https://vividairmovement.com/",
+    "https://gofanyourself.com/"
+  ],
+  "product_families": [
+    {
+      "name": "Z-Tech",
+      "url": "https://vividairmovement.com/product/z-tech/",
+      "focus": "HVLS overhead fan, controller and drive generations"
+    },
+    {
+      "name": "Z-Tech3",
+      "url": "https://vividairmovement.com/product/z-tech-3/",
+      "focus": "three-blade overhead family"
+    },
+    {
+      "name": "TAZ",
+      "url": "https://vividairmovement.com/product/taz/",
+      "focus": "36- and 72-inch aisle and mezzanine air movement"
+    },
+    {
+      "name": "Z-Chill",
+      "url": "https://vividairmovement.com/product/z-chill/",
+      "focus": "HVAC-assisted fan/diffuser system"
+    },
+    {
+      "name": "Navigator",
+      "url": "https://vividairmovement.com/product/z-tech/",
+      "focus": "centralized controls as referenced by current Z-Tech page"
+    }
+  ],
+  "technical_sources": [
+    {
+      "label": "Z-Tech technical operations guide (January 2023)",
+      "url": "https://vividairmovement.com/wp-content/uploads/2023/01/Z-Tech_Fan_Installation_Technical_Operations_Guide_1.2023.pdf"
+    },
+    {
+      "label": "TAZ technical operations guide (January 2023)",
+      "url": "https://vividairmovement.com/wp-content/uploads/2023/01/TAZ_Installation_and_Technical_Operations_Guide_1.2023.pdf"
+    }
+  ],
+  "monitoring_topics": [
+    "New model and controller announcements",
+    "Installation and operations manual revisions",
+    "ABB and other VFD compatibility documentation",
+    "Fire-alarm and BAS integration changes",
+    "Service and commissioning bulletins"
+  ],
+  "editorial_policy": "Do not imply independent testing, approved replacement compatibility or image rights without evidence."
+}

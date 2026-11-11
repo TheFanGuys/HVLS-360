@@ -8,13 +8,14 @@ class PreviewTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp)
    shutil.copytree(ROOT/'editorial/drafts',root/'editorial/drafts')
+   shutil.copytree(ROOT/'editorial/media',root/'editorial/media')
    (root/'office').mkdir()
    shutil.copy(ROOT/'office/launch-package.json',root/'office/launch-package.json')
    self.assertEqual(build(root),len(json.loads((root/"office/launch-package.json").read_text())["items"])+1)
    for p in (root/'office/preview').glob('*.html'):
     self.assertEqual(p.read_text(),(ROOT/'office/preview'/p.name).read_text(),'Preview stale; rebuild')
     self.assertIn('noindex,nofollow,noarchive',p.read_text())
-    self.assertIn('Founder preview',p.read_text())
+    self.assertIn('Founder review edition',p.read_text())
     self.assertNotIn('datePublished',p.read_text())
    self.assertFalse((root/'articles').exists())
    self.assertFalse((root/'editorial/approvals').exists())
@@ -24,5 +25,7 @@ class PreviewTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp);(root/'office').mkdir();(root/'editorial/drafts').mkdir(parents=True)
    (root/'office/launch-package.json').write_text(json.dumps({'items':[{'slug':'test'}]}))
+   (root/'editorial/media').mkdir()
+   (root/'editorial/media/article-images.json').write_text(json.dumps({'items':{}}))
    (root/'editorial/drafts/test.md').write_text('---\npublication_allowed: true\n---\n# Test')
    with self.assertRaises(ValueError):build(root)

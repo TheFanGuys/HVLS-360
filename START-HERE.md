@@ -25,3 +25,7 @@ Full-site acceptance: 190 Python tests, six JavaScript suites, editorial/metadat
 ## Content expansion checkpoint
 
 Delivered content/design expansion: twelve original pieces in the full preview (eight existing plus four sourced briefings); twenty-four research/regulatory/technical source entries; six-source research rail on the public homepage. New subjects: industrial-fan study evidence, CFIAC research, OSHA lift classification and fan guarding. Compact masthead, paper-toned reading surface, serif headlines and restrained source cards replace the oversized dark presentation. Original eight founder approvals preserved; four new assignments #133–136 remain separate. No manufacturer manual listings restored.
+
+## Image-led direction
+
+Construction Today reference inspected in live browser. Rebuilt review edition as an image-led trade magazine: black compact masthead, BFG blue/orange, featured + supporting story, image grid, useful sidebar and captioned article headers. All twelve pieces have an image mapping; authentic publisher-authorized field photos used where applicable, original diagrams for technical subjects. Three site-owned photos visually checked, resized/compressed with metadata stripped; source/model/caption provenance recorded. Public research rail also has clearly labeled illustrations. Founder article approval remains unchanged.

@@ -147,6 +147,20 @@ def render_markdown(text):
     close_list()
     return "\n".join(result)
 
+def article_hero(root,slug):
+    root=pathlib.Path(root)
+    manifest=root/"editorial/media/article-images.json"
+    if not manifest.is_file(): return ""
+    media=json.loads(manifest.read_text())["items"].get(slug)
+    if not media: return ""
+    path=media["file"]
+    resolved=(root/path).resolve()
+    if not path.startswith("editorial/media/") or not resolved.is_relative_to(root.resolve()) or not resolved.is_file():
+        raise ValueError("Missing or unsafe article lead image")
+    esc=lambda v:html.escape(str(v),quote=True)
+    kind="photo" if media.get("kind")=="photo" else "diagram"
+    return '<figure class="article-lead '+kind+'"><img src="../../'+esc(path)+'" alt="'+esc(media["alt"])+'" loading="lazy" decoding="async" style="object-position:'+esc(media.get("position","50% 50%"))+'"><figcaption>'+esc(media["caption"])+' — '+esc(media["credit"])+'</figcaption></figure>'
+
 def build_html(root,slug):
     root=pathlib.Path(root)
     if not SLUG_RE.fullmatch(slug):
@@ -188,6 +202,7 @@ def build_html(root,slug):
     ld=(json.dumps(schema,ensure_ascii=False,separators=(",",":"))
         .replace("&",r"\u0026").replace("<",r"\u003c").replace(">",r"\u003e"))
     body_html=render_markdown(body)
+    lead_html=article_hero(root,slug)
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{search_heading} | HVLS 360°</title><meta name="description" content="{desc}"><meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="{canon}"><meta property="og:type" content="article"><meta property="og:title" content="{search_heading}">
@@ -201,7 +216,7 @@ def build_html(root,slug):
 <nav class="nav" aria-label="Primary"><div class="wrap"><a href="../../">Home</a><a href="../../#departments">Industry News</a><a href="../../#departments">Technology</a><a href="../../#departments">Installation</a><a href="../../#departments">Service &amp; VFDs</a></div></nav>
 <main class="article"><p class="breadcrumbs"><a href="../../">Home</a> / {org}</p>
 <div class="eyebrow">{org}</div><h1>{heading}</h1><p class="meta">HVLS 360° Editorial Desk · {display_date}</p>
-<div class="article-body">{body_html}</div></main>
+{lead_html}<div class="article-body">{body_html}</div></main>
 <footer class="foot"><div class="wrap">© HVLS 360° · Published by Big Fan Guys · <a href="../../rss.xml">RSS</a></div></footer>
 </body></html>
 '''

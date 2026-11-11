@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "purpose": "Magazine thumbnails and review article headers; not evidence of model performance or study participation",
+  "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+  "items": {
+    "hvls-air-movement-vs-ventilation": {
+      "file": "editorial/media/publisher/bfg-field/warehouse-aisle.webp",
+      "alt": "Directional fan suspended above a warehouse aisle",
+      "caption": "Industrial air movement in a Big Fan Guys field installation.",
+      "kind": "photo",
+      "position": "50% 24%",
+      "credit": "Big Fan Guys"
+    },
+    "abb-2026-ip66-vfd-field-report": {
+      "file": "editorial/media/original/vfd-compatibility-check.svg",
+      "alt": "Diagram of drive and fan compatibility checks",
+      "caption": "Drive-system illustration; not a photograph of an ABB product.",
+      "kind": "diagram",
+      "position": "50% 50%",
+      "credit": "HVLS 360\u00b0"
+    },
+    "cfei-vs-cfm-per-watt-field-guide": {
+      "file": "editorial/media/original/fan-system-documentation.svg",
+      "alt": "Fan system documentation diagram",
+      "caption": "Original illustration of the documentation behind a fan system.",
+      "kind": "diagram",
+      "position": "50% 50%",
+      "credit": "HVLS 360\u00b0"
+    },
+    "greenheck-ds-series-2026-field-report": {
+      "file": "editorial/media/original/fan-system-documentation.svg",
+      "alt": "Fan system documentation diagram",
+      "caption": "System-documentation illustration; not a Greenheck product photograph.",
+      "kind": "diagram",
+      "position": "50% 50%",
+      "credit": "HVLS 360\u00b0"
+    },
+    "powerfoil6-field-brief": {
+      "file": "editorial/media/original/fan-system-documentation.svg",
+      "alt": "Fan system planning and documentation diagram",
+      "caption": "Installation-planning illustration; not a Powerfoil 6 product photograph.",
+      "kind": "diagram",
+      "position": "50% 50%",
+      "credit": "HVLS 360\u00b0"
+    },
+    "scissor-lift-planning-hvls-installations": {
+      "file": "editorial/media/original/scissor-lift-access-planning.svg",
+      "alt": "Scissor lift access planning illustration",
+      "caption": "Original illustration of installation access planning.",
+      "kind": "diagram",
+      "position": "50% 50%",
+      "credit": "HVLS 360\u00b0"
+    },
+    "vividair-gfy-ztech-taz-controls-field-guide": {
+      "file": "editorial/media/publisher/bfg-field/directional-fans.webp",
+      "alt": "Go Fan Yourself branded directional fans above a warehouse aisle",
+      "caption": "Go Fan Yourself branded fans in a Big Fan Guys field installation.",
+      "kind": "photo",
+      "position": "15% 18%",
+      "credit": "Big Fan Guys"
+    },
+    "vividair-taz-72-field-guide": {
+      "file": "editorial/media/publisher/taz-72/taz-72-field-02.webp",
+      "alt": "Publisher-supplied TAZ installation photograph",
+      "caption": "TAZ field photograph supplied and identified by Big Fan Guys.",
+      "kind": "photo",
+      "position": "50% 50%",
+      "credit": "Big Fan Guys"
+    },
+    "industrial-fan-heat-study-what-was-measured": {
+      "file": "editorial/media/publisher/bfg-field/warehouse-aisle.webp",
+      "alt": "Directional fan in a warehouse aisle",
+      "caption": "Big Fan Guys field photograph used for illustration; not one of the study sites.",
+      "kind": "photo",
+      "position": "50% 22%",
+      "credit": "Big Fan Guys"
+    },
+    "ceiling-fans-hvac-air-distribution-research": {
+      "file": "editorial/media/original/air-movement-vs-ventilation.svg",
+      "alt": "Indoor circulation and outdoor-air ventilation diagram",
+      "caption": "Conceptual air-movement illustration; not a rendering of the Berkeley test chamber.",
+      "kind": "diagram",
+      "position": "50% 50%",
+      "credit": "HVLS 360\u00b0"
+    },
+    "scissor-lift-osha-classification": {
+      "file": "editorial/media/original/scissor-lift-access-planning.svg",
+      "alt": "Original scissor lift work-area planning diagram",
+      "caption": "Original scissor-lift planning illustration.",
+      "kind": "diagram",
+      "position": "50% 50%",
+      "credit": "HVLS 360\u00b0"
+    },
+    "fan-guarding-working-level": {
+      "file": "editorial/media/publisher/bfg-field/fan-installation.webp",
+      "alt": "Directional fan suspended beside warehouse racking",
+      "caption": "Big Fan Guys field photograph illustrating installation context.",
+      "kind": "photo",
+      "position": "15% 12%",
+      "credit": "Big Fan Guys"
+    }
+  }
+}

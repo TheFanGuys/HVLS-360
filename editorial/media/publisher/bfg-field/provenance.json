@@ -1,0 +1,22 @@
+{
+  "rights": "Publisher authorizes Big Fan Guys site imagery for HVLS 360 editorial use; see big-fan-guys-source-index.json",
+  "visually_inspected": "2026-11-11",
+  "processing": "Orientation, web resize/compression and metadata stripping only; no scene manipulation",
+  "photos": [
+    {
+      "file": "warehouse-aisle.webp",
+      "source": "https://bigfanguys.com/gallery/warehouse/IMG_2732.JPG",
+      "identification": "Go Fan Yourself branded directional fan installation; exact model unasserted"
+    },
+    {
+      "file": "directional-fans.webp",
+      "source": "https://bigfanguys.com/gallery/warehouse/IMG_2737.JPG",
+      "identification": "Go Fan Yourself branded directional fan installation; exact model unasserted"
+    },
+    {
+      "file": "fan-installation.webp",
+      "source": "https://bigfanguys.com/gallery/warehouse/IMG_2742.JPG",
+      "identification": "Go Fan Yourself branded directional fan installation; exact model unasserted"
+    }
+  ]
+}

@@ -65,3 +65,10 @@ Prepared founder-facing review packet in editorial/reviews/hvls-air-movement-vs-
 ## November 11 — fresh-chat transition and editorial direction
 
 Chris requested a safe move before thread failure and reaffirmed that AI-sounding copy, AI-looking design and repetitive legal/process warnings are unacceptable throughout the project. Updated AGENTS.md and COPYDESK-STANDARD.md with direct voice/design rules; internal review records remain internal, material qualifications stated once in context. START-HERE.md carries a short restart prompt and exact next task. PR #127 is merged, 188 tests passed; no active mutation is left mid-operation. Next session finishes first-article sources and phone diagram, then pilot acceptance. No COO conversation work unless reopened by Chris.
+
+
+## November 11 — first-article source and diagram checks completed
+
+Completed first-article BAF/DOE/Standard 55 source rechecks and replaced wide airflow SVG with stacked phone-readable artwork. Inkscape 350px render visually inspected; 15px minimum text at that width. Manuscript and voice hash unchanged. Independent technical signoff, founder decision and real authenticated phone acceptance remain open.
+
+Read the live rendered BAF guide sections 2.1 and 2.4, DOE item 5 (June 8, 2012), and ASHRAE public Standard 55 scope/2023 edition. No numerical performance or standard compliance claim added. Diagram arrows stay indoors for mixing and cross separate walls for outdoor supply/exhaust. Original SVG hash and detailed acceptance are in the companion review. Existing independent-review gate retained; source checking is not qualified signoff. No spending or article release.

@@ -1,61 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
-<title id="title">Air circulation compared with outdoor-air ventilation</title>
-<desc id="desc">Two side-by-side warehouse cross-sections. At left, an HVLS ceiling fan drives indoor air circulation with return paths inside the same building. At right, a mechanical supply introduces outdoor air while a separate exhaust discharges indoor air outdoors.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 1110" role="img" aria-labelledby="title desc">
+<title id="title">Air circulation and outdoor-air ventilation</title>
+<desc id="desc">Two stacked building sections. In the upper section, a ceiling fan pushes indoor air down, outward across the floor and back up toward the fan. All circulation arrows stay indoors. In the lower section, a separate mechanical system supplies outdoor air through one wall and exhausts indoor air through the other. These are conceptual examples, not measured airflow or a complete ventilation design.</desc>
 <defs>
-<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071724"/><stop offset="1" stop-color="#102a3c"/></linearGradient>
-<linearGradient id="panel" x2="0" y2="1"><stop stop-color="#18374b"/><stop offset="1" stop-color="#10202f"/></linearGradient>
-<marker id="cyan" markerWidth="8" markerHeight="8" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#61d5e8"/></marker>
-<marker id="lime" markerWidth="8" markerHeight="8" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#b1dc78"/></marker>
-<marker id="gold" markerWidth="8" markerHeight="8" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#f4b965"/></marker>
+<marker id="mix" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#12637b"/></marker>
+<marker id="supply" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#287345"/></marker>
+<marker id="exhaust" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#a54b16"/></marker>
 <style>
-text{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#ebf6fa}
-.head{font-size:26px;font-weight:750;letter-spacing:-.5px}.sub{font-size:15px;fill:#a8c3d3}.label{font-size:16px;font-weight:650}
-.line{fill:none;stroke:#61d5e8;stroke-width:6;stroke-linecap:round;marker-end:url(#cyan)}
-.airin{fill:none;stroke:#b1dc78;stroke-width:7;stroke-linecap:round;marker-end:url(#lime)}
-.airout{fill:none;stroke:#f4b965;stroke-width:7;stroke-linecap:round;marker-end:url(#gold)}
-.build{fill:url(#panel);stroke:#7da1b4;stroke-width:3;stroke-linejoin:round}
-</style></defs>
-<rect width="1200" height="650" fill="url(#bg)"/>
-<text x="52" y="55" class="sub" style="letter-spacing:3px;font-weight:750">HVLS 360°  /  ENGINEERING EXPLAINER</text>
-<text x="52" y="103" style="font-size:34px;font-weight:800;letter-spacing:-1px">Moving air and exchanging air are different jobs.</text>
-<g transform="translate(35 140)">
-<rect width="548" height="455" rx="18" fill="#102536" stroke="#29495d"/>
-<text x="27" y="43" class="head">01  Indoor air circulation</text>
-<text x="27" y="70" class="sub">Mixes air already inside the building</text>
-<path class="build" d="M47 196L274 110L501 196V379H47Z"/>
-<path d="M47 196L274 110L501 196" fill="none" stroke="#88a6b8" stroke-width="5"/>
-<!-- HVLS suspension and blade -->
-<path d="M274 113V165" stroke="#c3d9e6" stroke-width="6"/>
-<ellipse cx="274" cy="172" rx="120" ry="8" fill="#61d5e8"/>
-<rect x="257" y="160" width="34" height="28" rx="7" fill="#d6eef3"/>
-<path d="M270 196V308" class="line"/>
-<path d="M250 212V309" class="line"/>
-<path d="M221 323C130 331 110 255 128 229" class="line"/>
-<path d="M333 323C428 326 448 254 422 230" class="line"/>
-<path d="M139 214C156 198 170 191 186 189" class="line"/>
-<path d="M414 210C389 191 379 190 359 189" class="line"/>
-<text x="75" y="416" class="label" fill="#61d5e8">Recirculation loop</text>
-<text x="75" y="438" class="sub">No dedicated outdoor-air path is shown.</text>
+text{font-family:Arial,Helvetica,sans-serif;fill:#172d3c;font-size:30px}
+.heading{font-size:36px;font-weight:700}.note{fill:#405564}
+.building{fill:#f0f4f6;stroke:#637987;stroke-width:4;stroke-linejoin:round}
+.flow{fill:none;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+</style>
+</defs>
+<rect width="700" height="1110" fill="#fff"/>
+<text x="30" y="44" font-weight="700">HVLS 360°</text>
+<text x="30" y="97" class="heading">Indoor air circulation</text>
+<text x="30" y="138" class="note">Moves air within the building</text>
+<path class="building" d="M80 255L350 167L620 255V447H80Z"/>
+<!-- Downward-flow mode. Return paths remain inside the building. -->
+<path d="M350 171V232" stroke="#637987" stroke-width="6"/>
+<path d="M248 240H452" stroke="#172d3c" stroke-width="9" stroke-linecap="round"/>
+<circle cx="350" cy="240" r="13" fill="#172d3c"/>
+<g class="flow" stroke="#12637b" marker-end="url(#mix)">
+<path d="M350 268V366"/>
+<path d="M332 386C235 424 137 402 137 340V288C137 267 180 262 225 262"/>
+<path d="M368 386C465 424 563 402 563 340V288C563 267 520 262 475 262"/>
 </g>
-<g transform="translate(617 140)">
-<rect width="548" height="455" rx="18" fill="#102536" stroke="#29495d"/>
-<text x="27" y="43" class="head">02  Outdoor-air ventilation</text>
-<text x="27" y="70" class="sub">Introduces outside air and removes inside air</text>
-<path class="build" d="M82 196L274 110L466 196V379H82Z"/>
-<path d="M82 196L274 110L466 196" fill="none" stroke="#88a6b8" stroke-width="5"/>
-<!-- supply supply schematic -->
-<rect x="49" y="226" width="78" height="54" rx="5" fill="#1e4551" stroke="#c6e8c1" stroke-width="3"/>
-<path d="M23 249H165L215 287" class="airin"/>
-<path d="M194 292L242 317" class="airin"/>
-<text x="25" y="216" class="sub">Outdoor supply</text>
-<!-- exhaust high side -->
-<rect x="412" y="222" width="88" height="48" rx="5" fill="#433c32" stroke="#f4b965" stroke-width="3"/>
-<path d="M285 290L361 253H520" class="airout"/>
-<text x="411" y="205" class="sub">Exhaust</text>
-<path d="M315 335C342 321 360 314 377 309" fill="none" stroke="#f4b965" stroke-width="3" stroke-dasharray="7 7"/>
-<path d="M204 340C246 355 277 347 298 330" fill="none" stroke="#b1dc78" stroke-width="3" stroke-dasharray="7 7"/>
-<text x="77" y="416" class="label">Separate ventilation system</text>
-<text x="77" y="438" class="sub">Supply and exhaust paths are illustrated.</text>
-</g>
-<g transform="translate(38 615)"><circle cx="11" cy="-2" r="6" fill="#61d5e8"/><text x="28" y="3" font-size="14" fill="#bdd0dc">Indoor mixing</text><circle cx="205" cy="-2" r="6" fill="#b1dc78"/><text x="224" y="3" font-size="14" fill="#bdd0dc">Outdoor supply</text><circle cx="405" cy="-2" r="6" fill="#f4b965"/><text x="423" y="3" font-size="14" fill="#bdd0dc">Air exhausted outside</text><text x="821" y="3" font-size="13" fill="#92abbb">Conceptual schematic · Not to scale</text></g>
+<text x="30" y="496">Indoor air recirculates.</text>
+<text x="30" y="535" class="note">No outdoor-air supply shown.</text>
+<path d="M30 569H670" stroke="#bac6ce" stroke-width="2"/>
+<text x="30" y="622" class="heading">Outdoor-air ventilation</text>
+<text x="30" y="663" class="note">Example: mechanical supply + exhaust</text>
+<path class="building" d="M120 814L350 730L580 814V958H120Z"/>
+<!-- Paths explicitly cross the building boundary through separate openings. -->
+<rect x="108" y="824" width="24" height="46" fill="#fff" stroke="#637987" stroke-width="3"/>
+<rect x="568" y="824" width="24" height="46" fill="#fff" stroke="#637987" stroke-width="3"/>
+<path class="flow" stroke="#287345" marker-end="url(#supply)" d="M35 847H258"/>
+<path class="flow" stroke="#a54b16" marker-end="url(#exhaust)" d="M442 847H665"/>
+<text x="30" y="752" fill="#287345">Outdoor</text>
+<text x="30" y="790" fill="#287345">air in</text>
+<text x="522" y="752" fill="#a54b16">Indoor</text>
+<text x="522" y="790" fill="#a54b16">air out</text>
+<text x="30" y="1007">Air crosses the building boundary.</text>
+<text x="30" y="1058" class="note">Conceptual examples • Not to scale</text>
+<text x="30" y="1096" class="note">Systems can work together.</text>
 </svg>

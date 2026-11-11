@@ -2,7 +2,11 @@
 
 Checkpoint: November 11, 2026. Repository: https://github.com/TheFanGuys/HVLS-360 . Evidence baseline: main 4b3961c07382f1684dabf69b303e6caa9c22d0c4 (PR #127). This handoff is maintained in GitHub so recovery does not depend on a ChatGPT thread. It is a dated checkpoint, not automatic chat synchronization. Verify newer commits, Issues and Actions before declaring current status.
 
-## Latest checkpoint — ready to change chats
+## Latest checkpoint — source and diagram task completed
+
+Completed first-article BAF/DOE/Standard 55 source rechecks and replaced wide airflow SVG with stacked phone-readable artwork. Inkscape 350px render visually inspected; 15px minimum text at that width. Manuscript and voice hash unchanged. Independent technical signoff, founder decision and real authenticated phone acceptance remain open. Detailed source-to-claim notes and exact diagram hash are in the companion review. Next: pilot #114 and Studio #92 acceptance within available access; obtain revision-specific qualified review evidence for #84 without inventing a signoff.
+
+## Previous checkpoint — ready to change chats
 
 PR #127 is merged. The Air Movement vs. Ventilation founder text-review packet is in its companion review file. Manuscript unchanged; voice revision hash retained. 188 tests passed, as did GitHub Research Desk Tests and local editorial, technical and publication audits. No code or article task is mid-operation at this checkpoint.
 

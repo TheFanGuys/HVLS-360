@@ -10,6 +10,8 @@ technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
 founder_review: "Pending — not approved"
+seo_title: "72-Inch TAZ: Airflow, Identification and Guide Checks"
+seo_description: "Review VividAir TAZ aisle-fan placement, manufacturer performance claims and the guide-label inconsistency to resolve against the installed equipment."
 ---
 
 # Inside the 72-Inch TAZ: A Field Guide to VividAir's Aisle Fan

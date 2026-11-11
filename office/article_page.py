@@ -155,6 +155,7 @@ def build_html(root,slug):
     raw=publication.read_text(encoding="utf-8")
     fields,body=frontmatter(raw)
     title=fields["title"]
+    seo_title=fields.get("seo_title") or title
     category=fields["category"]
     description=""
     for line in body.splitlines():
@@ -167,6 +168,7 @@ def build_html(root,slug):
             break
     if not description:
         description=title+" — HVLS 360° industrial air movement."
+    description=fields.get("seo_description") or description
     approval_file=root/"editorial"/"approvals"/(slug+".json")
     approval=json.loads(approval_file.read_text(encoding="utf-8"))
     date=datetime.fromisoformat(approval["approved_at_utc"].replace("Z","+00:00"))
@@ -174,6 +176,7 @@ def build_html(root,slug):
     display_date=date.strftime("%B %-d, %Y")
     url=BASE+"articles/"+slug+"/"
     heading=html.escape(title)
+    search_heading=html.escape(seo_title,quote=True)
     desc=html.escape(description,quote=True)
     canon=html.escape(url,quote=True)
     org=html.escape(category)
@@ -186,8 +189,8 @@ def build_html(root,slug):
         .replace("&",r"\u0026").replace("<",r"\u003c").replace(">",r"\u003e"))
     body_html=render_markdown(body)
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{heading} | HVLS 360°</title><meta name="description" content="{desc}"><meta name="robots" content="index,follow,max-image-preview:large">
-<link rel="canonical" href="{canon}"><meta property="og:type" content="article"><meta property="og:title" content="{heading}">
+<title>{search_heading} | HVLS 360°</title><meta name="description" content="{desc}"><meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="{canon}"><meta property="og:type" content="article"><meta property="og:title" content="{search_heading}">
 <meta property="og:description" content="{desc}"><meta property="og:url" content="{canon}">
 <meta property="og:image" content="{BASE}assets/masthead.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="HVLS 360 RSS" href="{BASE}rss.xml">

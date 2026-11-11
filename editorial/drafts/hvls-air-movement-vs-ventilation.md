@@ -9,6 +9,8 @@ technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
 founder_review: "Pending — not approved"
+seo_title: "HVLS Air Movement vs. Ventilation"
+seo_description: "Understand how HVLS air movement differs from outdoor-air ventilation, with practical questions for facility specifications and project reviews."
 ---
 
 # HVLS Fans, Air Movement and Ventilation: What Facility Managers Need to Know

@@ -23,5 +23,7 @@ jobs:
         run: python office/editorial_readiness.py
       - name: Verify qualified technical signoff register
         run: python office/technical_signoff_audit.py
+      - name: Check launch metadata against current manuscripts
+        run: python office/launch_readiness.py
       - name: Check Python syntax
         run: python -m compileall -q office tests

@@ -9,6 +9,8 @@ technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
 founder_review: "Pending — not approved"
+seo_title: "Powerfoil 6: Installation Planning and Manual Checks"
+seo_description: "Review Powerfoil 6 installation planning through its manufacturer manual: electrical variant, structural attachment, controls and shutdown coordination."
 ---
 
 # Powerfoil 6: What the Installation Manual Tells Field Crews

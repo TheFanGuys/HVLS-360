@@ -11,6 +11,8 @@ technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
 founder_review: "Pending — not approved"
+seo_title: "Greenheck DS Fans: Manuals, Controls and Submittals"
+seo_description: "Examine Greenheck DS fan documentation, shipping-date manual differences and controls questions that affect installation planning and submittal review."
 ---
 
 # Greenheck's Redesigned DS-3 and DS-6: What Changes on an HVLS Job

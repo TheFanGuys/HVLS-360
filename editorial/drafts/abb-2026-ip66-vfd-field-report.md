@@ -11,6 +11,8 @@ technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
 founder_review: "Pending — not approved"
+seo_title: "ABB IP66 Drives: Checks Before an HVLS Retrofit"
+seo_description: "Review ABB enclosure and drive-configuration claims, environmental limits and the OEM compatibility questions to settle before quoting an HVLS retrofit."
 ---
 
 # ABB's 2026 Outdoor-Rated Drive Expansion: What Fan Installers Should Actually Check

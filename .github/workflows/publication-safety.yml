@@ -15,6 +15,7 @@ on:
       - 'office/render_release.py'
       - 'tests/test_publication_guard.py'
       - 'tests/test_article_page.py'
+      - 'tests/test_publication_e2e.py'
       - 'tests/test_production_copy.py'
       - 'tests/test_public_catalog.py'
       - 'tests/test_reference_library.py'
@@ -53,6 +54,7 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_publication_guard.py' -v
           python -m unittest discover -s tests -p 'test_article_page.py' -v
+          python -m unittest discover -s tests -p 'test_publication_e2e.py' -v
           python -m unittest discover -s tests -p 'test_production_copy.py' -v
           python -m unittest discover -s tests -p 'test_public_catalog.py' -v
           python -m unittest discover -s tests -p 'test_reference_library.py' -v

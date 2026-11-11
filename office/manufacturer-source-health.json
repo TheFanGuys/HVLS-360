@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-11T15:19:18.914870+00:00",
+  "scope": "Three repaired manufacturer retrieval paths only; URLs and XML verified, not claims, dates, rights or exhaustive coverage.",
+  "collector_max_bytes": 2000000,
+  "retained_url_limit_per_source": 40,
+  "source_claims_verified": false,
+  "publication_allowed": false,
+  "sources": [
+    {
+      "source": "Rite-Hite",
+      "sitemap_url": "https://www.ritehite.com/ritehitesitemap/sitemap.am.xml",
+      "sitemap_status": "parsed",
+      "seeded_sources": 2,
+      "discovered_candidate_count": 148,
+      "candidate_limit_reached": true,
+      "retained_candidates": 40
+    },
+    {
+      "source": "ABB",
+      "sitemap_url": "https://new.abb.com/us/sitemap/sitemap.xml",
+      "sitemap_status": "parsed",
+      "seeded_sources": 2,
+      "discovered_candidate_count": 25,
+      "candidate_limit_reached": false,
+      "retained_candidates": 25
+    },
+    {
+      "source": "Invertek Drives",
+      "sitemap_url": "https://www.invertekdrives.com/sitemap.xml",
+      "sitemap_status": "parsed",
+      "seeded_sources": 2,
+      "discovered_candidate_count": 5504,
+      "candidate_limit_reached": true,
+      "retained_candidates": 40
+    }
+  ],
+  "errors": []
+}

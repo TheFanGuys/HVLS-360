@@ -4,7 +4,7 @@
 Only public-source lead metadata is sent to Issues. Never upload manuscripts,
 private research, draft excerpts, internal expert notes, or approval tokens.
 """
-import json,os,re,sys
+import hashlib,json,os,re,sys
 from pathlib import Path
 from urllib.parse import quote
 from urllib.request import Request,urlopen
@@ -21,8 +21,8 @@ def build_items(briefs):
     items=[]
     for b in briefs:
         if not eligible(b):continue
-        key=str(b.get("id","")).strip()
-        if not re.fullmatch(r"lead-[0-9]{3,6}",key):continue
+        key="lead-"+hashlib.sha256(url.encode()).hexdigest()[:16]
+        if not re.fullmatch(r"lead-[a-f0-9]{16}",key):continue
         items.append({"key":key,"title":str(b["working_title"])[:160],
             "source":str(b["lead_url"])[:1500],
             "body":f"""COO research intake — **unverified lead**.

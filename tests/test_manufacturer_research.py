@@ -24,6 +24,14 @@ class ManufacturerTests(unittest.TestCase):
         found,errors=m.discover(source,unavailable)
         self.assertEqual(found[0]["candidate_urls"],["https://vividairmovement.com/product/taz/"])
         self.assertEqual(len(errors),1)
+        self.assertEqual(found[0]["sitemap_status"],"incomplete")
+        self.assertEqual(found[0]["candidate_status"],"unverified_candidates_available")
+    def test_failed_sitemap_without_seeds_does_not_claim_coverage(self):
+        def unavailable(url):raise ValueError("Sitemap too large")
+        found,errors=m.discover([{"name":"Missing","url":"https://example.org/"}],unavailable)
+        self.assertEqual(found[0]["candidate_status"],"no_candidates")
+        self.assertEqual(found[0]["sitemap_status"],"incomplete")
+        self.assertEqual(len(errors),1)
     def test_direct_source_deduped_with_sitemap(self):
         source=[{"name":"VividAir","url":"https://vividairmovement.com/",
                  "direct_source_urls":["https://vividairmovement.com/product/taz/"]}]

@@ -41,6 +41,7 @@ def discover(sources,fetcher=fetch):
                 seeds.append(link)
         sitemap="https://"+host+"/sitemap.xml"
         candidates=list(seeds)
+        source_error_start=len(errors)
         try:
             top=urls(fetcher(sitemap))
             nested=[x for x in top if x.lower().endswith(".xml") and urlparse(x).hostname==host][:5]
@@ -55,6 +56,8 @@ def discover(sources,fetcher=fetch):
         unique=list(dict.fromkeys(candidates))[:40]
         result.append({"source":source["name"],"homepage":source["url"],"candidate_urls":unique,
                            "seeded_sources":len(seeds),
+                       "sitemap_status":"incomplete" if len(errors)>source_error_start else "parsed",
+                       "candidate_status":"unverified_candidates_available" if unique else "no_candidates",
                        "note":"URL discovery only; source content, dates, technical claims and image rights are not verified."})
     return result,errors
 def main():
@@ -67,4 +70,13 @@ def main():
     target.parent.mkdir(parents=True,exist_ok=True)
     target.write_text(json.dumps(output,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print("Manufacturer source discovery:",sum(len(x["candidate_urls"]) for x in found),"candidate URLs;",len(errors),"errors")
+    # A successful pipeline must not make incomplete source coverage look healthy.
+    if errors:
+        import os
+        if os.environ.get("GITHUB_ACTIONS")=="true":
+            print(f"::warning::Manufacturer discovery incomplete: {len(errors)} sitemap failures. Direct source candidates are unverified; inspect the research artifact.")
+        summary=os.environ.get("GITHUB_STEP_SUMMARY")
+        if summary:
+            with open(summary,"a",encoding="utf-8") as stream:
+                stream.write(f"\n### Manufacturer discovery warning\n{len(errors)} sitemap failures; fallback URLs are candidates, not verified coverage. See research artifact.\n")
 if __name__=="__main__":main()

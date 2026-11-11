@@ -64,7 +64,11 @@
         "safety",
         "industrial applications"
       ],
-      "verification": "Validate official document links"
+      "verification": "Official direct-source candidates retained when sitemap fails; page availability, model applicability and claims must be checked separately.",
+      "direct_source_urls": [
+        "https://www.ritehite.com/en/am/products/industrial-fans",
+        "https://www.ritehite.com/en/am/products/industrial-fans/hvls-fans"
+      ]
     },
     {
       "name": "MacroAir",
@@ -86,7 +90,11 @@
         "drives",
         "safety"
       ],
-      "verification": "Validate official documents"
+      "verification": "Official direct-source candidates retained when sitemap fails; page availability, model applicability and claims must be checked separately.",
+      "direct_source_urls": [
+        "https://new.abb.com/us/us-motion-business-area/drives-products/ach5804X",
+        "https://new.abb.com/news/detail/136092/abb-expands-portfolio-with-new-ip66-type-4x-drives-for-demanding-environments"
+      ]
     },
     {
       "name": "Invertek Drives",
@@ -97,7 +105,11 @@
         "technical manuals",
         "firmware"
       ],
-      "verification": "Validate official documents"
+      "verification": "Official direct-source candidates retained when sitemap fails; page availability, model applicability and claims must be checked separately.",
+      "direct_source_urls": [
+        "https://www.invertekdrives.com/variable-frequency-drives/optidrive-e4",
+        "https://www.invertekdrives.com/news"
+      ]
     },
     {
       "name": "OSHA",

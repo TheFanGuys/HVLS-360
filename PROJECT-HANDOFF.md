@@ -72,3 +72,8 @@ Earlier planning target: Nov 16 for an accepted editorial pilot, conditional on 
 Other department chat summaries were recovered where available and reconciled to repository outputs. Full independent final Marketing/SEO/Ads chat output and uncommitted work from the faulted original chat were not recovered. Do not claim complete access or automatic control of other project chats.
 
 After each meaningful task, update this handoff/state/decision log AND the relevant shared Issue. Record the verified revision and remaining blocker, not a success label unsupported by actual execution.
+
+
+## November 11 — first article review packet
+
+Prepared founder-facing review packet in editorial/reviews/hvls-air-movement-vs-ventilation-review.md for unchanged manuscript SHA-256 3e5562a223bfca819a64db283e1268e21e33dbb01419e1c2e387aaba5fe5d7a7. EPA and ASHRAE 62.1 public pages rechecked; remaining source rechecks and phone-width diagram acceptance assigned to assistant roles for next active session. Chris can judge text now. Original diagram means optional third-party photograph permission is not required. Qualified technical signoff remains zero; no release authorized. This is a review packet, not a completed technical/visual clearance.

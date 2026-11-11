@@ -3,6 +3,42 @@
 **Review status:** Source and copy desk review completed for qualitative educational claims. Independent technical review of the original illustration remains open.
 **Publication:** BLOCKED. Publisher approval has not been requested.
 
+## Founder review packet — November 11, 2026
+
+**Ready for:** Chris's substantive text review. **Not ready for:** publication. This packet does not clear the existing technical gate.
+
+**Exact manuscript:** SHA-256 `3e5562a223bfca819a64db283e1268e21e33dbb01419e1c2e387aaba5fe5d7a7`. Text unchanged in this packet preparation; existing voice pass still matches.
+
+**Reader and purpose:** Facility managers comparing a comfort complaint with an outdoor-air or contaminant-control problem. The useful takeaway is to specify and measure these jobs separately.
+
+### Chris's editorial decisions
+
+1. Does the opening match the confusion you encounter on installations? Mark any wording you would not say to a customer.
+2. Is the temperature-survey section useful enough for a facility manager? Add a field example only if you can substantiate it; no invented customer story is needed.
+3. Return edits or mark the text reviewed in Studio. A text-review decision is not authorization to publish.
+
+### Remaining work and accountable owners
+
+| Task | Owner role | Deadline / checkpoint | Evidence needed |
+| --- | --- | --- | --- |
+| Recheck BAF, DOE and Standard 55 links and exact claim support | Research Lead, performed by assistant | Next active work session, before requesting release | Dated source-to-claim notes; no complete-standard interpretation claimed |
+| Check illustration's indoor return loops and outdoor supply/exhaust arrows; clarify these are examples, not a complete design | Technical Editor, performed by assistant; qualified reviewer remains unassigned | Before release | Recorded visual findings; unresolved specialist questions explicitly listed |
+| Make the wide diagram legible at phone width | Media & Art / implementation lead, performed by assistant | Next active work session | Render at 350 CSS-pixel width and inspect labels; physical Safari acceptance separate |
+| Review article text and voice | Chris | When available; no imposed founder deadline | Saved revision-specific review outcome |
+| Final release decision | Chris | After open gates are resolved | Explicit approval of exact text and media; no approval recorded |
+
+### What is verified and what is not
+
+- EPA's official outdoor-air pathways page reopened November 11: natural ventilation, infiltration and mechanical pathways; residential scope retained. This supports background terminology, not an industrial design rate.
+- ASHRAE's public 62.1 page reopened November 11 and identifies the 2025 edition. No complete standard was purchased or reviewed. No project adoption or compliance determination is made.
+- In-house SVG is already selected. Manufacturer-photo candidates in the separate candidates file are optional, rights uncleared and excluded from this article. Their missing permission is not a blocker to using the original diagram.
+- Existing AI technical analysis is not independent professional signoff. The register still reports zero qualified signoffs. Neither Chris's text review nor this packet changes that count.
+- Phone diagram legibility has not passed. The current 1200-pixel-wide artwork needs a small-screen check; do not label media complete.
+
+The earlier requests for model manuals or jurisdictional code review apply **if specific installation or compliance claims are added**. They are not additional research assignments for this qualitative article as written. The existing independent-review hold remains visible until its scope is resolved and recorded; this packet does not silently waive it.
+
+---
+
 ## Source traceability
 1. **Big Ass Fans Ceiling Fan Design Guide** — https://learn.bigassfans.com/design-guide — accessed for source review. Manufacturer-authored reference, not independent peer review. Relevant sections include thermal comfort and ceiling fan use in heating.
 2. **U.S. Department of Energy consumer guidance** — https://www.energy.gov/articles/top-11-things-you-didnt-know-about-saving-energy-home-summer-edition — independent source for the broad distinction between fans cooling people and cooling rooms. **Limitation:** Residential context, not a controlled HVLS industrial study.

@@ -12,11 +12,11 @@ publisher_approval: "Required"
 
 # HVLS Fans, Air Movement and Ventilation: What Facility Managers Need to Know
 
-A large-diameter ceiling fan can make a hot industrial space feel more comfortable without functioning as an air conditioner. It can also redistribute warm air trapped near a high ceiling during heating season. But those benefits are often confused with **ventilation**, a separate building-system function. The distinction matters when specifying fans for U.S. warehouses, factories, gyms and other large facilities.
+A warehouse can have plenty of air moving through it and still have a ventilation problem. The reverse is also true: a building can meet its outdoor-air requirements while workers complain that the air feels stagnant. Large-diameter ceiling fans address air distribution and comfort, but they do not create an outdoor-air supply. That distinction should be settled before anyone specifies equipment.
 
 ![Diagram comparing indoor air recirculation under an HVLS fan with mechanical outdoor-air supply and exhaust](../../editorial/media/original/air-movement-vs-ventilation.svg)
 
-## Air movement is not the same as cooling the air
+## Air speed changes comfort—not the thermostat reading
 
 A ceiling fan primarily moves air. When air moves across people, convective and evaporative heat transfer can increase, changing how warm the space feels. That is different from reducing the dry-bulb temperature of the entire room.
 
@@ -24,7 +24,7 @@ Big Ass Fans' *Ceiling Fan Design Guide* describes thermal comfort as a combinat
 
 For an industrial facility, this means that a sales claim such as “feels up to X degrees cooler” should not be interpreted as “the fan lowers room air temperature by X degrees.” A credible comparison needs to specify air speed, occupancy, environmental conditions and the comfort model or measurement method used.
 
-## Destratification is a different operating objective
+## Heating season: reducing the ceiling-to-floor temperature gap
 
 During heating season, warmer air can accumulate near the ceiling of a tall building while the occupied zone remains cooler. A destratification strategy mixes the air to reduce this vertical temperature difference.
 
@@ -32,7 +32,7 @@ Big Ass Fans' design guide includes a dedicated discussion of destratification a
 
 A useful field assessment starts with temperature measurements at multiple heights, the existing heating and thermostat arrangement, and a record of fan speed and direction. Post-installation measurements should be made under reasonably comparable conditions.
 
-## A ceiling fan does not automatically provide outdoor-air ventilation
+## Where recirculation ends and ventilation begins
 
 Moving existing indoor air is not equivalent to bringing outdoor air into the building or exhausting contaminants. The U.S. Environmental Protection Agency identifies outdoor-air pathways including natural ventilation, infiltration, and mechanical outdoor-air intakes or exhaust fans [3]. Its overview primarily discusses homes, so it should not be used as a substitute for commercial-building ventilation design criteria. HVAC ventilation requirements, contaminant control and any required local exhaust must be assessed separately.
 
@@ -40,7 +40,7 @@ For many commercial and industrial occupancies, **ANSI/ASHRAE Standard 62.1-2025
 
 An HVLS fan may complement an engineered ventilation system by influencing air distribution, but it should not be presented as a substitute for required outdoor-air supply or source capture without a design-specific engineering basis.
 
-## What installers and specifiers should verify
+## What belongs in the specification
 
 Before selecting a large-diameter fan, the project team should document the intended goal: occupant comfort, temperature mixing, process support or a combination. Those goals affect fan quantity, placement, control strategy and the measurements used to judge success.
 
@@ -48,13 +48,13 @@ The technical submittal should be checked against the exact fan model and manufa
 
 Commissioning should record actual operating behavior, including controls and any required shutdown or interlock functions. A fan that spins is not, by itself, proof that a building's thermal-comfort or energy-performance target has been met.
 
-## Questions to ask about manufacturer research
+## Interrogating performance claims
 
 When a study or case report claims energy or comfort improvements, ask what was measured and what was estimated. Was there a baseline? How many facilities were included? Were the heating or cooling setpoints changed? Was the study sponsored by the equipment manufacturer? Are the results reproducible in the intended U.S. building type?
 
 Those questions do not make manufacturer research unusable. They make it more useful by separating a documented test result from a marketing generalization.
 
-## Bottom line
+## The specification starts with the problem
 
 HVLS fans can be valuable components of an industrial air-movement strategy, but **air movement, perceived cooling, destratification and ventilation are not interchangeable claims**. A good installation starts with a clearly defined objective and ends with measurements and commissioning evidence appropriate to that objective.
 

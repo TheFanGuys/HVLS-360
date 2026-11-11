@@ -9,6 +9,7 @@ import pathlib
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
+import manufacturer_news
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 MAX_BYTES = 2_000_000
@@ -65,7 +66,12 @@ def run(now, dry=False):
         found=[]
         for feed in dept["feeds"]:
             try:
-                parsed=list(entries(fetch(feed["url"])))
+                if feed.get("type")=="manufacturer_news_html":
+                    if feed.get("parser")!="invertek_news":raise ValueError("Unknown manufacturer index parser")
+                    parsed=manufacturer_news.entries(manufacturer_news.fetch(feed["url"]),feed["url"])
+                    if not parsed:raise ValueError("No dated official news entries; index layout may have changed")
+                else:
+                    parsed=list(entries(fetch(feed["url"])))
                 recent=sum(1 for item in parsed if date_ok(item["published"],now))
                 diagnostics.append("{} / {}: {} parsed, {} recent".format(dept["name"],feed["name"],len(parsed),recent))
                 for item in parsed:

@@ -81,4 +81,28 @@ class SourceRepairTests(unittest.TestCase):
         self.assertEqual(found[0]['discovered_candidate_count'],46)
         self.assertFalse(any(x.startswith('http:') for x in found[0]['candidate_urls']))
 
+class TimeoutRetryTests(unittest.TestCase):
+    def test_transient_timeout_retries_once(self):
+        import io
+        class Response(io.BytesIO):
+            def geturl(self):return 'https://example.org/sitemap.xml'
+        calls=[];waits=[]
+        def opener(*args,**kwargs):
+            calls.append(1)
+            if len(calls)==1:raise TimeoutError('timeout')
+            return Response(XML)
+        self.assertEqual(m.fetch('https://example.org/sitemap.xml',opener,waits.append),XML)
+        self.assertEqual(len(calls),2);self.assertEqual(waits,[1])
+    def test_persistent_timeout_stops_after_two_attempts(self):
+        calls=[]
+        def opener(*args,**kwargs):calls.append(1);raise TimeoutError('timeout')
+        with self.assertRaises(TimeoutError):m.fetch('https://example.org/sitemap.xml',opener,lambda n:None)
+        self.assertEqual(len(calls),2)
+    def test_http_errors_are_not_retried(self):
+        from urllib.error import HTTPError
+        calls=[]
+        def opener(*args,**kwargs):calls.append(1);raise HTTPError('https://example.org',403,'Denied',None,None)
+        with self.assertRaises(HTTPError):m.fetch('https://example.org/sitemap.xml',opener,lambda n:None)
+        self.assertEqual(len(calls),1)
+
 if __name__=="__main__":unittest.main()

@@ -7,6 +7,8 @@ import io
 import pathlib
 import re
 import urllib.request
+import urllib.error
+import time
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 
@@ -41,12 +43,22 @@ def bounded_xml(data):
         if len(data)>MAX_BYTES:raise ValueError("Expanded sitemap too large")
     return data
 
-def fetch(url):
+def fetch(url,opener=None,sleeper=None):
+    opener=opener or urllib.request.urlopen
+    sleeper=sleeper or time.sleep
     req=urllib.request.Request(url,headers={"User-Agent":"HVLS360-ResearchLibrary/1.0 (editorial source discovery)"})
-    with urllib.request.urlopen(req,timeout=12) as resp:
-        if not same_source(resp.geturl(),urlparse(url).hostname):
-            raise ValueError("Sitemap redirected outside its HTTPS source")
-        return bounded_xml(resp.read(MAX_BYTES+1))
+    for attempt in range(2):
+        try:
+            with opener(req,timeout=12) as resp:
+                if not same_source(resp.geturl(),urlparse(url).hostname):
+                    raise ValueError("Sitemap redirected outside its HTTPS source")
+                return bounded_xml(resp.read(MAX_BYTES+1))
+        except (TimeoutError,urllib.error.URLError) as exc:
+            timeout=isinstance(exc,TimeoutError) or isinstance(getattr(exc,"reason",None),TimeoutError)
+            if not timeout or attempt:raise
+            print("Sitemap timeout; retrying once:",url)
+            sleeper(1)
+
 def discover(sources,fetcher=fetch):
     result=[];errors=[]
     for source in sources:

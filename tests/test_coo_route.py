@@ -17,4 +17,8 @@ class RoutingTests(unittest.TestCase):
   self.assertIn("python office/coo_route.py",workflow)
   self.assertIn("office/reports/coo-routing-latest.json",workflow)
   self.assertNotIn("git add office/reports/coo-routing-latest.json",workflow)
+ def test_named_drive_product_routes_to_experts(self):
+  result=route([{"id":"a","working_title":"Optidrive E4 diagnostics update","lead_url":"https://example.org/source"}])
+  self.assertEqual(len(result['assignments']),5)
+  self.assertTrue(any(x['department']=='Experts' for x in result['assignments']))
 if __name__=="__main__":unittest.main()

@@ -16,3 +16,12 @@
 **Current status:** Editorial article drafts have no publisher approval. The scripts are not wired into unattended research or live publishing. GitHub Pages hosting is not a private approval environment; browser-local review does not authenticate the publisher.
 
 **Current limits:** The renderer is intentionally simple and deterministic rather than a fully fledged Markdown engine. It supports headings, paragraphs, lists, emphasis and HTTPS links; intricate tables, images, footnotes and typography need a separately tested rendering upgrade. Editorial review should remove internal research logs and notes before approval; the renderer also omits known internal note sections. The approval JSON supplies the published date; it is not a cryptographic signature.
+
+
+## Shared editorial outcomes in Review Studio
+
+The connected Studio can record `revisions_requested` or `editorial_text_reviewed` in `editorial/decisions/<slug>.json`. Notes are shared repository content; do not put private customer information in them. The Contents API commit records the event and exact manuscript blob SHA. Studio checks that the displayed text equals the saved draft and rereads the decision after committing it. Concurrent decision writes conflict instead of replacing history. A draft change during the operation is explicitly reported; prior reviews remain bound to the prior revision.
+
+Opening the same article on another connected device reads its shared review history. The existing Contents read/write permission is sufficient; no new Issues permission is needed. Credentials remain in memory only. These outcomes never create `editorial/approvals` records, mark technical review complete or authorize publication. A GitHub commit is the audit trail; the client timestamp or free-text notes are not independent identity or technical certification.
+
+Actual authenticated browser/device acceptance remains outstanding; controlled-transport tests verify the new path without creating real founder decisions.

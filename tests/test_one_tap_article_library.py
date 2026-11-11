@@ -16,5 +16,6 @@ class OneTapArticleLibraryTests(unittest.TestCase):
   self.assertIn("hvls360:publisher-draft-edit:v1",html)
   self.assertIn("localStorage.setItem(editKey,",html)
   self.assertIn("No approval control is provided",html)
-  self.assertNotIn("innerHTML",html)\n  self.assertNotIn("fetch(",html)
+  self.assertNotIn("innerHTML",html)
+  self.assertNotIn("fetch(",html)
 if __name__=="__main__":unittest.main()

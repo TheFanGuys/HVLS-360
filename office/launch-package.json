@@ -123,6 +123,46 @@
       "distribution_copy": "Review VividAir TAZ aisle-fan placement, manufacturer performance claims and the guide-label inconsistency to resolve against the installed equipment. Read the reporting at {approved_article_url}.",
       "distribution_status": "held_for_article_approval_and_separate_channel_authorization",
       "publisher_approved": false
+    },
+    {
+      "slug": "industrial-fan-heat-study-what-was-measured",
+      "draft_sha256": "2a5b2e9e1336842bc373db13ea8a99a331b913fa0639712155ddd42251be3390",
+      "seo_title": "Factory fan research: what was measured",
+      "seo_description": "Read the factory-fan study announcement alongside worker heat guidance, separating reported comfort, physiological measurements and manufacturer claims.",
+      "audience": "Installers, facilities and specifiers",
+      "related_story_candidates": [],
+      "distribution_status": "held_for_article_approval_and_separate_channel_authorization",
+      "publisher_approved": false
+    },
+    {
+      "slug": "ceiling-fans-hvac-air-distribution-research",
+      "draft_sha256": "372d3428f5721a48c5bd38983ee32e18252062bda3e44a96e9df0b6605f073ed",
+      "seo_title": "Ceiling fans in HVAC air-distribution design",
+      "seo_description": "Explore Berkeley research on ceiling-fan-integrated air conditioning and the coordination questions it raises for mechanical designers and installers.",
+      "audience": "Installers, facilities and specifiers",
+      "related_story_candidates": [],
+      "distribution_status": "held_for_article_approval_and_separate_channel_authorization",
+      "publisher_approved": false
+    },
+    {
+      "slug": "scissor-lift-osha-classification",
+      "draft_sha256": "da9acaa819672fb2246ac8edfb53399e6b9c331af25a7b27a266e2c8de71132b",
+      "seo_title": "Scissor lifts: the OSHA classification question",
+      "seo_description": "Find the OSHA distinction between scissor lifts and aerial lifts, then organize the access-planning questions for an HVLS installation crew.",
+      "audience": "Installers, facilities and specifiers",
+      "related_story_candidates": [],
+      "distribution_status": "held_for_article_approval_and_separate_channel_authorization",
+      "publisher_approved": false
+    },
+    {
+      "slug": "fan-guarding-working-level",
+      "draft_sha256": "d14317a48fa8c125f6759d22ac6426704db758f9b8939902e5a7d3a0cf7527a7",
+      "seo_title": "Fan guarding and the working-level question",
+      "seo_description": "Read the federal fan-blade guarding provision in context and identify the placement information that belongs in a facility fan review.",
+      "audience": "Installers, facilities and specifiers",
+      "related_story_candidates": [],
+      "distribution_status": "held_for_article_approval_and_separate_channel_authorization",
+      "publisher_approved": false
     }
   ]
 }

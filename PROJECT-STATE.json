@@ -8,14 +8,14 @@
   "owner": "Chris",
   "operating_budget_additional_usd": 0,
   "publication_authorized": false,
-  "drafts": 8,
+  "drafts": 12,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
   "last_verified_python_tests": 190,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
-  "current_objective": "Finish GitHub editorial pilot acceptance. Founder deferred the COO conversation link; do not spend work on it unless requested again.",
-  "next_task": "Reconcile remaining technical/media release requirements with recorded founder approval, without requesting article approval again. Public resource library is studies/laws/research, not manufacturer manuals.",
+  "current_objective": "Build a serious, substantial trade publication: expand sourced content and finish release requirements without requesting approval again for original eight.",
+  "next_task": "Verify redesigned deployed public homepage, 24-source research shelf and 12-article preview; continue factual/technical release work for original eight and review new briefings.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Full-site acceptance: 190 Python tests, six JavaScript suites, editorial/metadata/publication checks and 191 local HTML references passed. Live homepage/reference search/shared board inspected; board loaded 17 tasks and search worked. Added nine-page unindexed full magazine preview of all eight current drafts, fixed airflow renderer dimensions, stale Powerfoil reference and personal-note labeling. Report: office/FULL-SITE-ACCEPTANCE-2026-11-11.md. PR #131 merged at 80c2464b35aebcb7d8b3ba31f577d76d4f3cfea5. All three PR checks and main Publication Safety Gate passed. Pages deployment 43059631543 succeeded. Live browser verified eight magazine cards and opened all eight article pages: content rendered, zero broken loaded images and no horizontal overflow in the tested desktop viewport. Preview noindex confirmed; Air Movement diagram loaded. Team/COO/editorial/technical/media screens also opened without displayed loading errors. Full preview: https://thefanguys.github.io/HVLS-360/office/preview/ . Physical full-site iPhone acceptance is not claimed.",
+  "latest_verified_change": "Delivered content/design expansion: twelve original pieces in the full preview (eight existing plus four sourced briefings); twenty-four research/regulatory/technical source entries; six-source research rail on the public homepage. New subjects: industrial-fan study evidence, CFIAC research, OSHA lift classification and fan guarding. Compact masthead, paper-toned reading surface, serif headlines and restrained source cards replace the oversized dark presentation. Original eight founder approvals preserved; four new assignments #133\u2013136 remain separate. No manufacturer manual listings restored.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,
@@ -52,5 +52,7 @@
   "handoff_safe_checkpoint": true,
   "iphone_github_editor_reopen_verified": true,
   "iphone_acceptance_basis": "Founder reported GitHub commit and same-iPhone Studio reopen; repository changes verified.",
-  "founder_approved_articles": 8
+  "founder_approved_articles": 8,
+  "new_briefings": 4,
+  "reference_sources": 24
 }

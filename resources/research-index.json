@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-11",
+  "items": [
+    {
+      "group": "Studies & research",
+      "source": "UC Berkeley · Research",
+      "title": "Smart ceiling fans and thermostats",
+      "summary": "Research program combining laboratory work, field demonstrations and occupant feedback; includes project funding and industry participation.",
+      "url": "https://cbe.berkeley.edu/research/epic-integrating-smart-ceiling-fans-study/",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Studies & research",
+      "source": "California Energy Commission · 2022",
+      "title": "Ceiling fans and communicating thermostats",
+      "summary": "CEC-500-2022-015. Final project report on integrated fan and air-conditioning controls, including a multifamily housing field demonstration.",
+      "url": "https://www.energy.ca.gov/publications/2022/integrating-smart-ceiling-fans-and-communicating-thermostats-energy-efficient",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Studies & research",
+      "source": "UC Berkeley · Research directory",
+      "title": "Fan research and field studies",
+      "summary": "Current CBE research on fans, comfort and integrated cooling systems.",
+      "url": "https://cbe.berkeley.edu/research-category/indoor-environmental-quality/fans/",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Laws & regulations",
+      "source": "U.S. DOE · Rulemaking",
+      "title": "Ceiling fan efficiency regulations",
+      "summary": "Federal ceiling-fan rulemaking, test procedures and compliance resources.",
+      "url": "https://www.energy.gov/cmei/buildings/ceiling-fans",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Laws & regulations",
+      "source": "eCFR · 10 CFR 430.32",
+      "title": "Federal energy conservation standards",
+      "summary": "Current regulatory text, including ceiling-fan product classes and compliance dates.",
+      "url": "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Laws & regulations",
+      "source": "OSHA · 29 CFR 1910.212",
+      "title": "Machine guarding and fan blades",
+      "summary": "General-industry machine-guarding requirements, including the fan-blade provision.",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Laws & regulations",
+      "source": "OSHA · 29 CFR 1910.147",
+      "title": "Control of hazardous energy",
+      "summary": "General-industry lockout/tagout requirements for servicing and maintenance.",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Laws & regulations",
+      "source": "OSHA · 29 CFR 1926.453",
+      "title": "Aerial lifts in construction",
+      "summary": "Construction aerial-lift requirements. This section addresses aerial lifts, rather than every type of elevated work platform.",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.453",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Standards & technical information",
+      "source": "ASHRAE · Standard 55",
+      "title": "Thermal comfort: Standard 55",
+      "summary": "Official overview of the thermal-comfort standard and its environmental and personal factors.",
+      "url": "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Standards & technical information",
+      "source": "ASHRAE · Standards 62.1 and 62.2",
+      "title": "Ventilation and indoor air quality",
+      "summary": "Official overview of ventilation standards and their published editions.",
+      "url": "https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Standards & technical information",
+      "source": "AMCA · Performance ratings",
+      "title": "Understanding Ceiling Fan Energy Index",
+      "summary": "Technical explanation of CFEI and its relationship to fan efficiency ratings.",
+      "url": "https://www.amca.org/educate/articles-and-technical-papers/amca-inmotion-articles/introducing-ceiling-fan-energy-index-cfei.html",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Standards & technical information",
+      "source": "AMCA · Certification",
+      "title": "Certified fan performance",
+      "summary": "AMCA certification program and routes to certified product performance information.",
+      "url": "https://www.amca.org/certify/",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Standards & technical information",
+      "source": "U.S. EPA · Background",
+      "title": "How outdoor air enters a building",
+      "summary": "Background on natural ventilation, infiltration and mechanical outdoor-air pathways; examples focus on homes.",
+      "url": "https://www.epa.gov/indoor-air-quality-iaq/how-does-outdoor-air-enter-building",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Studies & research",
+      "source": "UC Berkeley · Research",
+      "title": "Ceiling-fan-integrated air conditioning",
+      "summary": "Laboratory and occupant research on using ceiling fans to distribute supply air. Includes a comparative design-cost study, distinct from measured operating savings.",
+      "url": "https://cbe.berkeley.edu/research/ceiling-fan-integrated-air-conditioning/",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Studies & research",
+      "source": "Big Ass Fans · September 9, 2026",
+      "title": "Factory airflow and the Heat Tax study",
+      "summary": "Manufacturer announcement describing a two-factory study. Read the reported comfort and physiological findings separately from the surrounding business claims.",
+      "url": "https://bigassfans.com/press-release/the-heat-tax-study-shows-industrial-airflow-offsets-extreme-heat-strain-on-factory-floors/",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Studies & research",
+      "source": "NIOSH · Research synthesis",
+      "title": "Occupational exposure to heat",
+      "summary": "The 2016 Criteria for a Recommended Standard brings together occupational heat research and prevention recommendations.",
+      "url": "https://stacks.cdc.gov/view/cdc/37911",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Studies & research",
+      "source": "UC Berkeley · Case studies",
+      "title": "Fan case studies across buildings",
+      "summary": "Research examples organized by building setting and study approach, useful when comparing a proposed project with the evidence.",
+      "url": "https://cbe-berkeley.gitbook.io/fans-guidebook/full-guidebook/case-studies-for-researchers",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Standards & technical information",
+      "source": "NIOSH · Worker heat",
+      "title": "Heat stress at work",
+      "summary": "Occupational heat guidance covering workplace conditions and the role of engineering and work-practice controls.",
+      "url": "https://www.cdc.gov/niosh/heat-stress/about/",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Standards & technical information",
+      "source": "NIOSH · Workplace recommendations",
+      "title": "Planning workplace heat controls",
+      "summary": "Guidance on engineering controls, work practices and organizing a heat-prevention program.",
+      "url": "https://www.cdc.gov/niosh/heat-stress/recommendations/",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Standards & technical information",
+      "source": "OSHA · Heat assessment",
+      "title": "Recognizing heat hazards",
+      "summary": "OSHA guidance on assessing environmental heat, workload and related exposure factors.",
+      "url": "https://www.osha.gov/heat-exposure/hazards",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Laws & regulations",
+      "source": "OSHA · Scissor-lift eTool",
+      "title": "Scissor-lift requirements by hazard",
+      "summary": "Official overview of fall protection, stabilization, positioning and training for scissor-lift work.",
+      "url": "https://www.osha.gov/etools/scaffolding/scissor-lifts/",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Laws & regulations",
+      "source": "OSHA · August 1, 2000 interpretation",
+      "title": "Why scissor lifts are treated as scaffolds",
+      "summary": "The agency’s dated interpretation explains the distinction from the construction aerial-lift provisions. Corrected June 2, 2005.",
+      "url": "https://www.osha.gov/laws-regs/standardinterpretations/2000-08-01-0",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Laws & regulations",
+      "source": "OSHA · August 1, 1996 interpretation",
+      "title": "Fan-blade guarding interpretation",
+      "summary": "OSHA’s response on floor fans and the general-industry guarding provision. Read alongside the current regulation.",
+      "url": "https://www.osha.gov/laws-regs/standardinterpretations/1996-08-01",
+      "checked_date": "2026-11-11"
+    },
+    {
+      "group": "Standards & technical information",
+      "source": "NIOSH · Elevated work",
+      "title": "Aerial-lift safety research and practices",
+      "summary": "NIOSH material on elevated-work hazards and routes to further safety information.",
+      "url": "https://www.cdc.gov/niosh/falls/aerial-lift/index.html",
+      "checked_date": "2026-11-11"
+    }
+  ]
+}

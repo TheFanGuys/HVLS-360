@@ -49,7 +49,7 @@
     },
     {
       "slug": "powerfoil6-field-brief",
-      "title": "Powerfoil 6 \u2014 Field Briefing",
+      "title": "Powerfoil 6 — Field Briefing",
       "category": "Product Intelligence",
       "angle": "What the current manual tells installers about the job.",
       "draft": "editorial/drafts/powerfoil6-field-brief.md",
@@ -87,6 +87,50 @@
       "angle": "Directional airflow, model identification and pending photo captions.",
       "draft": "editorial/drafts/vividair-taz-72-field-guide.md",
       "review": "editorial/reviews/vividair-taz-72-field-guide-review.md",
+      "media": null,
+      "status": "founder_review",
+      "publisher_approved": false
+    },
+    {
+      "slug": "industrial-fan-heat-study-what-was-measured",
+      "title": "Factory Fan Research: Separate Comfort Results from Heat-Strain Claims",
+      "category": "Studies & Research",
+      "angle": "Read the factory-fan study announcement alongside worker heat guidance, separating reported comfort, physiological measurements and manufacturer claims.",
+      "draft": "editorial/drafts/industrial-fan-heat-study-what-was-measured.md",
+      "review": "editorial/reviews/industrial-fan-heat-study-what-was-measured-review.md",
+      "media": null,
+      "status": "founder_review",
+      "publisher_approved": false
+    },
+    {
+      "slug": "ceiling-fans-hvac-air-distribution-research",
+      "title": "Ceiling Fans as Part of the Air-Distribution Design",
+      "category": "Studies & Research",
+      "angle": "Explore Berkeley research on ceiling-fan-integrated air conditioning and the coordination questions it raises for mechanical designers and installers.",
+      "draft": "editorial/drafts/ceiling-fans-hvac-air-distribution-research.md",
+      "review": "editorial/reviews/ceiling-fans-hvac-air-distribution-research-review.md",
+      "media": null,
+      "status": "founder_review",
+      "publisher_approved": false
+    },
+    {
+      "slug": "scissor-lift-osha-classification",
+      "title": "Scissor Lifts and Boom Lifts: Start with the Right OSHA Reference",
+      "category": "Laws & Regulation",
+      "angle": "Find the OSHA distinction between scissor lifts and aerial lifts, then organize the access-planning questions for an HVLS installation crew.",
+      "draft": "editorial/drafts/scissor-lift-osha-classification.md",
+      "review": "editorial/reviews/scissor-lift-osha-classification-review.md",
+      "media": null,
+      "status": "founder_review",
+      "publisher_approved": false
+    },
+    {
+      "slug": "fan-guarding-working-level",
+      "title": "Fan Guarding: The Working Level Matters",
+      "category": "Laws & Regulation",
+      "angle": "Read the federal fan-blade guarding provision in context and identify the placement information that belongs in a facility fan review.",
+      "draft": "editorial/drafts/fan-guarding-working-level.md",
+      "review": "editorial/reviews/fan-guarding-working-level-review.md",
       "media": null,
       "status": "founder_review",
       "publisher_approved": false

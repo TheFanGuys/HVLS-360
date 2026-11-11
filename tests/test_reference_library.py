@@ -28,10 +28,10 @@ class ReferenceLibraryTests(unittest.TestCase):
         self.assertIn("https://thefanguys.github.io/HVLS-360/resources/",(ROOT/"sitemap.xml").read_text())
         self.assertIn('<link rel="canonical" href="https://thefanguys.github.io/HVLS-360/resources/"',self.page)
     def test_13_official_citable_sources(self):
-        self.assertGreaterEqual(self.links.cards,13)
+        self.assertGreaterEqual(self.links.cards,24)
         official={"bigassfans.com","www.greenheck.com","www.ritehite.com",
           "www.invertekdrives.com","new.abb.com","www.amca.org",
-          "www.ashrae.org","www.energy.gov","www.ecfr.gov","cbe.berkeley.edu","www.energy.ca.gov","www.osha.gov","www.epa.gov"}
+          "www.ashrae.org","www.energy.gov","www.ecfr.gov","cbe.berkeley.edu","www.energy.ca.gov","www.osha.gov","www.epa.gov","www.cdc.gov","stacks.cdc.gov","cbe-berkeley.gitbook.io"}
         external=[x for x in self.links.links if x.get("target")=="_blank"]
         self.assertEqual(len(external),self.links.cards)
         for link in external:

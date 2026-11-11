@@ -53,10 +53,9 @@ def discover(sources,fetcher=fetch):
         except Exception as e:
             errors.append({"source":source["name"],"sitemap":sitemap,"error":type(e).__name__})
         unique=list(dict.fromkeys(candidates))[:40]
-        if unique:
-            result.append({"source":source["name"],"homepage":source["url"],"candidate_urls":unique,
+        result.append({"source":source["name"],"homepage":source["url"],"candidate_urls":unique,
                            "seeded_sources":len(seeds),
-                           "note":"URL discovery only; source content, dates, technical claims and image rights are not verified."})
+                       "note":"URL discovery only; source content, dates, technical claims and image rights are not verified."})
     return result,errors
 def main():
     cfg=json.loads((ROOT/"office"/"primary-sources.json").read_text(encoding="utf-8"))

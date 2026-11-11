@@ -10,6 +10,8 @@ editorial_review: "Required"
 publisher_approval: "Required"
 founder_review: "Pending — not approved"
 research_checked: "2026-11-10"
+seo_title: "CFEI vs. CFM per Watt for HVLS Fan Submittals"
+seo_description: "Compare CFEI and CFM per watt, identify the operating points behind fan ratings, and separate laboratory efficiency evidence from installed performance."
 ---
 
 # CFEI vs. CFM per Watt: How to Read an HVLS Fan Efficiency Claim

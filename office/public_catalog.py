@@ -42,6 +42,7 @@ def published_stories(root):
                 desc = re.sub(r"\*+", "", desc)
                 desc = re.sub(r"https?://\S+", "", desc).strip()[:220]
                 break
+        desc=fields.get("seo_description") or desc
         rows.append({"slug": slug, "title": fields["title"], "category": fields["category"],
                      "description": desc or fields["title"], "published": published,
                      "url": BASE + "articles/" + slug + "/"})

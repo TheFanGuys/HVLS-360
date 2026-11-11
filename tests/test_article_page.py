@@ -63,6 +63,16 @@ class ArticleReleaseTests(unittest.TestCase):
             frontmatter(BODY)
         with self.assertRaises((ValueError,OSError)):
             prepare(SLUG,self.root)
+    def test_approved_search_metadata_is_used_and_escaped(self):
+        body=BODY.replace('category: "HVLS Technology"','category: "HVLS Technology"\nseo_title: "Search title <check>"\nseo_description: "Specific description & application limits."')
+        self.draft.write_text(body)
+        self.record['article_sha256']=hashlib.sha256(body.encode()).hexdigest()
+        self.approve()
+        page=prepare(SLUG,self.root).read_text()
+        self.assertIn('<title>Search title &lt;check&gt; | HVLS 360°</title>',page)
+        self.assertIn('content="Specific description &amp; application limits."',page)
+        self.assertIn('<h1>HVLS Fan &lt;testing&gt; &amp; Efficiency</h1>',page)
+        self.assertEqual(audit(self.root),[])
     def test_approved_release_is_escaped_indexed_and_auditable(self):
         self.approve()
         output=prepare(SLUG,self.root)

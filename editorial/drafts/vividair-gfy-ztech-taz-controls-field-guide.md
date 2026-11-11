@@ -10,6 +10,8 @@ technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
 founder_review: "Pending — not approved"
+seo_title: "VividAir and GFY Fan Controls: Identify the Hardware"
+seo_description: "Identify VividAir and legacy Go Fan Yourself product generations, controls and documentation before assuming a fan, drive or keypad is interchangeable."
 ---
 
 # VividAir and Go Fan Yourself: The Z-Tech, TAZ and Controls Questions Installers Should Ask

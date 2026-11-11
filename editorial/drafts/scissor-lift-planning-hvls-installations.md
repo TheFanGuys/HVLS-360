@@ -10,6 +10,8 @@ technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
 founder_review: "Pending — not approved"
+seo_title: "Scissor Lift Planning for HVLS Fan Installation"
+seo_description: "Plan HVLS installation access around lift capacity, work position, travel routes and site hazards before committing equipment and labor to the job."
 ---
 
 # Before the First Blade Goes Up: Scissor Lift Planning for HVLS Installations

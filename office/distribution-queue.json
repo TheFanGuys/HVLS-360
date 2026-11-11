@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "approval_policy": "publisher_authorization_required",
-  "status": "planning_only",
+  "status": "launch_drafts_prepared_not_authorized",
   "placements": [],
   "channels": [
     {
@@ -28,6 +28,65 @@
       "name": "Trade associations",
       "type": "editorial_submission",
       "status": "research_destinations"
+    }
+  ],
+  "launch_package": "office/launch-package.json",
+  "draft_campaigns": [
+    {
+      "slug": "hvls-air-movement-vs-ventilation",
+      "owner": "Marketing & SEO",
+      "status": "held_for_article_approval_and_separate_channel_authorization",
+      "copy_source": "office/launch-package.json",
+      "placements": []
+    },
+    {
+      "slug": "abb-2026-ip66-vfd-field-report",
+      "owner": "Marketing & SEO",
+      "status": "held_for_article_approval_and_separate_channel_authorization",
+      "copy_source": "office/launch-package.json",
+      "placements": []
+    },
+    {
+      "slug": "cfei-vs-cfm-per-watt-field-guide",
+      "owner": "Marketing & SEO",
+      "status": "held_for_article_approval_and_separate_channel_authorization",
+      "copy_source": "office/launch-package.json",
+      "placements": []
+    },
+    {
+      "slug": "greenheck-ds-series-2026-field-report",
+      "owner": "Marketing & SEO",
+      "status": "held_for_article_approval_and_separate_channel_authorization",
+      "copy_source": "office/launch-package.json",
+      "placements": []
+    },
+    {
+      "slug": "powerfoil6-field-brief",
+      "owner": "Marketing & SEO",
+      "status": "held_for_article_approval_and_separate_channel_authorization",
+      "copy_source": "office/launch-package.json",
+      "placements": []
+    },
+    {
+      "slug": "scissor-lift-planning-hvls-installations",
+      "owner": "Marketing & SEO",
+      "status": "held_for_article_approval_and_separate_channel_authorization",
+      "copy_source": "office/launch-package.json",
+      "placements": []
+    },
+    {
+      "slug": "vividair-gfy-ztech-taz-controls-field-guide",
+      "owner": "Marketing & SEO",
+      "status": "held_for_article_approval_and_separate_channel_authorization",
+      "copy_source": "office/launch-package.json",
+      "placements": []
+    },
+    {
+      "slug": "vividair-taz-72-field-guide",
+      "owner": "Marketing & SEO",
+      "status": "held_for_article_approval_and_separate_channel_authorization",
+      "copy_source": "office/launch-package.json",
+      "placements": []
     }
   ]
 }

@@ -2,10 +2,25 @@ import json
 from pathlib import Path
 import sys
 import unittest
+from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/"office"))
 from coo_brief import build
 class COOBriefTests(unittest.TestCase):
+ def test_manufacturer_errors_reach_public_health_counts_without_private_details(self):
+  def fixture(name):
+   if name=="research-latest.json":return {"errors":[{}]}
+   if name=="reports/manufacturer-research-candidates.json":return {"generated_at":"2026-11-11", "errors":[{"error":"private-detail"}]*3}
+   return {}
+  with patch('coo_brief.load',side_effect=fixture):d=build()
+  self.assertEqual(d["metrics"]["source_errors"],4)
+  self.assertEqual(d["metrics"]["manufacturer_source_errors"],3)
+  self.assertTrue(any('3 sitemap failures' in w for w in d["warnings"]))
+  self.assertNotIn('private-detail',json.dumps(d))
+ def test_missing_discovery_is_unknown_not_zero(self):
+  with patch('coo_brief.load',return_value={}):d=build()
+  self.assertIsNone(d["metrics"]["manufacturer_source_errors"])
+  self.assertTrue(any('report unavailable' in w for w in d["warnings"]))
  def test_sanitized_coo_brief(self):
   d=build()
   self.assertFalse(d["publication_allowed"])

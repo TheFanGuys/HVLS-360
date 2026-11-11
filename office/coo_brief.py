@@ -23,6 +23,14 @@ def build(now=None):
     briefs=editorial.get("briefs",[])
     media_requests=media.get("requests",[])
     errors=research.get("errors",[])
+    discovery=load("reports/manufacturer-research-candidates.json")
+    discovery_errors=discovery.get("errors",[])
+    discovery_missing=not discovery.get("generated_at")
+    warnings=["Research headlines and dates are unverified until original sources are checked.","No autonomous LLM agents or publisher approval are executed by this report.","This public JSON contains no unpublished article text or private review notes."]
+    if discovery_missing:
+        warnings.append("Manufacturer discovery report unavailable; coverage is unverified.")
+    elif discovery_errors:
+        warnings.append(f"Manufacturer discovery has {len(discovery_errors)} sitemap failures; fallback URLs do not establish complete source coverage.")
     approvals=len(list((ROOT/"editorial"/"approvals").glob("*.json"))) if (ROOT/"editorial"/"approvals").exists() else 0
     published=len(list((ROOT/"articles").glob("*.md"))) if (ROOT/"articles").exists() else 0
     # Only public status counts and generic operational assignments; no draft bodies.
@@ -35,7 +43,7 @@ def build(now=None):
         {"id":"coo-marketing","department":"Marketing & Growth","owner":"Head of Marketing","status":"waiting","task":"Prepare newsletter and industry outreach plan; do not send automatically","count":0},
         {"id":"coo-publisher","department":"Publisher","owner":"Publisher","status":"awaiting_approval","task":"Review unpublished drafts; release requires explicit publisher approval","count":max(0,len(list((ROOT/"editorial"/"drafts").glob("*.md")))-published)}
     ]
-    return {"schema_version":1,"generated_at":now.isoformat(),"status":"automated_operational_brief_not_autonomous_agent","research_generated_at":research.get("generated_at"),"metrics":{"research_leads":leads,"editorial_briefs":len(briefs),"media_requests":len(media_requests),"source_errors":len(errors),"approval_records":approvals,"published_articles":published},"assignments":assignments,"warnings":["Research headlines and dates are unverified until original sources are checked.","No autonomous LLM agents or publisher approval are executed by this report.","This public JSON contains no unpublished article text or private review notes."],"publication_allowed":False}
+    return {"schema_version":1,"generated_at":now.isoformat(),"status":"automated_operational_brief_not_autonomous_agent","research_generated_at":research.get("generated_at"),"metrics":{"research_leads":leads,"editorial_briefs":len(briefs),"media_requests":len(media_requests),"source_errors":len(errors)+len(discovery_errors),"manufacturer_source_errors":None if discovery_missing else len(discovery_errors),"approval_records":approvals,"published_articles":published},"assignments":assignments,"manufacturer_discovery_generated_at":discovery.get("generated_at"),"warnings":warnings,"publication_allowed":False}
 
 def main():
     result=build()

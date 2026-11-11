@@ -17,6 +17,33 @@
       "verification": "Discover and validate exact official research-library URLs before crawling"
     },
     {
+      "name": "VividAir",
+      "type": "manufacturer_research",
+      "url": "https://vividairmovement.com/",
+      "topics": [
+        "Z-Tech and Z-Tech3 fan updates",
+        "TAZ 36-inch and 72-inch documentation",
+        "Navigator controls",
+        "Z-Chill",
+        "installation and service manuals",
+        "technical bulletins"
+      ],
+      "verification": "Check model generation, exact manual revision, OEM controls and manufacturer performance claims"
+    },
+    {
+      "name": "Go Fan Yourself (legacy)",
+      "type": "manufacturer_research",
+      "url": "https://gofanyourself.com/",
+      "topics": [
+        "legacy Z-Tech",
+        "TAZ",
+        "ABB drive systems",
+        "historic installation guides",
+        "legacy controls"
+      ],
+      "verification": "Distinguish older GFY documentation from current VividAir model and control revisions"
+    },
+    {
       "name": "Rite-Hite",
       "type": "manufacturer_research",
       "url": "https://www.ritehite.com/",

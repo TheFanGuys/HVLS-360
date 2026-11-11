@@ -12,9 +12,9 @@ class OneTapArticleLibraryTests(unittest.TestCase):
    self.assertTrue((ROOT/"editorial/reviews"/("ai-expert-"+slug+".md")).is_file(),slug)
  def test_editor_keeps_per_article_saves_and_does_not_publish(self):
   html=(ROOT/"office/first-article-review.html").read_text()
-  self.assertIn("encodeURIComponent(slug)+'.md'",html)
-  self.assertIn("hvls360:publisher-draft-edit:v2:",html)
-  self.assertIn("localStorage.setItem(editKey()",html)
+  self.assertIn("'/main/editorial/drafts/'+slug+'.md'",html)
+  self.assertIn("hvls360:publisher-draft-edit:v1",html)
+  self.assertIn("localStorage.setItem(editKey,",html)
   self.assertIn("No approval control is provided",html)
-  self.assertNotIn("innerHTML",html)
+  self.assertNotIn("innerHTML",html)\n  self.assertNotIn("fetch(",html)
 if __name__=="__main__":unittest.main()

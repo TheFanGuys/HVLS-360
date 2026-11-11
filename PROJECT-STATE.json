@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "evidence_baseline": "2ed2c616f286385e124449990b0fe5c976d70953",
+  "evidence_baseline": "ef2b98180b1dc21cfe701e0be7803dd8c66555e0",
   "checkpoint_type": "dated_operator_checkpoint_not_automatic_chat_sync",
   "repository": "TheFanGuys/HVLS-360",
   "board_issue": 94,
@@ -11,11 +11,11 @@
   "drafts": 8,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
-  "last_verified_python_tests": 168,
+  "last_verified_python_tests": 173,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish GitHub editorial pilot acceptance. Founder deferred the COO conversation link; do not spend work on it unless requested again.",
-  "next_task": "Verify the expanded real GitHub research run through deduplicated shared Issues and current summary commits, with failure reporting. Three formerly failing manufacturer sitemap paths now parse in a bounded live check; this is not full source or claim verification. Continue phone/article acceptance where access permits.",
+  "next_task": "Improve first-party manufacturer lead intake: latest live run collected 14 low-relevance headlines and accepted none. Verify new shared Issue creation/deduplication only when a genuine eligible lead exists. Investigate intermittent ABB timeout without hiding it; next scheduled-trigger evidence remains pending. Continue phone/article acceptance where access permits.",
   "active_issues": [
     92,
     93,
@@ -32,7 +32,7 @@
   ],
   "unverified": [
     "Real authenticated iPhone save and second-device reopen",
-    "Expanded scheduled research-to-Issues pipeline",
+    "Expanded scheduled trigger and new research Issue creation/readback",
     "Final article technical and visual clearance",
     "Founder-authorized end-to-end news release",
     "Branch protection administration",
@@ -44,5 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Configured official Rite-Hite Americas/ABB US sitemap paths, added bounded gzip decoding and hard 2 MB limit, prioritized relevant paths. Live recheck: all three parsed, zero errors in this scope; 168 Python tests passed."
+  "latest_verified_change": "PR #122 fixed post-dedup intake cap, adds checkpoint dates and readback evidence. Actual expanded push-trigger run 43048487736 completed all steps and committed four fresh public indices. 14 headlines held, 0 eligible briefs/new Issues, 1 ABB timeout visibly reported. 173 offline tests passed.",
+  "research_execution_verified": true,
+  "research_issue_creation_verified": false
 }

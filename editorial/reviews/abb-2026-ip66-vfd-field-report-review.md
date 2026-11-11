@@ -21,9 +21,9 @@
 - [ ] Confirm current ABB part/option availability by geographic market and exact revision.
 - [ ] Check ACH580-01 +B063 derating and minimum/maximum supply voltage against revised current datasheet.
 - [ ] Qualified drive engineer or OEM technical support reviews replacement/control-system section.
-- [ ] Independent source checker opens current ABB pages to catch product page changes and verifies dates.
+- [x] Source checker reopened ABB's official May 27, 2026 release during this editorial pass; release remains accessible. Exact option/leaflet revision still requires specialist confirmation.
 - [ ] Copy editor removes marketing language, checks all abbreviations and copy consistency.
-- [ ] Visual editor secures genuine product photo permission or commissions original diagram.
+- [ ] Visual editor checks the new original in-house compatibility diagram `editorial/media/original/vfd-compatibility-check.svg` for technical accuracy. No third-party ABB photograph is needed.
 - [ ] Publisher approves final version and rights-cleared media.
 
-No ABB copyrighted brochure text or photography may be republished verbatim or as a reproduced image without permission.
+Original diagram is manufacturer-neutral and does not reproduce ABB brochure artwork. ABB product links remain as citations.

@@ -42,7 +42,7 @@ An HVLS fan may complement an engineered ventilation system by influencing air d
 
 ## What installers and specifiers should verify
 
-Before selecting a large-diameter fan, the project team should document the intended goal: occupant comfort, temperature mixing, process support or a combination. Those goals affect fan size, placement, control strategy and the measurements used to judge success.
+Before selecting a large-diameter fan, the project team should document the intended goal: occupant comfort, temperature mixing, process support or a combination. Those goals affect fan quantity, placement, control strategy and the measurements used to judge success.
 
 The technical submittal should be checked against the exact fan model and manufacturer installation manual. Structural attachment, clearance to obstructions, interaction with sprinklers or fire systems, control wiring and electrical supply all need project-specific review. Applicable codes, listing conditions and authority-having-jurisdiction requirements cannot be established from a general article.
 

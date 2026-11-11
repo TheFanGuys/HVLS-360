@@ -46,3 +46,12 @@ PR #122 fixes intake starvation: all eligible briefs reach deduplication before 
 Actual run 43048487736 (event=push, revision 0e6d8c346a7ace8400f7df807d4348e5314a805e) completed all pipeline steps successfully and committed four public indices at ef2b98180b1dc21cfe701e0be7803dd8c66555e0. GitHub artifact 13868427054 and job logs were inspected. 14 headlines were collected; all held by relevance screening; zero briefs/new Issues. The authenticated Issues read and summary push worked. New Issue creation/readback remains unverified, and no next-schedule claim is made. One intermittent ABB TimeoutError was recorded in the discovery report and surfaced in Actions/COO warnings. Do not hide that warning or weaken filters to force a passing intake demonstration.
 
 173 offline tests pass. Next: add useful verified first-party manufacturer intake, then observe a genuine shared Issue and its deduplication readback; address timeout resilience without unbounded retries. No spending, paid services, article approval or article publication.
+
+
+## November 11, 2026 — official news reaches an existing shared assignment
+
+PR #124 adds an official Invertek news-index parser: same-host HTTPS article URLs, reported publication dates, 14-day recency and explicit product relevance while preserving US/international holds. Existing manual research pitches are matched by exact primary URL, so already accepted #96 is reused. PR #125 fixes a real-run archive size failure by accepting only a bounded 700 KB prefix with 40 complete dated entries; otherwise error remains visible. Scope is a sample, not the whole archive. Sitemap timeouts retry once only; HTTP failures do not retry.
+
+Actual run 43051318664 at e08a6259be9b378f2bd151af1596baf4910891e8 completed: 18 collected, 1 research brief, existing Issue #96 matched, 0 duplicates/new Issues; summary commit 8435d7bf9c098be58fdd46d007eda3df9b04347f. The first attempt 43050580115 exposed the oversized news archive and did not accept a lead; no false acceptance was claimed. Latest official E4 lead is publisher-reported October 29, 2026, not its original launch; performance and US applicability remain unverified. The Nuremberg exhibition is held. ABB still times out after the retry and is reported in Actions/COO warnings.
+
+188 tests passed. New Issue creation/readback and the next scheduled trigger remain unverified; do not fabricate a test story. Next: prepare the first existing article for specific substantive founder review, keeping technical/media/phone gates intact. No spending or article publication.

@@ -1,40 +1,51 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-11T15:28:03.532045+00:00",
-  "run_id": 43048487736,
+  "checked_at": "2026-11-11T15:45:20.129137+00:00",
+  "run_id": 43051318664,
   "event": "push",
-  "workflow_revision": "0e6d8c346a7ace8400f7df807d4348e5314a805e",
-  "result_commit": "ef2b98180b1dc21cfe701e0be7803dd8c66555e0",
+  "workflow_revision": "e08a6259be9b378f2bd151af1596baf4910891e8",
+  "result_commit": "8435d7bf9c098be58fdd46d007eda3df9b04347f",
   "conclusion": "success",
   "all_pipeline_steps_completed": true,
-  "research_leads": 14,
-  "editorial_briefs": 0,
+  "research_leads": 18,
+  "editorial_briefs": 1,
   "shared_intake": {
     "status": "synced_unverified_leads",
     "issues_created": 0,
-    "eligible_candidates": 0,
-    "run_id": "43048487736",
-    "deduplication_check": "no_new_items_to_recheck"
+    "eligible_candidates": 1,
+    "run_id": "43051318664",
+    "deduplication_check": "no_new_items_to_recheck",
+    "matched_existing_count": 1
   },
+  "matched_existing_assignments": [
+    96
+  ],
+  "official_source_assignment_linkage_verified": true,
+  "new_issue_creation_verified": false,
   "manufacturer_errors": [
     {
       "source": "ABB",
       "error": "TimeoutError",
-      "sitemap": "https://new.abb.com/us/sitemap/sitemap.xml"
+      "retry": "One retry attempted; failure kept visible"
     }
   ],
-  "artifact_id": 13868427054,
   "verified": [
-    "Live expanded workflow execution",
-    "Authenticated Issues read step",
-    "Sanitized four-index commit to main",
-    "Current public COO summary with run identity",
-    "Source failure warning surfaced in Actions and summary"
+    "Bounded official dated Invertek news sample reaches editorial briefing",
+    "Explicit drive-product relevance with US applicability still unverified",
+    "Nuremberg exhibition held as international",
+    "Exact primary-source match reuses existing assignment #96",
+    "Authenticated GitHub read and fresh public-index commit",
+    "No duplicate assignment for known primary source"
   ],
   "not_verified": [
-    "Creation/readback of a new research Issue: zero eligible candidates",
+    "New research Issue creation/readback on a genuinely new eligible source",
     "Next scheduled trigger after changes",
-    "Full source coverage or claim verification"
+    "Independent product claims, US availability and full manufacturer coverage"
   ],
+  "previous_run": {
+    "run_id": 43048487736,
+    "research_leads": 14,
+    "editorial_briefs": 0
+  },
   "publication_allowed": false
 }

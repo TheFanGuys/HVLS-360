@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "evidence_baseline": "ef2b98180b1dc21cfe701e0be7803dd8c66555e0",
+  "evidence_baseline": "8435d7bf9c098be58fdd46d007eda3df9b04347f",
   "checkpoint_type": "dated_operator_checkpoint_not_automatic_chat_sync",
   "repository": "TheFanGuys/HVLS-360",
   "board_issue": 94,
@@ -11,11 +11,11 @@
   "drafts": 8,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
-  "last_verified_python_tests": 173,
+  "last_verified_python_tests": 188,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish GitHub editorial pilot acceptance. Founder deferred the COO conversation link; do not spend work on it unless requested again.",
-  "next_task": "Improve first-party manufacturer lead intake: latest live run collected 14 low-relevance headlines and accepted none. Verify new shared Issue creation/deduplication only when a genuine eligible lead exists. Investigate intermittent ABB timeout without hiding it; next scheduled-trigger evidence remains pending. Continue phone/article acceptance where access permits.",
+  "next_task": "Prepare the first existing article for substantive founder review: verify its specific source/technical/visual holds and remove blanket review ambiguity without inventing signoffs. Keep #92 authenticated phone acceptance open. Research now maps a real official dated lead to existing assignment #96; ABB timeout, next schedule and genuinely new Issue creation remain tracked.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,8 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "PR #122 fixed post-dedup intake cap, adds checkpoint dates and readback evidence. Actual expanded push-trigger run 43048487736 completed all steps and committed four fresh public indices. 14 headlines held, 0 eligible briefs/new Issues, 1 ABB timeout visibly reported. 173 offline tests passed.",
+  "latest_verified_change": "PRs #124/#125 add bounded official dated Invertek intake, explicit controls relevance, exact-source match to existing pitches and one timeout retry. Actual run 43051318664: 18 leads, 1 research brief, matched #96, zero duplicates/new Issues; one ABB timeout still visible. 188 tests passed.",
   "research_execution_verified": true,
-  "research_issue_creation_verified": false
+  "research_issue_creation_verified": false,
+  "research_existing_assignment_linkage_verified": true
 }

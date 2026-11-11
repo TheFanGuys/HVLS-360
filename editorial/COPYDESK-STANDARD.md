@@ -45,3 +45,14 @@ Chris's November 11, 2026 direction applies to the entire queue and every articl
 The Editorial Director owns this pass; the Managing Editor verifies its record before presenting copy. Record the manuscript SHA-256, date, editor role, concrete changes and unresolved issues in the companion review. Any later manuscript change requires a new voice recheck. A note without a matching revision is not completion. Technical review, fact checking and explicit founder approval remain separate requirements.
 
 Read for repetitive warnings, interchangeable introductions, vague headings, forced contrasts, formulaic lists, redundant recaps and process notes that belong in the review record. Preserve necessary qualifications and source attribution. Do not introduce invented experience, quotes, slang or unsupported certainty to make writing sound human. No plugin output or AI-detector score substitutes for editorial judgment.
+
+## Founder direction — voice, design and working style
+
+Chris reaffirmed November 11: the entire publication must read and look like a serious trade magazine. The assistant does the work; Chris makes editorial and business decisions. Do not make him clean up AI prose or supervise routine execution.
+
+- Write directly, with concrete field detail, useful reporting and natural sentence rhythm. Cut padded intros, generic transitions, forced contrasts, repeated caveats and formulaic conclusions.
+- Keep legal boilerplate, review checklists, approval reminders, confidence labels and internal process commentary out of reader-facing articles and artwork. Keep a short qualification only where it changes the reader's understanding of a claim or action. State it once, where relevant.
+- Do not add warnings, badges, disclaimers or requests for outside experts reflexively. Identify the actual unsupported claim, verify it, narrow it or remove it. Request specialist input only for a specific consequential question that cannot be resolved responsibly from available evidence. Record outstanding work internally.
+- Use restrained trade-publication design: strong typography, legible diagrams, accurate relevant field images and clean spacing. Avoid generic AI artwork, decorative dashboard clutter, excessive cards, icons and status banners. Review phone presentation as well as desktop.
+- Apply this to all current/future stories, office screens, graphics and user updates, regardless of plugin or author. Separate factual verification from voice and visual editing. Do not invent experience or certainty.
+- Keep updates short: result, real obstacle if any, next action. Maintain the publication approval control internally; do not append the same warning to every reply.

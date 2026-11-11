@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "evidence_baseline": "8435d7bf9c098be58fdd46d007eda3df9b04347f",
+  "evidence_baseline": "4b3961c07382f1684dabf69b303e6caa9c22d0c4",
   "checkpoint_type": "dated_operator_checkpoint_not_automatic_chat_sync",
   "repository": "TheFanGuys/HVLS-360",
   "board_issue": 94,
@@ -39,13 +39,15 @@
     "Free embedded COO accounts, backend and real execution",
     "Domain availability and actual Namecheap prices"
   ],
-  "latest_decision": "Founder: do not worry about the COO conversation link. Deferred #116 and returned to research/launch work.",
+  "latest_decision": "Prepare fresh-chat transition. Chris requires natural trade-magazine writing and restrained professional visuals everywhere; remove boilerplate warnings/process clutter, retain only material factual qualifications. Assistant owns execution.",
   "update_requirement": "Operator updates this file and PROJECT-HANDOFF.md, DECISIONS.md and relevant GitHub Issues after meaningful work. This is an instruction, not a claim of automatic syncing.",
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Prepared revision-specific founder text-review packet for Air Movement vs. Ventilation. EPA and ASHRAE 62.1 public pages rechecked November 11; original diagram selected, optional uncleared manufacturer photos excluded. No manuscript change, signoff or approval.",
+  "latest_verified_change": "PR #127 merged; first article text-review packet delivered. 188 local tests and GitHub Research Desk Tests passed. No manuscript changes. Fresh-chat instructions and strengthened voice/design requirements saved next.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
-  "research_existing_assignment_linkage_verified": true
+  "research_existing_assignment_linkage_verified": true,
+  "restart_file": "START-HERE.md",
+  "handoff_safe_checkpoint": true
 }

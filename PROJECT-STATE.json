@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish GitHub editorial pilot acceptance. Founder deferred the COO conversation link; do not spend work on it unless requested again.",
-  "next_task": "Full magazine preview delivered; finish exact-revision technical reviews and founder editorial decisions, remaining direct Studio/second-device and scheduled-research acceptance.",
+  "next_task": "Reconcile remaining technical/media release requirements with recorded founder approval, without requesting article approval again. Public resource library is studies/laws/research, not manufacturer manuals.",
   "active_issues": [
     92,
     93,
@@ -39,7 +39,7 @@
     "Free embedded COO accounts, backend and real execution",
     "Domain availability and actual Namecheap prices"
   ],
-  "latest_decision": "Prepare fresh-chat transition. Chris requires natural trade-magazine writing and restrained professional visuals everywhere; remove boilerplate warnings/process clutter, retain only material factual qualifications. Assistant owns execution.",
+  "latest_decision": "Chris reaffirmed approval of all eight current articles. Recorded revision hashes in editorial/founder-approval-register.json; do not keep asking for founder article approval. Independent technical/media findings are separate and are not fabricated by this record. Public resources now focus on studies, laws, regulations and technical information; removed manufacturer manual/product-support listings. Manuals may remain internal source citations.",
   "update_requirement": "Operator updates this file and PROJECT-HANDOFF.md, DECISIONS.md and relevant GitHub Issues after meaningful work. This is an instruction, not a claim of automatic syncing.",
   "deferred_issues": [
     116
@@ -51,5 +51,6 @@
   "restart_file": "START-HERE.md",
   "handoff_safe_checkpoint": true,
   "iphone_github_editor_reopen_verified": true,
-  "iphone_acceptance_basis": "Founder reported GitHub commit and same-iPhone Studio reopen; repository changes verified."
+  "iphone_acceptance_basis": "Founder reported GitHub commit and same-iPhone Studio reopen; repository changes verified.",
+  "founder_approved_articles": 8
 }

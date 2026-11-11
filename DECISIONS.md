@@ -99,3 +99,8 @@ Full-site acceptance: 190 Python tests, six JavaScript suites, editorial/metadat
 ## Deployed full-preview acceptance
 
 PR #131 merged at 80c2464b35aebcb7d8b3ba31f577d76d4f3cfea5. All three PR checks and main Publication Safety Gate passed. Pages deployment 43059631543 succeeded. Live browser verified eight magazine cards and opened all eight article pages: content rendered, zero broken loaded images and no horizontal overflow in the tested desktop viewport. Preview noindex confirmed; Air Movement diagram loaded. Team/COO/editorial/technical/media screens also opened without displayed loading errors. Full preview: https://thefanguys.github.io/HVLS-360/office/preview/ . Physical full-site iPhone acceptance is not claimed.
+
+
+## November 11 — founder approval and resource direction
+
+Chris reaffirmed approval of all eight current articles. Recorded revision hashes in editorial/founder-approval-register.json; do not keep asking for founder article approval. Independent technical/media findings are separate and are not fabricated by this record. Public resources now focus on studies, laws, regulations and technical information; removed manufacturer manual/product-support listings. Manuals may remain internal source citations.

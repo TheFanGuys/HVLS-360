@@ -19,13 +19,13 @@ The 72-inch TAZ occupies a different corner of the air-movement market from a la
 
 The remaining publisher-supplied field photographs, identified by the photographer as a 72-inch TAZ, show a suspended cylindrical fan housing, protective grille and a louvered discharge arrangement in an industrial environment. The installation is different in appearance and intended airflow pattern from the large round barrel fans commonly rented for spot ventilation.
 
-This identification is important: a previous editorial image recommendation mistakenly labeled Patterson barrel fans as TAZ equipment. The correction is recorded in the editorial review. **No unrelated fan photograph should be used to illustrate this model.**
+An earlier editorial image selection incorrectly identified Patterson barrel fans as TAZ equipment. The correction is recorded in the editorial review. **No unrelated fan photograph should be used to illustrate this model.**
 
 ## What linear coverage does—and does not—describe
 
 VividAir describes TAZ as an in-aisle air-movement product and advertises up to **135 feet of linear cooling coverage** [1]. That is a manufacturer claim, not an independent measurement by HVLS 360°. The published family also includes two size options and claims maximum airflow of up to **75,200 CFM** [1].
 
-A facility planner should ask for the test basis, actual operating configuration and the required air movement at occupied locations. Linear coverage is not equivalent to the circular coverage area of an overhead HVLS fan, and maximum airflow is not a complete measure of occupant comfort.
+The test basis, operating configuration and required air speed at occupied locations should be specified before the published coverage figure is used in a layout. Linear coverage is not equivalent to the circular coverage area of an overhead HVLS fan, and maximum airflow is not a complete measure of occupant comfort.
 
 The manufacturer says the fan can be installed flat or angled and describes one-direction or multidirectional airflow options [1]. Those choices make placement and orientation especially important around racking, mezzanines and other obstructions.
 

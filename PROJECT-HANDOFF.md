@@ -127,3 +127,8 @@ Chris reaffirmed approval of all eight current articles. Recorded revision hashe
 ## November 11 — content depth and trade-publication redesign
 
 Delivered content/design expansion: twelve original pieces in the full preview (eight existing plus four sourced briefings); twenty-four research/regulatory/technical source entries; six-source research rail on the public homepage. New subjects: industrial-fan study evidence, CFIAC research, OSHA lift classification and fan guarding. Compact masthead, paper-toned reading surface, serif headlines and restrained source cards replace the oversized dark presentation. Original eight founder approvals preserved; four new assignments #133–136 remain separate. No manufacturer manual listings restored. Source and voice reviews carry exact hashes; new briefs are concise and not padded to feature length. Technical register coverage and launch metadata updated. New public items are source-library entries, not falsely labeled original reporting. Preview and library deployment acceptance follows.
+
+
+## Expanded publication — deployed acceptance
+
+Content/design deployment verified November 11: PR #137 merged at 2eb6044e8afb179cc2ad569b9b39d6cf87f658c1; Pages run 43062393678 succeeded; all three GitHub checks passed. Live browser observed 12 preview cards, opened all four new briefings with rendered bodies/no horizontal overflow, confirmed the public homepage's six-source research rail, and tested OSHA search: 7 of 24 reference entries. Paper-toned design and compact masthead visually inspected. 192 Python tests, six JavaScript suites and 267 local references passed. Existing eight founder approvals remain recorded; four new briefings remain distinct review assignments.

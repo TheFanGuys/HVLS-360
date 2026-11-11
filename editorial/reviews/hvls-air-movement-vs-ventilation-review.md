@@ -96,3 +96,27 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 
 
 Voice pass revision record: 3e5562a223bfca819a64db283e1268e21e33dbb01419e1c2e387aaba5fe5d7a7 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+
+
+## Source and phone-diagram completion — November 11, 2026
+
+This checkpoint supersedes the pending source-recheck and diagram-layout rows above. Manuscript remains unchanged at SHA-256 `3e5562a223bfca819a64db283e1268e21e33dbb01419e1c2e387aaba5fe5d7a7`; its recorded voice pass still matches. Editorial Director rechecked the unchanged prose; no additional rewrite needed for this task.
+
+### Source checks performed
+
+| Source | Live evidence and supported claim | Scope |
+| --- | --- | --- |
+| Big Ass Fans, *BAF Ceiling Fan Design Guide*, https://learn.bigassfans.com/design-guide | Read rendered guide in browser November 11. Sections 2.1.1–2.1.2 explain convection/evaporation and comfort; 2.4.1–2.4.2 explain stratification and mixing by fans. | Manufacturer reference supports the article's qualitative explanations. No revision date established. The guide's numerical savings, operating settings and standard-clause interpretations were not adopted. |
+| DOE, https://www.energy.gov/articles/top-11-things-you-didnt-know-about-saving-energy-home-summer-edition | Reopened November 11; dated June 8, 2012. Item 5 distinguishes occupant cooling from room cooling. | Residential background only; its thermostat-offset number is deliberately absent from this article. |
+| ASHRAE, https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy | Reopened November 11. Official public page identifies 2023 edition and thermal-comfort scope, including environmental and personal factors. | Edition and scope verification only; no complete-standard review, compliance calculation or project adoption claimed. |
+
+### Original illustration findings
+
+- Replaced the 1200-wide side-by-side composition with a 700-wide stacked composition. Minimum visible text is 30 SVG units: 15 CSS pixels when the image is 350 CSS pixels wide; headings are 18 pixels. Rendered the actual SVG with Inkscape at 350 pixels and visually inspected it. Labels fit; no tiny legend, clipped text or horizontal comparison requiring zoom. This verifies the rasterized layout, not physical Safari or Studio device acceptance.
+- The upper schematic explicitly shows downward-flow operation: central downward arrow, outward return paths near the floor and upward/inward returns. Paths stay inside the envelope. It does not imply that every fan always runs in that direction or that real racks produce these exact streamlines.
+- Lower supply arrow crosses the left wall inward; exhaust crosses the right wall outward through separate openings. This is one mechanical example, not a required placement, balanced-flow calculation, source-capture layout or complete ventilation design. The final line explains that both systems can work together.
+- Original vector artwork uses text and geometry; no third-party photograph, manufacturer artwork or measured CFD is represented. Diagram SHA-256: `e5c5926f8f76fec6e9c926d55c8992c32b65100cdd5ee380e3ae3072c159dca6`.
+
+### Remaining technical decision
+
+No unresolved numerical, model-specific or code-compliance question was found within the qualitative scope of this source pass. The existing independent-review policy is still in force: a competent ventilation designer must review the exact manuscript and diagram and supply identity/date/findings before its registered technical hold can be cleared. Specific review scope is now the distinction between indoor mixing and outdoor-air exchange, and whether the conceptual arrows accurately communicate it. No wiring, mounting design, ventilation-rate determination or new external outreach is required by this task. Assistant source/visual review is complete; independent signoff and Chris's final text/media decision remain open.

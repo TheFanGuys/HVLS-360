@@ -2,13 +2,13 @@
 
 Paste this into a new chat in this project:
 
-> Continue as COO and hands-on implementation lead for HVLS 360. Repository: https://github.com/TheFanGuys/HVLS-360. First read START-HERE.md, AGENTS.md, PROJECT-HANDOFF.md, PROJECT-STATE.json and DECISIONS.md from current main, then shared board Issue #94 and assignment #84. Do not ask me to retell the project. Follow my standing direction: natural trade-magazine writing, restrained professional visuals, no generic AI prose, repetitive warnings or reader-facing process clutter. You do the work. Explain the next step briefly, then finish the Air Movement article's remaining source checks and phone-readable diagram, resolve specific technical questions and update the shared records. Keep the $0 budget and my publication approval control. The COO conversation feature is deferred.
+> Continue as COO and hands-on implementation lead for HVLS 360. Repository: https://github.com/TheFanGuys/HVLS-360. First read START-HERE.md, AGENTS.md, PROJECT-HANDOFF.md, PROJECT-STATE.json and DECISIONS.md from current main, then shared board Issue #94 and assignment #84. Do not ask me to retell the project. Follow my standing direction: natural trade-magazine writing, restrained professional visuals, no generic AI prose, repetitive warnings or reader-facing process clutter. You do the work. Explain the next step briefly, then continue #114/#92 pilot acceptance and obtain the outstanding revision-specific qualified review evidence for Air Movement. Its assistant source checks and phone-readable diagram are completed; read the latest companion review and update the shared records. Keep the $0 budget and my publication approval control. The COO conversation feature is deferred.
 
 ## Saved position
 
 - PR #127 merged at 4b3961c07382f1684dabf69b303e6caa9c22d0c4; first article review packet delivered. 188 tests passed.
 - Eight drafts have revision-specific voice edits; no final article approvals. Existing voice passes still need editorial judgment, not automated acceptance.
-- Next concrete work: remaining BAF/DOE/Standard 55 checks, original airflow diagram accuracy and phone legibility. Records: editorial/drafts/hvls-air-movement-vs-ventilation.md and its companion review.
+- Latest completed work: BAF/DOE/Standard 55 live rechecks and stacked original airflow diagram, inspected at 350px with 15px minimum text. Manuscript unchanged. Next concrete work: #114/#92 pilot acceptance and qualified review evidence for #84. Records: editorial/drafts/hvls-air-movement-vs-ventilation.md and its companion review.
 - Shared assignments: #84–91; board #94; Studio acceptance #92; research #93; media #106; launch pilot #114; domain #115; COO conversation #116 deferred.
 - Current research run mapped a real Invertek lead to existing #96. ABB retrieval remains intermittent. Next scheduled trigger and genuinely new Issue creation remain unverified.
 - Studio guest reading works; actual authenticated phone save and second-device acceptance remain open.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "evidence_baseline": "4b3961c07382f1684dabf69b303e6caa9c22d0c4",
+  "evidence_baseline": "956702b (main before this task)",
   "checkpoint_type": "dated_operator_checkpoint_not_automatic_chat_sync",
   "repository": "TheFanGuys/HVLS-360",
   "board_issue": 94,
@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish GitHub editorial pilot acceptance. Founder deferred the COO conversation link; do not spend work on it unless requested again.",
-  "next_task": "Complete the first article packet: recheck remaining BAF/DOE/55 sources and render a phone-legible original diagram. Chris may review text now; technical/visual holds and #92 remain open.",
+  "next_task": "Continue #114/#92 pilot acceptance; first article assistant source and phone-layout checks complete, qualified review evidence and founder decision remain outstanding.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "PR #127 merged; first article text-review packet delivered. 188 local tests and GitHub Research Desk Tests passed. No manuscript changes. Fresh-chat instructions and strengthened voice/design requirements saved next.",
+  "latest_verified_change": "Completed first-article BAF/DOE/Standard 55 source rechecks and replaced wide airflow SVG with stacked phone-readable artwork. Inkscape 350px render visually inspected; 15px minimum text at that width. Manuscript and voice hash unchanged. Independent technical signoff, founder decision and real authenticated phone acceptance remain open.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,

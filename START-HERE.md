@@ -17,3 +17,7 @@ Paste this into a new chat in this project:
 ## Editorial direction
 
 Chris is building a real trade publication. The assistant owns research, editing, design, implementation and routine checks. Chris judges finished work. Keep internal checklists and holds in internal records. In articles, retain only context that materially changes the claim, stated once in plain language. Avoid generic AI artwork, canned intros, repetitive disclaimers, excessive badges/cards and formulaic conclusions. Apply to every existing and future deliverable. Never substitute confident prose for evidence.
+
+## Full-site review checkpoint
+
+Full-site acceptance: 190 Python tests, six JavaScript suites, editorial/metadata/publication checks and 191 local HTML references passed. Live homepage/reference search/shared board inspected; board loaded 17 tasks and search worked. Added nine-page unindexed full magazine preview of all eight current drafts, fixed airflow renderer dimensions, stale Powerfoil reference and personal-note labeling. Report: office/FULL-SITE-ACCEPTANCE-2026-11-11.md. Open office/preview/ to browse the complete unreleased magazine. Read the full-site acceptance report before repeating checks.

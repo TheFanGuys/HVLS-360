@@ -117,7 +117,7 @@ def render_markdown(text):
             flush()
             continue
         original_art={
-            "air-movement-vs-ventilation.svg":(1200,650),
+            "air-movement-vs-ventilation.svg":(700,1110),
             "scissor-lift-access-planning.svg":(1200,670),
             "vfd-compatibility-check.svg":(1200,630),
             "fan-system-documentation.svg":(1200,630),

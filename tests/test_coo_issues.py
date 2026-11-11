@@ -65,4 +65,18 @@ class SharedIssuesTests(unittest.TestCase):
    with patch.object(coo_issues,"ROOT",root),patch.dict(os.environ,{"GITHUB_ACTIONS":"true"},clear=True):
     with self.assertRaisesRegex(RuntimeError,"authenticated"):
      coo_issues.main()
+ def test_existing_manual_pitch_matches_exact_primary_url(self):
+  item=build_items([{"working_title":"Optidrive E4 update","lead_url":"https://example.org/e4"}])[0]
+  evidence={};calls=[]
+  def client(repo,token,method,path,payload=None):
+   calls.append(method);return [{"number":96,"title":"[Research pitch] E4","html_url":"https://example.org/issues/96","body":"Primary: https://example.org/e4"}]
+  self.assertEqual(sync("owner/repo","token",[item],client,evidence),[])
+  self.assertEqual(evidence['matched_existing'][0]['number'],96)
+  self.assertEqual(evidence['matched_existing'][0]['matched_by'],'source_link')
+  self.assertEqual(calls,['GET'])
+ def test_similar_source_url_is_not_a_duplicate(self):
+  item=build_items([{"working_title":"Optidrive update","lead_url":"https://example.org/a"}])[0]
+  def client(repo,token,method,path,payload=None):
+   return [{"number":96,"title":"[Research pitch] Old","body":"https://example.org/a-different-story"}] if method=='GET' else {"number":97,"html_url":"https://example.org/97"}
+  self.assertEqual(len(sync("owner/repo","token",[item],client)),1)
 if __name__=="__main__":unittest.main()

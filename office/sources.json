@@ -24,6 +24,12 @@
       "name": "Controls & VFDs",
       "feeds": [
         {
+          "name": "Invertek official dated news index",
+          "url": "https://www.invertekdrives.com/news",
+          "type": "manufacturer_news_html",
+          "parser": "invertek_news"
+        },
+        {
           "name": "Manufacturer and industry discovery",
           "url": "https://news.google.com/rss/search?q=(%22ABB%22%20OR%20%22Invertek%20Drives%22%20OR%20%22Danfoss%22%20OR%20%22Yaskawa%22)%20(VFD%20OR%20drive%20OR%20fan%20control)%20(launch%20OR%20update)%20%28USA%20OR%20US%20OR%20%22United%20States%22%29&hl=en-US&gl=US&ceid=US:en"
         },

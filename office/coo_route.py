@@ -6,9 +6,9 @@ import pathlib
 import re
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 OFFICE=ROOT/"office"
-HVLS=re.compile(r"\b(hvls|high.volume.low.speed|large.diameter fan|ceiling fan|destratification|industrial ventilation|air movement|airflow|vfd|variable.frequency drive|fan control|abb drive|fire.alarm interlock|fan efficiency|cfei)\b",re.I)
+HVLS=re.compile(r"\b(hvls|high.volume.low.speed|large.diameter fan|ceiling fan|destratification|industrial ventilation|air movement|airflow|vfd|variable.frequency drive|fan control|abb drive|fire.alarm interlock|fan efficiency|cfei|optidrive)\b",re.I)
 SAFETY=re.compile(r"\b(osha|safety|fire|code|nec|nfpa|structural|load|mount|fall protection)\b",re.I)
-PRODUCT=re.compile(r"\b(fan|vfd|drive|controller|motor|airflow|product|launch|series)\b",re.I)
+PRODUCT=re.compile(r"\b(fan|vfd|drive|controller|motor|airflow|product|launch|series|optidrive)\b",re.I)
 def route(briefs):
     tasks=[];rejected=[]
     for item in briefs:

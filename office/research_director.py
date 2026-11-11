@@ -10,10 +10,10 @@ BAD=("market size","market forecast","market to 2035","market to 2033","market r
      "market growth","market share report","supermarket fridges","cryptocurrency",
      "stock price","market research report")
 FIELD=("hvls","large diameter fan","industrial ceiling fan","scissor lift","boom lift",
-       "aerial lift","mewp","equipment rental","warehouse construction","industrial ventilation",
+       "aerial lift","mewp","variable frequency drive","variable-frequency drive","optidrive","equipment rental","warehouse construction","industrial ventilation",
        "destratification","fire sprinkler","industrial fan","manufacturing facility","industrial construction","warehouse development",
        "manufacturing plant","aerial work platform","powered access equipment")
-INTERNATIONAL=("european","europe","nigeria","kenya","india","china","czech","gombe","homa bay","nyandiwa","uk market","britain","germany","france")
+INTERNATIONAL=("european","europe","nigeria","kenya","india","china","czech","gombe","homa bay","nyandiwa","uk market","britain","germany","france","nuremberg")
 USA=("united states","u.s.","usa","american","arizona","utah","texas","california",
      "ohio","florida","georgia","north america")
 OFFICIAL=("osha.gov","amca.org","ashrae.org","nfpa.org","ul.com","icc-safe.org")

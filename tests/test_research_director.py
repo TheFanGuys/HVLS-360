@@ -19,5 +19,12 @@ class DirectorTests(unittest.TestCase):
         self.assertEqual(status,"hold")
     def test_empty(self):
         self.assertEqual(rd.audit({"departments":[]}),[])
+    def test_drive_product_is_relevant_but_us_applicability_unverified(self):
+        status,notes=rd.triage("Optidrive E4 diagnostics update","Controls & VFDs","https://www.invertekdrives.com/news/e4")
+        self.assertEqual(status,"review")
+        self.assertTrue(any("U.S. applicability not established" in note for note in notes))
+    def test_nuremberg_exhibition_stays_on_international_hold(self):
+        status,_=rd.triage("Optidrive range at SPS in Nuremberg 2026","Controls & VFDs","https://www.invertekdrives.com/news/sps")
+        self.assertEqual(status,"hold")
 if __name__=="__main__":
     unittest.main()

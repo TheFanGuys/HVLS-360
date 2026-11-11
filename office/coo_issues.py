@@ -17,7 +17,7 @@ def eligible(brief):
     title=str(brief.get("working_title","")).strip()
     url=str(brief.get("lead_url","")).strip()
     if not title or not url.startswith("https://"):return False
-    return bool(re.search(r"\b(HVLS|large.diameter fan|industrial ventilation|ceiling fan|destratification|air movement|airflow|VFD|fan controls|CFEI)\b",title,re.I))
+    return bool(re.search(r"\b(HVLS|large.diameter fan|industrial ventilation|ceiling fan|destratification|air movement|airflow|VFD|fan controls|CFEI|Optidrive|variable.frequency drive)\b",title,re.I))
 
 def build_items(briefs,now=None):
     now=now or dt.datetime.now(dt.timezone.utc)
@@ -58,7 +58,7 @@ def api(repo,token,method,path,payload=None):
                  "X-GitHub-Api-Version":"2022-11-28","User-Agent":"HVLS360-COO"})
     with urlopen(req,timeout=15) as response:return json.load(response)
 
-def sync(repo,token,items,client=api):
+def sync(repo,token,items,client=api,evidence=None):
     if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+",repo):raise ValueError("invalid repository")
     existing=[]
     for page in range(1,5):
@@ -67,13 +67,22 @@ def sync(repo,token,items,client=api):
         if len(batch)<100:break
     else:
         raise RuntimeError("Issue history exceeds bounded scan; refusing unsafe deduplication")
-    known=set()
+    known=set();by_key={};by_source={}
     for issue in existing:
+        if re.match(r"^\[(?:Research pitch|HVLS-\d+)\]",issue.get("title", "")):
+            for link in re.findall(r"https://[^\s<>()]+",issue.get("body") or ""):
+                by_source[link.rstrip(".,;`]").rstrip("/")]=issue
         match=re.search(r"COO intake marker: `(lead-[a-f0-9]{16})`",issue.get("body") or "")
-        if match:known.add(match.group(1))
+        if match:
+            known.add(match.group(1));by_key[match.group(1)]=issue
     created=[]
     for item in items:
-        if item["key"] in known:continue
+        match=by_key.get(item["key"]) or by_source.get(item["source"].rstrip("/"))
+        if item["key"] in known or match:
+            known.add(item["key"])
+            if evidence is not None and match:
+                evidence.setdefault("matched_existing",[]).append({"key":item["key"],"number":match.get("number"),"url":match.get("html_url"),"matched_by":"marker" if item["key"] in by_key else "source_link"})
+            continue
         if len(created)>=MAX_NEW:break
         issue=client(repo,token,"POST","/issues",{"title":"[COO Research] "+item["title"],"body":item["body"]})
         created.append({"key":item["key"],"number":issue["number"],"url":issue["html_url"]})
@@ -90,7 +99,8 @@ def main():
             raise RuntimeError("Shared assignment sync missing authenticated GitHub context")
         print("No authenticated GitHub context; prepared",len(items),"items only")
         return
-    created=sync(repo,token,items)
+    evidence={}
+    created=sync(repo,token,items,evidence=evidence)
     # Exercise real idempotence against GitHub after actual creates, not fixture data.
     keys={x["key"] for x in created}
     duplicates=sync(repo,token,[x for x in items if x["key"] in keys]) if keys else []
@@ -98,6 +108,8 @@ def main():
     report={"schema_version":1,"generated_at":dt.datetime.now(dt.timezone.utc).isoformat(),
             "status":"synced_unverified_leads","eligible_candidates":len(items),
             "issues_created":len(created),"created_issues":created,
+            "matched_existing":evidence.get("matched_existing",[]),
+            "matched_existing_count":len(evidence.get("matched_existing",[])),
             "deduplication_check":"created_items_rechecked_no_duplicates" if keys else "no_new_items_to_recheck",
             "run_id":os.environ.get("GITHUB_RUN_ID"),"publication_allowed":False}
     path=ROOT/"office/reports/coo-issues-sync.json"
@@ -105,6 +117,7 @@ def main():
     path.write_text(json.dumps(report,indent=2)+"\n")
     print("COO shared Managing Editor issues created:",len(created),"eligible:",len(items))
     print("Shared intake readback:",report["deduplication_check"])
+    print("Existing shared assignments matched:",report["matched_existing_count"],"issue numbers:",[x["number"] for x in report["matched_existing"]])
     summary=os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary,"a") as stream:

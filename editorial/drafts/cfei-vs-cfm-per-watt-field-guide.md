@@ -8,6 +8,7 @@ image_status: "Original explanatory graphic proposed; technical review pending"
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
+founder_review: "Pending — not approved"
 research_checked: "2026-11-10"
 ---
 
@@ -15,7 +16,7 @@ research_checked: "2026-11-10"
 
 *HVLS 360° | Controls & Engineering*
 
-Two ceiling fans can carry similar airflow-per-watt claims and still receive substantially different energy-index ratings. That is not necessarily a contradiction. The figures answer different questions, and the difference matters when facility managers compare large-diameter fan submittals. Ceiling Fan Energy Index, or CFEI, places electrical input in relation to a defined reference fan rather than presenting airflow divided by watts as the whole efficiency story [1][2].
+A fan submittal can show a strong CFM-per-watt figure and still leave a buyer unable to compare rated energy performance. Ceiling Fan Energy Index, or CFEI, compares electrical input with a defined reference fan [1][2]. Read it alongside the exact model, blade span and operating point; a single catalog ratio leaves those questions open.
 
 ## Why the older ratio can mislead
 
@@ -47,7 +48,7 @@ CFEI addresses energy performance against a reference. It does not tell you how 
 
 A comfort design needs a separate method for evaluating air speed, temperatures and occupancy. ASHRAE Standard 55-2023 addresses the interaction of environmental and personal thermal-comfort factors [5]. For ventilation and outside-air requirements, the relevant commercial framework is ASHRAE Standard 62.1, currently available in its 2025 edition [6]. The edition enforced on a particular project can differ by jurisdiction.
 
-The commissioning plan therefore needs two sets of evidence: **what the fan is rated to do in a standardized test** and **what the installation delivers in the actual building**. They answer different questions.
+Keep laboratory ratings in the submittal and define separate acceptance criteria for the installed system: occupied-zone air speed, temperature distribution or the other performance objective specified for the building.
 
 ## Federal thresholds require two operating points
 

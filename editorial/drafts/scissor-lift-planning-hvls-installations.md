@@ -9,6 +9,7 @@ image_status: "Original in-house access-planning diagram; technical review pendi
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
+founder_review: "Pending — not approved"
 ---
 
 # Before the First Blade Goes Up: Scissor Lift Planning for HVLS Installations
@@ -31,7 +32,7 @@ Industrial facilities can have trench covers, floor drains, uneven expansion joi
 
 The crew should inspect the intended route and every elevated work location. Verify the equipment's allowable surface conditions and whether it can travel while raised. OSHA notes that manufacturer instructions commonly restrict moving scissor lifts in the elevated position [1]; this is not a universal permission or prohibition for every model.
 
-The platform load includes workers, tools and every component carried aloft. Workers, tools, components and materials count toward the rated platform load. An HVLS hub or motor assembly may need a separate lifting plan; the scissor lift should not be treated as a crane simply because it is already on site.
+Workers, tools, components and materials all count toward the rated platform load. An HVLS hub or motor assembly may need a separate lifting plan; the scissor lift should not be treated as a crane simply because it is already on site.
 
 ## Overhead clearance and active traffic
 
@@ -62,11 +63,9 @@ A useful HVLS access survey should capture:
 
 This checklist is not a replacement for a lift-specific job hazard assessment. Its value is making access planning part of the installation design rather than a surprise on arrival.
 
-## Access planning is part of installation planning
+## Resolve access before mobilization
 
-A lift rental is not merely a line item on an HVLS quote. It is part of the installation method. Selecting equipment after the fan layout is finalized can expose access conflicts, unsafe reaches and unexpected costs that a proper site survey could have identified earlier.
-
-For contractors, the better sequence is straightforward: **survey the work, choose the access method, verify the equipment and then schedule the crew.**
+Include the access survey with the installation estimate. If the proposed lift cannot reach a mounting connection, pass through an aisle or carry the planned load within its rating, the installation method and rental allowance need revision before the crew arrives.
 
 ### Sources
 

@@ -10,6 +10,7 @@ image_status: "Original in-house VFD compatibility diagram; technical review pen
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
+founder_review: "Pending — not approved"
 ---
 
 # ABB's 2026 Outdoor-Rated Drive Expansion: What Fan Installers Should Actually Check
@@ -19,8 +20,6 @@ publisher_approval: "Required"
 ABB's May 27 expansion of its IP66 / UL Type 4X drive offerings gives ventilation contractors more options for demanding environments. It does not give HVLS service crews a drop-in replacement for every fan controller. The distinction lies in the exact drive variant, its environmental limits and whether the fan manufacturer has approved the complete motor-and-controls arrangement [1].
 
 ![Conceptual three-stage HVLS fan drive compatibility check covering exact motor, OEM approval and installation environment](../../editorial/media/original/vfd-compatibility-check.svg)
-
-The distinction matters because a fan installer may see the familiar ABB drive names and assume that a sealed, outdoor-rated package can simply replace an existing controller. The announcement says something narrower: ABB has added environmental protection choices across several drive families, with models aimed at different industries [1].
 
 ## ACS580, ACH580 and ACQ580 are not interchangeable
 
@@ -36,13 +35,11 @@ ABB's June 17, 2026 leaflet for the **ACH580-01 IP66/Type 4X**, with the **+B063
 
 The same ABB document lists ambient operation down to **-20°C**, with performance derating from **40°C to 50°C**. It also says a **sun shield is required outdoors when the unit is exposed to direct sunlight**, even though the enclosure is described as UV-resistant. It lists a keypad display range beginning at **-15°C** [2].
 
-These are exactly the lines that can affect a quote or a service replacement. An enclosure rating does not cancel mounting, heat, application, or configuration requirements. In particular, don't use the leaflet's 5.5–22 kW range as evidence that this specific variant is sized or approved for a small single-fan HVLS controller.
+For an outdoor installation, the sun shield and ambient limits belong in the equipment schedule alongside the enclosure rating. In particular, don't use the leaflet's 5.5–22 kW range as evidence that this specific variant is sized or approved for a small single-fan HVLS controller.
 
 ABB also identifies a built-in DC choke, EMC C2 filter, two slots for expansion, standard EIA-485 communications with BACnet MS/TP and Modbus RTU support, and an **optional** Bluetooth-capable control panel [2]. Those features make the drive worth evaluating in some building-control projects, but the exact I/O and communications requirements still need to be matched to the equipment and its sequence of operation.
 
 ## A separate bypass announcement
-
-This is a separate announcement that is easy to confuse with the IP66 drives.
 
 On **January 31, 2026**, ABB announced **ACH580 vertical bypass drives** in UL Type 12 and Type 4X enclosure options, using the E-Clipse Bypass platform [3]. Those are packaged bypass systems rather than simply a sealed stand-alone drive. The bypass function is intended for approved HVAC applications requiring continuity of operation.
 

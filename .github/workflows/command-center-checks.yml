@@ -15,6 +15,8 @@ on:
       - 'office/article-editor.html'
       - 'office/media-desk.html'
       - 'office/first-article-review.html'
+      - 'office/review-repository.js'
+      - 'tests/test_review_repository.cjs'
       - 'tests/test_first_article_review_packet.py'
       - 'tests/test_media_desk.py'
       - 'tests/test_article_editor.py'
@@ -44,3 +46,4 @@ jobs:
           python tests/test_article_editor.py
           python tests/test_media_desk.py
           python tests/test_first_article_review_packet.py
+          node tests/test_review_repository.cjs

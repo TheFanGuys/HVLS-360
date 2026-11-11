@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-10T21:13:30Z",
+  "status": "initial_snapshot_from_existing_research_indices_not_a_new_run",
+  "research_generated_at": "2026-11-10T21:13:19.215796+00:00",
+  "metrics": {
+    "research_leads": 17,
+    "editorial_briefs": 5,
+    "media_requests": 5,
+    "source_errors": 0,
+    "approval_records": 0,
+    "published_articles": 0
+  },
+  "assignments": [
+    {
+      "id": "coo-1",
+      "department": "Research",
+      "owner": "Head of Research",
+      "task": "Screen recent leads and verify original sources",
+      "count": 17,
+      "status": "needs_review"
+    },
+    {
+      "id": "coo-2",
+      "department": "Editorial",
+      "owner": "Managing Editor",
+      "task": "Triage research briefs for relevance and assign evidence work",
+      "count": 5,
+      "status": "needs_review"
+    },
+    {
+      "id": "coo-3",
+      "department": "Media & Art",
+      "owner": "Head of Media & Art",
+      "task": "Clear image rights and model identification",
+      "count": 5,
+      "status": "needs_review"
+    },
+    {
+      "id": "coo-4",
+      "department": "Technical Experts",
+      "owner": "Head of Experts",
+      "task": "Verify consequential claims and flag human signoff",
+      "count": 0,
+      "status": "waiting"
+    },
+    {
+      "id": "coo-5",
+      "department": "SEO & Distribution",
+      "owner": "Head of SEO",
+      "task": "Prepare search checks for approved articles",
+      "count": 0,
+      "status": "waiting"
+    },
+    {
+      "id": "coo-6",
+      "department": "Marketing & Growth",
+      "owner": "Head of Marketing",
+      "task": "Prepare newsletter and outreach plan",
+      "count": 0,
+      "status": "waiting"
+    },
+    {
+      "id": "coo-7",
+      "department": "Publisher",
+      "owner": "Publisher",
+      "task": "Review eight drafts; no release authorized",
+      "count": 8,
+      "status": "needs_review"
+    }
+  ],
+  "warnings": [
+    "Initial snapshot, scheduled synthesis will replace on next research run.",
+    "Leads are unverified; no autonomous LLM experts invoked.",
+    "No unpublished article text or private notes included."
+  ],
+  "publication_allowed": false
+}

@@ -56,6 +56,9 @@ jobs:
       - name: Prepare Media and Art requests from editorial drafts
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/technical_media.py
+      - name: COO synthesis and department handoffs
+        if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
+        run: python office/coo_brief.py
       - name: Upload private research report artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -85,7 +88,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           test -f office/editorial-latest.json
           test -f office/media-latest.json
-          git add office/research-latest.json office/editorial-latest.json office/media-latest.json
+          test -f office/coo-latest.json
+          git add office/research-latest.json office/editorial-latest.json office/media-latest.json office/coo-latest.json
           if ! git diff --cached --quiet; then
             git commit -m "Update unverified research lead index [skip ci]"
             git push

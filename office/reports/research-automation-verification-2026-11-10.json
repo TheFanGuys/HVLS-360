@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "run_id": 42902875397,
+  "run_url": "https://github.com/TheFanGuys/HVLS-360/actions/runs/42902875397",
+  "run_date_utc": "2026-11-10T21:13:11Z",
+  "event": "schedule",
+  "conclusion": "success",
+  "checks": {
+    "research_collection": "passed",
+    "research_director": "passed",
+    "editorial_assignments": "passed",
+    "source_preflight": "passed",
+    "publisher_candidates": "passed",
+    "technical_assignments": "passed",
+    "article_skeletons": "passed",
+    "manufacturer_discovery": "passed",
+    "technical_excerpts": "passed",
+    "manufacturer_studies": "passed",
+    "media_requests": "passed",
+    "artifact_upload": "passed",
+    "sanitized_public_index": "passed"
+  },
+  "manufacturer_discovery": {
+    "candidate_url_count": 80,
+    "error_count": 3,
+    "warning": "Workflow succeeded despite 3 manufacturer discovery errors; investigate these from private artifact."
+  },
+  "artifact": {
+    "id": 13803786879,
+    "name": "hvls360-research-42902875397",
+    "present": true
+  },
+  "source_configuration": {
+    "vividair": "configured_with_official_direct_source_urls",
+    "gfy_legacy": "configured_with_official_direct_source_urls",
+    "actual_candidate_contents": "not_independently_inspected"
+  },
+  "limitations": [
+    "Successful scheduled execution does not prove each manufacturer was successfully scraped.",
+    "The existing workflow is deterministic Python scripts and does not run autonomous LLM expert agents.",
+    "Manufacturer research candidates are URL discoveries, not verified articles.",
+    "The workflow does not publish an article without publisher approval."
+  ],
+  "verdict": "scheduled_pipeline_verified_with_source_discovery_warnings"
+}

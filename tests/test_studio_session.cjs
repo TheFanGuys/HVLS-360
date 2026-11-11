@@ -14,8 +14,11 @@ class Element {
  const session={read:async()=>({sha:'base',content}),save:async(slug,raw,sha)=>{assert.equal(sha,'base');commits++;return {sha:'next',content:raw,commit:'verifiedcommit'}}};
  const context={document:{getElementById:get,createElement:()=>new Element(),createTextNode:t=>t},
  localStorage:{getItem(){throw Error('Storage denied')},setItem(){throw Error('Storage denied')},removeItem(){throw Error('Storage denied')}},
- window:{addEventListener(){}},HVLSReviewRepository:{client:()=>session},confirm:()=>false,URL,console};
+ window:{addEventListener(){}},HVLSReviewRepository:{client:()=>session,reader:()=>session},HVLSReviewPacket:{packet:async()=>({review:'# Technical notes',media:[]})},confirm:()=>false,URL,console};
  vm.runInNewContext(html.match(/<script>([\s\S]*?)<\/script>/)[1],context);
+ const guestOpen=get('articleLibrary').children[0].children[1];await guestOpen.fire('click');
+ assert.equal(get('editorText').value,content);assert.equal(get('saveRepo').disabled,true);
+ assert.match(get('repoState').textContent,/Public reading mode/);
  get('repoToken').value='test-session';await get('connectRepo').fire('click');
  assert.match(get('repoState').textContent,/Credential loaded/, 'Denied local storage must not invalidate connection');
  const open=get('articleLibrary').children[0].children[1];await open.fire('click');

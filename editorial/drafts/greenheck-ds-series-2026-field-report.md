@@ -17,69 +17,39 @@ seo_description: "Examine Greenheck DS fan documentation, shipping-date manual d
 
 # Greenheck's Redesigned DS-3 and DS-6: What Changes on an HVLS Job
 
-*HVLS 360° | HVLS Technology | Equipment watch*
+Greenheck's current DS product pages divide installation manuals by shipping date: before January 1, 2026, and the current configuration [3][4]. Get that date into the service record. The DS fan already on a warehouse ceiling may need different instructions from the redesigned DS-3 or DS-6 on the next order.
 
-Greenheck separates its current DS installation instructions from manuals for fans shipped before January 1, 2026 [3][4]. That cutoff deserves a place in the service record. The redesigned DS-3 and DS-6 were announced in December 2025 [1][2]; an older DS fan on the ceiling may require a different manual from the unit on the next purchase order.
+Greenheck announced the redesign in December 2025 [1][2]. Its installation and controls changes deserve closer attention than the headline airflow figures when a contractor is pricing the work.
 
-## Three blades, six blades and the limits of peak CFM
+## Start with the manual number
 
-Both models are positioned as overhead air-circulation fans for medium- and high-ceiling spaces. The DS-3 has three blades and the DS-6 has six. Greenheck's current U.S. product pages list **8- through 24-foot sizes** for each, and maximum published airflow of **209,800 cfm for the DS-3** versus **281,700 cfm for the DS-6** [3][4].
+Both product pages list **Model DS #487917 IOM** separately from **Model DS #483568 IOM**, marked **“Shipped prior to 1/1/26.”** The older **DS-QD supplement and VFD wiring #483972** is also identified for fans shipped before that date [3][4].
 
-Those figures are maximum published airflow within each product range, not a like-for-like comparison of two fans at the same diameter and speed. They do not establish the airflow of a particular diameter, motor/voltage variant or installation. A 16-foot DS-3 and 16-foot DS-6 should be compared using their **specific published performance tables**, not two maximum values from different fan configurations.
+Record the full model and serial information, then obtain the applicable installation manual and the supplied controller's instructions. Greenheck lists separate 4-speed, multispeed, keypad and touchscreen manuals. A new controller diagram should not be assumed to match an earlier fan merely because both carry the DS name. The published cutoff identifies document applicability; it does not prove that every component changed that day.
 
-Greenheck also lists a perceived cooling effect of up to **11°F for DS-3** and **15°F for DS-6** [3][4]. Those figures are manufacturer claims about comfort effects, not measured reductions in whole-building dry-bulb temperature. Ask what air speed, conditions and model were used to generate the comparison before treating it as a project result.
+## Check what is already assembled
 
-## What changes between delivery and installation
+The redesign announcement describes a factory-assembled power pack, plug-and-play wiring, a field-adjustable extension tube, and automated commissioning and diagnostic modes [1]. Greenheck says the changes can cut installation time in half. The public announcement provides no field-study sample, baseline crew size or site conditions for that claim.
 
-In its announcement, Greenheck calls out a factory-assembled power pack, plug-and-play wiring, a field-adjustable extension tube and automated commissioning and diagnostic test modes [1]. These are potentially valuable changes for a crew spending hours on lifts in an active warehouse.
+For an estimate, compare the supplied instructions with the building. Identify which connections arrive terminated, what the crew must supply and wire, and whether the extension arrangement meets the approved mount and clearances. Keep Greenheck's labor claim attributed to the company rather than using it as the job's labor allowance.
 
-Greenheck says the changes can reduce installation time by half [1]. That remains **Greenheck's claim**. It provides no field-study sample, baseline crew size or site conditions on the public announcement page. It is an invitation to compare the revised installation manual with the older configuration—not a labor allowance for your estimate.
+## Compare the ordered sizes
 
-For a quote, request the current model-specific instructions and confirm exactly which wiring is factory-terminated versus field-supplied. A field-adjustable extension tube is helpful only if the selected drop length still satisfies the approved mount, clearances and any specified airflow layout. Some obstructions simply require a different location.
+DS-3 uses three blades; DS-6 uses six. Both current U.S. ranges list **8- through 24-foot diameters**. Published maximum airflow is **209,800 cfm for DS-3** and **281,700 cfm for DS-6** [3][4]. Those are range maxima, not measurements for two equal-diameter fans running at the same speed. A 16-foot comparison needs the tables for the two 16-foot configurations.
 
-## Match the manual to the shipped unit
+Greenheck's advertised perceived cooling effects—up to **11°F for DS-3** and **15°F for DS-6**—also need their test conditions [3][4]. These are manufacturer claims. They do not mean the building's dry-bulb temperature drops by those amounts.
 
-There is one particularly useful detail buried on **both current Greenheck product pages**: the instruction-manual list separates **Model DS #487917 IOM** from the older **Model DS #483568 IOM**, explicitly marked **“Shipped prior to 1/1/26”** [3][4]. It also lists the older **DS-QD supplement and VFD wiring #483972** as applying to fans shipped before that date.
+The company says CFEI can be up to **83% above minimum DOE requirements** [1]. At the November 2026 source check, the federal rule listed **1.00 at high speed** and **1.31 at 40% speed or the nearest higher available speed** for covered large-diameter ceiling fans [5][6]. Compare the exact model's declared rating at the corresponding operating point. A percentage above a minimum is not a competitor ranking or a prediction of comfort at the work floor.
 
-This is exactly the sort of distinction that can derail an otherwise straightforward service call. If the site has an earlier DS Series fan, a technician should not assume that a new-generation controller diagram or connector arrangement matches it. Record the fan serial and full model information and select the instructions identified for that configuration. The **shipping-date distinction is published by Greenheck**; it does not prove that every component changed on January 1.
+## Specify the controller and its sequence
 
-For a revised DS-3 or DS-6 installation, get the current **#487917 Model DS installation and maintenance manual** and the specific control manual listed for the supplied package. The public product pages list separate 4-speed, multispeed, keypad and touchscreen controller manuals [3][4]. Those documents belong with the job submittal, especially when a BAS connection or external shutdown sequence is involved.
+The announcement lists Modbus RTU, BACnet MS/TP and 0–10 VDC integrations [1]. The submittal needs to show which option the purchased package supports, whether other hardware is required, and how stop, power loss, restart and any required fire-system interface will work.
 
-## Controls need a written sequence
+Commissioning access, wiring, shielding, termination and addressing belong in that review. A list of protocol names leaves too much unresolved for the electrician and integrator.
 
-The announcement lists **Modbus RTU, BACnet MS/TP and 0–10 VDC** among available control integrations, as well as multiple factory-programmed control choices [1].
+Greenheck also describes **IP66 protection**, a maximum operating temperature of **130°F (55°C)** and indoor/outdoor mounting options [1][3][4]. Verify those conditions for the exact assembly and check separate controllers, connectors and field terminations. Do not carry one component's rating across the installation.
 
-For the electrician or integrator, that raises practical questions:
-
-- Which factory control option is included in the quoted part number?
-- Does this package support the facility's desired BAS interface directly, or need a gateway or optional controller?
-- What is the approved behavior for a stop command, power loss, restart and any required fire-system interlock?
-- Are commissioning diagnostics accessible at the installed location without opening energized enclosures?
-- What wiring type, shielding, termination and address settings does the current control manual actually specify?
-
-The public product announcement does not answer every one of these questions. The correct submittal includes the controller documentation and the owner's sequence of operation, not merely the protocol names.
-
-## Verify enclosure ratings by component
-
-Greenheck describes the redesigned DS-3 and DS-6 as having an **IP66 ingress-protection rating** and a maximum operating temperature of **130°F (55°C)** [1]. The product pages also list indoor and outdoor mounting locations [3][4].
-
-Those statements are reasons to examine the environmental design, not permission to assume every controller, connector, field junction box and cable termination shares the same protection. Verify the exact listed configuration, its installation limitations, weather exposure, washdown requirements and any separate controller enclosure ratings. Also verify that the *entire fan assembly* is suitable for the specific location.
-
-## Compare efficiency at the stated operating point
-
-Greenheck says the redesigned series can achieve **CFEI up to 83% above the minimum DOE requirements** [1]. The federal large-diameter ceiling-fan standards are specific: at the time of this November 2026 review, **10 CFR 430.32(s)(2)(ii)** lists minimum CFEI of **1.00 at high speed** and **1.31 at 40% speed or the nearest higher available speed** for covered products [5]. DOE Appendix U defines the test conditions and product categories [6].
-
-A percentage above a legal minimum is not itself an independently verified ranking against a competitor, and high-speed and 40%-speed values are not interchangeable. The right comparison uses the exact fan model's declared CFEI data, corresponding speed, and test basis. It also separates rated power from actual occupied-zone comfort and application performance.
-
-## What commissioning must document
-
-After identifying the intended model and diameter, a practical pre-installation review should confirm structural attachment, suspension length, approved orientation and clearances, electrical supply, controller part number and required interlocks. The installer should also document as-left control settings and the commissioning results defined by the manufacturer.
-
-A fan spinning successfully proves that it turns. It does not by itself verify the entire air-movement layout, occupant comfort objective or building-system sequence.
-
-## Before the order ships
-
-Request the manual for the shipped fan, the controller part number and its wiring instructions with the submittal. Use that package to establish mounting, electrical and commissioning scope before assigning labor. The published installation-time claim cannot resolve those job-specific costs.
+Before assigning labor, settle the structural attachment, suspension, clearances, supply, controller and required interlocks. Retain the manufacturer's commissioning results and as-left settings with the correct manual. That record will be useful when the next service call concerns the older fan beside the new one.
 
 ### Sources
 
@@ -94,11 +64,3 @@ Request the manual for the shipped fan, the controller part number and its wirin
 [5] eCFR, *10 CFR 430.32(s)(2)(ii)*, current federal LDCF CFEI requirements: https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32
 
 [6] eCFR, *Appendix U to Subpart B of 10 CFR Part 430*, federal test-procedure definitions: https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20U%20to%20Subpart%20B%20of%20Part%20430
-
-### Internal research log (exclude from published page)
-
-- No physical installation, field measurement or independent performance test was performed for this article.
-- Technical sign-off must check current DS-3/DS-6 model manuals, motor options, suspension and structural details, actual control protocol documents and local compliance.
-- Greenheck's cooling, efficiency and installation-time figures remain manufacturer claims; do not rewrite as independent tests.
-- Photo candidates are authentic manufacturer sources only; permission to reproduce them is not established.
-- Remove this internal section before final publisher review, even though the renderer suppresses it as a defense in depth.

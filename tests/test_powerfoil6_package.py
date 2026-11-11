@@ -24,7 +24,7 @@ class Powerfoil6PackageTests(unittest.TestCase):
         self.assertIn("November 19, 2025",self.article)
         self.assertIn("600 V",self.article)
         self.assertIn("600 V",self.review)
-        self.assertIn("not a claim",self.article.lower())
+        self.assertIn("has not independently tested",self.article.lower())
     def test_image_rights_are_not_assumed(self):
         self.assertEqual(self.media["article"],"editorial/drafts/"+SLUG+".md")
         self.assertEqual(self.media["status"],"authentic_source_candidates_rights_not_cleared")

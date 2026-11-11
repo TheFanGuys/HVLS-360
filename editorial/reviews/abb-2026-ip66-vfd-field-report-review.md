@@ -27,3 +27,18 @@
 - [ ] Publisher approves final version and rights-cleared media.
 
 Original diagram is manufacturer-neutral and does not reproduce ABB brochure artwork. ABB product links remain as citations.
+
+
+## Full-queue voice revision — November 11, 2026
+
+Founder feedback applies to all eight articles. Rewrote this manuscript around its specific reporting and field decisions; cut repeated cautions, generic transitions and duplicate conclusions. Source ledger retained verbatim. Internal process notes moved below. This editorial pass is by the implementation assistant, not an independent human reviewer or a background agent. No new test, interview, source retrieval, technical signoff or founder approval claimed. Recheck links and time-sensitive applicability before release.
+
+### Internal research log (exclude from published page)
+
+- ABB May 27 announcement, June 17 two-page technical leaflet, Jan 31 bypass release, and Sep 29 axial-fan partnership reviewed Nov 10, 2026.
+- Source [2] is an ABB copyrighted PDF; link to the ABB product documentation, do not reproduce its images or pages.
+- Quoted ABB claims are attributed to ABB; we did not commission, install, test or independently validate a drive.
+- Final subject-matter review must confirm configuration +B063, ambient derating, UL Type 4X wording, AHJ and OEM implications before this article can proceed to publisher approval.
+
+
+Voice pass revision record: 55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.

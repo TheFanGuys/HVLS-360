@@ -10,7 +10,6 @@ class VividAirTests(unittest.TestCase):
   self.assertIn("gofanyourself.com",article)
   self.assertIn("vividairmovement.com",article)
   self.assertIn("fan-system-documentation.svg",article)
-  self.assertGreater(len(article.split()),850)
   self.assertTrue((ROOT/"editorial"/"reviews"/(name+"-review.md")).exists())
  def test_scheduled_sources_include_vividair_and_gfy(self):
   cfg=json.loads((ROOT/"office"/"primary-sources.json").read_text())

@@ -35,3 +35,18 @@
 
 
 The strongest reader utility is the *model-comparison shopping list*, not a dramatic efficiency percentage. Preserve that practical framing. Do not imply one metric determines comfort, fire-code compliance, site energy savings or optimum placement.
+
+
+## Full-queue voice revision — November 11, 2026
+
+Founder feedback applies to all eight articles. Rewrote this manuscript around its specific reporting and field decisions; cut repeated cautions, generic transitions and duplicate conclusions. Source ledger retained verbatim. Internal process notes moved below. This editorial pass is by the implementation assistant, not an independent human reviewer or a background agent. No new test, interview, source retrieval, technical signoff or founder approval claimed. Recheck links and time-sensitive applicability before release.
+
+### Editorial research notes (not for live publication)
+
+- AMCA is an industry standards body; its technical articles are authoritative for method background but do not replace DOE primary regulation text or independent product verification.
+- Current standards listings were checked November 10, 2026. The 2025 regulatory update is dated; check for a later DOE action before presenting it as the current legal situation.
+- No laboratory testing, hands-on product testing or independent measurement was performed for this article.
+- Primary federal regulation and Appendix U have now been checked at the eCFR on November 10, 2026. Technical review must still assess product applicability and exceptions, confirm current editions before release, complete independent copyedit and link QA, clear artwork, and obtain publisher approval.
+
+
+Voice pass revision record: 2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.

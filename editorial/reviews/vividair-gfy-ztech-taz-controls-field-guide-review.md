@@ -34,3 +34,20 @@ The publisher supplied three separate field photographs in conversation, identif
 - [ ] Use original official manufacturer product imagery only when model identification and publication rights are verified.
 
 This correction does not constitute publisher approval to publish the article or photographs.
+
+
+## Full-queue voice revision — November 11, 2026
+
+Founder feedback applies to all eight articles. Rewrote this manuscript around its specific reporting and field decisions; cut repeated cautions, generic transitions and duplicate conclusions. Source ledger retained verbatim. Internal process notes moved below. This editorial pass is by the implementation assistant, not an independent human reviewer or a background agent. No new test, interview, source retrieval, technical signoff or founder approval claimed. Recheck links and time-sensitive applicability before release.
+
+### Editorial verification record
+
+- Manufacturer primary sources reviewed November 10, 2026; GFY's TAZ product URL resolves to VividAir.
+- Brand relationship is established through cross-linked product pages; no unsupported claim about the legal timing or ownership of a rebrand.
+- VividAir performance claims are attributed to the manufacturer; no independent airflow or temperature measurements were performed.
+- Technical review required for exact model generations, drive compatibility, mounting and controls.
+- Original illustration requires technical artwork review. No manufacturer photo rights claimed.
+- Publisher approval not requested.
+
+
+Voice pass revision record: 6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.

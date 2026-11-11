@@ -51,3 +51,18 @@ The previous `/docs/powerfoil6/powerfoil6-install-guide.pdf` citation failed wit
 - Maintenance begins on printed p. 26; the Annual Maintenance Checklist is printed p. 31. Updated manuscript source page range.
 
 The missing-manual retrieval blocker is resolved. Independent specialist judgment, applicability to the supplied equipment, image rights and founder approval remain open. This is a primary-source verification record, not an independent licensed engineering attestation.
+
+
+## Full-queue voice revision — November 11, 2026
+
+Founder feedback applies to all eight articles. Rewrote this manuscript around its specific reporting and field decisions; cut repeated cautions, generic transitions and duplicate conclusions. Source ledger retained verbatim. Internal process notes moved below. This editorial pass is by the implementation assistant, not an independent human reviewer or a background agent. No new test, interview, source retrieval, technical signoff or founder approval claimed. Recheck links and time-sensitive applicability before release.
+
+### Editorial verification record
+
+- The manufacturer product page and guide are **primary product sources**, not independent performance measurements.
+- Any differences among manual revisions, site selectors and final submittals must be reconciled against the actual product supplied.
+- No independent hands-on testing, airflow measurements, efficiency comparison or manufacturer endorsement is claimed.
+- Before release: specialist technical review of electrical, mounting and fire-relay descriptions; copy/link review; clearance of any imagery; explicit publisher approval.
+
+
+Voice pass revision record: c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.

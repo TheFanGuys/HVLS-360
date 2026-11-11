@@ -35,3 +35,19 @@
 ## Editorial direction
 
 The practical angle is *what the redesign means on the lift*, not maximum airflow. Do not use the two series' maximum airflow figures as a substitute for a model-to-model bid comparison. Keep subjective cooling claims clearly distinct from air-temperature reduction. Include a real installation photo or a technically reviewed original drawing only when publication rights are established.
+
+
+## Full-queue voice revision — November 11, 2026
+
+Founder feedback applies to all eight articles. Rewrote this manuscript around its specific reporting and field decisions; cut repeated cautions, generic transitions and duplicate conclusions. Source ledger retained verbatim. Internal process notes moved below. This editorial pass is by the implementation assistant, not an independent human reviewer or a background agent. No new test, interview, source retrieval, technical signoff or founder approval claimed. Recheck links and time-sensitive applicability before release.
+
+### Internal research log (exclude from published page)
+
+- No physical installation, field measurement or independent performance test was performed for this article.
+- Technical sign-off must check current DS-3/DS-6 model manuals, motor options, suspension and structural details, actual control protocol documents and local compliance.
+- Greenheck's cooling, efficiency and installation-time figures remain manufacturer claims; do not rewrite as independent tests.
+- Photo candidates are authentic manufacturer sources only; permission to reproduce them is not established.
+- Remove this internal section before final publisher review, even though the renderer suppresses it as a defense in depth.
+
+
+Voice pass revision record: 9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.

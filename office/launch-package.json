@@ -6,7 +6,7 @@
   "items": [
     {
       "slug": "hvls-air-movement-vs-ventilation",
-      "draft_sha256": "75d57a5b84a8c82870a84d5bfb55e357980343f820fe41a52c0a4df30a779540",
+      "draft_sha256": "3e5562a223bfca819a64db283e1268e21e33dbb01419e1c2e387aaba5fe5d7a7",
       "seo_title": "HVLS Air Movement vs. Ventilation",
       "seo_description": "Understand how HVLS air movement differs from outdoor-air ventilation, with practical questions for facility specifications and project reviews.",
       "audience": "Facilities managers and HVAC specifiers",
@@ -21,7 +21,7 @@
     },
     {
       "slug": "abb-2026-ip66-vfd-field-report",
-      "draft_sha256": "3bbb591d62ea363b32c3a820f014bb97f4bc6f30e6b87872b26b6aa55f53a5ff",
+      "draft_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
       "seo_title": "ABB IP66 Drives: Checks Before an HVLS Retrofit",
       "seo_description": "Review ABB enclosure and drive-configuration claims, environmental limits and the OEM compatibility questions to settle before quoting an HVLS retrofit.",
       "audience": "Service electricians and controls integrators",
@@ -36,7 +36,7 @@
     },
     {
       "slug": "cfei-vs-cfm-per-watt-field-guide",
-      "draft_sha256": "495d5e7d4c9a17bc1a2a27751b9ac605f590ff296b8bcdb728cd9c4c55777a38",
+      "draft_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
       "seo_title": "CFEI vs. CFM per Watt for HVLS Fan Submittals",
       "seo_description": "Compare CFEI and CFM per watt, identify the operating points behind fan ratings, and separate laboratory efficiency evidence from installed performance.",
       "audience": "Engineers, buyers and specification reviewers",
@@ -51,7 +51,7 @@
     },
     {
       "slug": "greenheck-ds-series-2026-field-report",
-      "draft_sha256": "47a5a6c4c333ca17603042442371f1fc1e4d6e026865db2348c544bcd83ba249",
+      "draft_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
       "seo_title": "Greenheck DS Fans: Manuals, Controls and Submittals",
       "seo_description": "Examine Greenheck DS fan documentation, shipping-date manual differences and controls questions that affect installation planning and submittal review.",
       "audience": "Installers and mechanical specifiers",
@@ -66,7 +66,7 @@
     },
     {
       "slug": "powerfoil6-field-brief",
-      "draft_sha256": "a122837cc397e01275cb8c37953c89e934def0795765e41c64a72fba9ac94635",
+      "draft_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
       "seo_title": "Powerfoil 6: Installation Planning and Manual Checks",
       "seo_description": "Review Powerfoil 6 installation planning through its manufacturer manual: electrical variant, structural attachment, controls and shutdown coordination.",
       "audience": "HVLS installers and project electricians",
@@ -81,7 +81,7 @@
     },
     {
       "slug": "scissor-lift-planning-hvls-installations",
-      "draft_sha256": "2b8b876a01e9be59d9903e8acfc58b78a8036d88bf4fa0cd58efb30a9dcc0028",
+      "draft_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
       "seo_title": "Scissor Lift Planning for HVLS Fan Installation",
       "seo_description": "Plan HVLS installation access around lift capacity, work position, travel routes and site hazards before committing equipment and labor to the job.",
       "audience": "Installation contractors and facilities teams",
@@ -96,7 +96,7 @@
     },
     {
       "slug": "vividair-gfy-ztech-taz-controls-field-guide",
-      "draft_sha256": "3ca9f4df5c49229688de8ddf63d5de81b875897b1f3bce06e11e6a0df710ec4e",
+      "draft_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
       "seo_title": "VividAir and GFY Fan Controls: Identify the Hardware",
       "seo_description": "Identify VividAir and legacy Go Fan Yourself product generations, controls and documentation before assuming a fan, drive or keypad is interchangeable.",
       "audience": "Service technicians and controls electricians",

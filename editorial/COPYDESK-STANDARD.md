@@ -36,3 +36,12 @@ Use **First look / manual analysis** when no sample has been operated. Reserve *
 ## Handoff accountability
 
 The Editorial Director owns the voice pass before a draft enters the founder's reading queue. Record the manuscript revision, concrete edits and unresolved questions in its review record. A workflow run, word count, writing plugin or AI-detector score does not establish that this pass happened. Internal verification checklists belong in the companion review record; retain material qualifications in the article itself. Do not pad copy to meet a minimum word count.
+
+
+## Standing founder requirement — all current and future articles
+
+Chris's November 11, 2026 direction applies to the entire queue and every article produced afterward. A separate voice edit is mandatory before any founder handoff, regardless of author, department, automation or plugin used. Do not ask Chris to identify or repair generic AI prose.
+
+The Editorial Director owns this pass; the Managing Editor verifies its record before presenting copy. Record the manuscript SHA-256, date, editor role, concrete changes and unresolved issues in the companion review. Any later manuscript change requires a new voice recheck. A note without a matching revision is not completion. Technical review, fact checking and explicit founder approval remain separate requirements.
+
+Read for repetitive warnings, interchangeable introductions, vague headings, forced contrasts, formulaic lists, redundant recaps and process notes that belong in the review record. Preserve necessary qualifications and source attribution. Do not introduce invented experience, quotes, slang or unsupported certainty to make writing sound human. No plugin output or AI-detector score substitutes for editorial judgment.

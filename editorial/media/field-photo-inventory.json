@@ -1,0 +1,194 @@
+{
+  "reviewed_at": "2026-11-11",
+  "repository_baseline": "33b1b80",
+  "publication_allowed": false,
+  "scope": "15 field originals visually inspected; 2 retained optimized versions inspected. Website candidates not visually verified in this pass.",
+  "rights_basis": "Project handoff permits Chris-supplied installation photos and authorized Big Fan Guys imagery. Existing repository records attest ownership and editorial permission; not an independent copyright investigation. Customer privacy and final crop/caption approval remain pending.",
+  "assets": [
+    {
+      "story": null,
+      "caption_proposal": "Production aisle with boat hulls and overhead equipment.",
+      "identification": "No current story needs this wide context image.",
+      "status": "reserve",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-001",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "vividair-gfy-ztech-taz-controls-field-guide",
+      "caption_proposal": "Elevated view of a ceiling-fan hub above production equipment.",
+      "identification": "Exact model and installation stage unverified.",
+      "status": "candidate",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-002",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "scissor-lift-planning-hvls-installations",
+      "caption_proposal": "Fan and access equipment beneath a steel-framed roof during construction.",
+      "identification": "Exact equipment models unverified; not evidence of an approved work method.",
+      "status": "candidate",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-003",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "hvls-air-movement-vs-ventilation",
+      "caption_proposal": "Overhead fan above industrial production equipment.",
+      "identification": "Exact model unverified.",
+      "status": "candidate",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-004",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "scissor-lift-planning-hvls-installations",
+      "caption_proposal": "Boom lift inside an industrial building.",
+      "identification": "Boom lift, not a scissor lift; only use for explicit equipment-selection comparison.",
+      "status": "candidate",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-005",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "hvls-air-movement-vs-ventilation",
+      "caption_proposal": "Big Ass Fans-branded overhead fan beneath a metal roof.",
+      "identification": "Brand visible; do not label Powerfoil 6 or assert diameter.",
+      "status": "candidate",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-006",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "vividair-gfy-ztech-taz-controls-field-guide",
+      "caption_proposal": "Close view of an overhead fan hub, airfoils and installation hardware.",
+      "identification": "Exact model and manufacturer unverified; installation stage needs context.",
+      "status": "candidate",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-007",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "vividair-gfy-ztech-taz-controls-field-guide",
+      "caption_proposal": "Wall-mounted ABB-branded fan drive enclosures with Go Fan Yourself labels and adjacent conduit.",
+      "identification": "Brand labels visible; exact drive family, rating and option code unverified.",
+      "status": "candidate",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-008",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "hvls-air-movement-vs-ventilation",
+      "caption_proposal": "Overhead fan above warehouse racking.",
+      "identification": "Exact model unverified; photo does not establish measured airflow or clearance compliance.",
+      "status": "candidate",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-009",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "vividair-gfy-ztech-taz-controls-field-guide",
+      "caption_proposal": "Close view of a VividAir-branded ceiling-fan hub and suspension assembly during field work.",
+      "identification": "VividAir branding visible; exact model unverified. This is not a helicopter rotor.",
+      "status": "candidate",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-010",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "hvls-air-movement-vs-ventilation",
+      "caption_proposal": "Overhead fan among ceiling structure, lights and suspended equipment.",
+      "identification": "Exact model unverified.",
+      "status": "candidate",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-011",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "scissor-lift-planning-hvls-installations",
+      "caption_proposal": "Wide interior view of an equipment service bay with overhead fans and access equipment.",
+      "identification": "Fan models unverified; does not document lift capacity or safe reach.",
+      "status": "candidate",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Editorial permission recorded in project handoff; final context/privacy review pending",
+      "id": "field-012",
+      "visual_review_basis": "recovered_media_desk_review"
+    },
+    {
+      "story": "vividair-taz-72-field-guide",
+      "caption_proposal": "Front view of a suspended directional fan showing discharge louvers and protective guard.",
+      "identification": "Publisher identifies this as 72-inch TAZ; nameplate/size not independently legible.",
+      "status": "retained",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Existing explicit permission record; rejected image excluded",
+      "id": "field-013",
+      "visual_review_basis": "recovered_review_and_COО_reopened_derivative",
+      "repository_file": "editorial/media/publisher/taz-72/taz-72-field-03.webp",
+      "alt_text": "Front view of a suspended black directional fan with discharge louvers and a protective guard."
+    },
+    {
+      "story": "vividair-taz-72-field-guide",
+      "caption_proposal": "Suspended directional fan above production equipment; side view shows housing, guard and chain suspension.",
+      "identification": "Publisher identifies this as 72-inch TAZ; nameplate/size not independently legible.",
+      "status": "retained",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Existing explicit permission record; rejected image excluded",
+      "id": "field-014",
+      "visual_review_basis": "recovered_review_and_COО_reopened_derivative",
+      "repository_file": "editorial/media/publisher/taz-72/taz-72-field-02.webp",
+      "alt_text": "Side view of a black directional fan suspended by chains above industrial equipment."
+    },
+    {
+      "story": null,
+      "caption_proposal": "Directional fan suspended above an industrial aisle.",
+      "identification": "Previously rejected by publisher; do not reinstate based on visual similarity.",
+      "status": "rejected",
+      "publication_allowed": false,
+      "credit": "Big Fan Guys",
+      "rights_status": "Existing explicit permission record; rejected image excluded",
+      "id": "field-015",
+      "visual_review_basis": "recovered_media_desk_review",
+      "exclusion_reason": "Publisher rejected the previous candidate. Do not reinstate based on visual similarity."
+    }
+  ],
+  "diagram_matches": {
+    "hvls-air-movement-vs-ventilation": "air-movement-vs-ventilation.svg",
+    "abb-2026-ip66-vfd-field-report": "vfd-compatibility-check.svg",
+    "vividair-gfy-ztech-taz-controls-field-guide": "fan-system-documentation.svg",
+    "scissor-lift-planning-hvls-installations": "scissor-lift-access-planning.svg"
+  },
+  "product_photo_holds": [
+    "powerfoil6-field-brief: exact Powerfoil 6 image and rights required; IMG_0254 is not model evidence",
+    "greenheck-ds-series-2026-field-report: no confirmed DS-3/DS-6 field asset",
+    "abb-2026-ip66-vfd-field-report: IMG_5699 does not establish ACH580 +B063 identity",
+    "cfei-vs-cfm-per-watt-field-guide: no photo needed to prove an efficiency metric; use sourced data before charting"
+  ],
+  "schema_version": 1,
+  "review_provenance": "Recovered Media & Art review dated 2026-11-11; two retained repository derivatives independently reopened in COO review. Other original-photo findings are attributed to that recovered review.",
+  "source_mapping": "Private source identifiers and original-upload mapping retained outside the public repository."
+}

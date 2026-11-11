@@ -28,6 +28,7 @@
     }
   ],
   "known_misidentification": "Patterson barrel fans were incorrectly labeled as TAZ in a prior recommendation; never use that identification.",
-  "publisher_supplied_taz_72": "Separate three-photo package prepared with permission; binary assets not yet committed to repository.",
-  "policy": "Confirm equipment model, installation context and customer privacy before product-specific captions."
+  "publisher_supplied_taz_72": "Two retained optimized files 02 and 03 committed; photo 01 rejected and excluded. See field-photo-inventory.json.",
+  "policy": "Confirm equipment model, installation context and customer privacy before product-specific captions.",
+  "inventory_reviewed_at": "2026-11-11"
 }

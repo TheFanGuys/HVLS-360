@@ -11,12 +11,22 @@
     {
       "file": "taz-72-field-02.webp",
       "original": "IMG_5192.jpeg",
-      "caption": "Publisher-supplied 72-inch TAZ installation photograph"
+      "caption": "Publisher-identified 72-inch TAZ suspended above production equipment; side view shows housing, guard and chain suspension.",
+      "alt_text": "Side view of a black directional fan suspended by chains above industrial production equipment.",
+      "visual_reviewed_at": "2026-11-11",
+      "publication_allowed": false,
+      "identity_basis": "Publisher identification; no legible model/diameter nameplate in photograph",
+      "privacy_review": "Pending: crop production labels and avoid naming customer"
     },
     {
       "file": "taz-72-field-03.webp",
       "original": "IMG_5196.jpeg",
-      "caption": "Publisher-supplied 72-inch TAZ installation photograph"
+      "caption": "Publisher-identified 72-inch TAZ; front view shows discharge louvers and protective guard.",
+      "alt_text": "Front view of a suspended black directional fan with horizontal discharge louvers and protective guard.",
+      "visual_reviewed_at": "2026-11-11",
+      "publication_allowed": false,
+      "identity_basis": "Publisher identification; no legible model/diameter nameplate in photograph",
+      "privacy_review": "Pending: crop production labels and avoid naming customer"
     }
   ],
   "asset_location": "editorial/media/publisher/taz-72/",

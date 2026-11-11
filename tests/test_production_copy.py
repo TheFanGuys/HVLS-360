@@ -25,7 +25,7 @@ class ProductionCopyRendererTests(unittest.TestCase):
     def test_abb_internal_review_notes_stay_private(self):
         raw=(ROOT/"editorial"/"drafts"/"abb-2026-ip66-vfd-field-report.md").read_text()
         out=render_markdown(raw.split("---",2)[-1])
-        self.assertIn("Field verdict",out)
+        self.assertIn("What this changes for contractors",out)
         self.assertNotIn("Internal research log",out)
         self.assertNotIn("Final subject-matter review must",out)
 

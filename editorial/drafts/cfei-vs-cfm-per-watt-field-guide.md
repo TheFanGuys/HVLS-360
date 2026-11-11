@@ -15,11 +15,9 @@ research_checked: "2026-11-10"
 
 *HVLS 360° | Controls & Engineering*
 
-Two large-diameter fans can move very different amounts of air while appearing surprisingly similar on an old-style efficiency comparison. That is part of why **Ceiling Fan Energy Index (CFEI)** matters.
+Two ceiling fans can carry similar airflow-per-watt claims and still receive substantially different energy-index ratings. That is not necessarily a contradiction. The figures answer different questions, and the difference matters when facility managers compare large-diameter fan submittals. Ceiling Fan Energy Index, or CFEI, places electrical input in relation to a defined reference fan rather than presenting airflow divided by watts as the whole efficiency story [1][2].
 
-For a facility manager buying a 20-foot-class fan—or an installer reviewing competing submittals—the useful question is not which catalog prints the biggest airflow number. It's whether the numbers were measured on a comparable basis, at the same operating point, and whether they describe the effect the project is actually paying for.
-
-## What changed from CFM per watt
+## Why the older ratio can mislead
 
 A cubic-feet-per-minute-per-watt (CFM/W) figure compares airflow with electrical input power at a stated operating point. The number can be useful, but it is not a complete picture of fan performance. Fan speed, blade geometry and the way results are aggregated can distort a simplistic efficiency ranking.
 
@@ -27,11 +25,11 @@ In a technical explanation published by AMCA International, a group of fans with
 
 CFEI compares a fan's measured electrical input power against the power of a defined reference fan at a corresponding test condition [1][2]. In broad terms, a higher index represents lower energy use relative to that reference. The calculation uses the specialized methods referenced in federal rules; **it is not just another label for CFM/W**.
 
-## Which fans are covered?
+## Product classification comes first
 
 Under DOE's current test-procedure definitions, a **large-diameter ceiling fan** has a represented blade span **greater than 7 feet** and is not a belt-driven or highly decorative ceiling fan [8]. Blade span is based on measured outermost blade reach, not simply an unqualified sales designation. A marketing label such as “HVLS” does not establish a DOE product classification. Appendix U distinguishes large-diameter ceiling fans from other categories, including high-speed belt-driven fans that also use CFEI testing [8]. Floor fans, directional air circulators, exhaust fans and packaged air-handling units may be evaluated under different procedures and metrics [3].
 
-## What to request from a manufacturer
+## A comparable submittal, not a headline number
 
 A useful submittal should make it possible to compare the actual models you're considering—not just a marketing category.
 
@@ -43,7 +41,7 @@ A useful submittal should make it possible to compare the actual models you're c
 
 For bidding, put those fields side by side. If a manufacturer cannot provide comparable data for the exact model, mark the comparison incomplete rather than filling the gaps with estimates.
 
-## CFEI is not a cooling-performance guarantee
+## Rated energy performance versus building performance
 
 CFEI addresses energy performance against a reference. It does not tell you how quickly an occupied zone will feel comfortable, how evenly air moves through racking, or how much warm air a tall building will mix down in winter.
 
@@ -51,7 +49,7 @@ A comfort design needs a separate method for evaluating air speed, temperatures 
 
 The commissioning plan therefore needs two sets of evidence: **what the fan is rated to do in a standardized test** and **what the installation delivers in the actual building**. They answer different questions.
 
-## A note on changing rules
+## Federal thresholds require two operating points
 
 The **current federal rule** is more useful than a loose claim that a fan is “CFEI compliant.” As displayed by the eCFR on November 10, 2026 (Title 10 current through November 6), **10 CFR 430.32(s)(2)(ii)** requires covered large-diameter ceiling fans to achieve **CFEI of at least 1.00 at high speed** and **at least 1.31 at 40% speed** (or the nearest available speed not below 40%) [9]. These are **two different operating points**, not interchangeable scores; they say nothing about installation-specific air speed or energy savings.
 
@@ -61,7 +59,7 @@ The DOE continues to list federal ceiling-fan standards and test procedures [7].
 
 That is a reason to verify the rule, not a reason to avoid efficiency data. CFEI remains a useful way to ask better questions of competing large-diameter ceiling fans.
 
-## The bottom line
+## Use the rating for the question it answers
 
 **Use CFEI to evaluate rated energy performance, but never let it stand in for an airflow layout, comfort assessment or installation review.** Request the exact model's rating basis; compare like with like; and judge the finished job by measured results against the building's stated objective.
 

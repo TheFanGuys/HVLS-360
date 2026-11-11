@@ -124,3 +124,8 @@ Construction Today reference inspected in live browser. Rebuilt review edition a
 ## Image-led edition — deployed visual acceptance
 
 Image-led BFG magazine accepted live November 11. PRs #138/#139 merged; versioned stylesheet commit 40e1af1b479f633f387df2528725de0aecb1ff36 deployed successfully in Pages run 43065072180. Fresh preview URL ?v=20261111-image-led verified: black BFG masthead, blue/orange branding, 320px feature photograph, concise card headlines, distinct supporting photograph and sidebar. All twelve article header images/captions previously opened live with no broken images or tested desktop overflow. Final homepage overflow false. 194 Python tests, six JavaScript suites and 280 local references passed. Existing founder approvals unchanged.
+
+
+## November 11 — Big Fan Guys gallery request processed
+
+Processed the previously underfilled BigFanGuys.com image request: inventoried 80 gallery entries across seven sections, visually reviewed 20 samples, prepared seven additional distinct web photographs, and replaced repeated imagery on six stories. TAZ photograph remains assigned to the TAZ story only. Exact source URLs, model limits and visual-review scope recorded in editorial/media/big-fan-guys-gallery-inventory.json. Remaining unsampled images are discovered, not visually cleared.

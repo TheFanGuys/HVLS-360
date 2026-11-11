@@ -16,13 +16,13 @@ publisher_approval: "Required"
 
 *HVLS 360° | Controls & VFDs | Product watch*
 
-**ABB expanded its ACS580, ACH580 and ACQ580 drive families with IP66 / UL Type 4X variants on May 27, 2026.** It's a worthwhile development for industrial ventilation contractors—but not a universal replacement for the VFD supplied with an HVLS fan.
+ABB's May 27 expansion of its IP66 / UL Type 4X drive offerings gives ventilation contractors more options for demanding environments. It does not give HVLS service crews a drop-in replacement for every fan controller. The distinction lies in the exact drive variant, its environmental limits and whether the fan manufacturer has approved the complete motor-and-controls arrangement [1].
 
 ![Conceptual three-stage HVLS fan drive compatibility check covering exact motor, OEM approval and installation environment](../../editorial/media/original/vfd-compatibility-check.svg)
 
 The distinction matters because a fan installer may see the familiar ABB drive names and assume that a sealed, outdoor-rated package can simply replace an existing controller. The announcement says something narrower: ABB has added environmental protection choices across several drive families, with models aimed at different industries [1].
 
-## Three drive families, three application stories
+## ACS580, ACH580 and ACQ580 are not interchangeable
 
 ABB positions the **ACS580** as a general-purpose family suited to applications including food processing and washdown environments. The **ACH580** is the HVACR family, with examples such as rooftop air handlers, cooling towers and exterior supply and exhaust fans. The **ACQ580** targets water and wastewater duty [1].
 
@@ -30,7 +30,7 @@ Those are examples from ABB's own product announcement, not evidence that the ne
 
 For HVLS projects, the question is therefore **not** “Does ABB make a rugged VFD?” It is “Does the exact fan system, as supplied or approved by its OEM, support this drive and its required controls?”
 
-## The ACH580 leaflet has details the headline leaves out
+## The specifications behind the enclosure rating
 
 ABB's June 17, 2026 leaflet for the **ACH580-01 IP66/Type 4X**, with the **+B063** option, specifies a **5.5 to 22 kW** range and **three-phase 380–480 V** input. That is a specific product and option, not a statement about every ACH580 or ACS580 drive [2].
 
@@ -40,7 +40,7 @@ These are exactly the lines that can affect a quote or a service replacement. An
 
 ABB also identifies a built-in DC choke, EMC C2 filter, two slots for expansion, standard EIA-485 communications with BACnet MS/TP and Modbus RTU support, and an **optional** Bluetooth-capable control panel [2]. Those features make the drive worth evaluating in some building-control projects, but the exact I/O and communications requirements still need to be matched to the equipment and its sequence of operation.
 
-## ABB also expanded its packaged bypass line
+## A separate bypass announcement
 
 This is a separate announcement that is easy to confuse with the IP66 drives.
 
@@ -48,7 +48,7 @@ On **January 31, 2026**, ABB announced **ACH580 vertical bypass drives** in UL T
 
 A bypass package is not automatically appropriate for an HVLS fan. Motor characteristics, speed control, required stops and OEM-approved interlocks determine whether the package belongs on a particular project. A submittal should identify the exact series and option codes so that the distinct 2026 ABB announcements are not mistakenly treated as the same product.
 
-## Four things to verify before specifying one
+## Before issuing the purchase order
 
 **Identify the full part number.** Confirm whether the proposal is the ACH580-01 IP66 drive, a different ACH580 configuration, or a vertical bypass assembly. Enclosure words alone are not enough.
 
@@ -58,13 +58,13 @@ A bypass package is not automatically appropriate for an HVLS fan. Motor charact
 
 **Separate environmental protection from fan performance.** IP66 / Type 4X describes an enclosure capability; it does not establish the fan's air movement, thermal comfort, CFEI rating or energy savings. A drive swap may also change electrical and control characteristics that affect the complete assembly.
 
-## Another 2026 ABB fan announcement is not HVLS
+## An axial-fan partnership, not an HVLS rating
 
 On **September 29, 2026**, ABB announced a collaboration with NOVENCO around an integrated **axial fan**, motor and drive package for air-handling and other ventilation applications [4]. ABB gives performance estimates for that package, but they are not an HVLS ceiling-fan rating and should not be compared directly with an overhead destratification fan.
 
 For installers following the broader air-movement sector, the connection is still useful: drive selection is increasingly discussed at the **system** level, not as a stand-alone motor controller. A well-built HVLS submittal should follow the same principle.
 
-## Field verdict
+## What this changes for contractors
 
 The new ABB enclosure choices could simplify some rooftop, washdown or exterior ventilation projects when the exact drive is properly selected. They **do not establish plug-and-play compatibility** with an existing HVLS fan. Before an installer quotes a replacement, the technical questions are part number, motor compatibility, environment, control sequence and OEM approval—not the IP number in the headline.
 

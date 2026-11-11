@@ -49,3 +49,24 @@ After work: concrete result links, actual validation, open blockers and any deci
 - Chris verifies the phone conversation flow and sees the final results in the same thread.
 
 No model service, paid subscription, backend hosting or publication was activated by this brief.
+
+## Budget decision resolved — November 11, 2026
+
+Chris requires $0 additional cost. Paid embedded-COO activation is off the table. No credit purchase, top-up, paid fallback, account upgrade or converting trial is authorized. Account connections and functionality remain unverified; no free infrastructure has been deployed.
+
+A free-only pilot candidate is Cloudflare Workers Free for the private service plus OpenRouter's free model variants. Official documentation checked November 11 describes Workers Free at 100,000 requests/day with a 10 ms CPU allowance; free limits must be checked for the actual account and any storage/authentication features before provisioning. OpenRouter free variants require no credit purchase and have a 50-model-request daily cap for an unfunded account, with a 20-per-minute limit. Failed requests count. One COO plan, specialist task and verification can each consume a model request; this is not 50 full conversations or 50 multi-agent jobs.
+
+The free pilot must use an explicit allowlist of verified zero-price models/routes, no automatic paid fallback, bounded retries, owner authentication, server-side secrets and clear quota/unavailability states. Do not create accounts or accept terms for Chris; connection/setup can require his own action. Do not expose internal conversation text in public GitHub Issues. The existing ChatGPT conversation remains the operating COO until a real embedded path passes acceptance.
+
+Free-tier availability does not establish production reliability or perfect output. OpenRouter's own support guidance says free models have low limits and are not generally suitable for production. Validate a small private pilot before committing to this architecture. No unlimited or always-on service promise.
+
+GitHub Models is not a candidate: GitHub's July 1, 2026 retirement notice states the inference API and related service were fully retired July 30, 2026. Do not implement from outdated tutorials describing its former free API.
+
+Primary references:
+- https://developers.cloudflare.com/workers/platform/pricing/
+- https://developers.cloudflare.com/workers/platform/limits/
+- https://openrouter.ai/collections/free-models/
+- https://openrouter.ai/support/
+- https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/
+
+Next gate: verify free account connection, current zero-price routing, private storage/authentication and a bounded prototype. The budget question is closed; do not ask Chris again to approve a paid route.

@@ -21,7 +21,7 @@ def article_requests(article_text, filename):
     results=requests(article_text)
     if len(article_text.split()) >= 250:
         vividair=("vividair" in filename.lower() or "gfy" in filename.lower())
-        results.insert(0,{"subject":("Verified VividAir / GFY installation photo for " if vividair else "Authentic HVLS fan installation for ")+filename,
+        results.insert(0,{"subject":("Model-verified VividAir / GFY photo needed for " if vividair else "Authentic HVLS fan installation for ")+filename,
             "manufacturer_link":("https://bigfanguys.com/" if vividair else None),"visual_type":"authentic_editorial_hero_photo",
             "image_url":None,"image_rights":("publisher_authorized_big_fan_guys_site" if vividair else "not_verified"),"model_accuracy":"not_verified",
             "alt_text":None,"caption":None,"status":"media_research_required",

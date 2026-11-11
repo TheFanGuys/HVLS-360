@@ -28,7 +28,14 @@
         "installation and service manuals",
         "technical bulletins"
       ],
-      "verification": "Check model generation, exact manual revision, OEM controls and manufacturer performance claims"
+      "verification": "Check model generation, exact manual revision, OEM controls and manufacturer performance claims",
+      "direct_source_urls": [
+        "https://vividairmovement.com/products/",
+        "https://vividairmovement.com/product/z-tech/",
+        "https://vividairmovement.com/product/z-tech-3/",
+        "https://vividairmovement.com/product/taz/",
+        "https://vividairmovement.com/product/z-chill/"
+      ]
     },
     {
       "name": "Go Fan Yourself (legacy)",
@@ -41,7 +48,12 @@
         "historic installation guides",
         "legacy controls"
       ],
-      "verification": "Distinguish older GFY documentation from current VividAir model and control revisions"
+      "verification": "Distinguish older GFY documentation from current VividAir model and control revisions",
+      "direct_source_urls": [
+        "https://gofanyourself.com/products/",
+        "https://gofanyourself.com/products/z-tech-fan/",
+        "https://gofanyourself.com/products/taz-fan/"
+      ]
     },
     {
       "name": "Rite-Hite",

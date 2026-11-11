@@ -34,21 +34,28 @@ def discover(sources,fetcher=fetch):
     for source in sources:
         host=urlparse(source["url"]).hostname
         if not host:continue
+        seeds=[]
+        for link in source.get("direct_source_urls",[]):
+            parsed=urlparse(link)
+            if parsed.scheme=="https" and parsed.hostname==host:
+                seeds.append(link)
         sitemap="https://"+host+"/sitemap.xml"
+        candidates=list(seeds)
         try:
             top=urls(fetcher(sitemap))
             nested=[x for x in top if x.lower().endswith(".xml") and urlparse(x).hostname==host][:5]
-            candidates=[x for x in top if candidate(x) and urlparse(x).hostname==host]
+            candidates.extend(x for x in top if candidate(x) and urlparse(x).hostname==host)
             for child in nested:
                 try:
                     candidates.extend(x for x in urls(fetcher(child)) if candidate(x) and urlparse(x).hostname==host)
                 except Exception as e:
                     errors.append({"source":source["name"],"sitemap":child,"error":type(e).__name__})
-            unique=list(dict.fromkeys(candidates))[:40]
-            result.append({"source":source["name"],"homepage":source["url"],"candidate_urls":unique,
-                           "note":"URL discovery only; study contents, authorship, rights and findings not verified."})
         except Exception as e:
             errors.append({"source":source["name"],"sitemap":sitemap,"error":type(e).__name__})
+        unique=list(dict.fromkeys(candidates))[:40]
+        result.append({"source":source["name"],"homepage":source["url"],"candidate_urls":unique,
+                           "seeded_sources":len(seeds),
+                       "note":"URL discovery only; source content, dates, technical claims and image rights are not verified."})
     return result,errors
 def main():
     cfg=json.loads((ROOT/"office"/"primary-sources.json").read_text(encoding="utf-8"))

@@ -25,6 +25,11 @@ class VividAirTests(unittest.TestCase):
   reqs=article_requests("publication_allowed: false "+("fan "*300),"vividair-gfy-ztech-taz-controls-field-guide.md")
   self.assertTrue(any(x["manufacturer_link"]=="https://bigfanguys.com/" for x in reqs))
   self.assertTrue(any("Patterson" in x["notes"] for x in reqs))
+ def test_big_fan_guys_image_source_requires_model_verification(self):
+  record=json.loads((ROOT/"editorial"/"media"/"publisher"/"big-fan-guys-source-index.json").read_text())
+  self.assertTrue(record["candidate_images"])
+  self.assertTrue(all(x["equipment_model"]=="unverified" for x in record["candidate_images"]))
+  self.assertIn("Patterson",record["known_misidentification"])
  def test_manufacturer_watch_sources(self):
   data=json.loads((ROOT/"editorial"/"manufacturer-watch"/"vividair-gfy.json").read_text())
   self.assertEqual(data["manufacturer"],"VividAir")

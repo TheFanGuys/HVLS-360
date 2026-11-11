@@ -14,7 +14,7 @@ publisher_approval: "Required"
 
 *HVLS 360° | Product Intelligence | Document-based field briefing*
 
-The most revealing details in a fan launch are often buried in the installation manual. Big Ass Fans' Powerfoil 6 illustrates why: its product literature describes the equipment, while the technical guide addresses the decisions that determine whether a crew can mount, wire and commission it as specified. The gap between those two documents is where contractors should spend their preparation time.
+The most revealing details in a fan launch are often buried in the installation manual. Big Ass Fans' Powerfoil 6 illustrates why: its product literature describes the equipment, while the technical guide addresses the decisions that determine whether a crew can mount, wire and commission it as specified. The gap between those two documents is where contractors should spend their preparation time. This is a document-based review, not a claim of firsthand installation or independent product testing.
 
 ## The published Powerfoil 6 configuration
 

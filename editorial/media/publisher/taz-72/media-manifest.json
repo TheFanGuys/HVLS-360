@@ -4,15 +4,10 @@
   "photographer_credit": "Big Fan Guys",
   "rights": "Publisher confirms photographs are their own and grants HVLS 360 editorial publication permission",
   "rights_confirmed_at": "2026-11-10",
-  "model_identification": "72-inch TAZ, identified by publisher/photographer; exact nameplate not independently checked",
+  "model_identification": "Two remaining photographs retained as publisher-supplied TAZ references; final model/caption verification pending",
   "article_slug": "vividair-taz-72-field-guide",
   "status": "approved_for_editorial_media_use_not_article_publication",
   "images": [
-    {
-      "file": "taz-72-field-01.webp",
-      "original": "IMG_5193.jpeg",
-      "caption": "Publisher-supplied 72-inch TAZ installation photograph"
-    },
     {
       "file": "taz-72-field-02.webp",
       "original": "IMG_5192.jpeg",
@@ -25,8 +20,8 @@
     }
   ],
   "asset_location": "editorial/media/publisher/taz-72/",
-  "binary_status": "pending_import_from_prepared_zip",
+  "binary_status": "two_files_committed_to_main",
   "original_exif": "removed from optimized versions",
   "publication_notes": "Use as editorial article illustrations only, not a gallery. Confirm facility privacy, crop and caption before article approval.",
-  "correction": "Patterson barrel fans previously shown were misidentified as TAZ; do not use those images."
+  "correction": "Patterson barrel fans previously shown were misidentified as TAZ; do not use those images. Photo 01 was subsequently rejected by publisher as not TAZ and removed from the editorial repository."
 }

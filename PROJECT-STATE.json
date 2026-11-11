@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "evidence_baseline": "956702b (main before this task)",
+  "evidence_baseline": "49b12d1105192827209cc444007fba6332eaeac2",
   "checkpoint_type": "dated_operator_checkpoint_not_automatic_chat_sync",
   "repository": "TheFanGuys/HVLS-360",
   "board_issue": 94,
@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish GitHub editorial pilot acceptance. Founder deferred the COO conversation link; do not spend work on it unless requested again.",
-  "next_task": "Continue #114/#92 pilot acceptance; first article assistant source and phone-layout checks complete, qualified review evidence and founder decision remain outstanding.",
+  "next_task": "Verify deployed Studio changes, then real authenticated phone/save/reopen and second-device acceptance (#92); first-article qualified review remains outstanding.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Completed first-article BAF/DOE/Standard 55 source rechecks and replaced wide airflow SVG with stacked phone-readable artwork. Inkscape 350px render visually inspected; 15px minimum text at that width. Manuscript and voice hash unchanged. Independent technical signoff, founder decision and real authenticated phone acceptance remain open.",
+  "latest_verified_change": "Review Studio now shows the newer GitHub manuscript alongside a retained local edit after a save conflict; explicit reconciliation is required before retrying. Verified saves show local date/time and refresh review history so prior-revision reviews are marked stale. Corrected airflow image dimensions to the new 700\u00d71110 artwork. Controlled tests pass; actual authenticated device acceptance remains open.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,

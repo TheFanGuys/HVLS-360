@@ -9,9 +9,9 @@ class Element {
 }
 (async()=>{
  const elements=new Map();const get=id=>{if(!elements.has(id))elements.set(id,new Element());return elements.get(id)};
- let commits=0;
+ let commits=0,conflict=false;
  const content='---\nstatus: "EDITORIAL DRAFT — NOT APPROVED"\npublication_allowed: false\n---\n# Test manuscript';
- const session={read:async()=>({sha:'base',content}),save:async(slug,raw,sha)=>{assert.equal(sha,'base');commits++;return {sha:'next',content:raw,commit:'verifiedcommit'}}};
+ const session={read:async()=>({sha:conflict?'remote':'base',content:conflict?content+'\nOther device edit':content}),reviews:async()=>[{decision:'editorial_text_reviewed',recorded_at:'2026-11-11',manuscript_blob_sha:'base',note:'Earlier review'}],save:async(slug,raw,sha)=>{if(conflict&&sha!=='remote')throw Error('Conflict: repository draft changed.');assert.equal(sha,conflict?'remote':'base');commits++;return {sha:'next',content:raw,commit:'verifiedcommit'}}};
  const context={document:{getElementById:get,createElement:()=>new Element(),createTextNode:t=>t},
  localStorage:{getItem(){throw Error('Storage denied')},setItem(){throw Error('Storage denied')},removeItem(){throw Error('Storage denied')}},
  window:{addEventListener(){}},HVLSReviewRepository:{client:()=>session,reader:()=>session},HVLSReviewPacket:{packet:async()=>({review:'# Technical notes',media:[]})},confirm:()=>false,URL,console};
@@ -29,5 +29,17 @@ class Element {
  get('editorText').value=content+'\nEdited on phone';await get('editorText').fire('input');
  await get('saveRepo').fire('click');assert.equal(commits,1);assert.match(get('editState').textContent,/Saved to GitHub .* verified/);
  assert.equal(get('editorText').readOnly,false);
- console.log('Studio restricted-storage connection, open, edit and verified save passed (controlled GitHub transport).');
+ assert.match(get('editState').textContent,/Saved /);
+ assert.match(get('reviewHistory').textContent,/Previous revision/,'A previous review must become stale immediately after save');
+ conflict=true;const mine=content+'\nMy phone changes';get('editorText').value=mine;await get('editorText').fire('input');
+ await get('saveRepo').fire('click');assert.equal(commits,1,'Conflict must not write');
+ assert.equal(get('editorText').value,mine,'Keep the local edit');
+ assert.equal(get('conflictText').value,content+'\nOther device edit','Show the other revision');
+ assert.equal(get('conflictPanel').hidden,false);assert.equal(get('saveRepo').disabled,true);
+ await get('saveRepo').fire('click');assert.equal(commits,1,'Save remains blocked until explicit reconciliation');
+ get('editorText').value=mine+'\nOther device edit';await get('editorText').fire('input');
+ await get('resolveConflict').fire('click');assert.equal(get('conflictPanel').hidden,true);
+ assert.equal(get('saveRepo').disabled,false);await get('saveRepo').fire('click');assert.equal(commits,2);
+
+ console.log('Studio restricted-storage connection, open, edit, timestamp, stale-review display, conflict comparison and reconciled save passed (controlled GitHub transport).');
 })().catch(e=>{console.error(e);process.exit(1)});

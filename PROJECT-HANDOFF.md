@@ -2,7 +2,13 @@
 
 Checkpoint: November 11, 2026. Repository: https://github.com/TheFanGuys/HVLS-360 . Evidence baseline: main 4b3961c07382f1684dabf69b303e6caa9c22d0c4 (PR #127). This handoff is maintained in GitHub so recovery does not depend on a ChatGPT thread. It is a dated checkpoint, not automatic chat synchronization. Verify newer commits, Issues and Actions before declaring current status.
 
-## Latest checkpoint — source and diagram task completed
+## Latest checkpoint — Studio conflict and save-state fixes
+
+Review Studio now shows the newer GitHub manuscript alongside a retained local edit after a save conflict; explicit reconciliation is required before retrying. Verified saves show local date/time and refresh review history so prior-revision reviews are marked stale. Corrected airflow image dimensions to the new 700×1110 artwork. Controlled Studio/API tests cover retained edits, both revisions, blocked retry, reconciled save, timestamp and stale-review labeling. Real authenticated browser/iPhone and second-device acceptance remain open: this session has no Studio credential or physical device. No actual founder review event created.
+
+Next: verify deployed Studio layout and complete #92 authenticated acceptance when the device/session is available; qualified first-article review remains open.
+
+## Previous checkpoint — source and diagram task completed
 
 Completed first-article BAF/DOE/Standard 55 source rechecks and replaced wide airflow SVG with stacked phone-readable artwork. Inkscape 350px render visually inspected; 15px minimum text at that width. Manuscript and voice hash unchanged. Independent technical signoff, founder decision and real authenticated phone acceptance remain open. Detailed source-to-claim notes and exact diagram hash are in the companion review. Next: pilot #114 and Studio #92 acceptance within available access; obtain revision-specific qualified review evidence for #84 without inventing a signoff.
 

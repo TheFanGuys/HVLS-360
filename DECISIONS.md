@@ -72,3 +72,10 @@ Chris requested a safe move before thread failure and reaffirmed that AI-soundin
 Completed first-article BAF/DOE/Standard 55 source rechecks and replaced wide airflow SVG with stacked phone-readable artwork. Inkscape 350px render visually inspected; 15px minimum text at that width. Manuscript and voice hash unchanged. Independent technical signoff, founder decision and real authenticated phone acceptance remain open.
 
 Read the live rendered BAF guide sections 2.1 and 2.4, DOE item 5 (June 8, 2012), and ASHRAE public Standard 55 scope/2023 edition. No numerical performance or standard compliance claim added. Diagram arrows stay indoors for mixing and cross separate walls for outdoor supply/exhaust. Original SVG hash and detailed acceptance are in the companion review. Existing independent-review gate retained; source checking is not qualified signoff. No spending or article release.
+
+
+## November 11 — Studio conflict comparison and save-state repair
+
+Review Studio now shows the newer GitHub manuscript alongside a retained local edit after a save conflict; explicit reconciliation is required before retrying. Verified saves show local date/time and refresh review history so prior-revision reviews are marked stale. Corrected airflow image dimensions to the new 700×1110 artwork.
+
+Reproduced gaps by code inspection and executable Studio script tests. Added conflict comparison, preserved working edit, explicit reconciled retry against latest blob, save date/time, and review-history refresh. Existing API SHA check still rejects later races. Controlled tests and 188 Python tests pass; editorial/launch/publication audits pass. No repository credential is available to this Studio session, so real browser-authenticated write and physical iPhone/second-device acceptance are not claimed. No article or editorial approval created. Next: deployed layout check and remaining #92 acceptance.

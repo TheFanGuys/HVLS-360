@@ -11,7 +11,7 @@ Paste this into a new chat in this project:
 - Latest completed work: BAF/DOE/Standard 55 live rechecks and stacked original airflow diagram, inspected at 350px with 15px minimum text. Manuscript unchanged. Next concrete work: #114/#92 pilot acceptance and qualified review evidence for #84. Records: editorial/drafts/hvls-air-movement-vs-ventilation.md and its companion review.
 - Shared assignments: #84–91; board #94; Studio acceptance #92; research #93; media #106; launch pilot #114; domain #115; COO conversation #116 deferred.
 - Current research run mapped a real Invertek lead to existing #96. ABB retrieval remains intermittent. Next scheduled trigger and genuinely new Issue creation remain unverified.
-- Studio guest reading works; actual authenticated phone save and second-device acceptance remain open.
+- Studio guest reading works. Latest repair adds conflict comparison/reconciled retry, saved time and stale-review refresh; controlled tests pass. Actual authenticated phone save and second-device acceptance remain open.
 - Detailed evidence and prior decisions are in the root handoff/state/decision files. This checkpoint is safe to leave; no operation needs the old chat to finish.
 
 ## Editorial direction

@@ -102,3 +102,8 @@ Prepared founder-facing review packet in editorial/reviews/hvls-air-movement-vs-
 ### Studio deployment acceptance — November 11
 
 Pages deployment 43055755724 succeeded for b39c383519216faa86381321ee4513122daf30a6. Live browser reloaded the new Studio, confirmed hidden conflict controls, opened Air Movement, loaded the 700×1110 diagram at its correct aspect ratio, and showed no horizontal overflow in the tested desktop viewport. Guest GitHub Save remained disabled. This is deployed read/UI evidence; real authenticated writes and physical-phone/cross-device acceptance remain open.
+
+
+## November 11 — founder iPhone save/reopen acceptance
+
+Chris verified iPhone GitHub editor commit and same-device Review Studio reopen. Current manuscript SHA-256 6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b; founder edits preserved, voice/technical delta rechecked, SEO packet checksum refreshed. Studio direct Save and second physical device remain unverified; qualified technical review and final founder approval remain open. Repository evidence: commits c170cbb and 84c39bf, blob e0d72e2c15c20f49803d63068c0b924e11873f78. Technical delta is capitalization/whitespace only; prior source and diagram findings still apply. Next: qualified review evidence for the first article; continue other accessible pilot tasks while direct Studio/second-device acceptance remains open.

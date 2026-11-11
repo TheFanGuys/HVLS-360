@@ -120,3 +120,12 @@ This checkpoint supersedes the pending source-recheck and diagram-layout rows ab
 ### Remaining technical decision
 
 No unresolved numerical, model-specific or code-compliance question was found within the qualitative scope of this source pass. The existing independent-review policy is still in force: a competent ventilation designer must review the exact manuscript and diagram and supply identity/date/findings before its registered technical hold can be cleared. Specific review scope is now the distinction between indoor mixing and outdoor-air exchange, and whether the conceptual arrows accurately communicate it. No wiring, mounting design, ventilation-rate determination or new external outreach is required by this task. Assistant source/visual review is complete; independent signoff and Chris's final text/media decision remain open.
+
+
+## Founder iPhone acceptance and updated revision — November 11
+
+Chris reported opening the article on iPhone, editing through GitHub, tapping Commit changes, then reopening the same article in Review Studio and seeing the changed wording. Repository commits c170cbb and 84c39bf independently confirm the manuscript changes. Current blob e0d72e2c15c20f49803d63068c0b924e11873f78; SHA-256 `6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b`. This verifies the GitHub editor commit → same-iPhone Studio reopen path from user observation plus repository evidence. It does not verify Studio's token-based Save button, another physical device, or a founder editorial approval.
+
+Editorial Director rechecked this exact revision. Changes are capitalization of “Fan” in the opening and trailing whitespace; both are preserved. The text remains direct and specific; no voice rewrite needed. This is the current revision-specific voice record; older hashes above remain historical. Source-to-claim checks and diagram findings from the previous pass still apply because no technical claim or visual changed. SEO title/description remain applicable; launch packet checksum refreshed after reviewing this revision.
+
+Technical desk recheck: no new numerical, installation, compliance or performance claim was introduced. The documented distinction between indoor mixing and outdoor-air exchange is unchanged. Independent reviewer identity/date/findings are still absent from the register, so that separate hold is not cleared. Next evidence needed is review of this exact text and diagram by the designated competent ventilation designer. No external contact or signoff is invented.

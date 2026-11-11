@@ -22,7 +22,7 @@ Greenheck's redesigned DS-3 and DS-6 fans were announced in December 2025, but t
 
 Both models are positioned as overhead air-circulation fans for medium- and high-ceiling spaces. The DS-3 has three blades and the DS-6 has six. Greenheck's current U.S. product pages list **8- through 24-foot sizes** for each, and maximum published airflow of **209,800 cfm for the DS-3** versus **281,700 cfm for the DS-6** [3][4].
 
-Those headline values describe the upper end of their respective ranges. They do not establish the airflow of a particular diameter, motor/voltage variant or installation. A 16-foot DS-3 and 16-foot DS-6 should be compared using their **specific published performance tables**, not two maximum values from different fan configurations.
+Those figures are maximum published airflow within each product range, not a like-for-like comparison of two fans at the same diameter and speed. They do not establish the airflow of a particular diameter, motor/voltage variant or installation. A 16-foot DS-3 and 16-foot DS-6 should be compared using their **specific published performance tables**, not two maximum values from different fan configurations.
 
 Greenheck also lists a perceived cooling effect of up to **11°F for DS-3** and **15°F for DS-6** [3][4]. Those figures are manufacturer claims about comfort effects, not measured reductions in whole-building dry-bulb temperature. Ask what air speed, conditions and model were used to generate the comparison before treating it as a project result.
 
@@ -30,7 +30,7 @@ Greenheck also lists a perceived cooling effect of up to **11°F for DS-3** and 
 
 In its announcement, Greenheck calls out a factory-assembled power pack, plug-and-play wiring, a field-adjustable extension tube and automated commissioning and diagnostic test modes [1]. These are potentially valuable changes for a crew spending hours on lifts in an active warehouse.
 
-But the release's statement that these features can reduce installation time by half is **Greenheck's claim**. It provides no field-study sample, baseline crew size or site conditions on the public announcement page. It is an invitation to compare the revised installation manual with the older configuration—not a labor allowance for your estimate.
+Greenheck's announcement suggests the changes can reduce installation time by half is **Greenheck's claim**. It provides no field-study sample, baseline crew size or site conditions on the public announcement page. It is an invitation to compare the revised installation manual with the older configuration—not a labor allowance for your estimate.
 
 For a quote, request the current model-specific instructions and confirm exactly which wiring is factory-terminated versus field-supplied. A field-adjustable extension tube is helpful only if the selected drop length still satisfies the approved mount, clearances and any specified airflow layout. Some obstructions simply require a different location.
 

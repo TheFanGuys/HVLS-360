@@ -22,7 +22,7 @@ Big Ass Fans offers the Powerfoil 6 in eight diameters from **8 to 24 feet**. Th
 
 For a facility planning one isolated fan, the standard control may be the starting point. For a site with multiple fans, temperature-based operation or building-management integration, the controls architecture should be decided while the submittal is still being prepared. The physical fan may be the same; the controls scope isn't.
 
-The company's product page describes the gearbox as lubricated for life. That claim should not be read as a promise that the assembly has no inspection requirements. The installation guide has an extensive annual-maintenance section that specifically addresses safety cables, mounting hardware, hub components, signs of oil leakage and abnormal noise [2].
+The product page describes the gearbox as lubricated for life [1]. That does not eliminate periodic inspection of the mounting and safety-critical components. That claim should not be read as a promise that the assembly has no inspection requirements. The installation guide has an extensive annual-maintenance section that specifically addresses safety cables, mounting hardware, hub components, signs of oil leakage and abnormal noise [2].
 
 ## Electrical details that affect the job
 
@@ -30,7 +30,7 @@ The Powerfoil 6 installation guide, **Revision D dated November 19, 2025**, iden
 
 There is a small but important documentation wrinkle: the manual includes a **575–600 V three-phase** supply category, while the public web configurator reviewed on November 10, 2026 displayed selections for **200–250 V single-phase, 200–250 V three-phase and 400–480 V three-phase** [1][2]. That does not establish whether a 600 V unit is currently orderable. It does establish why the crew should confirm the **exact ordered configuration**, current submittal, nameplate and available feeder rather than infer electrical requirements from a product-family headline.
 
-The page also calls the fan fully wired and factory tested [1]. In field terms, prewired components can save assembly time without eliminating feeder routing, local disconnect decisions, control cable routing, connection checks or functional commissioning. Those are still project details.
+The product page describes factory wiring and testing [1]. Those features may reduce assembly work, but they do not eliminate site power, disconnect, control and commissioning responsibilities. In field terms, prewired components can save assembly time without eliminating feeder routing, local disconnect decisions, control cable routing, connection checks or functional commissioning. Those are still project details.
 
 ## Mounting depends on the actual structure
 

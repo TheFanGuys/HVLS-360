@@ -31,7 +31,7 @@ Under DOE's current test-procedure definitions, a **large-diameter ceiling fan**
 
 ## A comparable submittal, not a headline number
 
-A useful submittal should make it possible to compare the actual models you're considering—not just a marketing category.
+A useful submittal identifies the tested configuration and operating points. A category-wide efficiency slogan cannot substitute for model-specific ratings.
 
 1. **Exact model and blade span.** Include the airfoil or blade option, diameter, tip configuration and control package. A different configuration is not automatically the same rated product.
 2. **Declared CFEI data and applicable test procedure.** Ask for the test basis and the speeds or duty points to which the figures apply. An unexplained efficiency number is not enough.
@@ -57,7 +57,7 @@ DOE's **Appendix U, section 3.5** directs that covered large-diameter ceiling fa
 
 The DOE continues to list federal ceiling-fan standards and test procedures [7]. AMCA's October 21, 2025 industry update describes the withdrawal of a proposed tightening in 2025 [3], but the **enforceable current figures above come directly from the eCFR**, not from that historical newsletter. Product class, exceptions, federal rule changes and local building-code obligations must be assessed separately.
 
-That is a reason to verify the rule, not a reason to avoid efficiency data. CFEI remains a useful way to ask better questions of competing large-diameter ceiling fans.
+The governing test procedure and efficiency threshold should be checked against the current federal text when the specification is issued. CFEI is useful precisely because its test basis can be examined.
 
 ## Use the rating for the question it answers
 

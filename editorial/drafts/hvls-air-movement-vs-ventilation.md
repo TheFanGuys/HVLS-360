@@ -22,7 +22,7 @@ A ceiling fan primarily moves air. When air moves across people, convective and 
 
 Big Ass Fans' *Ceiling Fan Design Guide* describes thermal comfort as a combination of environmental and personal factors, including air speed, humidity, radiant temperature, activity and clothing [1]. ASHRAE's **Standard 55-2023** likewise evaluates thermal conditions using air speed, temperature, radiation, humidity, clothing and activity [5]. The U.S. Department of Energy similarly reminds readers that fans cool people rather than rooms [2]. DOE's example concerns home cooling; the underlying distinction between perceived cooling and actual air-temperature reduction is relevant when evaluating industrial fan claims, although industrial applications require their own design analysis.
 
-For an industrial facility, this means that a sales claim such as “feels up to X degrees cooler” should not be interpreted as “the fan lowers room air temperature by X degrees.” A credible comparison needs to specify air speed, occupancy, environmental conditions and the comfort model or measurement method used.
+A claim that a fan makes occupants feel several degrees cooler is not a claim that the room's dry-bulb temperature has fallen by the same amount. The supporting data should identify the air speed, test conditions and comfort model. Without those details, the number belongs in marketing copy, not a facility's performance specification.
 
 ## Heating season: reducing the ceiling-to-floor temperature gap
 
@@ -30,7 +30,7 @@ During heating season, warmer air can accumulate near the ceiling of a tall buil
 
 Big Ass Fans' design guide includes a dedicated discussion of destratification and ceiling fan use in heating [1]. Whether a specific installation reduces heating energy consumption depends on the building, controls, heating system, insulation, door operation and operating schedule. **A savings percentage from one manufacturer's example should not be treated as a guaranteed result for another facility.**
 
-A useful field assessment starts with temperature measurements at multiple heights, the existing heating and thermostat arrangement, and a record of fan speed and direction. Post-installation measurements should be made under reasonably comparable conditions.
+Temperature readings taken at several elevations can establish whether stratification is present. Record the heating arrangement, thermostat location and fan settings before making changes. A subsequent survey under comparable conditions offers better evidence than an energy-savings estimate lifted from a case study.
 
 ## Where recirculation ends and ventilation begins
 

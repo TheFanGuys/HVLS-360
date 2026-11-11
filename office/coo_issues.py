@@ -21,7 +21,7 @@ def build_items(briefs):
     items=[]
     for b in briefs:
         if not eligible(b):continue
-        key="lead-"+hashlib.sha256(url.encode()).hexdigest()[:16]
+        key="lead-"+hashlib.sha256(str(b["lead_url"]).encode()).hexdigest()[:16]
         if not re.fullmatch(r"lead-[a-f0-9]{16}",key):continue
         items.append({"key":key,"title":str(b["working_title"])[:160],
             "source":str(b["lead_url"])[:1500],

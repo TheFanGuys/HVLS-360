@@ -1,6 +1,6 @@
 # HVLS 360 — durable COO handoff
 
-Checkpoint: November 11, 2026. Repository: https://github.com/TheFanGuys/HVLS-360 . Evidence baseline: main b1ca3a7360530279d83e922580eb4785fd615155. This handoff is maintained in GitHub so recovery does not depend on a ChatGPT thread. It is a dated checkpoint, not automatic chat synchronization. Verify newer commits, Issues and Actions before declaring current status.
+Checkpoint: November 11, 2026. Repository: https://github.com/TheFanGuys/HVLS-360 . Evidence baseline: main 6ca460d991cbccd11d412942639b25142bbeb28b. This handoff is maintained in GitHub so recovery does not depend on a ChatGPT thread. It is a dated checkpoint, not automatic chat synchronization. Verify newer commits, Issues and Actions before declaring current status.
 
 ## Read this first in a replacement chat
 
@@ -29,6 +29,8 @@ Act as COO and hands-on implementation lead. Read this file, AGENTS.md, PROJECT-
 
 ## Current request and honest limitation
 
+Latest steering: Chris said “Don’t worry about the coo conversation link.” Defer #116 and do not continue building that feature unless he requests it again. Return to GitHub editorial launch readiness. The material below records the earlier request and its limitations, not the next assignment.
+
 Chris wants to talk directly to a COO in Command Center, receive an explanation before the work, then real delegated results in the same durable thread, with $0 added spending. Issue #116 and office/COO-CONVERSATION-PLAN.md specify the behavior. No model/backend connection or embedded AI COO is operational. A saved HTML artifact cannot, with the currently available artifact capabilities, automatically use this ChatGPT conversation as a background AI engine.
 
 A possible limited free pilot is Workers Free + OpenRouter free variants, not yet connected or accepted. Official docs checked November 11: free variants allow 50 unfunded model requests/day; one job may need several. No unlimited/reliable-production guarantee. GitHub Models was retired July 30, 2026; do not use stale tutorials. Do not build a fake templated COO and claim it is live. Existing project chat is the working COO; this continuity system addresses recovery, not autonomous execution.
@@ -42,7 +44,7 @@ A possible limited free pilot is Workers Free + OpenRouter free variants, not ye
 | #106 | Media Director / Technical Editor | Exact visuals, captions, privacy and technical/readability clearance |
 | #114 | COO / Technology Lead | GitHub editorial pilot acceptance; first fully cleared article and founder-authorized release |
 | #115 | SEO / Marketing | Live Namecheap domain shortlist with first-year/renewal quotes; availability NOT checked; Chris buys after GitHub acceptance |
-| #116 | COO / Technology Lead | Direct COO conversation at $0; real free-only account/model/backend path unverified |
+| #116 (deferred) | COO / Technology Lead | Founder set conversation link aside; do not continue unless requested |
 
 Eight story assignments are #84–91. Their remaining technical/media holds are not cleared by a voice pass. Technical Editor should identify exact consequential claims needing outside evidence rather than imply every general news item requires an outside engineer. Current records remain held.
 
@@ -50,7 +52,7 @@ Legacy PRs #1/#2/#10/#13 are open; compare to main before merging/closing. Do no
 
 ## Next work after continuity delivery
 
-1. Inspect the latest #116 state and available supported free connections. Prepare a bounded real free-only pilot only if auth, private persistence, zero-price routing and limits are verified; otherwise report the exact connection step needed. No further paid-budget question.
+1. Continue research reliability #93. Atom/ISO timestamp rejection was reproduced and fixed in this checkpoint; two new tests verify recency and end-to-end Atom collection. 163 Python tests and publication guard pass. Live source checks still show Rite-Hite sitemap redirecting to /en/am/404 HTML, ABB HTTPError, Invertek over the 1.5 MB size limit. Resolve retrieval/discovery coverage, then verify the expanded actual scheduled pipeline. No paid service or publication.
 2. Continue #92/#93 acceptance where access permits. A manual controlled test is not a real authenticated phone test; a cron file is not a scheduled-run result.
 3. Scope and clear one launch article's evidence/visuals; bring substantive decisions to Chris without repeating the whole project history.
 4. Keep #115 domain research assigned; do not buy or change DNS. Own domain can keep GitHub Pages hosting.

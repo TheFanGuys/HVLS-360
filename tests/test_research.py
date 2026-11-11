@@ -37,6 +37,26 @@ class ResearchTests(unittest.TestCase):
         self.assertFalse(research.date_ok("not a date", NOW))
         self.assertFalse(research.date_ok("", NOW))
 
+    def test_atom_recency_and_offsets(self):
+        self.assertTrue(research.date_ok("2026-11-09T11:00:00Z", NOW))
+        self.assertTrue(research.date_ok("2026-11-09T12:00:00-07:00", NOW))
+        self.assertFalse(research.date_ok("2024-01-01T12:00:00Z", NOW))
+        self.assertFalse(research.date_ok("2026-11-12T12:00:00Z", NOW))
+        self.assertFalse(research.date_ok("2026-99-99T12:00:00Z", NOW))
+
+    def test_atom_feed_survives_collection(self):
+        import json
+        with tempfile.TemporaryDirectory() as td:
+            root=pathlib.Path(td)
+            (root/"office").mkdir()
+            (root/"office/sources.json").write_text(json.dumps({"departments":[{"name":"Controls","feeds":[{"name":"Atom source","url":"https://example.org/atom"}]}]}))
+            with mock.patch.object(research,"ROOT",root), mock.patch.object(research,"fetch",return_value=ATOM):
+                status=research.run(NOW)
+            self.assertEqual(status,0)
+            result=json.loads((root/"office/research-latest.json").read_text())
+            self.assertEqual(result["departments"][0]["leads"][0]["url"],"https://example.org/atom")
+            self.assertFalse(result["errors"])
+
     def test_end_to_end_with_mock_feed(self):
         with tempfile.TemporaryDirectory() as td:
             root = pathlib.Path(td)

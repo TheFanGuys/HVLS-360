@@ -23,7 +23,11 @@ def local(node, tag):
 def date_ok(raw, now, days=14):
     if not raw: return False
     try:
-        d=email.utils.parsedate_to_datetime(raw)
+        try:
+            d=email.utils.parsedate_to_datetime(raw)
+        except (ValueError, TypeError):
+            # Atom/RFC 3339 dates raise rather than return None in the RSS parser.
+            d=None
         if d is None:
             d=dt.datetime.fromisoformat(raw.replace("Z","+00:00"))
         if d.tzinfo is None: d=d.replace(tzinfo=dt.timezone.utc)

@@ -21,3 +21,12 @@ Action: establish root PROJECT-HANDOFF.md, PROJECT-STATE.json, this log and a Co
 Limits: This does not prevent ChatGPT errors, import inaccessible chats, automatically synchronize conversation history, provide an AI runtime, or guarantee that a fresh chat has GitHub access. With connector access, the next assistant verifies the repository directly. Without access, the copied handoff supplies the checkpoint and identifies what remains unverified.
 
 Maintenance: update after meaningful work and before changing focus. A policy without future checkpoint updates will become stale; show the checkpoint date and verification status rather than hiding it.
+
+
+## November 11, 2026 — conversation link deferred; research repair
+
+Chris said “Don’t worry about the coo conversation link.” Defer #116; no conversation backend was deployed. Continue the original GitHub editorial pilot. Do not keep asking about the link or paid budget.
+
+Reproduced a collector bug: email.utils.parsedate_to_datetime raises on normal Atom/RFC 3339 dates, so the intended ISO fallback was never reached. Recent Atom leads were silently rejected. Added the fallback on RSS parse failure plus timestamp/offset/stale/future/invalid checks and end-to-end Atom collection coverage. 163 Python tests and publication guard passed locally.
+
+Bounded live sitemap recheck: Rite-Hite returned HTML at https://www.ritehite.com/en/am/404; ABB request raised HTTPError; Invertek XML exceeded 1,500,000 bytes. These remain source-coverage blockers, not fixed by the timestamp repair. Local/live checks do not prove the updated scheduled workflow ran. Next: resolve bounded manufacturer retrieval and verify expanded shared intake; retain all article/founder gates.

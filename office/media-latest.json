@@ -12,7 +12,7 @@
       "alt_text": null,
       "caption": null,
       "status": "media_research_required",
-      "notes": "Find a real industrial installation photo with permission, accurate fan/structure depiction and appropriate crop.",
+      "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
       "draft_file": "abb-2026-ip66-vfd-field-report.md"
     },
     {
@@ -25,7 +25,7 @@
       "alt_text": null,
       "caption": null,
       "status": "media_research_required",
-      "notes": "Find a real industrial installation photo with permission, accurate fan/structure depiction and appropriate crop.",
+      "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
       "draft_file": "cfei-vs-cfm-per-watt-field-guide.md"
     },
     {
@@ -38,7 +38,7 @@
       "alt_text": null,
       "caption": null,
       "status": "media_research_required",
-      "notes": "Find a real industrial installation photo with permission, accurate fan/structure depiction and appropriate crop.",
+      "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
       "draft_file": "greenheck-ds-series-2026-field-report.md"
     },
     {
@@ -51,7 +51,7 @@
       "alt_text": null,
       "caption": null,
       "status": "media_research_required",
-      "notes": "Find a real industrial installation photo with permission, accurate fan/structure depiction and appropriate crop.",
+      "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
       "draft_file": "hvls-air-movement-vs-ventilation.md"
     },
     {
@@ -64,8 +64,47 @@
       "alt_text": null,
       "caption": null,
       "status": "media_research_required",
-      "notes": "Find a real industrial installation photo with permission, accurate fan/structure depiction and appropriate crop.",
+      "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
       "draft_file": "powerfoil6-field-brief.md"
+    },
+    {
+      "subject": "Authentic HVLS fan installation for scissor-lift-planning-hvls-installations.md",
+      "manufacturer_link": null,
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "not_verified",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
+      "draft_file": "scissor-lift-planning-hvls-installations.md"
+    },
+    {
+      "subject": "Model-verified VividAir / GFY photo needed for vividair-gfy-ztech-taz-controls-field-guide.md",
+      "manufacturer_link": "https://bigfanguys.com/",
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "publisher_authorized_big_fan_guys_site",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "First search BigFanGuys.com owner-authorized photographs; the publisher supplied three identified 72-inch TAZ photos separately. Verify exact model before labeling; do not substitute Patterson barrel fans. Check site/customer privacy and avoid a separate photo gallery.",
+      "draft_file": "vividair-gfy-ztech-taz-controls-field-guide.md"
+    },
+    {
+      "subject": "Model-verified VividAir / GFY photo needed for vividair-taz-72-field-guide.md",
+      "manufacturer_link": "https://bigfanguys.com/",
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "publisher_authorized_big_fan_guys_site",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "First search BigFanGuys.com owner-authorized photographs; the publisher supplied three identified 72-inch TAZ photos separately. Verify exact model before labeling; do not substitute Patterson barrel fans. Check site/customer privacy and avoid a separate photo gallery.",
+      "draft_file": "vividair-taz-72-field-guide.md"
     }
   ]
 }

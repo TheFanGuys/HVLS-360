@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T21:13:19.215796+00:00",
+  "generated_at": "2026-11-11T15:27:16.796507+00:00",
   "status": "unverified_research_leads",
   "departments": [
     {
@@ -13,8 +13,14 @@
         {
           "title": "New cyberattack on supermarket fridges sweeps across Europe - Reuters",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObF9LUXZ2TVpjZm13eW9HNXZ0MkZFVDM5eHl5RXc0aDkzODdvc0VKYVE4YV9MSDZITjVTR01CM3l6ajdCVEFZMXlmdmx3MzBRWHN5QVkyTFU2bkR2Sm5VQm5OWUVfLVJoeHFZaXdrc0F1QTRnT0tHYXRvcVd4S0V2QUxmV3ptOEszT2EyWmFpVjYyUnRwODF1eGhXbGpGcUV2UXRwZFFLOGhPLTY1MWUxal9TY3M0Qm9MOVpSeTFHazNxMUNGSnVfdzVvOE0tUGM?oc=5",
-          "published": "Tue, 03 Nov 2026 06:13:51 GMT",
+          "published": "Tue, 03 Nov 2026 08:00:00 GMT",
           "feed": "Manufacturer and industry discovery"
+        },
+        {
+          "title": "Siemens is Germany’s Chance For Economic Growth From AI - Bismarck Brief",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZkxXRTYwd0NFR21UcGhHWUQ3WkFzQTcyWkRSdlRvU1UxUDBpR09BYnQ2Smtzek4wOW5nVm9NTVp2c1B5aXY1Njk5ZEMwcG5STzZBazYzd0M3SXJNdVdpZ1VFdTJOWGdRc2pGcXlkdnY0U0dvTTJTUUJyU2ZPcmlORGtB?oc=5",
+          "published": "Wed, 11 Nov 2026 14:03:46 GMT",
+          "feed": "Technical and regulatory discovery"
         }
       ]
     },
@@ -64,7 +70,7 @@
         {
           "title": "Axial Fans Market To 2035: Data Center Cooling and Efficiency Mandates Drive Growth - News and Statistics - IndexBox",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWFk2TTAtNENGc3lHeGxUdkhIX3IxMFgzNzYtdEN1WmhBNmIxMnVGdVluWnpJN1FXcUMwd2loRDJ2LUhjN0F6VXFCVXVNMTgxVy1JV3pObGtienItd1UtTmRIU3g3azlZUHhmdFhoU1ZMeGg1dV8zX3hneVlTeEdIZDROanMtX21heEROZkpUQldHRlZHRkVCcHdYNVBobHRhQjZqRWJwWEpRV2xlaENhaUplTm84QU9qMzc0MUxYbVFBSkx4UUN0SU9YOHM?oc=5",
-          "published": "Sat, 31 Oct 2026 19:51:04 GMT",
+          "published": "Sat, 31 Oct 2026 07:00:00 GMT",
           "feed": "Technical and regulatory discovery"
         },
         {
@@ -79,18 +85,6 @@
       "department": "New Products",
       "leads": [
         {
-          "title": "U.S. Ceiling Fans Market Size & Share Report, 2026-2033 - Grand View Research",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTEV6QlBMTkV0T3BBRzktMnROZE9rLWNoSWFTNFU1OWFWU0QzaGtwVGJweTluZEszanVmRUxBSE9Dd0xfNE5Pelc4aHIxWGd0YnFiZWs5cUxzY2tQcU91b2dPUHdRRldpY0dNcFA3U3NPZGh1bHhRdi01S1ZYeXN0U0cwTGktTGwy?oc=5",
-          "published": "Wed, 28 Oct 2026 06:19:35 GMT",
-          "feed": "Manufacturer and industry discovery"
-        },
-        {
-          "title": "Can SKYX Platforms' (NASDAQ:SKYX) New Turbo Heater Ceiling Fans Drive It Toward Profitability? - Kalkine",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZWc3S2ttUUlDU3FuNnNzbUhIZ2FNN3dsQXRVLVpUaHQwSEE2SzI4Q1dsRHI4UnhJNUFIcjlFNVZwUDlDa201NWwxUmVmVHVQVnJFMlRsTkg5ZENTbjhwSzkyZzlHa2lKdU5MUkw3TW1ES0psZUdOU2tVXy1uTzJXQkZDbkhoMlBWZ3VxX2RLaGI3QzluLWxvWFNPRFVTd21vdXVNcl9lY2otNUg3QkFzVFRfTDhRY1Q1TndKd2hwY0RGRWxf?oc=5",
-          "published": "Thu, 05 Nov 2026 01:40:00 GMT",
-          "feed": "Technical and regulatory discovery"
-        },
-        {
           "title": "Top Players in the Ceiling Fan Market: FMI Forecasts US$34.4 Billion by 2036 - openPR.com",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZjlUVll2QmFGTTY2djBJSFJRUW5xc1BFc3dSQmFPYWhmVWF6WU1yWUlUX3YwTjNWNDBKazduQUYtN244c0Z6LVcyN1ljZV9zeExDYnRnWmFLNGhaSVZxSlpGWDNBUzBPYnhYNm1lZjMyMl9EQkdOaG1jRE1LQlYtanQ5WU5VVDhuelBKZGYyYThjOVhYUzZ1eElvYw?oc=5",
           "published": "Fri, 30 Oct 2026 07:12:32 GMT",
@@ -104,29 +98,16 @@
     },
     {
       "department": "Rental Industry & Jobsite Economics",
-      "leads": [
-        {
-          "title": "EquipmentShare Expands Nationwide TELEHERO Fleet in Honor of Veterans Day, Deploying Four New Units to Support Military and Veteran Organizations - Business Wire",
-          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOYmpZT1N4VS1XVF9ucnVWMkNoS3RWbzREVnBKN2NGOC1BNlpCeFZoUDFKQTZGb0ZMOFkzOHplRzY3VkJtZkxWOTZ2YU9hVFhDd291eDVBNU9RZzZPVHA3eTVCbEVfOHo4dG1yZFFrZDRubl9mVHNTbGlheTdONDhoRjlGVEJ4cmZ6Vl9HaW9mb1llMWtCeVRad0dKcnZPSkw2RmtWTERRenhLVnJwdFN2YlN0clA1N3R5NG5RbGI1MDVMNU5hSWVNcXZ4b0JvUk5iR3JCYkdWNThOMHJrbVc3bzZ5N1JDQU1UQ2hSc1BMYlV4QVM1VjdOb2hwVmFNSGRRSmN2WWFROHhreWVqRDAxZWNORGtNdFE1YjBMSHRnUTJqZllOU0RMNA?oc=5",
-          "published": "Mon, 09 Nov 2026 19:37:00 GMT",
-          "feed": "Specialist discovery 1"
-        },
-        {
-          "title": "Scissor Lift Market Industry Outlook Strengthens Amid Rising Global Demand - The National Law Review",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYzVMejlLb25CMmxLblJ4eF93dUp3V1Y0UFFReThFT3MwT0k2YXJWS2Z0WFdBeVByMkJQZEFlV195NDUyQWllS1g3SG5YcjROa1I4Z0VNYjlvbGwwVEcwemlUdWhyTjJTNWxJVWVPRGFUWWtBNzFHckg5WFRlNHNuV3BWNl8wY3prZ3F0RzR6VzlyQ3ZZU2pBQlRLN1luZmNGZHpQd21ienNGVmZvQzlibFNyUVI?oc=5",
-          "published": "Wed, 28 Oct 2026 15:04:31 GMT",
-          "feed": "Specialist discovery 2"
-        }
-      ]
+      "leads": []
     },
     {
       "department": "Construction Pipeline & Industrial Projects",
       "leads": [
         {
-          "title": "With $650 million commitment, Pfizer fuels fast business growth in eastern CT - Hartford Courant",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRV9vTDU1d1NkZ3NaQUV5eGZBeVhDWDdwZnlkNHU1dTRjWWQ2LU5OdVpXMXA1TmJ1N0IzUnphTWU1aDZJVXgxTTZSc2tHcGk3aDU0MUVYcGRDRVlOR3IxTkFIamxwdHZFVU1LY2g0S3dhTU9oVnNyaDBha1UySlBuMzNWRmhvVHlZLW0xNE1wRGhDelhxcDZVZVJpUU1PQXZleGF5NGV2U1FObDVObGZMRg?oc=5",
-          "published": "Mon, 09 Nov 2026 10:44:49 GMT",
-          "feed": "Specialist discovery 1"
+          "title": "Wall Sandwich Panels Market Forecast to 2035, Driven by Cold Storage and Energy-Efficient Construction - IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOEhDaWw4VnloWVIzbkk2VWRvR3dONDhFc24tRXh0cHMxRkxuV251MjktbnpsSzlJRTh1bTY2MjVoZU1FWXYxTUdwVkpHaFBwZ0h4SU1Kd3dHTlNGLVVRQzBxWHJURUtaUnJ1Z1R3endBT0c3YlQyUU9YRGtkZ1YybFMwR19UaUJzSndVQUtxcU40VFFNYjU1RFE1TmIzc0V4YkRkSU5Td1NqemFkSlFVU1FBcEhzRUM1RFAzODNrYUV5NTd3QzlSeVA2aw?oc=5",
+          "published": "Wed, 11 Nov 2026 04:56:08 GMT",
+          "feed": "Specialist discovery 2"
         },
         {
           "title": "CleanSpace launches ColdSpace division to expand temperature-controlled facility construction - FleetOwner",

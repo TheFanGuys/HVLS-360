@@ -1,83 +1,88 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T21:13:30Z",
-  "status": "initial_snapshot_from_existing_research_indices_not_a_new_run",
-  "research_generated_at": "2026-11-10T21:13:19.215796+00:00",
+  "shared_issue_sync": {
+    "status": "synced_unverified_leads",
+    "issues_created": 0,
+    "eligible_candidates": 0,
+    "run_id": "43048487736",
+    "deduplication_check": "no_new_items_to_recheck"
+  },
+  "generated_at": "2026-11-11T15:28:03.532045+00:00",
+  "status": "automated_operational_brief_not_autonomous_agent",
+  "research_generated_at": "2026-11-11T15:27:16.796507+00:00",
   "metrics": {
-    "research_leads": 17,
-    "editorial_briefs": 5,
-    "media_requests": 5,
-    "source_errors": 0,
+    "research_leads": 14,
+    "editorial_briefs": 0,
+    "media_requests": 8,
+    "source_errors": 1,
+    "manufacturer_source_errors": 1,
     "approval_records": 0,
-    "published_articles": 0,
-    "manufacturer_source_errors": 0
+    "published_articles": 0
   },
   "assignments": [
     {
-      "id": "coo-1",
+      "id": "coo-research",
       "department": "Research",
       "owner": "Head of Research",
-      "task": "Screen recent leads and verify original sources",
-      "count": 17,
-      "status": "needs_review"
+      "status": "needs_review",
+      "task": "Screen recent research leads and verify original sources",
+      "count": 14
     },
     {
-      "id": "coo-2",
+      "id": "coo-editorial",
       "department": "Editorial",
       "owner": "Managing Editor",
+      "status": "waiting",
       "task": "Triage research briefs for relevance and assign evidence work",
-      "count": 5,
-      "status": "needs_review"
+      "count": 0
     },
     {
-      "id": "coo-3",
+      "id": "coo-media",
       "department": "Media & Art",
       "owner": "Head of Media & Art",
-      "task": "Clear image rights and model identification",
-      "count": 5,
-      "status": "needs_review"
+      "status": "needs_review",
+      "task": "Clear image rights, model identity and article-specific media requests",
+      "count": 8
     },
     {
-      "id": "coo-4",
+      "id": "coo-experts",
       "department": "Technical Experts",
       "owner": "Head of Experts",
-      "task": "Verify consequential claims and flag human signoff",
-      "count": 0,
-      "status": "waiting"
+      "status": "waiting",
+      "task": "Verify technical claims against primary documentation and flag human signoff needs",
+      "count": 0
     },
     {
-      "id": "coo-5",
+      "id": "coo-seo",
       "department": "SEO & Distribution",
       "owner": "Head of SEO",
-      "task": "Prepare search checks for approved articles",
-      "count": 0,
-      "status": "waiting"
+      "status": "waiting",
+      "task": "Prepare search intent and distribution checks for publisher-approved articles",
+      "count": 0
     },
     {
-      "id": "coo-6",
+      "id": "coo-marketing",
       "department": "Marketing & Growth",
       "owner": "Head of Marketing",
-      "task": "Prepare newsletter and outreach plan",
-      "count": 0,
-      "status": "waiting"
+      "status": "waiting",
+      "task": "Prepare newsletter and industry outreach plan; do not send automatically",
+      "count": 0
     },
     {
-      "id": "coo-7",
+      "id": "coo-publisher",
       "department": "Publisher",
       "owner": "Publisher",
-      "task": "Review eight drafts; no release authorized",
-      "count": 8,
-      "status": "needs_review"
+      "status": "awaiting_approval",
+      "task": "Review unpublished drafts; release requires explicit publisher approval",
+      "count": 8
     }
   ],
+  "manufacturer_discovery_generated_at": "2026-11-11T15:27:47.079966+00:00",
   "warnings": [
-    "Initial snapshot, scheduled synthesis will replace on next research run.",
-    "Leads are unverified; no autonomous LLM experts invoked.",
-    "No unpublished article text or private notes included.",
-    "Manual recheck of three repaired manufacturer sitemap paths passed. This is bounded URL discovery, not exhaustive coverage or verified claims. Other manufacturers were not rechecked; feed count uses the existing research snapshot."
+    "Research headlines and dates are unverified until original sources are checked.",
+    "No autonomous LLM agents or publisher approval are executed by this report.",
+    "This public JSON contains no unpublished article text or private review notes.",
+    "Manufacturer discovery has 1 sitemap failures; fallback URLs do not establish complete source coverage."
   ],
-  "publication_allowed": false,
-  "manufacturer_discovery_generated_at": "2026-11-11T15:19:18.914870+00:00",
-  "manufacturer_discovery_scope": "Manual recheck of Rite-Hite, ABB and Invertek only; original research snapshot timestamp is unchanged.",
-  "source_error_scope": "Saved feed snapshot plus the three manually rechecked manufacturers; other manufacturer statuses unverified."
+  "publication_allowed": false
 }

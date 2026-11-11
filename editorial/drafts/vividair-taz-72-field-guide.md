@@ -19,7 +19,7 @@ The distinction matters in the field. A TAZ installation is evaluated by the geo
 
 ## What the actual equipment looks like
 
-Publisher-supplied field photographs, identified by the photographer as a 72-inch TAZ, show a suspended cylindrical fan housing, protective grille and a louvered discharge arrangement in an industrial environment. The installation is different in appearance and intended airflow pattern from the large round barrel fans commonly rented for spot ventilation.
+The remaining publisher-supplied field photographs, identified by the photographer as a 72-inch TAZ, show a suspended cylindrical fan housing, protective grille and a louvered discharge arrangement in an industrial environment. The installation is different in appearance and intended airflow pattern from the large round barrel fans commonly rented for spot ventilation.
 
 This identification is important: a previous editorial image recommendation mistakenly labeled Patterson barrel fans as TAZ equipment. The correction is recorded in the editorial review. **No unrelated fan photograph should be used to illustrate this model.**
 
@@ -75,7 +75,7 @@ The 72-inch TAZ deserves its own category in a facility's air-movement plan. It 
 ### Editorial verification record
 
 - The 72-inch model identification is based on publisher/photographer field identification; nameplate confirmation is pending.
-- Three original publisher-owned photos are authorized for editorial use but their optimized binaries have not been committed to the repository.
+- Two retained publisher-owned photos are committed to the repository; the publisher rejected a third photo as not TAZ and it was removed. Final model/caption review remains pending.
 - Product performance figures are manufacturer claims; no independent testing is asserted.
 - Qualified review of mounting, directional airflow, electrical/controls and exact manual revision is required before release.
 - Publisher approval of this article has not been requested.

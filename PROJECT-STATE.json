@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "evidence_baseline": "845c79b543ef304b5e305466c2b4cbad8774720c",
+  "evidence_baseline": "69359b06b653dba1019fae8ca1f3c7baee7dd4a2",
   "checkpoint_type": "dated_operator_checkpoint_not_automatic_chat_sync",
   "repository": "TheFanGuys/HVLS-360",
   "board_issue": 94,
@@ -14,8 +14,8 @@
   "last_verified_python_tests": 200,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
-  "current_objective": "Complete Art & Media selected-image composition acceptance under Director ownership.",
-  "next_task": "Deploy and verify image framing for all twelve stories and public research rail; record Director review and browser acceptance.",
+  "current_objective": "Selected-image Art Director composition pass complete and deployed for the current edition.",
+  "next_task": "Complete remaining publication operations acceptance: authenticated Review Studio save/reopen and shared decision path (#92/#114), then remaining technical review work.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Shared library deployed and browser verified: 73 assets; source catalog excluded from Pages. Image composition implementation and Director visual review in progress; 200 Python tests and six JavaScript suites pass.",
+  "latest_verified_change": "PR #142 merged at69359b0; Pages43122853277 success. Art Director accepted seven selected photos across12 stories and six public research placements; corrected captions and replaced obstructed image. Live36image proof;390px phone and768px tablet magazine layouts; all12 phone and desktop article leads loaded/no overflow.200 Python tests and six JS suites pass; exact ten asset hashes verified; manuscript approvals unchanged.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,
@@ -58,5 +58,9 @@
   "art_library_files": 73,
   "art_library_folder": "art-library",
   "autonomous_art_agents_running": false,
-  "art_media_director_review": "editorial/media/CROP-REVIEW-2026-11-11.md"
+  "art_media_director_review": "editorial/media/CROP-REVIEW-2026-11-11.md",
+  "selected_image_composition_complete": true,
+  "selected_image_reviewed_stories": 12,
+  "public_research_image_placements_reviewed": 6,
+  "art_media_director_owner": "Art & Media Director \u2014 assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md"
 }

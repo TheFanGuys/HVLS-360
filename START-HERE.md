@@ -33,3 +33,10 @@ Delivered content/design expansion: twelve original pieces in the full preview (
 ## Image-led direction
 
 Construction Today reference inspected in live browser. Rebuilt review edition as an image-led trade magazine: black compact masthead, BFG blue/orange, featured + supporting story, image grid, useful sidebar and captioned article headers. All twelve pieces have an image mapping; authentic publisher-authorized field photos used where applicable, original diagrams for technical subjects. Three site-owned photos visually checked, resized/compressed with metadata stripped; source/model/caption provenance recorded. Public research rail also has clearly labeled illustrations. Founder article approval remains unchanged.
+
+
+## Deployed composition acceptance — November 11
+
+PR #142 merged at 69359b06b653dba1019fae8ca1f3c7baee7dd4a2. All three PR checks passed; Pages run 43122853277 built and deployed successfully. Art & Media Director completed selected-photo composition review and corrected source/caption mismatches. Live browser verified all36 proof images loaded across12 story rows, full-frame diagram boundaries inspected, and no proof overflow. Actual magazine frames at390px(phone) and768px(tablet) loaded14 story placements without horizontal overflow. All12 article leads opened on phone-width and desktop views: loaded, contain, no horizontal overflow. All six public research images loaded with contain. Physical iPhone hardware is not claimed.
+
+Selected-image composition acceptance is COMPLETE for the current edition. This does not imply all73 source candidates are selected or cleared, or replace article technical review. Art Director owns every future selection/crop and layout-change recheck. New routine crops do not require Chris to supervise. Review/proof: editorial/media/CROP-REVIEW-2026-11-11.md and office/image-proof.html. Validation:200 Python tests, six JavaScript suites, ten reviewed asset hashes, unchanged manuscript/founder approval hashes.

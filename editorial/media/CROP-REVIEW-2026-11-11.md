@@ -61,3 +61,10 @@ SHA-256 identifies the bytes reviewed. Replacement of any file invalidates that 
 ## Handoff
 
 Regenerate preview pages and the internal image proof from the final manifest. Verify all twelve story mappings and all six public research cards in the actual browser at desktop and phone widths, with zero broken images, no subject clipping introduced by CSS, complete diagram bounds, and no article-page horizontal overflow. Record that deployed result before closing the visual-composition task.
+
+
+## Deployed composition acceptance — November 11
+
+PR #142 merged at 69359b06b653dba1019fae8ca1f3c7baee7dd4a2. All three PR checks passed; Pages run 43122853277 built and deployed successfully. Art & Media Director completed selected-photo composition review and corrected source/caption mismatches. Live browser verified all 36 proof images loaded across 12 story rows, full-frame diagram boundaries inspected, and no proof overflow. Actual magazine frames at390px(phone) and768px(tablet) loaded 14 story placements without horizontal overflow. All 12 article leads opened on phone-width and desktop views: loaded, contain, no horizontal overflow. All six public research images loaded with contain. Physical iPhone hardware is not claimed.
+
+Selected-image composition acceptance is COMPLETE for the current edition. This does not imply all 73 source candidates are selected or cleared, or replace article technical review. Art Director owns every future selection/crop and layout-change recheck. New routine crops do not require Chris to supervise. Review/proof: editorial/media/CROP-REVIEW-2026-11-11.md and office/image-proof.html. Validation: 200 Python tests, six JavaScript suites, ten reviewed asset hashes, unchanged manuscript/founder approval hashes.

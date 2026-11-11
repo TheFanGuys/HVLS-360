@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "collection": "72-inch VividAir / Go Fan Yourself TAZ field installation",
+  "photographer_credit": "Big Fan Guys",
+  "rights": "Publisher confirms photographs are their own and grants HVLS 360 editorial publication permission",
+  "rights_confirmed_at": "2026-11-10",
+  "model_identification": "72-inch TAZ, identified by publisher/photographer; exact nameplate not independently checked",
+  "article_slug": "vividair-taz-72-field-guide",
+  "status": "approved_for_editorial_media_use_not_article_publication",
+  "images": [
+    {
+      "file": "taz-72-field-01.webp",
+      "original": "IMG_5193.jpeg",
+      "caption": "Publisher-supplied 72-inch TAZ installation photograph"
+    },
+    {
+      "file": "taz-72-field-02.webp",
+      "original": "IMG_5192.jpeg",
+      "caption": "Publisher-supplied 72-inch TAZ installation photograph"
+    },
+    {
+      "file": "taz-72-field-03.webp",
+      "original": "IMG_5196.jpeg",
+      "caption": "Publisher-supplied 72-inch TAZ installation photograph"
+    }
+  ],
+  "asset_location": "editorial/media/publisher/taz-72/",
+  "binary_status": "pending_import_from_prepared_zip",
+  "original_exif": "removed from optimized versions",
+  "publication_notes": "Use as editorial article illustrations only, not a gallery. Confirm facility privacy, crop and caption before article approval.",
+  "correction": "Patterson barrel fans previously shown were misidentified as TAZ; do not use those images."
+}

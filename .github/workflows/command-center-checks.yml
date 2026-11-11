@@ -3,6 +3,9 @@ on:
   pull_request:
     paths:
       - 'office/command-center.html'
+      - 'office/resume.html'
+      - 'office/recovery.js'
+      - 'tests/test_recovery.cjs'
       - 'office/coo-operations.html'
       - 'office/shared-assignments.html'
       - 'office/shared-assignments.js'
@@ -46,6 +49,7 @@ jobs:
       - name: Check command center structure and JavaScript
         run: |
           python tests/test_command_center.py
+          node tests/test_recovery.cjs
           node tests/test_shared_assignments.cjs
           python tests/test_coo_operations.py
           python tests/test_coo_brief.py

@@ -12,3 +12,9 @@ For every new COO request, first explain the understood goal, approach, specific
 ## Hard operating budget — zero additional cost
 
 Chris confirmed on November 11, 2026 that the COO conversation and project must remain at $0 additional spending. Do not enable paid APIs, credits, hosting plans, trials that convert to paid, automatic top-ups or paid fallbacks. Verify free-only account/model configuration before activation. When a free quota or service limit is reached, pause and report it rather than incur a charge. Existing Namecheap domain purchase remains Chris's separate manual decision; this does not authorize the assistant to buy it. Do not reopen the API-budget question unless Chris changes this instruction.
+
+## Start and recover from durable project records
+
+Before substantive work in any fresh/replacement session, read root PROJECT-HANDOFF.md, PROJECT-STATE.json and DECISIONS.md, then the latest shared board Issue #94 and relevant task evidence. Do not ask Chris to retell recoverable project history or repeat settled decisions. Check for newer commits and distinguish dated snapshots from current verification.
+
+After every meaningful task or new founder decision, update those durable records and the relevant shared GitHub Issues before handing back. Record what changed, verified evidence, unresolved blockers and the next concrete action. Do not promise automatic chat synchronization; this is an explicit operator maintenance responsibility. If repository access is unavailable, use the copied recovery packet, disclose that current state is unverified and preserve the work for later reconciliation.

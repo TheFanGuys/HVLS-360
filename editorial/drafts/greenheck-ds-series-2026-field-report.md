@@ -10,13 +10,14 @@ image_status: "Authentic manufacturer photo candidates; rights not cleared"
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
+founder_review: "Pending — not approved"
 ---
 
 # Greenheck's Redesigned DS-3 and DS-6: What Changes on an HVLS Job
 
 *HVLS 360° | HVLS Technology | Equipment watch*
 
-Greenheck's redesigned DS-3 and DS-6 fans were announced in December 2025, but the more useful story for contractors is emerging in the specifications: different blade configurations, different published maximum airflows and installation details that must be checked at the model level [1][2]. As the revised products appear in bids, a familiar DS designation is not enough to identify what will arrive on site.
+Greenheck separates its current DS installation instructions from manuals for fans shipped before January 1, 2026 [3][4]. That cutoff deserves a place in the service record. The redesigned DS-3 and DS-6 were announced in December 2025 [1][2]; an older DS fan on the ceiling may require a different manual from the unit on the next purchase order.
 
 ## Three blades, six blades and the limits of peak CFM
 
@@ -30,7 +31,7 @@ Greenheck also lists a perceived cooling effect of up to **11°F for DS-3** and 
 
 In its announcement, Greenheck calls out a factory-assembled power pack, plug-and-play wiring, a field-adjustable extension tube and automated commissioning and diagnostic test modes [1]. These are potentially valuable changes for a crew spending hours on lifts in an active warehouse.
 
-Greenheck's announcement suggests the changes can reduce installation time by half is **Greenheck's claim**. It provides no field-study sample, baseline crew size or site conditions on the public announcement page. It is an invitation to compare the revised installation manual with the older configuration—not a labor allowance for your estimate.
+Greenheck says the changes can reduce installation time by half [1]. That remains **Greenheck's claim**. It provides no field-study sample, baseline crew size or site conditions on the public announcement page. It is an invitation to compare the revised installation manual with the older configuration—not a labor allowance for your estimate.
 
 For a quote, request the current model-specific instructions and confirm exactly which wiring is factory-terminated versus field-supplied. A field-adjustable extension tube is helpful only if the selected drop length still satisfies the approved mount, clearances and any specified airflow layout. Some obstructions simply require a different location.
 
@@ -74,11 +75,9 @@ After identifying the intended model and diameter, a practical pre-installation 
 
 A fan spinning successfully proves that it turns. It does not by itself verify the entire air-movement layout, occupant comfort objective or building-system sequence.
 
-## The submittal is the story
+## Before the order ships
 
-The redesigned DS Series is worth a closer look because Greenheck is talking about the problems installers actually encounter: mounting adjustment, controls, wiring and startup. The claimed airflow and comfort gains are interesting, but the best question on a real project is simpler: **does the chosen fan-and-controller combination fit this building and make commissioning easier, with verified documentation?**
-
-That is where a redesigned product becomes useful rather than merely newsworthy.
+Request the manual for the shipped fan, the controller part number and its wiring instructions with the submittal. Use that package to establish mounting, electrical and commissioning scope before assigning labor. The published installation-time claim cannot resolve those job-specific costs.
 
 ### Sources
 

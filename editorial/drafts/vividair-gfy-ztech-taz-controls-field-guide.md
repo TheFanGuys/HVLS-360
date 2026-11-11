@@ -9,6 +9,7 @@ image_status: "Original in-house manufacturer-neutral system diagram; technical 
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
+founder_review: "Pending — not approved"
 ---
 
 # VividAir and Go Fan Yourself: The Z-Tech, TAZ and Controls Questions Installers Should Ask
@@ -39,15 +40,13 @@ VividAir's current Z-Tech page identifies **VividAir Navigator** as a platform f
 
 Neither product description establishes the controls installed at a particular facility. A service technician should document the actual keypad, controller, drive nameplate, motor, communications wiring and any building-management or fire-alarm interface before recommending a replacement.
 
-A recurring mistake in the large-fan business is to assume that a VFD with the right input voltage and horsepower can be substituted without considering the fan manufacturer's motor characteristics and safety/control sequence. The exact OEM-approved combination and documentation govern the work. This is particularly relevant where a site has a mixture of older GFY installations and newer VividAir equipment.
+Matching VFD input voltage and horsepower alone does not resolve motor compatibility or the required safety/control sequence. The exact OEM-approved combination and documentation govern the work. This is particularly relevant where a site has a mixture of older GFY installations and newer VividAir equipment.
 
 ## Separating published ratings from field performance
 
-The current VividAir product lineup includes Z-Tech, Z-Tech3, TAZ, Z-Chill and other air-movement products [4]. The company describes ambitious coverage, comfort and efficiency benefits. A serious buyer should ask how each claim was measured.
+The current VividAir product lineup includes Z-Tech, Z-Tech3, TAZ, Z-Chill and other air-movement products [4]. Compare coverage, comfort and efficiency claims using their stated test methods and conditions.
 
 For cooling comfort, distinguish air speed and occupant sensation from actual reduction of room air temperature. For destratification, ask about ceiling and occupied-zone measurements before and after operation. For efficiency, compare equivalent operating conditions and recognized ratings rather than unlike maximum-airflow figures.
-
-These questions apply just as much to Big Ass Fans, MacroAir, Greenheck and every other manufacturer. Credible product intelligence should neither repeat promotional claims as independent results nor dismiss a product without evidence.
 
 ## Build the equipment record before dispatch
 
@@ -64,9 +63,7 @@ The goal is not paperwork for its own sake. It is preventing an avoidable return
 
 ## Document the installed system, not just the brand
 
-**VividAir deserves dedicated technical coverage because its current product documentation and the Go Fan Yourself legacy both matter in the field.** The useful story is how to identify and support the exact system—not which brand has the loudest airflow claim.
-
-HVLS 360° will continue tracking the Z-Tech family, TAZ, Navigator controls and product-document revisions, with original source links and model-specific technical checks.
+Before dispatch, pair the installed fan and controller identification with the applicable manuals. Where the hardware or revision cannot be established, resolve that uncertainty with the manufacturer before ordering a replacement.
 
 ### Sources
 

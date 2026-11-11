@@ -8,6 +8,7 @@ image_status: "Original in-house airflow diagram; technical review pending"
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
+founder_review: "Pending — not approved"
 ---
 
 # HVLS Fans, Air Movement and Ventilation: What Facility Managers Need to Know
@@ -48,15 +49,15 @@ The technical submittal should be checked against the exact fan model and manufa
 
 Commissioning should record actual operating behavior, including controls and any required shutdown or interlock functions. A fan that spins is not, by itself, proof that a building's thermal-comfort or energy-performance target has been met.
 
-## Interrogating performance claims
+## Read the test conditions
 
 When a study or case report claims energy or comfort improvements, ask what was measured and what was estimated. Was there a baseline? How many facilities were included? Were the heating or cooling setpoints changed? Was the study sponsored by the equipment manufacturer? Are the results reproducible in the intended U.S. building type?
 
 Those questions do not make manufacturer research unusable. They make it more useful by separating a documented test result from a marketing generalization.
 
-## The specification starts with the problem
+## Set the acceptance criteria before installation
 
-HVLS fans can be valuable components of an industrial air-movement strategy, but **air movement, perceived cooling, destratification and ventilation are not interchangeable claims**. A good installation starts with a clearly defined objective and ends with measurements and commissioning evidence appropriate to that objective.
+A comfort project needs an occupied-zone assessment. A destratification project needs temperature readings at different elevations. A ventilation project needs its own outdoor-air and contaminant-control design. Put the objective and the acceptance method in the submittal before equipment is ordered.
 
 ### Sources
 

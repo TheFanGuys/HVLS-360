@@ -14,7 +14,7 @@ class OneTapArticleLibraryTests(unittest.TestCase):
   html=(ROOT/"office/first-article-review.html").read_text()
   self.assertIn("'/main/editorial/drafts/'+slug+'.md'",html)
   self.assertIn("hvls360:publisher-draft-edit:v1",html)
-  self.assertIn("localStorage.setItem(editKey,",html)
+  self.assertIn("localStorage.setItem(editKey(),",html)
   self.assertIn("No approval control is provided",html)
   self.assertNotIn("innerHTML",html)
   self.assertNotIn("fetch(",html)

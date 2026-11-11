@@ -29,4 +29,4 @@ with tempfile.NamedTemporaryFile(mode="w",suffix=".js") as file:
     file.write(js.group(1))
     file.flush()
     subprocess.run(["node","--check",file.name],check=True)
-print("Hosted review studio local-only and HTML/JS checks passed")
+print("Hosted review studio safe rendering and HTML/JS checks passed")

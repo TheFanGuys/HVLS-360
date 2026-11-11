@@ -9,6 +9,7 @@ image_status: "Two publisher-owned field photos 02 and 03 in repository; model/c
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
+founder_review: "Pending — not approved"
 ---
 
 # Inside the 72-Inch TAZ: A Field Guide to VividAir's Aisle Fan
@@ -17,9 +18,7 @@ The 72-inch TAZ occupies a different corner of the air-movement market from a la
 
 ## Identifying the 72-inch equipment
 
-The remaining publisher-supplied field photographs, identified by the photographer as a 72-inch TAZ, show a suspended cylindrical fan housing, protective grille and a louvered discharge arrangement in an industrial environment. The installation is different in appearance and intended airflow pattern from the large round barrel fans commonly rented for spot ventilation.
-
-An earlier editorial image selection incorrectly identified Patterson barrel fans as TAZ equipment. The correction is recorded in the editorial review. **No unrelated fan photograph should be used to illustrate this model.**
+The publisher identifies the two retained installation photographs as a 72-inch TAZ. They show a suspended cylindrical housing, protective grille and louvered discharge arrangement. Nameplate confirmation and final captions remain pending; the photographs establish visible installation details, not model-specific performance.
 
 ## What linear coverage does—and does not—describe
 
@@ -33,7 +32,7 @@ The manufacturer says the fan can be installed flat or angled and describes one-
 
 The current VividAir TAZ product page links a **72-inch Installation and Technical Operations Guide** dated January 2023 and a separate guide for the 36-inch version [1][2]. The 72-inch guide itself carries Go Fan Yourself branding alongside VividAir references, making it a useful document for understanding the product's brand continuity.
 
-The guide's installation check-in procedure calls for the contractor and customer to review the fan layout, controller locations and supply panels before unloading, and to review the mounting method for each location [2]. This is an unusually practical reminder that access, power and mounting decisions belong in the pre-installation survey.
+The guide's installation check-in procedure calls for the contractor and customer to review the fan layout, controller locations and supply panels before unloading, and to review the mounting method for each location [2]. Include those decisions in the site survey, before equipment and labor are mobilized.
 
 The existence of a 2023 guide does not establish that every later production unit has the same controls or hardware revision. Match the actual fan nameplate and supplied documents before ordering replacements or following an older wiring diagram.
 
@@ -60,9 +59,9 @@ This matters especially at mixed-generation facilities. Legacy documentation may
 - What controller, power supply and interlock documentation applies to this exact unit?
 - Which published performance figures can be compared under equivalent test conditions?
 
-## An aisle-fan specification is its own discipline
+## Establish the discharge path
 
-The 72-inch TAZ deserves its own category in a facility's air-movement plan. It is a **directional in-aisle product**, not a scaled-down overhead HVLS fan and not a generic barrel fan. Correct identification, installation geometry and model-specific documentation matter more than an attractive maximum-CFM headline.
+For a TAZ layout, identify where the air must reach and what blocks its path. Then check the selected size, orientation and mounting arrangement against the applicable guide. Retain the model-specific controls documentation with the installation record.
 
 ### Sources
 

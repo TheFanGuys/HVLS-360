@@ -8,13 +8,14 @@ image_status: "Manufacturer image candidates identified; rights not cleared"
 technical_review: "Required"
 editorial_review: "Required"
 publisher_approval: "Required"
+founder_review: "Pending — not approved"
 ---
 
 # Powerfoil 6: What the Installation Manual Tells Field Crews
 
 *HVLS 360° | Product Intelligence | Document-based field briefing*
 
-The most revealing details in a fan launch are often buried in the installation manual. Big Ass Fans' Powerfoil 6 illustrates why: its product literature describes the equipment, while the technical guide addresses the decisions that determine whether a crew can mount, wire and commission it as specified. The gap between those two documents is where contractors should spend their preparation time. This is a document-based review, not a claim of firsthand installation or independent product testing.
+Before a Powerfoil 6 crew mobilizes, four items need to be settled: electrical variant, structural attachment, controls scope and shutdown sequence. Big Ass Fans' installation guide addresses each [2]. This briefing reads that guide against the product page. It is not a claim of firsthand installation or independent product testing.
 
 ## The published Powerfoil 6 configuration
 
@@ -22,7 +23,7 @@ Big Ass Fans offers the Powerfoil 6 in eight diameters from **8 to 24 feet**. Th
 
 For a facility planning one isolated fan, the standard control may be the starting point. For a site with multiple fans, temperature-based operation or building-management integration, the controls architecture should be decided while the submittal is still being prepared. The physical fan may be the same; the controls scope isn't.
 
-The product page describes the gearbox as lubricated for life [1]. That does not eliminate periodic inspection of the mounting and safety-critical components. That claim should not be read as a promise that the assembly has no inspection requirements. The installation guide has an extensive annual-maintenance section that specifically addresses safety cables, mounting hardware, hub components, signs of oil leakage and abnormal noise [2].
+The product page describes the gearbox as lubricated for life [1]. The assembly still has inspection requirements. The installation guide has an extensive annual-maintenance section that specifically addresses safety cables, mounting hardware, hub components, signs of oil leakage and abnormal noise [2].
 
 ## Electrical details that affect the job
 
@@ -30,7 +31,7 @@ The Powerfoil 6 installation guide, **Revision D dated November 19, 2025**, iden
 
 There is a small but important documentation wrinkle: the manual includes a **575–600 V three-phase** supply category, while the public web configurator reviewed on November 10, 2026 displayed selections for **200–250 V single-phase, 200–250 V three-phase and 400–480 V three-phase** [1][2]. That does not establish whether a 600 V unit is currently orderable. It does establish why the crew should confirm the **exact ordered configuration**, current submittal, nameplate and available feeder rather than infer electrical requirements from a product-family headline.
 
-The product page describes factory wiring and testing [1]. Those features may reduce assembly work, but they do not eliminate site power, disconnect, control and commissioning responsibilities. In field terms, prewired components can save assembly time without eliminating feeder routing, local disconnect decisions, control cable routing, connection checks or functional commissioning. Those are still project details.
+The product page describes factory wiring and testing [1]. The field scope still needs to account for feeder routing, disconnect provisions, control cable, connection checks and functional commissioning.
 
 ## Mounting depends on the actual structure
 
@@ -53,8 +54,6 @@ For owners, that suggests a better procurement question than “Does it have a l
 ## Questions for the pre-installation meeting
 
 Before mobilization, resolve four things in writing: **the exact ordered electrical variant**, **an approved mounting detail**, **the controls and fire-interface scope**, and **the commissioning plus maintenance handoff**. The manual already supplies much of the product-specific information needed to have that meeting [2]. The remaining work is to match it to the building.
-
-That is the difference between reading a catalog and reading a fan as a system. Powerfoil 6's marketing tells you what is being sold. Its installation guide tells the crew which decisions still belong to the job.
 
 ### Sources
 

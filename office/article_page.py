@@ -210,7 +210,7 @@ def build_html(root,slug):
 <meta property="og:image" content="{BASE}assets/masthead.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="HVLS 360 RSS" href="{BASE}rss.xml">
 <link rel="stylesheet" href="../../assets/style.css"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{ld}</script><link rel="stylesheet" href="../../assets/publication.css"></head><body>
+<script type="application/ld+json">{ld}</script><link rel="stylesheet" href="../../assets/publication.css?v=20261111-image-led"></head><body>
 <div class="top"><div class="wrap"><span>HVLS 360° / Industry Intelligence</span><span>Presented by Big Fan Guys</span></div></div>
 <header class="masthead wrap"><a href="../../" aria-label="HVLS 360 home"><img src="../../assets/masthead.png" alt="HVLS 360 Industry Intelligence" width="2048" height="896"></a></header>
 <nav class="nav" aria-label="Primary"><div class="wrap"><a href="../../">Home</a><a href="../../#departments">Industry News</a><a href="../../#departments">Technology</a><a href="../../#departments">Installation</a><a href="../../#departments">Service &amp; VFDs</a></div></nav>

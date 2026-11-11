@@ -41,7 +41,7 @@ No sponsor inventory is sold and no revenue, readership or reach figures are ver
 
 - Complete real authenticated phone-save/reopen acceptance.
 - Finish model-specific technical and visual clearance for the selected first article.
-- Recover or recreate the missing media deliverables.
+- Complete final clearance of recovered media deliverables (#105/#106); recovery is done.
 - Obtain founder review and explicit release authorization.
 - Confirm the expanded scheduled research-to-Issues workflow runs successfully after its implementation.
 

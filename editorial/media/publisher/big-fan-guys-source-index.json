@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "source": "https://bigfanguys.com/",
+  "rights": "Publisher states images on Big Fan Guys website are owned by publisher and authorized for HVLS 360 editorial use",
+  "purpose": "Article illustration sourcing only; no gallery or bulk public republishing",
+  "verified_site_pages": [
+    "https://bigfanguys.com/",
+    "https://bigfanguys.com/warehouse.html"
+  ],
+  "candidate_images": [
+    {
+      "url": "https://bigfanguys.com/gallery/warehouse/IMG_2732.JPG",
+      "page": "https://bigfanguys.com/warehouse.html",
+      "equipment_model": "unverified",
+      "editorial_use": "industrial warehouse installation illustration only until exact fan identification confirmed"
+    },
+    {
+      "url": "https://bigfanguys.com/gallery/warehouse/IMG_2737.JPG",
+      "page": "https://bigfanguys.com/warehouse.html",
+      "equipment_model": "unverified",
+      "editorial_use": "industrial warehouse installation illustration only until exact fan identification confirmed"
+    },
+    {
+      "url": "https://bigfanguys.com/gallery/warehouse/IMG_2742.JPG",
+      "page": "https://bigfanguys.com/warehouse.html",
+      "equipment_model": "unverified",
+      "editorial_use": "industrial warehouse installation illustration only until exact fan identification confirmed"
+    }
+  ],
+  "known_misidentification": "Patterson barrel fans were incorrectly labeled as TAZ in a prior recommendation; never use that identification.",
+  "publisher_supplied_taz_72": "Separate three-photo package prepared with permission; binary assets not yet committed to repository.",
+  "policy": "Confirm equipment model, installation context and customer privacy before product-specific captions."
+}

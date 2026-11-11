@@ -31,3 +31,8 @@ A copy editor signs off with the article's final source list, checked outbound U
 ## Product reviews and videos
 
 Use **First look / manual analysis** when no sample has been operated. Reserve **Hands-on review** for real documented testing with identifiable setup, dates, measurements and limitations. Sponsored equipment and editorial relationships must be disclosed when applicable. AI-generated visuals can illustrate concepts but cannot stand in for a filmed installation or a measured test.
+
+
+## Handoff accountability
+
+The Editorial Director owns the voice pass before a draft enters the founder's reading queue. Record the manuscript revision, concrete edits and unresolved questions in its review record. A workflow run, word count, writing plugin or AI-detector score does not establish that this pass happened. Internal verification checklists belong in the companion review record; retain material qualifications in the article itself. Do not pad copy to meet a minimum word count.

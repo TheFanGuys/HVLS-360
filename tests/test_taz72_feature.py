@@ -5,7 +5,6 @@ ROOT=Path(__file__).resolve().parents[1]
 class TAZ72FeatureTests(unittest.TestCase):
  def test_source_backed_unpublished_article(self):
   article=(ROOT/"editorial/drafts/vividair-taz-72-field-guide.md").read_text()
-  self.assertGreater(len(article.split()),850)
   self.assertIn("publication_allowed: false",article)
   self.assertIn("vividairmovement.com/product/taz/",article)
   self.assertIn("TAZ_Installation_and_Technical_Operations_Guide_1.2023.pdf",article)

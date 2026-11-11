@@ -28,3 +28,10 @@ Reopened the live TAZ product page and retrieved its linked January 2023 PDF. Th
 Printed p. 13 expressly identifies the **VFD-to-motor** cable segment, 200-ft limits for its listed 230/460 VAC cases, and factory consultation beyond 200 ft. This is not a keypad/network distance limit and must not be transferred to another drive generation. Fire-interface pages contain different drive/terminal arrangements: keep wiring statements conditional on exact drive and supplied drawing.
 
 Next: match nameplate and installed drive to the applicable manufacturer documents, resolve nomenclature, validate the two retained captions and obtain qualified review. Source retrieval is complete; model applicability and founder approval remain open.
+
+
+## Voice edit — November 11, 2026
+
+Rewrote the opening around an aisle layout; replaced abstract headings with concrete ones; consolidated repeated mounting/controls cautions; removed the duplicate question list and closing recap. Internal verification notes remain in this review record rather than appearing as article copy. Sources, manufacturer attribution, untested performance status, unreadable nameplate and the 72-inch/7ft document discrepancy are retained. No new interview, test, field observation or technical signoff asserted. Launch metadata was reread and remains applicable; only its manuscript checksum changed.
+
+Founder feedback: no specific factual changes requested; some passages still sounded AI-written. This is editorial feedback, not approval. This voice pass does not complete independent technical review, photo/caption/privacy review, a new outbound-link check or founder approval.

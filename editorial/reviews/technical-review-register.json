@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-10",
+  "scope": "Eight unpublished original editorial drafts",
+  "review_type": "qualified_independent_technical_review",
+  "technical_signoffs_completed": 0,
+  "publication_approvals": 0,
+  "records": [
+    {
+      "slug": "hvls-air-movement-vs-ventilation",
+      "title": "Air movement vs ventilation",
+      "reviewer_required": "HVAC engineer or competent ventilation designer",
+      "scope": "Airflow recirculation vs outdoor-air exchange; ASHRAE 55/62.1 scope; illustration accuracy",
+      "primary_review_file": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
+      "technical_status": "awaiting_qualified_review",
+      "reviewer_identity": null,
+      "review_date": null,
+      "review_evidence": null,
+      "publisher_approval": "not_granted"
+    },
+    {
+      "slug": "abb-2026-ip66-vfd-field-report",
+      "title": "ABB IP66 drives",
+      "reviewer_required": "Qualified drive/controls engineer",
+      "scope": "ACH580 option +B063 and ratings, derating, sun exposure, HVLS OEM compatibility",
+      "primary_review_file": "editorial/reviews/abb-2026-ip66-vfd-field-report-review.md",
+      "technical_status": "awaiting_qualified_review",
+      "reviewer_identity": null,
+      "review_date": null,
+      "review_evidence": null,
+      "publisher_approval": "not_granted"
+    },
+    {
+      "slug": "cfei-vs-cfm-per-watt-field-guide",
+      "title": "CFEI vs CFM/W",
+      "reviewer_required": "AMCA test/rating specialist or qualified fan engineer",
+      "scope": "LDCF definitions, Appendix U and 10 CFR requirements; comparable operating points",
+      "primary_review_file": "editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md",
+      "technical_status": "awaiting_qualified_review",
+      "reviewer_identity": null,
+      "review_date": null,
+      "review_evidence": null,
+      "publisher_approval": "not_granted"
+    },
+    {
+      "slug": "greenheck-ds-series-2026-field-report",
+      "title": "Greenheck DS redesign",
+      "reviewer_required": "HVLS mechanical and controls specialist",
+      "scope": "DS-3/DS-6 exact manuals, mounting, controller SKUs, CFEI claims",
+      "primary_review_file": "editorial/reviews/greenheck-ds-series-2026-field-report-review.md",
+      "technical_status": "awaiting_qualified_review",
+      "reviewer_identity": null,
+      "review_date": null,
+      "review_evidence": null,
+      "publisher_approval": "not_granted"
+    },
+    {
+      "slug": "powerfoil6-field-brief",
+      "title": "Powerfoil 6",
+      "reviewer_required": "BAF-trained installation/controls specialist",
+      "scope": "Current install guide revision, structural mount, electrical supply, fire-relay logic",
+      "primary_review_file": "editorial/reviews/powerfoil6-field-brief-review.md",
+      "technical_status": "awaiting_qualified_review",
+      "reviewer_identity": null,
+      "review_date": null,
+      "review_evidence": null,
+      "publisher_approval": "not_granted"
+    },
+    {
+      "slug": "scissor-lift-planning-hvls-installations",
+      "title": "Scissor lift planning",
+      "reviewer_required": "Qualified aerial lift safety trainer or competent site safety professional",
+      "scope": "OSHA 3842 interpretation, access, fall protection, ground/traffic hazards and diagram",
+      "primary_review_file": "editorial/reviews/scissor-lift-planning-hvls-installations-review.md",
+      "technical_status": "awaiting_qualified_review",
+      "reviewer_identity": null,
+      "review_date": null,
+      "review_evidence": null,
+      "publisher_approval": "not_granted"
+    },
+    {
+      "slug": "vividair-gfy-ztech-taz-controls-field-guide",
+      "title": "VividAir/GFY overview",
+      "reviewer_required": "VividAir/GFY experienced installer plus controls specialist",
+      "scope": "Product generations, Navigator vs legacy ABB, TAZ vs barrel fans, model-specific docs",
+      "primary_review_file": "editorial/reviews/vividair-gfy-ztech-taz-controls-field-guide-review.md",
+      "technical_status": "awaiting_qualified_review",
+      "reviewer_identity": null,
+      "review_date": null,
+      "review_evidence": null,
+      "publisher_approval": "not_granted"
+    },
+    {
+      "slug": "vividair-taz-72-field-guide",
+      "title": "72-inch TAZ",
+      "reviewer_required": "VividAir/GFY experienced installer plus qualified electrical reviewer",
+      "scope": "Actual model identification, 72-inch guide, mounting and louvers, controller/interlock, two retained photos",
+      "primary_review_file": "editorial/reviews/vividair-taz-72-field-guide-review.md",
+      "technical_status": "awaiting_qualified_review",
+      "reviewer_identity": null,
+      "review_date": null,
+      "review_evidence": null,
+      "publisher_approval": "not_granted"
+    }
+  ],
+  "policy": "Automated source checks and model-generated editorial analysis do not count as independent qualified human technical sign-off."
+}

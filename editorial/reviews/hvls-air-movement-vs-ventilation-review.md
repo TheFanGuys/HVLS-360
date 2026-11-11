@@ -28,10 +28,18 @@
 - [x] Identify current ASHRAE 62.1-2025 edition from ASHRAE official source.
 - [x] Add ASHRAE 55-2023 official overview for comfort factors.
 - [x] No project-specific code compliance claim or prescriptive ventilation rate is made; jurisdictional adoption is explicitly distinguished from standard publication.
-- [x] Rechecked manufacturer guide sections 1.3.1 and 2.4.2 on the official live guide. No definitive guide revision date was visible; article makes no revision-date claim.
+- [x] Rechecked manufacturer guide sections 2.1 and 2.4 on the official live guide; corrected an earlier erroneous citation to section 1.3 as Thermal Comfort (1.3 is Benefits of Ceiling Fans). No definitive guide revision date was visible; article makes no revision-date claim.
 - [ ] Complete independent technical review of airflow and code terminology.
 - [x] Editorial copyedit completed for the lead, commercial ventilation terminology and manufacturer study caveats; official manufacturer and ASHRAE source pages rechecked.
 - [x] No third-party photo required. In-house original SVG selected; visual technical accuracy remains under the technical-review gate.
 - [ ] Publisher reviews and explicitly approves the finished article.
 
 **No article may be published from this review.**
+
+## Primary-source verification pass — 2026-11-10
+
+- **Verified from Big Ass Fans live design guide table of contents:** section 2.1 is *Thermal Comfort*, section 2.4 is *Ceiling Fan Use in Heating*. Earlier draft cited section 1.3 as Thermal Comfort; **that was wrong and has been corrected** in the manuscript. Section 1.3 is *Benefits of Ceiling Fans*.
+- **Verified from ASHRAE's official 62.1/62.2 page:** ANSI/ASHRAE 62.1-2025 is the published commercial ventilation standard; its public overview addresses natural and mechanical ventilation. The complete standard was not purchased or independently interpreted for code compliance.
+- **Verified from ASHRAE's official Standard 55 page:** 2023 edition is identified; this overview is not a substitute for full standard text or a project-specific thermal comfort analysis.
+- **Verified from EPA's official page:** natural ventilation, infiltration and mechanical ventilation pathways are discussed in residential context. The article correctly distinguishes this from commercial requirements.
+- **Scope and limitations:** This is a documented primary-source fact check, **not** independent qualified HVAC engineering signoff. Illustration arrows and the exact technical implications for industrial occupancy still need qualified reviewer evaluation.

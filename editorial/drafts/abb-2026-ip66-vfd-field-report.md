@@ -26,9 +26,9 @@ The distinction matters because a fan installer may see the familiar ABB drive n
 
 ABB positions the **ACS580** as a general-purpose family suited to applications including food processing and washdown environments. The **ACH580** is the HVACR family, with examples such as rooftop air handlers, cooling towers and exterior supply and exhaust fans. The **ACQ580** targets water and wastewater duty [1].
 
-Those are examples from ABB's own product announcement, not evidence that the new drives have been qualified with a particular HVLS manufacturer's motor, gearbox, encoder, keypad or fire alarm sequence.
+ABB's application examples do not establish compatibility with a particular HVLS fan. The motor, drive, keypad, communication interface and shutdown sequence must be evaluated as one OEM-approved system.
 
-For HVLS projects, the question is therefore **not** “Does ABB make a rugged VFD?” It is “Does the exact fan system, as supplied or approved by its OEM, support this drive and its required controls?”
+The practical question is whether the specified drive has been approved for the exact fan assembly and controls—not whether its enclosure can withstand a demanding environment.
 
 ## The specifications behind the enclosure rating
 

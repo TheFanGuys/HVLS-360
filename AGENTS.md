@@ -39,3 +39,7 @@ Chris reaffirmed approval of all eight current articles. Recorded revision hashe
 ## Shared Art Department collection
 
 Before selecting an article image, read art-library/README.md and art-library/catalog.json. Search existing collection and new uploads first. Store additional candidates there with source and review status; publish only selected derivatives under editorial/media/publisher. Avoid reusing TAZ for unrelated subjects. office/photo-library.html discovers new uploads from GitHub when opened/refreshed. This is shared storage and a read-only browser, not an autonomous image-selection runtime.
+
+## Image composition acceptance — founder direction November 11
+
+Inspect the actual subject in every selected image before use. Record card and article-lead presentation separately in editorial/media/article-images.json. Review the rendered desktop, tablet and phone placements; preserve the fan, motor, blades or installation context promised by the caption. Never apply one arbitrary crop to all images. Use contain when a narrow card would cut off the subject; keep complete source frames in article leads and all diagram labels visible. Reject obstructed or poor source photographs instead of disguising the defect with a crop. New selections or layout changes require another visual composition pass. Automated checks support, but do not replace, visual review.

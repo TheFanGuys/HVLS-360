@@ -8,96 +8,279 @@
       "alt": "Overhead fan above warehouse racking",
       "caption": "Overhead fan above warehouse racking. Big Fan Guys field photograph; illustrative installation context.",
       "kind": "photo",
-      "position": "50% 28%",
-      "credit": "Big Fan Guys"
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "cover",
+          "position": "50% 80%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card crop retains central motor/assembly and warehouse racking; peripheral blade tips can leave the card. Complete source frame retained in article lead. Source itself is not a full-span blade photograph.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      }
     },
     "abb-2026-ip66-vfd-field-report": {
       "file": "editorial/media/original/vfd-compatibility-check.svg",
       "alt": "Diagram of drive and fan compatibility checks",
       "caption": "Drive-system illustration; not a photograph of an ABB product.",
       "kind": "diagram",
-      "position": "50% 50%",
-      "credit": "HVLS 360\u00b0"
+      "credit": "HVLS 360\u00b0",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      }
     },
     "cfei-vs-cfm-per-watt-field-guide": {
       "file": "editorial/media/publisher/bfg-field/ceiling-fan.webp",
       "alt": "Installed multi-blade ceiling fan beneath a steel roof",
       "caption": "Installed ceiling fan photographed by Big Fan Guys; the photograph does not establish its efficiency rating.",
       "kind": "photo",
-      "position": "50% 28%",
-      "credit": "Big Fan Guys"
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      }
     },
     "greenheck-ds-series-2026-field-report": {
       "file": "editorial/media/original/fan-system-documentation.svg",
       "alt": "Fan system documentation diagram",
       "caption": "System-documentation illustration; not a Greenheck product photograph.",
       "kind": "diagram",
-      "position": "50% 50%",
-      "credit": "HVLS 360\u00b0"
+      "credit": "HVLS 360\u00b0",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      }
     },
     "powerfoil6-field-brief": {
       "file": "editorial/media/original/fan-system-documentation.svg",
       "alt": "Fan system planning and documentation diagram",
       "caption": "Installation-planning illustration; not a Powerfoil 6 product photograph.",
       "kind": "diagram",
-      "position": "50% 50%",
-      "credit": "HVLS 360\u00b0"
+      "credit": "HVLS 360\u00b0",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      }
     },
     "scissor-lift-planning-hvls-installations": {
       "file": "editorial/media/original/scissor-lift-access-planning.svg",
       "alt": "Scissor lift access planning illustration",
       "caption": "Original illustration of installation access planning.",
       "kind": "diagram",
-      "position": "50% 50%",
-      "credit": "HVLS 360\u00b0"
+      "credit": "HVLS 360\u00b0",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      }
     },
     "vividair-gfy-ztech-taz-controls-field-guide": {
       "file": "editorial/media/publisher/bfg-field/fan-hub.webp",
-      "alt": "Elevated close view of a directional-fan motor assembly",
-      "caption": "Elevated close view of a directional-fan motor assembly. Big Fan Guys field photograph; illustrative installation context.",
+      "alt": "Close view of a ceiling-fan motor, mount and blades",
+      "caption": "Ceiling-fan motor, mount and blades above an automotive work area. Big Fan Guys field photograph.",
       "kind": "photo",
-      "position": "50% 28%",
-      "credit": "Big Fan Guys"
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      }
     },
     "vividair-taz-72-field-guide": {
       "file": "editorial/media/publisher/taz-72/taz-72-field-02.webp",
       "alt": "Publisher-supplied TAZ installation photograph",
       "caption": "TAZ field photograph supplied and identified by Big Fan Guys.",
       "kind": "photo",
-      "position": "50% 50%",
-      "credit": "Big Fan Guys"
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      }
     },
     "industrial-fan-heat-study-what-was-measured": {
       "file": "editorial/media/publisher/bfg-field/production-floor.webp",
       "alt": "Overhead fans across an industrial production floor",
       "caption": "Big Fan Guys production-floor photograph used for context; not a study site.",
       "kind": "photo",
-      "position": "50% 28%",
-      "credit": "Big Fan Guys"
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      }
     },
     "ceiling-fans-hvac-air-distribution-research": {
-      "file": "editorial/media/publisher/bfg-field/industrial-install.webp",
-      "alt": "Fan installation and access equipment inside an industrial building",
-      "caption": "Fan installation and access equipment inside an industrial building. Big Fan Guys field photograph; illustrative installation context.",
+      "file": "editorial/media/publisher/bfg-field/hangar-airflow-context.webp",
+      "alt": "Several ceiling fans beneath a hangar roof, with access equipment below",
+      "caption": "Ceiling fans beneath a hangar roof. Big Fan Guys field photograph; not a photograph of the cited research facility.",
       "kind": "photo",
-      "position": "50% 28%",
-      "credit": "Big Fan Guys"
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      },
+      "source_library_file": "art-library/bigfanguys-com/aviation/IMG_6274.webp",
+      "source_url": "https://bigfanguys.com/gallery/aviation/IMG_6274.JPG",
+      "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use"
     },
     "scissor-lift-osha-classification": {
       "file": "editorial/media/original/scissor-lift-access-planning.svg",
       "alt": "Original scissor lift work-area planning diagram",
       "caption": "Original scissor-lift planning illustration.",
       "kind": "diagram",
-      "position": "50% 50%",
-      "credit": "HVLS 360\u00b0"
+      "credit": "HVLS 360\u00b0",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      }
     },
     "fan-guarding-working-level": {
       "file": "editorial/media/publisher/bfg-field/elevated-install.webp",
       "alt": "Elevated view of a fan motor assembly and blades",
       "caption": "Elevated view of a fan motor assembly and blades. Big Fan Guys field photograph; illustrative installation context.",
       "kind": "photo",
-      "position": "50% 28%",
-      "credit": "Big Fan Guys"
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-11",
+        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
+        "reviewer": "Art & Media Director / assistant visual review",
+        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+      }
     }
   }
 }

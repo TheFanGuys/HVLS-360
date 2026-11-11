@@ -1,0 +1,12 @@
+"""Rebuild internal composition proofs from the same reviewed image map."""
+import html,json
+from pathlib import Path
+from article_page import image_presentation
+ROOT=Path(__file__).resolve().parents[1]
+def build(root=ROOT):
+ root=Path(root);rows=[]
+ for slug,m in json.loads((root/'editorial/media/article-images.json').read_text())['items'].items():
+  def image(placement):return f'<img src="../{html.escape(m["file"],quote=True)}" alt="{html.escape(m["alt"],quote=True)}" style="{image_presentation(m,placement)}">'
+  rows.append(f'<section><h2>{html.escape(slug)}</h2><div class="proof-row"><div><h3>Desktop card</h3><div class="story-image {m["kind"]}" style="width:240px;height:150px;aspect-ratio:auto">{image("card")}</div></div><div><h3>Phone card</h3><div class="story-image {m["kind"]}" style="width:124px;height:140px;aspect-ratio:auto">{image("card")}</div></div><div><h3>Phone article</h3><figure class="article-lead {m["kind"]}" style="width:350px;margin:0">{image("lead")}</figure></div></div><p>{html.escape(m["caption"])}</p></section>')
+ (root/'office/image-proof.html').write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Art &amp; Media — image composition proofs</title><link rel="stylesheet" href="../assets/style.css"><link rel="stylesheet" href="../assets/publication.css?v=20261111-crop-review"><style>body{background:white}main{padding:24px;max-width:1300px;margin:auto}h1{font-size:30px}h2{font-size:17px;overflow-wrap:anywhere}h3{font-size:12px}.proof-row{display:flex;flex-wrap:wrap;gap:30px;align-items:start}section{border-bottom:1px solid #ccc;padding:24px 0}section p{font-size:13px}.article-lead img{max-height:480px}.device-proof{width:100%;overflow:auto}.device-proof iframe{border:1px solid #ccc;height:780px}</style></head><body><main><a href="media-desk.html">← Art &amp; Media Desk</a><h1>Image composition proofs</h1><p>Current selected images in desktop cards, narrow phone cards and phone article leads. Source files remain intact.</p><details><summary>Actual magazine at phone and tablet widths</summary><div class="device-proof"><iframe title="Phone magazine at 390 pixels" src="preview/?proof=phone" width="390" loading="lazy"></iframe><iframe title="Tablet magazine at 768 pixels" src="preview/?proof=tablet" width="768" loading="lazy"></iframe></div></details>'+''.join(rows)+'</main></body></html>')
+if __name__=='__main__':build()

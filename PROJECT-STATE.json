@@ -11,11 +11,11 @@
   "drafts": 12,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
-  "last_verified_python_tests": 194,
+  "last_verified_python_tests": 200,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
-  "current_objective": "Build a serious, substantial trade publication: expand sourced content and finish release requirements without requesting approval again for original eight.",
-  "next_task": "Verify Art Desk photo browser and Pages exclusion after deployment; continue article image selection from the shared library and future uploads.",
+  "current_objective": "Complete Art & Media selected-image composition acceptance under Director ownership.",
+  "next_task": "Deploy and verify image framing for all twelve stories and public research rail; record Director review and browser acceptance.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Created the shared Art Department source library: 70 gallery photographs plus 3 homepage brand images collected as web-sized copies under art-library/bigfanguys-com, organized in seven industry folders plus brand. Original source URLs retained; files are collected candidates, not all visually/model cleared. art-library/uploads accepts future additions. office/photo-library.html reads catalog and GitHub tree, so new uploads appear on open/refresh without manual website edits. _config.yml excludes art-library from Pages; public GitHub access is still possible. Art Desk/Command Center links and standing Art Department collection-first instructions added. No autonomous media agents claimed.",
+  "latest_verified_change": "Shared library deployed and browser verified: 73 assets; source catalog excluded from Pages. Image composition implementation and Director visual review in progress; 200 Python tests and six JavaScript suites pass.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,
@@ -57,5 +57,6 @@
   "reference_sources": 24,
   "art_library_files": 73,
   "art_library_folder": "art-library",
-  "autonomous_art_agents_running": false
+  "autonomous_art_agents_running": false,
+  "art_media_director_review": "editorial/media/CROP-REVIEW-2026-11-11.md"
 }

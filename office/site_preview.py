@@ -1,7 +1,7 @@
 """Build an unindexed image-led founder preview; never approves/releases articles."""
 import html,json,re
 from pathlib import Path
-from article_page import render_markdown
+from article_page import render_markdown, image_presentation
 ROOT=Path(__file__).resolve().parents[1]
 def build(root=ROOT):
  root=Path(root);out=root/'office/preview';out.mkdir(exist_ok=True)
@@ -10,10 +10,10 @@ def build(root=ROOT):
  def picture(slug,linked=False):
   m=imagery[slug];src=m['file']
   if not src.startswith('editorial/media/') or '..' in src or not (root/src).is_file():raise ValueError('Unsafe or missing image')
-  im=f'<img src="../../{html.escape(src,quote=True)}" alt="{html.escape(m["alt"],quote=True)}" loading="lazy" decoding="async" style="object-position:{m["position"]}">'
+  im=f'<img src="../../{html.escape(src,quote=True)}" alt="{html.escape(m["alt"],quote=True)}" loading="lazy" decoding="async" style="{image_presentation(m, "card" if linked else "lead")}">'
   return f'<a class="story-image {m["kind"]}" href="{slug}.html">{im}</a>' if linked else f'<figure class="article-lead {m["kind"]}">{im}<figcaption>{html.escape(m["caption"])} <span>— {m["credit"]}</span></figcaption></figure>'
  def shell(title,body):
-  return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>{html.escape(title)} | HVLS 360°</title><link rel="stylesheet" href="../../assets/style.css"><link rel="stylesheet" href="../../assets/publication.css?v=20261111-image-led"><link rel="icon" href="../../assets/favicon.svg"></head><body class="magazine"><div class="preview-bar">Founder review edition<a href="../command-center.html">Command Center</a><a href="../first-article-review.html">Edit articles</a></div><header class="trade-header"><div class="wrap trade-bar"><a href="./" class="trade-logo">HVLS <b>360°</b><small>THE BIG FAN GUYS JOURNAL</small></a><nav aria-label="Magazine"><a href="./">Features</a><a href="#latest">Latest</a><a href="../../resources/">Research &amp; laws</a><a href="../../articles/editorial-standards/">About</a></nav><a class="field-link" href="https://bigfanguys.com/">Big Fan Guys ↗</a></div></header>{body}<footer class="foot"><div class="wrap">HVLS 360° · Presented by Big Fan Guys</div></footer></body></html>'''
+  return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>{html.escape(title)} | HVLS 360°</title><link rel="stylesheet" href="../../assets/style.css"><link rel="stylesheet" href="../../assets/publication.css?v=20261111-crop-review"><link rel="icon" href="../../assets/favicon.svg"></head><body class="magazine"><div class="preview-bar">Founder review edition<a href="../command-center.html">Command Center</a><a href="../first-article-review.html">Edit articles</a></div><header class="trade-header"><div class="wrap trade-bar"><a href="./" class="trade-logo">HVLS <b>360°</b><small>THE BIG FAN GUYS JOURNAL</small></a><nav aria-label="Magazine"><a href="./">Features</a><a href="#latest">Latest</a><a href="../../resources/">Research &amp; laws</a><a href="../../articles/editorial-standards/">About</a></nav><a class="field-link" href="https://bigfanguys.com/">Big Fan Guys ↗</a></div></header>{body}<footer class="foot"><div class="wrap">HVLS 360° · Presented by Big Fan Guys</div></footer></body></html>'''
  cards=[]
  for item in items:
   slug=item['slug']

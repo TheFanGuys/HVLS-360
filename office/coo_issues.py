@@ -62,7 +62,7 @@ def sync(repo,token,items,client=api):
         if len(batch)<100:break
     known=set()
     for issue in existing:
-        match=re.search(r"COO intake marker: `(lead-[0-9]{3,6})`",issue.get("body") or "")
+        match=re.search(r"COO intake marker: `(lead-[a-f0-9]{16})`",issue.get("body") or "")
         if match:known.add(match.group(1))
     created=[]
     for item in items:

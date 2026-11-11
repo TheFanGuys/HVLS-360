@@ -120,6 +120,7 @@ def render_markdown(text):
             "air-movement-vs-ventilation.svg":(1200,650),
             "scissor-lift-access-planning.svg":(1200,670),
             "vfd-compatibility-check.svg":(1200,630),
+            "fan-system-documentation.svg":(1200,630),
         }
         for name,(width,height) in original_art.items():
             suffix="](../../editorial/media/original/"+name+")"

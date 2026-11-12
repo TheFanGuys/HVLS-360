@@ -1,3 +1,9 @@
+## Art scheduled recovery visual review — November 12 UTC
+
+Checked immutable main `fad9718fc58313eb98e262517e53f43c955631ff` against previous successful `f9d50719a6aad07a33a1303b033438626cc35b49`: only acceptance/provenance/queue records changed; no new article/image/upload/mapping/caption/layout bytes. All 14 checkpoint image SHA256 values match. Existing selected-image review is present; prior publication framing acceptance carries forward.
+
+This scheduled run independently executed worker_contract admission for revision2/digest `450746b53c55c588ccd483d8bb9c6722e1392d96dc38ec9f2073f2a3847c1b0f`, opened exact TAZ field02 source with view_image, and viewed deployed separate card/article frames at390/768/1280 using cua_repl Chrome. Complete fan housing, guard, chains and factory context retained; contain accepted; no fixture correction needed. Local Playwright launch failed; cloud visual inspection succeeded. Result preserves prior inline blocked attempt and records actual tools/timestamps. No provider run ID exposed. Fixture revision/phase unchanged. Contract validation and suppression admission pass; actual later quiet-run evidence remains pending Operations readback. Founder-deferred CFEI/portrait suitability and other category blockers remain separate. No manuscript, approval, original, publication or spending change.
+
 # Art & Media Director — image composition acceptance
 
 ## November 12 — E4 image integration complete

@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Existing Art/Draft Production prompts updated to request founder images on a specific sourcing/rights blocker; issue96 E4 request delivered in chat and queue. PR168/169 live image withdrawal verified; no newer independent worker result.",
+  "latest_verified_change": "Founder ECO original IMG5849 visually inspected and added unchanged to shared library with exact hash and ECO identity. No E4 mapping or manuscript/approval changed.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,
@@ -55,7 +55,7 @@
   "founder_approved_articles": 8,
   "new_briefings": 4,
   "reference_sources": 24,
-  "art_library_files": 73,
+  "art_library_files": 74,
   "art_library_folder": "art-library",
   "autonomous_art_agents_running": false,
   "art_media_director_review": "editorial/media/CROP-REVIEW-2026-11-11.md",
@@ -348,5 +348,12 @@
       "notified_in_chat": true
     }
   },
-  "image_assistance_policy": "When Art cannot find a suitable image with verified depicted identity, editorial relevance and recorded rights after checking the shared library/new uploads, promptly tell Chris which article needs an image and the useful subject/model/view so he can supply one. Record the request once; repeat only on material change. Art still owns routine crops and continues independent work while awaiting media."
+  "image_assistance_policy": "When Art cannot find a suitable image with verified depicted identity, editorial relevance and recorded rights after checking the shared library/new uploads, promptly tell Chris which article needs an image and the useful subject/model/view so he can supply one. Record the request once; repeat only on material change. Art still owns routine crops and continues independent work while awaiting media.",
+  "latest_art_upload": {
+    "file": "art-library/uploads/invertek-optidrive-eco/IMG_5849.jpeg",
+    "sha256": "8df98899ae234fb91f264ca24280cfb7aeeabc58603f4d6460b3ae17bcf12cd4",
+    "identity": "Invertek Optidrive ECO",
+    "status": "library_reserve_not_selected",
+    "e4_request_resolved": false
+  }
 }

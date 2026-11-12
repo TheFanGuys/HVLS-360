@@ -273,3 +273,9 @@ Chris wants Art to tell him when suitable imagery cannot be sourced so he can pr
 Current actionable request delivered in chat: issue96 needs a clear Invertek Optidrive E4 photo Chris owns or can document editorial permission for. Complete product/identifying view; landscape helpful, not required. Production queue now displays that request. ABB image remains rejected/withheld; actual live reader checked after PR169/Pages43138058503, image hidden with no src. Manuscript/approval hashes unchanged.
 
 Operational readback: no newer Art independent run/result than9c138082; recovery fixture result still revision1 inline blocked, while revision2 awaits independent processing. Existing Art next_run_time is past and does not prove dispatch. Draft Production first future scheduled delivery remains November13 11:45 America/New_York; old November10 failure belongs to the former task purpose. Do not manufacture schedule/recovery success or create another automation.
+
+## November 12 — supplied Optidrive ECO photograph added
+
+Chris supplied IMG_5849.jpeg as Invertek eco and instructed Add and continue. Original preserved unchanged at art-library/uploads/invertek-optidrive-eco/IMG_5849.jpeg, SHA2568df98899ae234fb91f264ca24280cfb7aeeabc58603f4d6460b3ae17bcf12cd4, Git blobcb6989397b1fc1b6fb085d930bb216134c0ab085,320587bytes,1320x1690. Actual source viewed with view_image; visible Optidrive ECO branding supports identity. Full enclosure/front controls, mounts and conduit context retained. Exact SKU/rating and compliance not asserted. Rights basis: founder supplied and instructed addition under standing supplied-photo permission.
+
+Added as shared library reserve, not selected for an article. ECO is a different model from E4; issue96 E4 image request stays open. No manuscript, approval or article mapping changed. Future relevant ECO placement starts with full-frame contain and still needs separate actual card/article responsive visual acceptance.

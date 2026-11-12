@@ -34,7 +34,12 @@
         "needed": "Clear product photograph with E4 identity visible, or a relevant E4 installation view. Include the complete drive; a landscape view is helpful but not required.",
         "rights": "Photo Chris took/owns, or an image explicitly permitted for HVLS 360 editorial use; retain source and permission.",
         "requested_at_utc": "2026-11-12T02:01:24.074899+00:00",
-        "notified_in_chat": true
+        "notified_in_chat": true,
+        "received_related_source": {
+          "file": "art-library/uploads/invertek-optidrive-eco/IMG_5849.jpeg",
+          "identity": "Invertek Optidrive ECO",
+          "outcome": "Added to library; different model, E4 request remains open"
+        }
       }
     }
   ]

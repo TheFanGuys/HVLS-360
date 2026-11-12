@@ -4,7 +4,7 @@ Prepared November 11, 2026. Owner: Managing Editor with Marketing & SEO. This pa
 
 ## Deliverables and status
 
-`launch-package.json` contains the eight article-specific search titles, descriptions, audiences, related-story candidates and distribution drafts. Its SHA-256 values bind the copy review to the current manuscript bytes. Metadata is also stored in each manuscript, so the normal founder approval checksum covers it.
+`launch-package.json` contains the twelve article-specific search titles, descriptions, audiences, related-story candidates and distribution drafts. Its SHA-256 values bind the copy review to the current manuscript bytes. Metadata is also stored in each manuscript, so the normal founder approval checksum covers it.
 
 `python office/launch_readiness.py` reports stale packets or incomplete metadata. After a Studio edit, the Managing Editor must reread the manuscript and recheck the title, description, audience and distribution copy before updating that packet's checksum. Never refresh a checksum merely to suppress a failure. The length ranges are house editing limits, not a promise of search-result display or ranking. No keyword volume, ranking or traffic research is claimed.
 
@@ -27,7 +27,7 @@ No publication date is committed until the editorial and founder gates clear. Ca
 
 ## Distribution copy and placement
 
-All eight short post drafts remain in `launch-package.json` with `{approved_article_url}` as an intentionally unresolved placeholder. They are drafting material, not live social posts. Replace it only after verifying the approved article URL. No account is connected or posting schedule active.
+All twelve short post drafts remain in `launch-package.json` with `{approved_article_url}` as an intentionally unresolved placeholder. They are drafting material, not live social posts. Replace it only after verifying the approved article URL. No account is connected or posting schedule active.
 
 Initial owned placement: a relevant editorial link on Big Fan Guys, subject to Chris's authorization and site access. Optional professional social placement: a Chris-authorized company or personal LinkedIn post. These are proposed destinations, not claims that accounts are available. Trade media, associations, newsletters and community submissions require destination-specific research, permission/rules checks and separate authorization. No messages have been sent.
 
@@ -46,3 +46,9 @@ No sponsor inventory is sold and no revenue, readership or reach figures are ver
 - Confirm the expanded scheduled research-to-Issues workflow runs successfully after its implementation.
 
 This closes preparation of the launch metadata and distribution plan. It does not close the above gates or authorize outreach.
+
+## Current content handoff — November 11, 2026
+
+The finite twelve-item candidate manifest is `editorial/launch-completion-ledger.json`. All twelve documentary scopes are resolved for their present reporting, with zero qualified professional attestations invented. Original-eight text approvals are already recorded at exact hashes; only four new briefs await a first text decision. Do not repeat the eight approvals because historical frontmatter or checklists say pending. Distribution queue legacy eight campaigns remain held and no actual placements are recorded.
+
+The current content integration dependency is TAZ second photograph: source selection/rights/caption completed in `editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json`; Website must render it and record responsive visual acceptance. Prior ten selected assets/frames remain unchanged. Release authorization and Workflow execution stay separate. Older outstanding-gate summaries above are superseded only by these explicit current findings and the current root state.

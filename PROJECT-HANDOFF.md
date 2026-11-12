@@ -1,5 +1,13 @@
 # HVLS 360 — durable COO handoff
 
+## Content & Imagery checkpoint — November 11, 2026
+
+Finite launch edition: twelve existing manuscripts, not an invented larger archive. Canonical candidate ledger: `editorial/launch-completion-ledger.json`; readable inventory: `editorial/LAUNCH-EDITION.md`. All twelve current documentary claim scopes are resolved against primary evidence, with fresh checks distinguished from retained records. Technical register now separates documentary resolution from qualified professional signoff: twelve documentary reviews, zero professional attestations. Original eight manuscript/approval hashes are unchanged; only four new briefs await their first founder text decision. Stale frontmatter and historic checklists do not reopen approved text.
+
+All twelve metadata packets and selected lead/card mappings reconcile; four newer briefs now have useful related-story targets. All24 public references were attempted:23 official opens, OSHA1996 letter direct403 with official indexed text recovered. No manufacturer manuals added to public resources. Existing ten selected image bytes/frames unchanged and prior composition evidence retained.
+
+Specific content dependency: TAZ approved text refers to two photographs, but preview renders one. Art selected the existing second photo, checked source-size composition/privacy, wrote caption/alt and exact SHA in `editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json`. Website owns integration and actual desktop/tablet/phone visual acceptance. Preserve approved text. Four first text decisions (#133–136) belong to Chris; release authorization/execution belongs to Workflow. Backlog #96/#97 remains evidence work outside this finite edition. No article, outreach or spending authorized.
+
 Checkpoint: November 11, 2026. Repository: https://github.com/TheFanGuys/HVLS-360 . Evidence baseline: main 4b3961c07382f1684dabf69b303e6caa9c22d0c4 (PR #127). This handoff is maintained in GitHub so recovery does not depend on a ChatGPT thread. It is a dated checkpoint, not automatic chat synchronization. Verify newer commits, Issues and Actions before declaring current status.
 
 ## Latest checkpoint — Studio conflict and save-state fixes
@@ -195,3 +203,5 @@ Remaining category blocker: no reusable Studio browser credential or second phys
 
 ## Website & Editing — deployed acceptance, November 11
 PR #143 merged at fb248dad3edfb9a57751af74d285cf66ff5764d0; Pages43127958015 success.201 Python/seven JavaScript suites pass on a clean merged checkout. Deployed current manuscript revision, preview→Studio article selection, Director-selected media and seven core screens across390/768/1280px frames verified, with no horizontal overflow. Evidence: office/WEBSITE-EDITING-ACCEPTANCE-2026-11-11.md. Manuscripts/founder approvals unchanged; no article released. Direct live authenticated Studio Save/reopen, real two-device conflict reconciliation and shared-review write remain blocked by unavailable Studio browser credentials/device access. Category remains open; no repeat of founder’s completed GitHub-editor/same-iPhone acceptance is needed.
+
+Content validation after rebase:205 Python tests and seven JavaScript suites; launch evidence/technical/metadata/publication audits pass. Original manuscripts and approvals unchanged.

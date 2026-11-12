@@ -41,3 +41,20 @@ Nov 11 full-queue recheck: included the TAZ revision from PR #111 in the eight-a
 
 
 Voice pass revision record: 8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+
+
+## Current launch reconciliation — November 11, 2026
+
+Exact manuscript SHA-256: `8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+
+Technical disposition: **documentary review complete for current scope** — Directional-fan documentary briefing with openly attributed publisher photo identification. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `vividair-taz-72-field-guide`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
+
+- Rechecked two sizes, directional/angled application and attributed coverage claims. Evidence: Product specifications and technical download links; live_primary_recheck.
+- Live guide retrieved; 7ft headings and 72-model labels are documented discrepancy. Article does not resolve actual dimensions from labels. Evidence: January 2023 linked 72-inch guide; printed p 13; live_primary_recheck.
+- Publisher grants use and identifies two retained photos as 72-inch TAZ. Identification is attributed, not independently nameplate-confirmed. Evidence: editorial/media/publisher/taz-72-rights.json; existing_publisher_attestation.
+
+Professional review becomes required if scope adds: Using this PDF as installation authority for a supplied unit, certifying the installed photo model, or issuing drive/interlock instructions.
+
+Founder text: **approved exact revision**, preserved in `editorial/founder-approval-register.json`; do not ask for the same approval again. Selected media, metadata and release holds are separate in `editorial/launch-completion-ledger.json`. No release authorization is recorded. Historical unchecked items above are superseded only where this current record explicitly resolves them.
+
+Illustration dependency: approved text describes two photographs but preview currently renders one. Second source is selected in `editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json`; Website must integrate and inspect actual responsive placements. This is not a request to change or reapprove the manuscript.

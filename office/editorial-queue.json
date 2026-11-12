@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_utc": "2026-11-11",
-  "description": "Read-only registry for previewing unpublished editorial materials. It is not an approval record.",
+  "description": "Read-only registry of unpublished launch materials. Founder text decisions are separate from release authorization; canonical exact approvals are in editorial/founder-approval-register.json.",
   "items": [
     {
       "slug": "hvls-air-movement-vs-ventilation",
@@ -11,8 +11,13 @@
       "draft": "editorial/drafts/hvls-air-movement-vs-ventilation.md",
       "review": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
       "media": "editorial/media/hvls-air-movement-candidates.json",
-      "status": "founder_review",
-      "publisher_approved": false
+      "status": "text_approved_release_held",
+      "publisher_approved": false,
+      "founder_text_decision": "approved_exact_revision",
+      "founder_text_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     },
     {
       "slug": "abb-2026-ip66-vfd-field-report",
@@ -22,8 +27,13 @@
       "draft": "editorial/drafts/abb-2026-ip66-vfd-field-report.md",
       "review": "editorial/reviews/abb-2026-ip66-vfd-field-report-review.md",
       "media": null,
-      "status": "founder_review",
-      "publisher_approved": false
+      "status": "text_approved_release_held",
+      "publisher_approved": false,
+      "founder_text_decision": "approved_exact_revision",
+      "founder_text_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     },
     {
       "slug": "cfei-vs-cfm-per-watt-field-guide",
@@ -33,8 +43,13 @@
       "draft": "editorial/drafts/cfei-vs-cfm-per-watt-field-guide.md",
       "review": "editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md",
       "media": null,
-      "status": "founder_review",
-      "publisher_approved": false
+      "status": "text_approved_release_held",
+      "publisher_approved": false,
+      "founder_text_decision": "approved_exact_revision",
+      "founder_text_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     },
     {
       "slug": "greenheck-ds-series-2026-field-report",
@@ -44,19 +59,29 @@
       "draft": "editorial/drafts/greenheck-ds-series-2026-field-report.md",
       "review": "editorial/reviews/greenheck-ds-series-2026-field-report-review.md",
       "media": "editorial/media/greenheck-ds-series-2026-candidates.json",
-      "status": "founder_review",
-      "publisher_approved": false
+      "status": "text_approved_release_held",
+      "publisher_approved": false,
+      "founder_text_decision": "approved_exact_revision",
+      "founder_text_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     },
     {
       "slug": "powerfoil6-field-brief",
-      "title": "Powerfoil 6 — Field Briefing",
+      "title": "Powerfoil 6 \u2014 Field Briefing",
       "category": "Product Intelligence",
       "angle": "What the current manual tells installers about the job.",
       "draft": "editorial/drafts/powerfoil6-field-brief.md",
       "review": "editorial/reviews/powerfoil6-field-brief-review.md",
       "media": "editorial/media/powerfoil6-field-brief-candidates.json",
-      "status": "founder_review",
-      "publisher_approved": false
+      "status": "text_approved_release_held",
+      "publisher_approved": false,
+      "founder_text_decision": "approved_exact_revision",
+      "founder_text_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     },
     {
       "slug": "scissor-lift-planning-hvls-installations",
@@ -66,8 +91,13 @@
       "draft": "editorial/drafts/scissor-lift-planning-hvls-installations.md",
       "review": "editorial/reviews/scissor-lift-planning-hvls-installations-review.md",
       "media": null,
-      "status": "founder_review",
-      "publisher_approved": false
+      "status": "text_approved_release_held",
+      "publisher_approved": false,
+      "founder_text_decision": "approved_exact_revision",
+      "founder_text_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     },
     {
       "slug": "vividair-gfy-ztech-taz-controls-field-guide",
@@ -77,19 +107,29 @@
       "draft": "editorial/drafts/vividair-gfy-ztech-taz-controls-field-guide.md",
       "review": "editorial/reviews/vividair-gfy-ztech-taz-controls-field-guide-review.md",
       "media": null,
-      "status": "founder_review",
-      "publisher_approved": false
+      "status": "text_approved_release_held",
+      "publisher_approved": false,
+      "founder_text_decision": "approved_exact_revision",
+      "founder_text_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     },
     {
       "slug": "vividair-taz-72-field-guide",
       "title": "Inside the 72-Inch TAZ: A Field Guide to VividAir's Aisle Fan",
       "category": "Field Intelligence",
-      "angle": "Directional airflow, model identification and pending photo captions.",
+      "angle": "Directional airflow, publisher-attributed identification and the documented guide-label discrepancy.",
       "draft": "editorial/drafts/vividair-taz-72-field-guide.md",
       "review": "editorial/reviews/vividair-taz-72-field-guide-review.md",
       "media": null,
-      "status": "founder_review",
-      "publisher_approved": false
+      "status": "text_approved_release_held",
+      "publisher_approved": false,
+      "founder_text_decision": "approved_exact_revision",
+      "founder_text_sha256": "8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1",
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     },
     {
       "slug": "industrial-fan-heat-study-what-was-measured",
@@ -100,7 +140,12 @@
       "review": "editorial/reviews/industrial-fan-heat-study-what-was-measured-review.md",
       "media": null,
       "status": "founder_review",
-      "publisher_approved": false
+      "publisher_approved": false,
+      "founder_text_decision": "first_decision_pending",
+      "founder_text_sha256": null,
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     },
     {
       "slug": "ceiling-fans-hvac-air-distribution-research",
@@ -111,7 +156,12 @@
       "review": "editorial/reviews/ceiling-fans-hvac-air-distribution-research-review.md",
       "media": null,
       "status": "founder_review",
-      "publisher_approved": false
+      "publisher_approved": false,
+      "founder_text_decision": "first_decision_pending",
+      "founder_text_sha256": null,
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     },
     {
       "slug": "scissor-lift-osha-classification",
@@ -122,7 +172,12 @@
       "review": "editorial/reviews/scissor-lift-osha-classification-review.md",
       "media": null,
       "status": "founder_review",
-      "publisher_approved": false
+      "publisher_approved": false,
+      "founder_text_decision": "first_decision_pending",
+      "founder_text_sha256": null,
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     },
     {
       "slug": "fan-guarding-working-level",
@@ -133,7 +188,12 @@
       "review": "editorial/reviews/fan-guarding-working-level-review.md",
       "media": null,
       "status": "founder_review",
-      "publisher_approved": false
+      "publisher_approved": false,
+      "founder_text_decision": "first_decision_pending",
+      "founder_text_sha256": null,
+      "technical_documentary_status": "documentary_review_complete",
+      "release_authorization": "not_recorded",
+      "launch_ledger": "editorial/launch-completion-ledger.json"
     }
   ]
 }

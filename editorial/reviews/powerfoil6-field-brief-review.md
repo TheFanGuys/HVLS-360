@@ -66,3 +66,17 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 
 
 Voice pass revision record: c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+
+
+## Current launch reconciliation — November 11, 2026
+
+Exact manuscript SHA-256: `c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+
+Technical disposition: **documentary review complete for current scope** — Manual-based installation-scope briefing, not executable wiring or structural design. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `powerfoil6-field-brief`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
+
+- Rechecked current voltage choices, 8–24 ft diameters, onboard VFD, OLED controller, optional 24-fan BAFCon and lubricated gearbox as manufacturer statements. Evidence: Configurator and controls/mounting documentation; live_primary_recheck.
+- Recovered viewer-provided original PDF with urllib and pdftotext. Confirms 600 V manual category, mounting restrictions, two relay arrangements and annual maintenance. Text extraction rechecked; earlier companion review records diagram inspection. Evidence: Rev D November 19 2025; printed pp 1–2, 21, 23–24, 26–31; live_primary_pdf_text_recheck.
+
+Professional review becomes required if scope adds: Project feeder/protection sizes, structural calculation, terminal wiring instruction or fire-alarm system approval.
+
+Founder text: **approved exact revision**, preserved in `editorial/founder-approval-register.json`; do not ask for the same approval again. Selected media, metadata and release holds are separate in `editorial/launch-completion-ledger.json`. No release authorization is recorded. Historical unchecked items above are superseded only where this current record explicitly resolves them.

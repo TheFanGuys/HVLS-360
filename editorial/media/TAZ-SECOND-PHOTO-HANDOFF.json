@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-11",
+  "owner": "Art & Media Director / assistant visual review",
+  "article_slug": "vividair-taz-72-field-guide",
+  "file": "editorial/media/publisher/taz-72/taz-72-field-03.webp",
+  "sha256": "2070b5bc45c474b067ea5c4436a77ec8b46bc3bebb235e3a340419e3c44d04e3",
+  "dimensions": {
+    "width": 1152,
+    "height": 1536
+  },
+  "role": "Second contextual article photograph; not a replacement lead or card",
+  "status": "source_selection_accepted_responsive_integration_pending",
+  "alt": "Front view of a chain-suspended black directional fan showing horizontal discharge louvers and a protective guard above a production floor.",
+  "caption": "Front view of the publisher-identified TAZ, showing discharge louvers, protective guard and chain suspension. Big Fan Guys field photograph.",
+  "credit": "Big Fan Guys",
+  "identity_basis": "Publisher identification; no legible fan nameplate or independent 72-inch diameter confirmation in this photograph. Do not identify the separate floor fan in the background as TAZ.",
+  "rights": {
+    "basis": "Publisher confirms ownership and grants HVLS 360 editorial use",
+    "evidence": "editorial/media/publisher/taz-72/media-manifest.json",
+    "confirmed_at": "2026-11-10"
+  },
+  "source_visual_review": {
+    "performed": true,
+    "scope": "Opened exact full-source WebP at native 1152 by 1536. Main suspended fan housing, louvers, guard and chains are visible and unobstructed. Production-floor context retained. No prominent identifiable faces or personal/customer paperwork identified; visible equipment/stock markings are industrial labels and the caption does not name the facility. No source retouching or arbitrary crop needed.",
+    "model_compliance_clearance": false
+  },
+  "placement": {
+    "intent": "Place immediately after the first descriptive photo paragraph beginning The two Big Fan Guys installation photos, following the opening aisle-planning paragraph. Preserve approved manuscript bytes.",
+    "fit": "contain",
+    "position": "50% 50%",
+    "crop": "none; retain full source frame",
+    "width": "responsive to article text column",
+    "height": "auto; preserve 3:4 natural aspect ratio",
+    "card_use": false
+  },
+  "responsive_visual_review": {
+    "status": "pending Website integration",
+    "required": [
+      "Actual desktop, tablet and phone article rendering",
+      "Image loads at intended location with complete source frame and natural proportion",
+      "No horizontal overflow, clipping, unreadable caption or duplicate lead",
+      "Record rendering source revision, exact asset hash, widths and evidence before marking complete"
+    ],
+    "physical_iphone_test_claimed": false
+  },
+  "publication_allowed": false,
+  "handoff_owner": "Website & Editing lead; coordinate through shared board/PR",
+  "approval_boundary": "This accepts source selection, routine caption and full-frame intent only. It does not change founder text approval or authorize article release."
+}

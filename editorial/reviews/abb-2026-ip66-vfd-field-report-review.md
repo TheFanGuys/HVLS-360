@@ -42,3 +42,17 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 
 
 Voice pass revision record: 55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+
+
+## Current launch reconciliation — November 11, 2026
+
+Exact manuscript SHA-256: `55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+
+Technical disposition: **documentary review complete for current scope** — Manufacturer product announcement and exact leaflet interpretation; no HVLS retrofit design. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `abb-2026-ip66-vfd-field-report`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
+
+- Confirms +B063 5.5–22 kW, 380–480 V three-phase, -20 to 50 C, keypad -15 to 50 C, derating 40–50 C, direct-sun shield requirement and optional Bluetooth panel. Evidence: 9AKK108472A7668 Rev A EN 17.6.2026, technical data; live_primary_recheck.
+- US page links a different 2024 US flyer with broader power/voltage ranges and different temperature limits. It must not replace the exact 2026 leaflet cited by the article. Evidence: US landing page and linked Flyer; live_primary_recheck.
+
+Professional review becomes required if scope adds: An actual replacement selection, bypass permissibility, motor/drive compatibility, fire-interface wiring or site safety-function acceptance.
+
+Founder text: **approved exact revision**, preserved in `editorial/founder-approval-register.json`; do not ask for the same approval again. Selected media, metadata and release holds are separate in `editorial/launch-completion-ledger.json`. No release authorization is recorded. Historical unchecked items above are superseded only where this current record explicitly resolves them.

@@ -11,7 +11,7 @@
   "drafts": 12,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
-  "last_verified_python_tests": 200,
+  "last_verified_python_tests": 205,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Complete four major categories in separate project chats using durable evidence-based handoffs.",
@@ -33,7 +33,7 @@
   "unverified": [
     "Studio direct authenticated Save and second physical device reopen",
     "Expanded scheduled trigger and new research Issue creation/readback",
-    "Final article technical and visual clearance",
+    "TAZ second photo integration/responsive visual acceptance and four new brief founder text decisions",
     "Founder-authorized end-to-end news release",
     "Branch protection administration",
     "Free embedded COO accounts, backend and real execution",
@@ -106,5 +106,51 @@
     "report": "office/WEBSITE-EDITING-ACCEPTANCE-2026-11-11.md",
     "category_complete": false
   },
-  "website_wip_status": "superseded: resumed and merged via PR143"
+  "website_wip_status": "superseded: resumed and merged via PR143",
+  "content_completion": {
+    "status": "independent_content_work_complete_dependencies_open",
+    "checked_date": "2026-11-11",
+    "baseline_main": "fb248da",
+    "ledger": "editorial/launch-completion-ledger.json",
+    "finite_launch_pieces": 12,
+    "documentary_reviews_complete": 12,
+    "qualified_professional_signoffs": 0,
+    "original_eight_approval_hashes_preserved": true,
+    "metadata_packets_checked": 12,
+    "reference_retrievals_attempted": 24,
+    "reference_direct_opens": 23,
+    "reference_access_limit": "OSHA 1996 interpretation direct403; official indexed text recovered",
+    "existing_selected_asset_hashes_checked": 10,
+    "fully_integrated_illustrated_packages": 11,
+    "dependencies": [
+      {
+        "owner": "Website & Editing lead / Art Director",
+        "task": "Integrate TAZ second selected photo and inspect actual desktop/tablet/phone placements",
+        "evidence": "editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json"
+      },
+      {
+        "owner": "Chris",
+        "task": "First text decisions on four newer briefs",
+        "issues": [
+          133,
+          134,
+          135,
+          136
+        ]
+      }
+    ],
+    "release_authorized": false,
+    "backlog_outside_edition": [
+      96,
+      97
+    ],
+    "validation": {
+      "python_tests": 205,
+      "javascript_suites": 7,
+      "launch_evidence_audit": "passed",
+      "technical_audit": "passed",
+      "metadata_audit": "passed",
+      "publication_guard": "passed"
+    }
+  }
 }

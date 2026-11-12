@@ -51,3 +51,18 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 
 
 Voice pass revision record: 6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+
+
+## Current launch reconciliation — November 11, 2026
+
+Exact manuscript SHA-256: `6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+
+Technical disposition: **documentary review complete for current scope** — Manufacturer generation/documentation comparison; no interchangeability determination. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `vividair-gfy-ztech-taz-controls-field-guide`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
+
+- Rechecked nine sizes 8–24 ft, Navigator individual/group control and Z-Chill references as manufacturer claims. Evidence: Sizes and controls sections; live_primary_recheck.
+- Rechecked ABB/Dodge Quantis legacy description; does not identify installed hardware on every unit. Evidence: Historical page; live_primary_recheck.
+- Rechecked directional application, sizes and attributed family coverage/airflow claims; separate 72-inch guide link remains present. Evidence: Product and guide links; live_primary_recheck.
+
+Professional review becomes required if scope adds: Actual installed generation, replacement compatibility, mounting, controls wiring or legal ownership/rebrand finding.
+
+Founder text: **approved exact revision**, preserved in `editorial/founder-approval-register.json`; do not ask for the same approval again. Selected media, metadata and release holds are separate in `editorial/launch-completion-ledger.json`. No release authorization is recorded. Historical unchecked items above are superseded only where this current record explicitly resolves them.

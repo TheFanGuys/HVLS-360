@@ -1,68 +1,62 @@
 ---
-title: "Optidrive E4: What a Fan Service Tech Will Find Inside Invertek's New Small Drive"
+title: "Invertek's Optidrive E4: What the New General-Purpose Drive Is Built For"
 category: "Service & VFDs"
 status: "EDITORIAL DRAFT — NOT APPROVED"
 publication_allowed: false
 publisher_approval: "Required"
 primary_market: "United States"
 research_checked: "2026-11-12"
-seo_title: "Optidrive E4 for Fan Service Techs: E3 vs E4"
-seo_description: "Invertek's Optidrive E4 adds USB-C programming, spin start and BACnet. What changes from the E3, and what to check before one shows up on a fan job."
+seo_title: "Invertek Optidrive E4: Applications, Setup and E3 Changes"
+seo_description: "What Invertek built the Optidrive E4 for, how you set one up without a display, and what changed from the E3 for HVAC, fan and pump work."
 ---
 
-# Optidrive E4: What a Fan Service Tech Will Find Inside Invertek's New Small Drive
+# Invertek's Optidrive E4: What the New General-Purpose Drive Is Built For
 
-If a fan package shows up with an Invertek Optidrive E4 where you're used to seeing an E3, measure the panel before anything else. Invertek says the E4 bolts to the same foot mounts as the E3, but its listed dimensions run deeper: 136 mm against 123 mm on frame size 1, and 168 mm against 150 mm on size 2 [2][3]. In a tight control enclosure, that's the difference between the door closing or not.
+The Optidrive E4 is Invertek's new small general-purpose drive, the step up from its E3 [1][7]. It isn't a fan drive. Invertek's 2026 brochure gives it three application modes [3]:
 
-The E3 isn't going away. Invertek says it stays in full production as its core general-purpose drive [1][5].
+- Industrial: conveyors, mixers, treadmills
+- Fan: air handling units, ventilation fans, circulating fans, kitchen extract, air curtains
+- Pump: dosing, transfer and borehole pumps, pools, spas and fountains
+
+So the places a fan or HVAC contractor is likely to meet one are air handlers, exhaust fans and air curtains. Invertek doesn't list overhead HVLS fans for it, and most HVLS fans ship with a drive and controls the fan maker picked and programmed.
+
+## There's no screen to read
+
+Look at the front of an E4 and you'll find start, stop and up/down buttons, an RJ45 port and two status lights marked error and run [7]. Invertek's product images of sizes 1 and 2 show no numeric readout. Its spec tables still list a built-in 7-segment display [2][3], so check the unit in front of you, but don't plan on reading speed or fault codes off the drive.
+
+You set it up and read it with other tools. Invertek says the E4 powers up over USB-C for setup with no mains connected, and works with a phone app [1][5][6]. OptiTools Pro runs on a PC over USB-C or RJ45, and the Optistick PRO handles Bluetooth and parameter cloning [2][6]. Basic setup is 14 parameters, with up to 50 available [6]. If you want a readout at the panel, the brochure lists an optional TFT remote keypad [3].
 
 ## What's out now
 
-Invertek unveiled the E4 in November 2025 and put first availability in mid-2026; its launch page gives both end of Q2 and Q3 [1]. The first release covers frame sizes 1 and 2 only, in IP20 [1]. The brochure still lists sizes 3 to 5 as to be confirmed [3].
+Invertek unveiled the E4 in November 2025. Its launch page gives first availability as both end of Q2 and Q3 2026 [1]. The first release is frame sizes 1 and 2, IP20, 0.5 to 5 HP (0.37 to 4 kW) [1][2]. Sizes 3 to 5 are still marked to be confirmed [3].
 
-The current spec sheet lists [2]:
+Input options in the brochure's order tables [3]:
 
-- Three-phase input at 110 to 115 V, 200 to 240 V and 380 to 480 V
-- 0.5 to 5 HP (0.37 to 4 kW)
-- IP20, or NEMA 1 with an option kit
-- UL approval, including UL 61800-5-1
-- Operating range of -20 to 50 °C
+- 110 to 115 V single-phase, using a voltage doubler, up to 1.5 HP
+- 200 to 240 V single-phase or three-phase
+- 380 to 480 V three-phase
 
-Check the fan motor nameplate against that range. Then check where the drive will live. The E3 comes in an IP66 version up to 22 kW, and the E4 brochure lists IP20 only [3]. If the drive has to hang in a washdown area or out in the weather, an E4 needs a separate rated enclosure.
+It's UL approved, including UL 61800-5-1, and runs from -20 to 50 °C [2]. It's IP20, or NEMA 1 with an option kit [2]. The E3 comes in an IP66 version and the E4 doesn't yet [3], so a wet or outdoor spot still needs a rated enclosure.
 
-## USB-C and the bench setup
+## Same footprint, deeper box
 
-Invertek says the E4 powers up over USB-C, so you can program it in the box with no mains connected [5][6]. Its OptiTools Pro software runs over USB-C or RJ45, and there's an Optistick PRO for cloning parameters and a Bluetooth link to a PC [2][6].
+Invertek says the E4 uses the same mounting as the E3 [1]. It's deeper, though: 136 mm against 123 mm on size 1, and 168 mm against 150 mm on size 2 [3]. Measure the panel depth before you swap one for an E3.
 
-For a service shop, that means a replacement drive can be loaded on the bench from the fan maker's parameter file before the truck leaves. You still check every parameter against the fan's documentation once it's on site.
+## What Fan mode brings
 
-## Fan features worth knowing
+The brochure's HVAC features are spin start, variable torque and belt failure detection, plus a bidirectional fire mode [2][3]. Spin start picks up a motor that's already turning, like an exhaust fan windmilling in a draft. Belt failure detection matters on belt-drive air handlers. There's also an internal PI controller and a sleep function for fans run off a temperature or pressure signal [2].
 
-Three items on the E4 spec sheet matter on fan work [2]:
+BACnet MS/TP is built in, next to Modbus RTU and CANopen [2]. The E3 doesn't list BACnet, so an E4 on an air handler can talk to the building system without a gateway. Ethernet protocols are optional cards [2].
 
-- Spin start. Listed under HVAC features. On a big fan that's still turning from the last run or from a draft through the dock doors, the drive can pick up the rotating motor instead of starting from zero.
-- Output phase check. The drive checks all three output phases every time it's enabled. If there's a disconnect at the fan and somebody left it open, the drive will tell you. Invertek lets you turn the check off.
-- Standby and sleep, plus an internal PI controller, for fans run from a temperature or pressure signal.
+## Faults and safety
 
-The I/O is the same small count as the E3: two digital inputs, two analog-or-digital inputs, one analog-or-digital output and one changeover relay rated 250 Vac or 30 Vdc [2][3]. The 24 V user supply goes from 100 mA on the E3 to 150 mA on the E4, a little more room if you're powering a sensor off the drive [3].
+The E4 keeps its last four trips with times, plus logged current, drive temperature and DC bus voltage from just before each one [2]. Invertek calls it a flight recorder [1]. With no readout on the drive, you pull that history with OptiTools or the app [2][6].
 
-## Fault history
+Both the E3 and E4 have Safe Torque Off rated SIL 3 [3][4]. Invertek notes the drive stays connected to mains with STO active [4]. STO stops torque. It doesn't make anything safe to touch, so lock out at the disconnect.
 
-When an E4 trips, it stores the last four trips with times, plus logged data from just before each trip, including output current, drive temperature and DC bus voltage [2]. Invertek's launch material calls this a built-in flight recorder [1].
+## If someone proposes one for a fan
 
-The E3 already kept the last four trips with pre-trip logging, so the record itself isn't new [3]. The 2026 brochure adds per-phase input and output loss checks and real-unit readouts like PSI for the E4, which it doesn't list for the E3 [3]. Pull the trip history before you call support. Four trips with current and bus voltage tell a fan maker's support line more than a fault code you read off the keypad.
-
-## BACnet built in
-
-The E3 lists Modbus RTU and CANopen as built in. The E4 adds BACnet MS/TP to that list [2][3]. For a facility that wants its fans on the building automation system, that's one less gateway. Ethernet protocols on the E4 (Modbus TCP, EtherNet/IP, PROFINET and EtherCAT) are optional cards, not standard [2]. Check what was ordered before you promise the controls contractor an Ethernet connection.
-
-## Safe Torque Off
-
-Both drives carry STO rated SIL 3 [3][4]. Invertek states that with STO active, the drive stays connected to mains power [4]. STO stops the drive from making torque. It doesn't make the drive or motor safe to touch, so lock out at the disconnect before you open anything.
-
-## Before you swap one in
-
-Same mounting holes don't make an E4 a drop-in for an E3 on a fan. The fan maker set the motor data, ramps, speed limits and control wiring for the drive it shipped. If you're replacing a failed E3 on an HVLS fan, get the fan maker's approval and parameter file for the E4 first.
+An E4 makes sense where you'd use an E3 or another small general-purpose drive: an exhaust fan, an air curtain, a small air handler. On a fan that came with its own drive package, including an HVLS fan, the fan maker's drive and settings come first. Get their approval and parameter file before you put any other drive on it.
 
 ### Source record
 
@@ -77,3 +71,5 @@ Same mounting holes don't make an E4 a drop-in for an E3 on a fan. The fan maker
 [5] Control Engineering Europe, *Optidrive E4 from Invertek delivers increased VFD capability*, June 2, 2026: https://www.controlengeurope.com/article/222305/Optidrive-E4-from-Invertek-delivers-increased-VFD-capability.aspx
 
 [6] Invertek Drives, *Optidrive E4 features*, checked November 12, 2026: https://www.invertekdrives.com/variable-frequency-drives/optidrive-e4/features
+
+[7] Invertek Drives, *Optidrive E4 Variable Frequency Drive* (product page and product images), checked November 12, 2026: https://www.invertekdrives.com/variable-frequency-drives/optidrive-e4

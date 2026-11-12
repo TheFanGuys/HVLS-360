@@ -319,8 +319,8 @@
     },
     "optidrive-e4-fan-service-guide": {
       "file": "editorial/media/original/optidrive-e4-fan-service-guide.svg",
-      "alt": "Diagram of a compact panel-mount drive showing mains, motor, control, STO, relay, USB-C and RJ45 connections, with a side view comparing 123 mm and 136 mm depths on the same mounts",
-      "caption": "Illustration of a compact panel-mount drive, its connections and the listed depth difference between the E3 and E4.",
+      "alt": "Bar chart comparing listed depth of Optidrive E3 and E4 drives: 123 vs 136 mm on size 1, 150 vs 168 mm on size 2",
+      "caption": "Listed IP20 depths from Invertek's 2026 E Series brochure.",
       "kind": "diagram",
       "credit": "HVLS 360°",
       "presentation": {

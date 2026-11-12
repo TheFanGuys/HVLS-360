@@ -1,96 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="title desc">
-  <title id="title">Compact panel-mount drive: connections and enclosure depth</title>
-  <desc id="desc">Front view of a generic compact variable frequency drive with keypad, USB-C and RJ45 ports, control terminals, Safe Torque Off terminals, relay output, mains input and motor output. A side view compares listed depths of frame size 1: 123 mm for the older model and 136 mm for the newer model on the same foot mounts.</desc>
-  <rect width="1200" height="675" fill="#f4f1ea"/>
-  <!-- back panel -->
-  <rect x="40" y="30" width="660" height="615" fill="#dcd8cf"/>
-  <text x="56" y="58" font-size="16" fill="#555">Control panel back plate</text>
-  <!-- drive body front -->
-  <rect x="250" y="80" width="250" height="520" rx="10" fill="#e9ecef" stroke="#3c4a57" stroke-width="3"/>
-  <rect x="250" y="80" width="250" height="60" rx="10" fill="#3c4a57"/>
-  <!-- mains terminals top -->
-  <g fill="#c9a227" stroke="#333">
-    <rect x="290" y="96" width="34" height="30"/><rect x="340" y="96" width="34" height="30"/><rect x="390" y="96" width="34" height="30"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="Inter, Arial, Helvetica, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Optidrive E3 vs E4 depth</title>
+  <desc id="d">Listed IP20 depth: size 1, E3 123 mm, E4 136 mm; size 2, E3 150 mm, E4 168 mm. E4 at launch: sizes 1 and 2, 0.5 to 5 HP, IP20, single- or three-phase input, BACnet MS/TP built in, set up by USB-C, app or PC.</desc>
+  <rect width="1200" height="675" fill="#f4f5f2"/>
+  <text x="60" y="78" font-size="38" font-weight="700" fill="#122230">Same footprint, deeper box</text>
+  <text x="60" y="118" font-size="22" fill="#4a5a66">Listed IP20 depth in millimeters, Optidrive E3 vs E4</text>
+
+  <g font-size="22" fill="#122230">
+    <text x="60" y="210" font-weight="700">Frame size 1</text>
+    <text x="60" y="262">E3</text>
+    <rect x="130" y="238" width="492" height="36" fill="#9aa8b1"/>
+    <text x="638" y="264" font-weight="700">123 mm</text>
+    <text x="60" y="318">E4</text>
+    <rect x="130" y="294" width="544" height="36" fill="#1679b3"/>
+    <text x="690" y="320" font-weight="700">136 mm</text>
+
+    <text x="60" y="412" font-weight="700">Frame size 2</text>
+    <text x="60" y="464">E3</text>
+    <rect x="130" y="440" width="600" height="36" fill="#9aa8b1"/>
+    <text x="746" y="466" font-weight="700">150 mm</text>
+    <text x="60" y="520">E4</text>
+    <rect x="130" y="496" width="672" height="36" fill="#1679b3"/>
+    <text x="818" y="522" font-weight="700">168 mm</text>
   </g>
-  <text x="307" y="117" font-size="13" text-anchor="middle">L1</text>
-  <text x="357" y="117" font-size="13" text-anchor="middle">L2</text>
-  <text x="407" y="117" font-size="13" text-anchor="middle">L3</text>
-  <!-- keypad -->
-  <rect x="300" y="170" width="150" height="70" rx="4" fill="#20303c"/>
-  <text x="375" y="214" font-size="26" text-anchor="middle" fill="#7fd47f" font-family="Courier New, monospace">50.0</text>
-  <g fill="#9aa6b0">
-    <circle cx="315" cy="265" r="11"/><circle cx="355" cy="265" r="11"/><circle cx="395" cy="265" r="11"/><circle cx="435" cy="265" r="11"/>
+
+  <line x1="130" y1="228" x2="130" y2="340" stroke="#122230" stroke-width="2"/>
+  <line x1="130" y1="430" x2="130" y2="560" stroke="#122230" stroke-width="2"/>
+  <text x="130" y="590" font-size="18" fill="#4a5a66">Back plate</text>
+
+  <g font-size="20" fill="#122230">
+    <text x="960" y="236" font-weight="700">E4 at launch</text>
+    <text x="960" y="276">Sizes 1 and 2</text>
+    <text x="960" y="308">0.5 to 5 HP</text>
+    <text x="960" y="340">IP20</text>
+    <text x="960" y="372">1- or 3-phase input</text>
+    <text x="960" y="404">BACnet MS/TP built in</text>
+    <text x="960" y="436">Set up by USB-C,</text>
+    <text x="960" y="462">app or PC</text>
   </g>
-  <circle cx="300" cy="300" r="6" fill="#4caf50"/><circle cx="320" cy="300" r="6" fill="#e0b13a"/>
-  <!-- ports -->
-  <rect x="300" y="330" width="44" height="34" rx="3" fill="#20303c"/>
-  <rect x="380" y="336" width="34" height="14" rx="7" fill="#20303c"/>
-  <!-- control terminal strip -->
-  <rect x="270" y="400" width="210" height="34" fill="#4a7a52"/>
-  <g fill="#c9a227"><rect x="278" y="407" width="16" height="20"/><rect x="300" y="407" width="16" height="20"/><rect x="322" y="407" width="16" height="20"/><rect x="344" y="407" width="16" height="20"/><rect x="366" y="407" width="16" height="20"/><rect x="388" y="407" width="16" height="20"/><rect x="410" y="407" width="16" height="20"/><rect x="432" y="407" width="16" height="20"/><rect x="454" y="407" width="16" height="20"/></g>
-  <rect x="270" y="450" width="96" height="34" fill="#b23a2e"/>
-  <g fill="#c9a227"><rect x="278" y="457" width="16" height="20"/><rect x="300" y="457" width="16" height="20"/><rect x="322" y="457" width="16" height="20"/><rect x="344" y="457" width="12" height="20"/></g>
-  <rect x="384" y="450" width="96" height="34" fill="#4a7a52"/>
-  <g fill="#c9a227"><rect x="394" y="457" width="20" height="20"/><rect x="422" y="457" width="20" height="20"/><rect x="450" y="457" width="20" height="20"/></g>
-  <!-- motor terminals bottom -->
-  <rect x="250" y="540" width="250" height="60" rx="10" fill="#3c4a57"/>
-  <g fill="#c9a227" stroke="#333">
-    <rect x="290" y="554" width="34" height="30"/><rect x="340" y="554" width="34" height="30"/><rect x="390" y="554" width="34" height="30"/>
-  </g>
-  <text x="307" y="575" font-size="13" text-anchor="middle">U</text>
-  <text x="357" y="575" font-size="13" text-anchor="middle">V</text>
-  <text x="407" y="575" font-size="13" text-anchor="middle">W</text>
-  <!-- left labels -->
-  <g font-size="16" fill="#222">
-    <text x="60" y="116">Mains in, 3-phase</text>
-    <text x="60" y="210">Keypad and display</text>
-    <text x="60" y="305">Status LEDs</text>
-    <text x="60" y="352">RJ45 port</text>
-    <text x="60" y="470">STO terminals</text>
-    <text x="60" y="575">Motor out to fan</text>
-  </g>
-  <g stroke="#555" stroke-width="1.5">
-    <line x1="205" y1="111" x2="288" y2="111"/>
-    <line x1="215" y1="205" x2="298" y2="205"/>
-    <line x1="160" y1="300" x2="292" y2="300"/>
-    <line x1="140" y1="347" x2="298" y2="347"/>
-    <line x1="180" y1="466" x2="268" y2="466"/>
-    <line x1="200" y1="570" x2="288" y2="570"/>
-  </g>
-  <!-- right labels -->
-  <g font-size="16" fill="#222">
-    <text x="520" y="347">USB-C: program</text>
-    <text x="520" y="367">with no mains</text>
-    <text x="520" y="412">Control inputs:</text>
-    <text x="520" y="432">2 digital,</text>
-    <text x="520" y="452">2 analog/digital</text>
-    <text x="520" y="500">Relay output</text>
-  </g>
-  <g stroke="#555" stroke-width="1.5">
-    <line x1="416" y1="343" x2="514" y2="343"/>
-    <line x1="482" y1="417" x2="514" y2="417"/>
-    <line x1="482" y1="480" x2="514" y2="495"/>
-  </g>
-  <!-- side view depth comparison -->
-  <text x="760" y="70" font-size="20" font-weight="bold" fill="#111">Same foot mounts, more depth</text>
-  <text x="760" y="96" font-size="16" fill="#444">Side view, frame size 1, listed dimensions</text>
-  <rect x="760" y="130" width="12" height="430" fill="#9a958b"/>
-  <text x="752" y="590" font-size="14" fill="#555">back plate</text>
-  <!-- older drive -->
-  <rect x="772" y="170" width="246" height="150" fill="#e9ecef" stroke="#3c4a57" stroke-width="2"/>
-  <text x="780" y="160" font-size="17" fill="#222">Optidrive E3</text>
-  <line x1="772" y1="338" x2="1018" y2="338" stroke="#111" stroke-width="2"/>
-  <line x1="1018" y1="330" x2="1018" y2="346" stroke="#111" stroke-width="2"/>
-  <text x="895" y="362" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">123 mm</text>
-  <!-- newer drive -->
-  <rect x="772" y="390" width="272" height="150" fill="#e9ecef" stroke="#3c4a57" stroke-width="2"/>
-  <text x="780" y="380" font-size="17" fill="#222">Optidrive E4</text>
-  <line x1="772" y1="558" x2="1044" y2="558" stroke="#111" stroke-width="2"/>
-  <line x1="1044" y1="550" x2="1044" y2="566" stroke="#111" stroke-width="2"/>
-  <text x="908" y="582" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">136 mm</text>
-  <!-- door line -->
-  <line x1="1080" y1="130" x2="1080" y2="560" stroke="#b23a2e" stroke-width="2" stroke-dasharray="10 6"/>
-  <text x="1090" y="150" font-size="15" fill="#b23a2e">enclosure</text>
-  <text x="1090" y="168" font-size="15" fill="#b23a2e">door</text>
-  <text x="760" y="630" font-size="15" fill="#444">Size 2: 150 mm vs 168 mm</text>
+  <line x1="935" y1="210" x2="935" y2="475" stroke="#f58220" stroke-width="4"/>
+
+  <text x="60" y="640" font-size="17" fill="#5d6e7a">Source: Invertek Drives E Series brochure, 2026. Bars drawn to scale.</text>
 </svg>

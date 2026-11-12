@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slug": "optidrive-e4-fan-service-guide",
+  "publisher_decision": "approved",
+  "technical_review": "complete",
+  "editorial_review": "complete",
+  "media_rights": "cleared",
+  "publisher_name": "Chris Fogarty",
+  "approved_at_utc": "2026-11-12T11:30:03Z",
+  "publisher_attestation": "I explicitly authorize publication of this article.",
+  "approval_mechanism": "Founder approves by merging the weekly release pull request. Unmerged, nothing is live.",
+  "source_review_notes": "Writer's source check: editorial/reviews/optidrive-e4-fan-service-guide-review.md. Technical review is the founder's field review at merge; no licensed engineer sign-off claimed.",
+  "media_rights_evidence": "Lead image is a Big Fan Guys photograph or original HVLS 360 illustration: editorial/media/original/optidrive-e4-fan-service-guide.svg",
+  "article_sha256": "334b45693c88c7c250cd88d3237ec507d8a6bf7c7d0e4ec39b9723e43f10a19e",
+  "release_inputs_sha256": "e6c618b8426fa2651cb52b0cb02ece120dd3e3833bb08a1ddfaffd656b51c297"
+}

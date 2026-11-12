@@ -293,6 +293,29 @@
         "reviewer": "Art & Media Director / assistant visual review",
         "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
       }
+    },
+    "optidrive-e4-fan-service-guide": {
+      "file": "editorial/media/original/optidrive-e4-fan-service-guide.svg",
+      "alt": "Diagram of a compact panel-mount drive showing mains, motor, control, STO, relay, USB-C and RJ45 connections, with a side view comparing 123 mm and 136 mm depths on the same mounts",
+      "caption": "Illustration of a compact panel-mount drive, its connections and the listed depth difference between the E3 and E4.",
+      "kind": "diagram",
+      "credit": "HVLS 360°",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-12",
+        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+        "reviewer": "Weekly article worker (Art desk)",
+        "evidence": "office/weekly_article.py"
+      }
     }
   }
 }

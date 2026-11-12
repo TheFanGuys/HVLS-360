@@ -253,6 +253,22 @@
       "conditional_qualified_review_trigger": "Certifying a particular guard design or asserting every installation above seven feet is exempt from all hazards.",
       "publisher_approval_scope": "Separate final release authorization; not the founder text decision",
       "founder_text_approval": "first_decision_pending"
+    },
+    {
+      "slug": "optidrive-e4-fan-service-guide",
+      "title": "Optidrive E4: What a Fan Service Tech Will Find Inside Invertek's New Small Drive",
+      "scope": "Weekly article; documentary source check by the writer",
+      "primary_review_file": "editorial/reviews/optidrive-e4-fan-service-guide-review.md",
+      "technical_status": "awaiting_qualified_review",
+      "reviewer_identity": null,
+      "review_date": null,
+      "review_evidence": null,
+      "publisher_approval": "founder_merge_of_release_pr",
+      "ai_expert_review": "complete",
+      "ai_expert_review_file": "editorial/reviews/optidrive-e4-fan-service-guide-review.md",
+      "ai_review_scope": "Writer's source and claim check",
+      "qualified_review_required": false,
+      "draft_sha256": "334b45693c88c7c250cd88d3237ec507d8a6bf7c7d0e4ec39b9723e43f10a19e"
     }
   ],
   "policy": "Documentary source review is distinct from independent qualified signoff. External human review is required for consequential prescriptive or site-specific regulated judgments, not as a blanket gate for attributed reporting. Exact-revision claim findings and conditional triggers are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Zero qualified independent signoffs; no release authorization.",

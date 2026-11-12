@@ -22,7 +22,8 @@
       "remaining_blockers": [],
       "media_proof": "office/production-media-proof-96.html",
       "first_text_decision": "pending",
-      "reviewed_media_source_sha256": "a6011124f79cce789b4f056ecdb6a73bbd2755df5de904e26e2bfe7f9a788e4d"
+      "reviewed_media_source_sha256": "a6011124f79cce789b4f056ecdb6a73bbd2755df5de904e26e2bfe7f9a788e4d",
+      "draft_branch": "production/issue-96"
     }
   ]
 }

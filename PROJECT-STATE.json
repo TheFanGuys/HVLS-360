@@ -62,5 +62,8 @@
   "selected_image_composition_complete": true,
   "selected_image_reviewed_stories": 12,
   "public_research_image_placements_reviewed": 6,
-  "art_media_director_owner": "Art & Media Director \u2014 assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md"
+  "art_media_director_owner": "Art & Media Director — assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
+  "art_director_checkpoint": "editorial/media/art-director-checkpoint.json",
+  "art_director_last_checked_source": "d88ea51e0c6c0da1c010b6456c320886d8574a8a",
+  "art_director_last_outcome": "baseline_established_no_relevant_change"
 }

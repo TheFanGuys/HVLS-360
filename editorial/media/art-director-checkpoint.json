@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "last_successful_commit": "d88ea51e0c6c0da1c010b6456c320886d8574a8a",
+  "checked_at_utc": "2026-11-12T00:00:07Z",
+  "outcome": "baseline_established_no_relevant_change",
+  "reviewed_image_hashes": {
+    "editorial/media/publisher/bfg-field/warehouse-hvls.webp": {
+      "sha256": "3258472f0f3d509d8cdef31f302348f7387901a57437aa07d3e9c3df747ebb95",
+      "git_blob_sha": "dae950271aaf3d928f854965e3669818296d951d"
+    },
+    "editorial/media/original/vfd-compatibility-check.svg": {
+      "sha256": "f6c52204f1998c18f17661bd880466c1a02e47fa9f4fd5bd34eac916b37cd2b3",
+      "git_blob_sha": "9dfb3d565971fa4ad580caff9b3d1db8d822b325"
+    },
+    "editorial/media/publisher/bfg-field/ceiling-fan.webp": {
+      "sha256": "77926e6cc63eae1431b593467677119be3a524173144269753821fc6bae9f1c8",
+      "git_blob_sha": "6d4d6c9497bea16af9abce589fc779818a11359b"
+    },
+    "editorial/media/original/fan-system-documentation.svg": {
+      "sha256": "b90d00aff24c441b50c771b7ea375ba88432e1c09e4caa126792448aa46e22f2",
+      "git_blob_sha": "452242de3754308411db3f11b6163f528521545a"
+    },
+    "editorial/media/original/scissor-lift-access-planning.svg": {
+      "sha256": "0b8b9aa036aaa496013a01d10b185d03fa5a60db21c49a7de79264c554a51036",
+      "git_blob_sha": "22c111f375d6eecafa9c12a6348435946c694c7c"
+    },
+    "editorial/media/publisher/bfg-field/fan-hub.webp": {
+      "sha256": "9bd9294ad43dcf58850096efae2918487710a2dd3f36203775534c8941889fba",
+      "git_blob_sha": "6cf9e00b90e834d1260158a09cd61706d8fee786"
+    },
+    "editorial/media/publisher/taz-72/taz-72-field-02.webp": {
+      "sha256": "5e30eb8ee728ab53a4ff891fadd2b0da1c4dd2f8e0a0ca3bf6d9c9b473e9266b",
+      "git_blob_sha": "0867f6dd0d8cabc34adf329bc2ca2099b32b94fd"
+    },
+    "editorial/media/publisher/bfg-field/production-floor.webp": {
+      "sha256": "71f8b297ffecb4480d576ec402f8cf66d8a3040e45f429f7b2fc7b0ef672e986",
+      "git_blob_sha": "f2c66e221a23aa2762e4e029299dc50947ea4f10"
+    },
+    "editorial/media/publisher/bfg-field/hangar-airflow-context.webp": {
+      "sha256": "37e0f8571a0ee964d842ccd9d589cdfa85dce3fb1347ee5e13f7b7fb65d57d7c",
+      "git_blob_sha": "d5f951013b66deb9d68b55d8b13f2008679ddaaa"
+    },
+    "editorial/media/publisher/bfg-field/elevated-install.webp": {
+      "sha256": "c4fc16954e8c927b861dad57279c2730cfc75cb0cb700b68df9037193be5987c",
+      "git_blob_sha": "b8709b62426bc95144352e50e71f9bb7ed4e374e"
+    }
+  },
+  "selected_review": "editorial/media/CROP-REVIEW-2026-11-11.md",
+  "selected_review_basis_commit": "69359b06b653dba1019fae8ca1f3c7baee7dd4a2",
+  "visual_acceptance_basis": "Existing recorded Director/deployed review carried forward because selected assets, mappings and rendering sources are unchanged. No new visual inspection or device testing claimed in this run.",
+  "verification": {
+    "all_ten_selected_sha256_match_review": true,
+    "selected_stories": 12,
+    "public_research_placements": 6,
+    "catalog_candidates": 73,
+    "new_upload_images": 0,
+    "compare_commits": 1,
+    "changed_source_files": [],
+    "changed_record_files": [
+      "DECISIONS.md",
+      "PROJECT-HANDOFF.md",
+      "PROJECT-STATE.json",
+      "START-HERE.md",
+      "editorial/media/CROP-REVIEW-2026-11-11.md"
+    ],
+    "founder_approval_register_blob_sha": "5fe989e4d89433e2e33133064b318873b49aa2af"
+  },
+  "blockers": [],
+  "remaining_separate_work": [
+    "Issue 106 exact-model applicability evidence where needed and article-specific technical diagram/readability clearance remain open; no blanket clearance inferred.",
+    "Original eight founder approvals retained; four new briefings remain separate; no article publication authorized."
+  ],
+  "next_run": "Compare current main against last_successful_commit, including new uploads, manuscripts, media, captions, mappings and rendering/CSS. Ignore checkpoint-only commits and record-only Art Director maintenance commits when determining relevant changes. If relevant source and outcome are unchanged, do not write another checkpoint, change timestamps or add Issue comments.",
+  "source_inventory_git_blobs": {
+    "art-library/README.md": "280f2251ce67b3a2b9628f3d5dce84ca6f15cfdd",
+    "art-library/bigfanguys-com/agriculture/IMG_0247.webp": "7f3fcf6833261baee6a7b09d82323348acc6a8d5",
+    "art-library/bigfanguys-com/agriculture/IMG_0248.webp": "8c5821ba4b8e68c2a2e10c5fed1de31d6128818e",
+    "art-library/bigfanguys-com/agriculture/IMG_0249.webp": "d8af6ac5e95d485873b0c4b887c1550d66d6c16f",
+    "art-library/bigfanguys-com/agriculture/IMG_0250.webp": "4b9fc22fc612a6bb4b4a0f41ec0eb2510162400a",
+    "art-library/bigfanguys-com/agriculture/IMG_0251.webp": "3c85871b8fee2811ccc222b0cc96008f8ec3f185",
+    "art-library/bigfanguys-com/agriculture/IMG_0252.webp": "50fa237b2f414f6c58a7825177e45605766f63f7",
+    "art-library/bigfanguys-com/automotive/IMG_0255.webp": "3a38b9cdfc0a2ebf7567c53b07ddc21ac131f991",
+    "art-library/bigfanguys-com/automotive/IMG_6357.webp": "5b0822fe21a9c02ecfca26a75aa95bf199cf6379",
+    "art-library/bigfanguys-com/aviation/IMG_2385.webp": "4169f3f24c1954d1165b34121c3e653f40f1136b",
+    "art-library/bigfanguys-com/aviation/IMG_6148.webp": "38dd93aac573a554f5dfe3ef508136066b8e4f05",
+    "art-library/bigfanguys-com/aviation/IMG_6150.webp": "dda25f45e7d393af3f322f13880833f34c63ac91",
+    "art-library/bigfanguys-com/aviation/IMG_6153.webp": "fa7ff184ca4631daf0c02deaf627efa15f342036",
+    "art-library/bigfanguys-com/aviation/IMG_6206.webp": "4cab6be3338e77b8b69d369b1f63952ecb985596",
+    "art-library/bigfanguys-com/aviation/IMG_6212.webp": "ca5b6f23d74627a0aba9ab0b66ed25455b035725",
+    "art-library/bigfanguys-com/aviation/IMG_6274.webp": "d5f951013b66deb9d68b55d8b13f2008679ddaaa",
+    "art-library/bigfanguys-com/aviation/IMG_6293.webp": "4c371e2af5277a3ed606a3547e8ea50b7bcc668b",
+    "art-library/bigfanguys-com/aviation/IMG_6298.webp": "ee3f6b6b4bc08c90c6bf17f1cab0bb83cf546b81",
+    "art-library/bigfanguys-com/aviation/IMG_6300.webp": "78a47dcc10edd914c39ab80b8787fa2ac95074fd",
+    "art-library/bigfanguys-com/aviation/IMG_9636.webp": "9b453483d571b812f6fae35afc14d1b63eaebaaf",
+    "art-library/bigfanguys-com/brand/coverage-map.webp": "09d4dce35a309fd34fb0b76fb9c824dddf36286d",
+    "art-library/bigfanguys-com/brand/logo.webp": "d5937ac4275109147c791070054af992860d2803",
+    "art-library/bigfanguys-com/brand/mascot.webp": "daa26855a10f6d1b4bb8d7c55952f97d26e080ba",
+    "art-library/bigfanguys-com/government/815246BE-7923-4CDF-9338-120E936D4C8C.webp": "8e8f6db968c5cf4ea960eab52d0bb1153e5cb042",
+    "art-library/bigfanguys-com/government/IMG_0246.webp": "6c433d844038e779b87163d349219a7ff58db35e",
+    "art-library/bigfanguys-com/government/IMG_5618.webp": "c8028ded6b075123b82656b77640ec34c2993783",
+    "art-library/bigfanguys-com/government/IMG_5686.webp": "007762450fbb26d6cfdf1154f83fdbe91291a935",
+    "art-library/bigfanguys-com/government/IMG_5687.webp": "ea265fb82fb92a28c24c4bde89eb022142d6190c",
+    "art-library/bigfanguys-com/government/IMG_7825.webp": "bbed7b45b39fd0b5933592aa1edcf255268d0206",
+    "art-library/bigfanguys-com/government/IMG_9636.webp": "9b453483d571b812f6fae35afc14d1b63eaebaaf",
+    "art-library/bigfanguys-com/install-service/IMG_0254.webp": "03d68509739cb136b293b4cfa30adf4740d34368",
+    "art-library/bigfanguys-com/install-service/IMG_4970.webp": "8c81c8c94c87e6d9380d9e2fb4314c998a5fe4b3",
+    "art-library/bigfanguys-com/install-service/IMG_4971.webp": "8e310b4d3dd5264152dd51dbf3d5a356b6ab9b1b",
+    "art-library/bigfanguys-com/install-service/IMG_5669.webp": "054ccdf263b294342f12c8a831002a58b99fb807",
+    "art-library/bigfanguys-com/install-service/IMG_7178.webp": "f4754f772beec6990d3accd7d7828d8935b4c112",
+    "art-library/bigfanguys-com/install-service/IMG_7580.webp": "812963209e31364d5db01f641f9ff9bbf921791a",
+    "art-library/bigfanguys-com/install-service/IMG_7721.webp": "8dbaf6f5def74f3f47655894f5b7a8a88ddf86cf",
+    "art-library/bigfanguys-com/install-service/IMG_9303.webp": "7a2ce4fefe63687565ee4c65a8c66ca0f6719749",
+    "art-library/bigfanguys-com/install-service/IMG_9305.webp": "1d91d6ac3a574a240fabc192b53291f908b0fd64",
+    "art-library/bigfanguys-com/install-service/IMG_9306.webp": "0655040482292e69b3e9306df0fa316b2971ff8d",
+    "art-library/bigfanguys-com/install-service/IMG_9307.webp": "fcc75bd7305568f6d993fdc36619ed9688cf2894",
+    "art-library/bigfanguys-com/manufacturing/IMG_0256.webp": "7028a7012acba7d657633323621756fb87e2d45a",
+    "art-library/bigfanguys-com/manufacturing/IMG_0258.webp": "09e5dbb688dc89b22fa49db5d590bc59914633f2",
+    "art-library/bigfanguys-com/manufacturing/IMG_2657.webp": "51dd9418f2011a6769f9caa0cc070994573db6da",
+    "art-library/bigfanguys-com/manufacturing/IMG_3550.webp": "386a351d1a04d46097c823db464f2371742346b7",
+    "art-library/bigfanguys-com/manufacturing/IMG_4830.webp": "bb3d0334d2ff218c6aa0a9f5a314439b1392be92",
+    "art-library/bigfanguys-com/manufacturing/IMG_4833.webp": "749cca7d8dc52a18853c272d95ee61fc0c04a672",
+    "art-library/bigfanguys-com/manufacturing/IMG_4834.webp": "681d62c80202c6a7da449c1f28497e89d2508577",
+    "art-library/bigfanguys-com/manufacturing/IMG_4836.webp": "1331443893f92e2062c8b81c583a572eb27ddfef",
+    "art-library/bigfanguys-com/manufacturing/IMG_5662.webp": "9326564343df7055a5712600b2d7dad166eb4210",
+    "art-library/bigfanguys-com/manufacturing/IMG_5663.webp": "b73b77226627d6419b571b221571bb144498e19b",
+    "art-library/bigfanguys-com/manufacturing/IMG_5667.webp": "343c65a2d4a9756a2a137d2bb43882ced74536e3",
+    "art-library/bigfanguys-com/manufacturing/IMG_5668.webp": "d7f5df90470f33a6dee63f032c287de4c6688df2",
+    "art-library/bigfanguys-com/manufacturing/IMG_6903.webp": "3814ef506a083b69af94a0c3ed1f8822f1e271c1",
+    "art-library/bigfanguys-com/manufacturing/IMG_7830.webp": "fedd1d01708ef62d9e995e4c65b971de992df5ac",
+    "art-library/bigfanguys-com/manufacturing/IMG_8348.webp": "a814b04ffda51cb24d99cc34b49aa39d89fbc869",
+    "art-library/bigfanguys-com/manufacturing/IMG_8703.webp": "e3764f69aac78c2016f781384429cc7fee967e1d",
+    "art-library/bigfanguys-com/manufacturing/IMG_8712.webp": "f2d647bc7ccce4864565bbadf360ca28f6e0ecf0",
+    "art-library/bigfanguys-com/manufacturing/IMG_8715.webp": "da548d7fc8d573e2a359898853fb712371ee4766",
+    "art-library/bigfanguys-com/manufacturing/IMG_9565.webp": "0f6777dc163426437daa513fa5d062827d37e3b0",
+    "art-library/bigfanguys-com/warehouse/IMG_2732.webp": "d14defcd6d2dc554665d6c96082deea509e9b11e",
+    "art-library/bigfanguys-com/warehouse/IMG_2737.webp": "319e7c5fa4586d8423095d96b7754f7daa413730",
+    "art-library/bigfanguys-com/warehouse/IMG_2742.webp": "2c28020ef7f9adb28358c9c9062076653d175161",
+    "art-library/bigfanguys-com/warehouse/IMG_3956.webp": "ef1ad7dd2eb6e39a4ccabb24b05e732550026c5d",
+    "art-library/bigfanguys-com/warehouse/IMG_4341.webp": "3b34b735cb83775ef7fbe9594c740d6e95544adb",
+    "art-library/bigfanguys-com/warehouse/IMG_4685.webp": "db1e47eebdc18fc28dc1a5652d9643322f86d076",
+    "art-library/bigfanguys-com/warehouse/IMG_5441.webp": "22359312148680dbd65e79d4099df7eed4ae1730",
+    "art-library/bigfanguys-com/warehouse/IMG_5844.webp": "2a370ff071fa121cddd41a7451e72a72b5a7efaa",
+    "art-library/bigfanguys-com/warehouse/IMG_5847.webp": "4a704cec7ce3b3fb5a2e8ac0921a0e45cdffab9c",
+    "art-library/bigfanguys-com/warehouse/IMG_9670.webp": "a3b650dce046b55d1f0269940931e2d9227c29ff",
+    "art-library/bigfanguys-com/warehouse/IMG_9674.webp": "6519f2b07fdc6e662877f8029b2622757e15d436",
+    "art-library/bigfanguys-com/warehouse/IMG_9685.webp": "e49cb2015408d36fde1a1d4d0640db832b1c587f",
+    "art-library/bigfanguys-com/warehouse/IMG_9828.webp": "cc6f1db5a4fe296a2ce8dae5e3c15d0715787f70",
+    "art-library/bigfanguys-com/warehouse/IMG_9910.webp": "6559841507a747a9fe0c4dd104a16fc95be7b957",
+    "art-library/catalog.json": "bee7dea83885643fdf53b0a067b98965054abe6c",
+    "art-library/uploads/README.md": "3df0d17ccdd826e5414e33d3dda8ea0ab3d9e0d1",
+    "assets/favicon.svg": "73c9eca6711176b5b8c709e621e82561d640e59e",
+    "assets/masthead.png": "6423ad7af408dacef0a198faf6dd7a9294fd1fd5",
+    "assets/publication.css": "98b2ff66798cbd6876030efee37397facc3f8daa",
+    "assets/style.css": "20d385efd56bab1c8a545868fca9de9e5682f5ba",
+    "editorial/drafts/abb-2026-ip66-vfd-field-report.md": "39f89364c20c005328e7512104d1ff0409249a2d",
+    "editorial/drafts/ceiling-fans-hvac-air-distribution-research.md": "8adc68d2976a07a3600e562bb02a8f6559a07e36",
+    "editorial/drafts/cfei-vs-cfm-per-watt-field-guide.md": "f6f44273189a16a8ab5b3fd52660d637d5bab776",
+    "editorial/drafts/fan-guarding-working-level.md": "abea3cfc0ced81418e93dcae7e0439caac6f9476",
+    "editorial/drafts/greenheck-ds-series-2026-field-report.md": "45e2e7bf69dba8edd3289239ff79ffe62cacbfd5",
+    "editorial/drafts/hvls-air-movement-vs-ventilation.md": "e0d72e2c15c20f49803d63068c0b924e11873f78",
+    "editorial/drafts/industrial-fan-heat-study-what-was-measured.md": "d4aeffa5d6f1b92d5c7083ec6136bb2a55216971",
+    "editorial/drafts/powerfoil6-field-brief.md": "8fe289ff0c787de344609638bfd1a672a25138fd",
+    "editorial/drafts/scissor-lift-osha-classification.md": "4a1a715624a7aa063ab5e50b6a8256418725572b",
+    "editorial/drafts/scissor-lift-planning-hvls-installations.md": "7b564de60688042ee3974436cb9e14a0d54eab31",
+    "editorial/drafts/vividair-gfy-ztech-taz-controls-field-guide.md": "5ccfd5784d9d1aabae314f111535fab926099d3f",
+    "editorial/drafts/vividair-taz-72-field-guide.md": "d3161b34d449851eea679e7deb4c096498c48af0",
+    "editorial/founder-approval-register.json": "5fe989e4d89433e2e33133064b318873b49aa2af",
+    "editorial/media/article-images.json": "de88e20196c91e079bbf2f10da90a45d8cad1f7e"
+  }
+}

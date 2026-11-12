@@ -25,7 +25,9 @@
       "environment_selection": "inherited",
       "environments": null,
       "meaning": "No current-result or visual-tool proof; older baseline remains last completed evidence."
-    }
+    },
+    "acceptance_fixture": "office/worker-acceptance/art-director/fixture.json",
+    "prompt_update_confirmed_at_utc": "2026-11-12T00:52:21.042546Z"
   },
   "separate_monday_brief": {
     "title": "HVLS Industry Brief",
@@ -34,5 +36,6 @@
     "do_not_duplicate": true
   },
   "unrelated_automations": "Do not modify Personal Operations Brief. Do not resume the disabled one-off HVLS 360 Overnight Build with stale PR37 instructions.",
-  "department_contracts": "office/DEPARTMENT-EXECUTION-CONTRACTS.md"
+  "department_contracts": "office/DEPARTMENT-EXECUTION-CONTRACTS.md",
+  "runtime_readback": "office/department-runtime.json"
 }

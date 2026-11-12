@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-11-12T00:56:18.711461+00:00",
+  "observer": "Agent Operations lead assistant, active session",
+  "checkpoint_kind": "operator_readback_not_background_monitor",
+  "ledger_sha256": "11d38ca543c436abfa7012945ff576ef2953857664bb706f56fda1051761525d",
+  "items": [
+    {
+      "issue": 84,
+      "slug": "hvls-air-movement-vs-ventilation",
+      "input_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
+        "sha256": "1808103d8d0fec9ace90083581b249ed6c16da5da53a9d9c2d31f7950ee6328d",
+        "source_urls": [
+          "https://learn.bigassfans.com/design-guide",
+          "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-saving-energy-home-summer-edition",
+          "https://www.epa.gov/indoor-air-quality-iaq/how-does-outdoor-air-enter-building",
+          "https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2",
+          "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy"
+        ],
+        "recorded_checked": "2026-11-11 per companion review"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/publisher/bfg-field/warehouse-hvls.webp",
+        "sha256": "3258472f0f3d509d8cdef31f302348f7387901a57437aa07d3e9c3df747ebb95",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "approved_exact_revision"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    },
+    {
+      "issue": 85,
+      "slug": "abb-2026-ip66-vfd-field-report",
+      "input_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/abb-2026-ip66-vfd-field-report-review.md",
+        "sha256": "81e40135fbc14b3f80229c19781ac94a3455dca8261ae8ceeb8c1f0677160f07",
+        "source_urls": [
+          "https://new.abb.com/news/detail/136092/abb-expands-portfolio-with-new-ip66-type-4x-drives-for-demanding-environments",
+          "https://new.abb.com/us/us-motion-business-area/drives-products/ach5804X",
+          "https://new.abb.com/news/detail/133088/expands-hvacr-VFD-portfolio-new-ul-type-12-and-type-4x-vertical-bypass-drives",
+          "https://new.abb.com/news/detail/139081/abb-and-novenco-target-coolings-energy-waste-with-a-turnkey-fan-package"
+        ],
+        "recorded_checked": "2026-11-10"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/abb-2026-ip66-vfd-field-report-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/original/vfd-compatibility-check.svg",
+        "sha256": "f6c52204f1998c18f17661bd880466c1a02e47fa9f4fd5bd34eac916b37cd2b3",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "approved_exact_revision"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    },
+    {
+      "issue": 86,
+      "slug": "cfei-vs-cfm-per-watt-field-guide",
+      "input_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md",
+        "sha256": "e07a08e05ce72e682e0f2cc7319e45026bb411fe5af273667787d557174913bf",
+        "source_urls": [
+          "https://www.amca.org/educate/articles-and-technical-papers/amca-inmotion-articles/introducing-ceiling-fan-energy-index-cfei.html",
+          "https://www.amca.org/amca-members-area/member-tool-kit/ceiling-fan-energy-index.html",
+          "https://www.amca.org/advocate/energy-efficiency-and-system-performance/ldcf/",
+          "https://www.amca.org/educate/articles-and-technical-papers/amca-inmotion-articles/2025-update-on-u.s.-fan-efficiency-codes-and-regulations.html",
+          "https://www.amca.org/certify/",
+          "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy",
+          "https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2",
+          "https://www.energy.gov/cmei/buildings/ceiling-fans",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20U%20to%20Subpart%20B%20of%20Part%20430",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32"
+        ],
+        "recorded_checked": "2026-11-10"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/publisher/bfg-field/ceiling-fan.webp",
+        "sha256": "77926e6cc63eae1431b593467677119be3a524173144269753821fc6bae9f1c8",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "approved_exact_revision"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    },
+    {
+      "issue": 87,
+      "slug": "greenheck-ds-series-2026-field-report",
+      "input_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/greenheck-ds-series-2026-field-report-review.md",
+        "sha256": "fc2b746767b3908f600b0684b186fbe4365a99e71f5d12c4b93bf85a0b116c6e",
+        "source_urls": [
+          "https://www.greenheck.com/about-us/news/2025/12/31/greenheck-redesigns-hvls-overhead-fans",
+          "https://www.greenheck.com/products/fans/overhead-hvls/ds-3",
+          "https://www.greenheck.com/products/fans/overhead-hvls/ds-6",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20U%20to%20Subpart%20B%20of%20Part%20430"
+        ],
+        "recorded_checked": "2026-11-10"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/greenheck-ds-series-2026-field-report-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/original/fan-system-documentation.svg",
+        "sha256": "b90d00aff24c441b50c771b7ea375ba88432e1c09e4caa126792448aa46e22f2",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "approved_exact_revision"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    },
+    {
+      "issue": 88,
+      "slug": "powerfoil6-field-brief",
+      "input_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/powerfoil6-field-brief-review.md",
+        "sha256": "638845c13ea244efb2f18a673a9acd5cda2c5d6ff32a830508819964380e765a",
+        "source_urls": [
+          "https://bigassfans.com/powerfoil-6-hvls-fan/",
+          "https://bigassfans.widen.net/view/pdf/7t3u2vurlm/powerfoil6-install-guide.pdf"
+        ],
+        "recorded_checked": "2026-11-11 per companion review"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/powerfoil6-field-brief-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/original/fan-system-documentation.svg",
+        "sha256": "b90d00aff24c441b50c771b7ea375ba88432e1c09e4caa126792448aa46e22f2",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "approved_exact_revision"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    },
+    {
+      "issue": 89,
+      "slug": "scissor-lift-planning-hvls-installations",
+      "input_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/scissor-lift-planning-hvls-installations-review.md",
+        "sha256": "f221524576b9beacf77060730477d0544c749ddc1b674cabe7521bc1514c39a4",
+        "source_urls": [
+          "https://www.osha.gov/sites/default/files/publications/OSHA3842.pdf"
+        ],
+        "recorded_checked": "2026-11-10"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/scissor-lift-planning-hvls-installations-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/original/scissor-lift-access-planning.svg",
+        "sha256": "0b8b9aa036aaa496013a01d10b185d03fa5a60db21c49a7de79264c554a51036",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "approved_exact_revision"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    },
+    {
+      "issue": 90,
+      "slug": "vividair-gfy-ztech-taz-controls-field-guide",
+      "input_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/vividair-gfy-ztech-taz-controls-field-guide-review.md",
+        "sha256": "76893e0e7ef2aef7e70a8b97c64ab303baf91aec9fc84b48c3842df8e3a98528",
+        "source_urls": [
+          "https://vividairmovement.com/product/taz/",
+          "https://vividairmovement.com/product/z-tech/",
+          "https://gofanyourself.com/products/z-tech-fan/",
+          "https://vividairmovement.com/products/"
+        ],
+        "recorded_checked": "2026-11-10"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/vividair-gfy-ztech-taz-controls-field-guide-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/publisher/bfg-field/fan-hub.webp",
+        "sha256": "9bd9294ad43dcf58850096efae2918487710a2dd3f36203775534c8941889fba",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "approved_exact_revision"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    },
+    {
+      "issue": 91,
+      "slug": "vividair-taz-72-field-guide",
+      "input_sha256": "8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/vividair-taz-72-field-guide-review.md",
+        "sha256": "48ca58585cf1c1d66d03b482bc35116b287128e03f069cb9f294dab1751a9b96",
+        "source_urls": [
+          "https://vividairmovement.com/product/taz/",
+          "https://vividairmovement.com/wp-content/uploads/2023/01/TAZ_Installation_and_Technical_Operations_Guide_1.2023.pdf"
+        ],
+        "recorded_checked": "2026-11-10"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/vividair-taz-72-field-guide-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/publisher/taz-72/taz-72-field-02.webp",
+        "sha256": "5e30eb8ee728ab53a4ff891fadd2b0da1c4dd2f8e0a0ca3bf6d9c9b473e9266b",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "approved_exact_revision"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    },
+    {
+      "issue": 133,
+      "slug": "industrial-fan-heat-study-what-was-measured",
+      "input_sha256": "2a5b2e9e1336842bc373db13ea8a99a331b913fa0639712155ddd42251be3390",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/industrial-fan-heat-study-what-was-measured-review.md",
+        "sha256": "4d7c78972c83da352b745c5d01cd4c2ceb44a899de90d36774d47b66a5a8c736",
+        "source_urls": [
+          "https://bigassfans.com/press-release/the-heat-tax-study-shows-industrial-airflow-offsets-extreme-heat-strain-on-factory-floors/",
+          "https://www.cdc.gov/niosh/heat-stress/about/"
+        ],
+        "recorded_checked": "2026-11-11 per companion review"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/industrial-fan-heat-study-what-was-measured-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/publisher/bfg-field/production-floor.webp",
+        "sha256": "71f8b297ffecb4480d576ec402f8cf66d8a3040e45f429f7b2fc7b0ef672e986",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "first_decision_pending"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    },
+    {
+      "issue": 134,
+      "slug": "ceiling-fans-hvac-air-distribution-research",
+      "input_sha256": "372d3428f5721a48c5bd38983ee32e18252062bda3e44a96e9df0b6605f073ed",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/ceiling-fans-hvac-air-distribution-research-review.md",
+        "sha256": "8707c45d49180b8a3695ce5ea736e60be1fcb09f8f45268bf5a346a34cba7544",
+        "source_urls": [
+          "https://cbe.berkeley.edu/research/ceiling-fan-integrated-air-conditioning/",
+          "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy"
+        ],
+        "recorded_checked": "2026-11-11 per companion review"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/ceiling-fans-hvac-air-distribution-research-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/publisher/bfg-field/hangar-airflow-context.webp",
+        "sha256": "37e0f8571a0ee964d842ccd9d589cdfa85dce3fb1347ee5e13f7b7fb65d57d7c",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "first_decision_pending"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    },
+    {
+      "issue": 135,
+      "slug": "scissor-lift-osha-classification",
+      "input_sha256": "da9acaa819672fb2246ac8edfb53399e6b9c331af25a7b27a266e2c8de71132b",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/scissor-lift-osha-classification-review.md",
+        "sha256": "9374634df8d7a08f763d51310e28e6009ea3575886c232ff6fef212641f75789",
+        "source_urls": [
+          "https://www.osha.gov/laws-regs/standardinterpretations/2000-08-01-0",
+          "https://www.osha.gov/etools/scaffolding/scissor-lifts/"
+        ],
+        "recorded_checked": "2026-11-11 per companion review"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/scissor-lift-osha-classification-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/original/scissor-lift-access-planning.svg",
+        "sha256": "0b8b9aa036aaa496013a01d10b185d03fa5a60db21c49a7de79264c554a51036",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "first_decision_pending"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    },
+    {
+      "issue": 136,
+      "slug": "fan-guarding-working-level",
+      "input_sha256": "d14317a48fa8c125f6759d22ac6426704db758f9b8939902e5a7d3a0cf7527a7",
+      "artifact_bindings_current": true,
+      "research_to_draft_automatic_lineage_verified": false,
+      "research_evidence": {
+        "path": "editorial/reviews/fan-guarding-working-level-review.md",
+        "sha256": "b0a67409a192ec17bb0f060fcb9f6a21f37fcc3e4708240b7543eb6974de3eb3",
+        "source_urls": [
+          "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212",
+          "https://www.osha.gov/laws-regs/standardinterpretations/1996-08-01"
+        ],
+        "recorded_checked": "2026-11-11 per companion review"
+      },
+      "technical": {
+        "path": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "sha256": "c357d1f8960aabbd8afd3342d3ae01ae15a424969e803adb460f7aa9f6feea61",
+        "scope": "readback_of_Content145_documentary_review_not_new_signoff"
+      },
+      "voice": {
+        "path": "editorial/reviews/fan-guarding-working-level-review.md",
+        "revision_current": true,
+        "scope": "readback_of_recorded_assistant_voice_work_not_new_edit"
+      },
+      "media": {
+        "path": "editorial/media/publisher/bfg-field/elevated-install.webp",
+        "sha256": "c4fc16954e8c927b861dad57279c2730cfc75cb0cb700b68df9037193be5987c",
+        "bytes_current": true,
+        "fresh_visual_inspection_by_coo": false
+      },
+      "seo": {
+        "path": "office/launch-package.json",
+        "sha256": "7d34c35f4ba4e7ebbec1b7bce9a84bc4024acd258108e6340e017303431ddff7"
+      },
+      "founder_queue": {
+        "path": "office/editorial-queue.json",
+        "present": true,
+        "text_decision": "first_decision_pending"
+      },
+      "next_owner": "Content/Workflow for new source-to-assignment production; Art for fresh recurring review; founder decisions remain separate",
+      "publication_allowed": false
+    }
+  ],
+  "current_package_bindings": 12,
+  "complete_automatic_department_handoffs_verified": 0,
+  "blockers": [
+    "No demonstrated automatic research-to-finished-draft lineage; actual research96 remains separate evidence work.",
+    "Recurring Art acceptance fixture pending real worker output; tools/environment inheritance unverified.",
+    "Technical/voice/SEO are assistant-led, no recurring executor accepted as deferred by founder.",
+    "No independently recurring whole-newsroom COO reconciliation proven."
+  ],
+  "publication_allowed": false,
+  "observed_main_commit": "01fa39bb7952acf4f383f0b155d5b5173d8484ed"
+}

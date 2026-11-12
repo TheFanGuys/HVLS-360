@@ -1,7 +1,7 @@
 # Optidrive E4 Fan Service Guide — Source Check and Voice Pass
 
 **Article:** editorial/drafts/optidrive-e4-fan-service-guide.md
-**Manuscript SHA-256 at voice pass:** 334b45693c88c7c250cd88d3237ec507d8a6bf7c7d0e4ec39b9723e43f10a19e
+**Manuscript SHA-256 at voice pass:** 37aaecf71b374582bbaa95b4542eaa6f3e9cc96e958c97c9118c67311120282f
 **Checked:** 2026-11-12, Weekly Writer (research, writer, editor and source-check desks)
 **Assignment:** Research pitch #96. Supersedes the shorter production brief in PR #163; that packet's ABB image was rejected by Chris and is not used here. Respects Chris's earlier correction that the fan maker's specified drive is the starting point (closing section).
 
@@ -48,3 +48,7 @@
 ## Lead image
 
 Original HVLS 360 illustration, editorial/media/original/optidrive-e4-fan-service-guide.svg. Generic compact drive front with labeled connections and a side-view depth comparison from listed dimensions. No logo, no brand marking on the device, no copied product photo or drawing; model names appear only as comparison labels outside the drawn device. Rendered to PNG and inspected 2026-11-12; corrected the input label to "2 analog/digital" and moved model labels off the device shapes.
+
+## Recheck — front matter only
+
+Added `publisher_approval: "Required"` to the draft front matter so the CI editorial readiness check passes. Body text unchanged, so the voice pass above still applies. SHA-256 fingerprints were updated by `weekly_article.py --revise`.

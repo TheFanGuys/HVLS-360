@@ -3,6 +3,7 @@ title: "Optidrive E4: What a Fan Service Tech Will Find Inside Invertek's New Sm
 category: "Service & VFDs"
 status: "EDITORIAL DRAFT — NOT APPROVED"
 publication_allowed: false
+publisher_approval: "Required"
 primary_market: "United States"
 research_checked: "2026-11-12"
 seo_title: "Optidrive E4 for Fan Service Techs: E3 vs E4"

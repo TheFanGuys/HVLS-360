@@ -40,6 +40,8 @@ It's UL approved, including UL 61800-5-1, and runs from -20 to 50 °C [2]. It's 
 
 ## Same footprint, deeper box
 
+![Bar chart comparing listed depth of Optidrive E3 and E4 drives: 123 vs 136 mm on size 1, 150 vs 168 mm on size 2](../../editorial/media/original/optidrive-e4-fan-service-guide.svg)
+
 Invertek says the E4 uses the same mounting as the E3 [1]. It's deeper, though: 136 mm against 123 mm on size 1, and 168 mm against 150 mm on size 2 [3]. Measure the panel depth before you swap one for an E3.
 
 ## What Fan mode brings

@@ -75,7 +75,7 @@ def prepare_lead(slug, image_rel, focus):
     return str(dest.relative_to(ROOT))
 
 
-def set_media(slug, image_rel, alt, caption):
+def set_media(slug, image_rel, alt, caption, credit=None):
     manifest_path = ROOT / "editorial/media/article-images.json"
     manifest = json.loads(manifest_path.read_text())
     is_photo = not image_rel.endswith(".svg")
@@ -84,7 +84,7 @@ def set_media(slug, image_rel, alt, caption):
         "alt": alt,
         "caption": caption,
         "kind": "photo" if is_photo else "diagram",
-        "credit": "Big Fan Guys" if is_photo else "HVLS 360°",
+        "credit": credit or ("Big Fan Guys" if is_photo else "HVLS 360°"),
         "presentation": {"card": {"fit": "contain", "position": "50% 50%"},
                          "lead": {"fit": "contain", "position": "50% 50%"}},
         "crop_review": {"reviewed": dt.date.today().isoformat(),
@@ -111,7 +111,7 @@ def set_media(slug, image_rel, alt, caption):
         write_json(ledger_path, ledger)
 
 
-def revise(slug, old_sha, image=None, alt=None, caption=None, focus=0.5):
+def revise(slug, old_sha, image=None, alt=None, caption=None, focus=0.5, credit=None):
     """Re-release an already-published article after its draft was edited.
 
     The edited draft must already be saved. Front matter (title, SEO fields)
@@ -121,7 +121,7 @@ def revise(slug, old_sha, image=None, alt=None, caption=None, focus=0.5):
     draft = ROOT / "editorial/drafts" / (slug + ".md")
     new_sha = sha(draft)
     if image:
-        set_media(slug, prepare_lead(slug, image, focus), alt, caption)
+        set_media(slug, prepare_lead(slug, image, focus), alt, caption, credit)
     if new_sha == old_sha and not image:
         raise SystemExit("Draft is unchanged and no new image given")
     # Swap the old fingerprint for the new one everywhere it is recorded.
@@ -187,12 +187,13 @@ def main():
         p.add_argument("--alt")
         p.add_argument("--caption")
         p.add_argument("--focus", type=float, default=0.5)
+        p.add_argument("--credit")
         a = p.parse_args()
         if a.image and not (a.alt and a.caption and len(a.slug) == 1):
             raise SystemExit("--image needs --alt, --caption and exactly one --slug")
         for slug in a.slug:
             old = json.loads((ROOT / "editorial/approvals" / (slug + ".json")).read_text())["article_sha256"]
-            revise(slug, old, a.image, a.alt, a.caption, a.focus)
+            revise(slug, old, a.image, a.alt, a.caption, a.focus, a.credit)
         return rerelease(a.slug)
     p = argparse.ArgumentParser()
     p.add_argument("--slug", required=True)

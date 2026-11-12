@@ -11,6 +11,6 @@
   "approval_mechanism": "Founder approves by merging the weekly release pull request. Unmerged, nothing is live.",
   "source_review_notes": "Writer's source check: editorial/reviews/optidrive-e4-fan-service-guide-review.md. Technical review is the founder's field review at merge; no licensed engineer sign-off claimed. Revised 2026-11-12; founder approves by merging the fix pull request.",
   "media_rights_evidence": "Lead image is a Big Fan Guys photograph or original HVLS 360 illustration: editorial/media/original/optidrive-e4-fan-service-guide.svg",
-  "article_sha256": "870def66075724562679ae161b6bc8cda532965b942ffd89961c317033229461",
-  "release_inputs_sha256": "99401075e938f3057f2e7e2a8b84daf679c57ef81302ea0721e50fc12fedd5eb"
+  "article_sha256": "d19f811d1934ec5e8cd7f2de897ea82ce0d2a28708d32a9daaf90092ed83d901",
+  "release_inputs_sha256": "e1df4278f9f122ba954295e6de06d5a4b4b795ae698b8399dee2d506fb4ddddc"
 }

@@ -1,7 +1,7 @@
 # Optidrive E4 Fan Service Guide — Source Check and Voice Pass
 
 **Article:** editorial/drafts/optidrive-e4-fan-service-guide.md
-**Manuscript SHA-256 at voice pass:** 870def66075724562679ae161b6bc8cda532965b942ffd89961c317033229461
+**Manuscript SHA-256 at voice pass:** d19f811d1934ec5e8cd7f2de897ea82ce0d2a28708d32a9daaf90092ed83d901
 **Checked:** 2026-11-12, Weekly Writer (research, writer, editor and source-check desks)
 **Assignment:** Research pitch #96. Supersedes the shorter production brief in PR #163; that packet's ABB image was rejected by Chris and is not used here. Respects Chris's earlier correction that the fan maker's specified drive is the starting point (closing section).
 

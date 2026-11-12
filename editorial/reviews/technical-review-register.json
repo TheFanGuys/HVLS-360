@@ -284,7 +284,7 @@
       "ai_expert_review_file": "editorial/reviews/optidrive-e4-fan-service-guide-review.md",
       "ai_review_scope": "Writer's source and claim check; technical check of every claim and drawing element against Invertek's product page, spec sheet, 2026 brochure and product images (2026-11-12, after founder flagged errors)",
       "qualified_review_required": false,
-      "draft_sha256": "870def66075724562679ae161b6bc8cda532965b942ffd89961c317033229461"
+      "draft_sha256": "d19f811d1934ec5e8cd7f2de897ea82ce0d2a28708d32a9daaf90092ed83d901"
     }
   ],
   "policy": "Documentary source review is distinct from independent qualified signoff. External human review is required for consequential prescriptive or site-specific regulated judgments, not as a blanket gate for attributed reporting. Exact-revision claim findings and conditional triggers are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Zero qualified independent signoffs; no release authorization.",

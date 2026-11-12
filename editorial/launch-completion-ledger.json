@@ -1000,7 +1000,7 @@
       },
       "sources_and_claim_checks": {
         "review_file": "editorial/reviews/industrial-fan-heat-study-what-was-measured-review.md",
-        "review_sha256": "4d7c78972c83da352b745c5d01cd4c2ceb44a899de90d36774d47b66a5a8c736",
+        "review_sha256": "5015cf9d0a6be8933ef995f1fb5868a223ae76ccf85283ee16452f1e4c70a9e6",
         "primary_source_urls": [
           "https://bigassfans.com/press-release/the-heat-tax-study-shows-industrial-airflow-offsets-extreme-heat-strain-on-factory-floors/",
           "https://www.cdc.gov/niosh/heat-stress/about/"
@@ -1049,12 +1049,12 @@
       },
       "media": {
         "manifest_file": "editorial/media/article-images.json",
-        "asset_file": "editorial/media/publisher/bfg-field/production-floor.webp",
-        "asset_sha256": "71f8b297ffecb4480d576ec402f8cf66d8a3040e45f429f7b2fc7b0ef672e986",
+        "asset_file": "editorial/media/publisher/bfg-field/big-ass-fans-hub-warehouse.webp",
+        "asset_sha256": "e310582bb9a3f4dd2a014b8ccc6254fa713e6a2f33ee126d81fe97aa1d5bcf70",
         "asset_git_blob": "f2c66e221a23aa2762e4e029299dc50947ea4f10",
         "kind": "photo",
-        "caption": "Big Fan Guys production-floor photograph used for context; not a study site.",
-        "alt": "Overhead fans across an industrial production floor",
+        "caption": "Big Ass Fans HVLS fan in a warehouse. Not a study site.",
+        "alt": "Big Ass Fans HVLS fan hub and blades under a steel warehouse roof",
         "presentation": {
           "card": {
             "fit": "contain",

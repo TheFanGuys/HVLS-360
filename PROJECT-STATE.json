@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish verified operating workflows and shared department handoffs before article fine-tuning.",
-  "next_task": "Verify next independent Art recovery and quiet unchanged run; complete live Studio authenticated save/reopen with browser/device access. Automatic research-to-finished-draft handoff remains unimplemented; scheduled research intake/release are distinct.",
+  "next_task": "Run the configured Draft Production worker on one accepted research assignment; verify source checks, actual draft/reviews/media/SEO and founder-review PR/queue writeback. Independent scheduling/dedup remains acceptance work; original twelve launch pieces unchanged.",
   "active_issues": [
     92,
     93,
@@ -286,5 +286,16 @@
       "manufacturer_source_errors": 1
     },
     "live_held_packet_matches": true
+  },
+  "draft_production": {
+    "status": "runtime_configured_first_output_unverified",
+    "automation_id": "Automation_a726d89a5d388191bd3ff61cc57019b0",
+    "prompt_file": "office/DRAFT-PRODUCTION-WORKER.md",
+    "queue": "office/production-queue.json",
+    "enabled": true,
+    "next_run_time": "2026-11-13T11:45:00-05:00",
+    "first_production_output_verified": false,
+    "independent_scheduled_delivery_verified": false,
+    "release_authorized": false
   }
 }

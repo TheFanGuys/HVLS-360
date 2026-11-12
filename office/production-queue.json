@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "purpose": "Unpublished production assignments outside the frozen twelve-piece launch edition. Links point to actual draft PRs; no queue entry itself approves publication.",
+  "publication_allowed": false,
+  "worker_automation_id": "Automation_a726d89a5d388191bd3ff61cc57019b0",
+  "status": "configured_first_delivery_pending",
+  "items": []
+}

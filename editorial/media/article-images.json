@@ -318,10 +318,10 @@
       }
     },
     "optidrive-e4-fan-service-guide": {
-      "file": "editorial/media/original/optidrive-e4-fan-service-guide.svg",
-      "alt": "Bar chart comparing listed depth of Optidrive E3 and E4 drives: 123 vs 136 mm on size 1, 150 vs 168 mm on size 2",
-      "caption": "Listed IP20 depths from Invertek's 2026 E Series brochure.",
-      "kind": "diagram",
+      "file": "editorial/media/publisher/e4/optidrive-e4-illustration.webp",
+      "alt": "Purple Invertek Optidrive E4 drive on a workbench, showing its keypad buttons, status lights and terminal strips",
+      "caption": "Optidrive E4 illustration.",
+      "kind": "photo",
       "credit": "HVLS 360°",
       "presentation": {
         "card": {

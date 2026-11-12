@@ -157,6 +157,26 @@ def image_presentation(media, placement):
     return "object-fit:"+fit+";object-position:"+position
 
 
+def context_images(root,slug):
+    root=pathlib.Path(root)
+    manifest=root/'editorial/media/article-images.json'
+    return json.loads(manifest.read_text())['items'].get(slug,{}).get('body_images',[]) if manifest.is_file() else []
+
+def insert_context_images(markup,images):
+    """Insert reviewed contextual art without editing approved manuscript bytes."""
+    for media in images:
+        path=media['file'];anchor=media['after_paragraph_start']
+        if not re.fullmatch(r'editorial/media/publisher/[a-z0-9/-]+\.webp',path) or '..' in path:
+            raise ValueError('Unsafe contextual image')
+        if not anchor or media.get('fit')!='contain':
+            raise ValueError('Contextual images require full-frame presentation and an anchor')
+        esc=lambda v:html.escape(str(v),quote=True)
+        figure='<figure class="article-context" id="taz-context-photo"><img src="../../'+esc(path)+'" alt="'+esc(media['alt'])+'" loading="lazy" decoding="async" style="object-fit:contain;width:100%;height:auto"><figcaption>'+esc(media['caption'])+' — '+esc(media['credit'])+'</figcaption></figure>'
+        pattern=r'(<p>'+re.escape(inline_markup(anchor))+r'[^\n]*?</p>)'
+        markup,count=re.subn(pattern,lambda m:m[1]+'\n'+figure,markup,count=1)
+        if count!=1:raise ValueError('Contextual image paragraph not found')
+    return markup
+
 def article_hero(root,slug):
     root=pathlib.Path(root)
     manifest=root/"editorial/media/article-images.json"
@@ -211,7 +231,7 @@ def build_html(root,slug):
         "author":{"@type":"Organization","name":"HVLS 360° Editorial Desk"}}
     ld=(json.dumps(schema,ensure_ascii=False,separators=(",",":"))
         .replace("&",r"\u0026").replace("<",r"\u003c").replace(">",r"\u003e"))
-    body_html=render_markdown(body)
+    body_html=insert_context_images(render_markdown(body),context_images(root,slug))
     lead_html=article_hero(root,slug)
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{search_heading} | HVLS 360°</title><meta name="description" content="{desc}"><meta name="robots" content="index,follow,max-image-preview:large">
@@ -220,7 +240,7 @@ def build_html(root,slug):
 <meta property="og:image" content="{BASE}assets/masthead.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="HVLS 360 RSS" href="{BASE}rss.xml">
 <link rel="stylesheet" href="../../assets/style.css"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{ld}</script><link rel="stylesheet" href="../../assets/publication.css?v=20261111-crop-review"></head><body>
+<script type="application/ld+json">{ld}</script><link rel="stylesheet" href="../../assets/publication.css?v=20261111-context-photo"></head><body>
 <div class="top"><div class="wrap"><span>HVLS 360° / Industry Intelligence</span><span>Presented by Big Fan Guys</span></div></div>
 <header class="masthead wrap"><a href="../../" aria-label="HVLS 360 home"><img src="../../assets/masthead.png" alt="HVLS 360 Industry Intelligence" width="2048" height="896"></a></header>
 <nav class="nav" aria-label="Primary"><div class="wrap"><a href="../../">Home</a><a href="../../#departments">Industry News</a><a href="../../#departments">Technology</a><a href="../../#departments">Installation</a><a href="../../#departments">Service &amp; VFDs</a></div></nav>

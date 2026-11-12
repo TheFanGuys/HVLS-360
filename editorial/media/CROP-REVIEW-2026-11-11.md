@@ -73,3 +73,10 @@ Selected-image composition acceptance is COMPLETE for the current edition. This 
 ## Art Director baseline — November 11, 2026 (Phoenix)
 
 Checked main `d88ea51e0c6c0da1c010b6456c320886d8574a8a` against reviewed edition `69359b06b653dba1019fae8ca1f3c7baee7dd4a2`: only five acceptance/recovery records changed. No changed articles, uploads, image bytes, mappings, captions or layout/rendering sources. Independently fetched and SHA-256 verified all ten selected assets against the Director review. Existing desktop/tablet/phone acceptance remains applicable; no new visual inspection or hardware test claimed. First durable run baseline: `editorial/media/art-director-checkpoint.json`. Current selection needs no correction; Issue #106 technical/model/readability items remain separate. Future unchanged runs make no record-only commits or repeated Issue comments.
+
+
+## Second TAZ contextual image — November 11, 2026
+
+Art Director independently opened exact `taz-72-field-03.webp` (1152×1536; SHA-256 `2070b5bc45c474b067ea5c4436a77ec8b46bc3bebb235e3a340419e3c44d04e3`). Unobstructed directional-fan housing, front louvers, guard and chain suspension are visible. Full source frame preserves the surrounding production floor. No prominent identifiable face or private paperwork was found; do not identify the background floor fan as TAZ or name the facility from stock markings. Publisher permission and identity limits remain as recorded in TAZ-SECOND-PHOTO-HANDOFF.json. No independent nameplate, diameter or compliance attestation is made.
+
+The media map now adds this as a contextual body image after the paragraph beginning “The two Big Fan Guys installation photos”. It does not replace the separately reviewed lead or card. Preview snapshot, refreshed manuscript view and release renderer share full-frame intent; original manuscript and approval bytes remain intact. The public release gate is unchanged. Actual deployed desktop/tablet/phone composition acceptance is pending; local browser preview was unavailable because its localhost endpoint is not reachable from the visual browser. Automated tests are not semantic crop acceptance.

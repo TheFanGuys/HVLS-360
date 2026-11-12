@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slug": "winter-destratification-hvls-fans",
+  "publisher_decision": "approved",
+  "technical_review": "complete",
+  "editorial_review": "complete",
+  "media_rights": "cleared",
+  "publisher_name": "Chris Fogarty",
+  "approved_at_utc": "2026-11-12T12:18:09Z",
+  "publisher_attestation": "I explicitly authorize publication of this article.",
+  "approval_mechanism": "Founder approves by merging the weekly release pull request. Unmerged, nothing is live.",
+  "source_review_notes": "Writer's source check: editorial/reviews/winter-destratification-hvls-fans-review.md. Technical review is the founder's field review at merge; no licensed engineer sign-off claimed. Revised 2026-11-12; founder approves by merging the fix pull request.",
+  "media_rights_evidence": "Lead image is a Big Fan Guys photograph or original HVLS 360 illustration: art-library/bigfanguys-com/warehouse/IMG_9670.webp",
+  "article_sha256": "b129a8ed917bf303c3b9319a5b99ebc796bffc271e5402a850d99b1c0465170f",
+  "release_inputs_sha256": "74611e52e811e4bb4ed7cf17b9162c8d0b0fc2e50e84d60f6ea26f6ad279a44a"
+}

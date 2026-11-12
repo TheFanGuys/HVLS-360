@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slug": "one-big-fan-vs-small-fans",
+  "publisher_decision": "approved",
+  "technical_review": "complete",
+  "editorial_review": "complete",
+  "media_rights": "cleared",
+  "publisher_name": "Chris Fogarty",
+  "approved_at_utc": "2026-11-12T12:18:07Z",
+  "publisher_attestation": "I explicitly authorize publication of this article.",
+  "approval_mechanism": "Founder approves by merging the weekly release pull request. Unmerged, nothing is live.",
+  "source_review_notes": "Writer's source check: editorial/reviews/one-big-fan-vs-small-fans-review.md. Technical review is the founder's field review at merge; no licensed engineer sign-off claimed.",
+  "media_rights_evidence": "Lead image is a Big Fan Guys photograph or original HVLS 360 illustration: art-library/bigfanguys-com/warehouse/IMG_5847.webp",
+  "article_sha256": "f16524f8505117976dec160bea65f9896052d2c0d9cda0c301396461f6fd6a3e",
+  "release_inputs_sha256": "100cd719522a5690024e8f4a698dabaa3d8d55f3e7afd9a7a2b754944f0c9fef"
+}

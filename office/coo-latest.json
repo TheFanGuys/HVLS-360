@@ -3,18 +3,18 @@
   "shared_issue_sync": {
     "status": "synced_unverified_leads",
     "issues_created": 0,
-    "eligible_candidates": 1,
-    "run_id": "43051318664",
+    "eligible_candidates": 0,
+    "run_id": "43131926233",
     "deduplication_check": "no_new_items_to_recheck",
-    "matched_existing_count": 1
+    "matched_existing_count": 0
   },
-  "generated_at": "2026-11-11T15:45:20.129137+00:00",
+  "generated_at": "2026-11-12T01:05:45.634413+00:00",
   "status": "automated_operational_brief_not_autonomous_agent",
-  "research_generated_at": "2026-11-11T15:44:18.812093+00:00",
+  "research_generated_at": "2026-11-12T01:04:44.213733+00:00",
   "metrics": {
     "research_leads": 18,
-    "editorial_briefs": 1,
-    "media_requests": 8,
+    "editorial_briefs": 0,
+    "media_requests": 12,
     "source_errors": 1,
     "manufacturer_source_errors": 1,
     "approval_records": 0,
@@ -33,9 +33,9 @@
       "id": "coo-editorial",
       "department": "Editorial",
       "owner": "Managing Editor",
-      "status": "needs_review",
+      "status": "waiting",
       "task": "Triage research briefs for relevance and assign evidence work",
-      "count": 1
+      "count": 0
     },
     {
       "id": "coo-media",
@@ -43,7 +43,7 @@
       "owner": "Head of Media & Art",
       "status": "needs_review",
       "task": "Clear image rights, model identity and article-specific media requests",
-      "count": 8
+      "count": 12
     },
     {
       "id": "coo-experts",
@@ -75,10 +75,10 @@
       "owner": "Publisher",
       "status": "awaiting_approval",
       "task": "Review unpublished drafts; release requires explicit publisher approval",
-      "count": 8
+      "count": 12
     }
   ],
-  "manufacturer_discovery_generated_at": "2026-11-11T15:45:01.961336+00:00",
+  "manufacturer_discovery_generated_at": "2026-11-12T01:05:29.053057+00:00",
   "warnings": [
     "Research headlines and dates are unverified until original sources are checked.",
     "No autonomous LLM agents or publisher approval are executed by this report.",

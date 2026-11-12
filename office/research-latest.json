@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T15:44:18.812093+00:00",
+  "generated_at": "2026-11-12T01:04:44.213733+00:00",
   "status": "unverified_research_leads",
   "departments": [
     {
@@ -21,16 +21,6 @@
           "feed": "Invertek official dated news index"
         },
         {
-          "title": "Invertek Drives Optidrive E4 delivers increased capability without complexity",
-          "url": "https://www.invertekdrives.com/news/general-news/invertek-drives-optidrive-e4-delivers-increased-capability-without-complexity",
-          "published": "2026-10-29",
-          "date_basis": "publisher_reported_date_only",
-          "source_kind": "official_manufacturer_index",
-          "discovery_url": "https://www.invertekdrives.com/news",
-          "index_scope": "First 40 dated articles within 700000 bytes; not exhaustive coverage",
-          "feed": "Invertek official dated news index"
-        },
-        {
           "title": "New cyberattack on supermarket fridges sweeps across Europe - Reuters",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObF9LUXZ2TVpjZm13eW9HNXZ0MkZFVDM5eHl5RXc0aDkzODdvc0VKYVE4YV9MSDZITjVTR01CM3l6ajdCVEFZMXlmdmx3MzBRWHN5QVkyTFU2bkR2Sm5VQm5OWUVfLVJoeHFZaXdrc0F1QTRnT0tHYXRvcVd4S0V2QUxmV3ptOEszT2EyWmFpVjYyUnRwODF1eGhXbGpGcUV2UXRwZFFLOGhPLTY1MWUxal9TY3M0Qm9MOVpSeTFHazNxMUNGSnVfdzVvOE0tUGM?oc=5",
           "published": "Tue, 03 Nov 2026 08:00:00 GMT",
@@ -40,6 +30,12 @@
           "title": "Siemens is Germany’s Chance For Economic Growth From AI - Bismarck Brief",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZkxXRTYwd0NFR21UcGhHWUQ3WkFzQTcyWkRSdlRvU1UxUDBpR09BYnQ2Smtzek4wOW5nVm9NTVp2c1B5aXY1Njk5ZEMwcG5STzZBazYzd0M3SXJNdVdpZ1VFdTJOWGdRc2pGcXlkdnY0U0dvTTJTUUJyU2ZPcmlORGtB?oc=5",
           "published": "Wed, 11 Nov 2026 14:03:46 GMT",
+          "feed": "Technical and regulatory discovery"
+        },
+        {
+          "title": "Rockwell Automation at Baird 2026 Global Industrial Conference: growth, AI - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS3h1UmZZSk5XSTNKOGxxdURsUHB4U2tYYXpyTW9PdThsSm5fTk1JYkNYenA5azJKUWtIZ0lfemJDS2U0S3pvTW9lQ0Uwai03bDIwT3pzQUhzeWduUFhDZGZ0dy1OcWRISy1UcTV5V2FpT2cyYldrbnBFT0J3WTdkSW5PYkFYUjRxQV92ZUpkalRZb3Atc2toeThZRGRoSUZFckswOHZhQm5EMTVPZ21nM3RKTWhQZW9WQlk1YVM0d0FOYzU3Ukdz?oc=5",
+          "published": "Wed, 11 Nov 2026 18:20:24 GMT",
           "feed": "Technical and regulatory discovery"
         }
       ]
@@ -124,16 +120,22 @@
       "department": "Construction Pipeline & Industrial Projects",
       "leads": [
         {
-          "title": "With $650 million commitment, Pfizer fuels fast business growth in eastern CT - Hartford Courant",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRV9vTDU1d1NkZ3NaQUV5eGZBeVhDWDdwZnlkNHU1dTRjWWQ2LU5OdVpXMXA1TmJ1N0IzUnphTWU1aDZJVXgxTTZSc2tHcGk3aDU0MUVYcGRDRVlOR3IxTkFIamxwdHZFVU1LY2g0S3dhTU9oVnNyaDBha1UySlBuMzNWRmhvVHlZLW0xNE1wRGhDelhxcDZVZVJpUU1PQXZleGF5NGV2U1FObDVObGZMRg?oc=5",
-          "published": "Mon, 09 Nov 2026 10:44:49 GMT",
-          "feed": "Specialist discovery 1"
-        },
-        {
           "title": "Georgia is emerging as national center of excellence for automotive manufacturing and logistics - American Journal of Transportation",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMzVQTWZod012WktubUdERlFuUW1VRF9Rdi0xMVZJZjB3eHpKYTR2bmxFODJtYVZhd29lV19PNUhPNm5PUGhIXzVxc193QTZPM2NiMENFTExkbjk0S0RJaFFQTE01ZWtYNE9pdE9wVVhWQnpFMEhGVl9lZG5KVWlPYzM5NkkyOGdhamJPcUZiRDN3OU5uVzhjNzA4RWQxenlaQU5JZTI5Y1ptZEdBLXJiam9XU2xJR2FnVUNCT1JB?oc=5",
           "published": "Tue, 10 Nov 2026 19:18:00 GMT",
           "feed": "Specialist discovery 1"
+        },
+        {
+          "title": "Honda Invests $3B in New Ohio Auto Plant With 240,000-Vehicle Annual Capacity - Construction Review",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTGNuazZ2RHZJRlg0MlR5SnpvajZGcUlHNDNsNkVJWnBfdWY0MV9YSTVQQkNEcUxLZzN4MVFYZkNmUFMtQUNXbllYSWdiQThQQ0c5SGdGbGZHNTJQaWl0dzE1NXlZSTVpc3VBakZPS0szajNPZjdVNU1fQ3BYLUUwMHNLYU8xclY0NDB6YlppSURrZlpEeGVhdnFMSFhUTXRGYnlQYkJpdzhuYWJEcExkLUdvZw?oc=5",
+          "published": "Tue, 10 Nov 2026 09:30:55 GMT",
+          "feed": "Specialist discovery 1"
+        },
+        {
+          "title": "The Kraft Group along with the Unified Global Packing Group want to build the ten-building campus off Boston and Providence Roads in Sutton. - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNnBEc3A2RTdOcVJ2cWFIWTNMMlZlRi1JaVFybGQ2VUNsVVRCTmpsZ2pFTXAzYW10c3FSV2RzTkk4Yi1SdjQ1eW1nNzM5NUtTQjZtc2RfcXI2OThzUFd1Q1gzYm1wXzBLUk5UNlJvc3JDR3RfcjVPUmJ3TnZWVWlZM2JkTXRRYmE1YzRiekNQSWU0akwwM1NybWNOYXdiQXJOc1FmZzN0VG90RmxGdVVNLXBxWWpWZ3NZQlRBNGlNOFo1WVNZckpkdmx3STBUc2VSUjZGejh3U0F2dw?oc=5",
+          "published": "Wed, 11 Nov 2026 23:00:18 GMT",
+          "feed": "Specialist discovery 2"
         },
         {
           "title": "Wall Sandwich Panels Market Forecast to 2035, Driven by Cold Storage and Energy-Efficient Construction - IndexBox",
@@ -146,12 +148,6 @@
           "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxORmNHMHFwZ1RLb3NVVWdnOHg3OXhyZm0xNTNDT0dKOWVOcEFHTW9CYkdzV04zcFNCdlZVVEgxbmZDdl9OUkg1czFqcjBaV3FNM2xkYTdtZjV5TmxQZGhMQlRVNjh0VTBNSHhFOG5DaS1Oc0sxaUNITUdGMDlBM3JONjZ2M0N0amdoRGhLdHE4SEtyLXEtdU9fUklPRXUzVWZQbFJ1QnRxdU5MX2VYczF3aGdDOHhPWTdiT1pTWXZEdDlzY1Q1dXZlb093MDl3WmN5VkNwRWVQWXpOaEhSUTZkemFYWkhkaEpaRUdEMUlpb3pPZ1ZMY1AyUHlTRkptVEY1Rmc?oc=5",
           "published": "Thu, 05 Nov 2026 13:58:31 GMT",
           "feed": "Specialist discovery 2"
-        },
-        {
-          "title": "Multi-Tier Rack Supported Mezzanine: How HEDA Shelves Doubles Usable Space Without New Construction - openPR.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSEFRMXphYXR1VGxTWUpGYjdrRzZrQjJlU0ROSXpKMTd2Ulh4bnBfbUNVb3J1S01EaGY4SWNvZk5QXy02a0lkeExidE1OYktwbmJ1ZWFXRHcxbU93ZDZkYkRjZl9QbVBfbkRiTHFsdXZkLV9iY24tdEJDRnVMM2dZWDIxN2lZTjBzdjd1V1N3cWdraGt6ci1JczFNSVc?oc=5",
-          "published": "Tue, 10 Nov 2026 06:16:18 GMT",
-          "feed": "Specialist discovery 2"
         }
       ]
     },
@@ -159,10 +155,10 @@
       "department": "HVLS Installation Field Impact",
       "leads": [
         {
-          "title": "Cable Conduit Systems Market to 2035: Data Center Buildouts and Industrial Automation Drive Forward Growth - IndexBox",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOemlrQlhjdzBMOWdiRHBLeUVWalZKUE9Oc2UxeHp3MkFMdkZwSzViX3haalJ1SC1PM0M0Y0l0WUZjaXdqTFd0X0tHWm9rSm5QRTA3cjE5MnBXbjJIQ0phMGlZV1l4NXJtT1R3Z3ZrLWxYMnB2V3pVU25iRFBfV1l2ZTVLXzVCbXYza3RLQ1Nfa2RRVHMxZnFCUjFIaWpyd1FKaG0tYkRtWWoxQVBGaUJxVTRCMWNLUmRNejFSZmMxc1Q1RUhkVTlZcTlPNFIxbkg3?oc=5",
-          "published": "Sun, 08 Nov 2026 22:11:03 GMT",
-          "feed": "Specialist discovery 2"
+          "title": "Multi-Tier Rack Supported Mezzanine: How HEDA Shelves Doubles Usable Space Without New Construction - openPR.com",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSEFRMXphYXR1VGxTWUpGYjdrRzZrQjJlU0ROSXpKMTd2Ulh4bnBfbUNVb3J1S01EaGY4SWNvZk5QXy02a0lkeExidE1OYktwbmJ1ZWFXRHcxbU93ZDZkYkRjZl9QbVBfbkRiTHFsdXZkLV9iY24tdEJDRnVMM2dZWDIxN2lZTjBzdjd1V1N3cWdraGt6ci1JczFNSVc?oc=5",
+          "published": "Tue, 10 Nov 2026 06:16:18 GMT",
+          "feed": "Specialist discovery 1"
         },
         {
           "title": "Navigating the $150B power boom and reality gap - BIC Magazine",

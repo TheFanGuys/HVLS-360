@@ -47,3 +47,15 @@ Original HVLS 360 illustration, editorial/media/original/hvls-fans-sprinkler-int
 ## Recheck — front matter only
 
 Added `publisher_approval: "Required"` to the draft front matter so the CI editorial readiness check passes. Body text unchanged, so the voice pass above still applies. SHA-256 fingerprints were updated by `weekly_article.py --revise`.
+
+## Technical check — drawing fix, 2026-11-12
+
+The fan power and control line ran straight up at the fan center and crossed the "Centered between adjacent sprinklers" label and centering dimension. Rerouted only that line; no label, number or part was added or removed.
+
+| Drawing element | Source | Change |
+|---|---|---|
+| Fan power and control line, controller to fan motor | Generic schematic link from the existing drawing; meaning unchanged | Rerouted from the controller's left side up and into the motor; label moved next to it. No longer crosses any text or dimension. |
+| "Centered between adjacent sprinklers" and its dimension line | NFPA 13 placement rule cited in article [1] | Unchanged; now clear of the line |
+| 3 ft minimum deflector to fan, blades up to 24 ft, waterflow switch, fire alarm control unit, relay contact note | As recorded above | Unchanged |
+
+Rendered at 1200×675 and in the article at 390 px and 1280 px wide; no overlapping text.

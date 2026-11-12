@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish verified operating workflows and shared department handoffs before article fine-tuning.",
-  "next_task": "Start each category from its handoff and current main. Website resumes preserved WIP; Agent Operations verifies the enabled Art Director task’s first completed execution.",
+  "next_task": "Verify next independent Art recovery and quiet unchanged run; complete live Studio authenticated save/reopen with browser/device access. Automatic research-to-finished-draft handoff remains unimplemented; scheduled research intake/release are distinct.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Four category handoffs prepared; unfinished website code preserved on wip/website-editing-handoff at59074a2, not merged or deployed. Main retains completed image-framing implementation and200-test acceptance. Hourly Art Director task creation/enabled status verified; first scheduled baseline completed and verified at e1856bf; changed-image execution remains open.",
+  "latest_verified_change": "Workflow159 merged with independently checked integration; Art fixture160 crop corrected and actual deployed 390/768/1280 frames inspected inline. No automatic newsroom or independent recovery completion inferred.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,
@@ -189,7 +189,9 @@
     "runtime_pr": 151,
     "remaining_dependency": "Later independent recurring run must process recovery fixture, then unchanged run must suppress output.",
     "fixture_revision": 2,
-    "fixture_status": "pending_independent_recovery_after_durable_inline_failure_readback"
+    "fixture_status": "pending_independent_recovery_after_durable_inline_failure_readback",
+    "inline_recovery_review_verified": true,
+    "inline_recovery_evidence": "office/worker-acceptance/art-director/inline-recovery-review.json"
   },
   "taz_second_photo_acceptance": {
     "source_revision": "176181ae86e456f7bd369a7f3085c4df65599b8a",

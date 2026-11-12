@@ -2,12 +2,12 @@
   "schema_version": 1,
   "slug": "hvls-air-movement-vs-ventilation",
   "status": "held_for_founder_release_authorization",
-  "article_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+  "article_sha256": "2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da",
   "release_inputs_sha256": "544a002add499287ddf2bf7db4d7a15dae384f608994e52222b949cea1884b31",
   "original_text_approval": {
     "status": "approved_exact_revision",
     "approval_register_file": "editorial/founder-approval-register.json",
-    "approved_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+    "approved_sha256": "2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da",
     "request_repeat_approval": false
   },
   "documentary_review": {
@@ -23,10 +23,10 @@
   "source_review": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
   "voice": {
     "file": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
-    "manuscript_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+    "manuscript_sha256": "2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da",
     "matching_revision_record_present": true,
     "record_excerpts": [
-      "Chris reported opening the article on iPhone, editing through GitHub, tapping Commit changes, then reopening the same article in Review Studio and seeing the changed wording. Repository commits c170cbb and 84c39bf independently confirm the manuscript changes. Current blob e0d72e2c15c20f49803d63068c0b924e11873f78; SHA-256 `6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b`. This verifies the GitHub editor commit \u2192 same-iPhone Studio reopen path from user observation plus repository evidence. It does not verify Studio's token-based Save button, another physical device, or a founder editorial approval."
+      "Chris reported opening the article on iPhone, editing through GitHub, tapping Commit changes, then reopening the same article in Review Studio and seeing the changed wording. Repository commits c170cbb and 84c39bf independently confirm the manuscript changes. Current blob e0d72e2c15c20f49803d63068c0b924e11873f78; SHA-256 `2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da`. This verifies the GitHub editor commit \u2192 same-iPhone Studio reopen path from user observation plus repository evidence. It does not verify Studio's token-based Save button, another physical device, or a founder editorial approval."
     ],
     "editor": "Editorial Director role performed by assistant; not a human independent attestation"
   },

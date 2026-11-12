@@ -65,12 +65,12 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 - Before release: specialist technical review of electrical, mounting and fire-relay descriptions; copy/link review; clearance of any imagery; explicit publisher approval.
 
 
-Voice pass revision record: c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+Voice pass revision record: 82696db6689f995127015eb3a08aac9f27e43289f35b8ad6709dad4f65e53301 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
 
 
 ## Current launch reconciliation — November 11, 2026
 
-Exact manuscript SHA-256: `c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+Exact manuscript SHA-256: `82696db6689f995127015eb3a08aac9f27e43289f35b8ad6709dad4f65e53301`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
 
 Technical disposition: **documentary review complete for current scope** — Manual-based installation-scope briefing, not executable wiring or structural design. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `powerfoil6-field-brief`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
 

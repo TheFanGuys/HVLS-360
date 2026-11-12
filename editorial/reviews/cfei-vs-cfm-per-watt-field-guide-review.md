@@ -49,12 +49,12 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 - Primary federal regulation and Appendix U have now been checked at the eCFR on November 10, 2026. Technical review must still assess product applicability and exceptions, confirm current editions before release, complete independent copyedit and link QA, clear artwork, and obtain publisher approval.
 
 
-Voice pass revision record: 2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+Voice pass revision record: 8ab811ff0ea6474ae3d70f1daf104911103e6f194c744f021953d4c9aaf179d3 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
 
 
 ## Current launch reconciliation — November 11, 2026
 
-Exact manuscript SHA-256: `2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+Exact manuscript SHA-256: `8ab811ff0ea6474ae3d70f1daf104911103e6f194c744f021953d4c9aaf179d3`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
 
 Technical disposition: **documentary review complete for current scope** — Rating-literacy explanation and explicitly dated federal rule summary. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `cfei-vs-cfm-per-watt-field-guide`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
 

@@ -6,7 +6,7 @@
   "items": [
     {
       "slug": "hvls-air-movement-vs-ventilation",
-      "draft_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+      "draft_sha256": "2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da",
       "seo_title": "HVLS Air Movement vs. Ventilation",
       "seo_description": "Understand how HVLS air movement differs from outdoor-air ventilation, with practical questions for facility specifications and project reviews.",
       "audience": "Facilities managers and HVAC specifiers",
@@ -21,7 +21,7 @@
     },
     {
       "slug": "abb-2026-ip66-vfd-field-report",
-      "draft_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+      "draft_sha256": "5082d227061a78b2f0cf9af14d8b1d6f0339d95f09daec176980dce01243dd7d",
       "seo_title": "ABB IP66 Drives: Checks Before an HVLS Retrofit",
       "seo_description": "Review ABB enclosure and drive-configuration claims, environmental limits and the OEM compatibility questions to settle before quoting an HVLS retrofit.",
       "audience": "Service electricians and controls integrators",
@@ -36,7 +36,7 @@
     },
     {
       "slug": "cfei-vs-cfm-per-watt-field-guide",
-      "draft_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+      "draft_sha256": "8ab811ff0ea6474ae3d70f1daf104911103e6f194c744f021953d4c9aaf179d3",
       "seo_title": "CFEI vs. CFM per Watt for HVLS Fan Submittals",
       "seo_description": "Compare CFEI and CFM per watt, identify the operating points behind fan ratings, and separate laboratory efficiency evidence from installed performance.",
       "audience": "Engineers, buyers and specification reviewers",
@@ -51,7 +51,7 @@
     },
     {
       "slug": "greenheck-ds-series-2026-field-report",
-      "draft_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+      "draft_sha256": "afb5e9f6902d47d16207fce389d5dccf7023d855706c9ed11b6140dac5e8a635",
       "seo_title": "Greenheck DS Fans: Manuals, Controls and Submittals",
       "seo_description": "Examine Greenheck DS fan documentation, shipping-date manual differences and controls questions that affect installation planning and submittal review.",
       "audience": "Installers and mechanical specifiers",
@@ -66,7 +66,7 @@
     },
     {
       "slug": "powerfoil6-field-brief",
-      "draft_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+      "draft_sha256": "82696db6689f995127015eb3a08aac9f27e43289f35b8ad6709dad4f65e53301",
       "seo_title": "Powerfoil 6: Installation Planning and Manual Checks",
       "seo_description": "Review Powerfoil 6 installation planning through its manufacturer manual: electrical variant, structural attachment, controls and shutdown coordination.",
       "audience": "HVLS installers and project electricians",
@@ -81,7 +81,7 @@
     },
     {
       "slug": "scissor-lift-planning-hvls-installations",
-      "draft_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+      "draft_sha256": "28abfa805ab6a5a7410b75b53df0a01608b8212bbe74a74b9976f782497a936a",
       "seo_title": "Scissor Lift Planning for HVLS Fan Installation",
       "seo_description": "Plan HVLS installation access around lift capacity, work position, travel routes and site hazards before committing equipment and labor to the job.",
       "audience": "Installation contractors and facilities teams",
@@ -96,7 +96,7 @@
     },
     {
       "slug": "vividair-gfy-ztech-taz-controls-field-guide",
-      "draft_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+      "draft_sha256": "74442072858c0b64436f22844cdc87de8e304b5092eca92e37b759afd55ef3a1",
       "seo_title": "VividAir and GFY Fan Controls: Identify the Hardware",
       "seo_description": "Identify VividAir and legacy Go Fan Yourself product generations, controls and documentation before assuming a fan, drive or keypad is interchangeable.",
       "audience": "Service technicians and controls electricians",
@@ -111,7 +111,7 @@
     },
     {
       "slug": "vividair-taz-72-field-guide",
-      "draft_sha256": "ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29",
+      "draft_sha256": "93f5730c26c051cf1e37756a1a3bccf00e7ce7b94da4fcd2d64dd4c932d3b887",
       "seo_title": "72-Inch TAZ: Airflow, Identification and Guide Checks",
       "seo_description": "Review VividAir TAZ aisle-fan placement, manufacturer performance claims and the guide-label inconsistency to resolve against the installed equipment.",
       "audience": "Facilities planners and fan installers",

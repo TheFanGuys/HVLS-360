@@ -16,41 +16,41 @@ seo_description: "Identify VividAir and legacy Go Fan Yourself product generatio
 
 # VividAir and Go Fan Yourself: The Z-Tech, TAZ and Controls Questions Installers Should Ask
 
-Before ordering a replacement drive for a Go Fan Yourself installation, identify what is on the ceiling and what controls it. VividAir's current Z-Tech and TAZ literature sits alongside older GFY documentation that may still apply to equipment in service [1][2][3]. The product name alone will not identify the right wiring drawing or replacement part.
+Before you order a replacement drive for a Go Fan Yourself job, find out exactly what's on the ceiling and what's running it. VividAir's current Z-Tech and TAZ documents sit right next to older GFY paperwork that may still cover fans in service [1][2][3]. The product name alone won't get you the right wiring drawing or part.
 
 ![Conceptual fan system documentation workflow connecting exact fan model, controls revision and installation guide](../../editorial/media/original/fan-system-documentation.svg)
 
-## Z-Tech literature spans several years
+## Z-Tech paperwork covers several years
 
-VividAir's Z-Tech page lists nine standard diameters from **8 to 24 feet**, a pitched-blade system for warehouses and manufacturing, and a Z-Chill upgrade path [2]. Its documents include a **January 2023** installation and technical operations guide, a **November 2025** specification sheet and an **October 2026** sell sheet.
+VividAir's Z-Tech page lists nine standard diameters from 8 to 24 feet, a pitched-blade design for warehouses and manufacturing, and a Z-Chill upgrade [2]. The documents include a January 2023 installation and technical operations guide, a November 2025 spec sheet and an October 2026 sell sheet.
 
-Record the installed model and control hardware before using those documents for service. A current sales option may differ from equipment supplied years earlier. Compare labels, revisions and the job submittal with the applicable technical guide before replacing a drive, keypad or motor component.
+Write down the installed model and control hardware before you service off any of those. What's for sale today may not match what shipped years ago. Compare the labels, revisions and job submittal against the right technical guide before you swap a drive, keypad or motor part.
 
-The older GFY Z-Tech page describes ABB components and a Dodge Quantis Z-Tech drive system [3]. That is useful background for identifying a legacy installation. It does not establish the drive, firmware or controls fitted to every current VividAir Z-Tech.
+The older GFY Z-Tech page describes ABB components and a Dodge Quantis Z-Tech drive system [3]. That helps you identify an older install. It doesn't tell you what drive, firmware or controls are in a current VividAir Z-Tech.
 
 ## TAZ needs its own layout
 
-VividAir markets TAZ for **aisles, mezzanines and obstructed ceiling areas**, with **36-inch and 72-inch** versions and separate guide links [1]. An aisle installation needs a discharge direction, mounting orientation and a clear account of the obstructions along the air path. A maximum airflow figure cannot establish that it will substitute for a 20-foot overhead fan.
+VividAir sells the TAZ for aisles, mezzanines and obstructed ceilings, in 36-inch and 72-inch sizes, with a separate guide for each [1]. An aisle job needs a discharge direction, a mounting orientation and a list of everything in the air's path. A max airflow number won't tell you whether it can stand in for a 20-foot overhead fan.
 
-VividAir advertises up to **135 feet of linear cooling coverage** and **75,200 CFM** for the family [1]. HVLS 360° has not independently reproduced those figures. Ask which size, operating point and test configuration support them before comparing coverage in a facility.
+VividAir advertises up to 135 feet of linear cooling coverage and 75,200 CFM for the family [1]. We haven't tested those numbers. Ask which size, speed and test setup they came from before you compare coverage.
 
-The product page's January 2023 download is labeled for the 72-inch model, but the linked guide contains conflicting 7ft headings, as documented in the companion TAZ review. Confirm its applicability against the supplied unit rather than resolving that discrepancy from the link label alone.
+The January 2023 download on the product page is labeled for the 72-inch model, but the guide inside carries "7ft" headings, as our TAZ field guide covers. Check it against the unit you actually have instead of trusting the link label.
 
-## Trace the controller as well as the fan
+## Trace the controls, not just the fan
 
-VividAir's current Z-Tech page identifies **Navigator** for centralized individual and group fan control [2]. That description and the legacy ABB references do not establish what a service technician will find at a particular site.
+VividAir's current Z-Tech page names Navigator for central control of single fans and groups [2]. Neither that nor the old ABB references tell a service tech what's actually on a given site.
 
-Record the keypad, controller, drive and motor labels. Include communications wiring and any building-management or fire-alarm interface. Supply voltage and horsepower alone do not establish motor compatibility, an approved control combination or the required stop and restart behavior.
+Write down the keypad, controller, drive and motor labels. Include communications wiring and any tie-in to the building system or fire alarm. Voltage and horsepower alone won't tell you whether a motor matches, whether a control combination is approved, or how the fan should stop and restart.
 
-For a site with older GFY and newer VividAir equipment, keep those records by fan or control group. Resolve an unidentified hardware revision with the manufacturer before ordering parts.
+On a site with older GFY fans and newer VividAir fans, keep those records by fan or by control group. If you can't identify a hardware revision, call the manufacturer before you order parts.
 
-## Keep performance claims tied to the application
+## Tie performance claims to the job
 
-VividAir's wider catalog includes Z-Tech, Z-Tech3, TAZ and Z-Chill [4]. Their coverage and efficiency claims need the stated methods and conditions before they can be compared.
+VividAir's catalog includes the Z-Tech, Z-Tech3, TAZ and Z-Chill [4]. Get the test method and conditions behind any coverage or efficiency claim before you compare them.
 
-For comfort, ask about air speed at the occupied work area and the conditions behind any perceived-cooling figure. For destratification, ask for temperature measurements at the ceiling and occupied zone before and after operation. Neither is established by comparing unlike maximum-airflow figures.
+For comfort, ask about air speed where people work and the conditions behind any perceived-cooling number. For destratification, ask for temperatures at the ceiling and the work floor, before and after. Comparing max airflow numbers from different fans answers neither one.
 
-Before dispatch, assemble the fan identification, applicable manual, drive and motor data, controller revisions, mounting detail and control sequence. Add commissioning and maintenance instructions for that configuration. That gives the crew a better starting point than a brand name and a photograph of the keypad.
+Before you roll a truck, pull together the fan ID, the right manual, drive and motor data, controller revisions, the mounting detail and the control sequence. Add the commissioning and maintenance instructions for that setup. That's a better start than a brand name and a photo of the keypad.
 
 ### Sources
 

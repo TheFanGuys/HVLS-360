@@ -10,7 +10,8 @@ Nothing goes live until the founder merges the pull request that carries these
 changes. The approval record says so explicitly.
 
 Fix a live article: edit editorial/drafts/<slug>.md (body only), then
-  python office/weekly_article.py --revise --slug <slug>
+  python office/weekly_article.py --revise --slug <slug> [<slug> ...]
+  (revise every changed article in ONE command)
 
 New article:
   python office/weekly_article.py --slug my-slug --image art-library/bigfanguys-com/warehouse/IMG_2742.webp \
@@ -143,17 +144,29 @@ def revise(slug, old_sha, image=None, alt=None, caption=None, focus=0.5):
     approval_file = ROOT / "editorial/approvals" / (slug + ".json")
     record = json.loads(approval_file.read_text())
     record["release_inputs_sha256"] = digest(ROOT, slug)
-    record["source_review_notes"] += " Revised " + dt.date.today().isoformat() + "; founder approves by merging the fix pull request."
+    note = " Revised " + dt.date.today().isoformat() + "; founder approves by merging the fix pull request."
+    if not record["source_review_notes"].endswith(note):
+        record["source_review_notes"] += note
     write_json(approval_file, record)
-    (ROOT / "articles" / (slug + ".md")).unlink()
+
+
+def rerelease(slugs):
     import shutil
-    shutil.rmtree(ROOT / "articles" / slug)
-    run([sys.executable, "office/publish_approved.py", "--slug", slug, "--approval-file", str(approval_file)])
-    run([sys.executable, "office/render_release.py", "--slug", slug])
+    for slug in slugs:
+        for path in (ROOT / "articles" / (slug + ".md"), ROOT / "articles" / slug):
+            if path.is_dir():
+                shutil.rmtree(path)
+            elif path.exists():
+                path.unlink()
+    for slug in slugs:
+        run([sys.executable, "office/publish_approved.py", "--slug", slug,
+             "--approval-file", str(ROOT / "editorial/approvals" / (slug + ".json"))])
+    for slug in slugs:
+        run([sys.executable, "office/render_release.py", "--slug", slug])
     run([sys.executable, "office/public_catalog.py", "--write"])
     run([sys.executable, "office/site_preview.py"])
     checks()
-    print("\nREADY: revised articles/%s/index.html and all checks passed." % slug)
+    print("\nREADY: revised %s and all checks passed." % ", ".join(slugs))
 
 
 def checks():
@@ -169,16 +182,18 @@ def main():
     if "--revise" in sys.argv:
         p = argparse.ArgumentParser()
         p.add_argument("--revise", action="store_true")
-        p.add_argument("--slug", required=True)
+        p.add_argument("--slug", required=True, nargs="+", help="one or more slugs")
         p.add_argument("--image")
         p.add_argument("--alt")
         p.add_argument("--caption")
         p.add_argument("--focus", type=float, default=0.5)
         a = p.parse_args()
-        if a.image and not (a.alt and a.caption):
-            raise SystemExit("--image needs --alt and --caption")
-        old = json.loads((ROOT / "editorial/approvals" / (a.slug + ".json")).read_text())["article_sha256"]
-        return revise(a.slug, old, a.image, a.alt, a.caption, a.focus)
+        if a.image and not (a.alt and a.caption and len(a.slug) == 1):
+            raise SystemExit("--image needs --alt, --caption and exactly one --slug")
+        for slug in a.slug:
+            old = json.loads((ROOT / "editorial/approvals" / (slug + ".json")).read_text())["article_sha256"]
+            revise(slug, old, a.image, a.alt, a.caption, a.focus)
+        return rerelease(a.slug)
     p = argparse.ArgumentParser()
     p.add_argument("--slug", required=True)
     p.add_argument("--image", required=True)

@@ -15,39 +15,39 @@ seo_description: "Review Powerfoil 6 installation planning through its manufactu
 
 # Powerfoil 6: What the Installation Manual Tells Field Crews
 
-A Powerfoil 6 installation needs more than a fan diameter on a ceiling plan. The electrical variant, structural attachment, control package and shutdown wiring all affect the crew's scope. Big Ass Fans' installation guide gives the product details to check before mobilization [2]. This is a manual-based briefing; HVLS 360° has not independently tested the fan.
+A Powerfoil 6 job takes more than a circle on the ceiling plan. The electrical variant, the structural attachment, the control package and the fire shutdown wiring all change what your crew has to do. Big Ass Fans' installation guide spells out what to check before you mobilize [2]. Everything here comes from the manual and the product page. HVLS 360° has not independently tested the fan.
 
-## Settle the control package with the order
+## Settle the controls when the fan is ordered
 
-Big Ass Fans lists eight diameters from **8 to 24 feet**, six airfoils, an onboard VFD, a motor and helical gearbox, and an included wired OLED wall controller. Optional BAFCon controls add multi-fan and building-controls capabilities; the company advertises management of up to **24 fans** through that upgrade [1].
+Big Ass Fans lists eight diameters from 8 to 24 feet, six airfoil options, an onboard VFD, a motor with a helical gearbox, and a wired OLED wall controller in the box. The optional BAFCon controls add multi-fan and building-controls features, and the company says that upgrade can run up to 24 fans [1].
 
-For a multi-fan site, decide whether the owner needs group control, temperature-based operation or building-management integration before the submittal is complete. The order and installation scope must identify the selected control arrangement.
+On a multi-fan site, find out before the submittal is done whether the owner wants group control, temperature-based operation or a tie-in to the building system. The order and your install scope both need to name the control setup.
 
-## Match the supply to the purchased variant
+## Match the power to the fan you bought
 
-**Revision D, November 19, 2025**, lists electrical supply configurations, minimum circuit ratings and dedicated overcurrent protection for each fan [2]. Use it with the ordered submittal and nameplate when planning the feeder and disconnect provisions.
+Revision D of the guide, dated November 19, 2025, lists the supply configurations, minimum circuit ratings and dedicated overcurrent protection for each fan [2]. Plan the feeder and disconnect from that, the approved submittal and the nameplate.
 
-The manual includes **575–600 V three-phase**, while the public configurator checked November 10, 2026 showed **200–250 V single-phase**, **200–250 V three-phase** and **400–480 V three-phase** [1][2]. That difference does not establish whether a 600 V unit is currently orderable. Confirm the purchased configuration rather than using either list alone to infer what will arrive.
+The manual includes 575 to 600 V three-phase. The online configurator we checked on November 10, 2026 showed 200 to 250 V single-phase, 200 to 250 V three-phase and 400 to 480 V three-phase [1][2]. That gap doesn't tell you whether a 600 V unit can still be ordered. Go by the configuration on the purchase order, not either list.
 
 Factory wiring and testing are described on the product page [1]. The crew still needs a defined scope for feeder routing, control cable, connections and functional checks.
 
-## Survey the supporting members
+## Look hard at what it's hanging from
 
-The product page lists I-beams, bar joists, Z-purlins and solid beams among possible mounting conditions [1]. The guide supplies restrictions that matter to the layout: prescribed angle-iron assemblies for bar joists, no strut-channel substitution without engineering analysis, and no suspension from a single purlin, truss or bar joist [2].
+The product page lists I-beams, bar joists, Z-purlins and solid beams as possible mounting points [1]. The guide adds the rules that drive the layout: bar joists get the prescribed angle-iron assemblies, no swapping in strut channel without an engineer, and never hang the fan from a single purlin, truss or bar joist [2].
 
-Identify the actual supporting members and approved attachment before fixing the centerline and extension length. Show obstructions, lighting, fan spacing and the structural connection on the plan. A circle representing blade span leaves the mounting work undefined.
+Find the actual members and the approved attachment before you lock in the centerline and extension length. Put obstructions, lights, fan spacing and the structural connection on the plan. A blade-span circle tells the crew nothing about how the fan mounts.
 
-## Agree on the fire-interface scope
+## Decide who does the fire shutdown
 
-The guide provides **normally open and optional normally closed** fire-relay arrangements. Both command a stop and report a fault at the controller, with model-specific terminal and relay information [2].
+The guide shows a normally open fire relay and an optional normally closed one. Both stop the fan and show a fault at the controller, and the guide gives the terminals and relay details for each model [2].
 
-Use that drawing when coordinating the electrical and fire-alarm trades. Identify who supplies and wires each component, supervision where required, and the witnessed acceptance test. “Provide fire alarm shutdown” is too little information to divide that work or verify its operation.
+Bring that drawing to the meeting with the electrical and fire alarm trades. Settle who supplies and wires each piece, whether the circuit needs supervision, and who witnesses the test. "Provide fire alarm shutdown" on a scope sheet isn't enough to split the work or prove it works.
 
-## Make maintenance part of the handoff
+## Hand off the maintenance with the fan
 
-The gearbox is described as lubricated for life [1]. The assembly still requires inspection. The guide's annual-maintenance section covers safety cables, mounting hardware, hub components, airfoils, oil leakage and abnormal noise. It identifies conditions requiring the fan to be removed from service pending manufacturer guidance, including certain leakage, structural damage and grinding-type noise [2].
+Big Ass Fans says the gearbox is lubricated for life [1]. The fan still needs inspecting. The guide's annual checklist covers safety cables, mounting hardware, hub parts, airfoils, oil leaks and unusual noise. It also says when to take the fan out of service and call the manufacturer, including certain leaks, structural damage and a grinding noise [2].
 
-Leave the owner the applicable guide, fan model and serial details, controller information and a record of commissioning. Agree on lift access and who will carry out the inspection. Those arrangements will determine whether the manual's maintenance instructions can be followed after the installation crew leaves.
+Leave the owner the right guide, the model and serial numbers, the controller details and your commissioning record. Agree on who does the yearly inspection and how they'll get up there. If nobody settles that, the maintenance section never gets followed after your crew leaves.
 
 ### Sources
 

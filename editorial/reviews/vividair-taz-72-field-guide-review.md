@@ -40,12 +40,12 @@ Founder feedback: no specific factual changes requested; some passages still sou
 Nov 11 full-queue recheck: included the TAZ revision from PR #111 in the eight-article voice review. No additional TAZ text changes needed in this pass. All technical/media/founder holds remain.
 
 
-Voice pass revision record: 93f5730c26c051cf1e37756a1a3bccf00e7ce7b94da4fcd2d64dd4c932d3b887 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+Voice pass revision record: 62f8f66b5ef74c3a2040cf129e28ff26ecbbd220ecdc3c8eb4f4d023bb99cb0e (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
 
 
 ## Current launch reconciliation — November 11, 2026
 
-Exact manuscript SHA-256: `93f5730c26c051cf1e37756a1a3bccf00e7ce7b94da4fcd2d64dd4c932d3b887`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+Exact manuscript SHA-256: `62f8f66b5ef74c3a2040cf129e28ff26ecbbd220ecdc3c8eb4f4d023bb99cb0e`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
 
 Technical disposition: **documentary review complete for current scope** — Directional-fan documentary briefing with openly attributed publisher photo identification. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `vividair-taz-72-field-guide`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
 
@@ -58,3 +58,20 @@ Professional review becomes required if scope adds: Using this PDF as installati
 Founder text: **approved exact revision**, preserved in `editorial/founder-approval-register.json`; do not ask for the same approval again. Selected media, metadata and release holds are separate in `editorial/launch-completion-ledger.json`. No release authorization is recorded. Historical unchecked items above are superseded only where this current record explicitly resolves them.
 
 Illustration dependency: approved text describes two photographs but preview currently renders one. Second source is selected in `editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json`; Website must integrate and inspect actual responsive placements. This is not a request to change or reapprove the manuscript.
+
+
+## Field note revision — November 12, 2026
+
+Chris's field note (Command Screen work order sguqboe963hhl1juch02): Big Fan Guys has installed the TAZ and seen it blow the 135 feet and more; placed at the end of racking aisles it can easily move air 150 feet down the aisle; the TAZ suits hard-to-reach spots that need air.
+
+### Technical check
+
+| Claim or element | Source | Change |
+|---|---|---|
+| Up to 135 ft linear coverage, up to 75,200 CFM | VividAir TAZ product page [1] | Kept as manufacturer figures |
+| Big Fan Guys installed the TAZ and saw air carry 135 ft and beyond | Field note, Chris Fogarty, Nov 12, 2026 | Added, attributed to Big Fan Guys as observation, not a measured test |
+| About 150 ft of air movement from the end of a racking aisle | Field note, Chris Fogarty, Nov 12, 2026 | Added as field observation |
+| TAZ suits hard-to-reach spots | Field note, Chris Fogarty, Nov 12, 2026 | Added to opening |
+| "we haven't tested them" | Superseded by field note | Removed |
+
+No drawings or image changes. Air speed at work positions remains unmeasured; the aisle air-speed paragraph stays as written.

@@ -1236,7 +1236,7 @@
       "category": "controls-vfd",
       "repository_file": "art-library/uploads/invertek-optidrive-eco/IMG_5849.jpeg",
       "original_filename": "IMG_5849.jpeg",
-      "source": "Chris upload in project chat on November 12, 2026; instruction Invertek eco \u2014 Add and continue",
+      "source": "Chris upload in project chat on November 12, 2026; instruction Invertek eco — Add and continue",
       "model_identification": "Invertek Optidrive ECO; visible Optidrive eco front branding and ECO label, consistent with Chris identification. Exact SKU/rating not transcribed or asserted. Not an Optidrive E4.",
       "review_status": "visually_identified_library_reserve_not_selected",
       "rights_basis": "Chris supplied image and explicitly instructed addition for HVLS360 Art use, within standing permission for his supplied installation photographs. No manufacturer license invented.",
@@ -1274,7 +1274,7 @@
       "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/generated/invertek-e4/e4-workbench-original.png",
       "original_filename": "e4-workbench-original.png",
       "model_identification": "Invertek Optidrive E4 product reference/illustration; no exact SKU or dimensions asserted",
-      "description": "Optidrive E4 workbench product illustration \u2014 selected source",
+      "description": "Optidrive E4 workbench product illustration — selected source",
       "review_status": "selected_source_composition_accepted",
       "rights_basis": "Chris explicitly instructed use of the latest ChatGPT-generated E4 workbench illustration, generated from his supplied E4 reference. Founder-authorized editorial illustration; not a manufacturer photograph or endorsement. No blanket third-party legal clearance asserted.",
       "sha256": "0f39222428e299cf1eec3ab499836e16da80dc7fe3b2e353ea11d0dab2b3fa4b",
@@ -1306,6 +1306,58 @@
         "controls",
         "VFD"
       ]
+    },
+    {
+      "id": "art-library/uploads/research-cards/amca-cfei-explained",
+      "category": "research-card-graphic",
+      "repository_file": "art-library/uploads/research-cards/amca-cfei-explained.jpg",
+      "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/uploads/research-cards/amca-cfei-explained.jpg",
+      "original_filename": "amca-cfei-explained.jpg",
+      "model_identification": "HVLS 360 cover graphic; no specific fan model asserted",
+      "description": "HVLS 360 cover graphic: 'Understanding CFEI, Ceiling Fan Energy Index', based on AMCA's CFEI explainer, with a field photo of an HVLS fan over warehouse racking.",
+      "review_status": "selected",
+      "rights_basis": "Supplied by Chris via the Command Screen, Nov 12, 2026, for HVLS 360 homepage research cards.",
+      "published_derivative": "editorial/media/publisher/research/amca-cfei-explained.webp",
+      "sha256": "18f85a81bb4bb4b923bddf48b89a446d555b98c4ea096d3696af8d50ff9a8782"
+    },
+    {
+      "id": "art-library/uploads/research-cards/berkeley-ceiling-fan-ac",
+      "category": "research-card-graphic",
+      "repository_file": "art-library/uploads/research-cards/berkeley-ceiling-fan-ac.jpg",
+      "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/uploads/research-cards/berkeley-ceiling-fan-ac.jpg",
+      "original_filename": "berkeley-ceiling-fan-ac.jpg",
+      "model_identification": "HVLS 360 cover graphic; no specific fan model asserted",
+      "description": "HVLS 360 cover graphic: 'Ceiling fans + air conditioning', UC Berkeley Center for the Built Environment research, with a field photo of an HVLS fan beside supply ductwork under a warehouse roof.",
+      "review_status": "selected",
+      "rights_basis": "Supplied by Chris via the Command Screen, Nov 12, 2026, for HVLS 360 homepage research cards.",
+      "published_derivative": "editorial/media/publisher/research/berkeley-ceiling-fan-ac.webp",
+      "sha256": "da748bae4a01b3c4da404512a02f8746eda6e90317b55258a2f8c04513ee4a1f"
+    },
+    {
+      "id": "art-library/uploads/research-cards/cec-smart-fans-thermostats",
+      "category": "research-card-graphic",
+      "repository_file": "art-library/uploads/research-cards/cec-smart-fans-thermostats.jpg",
+      "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/uploads/research-cards/cec-smart-fans-thermostats.jpg",
+      "original_filename": "cec-smart-fans-thermostats.jpg",
+      "model_identification": "HVLS 360 cover graphic; no specific fan model asserted",
+      "description": "HVLS 360 illustrated comparison: air conditioning only at 74F versus air conditioning plus ceiling fan at 78F with comparable comfort. Credits CEC-500-2022-015 (2022).",
+      "review_status": "selected",
+      "rights_basis": "Supplied by Chris via the Command Screen, Nov 12, 2026, for HVLS 360 homepage research cards.",
+      "published_derivative": "editorial/media/publisher/research/cec-smart-fans-thermostats.webp",
+      "sha256": "9677f2030ad2119f53bbc9d033f9aedb85f26602bf14a792d90697d54723179a"
+    },
+    {
+      "id": "art-library/uploads/research-cards/ecfr-430-32-energy-standards",
+      "category": "research-card-graphic",
+      "repository_file": "art-library/uploads/research-cards/ecfr-430-32-energy-standards.jpg",
+      "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/uploads/research-cards/ecfr-430-32-energy-standards.jpg",
+      "original_filename": "ecfr-430-32-energy-standards.jpg",
+      "model_identification": "HVLS 360 cover graphic; no specific fan model asserted",
+      "description": "HVLS 360 cover graphic: 'HVLS fan energy standards, understanding the Ceiling Fan Energy Index, 10 CFR 430.32(s)(2)(ii)' over a high-bay hangar interior with several HVLS fans.",
+      "review_status": "selected",
+      "rights_basis": "Supplied by Chris via the Command Screen, Nov 12, 2026, for HVLS 360 homepage research cards.",
+      "published_derivative": "editorial/media/publisher/research/ecfr-430-32-energy-standards.webp",
+      "sha256": "b2793be493e49e0f54d2dcb7e53742dc4353490ebe185ad68da25b05c162596d"
     }
   ]
 }

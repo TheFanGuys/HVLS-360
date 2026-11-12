@@ -35,6 +35,8 @@ Skip anything you can't back with primary sources (manufacturer pages and manual
 
 Use web search and fetch. Open every source you cite. Note the date you checked each one. Record exact figures only as the source states them, and name them as manufacturer claims where they are.
 
+For an article about a product, start by finding out what the manufacturer built it for: its stated applications, modes, industries and configurations (voltages, phases, enclosures, operator interface). Read the product page, the spec sheet and the brochure or manual, and look at the manufacturer's own product images. Write the article around that intended use. Never assume a product is for HVLS fans. If the manufacturer doesn't list HVLS fans, say so, and say where it actually fits.
+
 ## 3. Write the draft
 
 Create `editorial/drafts/<slug>.md`. Use lowercase words joined by hyphens for the slug.
@@ -86,17 +88,33 @@ Do this as a separate pass, after the draft is finished.
 
 Create `editorial/reviews/<slug>-review.md` with a short table: each material claim, its source URL and the date checked. List anything you couldn't confirm. If a central claim can't be confirmed, change or drop it.
 
-## 6. Art desk: the lead image
+## 6. Technical desk: check every claim and every picture
 
-**First choice when the article is about a specific product or piece of equipment: draw an original illustration.** Read the article and the manufacturer's public description, then draw an SVG of that type of equipment that shows what the article explains (layout, wiring path, clearances, mounting, where the label is). Save it as `editorial/media/original/<slug>.svg`.
+Do this as its own pass, after the source check, as if you were a drive and fan technician who didn't write the article.
+
+1. Re-open the manufacturer's product page, spec sheet and brochure or manual. Go through the draft line by line. Every number, configuration, feature, application and "you'll find" statement must match a source. Fix or cut anything that doesn't.
+2. Check the framing: does the article match what the manufacturer says the product is for? Fix any line that assumes HVLS or fan use the sources don't support.
+3. Look at the manufacturer's own product images. If an image disagrees with a spec table (a display listed but not visible, a terminal that isn't there), go with what you can see, and tell the reader to check the unit.
+4. Check the lead image and any drawing the same way: list every label, number and part drawn and match each to a source. Anything you can't source comes out.
+5. Add a "Technical check" table to `editorial/reviews/<slug>-review.md`: each claim or drawing element, the source, and what you changed.
+
+## 7. Art desk: the lead image
+
+Never draw a specific product's face: no made-up screens, buttons, terminals, labels or readouts. An invented product picture looks wrong to anyone who has held the real thing. This setup can't make realistic product photos, so don't try.
+
+For a product article, in this order:
+1. A Big Fan Guys photo of that exact product, if `art-library/` has one.
+2. A to-scale chart or diagram of verified facts from the article: dimensions, ratings, a wiring or layout concept that isn't specific to one product's hardware. Save it as `editorial/media/original/<slug>.svg`. Every number on it gets checked in step 6.
+3. A Big Fan Guys photo that shows the kind of place the product is used, captioned honestly, never one showing a competing brand's version of the product.
+In the pull request, ask Chris for a real photo of the product if he has one, so it can replace the chart later.
 
 Drawing rules:
-- Clean technical-illustration style: flat colors, simple shapes, labeled parts in plain words. 1200×675 viewBox. No external fonts or images.
-- It shows the equipment type and the article's point. It is not a replica: no manufacturer logo, no brand name on the device, no copied product photo or drawing, no fake fine print, serial plates or QR codes.
-- Caption it honestly, e.g. "Illustration of a compact wall-mount drive and its wiring connections."
-- Render it to PNG (`rsvg-convert` or `cairosvg`, install if missing) and look at the PNG before you use it. Fix overlapping text or anything that looks wrong.
+- Clean trade-magazine style: flat colors, plain labels, drawn to scale where it shows sizes. 1200×675 viewBox. No external fonts or images. Give the `<svg>` `role="img"` and a `<title>` and `<desc>`.
+- No logos, brand names on equipment, fake fine print, serial plates or QR codes.
+- Caption it honestly, e.g. "Listed depths from the manufacturer's 2026 brochure."
+- Render it (headless Chrome screenshot of the SVG works) and look at it before you use it. Fix overlapping text or anything that looks wrong.
 
-**Otherwise, or if the drawing doesn't come out clean**, use a Big Fan Guys photo or an existing original illustration:
+For a general (non-product) article, use a Big Fan Guys photo or an existing original illustration:
 
 - `art-library/bigfanguys-com/<category>/*.webp` (agriculture, automotive, aviation, government, install-service, manufacturing, warehouse)
 - `editorial/media/publisher/bfg-field/*.webp`
@@ -106,7 +124,7 @@ Lead images are always landscape. The helper crops portrait photos to 4:3 automa
 
 Look at the image before choosing it. Pick one that fits the topic and doesn't misrepresent it. A photo of one brand's fan must not illustrate another brand's product. Prefer an image no published article already uses (check `editorial/media/article-images.json`). Write a short factual alt text and caption. Never use manufacturer or web photos.
 
-## 7. Build the release
+## 8. Build the release
 
 ```
 python office/weekly_article.py --slug <slug> --image <path> --alt "<alt text>" --caption "<caption>"
@@ -116,9 +134,9 @@ This fills in the manifest, review register, approval record, article page, home
 
 Then check it the way readers will see it. Serve the repo (`cd .. && python3 -m http.server 8765 &`) and screenshot the homepage and the new article at phone and desktop width with headless Chrome, e.g. `google-chrome --headless=new --no-sandbox --hide-scrollbars --window-size=390,2400 --screenshot=phone.png http://localhost:8765/HVLS-360/articles/<slug>/` (repeat at `1280,1600`). Look at every screenshot. Fix anything wrong: an image that's cut off, sideways, too dark, showing damage or the wrong brand, or text that overflows. Read the rendered text once for leftover draft wording or broken formatting.
 
-## 8. Open the pull request
+## 9. Open the pull request
 
-Right before you open it, sync with the live site, because another run may have published since you started: `git fetch origin main && git merge origin/main`. If that conflicts, resolve it this way and nothing else: for `index.html`, `rss.xml` and `sitemap.xml` take main's copy (`git checkout origin/main -- index.html rss.xml sitemap.xml`); for `editorial/media/article-images.json` and `editorial/reviews/technical-review-register.json` keep every entry from both sides. Then run `python office/public_catalog.py --write` and `python office/site_preview.py`, and rerun every check from step 7 until they pass.
+Right before you open it, sync with the live site, because another run may have published since you started: `git fetch origin main && git merge origin/main`. If that conflicts, resolve it this way and nothing else: for `index.html`, `rss.xml` and `sitemap.xml` take main's copy (`git checkout origin/main -- index.html rss.xml sitemap.xml`); for `editorial/media/article-images.json` and `editorial/reviews/technical-review-register.json` keep every entry from both sides. Then run `python office/public_catalog.py --write` and `python office/site_preview.py`, and rerun every check from step 8 until they pass.
 
 - Branch: `weekly/<slug>`
 - Title: `New article: <headline>`
@@ -126,6 +144,6 @@ Right before you open it, sync with the live site, because another run may have 
 
 Don't merge it yourself. Don't change anything outside what the helper and steps 3–4 produce.
 
-## 9. If there's no good topic
+## 10. If there's no good topic
 
 If nothing meets the bar this week, don't force an article. Open an issue titled `Weekly writer: no article this week` and list the topics you rejected and why.

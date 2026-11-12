@@ -1,7 +1,7 @@
 # Optidrive E4 Fan Service Guide — Source Check and Voice Pass
 
 **Article:** editorial/drafts/optidrive-e4-fan-service-guide.md
-**Manuscript SHA-256 at voice pass:** 37aaecf71b374582bbaa95b4542eaa6f3e9cc96e958c97c9118c67311120282f
+**Manuscript SHA-256 at voice pass:** 870def66075724562679ae161b6bc8cda532965b942ffd89961c317033229461
 **Checked:** 2026-11-12, Weekly Writer (research, writer, editor and source-check desks)
 **Assignment:** Research pitch #96. Supersedes the shorter production brief in PR #163; that packet's ABB image was rejected by Chris and is not used here. Respects Chris's earlier correction that the fan maker's specified drive is the starting point (closing section).
 
@@ -52,3 +52,16 @@ Original HVLS 360 illustration, editorial/media/original/optidrive-e4-fan-servic
 ## Recheck — front matter only
 
 Added `publisher_approval: "Required"` to the draft front matter so the CI editorial readiness check passes. Body text unchanged, so the voice pass above still applies. SHA-256 fingerprints were updated by `weekly_article.py --revise`.
+
+## Technical correction, 2026-11-12
+
+Chris flagged the first version. Errors found and fixed:
+
+| Claim in first version | What the sources say | Fix |
+| --- | --- | --- |
+| Framed as a fan-package / HVLS drive | Brochure: general purpose, Industrial / Fan / Pump modes; Fan mode lists AHUs, ventilation, circulating fans, kitchen extract, air curtains. HVLS not listed. | Reframed around intended applications |
+| "Three-phase input" only | Brochure order tables: 110–115 V 1-ph (doubler), 200–240 V 1-ph or 3-ph, 380–480 V 3-ph. Product page: "Single & 3 phase input." | Corrected |
+| Read fault codes off the keypad | Product images show buttons and error/run LEDs, no numeric readout (spec tables still say 7-segment LED). | Says no readout; faults via OptiTools/app; TFT remote keypad optional |
+| Lead drawing: invented display ("50.0"), terminal layout, 3-phase L1–L3 label | Not in any source | Replaced with a to-scale depth chart using brochure dimensions only |
+
+Open: Invertek's spec tables and product images disagree on the built-in display. Article tells readers to check the unit.

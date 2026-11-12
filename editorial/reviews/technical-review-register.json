@@ -272,7 +272,7 @@
     },
     {
       "slug": "optidrive-e4-fan-service-guide",
-      "title": "Optidrive E4: What a Fan Service Tech Will Find Inside Invertek's New Small Drive",
+      "title": "Invertek's Optidrive E4: What the New General-Purpose Drive Is Built For",
       "scope": "Weekly article; documentary source check by the writer",
       "primary_review_file": "editorial/reviews/optidrive-e4-fan-service-guide-review.md",
       "technical_status": "awaiting_qualified_review",
@@ -282,9 +282,9 @@
       "publisher_approval": "founder_merge_of_release_pr",
       "ai_expert_review": "complete",
       "ai_expert_review_file": "editorial/reviews/optidrive-e4-fan-service-guide-review.md",
-      "ai_review_scope": "Writer's source and claim check",
+      "ai_review_scope": "Writer's source and claim check; technical check of every claim and drawing element against Invertek's product page, spec sheet, 2026 brochure and product images (2026-11-12, after founder flagged errors)",
       "qualified_review_required": false,
-      "draft_sha256": "37aaecf71b374582bbaa95b4542eaa6f3e9cc96e958c97c9118c67311120282f"
+      "draft_sha256": "870def66075724562679ae161b6bc8cda532965b942ffd89961c317033229461"
     }
   ],
   "policy": "Documentary source review is distinct from independent qualified signoff. External human review is required for consequential prescriptive or site-specific regulated judgments, not as a blanket gate for attributed reporting. Exact-revision claim findings and conditional triggers are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Zero qualified independent signoffs; no release authorization.",

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "last_successful_commit": "176181ae86e456f7bd369a7f3085c4df65599b8a",
-  "checked_at_utc": "2026-11-12T02:06:01.959415+00:00",
-  "outcome": "eco_upload_identified_added_as_reserve_e4_request_open",
+  "last_successful_commit": "f9d50719a6aad07a33a1303b033438626cc35b49",
+  "checked_at_utc": "2026-11-12T02:30:35.640168+00:00",
+  "outcome": "e4_founder_selected_illustration_responsive_accepted",
   "reviewed_image_hashes": {
     "editorial/media/publisher/bfg-field/warehouse-hvls.webp": {
       "sha256": "3258472f0f3d509d8cdef31f302348f7387901a57437aa07d3e9c3df747ebb95",
@@ -60,6 +60,12 @@
       "sha256": "8df98899ae234fb91f264ca24280cfb7aeeabc58603f4d6460b3ae17bcf12cd4",
       "git_blob_sha": "cb6989397b1fc1b6fb085d930bb216134c0ab085",
       "outcome": "Optidrive ECO identified; library reserve, no article selection"
+    },
+    "editorial/media/publisher/production-96/e4-workbench.webp": {
+      "sha256": "ab858f1504c8a1bbc381f0376b04c9527a1dcf406fc3c09a5d6c0e5da5174cc2",
+      "git_blob_sha": "b7205285671ff50ad45f566e792b9ad88dbfe4fc",
+      "source_sha256": "0f39222428e299cf1eec3ab499836e16da80dc7fe3b2e353ea11d0dab2b3fa4b",
+      "outcome": "Actual source and all six deployed card/article frames viewed; complete bounds/contain accepted"
     }
   },
   "selected_review": "editorial/media/CROP-REVIEW-2026-11-11.md",
@@ -150,6 +156,10 @@
     "editorial/media/article-images.json": "766a71d9ca669a2177592ab7de7087a94f474c51"
   },
   "source_library_tree_sha": "b8cb0b118edf428ef44e51c1ac66194567451a66",
-  "checked_source_commit": "5e45fd870aa79f7697b727b74a09089f82808641",
-  "issue96_blocker": "Issue96 media blocked: obtain and visually verify relevant Optidrive E4 imagery with recorded editorial rights. ABB lead rejected for competing-brand mismatch."
+  "checked_source_commit": "f9d50719a6aad07a33a1303b033438626cc35b49",
+  "review_scope": "Issue96 selected illustration and its actual deployed card/article/reader framing; no full-launch re-review or independent scheduled-run claim",
+  "remaining_blockers": [
+    "Independent Art recovery and unchanged-run suppression not newly verified",
+    "Founder-deferred launch image suitability corrections remain separate"
+  ]
 }

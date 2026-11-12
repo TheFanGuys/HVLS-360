@@ -11,13 +11,58 @@
   "alt": "Purple and black Optidrive E4 on a workbench beside a notebook, screwdriver and USB cable",
   "credit": "HVLS 360",
   "identity": "Illustrated Invertek Optidrive E4, matching the E4 reference identity; no exact SKU, dimensions, rating or installation claim.",
-  "selection_status": "selected_pending_responsive_review",
+  "selection_status": "accepted",
   "visual_review": {
     "checked_at_utc": "2026-11-12T02:26:05.194414+00:00",
     "source_opened": true,
     "tool": "view_image",
     "scope": "Latest workbench source actually viewed: entire purple/black drive, display/control area, terminal areas, mounting features and heatsink retained; bench items separate from device. Product illustration, not a real installation. Fine print/QR/terminal legends are generated, not technical evidence.",
-    "responsive_status": "pending_actual_deployed_frames"
+    "responsive_status": "accepted",
+    "responsive_evidence": {
+      "checked_at_utc": "2026-11-12T02:29:37.476107+00:00",
+      "rendering_commit": "f9d50719a6aad07a33a1303b033438626cc35b49",
+      "pages_run": 43141532224,
+      "proof_url": "https://thefanguys.github.io/HVLS-360/office/production-media-proof-96.html",
+      "reader_url": "https://thefanguys.github.io/HVLS-360/office/produced-draft.html?issue=96",
+      "frame_widths": [
+        390,
+        768,
+        1280
+      ],
+      "loaded_images": 6,
+      "overflow_frames": 0,
+      "card_rendered_sizes": [
+        [
+          350,
+          220
+        ],
+        [
+          728,
+          220
+        ],
+        [
+          1240,
+          220
+        ]
+      ],
+      "lead_rendered_sizes": [
+        [
+          350,
+          233
+        ],
+        [
+          728,
+          485
+        ],
+        [
+          1240,
+          560
+        ]
+      ],
+      "fit": "contain",
+      "finding": "Actual source and deployed separate card/article frames viewed at all three widths. Entire drive silhouette, upper mounting features, casing, controls, terminal areas and heatsink preserved. Bench/cable/notebook context intact; source bounds complete and concise caption readable. Actual reader loads selected image with same caption.",
+      "physical_device_test": false
+    }
   },
   "presentation": {
     "card": {

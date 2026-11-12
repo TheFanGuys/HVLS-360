@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish verified operating workflows and shared department handoffs before article fine-tuning.",
-  "next_task": "Accept and inspect supplied E4 media when available; observe actual independent Art recovery and scheduled Draft Production, without inferring success from enabled tasks.",
+  "next_task": "Continue operating acceptance: provider still exposes no new independent Art recovery result; next Draft Production scheduled run and authenticated Studio/two-device acceptance remain open. E4 image blocker resolved.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Founder selected latest E4 workbench illustration; source viewed, exact original/reference and full-frame WebP archived. Responsive acceptance pending deployment; manuscript unchanged.",
+  "latest_verified_change": "E4 workbench illustration deployed via172, Pages43141532224 success; actual source and six390/768/1280 card/article frames viewed with complete drive/contain and concise caption. Draft163 source/claim/voice/media package ready for first text review.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,
@@ -288,7 +288,7 @@
     "live_held_packet_matches": true
   },
   "draft_production": {
-    "status": "first_inline_draft_media_acceptance_withdrawn",
+    "status": "first_inline_draft_ready_for_founder_review_schedule_unverified",
     "automation_id": "Automation_a726d89a5d388191bd3ff61cc57019b0",
     "prompt_file": "office/DRAFT-PRODUCTION-WORKER.md",
     "queue": "office/production-queue.json",
@@ -299,7 +299,7 @@
     "release_authorized": false,
     "first_production_pr": 163,
     "first_production_issue": 96,
-    "first_production_head": "61d88cec2f0c25a7381e6534038d23fcad1513e6",
+    "first_production_head": "de863e47aec91d56113da80740d876d3e11c82ad",
     "visible_queue": "office/production-queue.html",
     "execution_mode": "inline_run_now",
     "publication_authorized": false,
@@ -310,7 +310,7 @@
       "pages_run": 43136599967,
       "pages_conclusion": "success",
       "source_branch": "production/issue-96",
-      "source_head": "d2e42e39a948a87b615169276e6b6f35bf362aee",
+      "source_head": "de863e47aec91d56113da80740d876d3e11c82ad",
       "manuscript_sha256": "aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e",
       "deployed_reader_verified": true,
       "current_revision_consistent_read": true,
@@ -332,15 +332,61 @@
       "authenticated_edit_performed": false,
       "physical_device_test": false,
       "publication_authorized": false,
-      "media_acceptance": "withdrawn_editorial_mismatch",
-      "media_withheld_live_verified": true,
+      "media_acceptance": "accepted_founder_selected_e4_illustration",
+      "media_withheld_live_verified": false,
       "withdrawal_prs": [
         168,
         169
       ],
-      "withdrawal_pages_run": 43138058503
+      "withdrawal_pages_run": 43138058503,
+      "selected_media_sha256": "ab858f1504c8a1bbc381f0376b04c9527a1dcf406fc3c09a5d6c0e5da5174cc2",
+      "selected_media_visual_evidence": {
+        "checked_at_utc": "2026-11-12T02:29:37.476107+00:00",
+        "rendering_commit": "f9d50719a6aad07a33a1303b033438626cc35b49",
+        "pages_run": 43141532224,
+        "proof_url": "https://thefanguys.github.io/HVLS-360/office/production-media-proof-96.html",
+        "reader_url": "https://thefanguys.github.io/HVLS-360/office/produced-draft.html?issue=96",
+        "frame_widths": [
+          390,
+          768,
+          1280
+        ],
+        "loaded_images": 6,
+        "overflow_frames": 0,
+        "card_rendered_sizes": [
+          [
+            350,
+            220
+          ],
+          [
+            728,
+            220
+          ],
+          [
+            1240,
+            220
+          ]
+        ],
+        "lead_rendered_sizes": [
+          [
+            350,
+            233
+          ],
+          [
+            728,
+            485
+          ],
+          [
+            1240,
+            560
+          ]
+        ],
+        "fit": "contain",
+        "finding": "Actual source and deployed separate card/article frames viewed at all three widths. Entire drive silhouette, upper mounting features, casing, controls, terminal areas and heatsink preserved. Bench/cable/notebook context intact; source bounds complete and concise caption readable. Actual reader loads selected image with same caption.",
+        "physical_device_test": false
+      }
     },
-    "media_blocker": "Selected E4 workbench illustration: deployed responsive acceptance pending",
+    "media_blocker": null,
     "image_request": {
       "assignment_issue": 96,
       "subject": "Invertek Optidrive E4",

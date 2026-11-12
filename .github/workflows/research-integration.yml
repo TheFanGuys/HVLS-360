@@ -1,0 +1,36 @@
+name: Controlled Research Integration
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'office/research_integration.py'
+      - 'office/research_failure.py'
+      - 'office/coo_issues.py'
+      - '.github/workflows/research-integration.yml'
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: research-integration-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  fixture:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Create, read back, deduplicate and close controlled fixture
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python office/research_integration.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: controlled-research-integration-${{ github.run_id }}
+          path: office/reports/research-integration.json
+          if-no-files-found: warn
+          retention-days: 30

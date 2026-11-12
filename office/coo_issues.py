@@ -4,7 +4,7 @@
 Only public-source lead metadata is sent to Issues. Never upload manuscripts,
 private research, draft excerpts, internal expert notes, or approval tokens.
 """
-import hashlib,json,os,re,sys
+import hashlib,json,os,re,sys,time
 import datetime as dt
 from zoneinfo import ZoneInfo
 from pathlib import Path
@@ -53,12 +53,14 @@ COO intake marker: `{key}`
 
 def api(repo,token,method,path,payload=None):
     data=json.dumps(payload).encode() if payload is not None else None
+    if method == "GET":
+        path += ("&" if "?" in path else "?") + "_read=" + str(time.time_ns())
     req=Request("https://api.github.com/repos/"+repo+path,data=data,method=method,
         headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json",
-                 "X-GitHub-Api-Version":"2022-11-28","User-Agent":"HVLS360-COO"})
+                 "X-GitHub-Api-Version":"2022-11-28","User-Agent":"HVLS360-COO", "Cache-Control":"no-cache"})
     with urlopen(req,timeout=15) as response:return json.load(response)
 
-def sync(repo,token,items,client=api,evidence=None):
+def sync(repo,token,items,client=api,evidence=None,allow_create=True,verified_issues=None):
     if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+",repo):raise ValueError("invalid repository")
     existing=[]
     for page in range(1,5):
@@ -67,6 +69,7 @@ def sync(repo,token,items,client=api,evidence=None):
         if len(batch)<100:break
     else:
         raise RuntimeError("Issue history exceeds bounded scan; refusing unsafe deduplication")
+    existing.extend(verified_issues or [])
     known=set();by_key={};by_source={}
     for issue in existing:
         if re.match(r"^\[(?:Research pitch|HVLS-\d+)\]",issue.get("title", "")):
@@ -83,11 +86,29 @@ def sync(repo,token,items,client=api,evidence=None):
             if evidence is not None and match:
                 evidence.setdefault("matched_existing",[]).append({"key":item["key"],"number":match.get("number"),"url":match.get("html_url"),"matched_by":"marker" if item["key"] in by_key else "source_link"})
             continue
+        if not allow_create:
+            raise RuntimeError("Assignment absent from read-only deduplication check; refusing a second create")
         if len(created)>=MAX_NEW:break
         issue=client(repo,token,"POST","/issues",{"title":"[COO Research] "+item["title"],"body":item["body"]})
         created.append({"key":item["key"],"number":issue["number"],"url":issue["html_url"]})
         known.add(item["key"])
     return created
+
+def verify_existing(repo,token,items,client=api,evidence=None,receipts=None):
+    # A successful direct GET is authoritative while list indices catch up.
+    verified=[]
+    for row in receipts or []:
+        saved=client(repo,token,"GET","/issues/"+str(row["number"]))
+        if "COO intake marker: `"+row["key"]+"`" not in (saved.get("body") or ""):
+            raise RuntimeError("New assignment readback missing expected source marker")
+        verified.append(saved)
+    for attempt in range(3):
+        try:
+            return sync(repo,token,items,client,evidence,allow_create=False,verified_issues=verified)
+        except RuntimeError as exc:
+            if "read-only deduplication" not in str(exc) or attempt==2:raise
+            time.sleep(attempt+1)
+
 
 def main():
     source=json.loads((ROOT/"office"/"editorial-latest.json").read_text(encoding="utf-8"))
@@ -102,8 +123,12 @@ def main():
     evidence={}
     created=sync(repo,token,items,evidence=evidence)
     # Exercise real idempotence against GitHub after actual creates, not fixture data.
+    for row in created:
+        saved=api(repo,token,"GET","/issues/"+str(row["number"]))
+        if "COO intake marker: `"+row["key"]+"`" not in (saved.get("body") or ""):
+            raise RuntimeError("New assignment readback missing expected source marker")
     keys={x["key"] for x in created}
-    duplicates=sync(repo,token,[x for x in items if x["key"] in keys]) if keys else []
+    duplicates=verify_existing(repo,token,[x for x in items if x["key"] in keys],receipts=created) if keys else []
     if duplicates:raise RuntimeError("Duplicate assignment detected during readback check")
     report={"schema_version":1,"generated_at":dt.datetime.now(dt.timezone.utc).isoformat(),
             "status":"synced_unverified_leads","eligible_candidates":len(items),

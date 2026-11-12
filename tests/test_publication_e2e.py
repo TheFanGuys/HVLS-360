@@ -68,3 +68,26 @@ class ReleaseWorkflowE2ETests(unittest.TestCase):
   self.draft.write_text(self.body+"edited")
   self.assertTrue(audit(self.root))
 if __name__=="__main__":unittest.main()
+
+class SelectedMediaReleaseTests(ReleaseWorkflowE2ETests):
+ def setUp(self):
+  super().setUp()
+  from release_inputs import digest
+  media=self.root/'editorial/media'
+  media.mkdir()
+  (media/'test.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg"/>')
+  (media/'article-images.json').write_text(json.dumps({'items':{self.slug:{'file':'editorial/media/test.svg','caption':'Fixture diagram','alt':'Fixture','credit':'Fixture','kind':'diagram'}}}))
+  self.record['release_inputs_sha256']=digest(self.root,self.slug)
+ def test_changed_image_bytes_block_release(self):
+  self.authorize_fixture()
+  (self.root/'editorial/media/test.svg').write_text('<svg>changed</svg>')
+  with self.assertRaisesRegex(ValueError,'image bytes'):
+   publish(self.slug,self.approval,self.root)
+ def test_changed_caption_after_release_blocks_audit(self):
+  self.authorize_fixture();publish(self.slug,self.approval,self.root);prepare(self.slug,self.root)
+  p=self.root/'editorial/media/article-images.json';data=json.loads(p.read_text());data['items'][self.slug]['caption']='Unapproved caption';p.write_text(json.dumps(data))
+  self.assertTrue(any('presentation changed' in x for x in audit(self.root)))
+ def test_missing_image_binding_blocks(self):
+  del self.record['release_inputs_sha256'];self.authorize_fixture()
+  with self.assertRaisesRegex(ValueError,'image bytes'):
+   publish(self.slug,self.approval,self.root)

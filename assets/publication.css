@@ -11,3 +11,6 @@ body{background:#f5f5f1;color:#172a39;font:16px/1.65 system-ui,-apple-system,Seg
 .article-lead{background:#edf1f3}.article-lead img{height:auto;aspect-ratio:auto;max-height:560px;object-fit:contain;margin:auto}
 .article-lead figcaption{background:#fff;padding-top:10px}
 @media(max-width:720px){.article-lead img{max-height:480px}.article-lead.diagram img{padding:8px}}
+
+/* Full-source contextual photographs; separate from lead/card framing. */
+.article-context{margin:28px 0}.article-context img{display:block;max-width:100%;height:auto;object-fit:contain}.article-context figcaption{font-size:13px;line-height:1.5;color:#64747f;margin-top:10px}

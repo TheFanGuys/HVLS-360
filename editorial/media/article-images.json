@@ -185,7 +185,19 @@
         "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
         "reviewer": "Art & Media Director / assistant visual review",
         "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
-      }
+      },
+      "body_images": [
+        {
+          "file": "editorial/media/publisher/taz-72/taz-72-field-03.webp",
+          "sha256": "2070b5bc45c474b067ea5c4436a77ec8b46bc3bebb235e3a340419e3c44d04e3",
+          "alt": "Front view of a chain-suspended black directional fan showing horizontal discharge louvers and a protective guard above a production floor.",
+          "caption": "Front view of the publisher-identified TAZ, showing discharge louvers, protective guard and chain suspension. Big Fan Guys field photograph.",
+          "credit": "Big Fan Guys",
+          "fit": "contain",
+          "after_paragraph_start": "The two Big Fan Guys installation photos",
+          "review": "editorial/media/CROP-REVIEW-2026-11-11.md"
+        }
+      ]
     },
     "industrial-fan-heat-study-what-was-measured": {
       "file": "editorial/media/publisher/bfg-field/production-floor.webp",

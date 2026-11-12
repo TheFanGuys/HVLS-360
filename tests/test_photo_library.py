@@ -4,10 +4,17 @@ ROOT=Path(__file__).resolve().parents[1]
 class PhotoLibraryTests(unittest.TestCase):
  def test_all_collected_files_exist_and_stay_out_of_public_build(self):
   catalog=json.loads((ROOT/'art-library/catalog.json').read_text())
-  self.assertEqual(len(catalog['assets']),73)
+  self.assertGreaterEqual(len(catalog['assets']),73)
+  self.assertEqual(len({a['repository_file'] for a in catalog['assets']}),len(catalog['assets']))
   for a in catalog['assets']:
    self.assertTrue((ROOT/a['repository_file']).is_file())
-   self.assertTrue(a['source_url'].startswith('https://bigfanguys.com/'))
+   if a['repository_file'].startswith('art-library/uploads/'):
+    self.assertEqual(a['source_url'],'https://github.com/TheFanGuys/HVLS-360/blob/main/'+a['repository_file'])
+    self.assertTrue(a['rights_basis'])
+    import hashlib
+    self.assertEqual(hashlib.sha256((ROOT/a['repository_file']).read_bytes()).hexdigest(),a['sha256'])
+   else:
+    self.assertTrue(a['source_url'].startswith('https://bigfanguys.com/'))
   self.assertIn('- art-library',(ROOT/'_config.yml').read_text())
   self.assertNotIn('art-library/',(ROOT/'index.html').read_text())
   self.assertNotIn('art-library/',(ROOT/'sitemap.xml').read_text())

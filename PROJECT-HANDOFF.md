@@ -1,5 +1,12 @@
 # HVLS 360 — durable COO handoff
 
+## November 12 — supplied Optidrive ECO photograph added
+
+Chris supplied IMG_5849.jpeg as Invertek eco and instructed Add and continue. Original preserved unchanged at art-library/uploads/invertek-optidrive-eco/IMG_5849.jpeg, SHA2568df98899ae234fb91f264ca24280cfb7aeeabc58603f4d6460b3ae17bcf12cd4, Git blobcb6989397b1fc1b6fb085d930bb216134c0ab085,320587bytes,1320x1690. Actual source viewed with view_image; visible Optidrive ECO branding supports identity. Full enclosure/front controls, mounts and conduit context retained. Exact SKU/rating and compliance not asserted. Rights basis: founder supplied and instructed addition under standing supplied-photo permission.
+
+Added as shared library reserve, not selected for an article. ECO is a different model from E4; issue96 E4 image request stays open. No manuscript, approval or article mapping changed. Future relevant ECO placement starts with full-frame contain and still needs separate actual card/article responsive visual acceptance.
+
+
 ## November 12 — ask Chris when article imagery is blocked
 
 Chris wants Art to tell him when suitable imagery cannot be sourced so he can provide it. Both existing hosted Art/Draft Production prompts were updated and confirmed, preserving schedules and authority. Prompt copies/AGENTS carry the same rule. Request the specific subject/model/view and permission information once per unchanged blocker; Art continues routine framing and independent work. No third-party messages or paid sourcing.

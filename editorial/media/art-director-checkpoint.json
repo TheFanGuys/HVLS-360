@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "last_successful_commit": "176181ae86e456f7bd369a7f3085c4df65599b8a",
-  "checked_at_utc": "2026-11-12T01:54:30.163240+00:00",
-  "outcome": "issue96_competing_brand_selection_rejected_media_blocked",
+  "checked_at_utc": "2026-11-12T02:06:01.959415+00:00",
+  "outcome": "eco_upload_identified_added_as_reserve_e4_request_open",
   "reviewed_image_hashes": {
     "editorial/media/publisher/bfg-field/warehouse-hvls.webp": {
       "sha256": "3258472f0f3d509d8cdef31f302348f7387901a57437aa07d3e9c3df747ebb95",
@@ -55,6 +55,11 @@
       "sha256": "a6011124f79cce789b4f056ecdb6a73bbd2755df5de904e26e2bfe7f9a788e4d",
       "git_blob_sha": "054ccdf263b294342f12c8a831002a58b99fb807",
       "outcome": "rejected_for_invertek_e4_story"
+    },
+    "art-library/uploads/invertek-optidrive-eco/IMG_5849.jpeg": {
+      "sha256": "8df98899ae234fb91f264ca24280cfb7aeeabc58603f4d6460b3ae17bcf12cd4",
+      "git_blob_sha": "cb6989397b1fc1b6fb085d930bb216134c0ab085",
+      "outcome": "Optidrive ECO identified; library reserve, no article selection"
     }
   },
   "selected_review": "editorial/media/CROP-REVIEW-2026-11-11.md",
@@ -145,6 +150,6 @@
     "editorial/media/article-images.json": "766a71d9ca669a2177592ab7de7087a94f474c51"
   },
   "source_library_tree_sha": "b8cb0b118edf428ef44e51c1ac66194567451a66",
-  "checked_source_commit": "e79f89384d0be5de98876c1b0375df0ea1b33eb3",
+  "checked_source_commit": "5e45fd870aa79f7697b727b74a09089f82808641",
   "issue96_blocker": "Issue96 media blocked: obtain and visually verify relevant Optidrive E4 imagery with recorded editorial rights. ABB lead rejected for competing-brand mismatch."
 }

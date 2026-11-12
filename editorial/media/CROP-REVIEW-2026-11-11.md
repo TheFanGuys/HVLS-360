@@ -1,5 +1,12 @@
 # Art & Media Director — image composition acceptance
 
+## November 12 — supplied Optidrive ECO photograph added
+
+Chris supplied IMG_5849.jpeg as Invertek eco and instructed Add and continue. Original preserved unchanged at art-library/uploads/invertek-optidrive-eco/IMG_5849.jpeg, SHA2568df98899ae234fb91f264ca24280cfb7aeeabc58603f4d6460b3ae17bcf12cd4, Git blobcb6989397b1fc1b6fb085d930bb216134c0ab085,320587bytes,1320x1690. Actual source viewed with view_image; visible Optidrive ECO branding supports identity. Full enclosure/front controls, mounts and conduit context retained. Exact SKU/rating and compliance not asserted. Rights basis: founder supplied and instructed addition under standing supplied-photo permission.
+
+Added as shared library reserve, not selected for an article. ECO is a different model from E4; issue96 E4 image request stays open. No manuscript, approval or article mapping changed. Future relevant ECO placement starts with full-frame contain and still needs separate actual card/article responsive visual acceptance.
+
+
 ## November 12 — issue96 image acceptance withdrawn
 
 Founder correctly challenged ABB-branded hardware under an Invertek E4 headline. The assistant made that selection; it was not a separately operating Art department approval. Accurate caption, authorized rights and complete-frame geometry did not establish editorial relevance. Selection withdrawn from the current reader and media proof; source originals preserved. Draft PR163 now marks media rejected and packet blocked at61d88cec2f0c25a7381e6534038d23fcad1513e6. Manuscript SHA256 aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e unchanged.

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "source": "https://bigfanguys.com/",
-  "scope": "All 70 image entries from seven project galleries plus three homepage brand images. Web-sized copies; originals remain linked.",
+  "scope": "Seventy-three website/brand source entries plus one founder-uploaded Invertek Optidrive ECO original; selection and rights status recorded per asset.",
   "processing": "Web-sized archival copies; orientation/compression and metadata stripping. Original source URLs retained. Originals remain on BigFanGuys.com.",
   "assets": [
     {
@@ -1230,6 +1230,42 @@
       "review_status": "brand_reference",
       "rights_basis": "Publisher-owned website brand artwork",
       "bytes": 112920
+    },
+    {
+      "id": "uploads/invertek-optidrive-eco/IMG_5849",
+      "category": "controls-vfd",
+      "repository_file": "art-library/uploads/invertek-optidrive-eco/IMG_5849.jpeg",
+      "original_filename": "IMG_5849.jpeg",
+      "source": "Chris upload in project chat on November 12, 2026; instruction Invertek eco \u2014 Add and continue",
+      "model_identification": "Invertek Optidrive ECO; visible Optidrive eco front branding and ECO label, consistent with Chris identification. Exact SKU/rating not transcribed or asserted. Not an Optidrive E4.",
+      "review_status": "visually_identified_library_reserve_not_selected",
+      "rights_basis": "Chris supplied image and explicitly instructed addition for HVLS360 Art use, within standing permission for his supplied installation photographs. No manufacturer license invented.",
+      "description": "Invertek Optidrive ECO mounted to a yellow industrial column, with front display, rotary isolator, mounting brackets and flexible metallic conduit visible.",
+      "tags": [
+        "Invertek",
+        "Optidrive ECO",
+        "controls",
+        "VFD",
+        "installation",
+        "not E4"
+      ],
+      "sha256": "8df98899ae234fb91f264ca24280cfb7aeeabc58603f4d6460b3ae17bcf12cd4",
+      "git_blob_sha": "cb6989397b1fc1b6fb085d930bb216134c0ab085",
+      "bytes": 320587,
+      "width": 1320,
+      "height": 1690,
+      "caption_proposal": "An Invertek Optidrive ECO mounted on an industrial column.",
+      "credit": "Chris / Big Fan Guys",
+      "visual_review": {
+        "checked_at_utc": "2026-11-12T02:06:01.959415+00:00",
+        "tool": "view_image",
+        "source_opened": true,
+        "observations": "Portrait source actually viewed: complete drive enclosure and front controls, visible ECO markings, right-side mounts and useful conduit/column context. No depicted fan/model inferred. Background worker face is not prominent; customer/location not identified. No installation-compliance or operating-performance inference.",
+        "card": "No article/card selection made. For future relevant ECO use, start with contain to preserve enclosure and controls; actual desktop/tablet/phone acceptance required.",
+        "article": "No article lead selected. Preserve full source frame; actual responsive lead acceptance required.",
+        "e4_suitability": "Different model. Do not use as E4 product imagery or clear issue96 request."
+      },
+      "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/uploads/invertek-optidrive-eco/IMG_5849.jpeg"
     }
   ]
 }

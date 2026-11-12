@@ -1,44 +1,23 @@
 {
   "schema_version": 1,
   "publication_allowed": false,
-  "file": "editorial/media/publisher/production-96/controls-context.webp",
-  "sha256": "a6011124f79cce789b4f056ecdb6a73bbd2755df5de904e26e2bfe7f9a788e4d",
-  "source_library_file": "art-library/bigfanguys-com/install-service/IMG_5669.webp",
-  "source_url": "https://bigfanguys.com/gallery/install-service/IMG_5669.JPG",
-  "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS360 editorial use; art-library/catalog.json",
-  "caption": "ABB-branded fan drives during a Big Fan Guys installation. Field-service context; the Optidrive E4 is not pictured.",
-  "alt": "A row of enclosed ABB-branded fan drives and conduit on a wall during installation",
-  "credit": "Big Fan Guys",
-  "identity": "ABB wordmarks visible; no exact drive model asserted. Not an E4 product photo.",
+  "file": "editorial/media/publisher/production-96/e4-workbench.webp",
+  "sha256": "ab858f1504c8a1bbc381f0376b04c9527a1dcf406fc3c09a5d6c0e5da5174cc2",
+  "source_library_file": "art-library/generated/invertek-e4/e4-workbench-original.png",
+  "source_sha256": "0f39222428e299cf1eec3ab499836e16da80dc7fe3b2e353ea11d0dab2b3fa4b",
+  "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/generated/invertek-e4/e4-workbench-original.png",
+  "rights_basis": "Chris explicitly instructed use of the latest ChatGPT-generated E4 workbench illustration, generated from his supplied E4 reference. Founder-authorized editorial illustration; not a manufacturer photograph or endorsement. No blanket third-party legal clearance asserted.",
+  "caption": "Optidrive E4 product illustration.",
+  "alt": "Purple and black Optidrive E4 on a workbench beside a notebook, screwdriver and USB cable",
+  "credit": "HVLS 360",
+  "identity": "Illustrated Invertek Optidrive E4, matching the E4 reference identity; no exact SKU, dimensions, rating or installation claim.",
+  "selection_status": "selected_pending_responsive_review",
   "visual_review": {
+    "checked_at_utc": "2026-11-12T02:26:05.194414+00:00",
     "source_opened": true,
     "tool": "view_image",
-    "scope": "Complete landscape source viewed. Row of drives/keypads/disconnect handles and conduit visible; open junction boxes identify in-progress context. No prominent face/private paperwork. Preserve full row and conduit; no compliance or wiring inference.",
-    "responsive_status": "withdrawn_editorial_mismatch",
-    "responsive_evidence": {
-      "checked_at_utc": "2026-11-12T01:31:32.410069+00:00",
-      "proof_url": "https://thefanguys.github.io/HVLS-360/office/production-media-proof-96.html",
-      "rendering_commit": "785586175afd5857b334053f4828bd39a5d74239",
-      "pages_run": 43134829373,
-      "frame_widths": [
-        390,
-        768,
-        1280
-      ],
-      "effective_widths": [
-        390,
-        768,
-        1280
-      ],
-      "loaded_images": 6,
-      "overflow_frames": 0,
-      "source_dimensions": [
-        1000,
-        750
-      ],
-      "finding": "Viewed actual card and article frames at all three widths. Complete row of drives, junction boxes and conduit preserved; contain retains full landscape source. Caption readable and explicit ABB/context/not E4 wording retained.",
-      "physical_iphone_claimed": false
-    }
+    "scope": "Latest workbench source actually viewed: entire purple/black drive, display/control area, terminal areas, mounting features and heatsink retained; bench items separate from device. Product illustration, not a real installation. Fine print/QR/terminal legends are generated, not technical evidence.",
+    "responsive_status": "pending_actual_deployed_frames"
   },
   "presentation": {
     "card": {
@@ -50,10 +29,15 @@
       "position": "50% 50%"
     }
   },
-  "selection_status": "rejected",
-  "rejection_reason": "ABB-branded competing hardware is unsuitable as lead/card for this Invertek E4 product story; accurate contextual caption does not resolve editorial mismatch.",
-  "replacement_status": "blocked",
-  "remaining_blockers": [
-    "Art: obtain and visually verify a relevant Optidrive E4 image with recorded editorial rights. Do not substitute another manufacturer."
-  ]
+  "provenance": {
+    "type": "ai_generated_product_illustration",
+    "reference_file": "art-library/uploads/invertek-e4/e4-reference.jpeg",
+    "reference_sha256": "ab43b97f1618796608555f9fed4b265d672160214517c6fed143c9967af2a6ba",
+    "founder_selection": "Use the latest version of the E4 and let\u2019s move one. Continue",
+    "generator": "ChatGPT image generation",
+    "job_photo_used": false,
+    "original_unchanged": true,
+    "web_derivative": "Full-frame WebP format conversion; no crop, same1536x1024",
+    "prior_abb_acceptance": "withdrawn; source retained only as historical asset"
+  }
 }

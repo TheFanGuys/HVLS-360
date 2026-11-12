@@ -12,12 +12,12 @@
   "artifacts": {
     "manuscript.md": "aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e",
     "sources.json": "23fa3dddc1ab66913482c913eae54e3668db95438df6fd1bb3f57cf69e18c4db",
-    "review.md": "74facd6dcb9bb2eef1f5a338bd717402336ce698b4cd301df7bab689349d7c81",
-    "media.json": "86e7cacb9fa762da05eff473f78ec978f4995db67d41785df6b24bfc7dd8dc9b",
+    "review.md": "ac73d37d90203e0020a5d40b72268e2a2e59501ac4764d5e4582cf53408ab995",
+    "media.json": "c60ad9af6265ef84b67873193b4c506acbd03d44300e23b7ef4edb4d6d91456c",
     "metadata.json": "4a81d2a0952811d638918fae43724b0345bd03dc2d3a57062bf9393ffd66f3bb"
   },
   "remaining_blockers": [
-    "Art: obtain and visually verify a relevant Optidrive E4 image with recorded editorial rights. Do not substitute another manufacturer."
+    "Art: actual selected illustration responsive framing acceptance pending deployment"
   ],
   "founder_decision": "first_text_decision_pending",
   "release_authorization": false,
@@ -30,5 +30,5 @@
     "Actual390/768/1280 card/article frames visually inspected; six images loaded/no overflow",
     "Initial draft GitHub Research Desk Tests passed; final evidence-head check required"
   ],
-  "media_acceptance": "withdrawn_editorial_mismatch"
+  "media_acceptance": "pending_selected_e4_responsive_review"
 }

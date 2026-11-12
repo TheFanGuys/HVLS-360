@@ -22,3 +22,6 @@ Viewed authorized landscape IMG5669 source. Caption explicitly identifies visibl
 ## Media correction — November 12
 
 Founder correctly challenged ABB hardware beneath an Invertek E4 headline. Prior composition/rights observations remain historical, but editorial media acceptance is withdrawn. Image selection rejected; no verified E4 source with recorded rights selected. Media replacement is blocked with Art. Manuscript/claim/voice hashes unchanged.
+
+## Founder-selected E4 illustration
+Chris selected the latest E4 workbench illustration. Source actually viewed; original/reference/hash provenance in media.json. Prior ABB selection remains rejected. Exact manuscript/claim/voice bindings unchanged. Actual responsive visual acceptance pending deployment. Reader caption is Optidrive E4 product illustration; production notes stay internal.

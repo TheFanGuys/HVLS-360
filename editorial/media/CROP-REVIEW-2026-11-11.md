@@ -1,5 +1,12 @@
 # Art & Media Director — image composition acceptance
 
+## November 12 — issue96 image acceptance withdrawn
+
+Founder correctly challenged ABB-branded hardware under an Invertek E4 headline. The assistant made that selection; it was not a separately operating Art department approval. Accurate caption, authorized rights and complete-frame geometry did not establish editorial relevance. Selection withdrawn from the current reader and media proof; source originals preserved. Draft PR163 now marks media rejected and packet blocked at61d88cec2f0c25a7381e6534038d23fcad1513e6. Manuscript SHA256 aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e unchanged.
+
+No E4 replacement with verified identity and recorded rights has been selected from current collection. Art owns sourcing/rights and actual visual review; do not use a competitor's hardware as the lead/card of a single-brand product story. Reader keeps text accessible with image withheld; no false media-complete/founder-ready status. Earlier acceptance is historical and superseded.
+
+
 Date: November 11, 2026. Responsible role: Art & Media Director, performed by an explicitly assigned assistant during this session. This record is not a claim of a continuously running department or independent human review.
 
 ## Decision

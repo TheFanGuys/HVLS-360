@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish verified operating workflows and shared department handoffs before article fine-tuning.",
-  "next_task": "Observe independently scheduled Draft Production output and Art recovery/quiet repeat; keep Studio authenticated/two-device acceptance distinct. Produced issue96 is ready at office/produced-draft.html?issue=96.",
+  "next_task": "Art resolves issue96 with verified E4 identity/rights; scheduled-worker and authenticated Studio acceptance remain separate.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "PR166 merged at ce296db48b5fccbe83f9dd9c77e151cba31931de; Pages43136599967 succeeded. Actual produced reader, current branch text/image, queue link and 390/768/1280 frames verified.",
+  "latest_verified_change": "Founder correctly rejected ABB hardware as imagery for Invertek E4. Media acceptance withdrawn; text remains readable and original source preserved.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,
@@ -288,7 +288,7 @@
     "live_held_packet_matches": true
   },
   "draft_production": {
-    "status": "first_real_inline_draft_delivered_scheduled_delivery_unverified",
+    "status": "first_inline_draft_media_acceptance_withdrawn",
     "automation_id": "Automation_a726d89a5d388191bd3ff61cc57019b0",
     "prompt_file": "office/DRAFT-PRODUCTION-WORKER.md",
     "queue": "office/production-queue.json",
@@ -299,7 +299,7 @@
     "release_authorized": false,
     "first_production_pr": 163,
     "first_production_issue": 96,
-    "first_production_head": "d2e42e39a948a87b615169276e6b6f35bf362aee",
+    "first_production_head": "61d88cec2f0c25a7381e6534038d23fcad1513e6",
     "visible_queue": "office/production-queue.html",
     "execution_mode": "inline_run_now",
     "publication_authorized": false,
@@ -331,7 +331,9 @@
       "javascript_suites": 8,
       "authenticated_edit_performed": false,
       "physical_device_test": false,
-      "publication_authorized": false
-    }
+      "publication_authorized": false,
+      "media_acceptance": "withdrawn_editorial_mismatch"
+    },
+    "media_blocker": "Issue96 media blocked: obtain and visually verify relevant Optidrive E4 imagery with recorded editorial rights. ABB lead rejected for competing-brand mismatch."
   }
 }

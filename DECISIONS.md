@@ -259,3 +259,9 @@ PR166 merged at ce296db48b5fccbe83f9dd9c77e151cba31931de; Pages43136599967 succe
 Live queue-to-reader navigation and 390/768/1280 frames inspected: image loaded with contain in all three, effective widths375/753/1265 and no horizontal overflow. Phone typography/caption and tablet/desktop framing viewed.234 Python tests/eight JS suites pass, including current-edit/stale-review/failure coverage. These controlled edit tests are not authenticated browser saves or physical-device acceptance. Active existing Draft Production prompt now requires draft_branch in its queue entry; no schedule or authority expansion.
 
 PR163 remains open and unpublished; original twelve launch packets/eight approvals unchanged. Independent scheduled Draft Production, Art recovery/quiet repeat and authenticated Studio/two-device acceptance remain open. No additional spending.
+
+## November 12 — issue96 image acceptance withdrawn
+
+Founder correctly challenged ABB-branded hardware under an Invertek E4 headline. The assistant made that selection; it was not a separately operating Art department approval. Accurate caption, authorized rights and complete-frame geometry did not establish editorial relevance. Selection withdrawn from the current reader and media proof; source originals preserved. Draft PR163 now marks media rejected and packet blocked at61d88cec2f0c25a7381e6534038d23fcad1513e6. Manuscript SHA256 aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e unchanged.
+
+No E4 replacement with verified identity and recorded rights has been selected from current collection. Art owns sourcing/rights and actual visual review; do not use a competitor's hardware as the lead/card of a single-brand product story. Reader keeps text accessible with image withheld; no false media-complete/founder-ready status. Earlier acceptance is historical and superseded.

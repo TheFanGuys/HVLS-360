@@ -28,7 +28,8 @@ async function load(queue,issue,request,hash=fingerprint,parse=root.HVLSPreviewL
  const actual=await hash(text['manuscript.md']);let stale=packet.status!=='founder_review'||!sha64(packet.manuscript_sha256)||actual!==packet.manuscript_sha256||metadata.manuscript_sha256!==actual;
  for(const name of names.filter(n=>n!=='packet.json'))if(!sha64(packet.artifacts?.[name])||await hash(text[name])!==packet.artifacts[name])stale=true;
  if(!text['review.md'].includes(actual))stale=true;
- return {item,revision,draft,media,packet,manuscript_sha256:actual,stale,reviewUrl:git+'/pull/'+item.draft_pr,editUrl:git+'/edit/'+item.branch+'/'+base+'manuscript.md'};
+ const showMedia=item.media_status!=='withheld'&&media.selection_status!=='rejected';
+ return {showMedia,item,revision,draft,media,packet,manuscript_sha256:actual,stale,reviewUrl:git+'/pull/'+item.draft_pr,editUrl:git+'/edit/'+item.branch+'/'+base+'manuscript.md'};
 }
 async function request(url){const r=await root.fetch(url,{cache:'no-store',headers:{Accept:'application/vnd.github+json'}});if(!r.ok)throw Error('Repository read failed ('+r.status+')');return r.json();}
 async function start(doc=root.document){
@@ -36,9 +37,9 @@ async function start(doc=root.document){
  try{const issue=Number(new URLSearchParams(root.location.search).get('issue')),q=await request('production-queue.json'),data=await load(q,issue,request);
  doc.title=data.draft.fields.title+' | HVLS 360';doc.getElementById('draftTitle').textContent=data.draft.fields.title;doc.getElementById('draftCategory').textContent=data.draft.fields.category;
  host.innerHTML=root.HVLSPreviewLive.render(data.draft.body);
- const img=doc.getElementById('draftImage');img.src='../'+data.media.file;img.alt=data.media.alt;doc.getElementById('imageCaption').textContent=data.media.caption+' — '+data.media.credit;doc.getElementById('draftMedia').hidden=false;
+ if(data.showMedia){const img=doc.getElementById('draftImage');img.src='../'+data.media.file;img.alt=data.media.alt;doc.getElementById('imageCaption').textContent=data.media.caption+' — '+data.media.credit;doc.getElementById('draftMedia').hidden=false;}else{doc.getElementById('draftImage').removeAttribute('src');doc.getElementById('draftMedia').hidden=true;}
  doc.getElementById('editDraft').href=data.editUrl;doc.getElementById('reviewPackage').href=data.reviewUrl;doc.getElementById('draftActions').hidden=false;
- status.textContent='Saved draft · '+data.revision.slice(0,7)+' · '+(data.stale?'Text or supporting records changed. Earlier reviews need refreshing.':'Recorded reviews match this saved text.');status.dataset.stale=String(data.stale);
+ status.textContent='Saved draft · '+data.revision.slice(0,7)+' · '+(!data.showMedia?'Image withheld; suitable replacement pending.':data.stale?'Text or supporting records changed. Earlier reviews need refreshing.':'Recorded reviews match this saved text.');status.dataset.stale=String(data.stale);
  }catch(e){host.replaceChildren();doc.getElementById('draftMedia').hidden=true;doc.getElementById('draftActions').hidden=true;status.dataset.error='true';status.textContent='This saved draft could not load. Return to Produced Drafts and open its review package to read or edit it.';}
 }
 root.HVLSProducedDraft={select,decode,load,start};if(root.document)start();

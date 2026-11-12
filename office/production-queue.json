@@ -10,20 +10,24 @@
       "assignment_issue": 96,
       "title": "Optidrive E4: Fault Records and USB-C Lead the Service Update",
       "audience": "US fan-service electricians, controls technicians and facilities maintenance",
-      "status": "founder_review",
+      "status": "blocked",
       "draft_pr": 163,
       "draft_pr_url": "https://github.com/TheFanGuys/HVLS-360/pull/163",
-      "draft_head_sha": "d2e42e39a948a87b615169276e6b6f35bf362aee",
+      "draft_head_sha": "61d88cec2f0c25a7381e6534038d23fcad1513e6",
       "packet_path": "editorial/production/issue-96/packet.json",
       "manuscript_sha256": "aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e",
       "execution_mode": "inline_requested_hosted_task",
       "independent_scheduled_delivery": false,
       "publication_allowed": false,
-      "remaining_blockers": [],
+      "remaining_blockers": [
+        "Art: obtain and visually verify a relevant Optidrive E4 image with recorded editorial rights. Do not substitute another manufacturer."
+      ],
       "media_proof": "office/production-media-proof-96.html",
       "first_text_decision": "pending",
       "reviewed_media_source_sha256": "a6011124f79cce789b4f056ecdb6a73bbd2755df5de904e26e2bfe7f9a788e4d",
-      "draft_branch": "production/issue-96"
+      "draft_branch": "production/issue-96",
+      "media_status": "withheld",
+      "media_review_outcome": "rejected_editorial_mismatch"
     }
   ]
 }

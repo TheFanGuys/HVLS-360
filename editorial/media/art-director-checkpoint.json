@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "last_successful_commit": "176181ae86e456f7bd369a7f3085c4df65599b8a",
-  "checked_at_utc": "2026-11-12T00:51:59Z",
-  "outcome": "taz_integration_accepted_deferred_suitability_work_recorded",
+  "checked_at_utc": "2026-11-12T01:54:30.163240+00:00",
+  "outcome": "issue96_competing_brand_selection_rejected_media_blocked",
   "reviewed_image_hashes": {
     "editorial/media/publisher/bfg-field/warehouse-hvls.webp": {
       "sha256": "3258472f0f3d509d8cdef31f302348f7387901a57437aa07d3e9c3df747ebb95",
@@ -50,6 +50,11 @@
       "git_blob_sha": "60c89b4ec2587340c8efa14714fad5398a06eac9",
       "acceptance": "source_and_responsive_visual_review",
       "evidence": "editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json"
+    },
+    "editorial/media/publisher/production-96/controls-context.webp": {
+      "sha256": "a6011124f79cce789b4f056ecdb6a73bbd2755df5de904e26e2bfe7f9a788e4d",
+      "git_blob_sha": "054ccdf263b294342f12c8a831002a58b99fb807",
+      "outcome": "rejected_for_invertek_e4_story"
     }
   },
   "selected_review": "editorial/media/CROP-REVIEW-2026-11-11.md",
@@ -139,5 +144,7 @@
     "editorial/founder-approval-register.json": "5fe989e4d89433e2e33133064b318873b49aa2af",
     "editorial/media/article-images.json": "766a71d9ca669a2177592ab7de7087a94f474c51"
   },
-  "source_library_tree_sha": "b8cb0b118edf428ef44e51c1ac66194567451a66"
+  "source_library_tree_sha": "b8cb0b118edf428ef44e51c1ac66194567451a66",
+  "checked_source_commit": "e79f89384d0be5de98876c1b0375df0ea1b33eb3",
+  "issue96_blocker": "Issue96 media blocked: obtain and visually verify relevant Optidrive E4 imagery with recorded editorial rights. ABB lead rejected for competing-brand mismatch."
 }

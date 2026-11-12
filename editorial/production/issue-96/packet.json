@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "delivery_key": "production-issue-96",
+  "assignment_issue": 96,
+  "input_commit": "626b2f15ae55515da9aa264d7c97b55d08c69986",
+  "status": "visual_review_pending",
+  "publication_allowed": false,
+  "execution_mode": "hosted_task_run_now_inline_current_conversation",
+  "independent_scheduled_run": false,
+  "manuscript_sha256": "aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e",
+  "claim_scope": "Documented diagnostic/connectivity briefing; no OEM substitution or installation instructions",
+  "artifacts": {
+    "manuscript.md": "aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e",
+    "sources.json": "23fa3dddc1ab66913482c913eae54e3668db95438df6fd1bb3f57cf69e18c4db",
+    "review.md": "be73daaa028d5c09d485ba15b3280fb0bb271d488b86053a582a1582d39d3468",
+    "media.json": "e1aea3a30d3d2e498e5468d45918747d84b7fc4938bcb7eaab9fc186c94ef31f",
+    "metadata.json": "4a81d2a0952811d638918fae43724b0345bd03dc2d3a57062bf9393ffd66f3bb"
+  },
+  "remaining_blockers": [
+    "Actual390/768/1280 context-photo card/article proof inspection pending"
+  ],
+  "founder_decision": "not_requested_until_complete",
+  "release_authorization": false
+}

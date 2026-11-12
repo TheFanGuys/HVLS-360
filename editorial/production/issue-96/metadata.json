@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "publication_allowed": false,
+  "manuscript_sha256": "aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e",
+  "seo_title": "Optidrive E4: Diagnostics, USB-C and Communication Options",
+  "seo_description": "Invertek details E4 fault records, USB-C configuration and built-in versus optional communications, with the fan OEM\u2019s supplied drive kept central.",
+  "audience": "US HVLS service electricians, controls technicians and facilities maintenance",
+  "why_it_matters": "Distinguishes actual diagnostic records and included protocols from broad announcement wording.",
+  "related_story_candidates": [
+    "vividair-gfy-ztech-taz-controls-field-guide",
+    "abb-2026-ip66-vfd-field-report"
+  ],
+  "links_status": "Candidates only; resolve to actual released destinations at release."
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "publication_allowed": false,
+  "file": "editorial/media/publisher/production-96/controls-context.webp",
+  "sha256": "a6011124f79cce789b4f056ecdb6a73bbd2755df5de904e26e2bfe7f9a788e4d",
+  "source_library_file": "art-library/bigfanguys-com/install-service/IMG_5669.webp",
+  "source_url": "https://bigfanguys.com/gallery/install-service/IMG_5669.JPG",
+  "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS360 editorial use; art-library/catalog.json",
+  "caption": "ABB-branded fan drives during a Big Fan Guys installation. Field-service context; the Optidrive E4 is not pictured.",
+  "alt": "A row of enclosed ABB-branded fan drives and conduit on a wall during installation",
+  "credit": "Big Fan Guys",
+  "identity": "ABB wordmarks visible; no exact drive model asserted. Not an E4 product photo.",
+  "visual_review": {
+    "source_opened": true,
+    "tool": "view_image",
+    "scope": "Complete landscape source viewed. Row of drives/keypads/disconnect handles and conduit visible; open junction boxes identify in-progress context. No prominent face/private paperwork. Preserve full row and conduit; no compliance or wiring inference.",
+    "responsive_status": "pending_actual_three_width_proof"
+  },
+  "presentation": {
+    "card": {
+      "fit": "contain",
+      "position": "50% 50%"
+    },
+    "lead": {
+      "fit": "contain",
+      "position": "50% 50%"
+    }
+  }
+}

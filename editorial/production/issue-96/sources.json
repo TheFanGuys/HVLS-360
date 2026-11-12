@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "publication_allowed": false,
+  "checked_at_utc": "2026-11-12T01:25:38.581850+00:00",
+  "scope": "Fresh primary-source reading; manufacturer statements are not independently tested performance. October29 is update date, not original launch date.",
+  "items": [
+    {
+      "id": 1,
+      "url": "https://www.invertekdrives.com/news/general-news/invertek-drives-optidrive-e4-delivers-increased-capability-without-complexity",
+      "publisher_date": "2026-10-29",
+      "supports": [
+        "USB-C configuration without mains",
+        "embedded flight recorder",
+        "manufacturer update"
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.invertekdrives.com/variable-frequency-drives/optidrive-e4/specification",
+      "publisher_date": null,
+      "supports": [
+        "last4 trips/time and current/temperature/DC-bus data",
+        "built-in versus optional communication distinction"
+      ],
+      "excluded": [
+        "STO implementation advice",
+        "substitution compatibility",
+        "listing verification for a particular SKU",
+        "EMC equivalence"
+      ],
+      "retrieval": "Opened official specification, detailed fields read"
+    },
+    {
+      "id": 3,
+      "url": "https://www.invertekdrives.com/variable-frequency-drives/optidrive-e4/features",
+      "publisher_date": null,
+      "supports": [
+        "USB-C power-up",
+        "expansion port"
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.invertekdrives.com/contact/us",
+      "publisher_date": null,
+      "supports": [
+        "US regional support presence",
+        "Libertyville location"
+      ],
+      "limits": "No stock or exact SKU certification attested"
+    }
+  ]
+}

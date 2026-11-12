@@ -12,8 +12,8 @@
   "card": {
     "width": 390,
     "height": 180,
-    "fit": "cover",
-    "position": "50% 100%"
+    "fit": "contain",
+    "position": "50% 50%"
   },
   "article": {
     "width": 768,

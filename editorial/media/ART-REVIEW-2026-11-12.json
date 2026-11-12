@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "input_commit": "03d0a3f9742bc81c76404a2dcf499362badb3fe6",
+  "checked_at_utc": "2026-11-12T11:20:29.378063+00:00",
+  "outcome": "source_review_complete_responsive_acceptance_blocked",
+  "publication_allowed": false,
+  "reviewed_source_assets": {
+    "editorial/media/publisher/weekly/cfei-vs-cfm-per-watt-field-guide.webp": {
+      "sha256": "a24a4cdf45ebcccb583b1bdd16b989c7f97274e5220db887d9a37b1116308fc5",
+      "git_blob_sha": "877763e5e25fa07615b5c0c87d2acfa6ecaa4952",
+      "inspection": "source actually viewed with functions.view_image; responsive acceptance pending"
+    },
+    "editorial/media/publisher/weekly/vividair-gfy-ztech-taz-controls-field-guide.webp": {
+      "sha256": "7dc173a7f212a155c469cbd6744e2498386b404e5d1712a6a7aa2a5d8e63b800",
+      "git_blob_sha": "411b936521d681a77d987db3a31f0ae57f7a446c",
+      "inspection": "source actually viewed with functions.view_image; responsive acceptance pending"
+    },
+    "editorial/media/publisher/weekly/vividair-taz-72-field-guide.webp": {
+      "sha256": "ac01292e9f88587c3ee5b8622d09a785f5e4bf41bb5d00461cca85d97fd20308",
+      "git_blob_sha": "78aaeba324b66bee8a6abdffb4a23069ef7a12fc",
+      "inspection": "source actually viewed with functions.view_image; responsive acceptance pending"
+    },
+    "editorial/media/publisher/research/scissor-lifts.webp": {
+      "sha256": "8bf8f3caaf85d7f0b08a29b1f7d940af8b21fa30fd100ad61b51f92ba1fb6c61",
+      "git_blob_sha": "bacc17fa0c62e3e01d2e13fa99ad4440b030f360",
+      "inspection": "source actually viewed with functions.view_image; responsive acceptance pending"
+    },
+    "editorial/media/publisher/research/factory-floor-fan.webp": {
+      "sha256": "4fa0b677ad4ae7e0ba011837c828d0c8c8a1ae8c8c30e9d03424b005c2766219",
+      "git_blob_sha": "f9d54cb4c4323cd48ee55f90ec545086874afe30",
+      "inspection": "source actually viewed with functions.view_image; responsive acceptance pending"
+    },
+    "editorial/media/publisher/research/vehicle-warehouse-fans.webp": {
+      "sha256": "f67ad341f78d635aaa8173fff88664691027bfa188060acccfaa7e55beb8f88c",
+      "git_blob_sha": "005abe616fb58095f3ac67fc32adbce06dd3aeab",
+      "inspection": "source actually viewed with functions.view_image; responsive acceptance pending"
+    },
+    "editorial/media/publisher/research/warehouse-fan.webp": {
+      "sha256": "5f5c74db8f1f6ecaafb1a24083334fee3f5e09c3b0252d53a84c665532173c55",
+      "git_blob_sha": "00eb3ff326efd3a549b9b521967646598dde8146",
+      "inspection": "source actually viewed with functions.view_image; responsive acceptance pending"
+    },
+    "editorial/media/publisher/research/barn-fans.webp": {
+      "sha256": "a4f734117ebc739f063e159adb0ceeaa49f7ab8473be0c113ae5c04bfa065069",
+      "git_blob_sha": "4c17c52c417350006522438ddd2dc64e3ecea65e",
+      "inspection": "source actually viewed with functions.view_image; responsive acceptance pending"
+    }
+  },
+  "source_findings": {
+    "cfei": "Replacement hangar shows several ceiling fans and building context; no model/study-site identity asserted. Rejected source no longer selected for CFEI.",
+    "gfy_controls": "Drive housings show ABB and Go Fan Yourself branding, disconnects and conduit. Relevant GFY controls context; no electrical compliance or exact drive model attested.",
+    "taz": "Upper-frame derivative retains complete visible directional-fan housing/guard and chains. Lower cable reels/work-floor removed relative to field02; concise caption names fan, not full factory context. Field03 body image remains. Publisher model identification retained, not independently nameplate verified.",
+    "research": "Five sources actually viewed: barn ceiling fans; factory fan/motor; lifts with directional fan; ceiling fans over vehicles; fan hub over racking. Existing source-edge blade truncation in factory/warehouse images remains; not full-span evidence. No study-site/compliance/model claim cleared."
+  },
+  "rights": "Standing Chris authorization for BigFanGuys.com field imagery; shared library checked. Seven source correspondences supported by visual content and close image comparison, not byte-identical originals. TAZ derivative visually corresponds to existing publisher-supplied field02. Preserve original source records.",
+  "visual_tools": [
+    "functions.view_image exact eight source files",
+    "mcp__cua_repl live CFEI desktop screenshot"
+  ],
+  "responsive_review": {
+    "desktop": "CFEI page only, partial screenshot; no complete lower-bound acceptance",
+    "tablet": "not inspected",
+    "phone": "not inspected",
+    "card": "not inspected"
+  },
+  "blocker": "New public homepage/eight article pages and PR180 selections require separate390/768/1280 card/article visual acceptance. Cloud browser exposes no viewport resize; data-URL diagnostic page rejected by URL security policy. No bypass attempted. Website/Art receiving owner should provide an approved HTTPS responsive proof or supported viewport tool. Desktop CFEI page only was viewed, not full responsive acceptance.",
+  "owner": "Art & Media Director / Website lead for responsive proof",
+  "fixture": "Unchanged completed450746b5 digest: actual worker_contract admit suppress and validation passed; result.json not changed.",
+  "preservation": "This records-only change preserves all current main manuscript, approval/release, image, mapping and layout bytes. Earlier concurrent PR175-180 publication/approval/text changes are observed, not authorized or performed by this run.",
+  "next_action": "Inspect exact current deployed homepage cards and eight article leads at390/768/1280 using supported visual tools; verify source provenance and full TAZ context framing, then record acceptance. Do not retry the blocked data URL. Suppress repeated blocked writes for this same source/layout revision."
+}

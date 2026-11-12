@@ -65,7 +65,7 @@
   "art_media_director_owner": "Art & Media Director \u2014 assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
   "art_director_checkpoint": "editorial/media/art-director-checkpoint.json",
   "art_director_last_checked_source": "fad9718fc58313eb98e262517e53f43c955631ff",
-  "art_director_last_outcome": "no_new_publication_visual_changes_fixture_recovery_accepted",
+  "art_director_last_outcome": "source_review_complete_responsive_acceptance_blocked",
   "handoff_files": [
     "office/handoffs/01-Website-and-Editing-Handoff.md",
     "office/handoffs/02-Content-and-Imagery-Handoff.md",
@@ -404,5 +404,12 @@
     "identity": "Invertek Optidrive ECO",
     "status": "library_reserve_not_selected",
     "e4_request_resolved": false
+  },
+  "art_current_visual_review": {
+    "input_commit": "03d0a3f9742bc81c76404a2dcf499362badb3fe6",
+    "report": "editorial/media/ART-REVIEW-2026-11-12.json",
+    "source_images_viewed": 8,
+    "responsive_acceptance_complete": false,
+    "blocker": "New public homepage/eight article pages and PR180 selections require separate390/768/1280 card/article visual acceptance. Cloud browser exposes no viewport resize; data-URL diagnostic page rejected by URL security policy. No bypass attempted. Website/Art receiving owner should provide an approved HTTPS responsive proof or supported viewport tool. Desktop CFEI page only was viewed, not full responsive acceptance."
   }
 }

@@ -1,3 +1,9 @@
+## Art changed-image source review — November 12, 2026
+
+Checked 03d0a3f9742bc81c76404a2dcf499362badb3fe6 after concurrent article publication/TAZ wording and landscape-image changes. Eight new derivative sources actually viewed; all14 prior checkpoint asset bytes unchanged. CFEI rejected source replaced by hangar photo; GFY controls use visibly GFY-branded drives; TAZ upper-frame derivative retains fan housing/guard/chains. Five new research sources viewed. Exact asset hashes, rights limits and findings: editorial/media/ART-REVIEW-2026-11-12.json.
+
+New homepage/eight article placements do not inherit prior responsive acceptance. Live desktop CFEI screenshot viewed; phone/tablet/card acceptance incomplete because supported browser has no viewport-resize API and rejects data-URL diagnostics. No bypass attempted. Art/Website needs approved HTTPS responsive proof or supported viewport tooling. Last successful commit stays unchanged; partial source review is not crop acceptance. Unchanged completed fixture suppressed; no result/phase change. No manuscripts, approval/release records, image originals, selections, layouts, publication or schedules changed by this run.
+
 ## Art scheduled recovery visual review — November 12 UTC
 
 Checked immutable main `fad9718fc58313eb98e262517e53f43c955631ff` against previous successful `f9d50719a6aad07a33a1303b033438626cc35b49`: only acceptance/provenance/queue records changed; no new article/image/upload/mapping/caption/layout bytes. All 14 checkpoint image SHA256 values match. Existing selected-image review is present; prior publication framing acceptance carries forward.

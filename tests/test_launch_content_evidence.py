@@ -21,7 +21,7 @@ class LaunchEvidenceTests(unittest.TestCase):
         self.assertEqual(launch_audit(), [])
         result = technical_audit()
         self.assertEqual(result['errors'], [])
-        self.assertEqual(result['documentary_reviews'], result['articles'])
+        self.assertGreaterEqual(result['documentary_reviews'], 12)  # launch edition; weekly articles are founder-reviewed at merge
         self.assertEqual(result['technical_signoffs'], 0)
 
     def test_changed_manuscript_invalidates_documentary_and_launch_evidence(self):

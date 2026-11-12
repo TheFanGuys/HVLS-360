@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "last_successful_commit": "fad9718fc58313eb98e262517e53f43c955631ff",
-  "checked_at_utc": "2026-11-12T03:22:48.627200+00:00",
-  "outcome": "no_new_publication_visual_changes_fixture_recovery_accepted",
+  "checked_at_utc": "2026-11-12T11:20:29.378063+00:00",
+  "outcome": "source_review_complete_responsive_acceptance_blocked",
   "reviewed_image_hashes": {
     "editorial/media/publisher/bfg-field/warehouse-hvls.webp": {
       "sha256": "3258472f0f3d509d8cdef31f302348f7387901a57437aa07d3e9c3df747ebb95",
@@ -135,7 +135,7 @@
     "Founder-deferred image suitability and content-angle corrections remain recorded; four new text decisions and release execution remain separate.",
     "Website direct authenticated/device acceptance and other running category work are not completed by this image handoff."
   ],
-  "next_run": "Compare current main against last_successful_commit, including new uploads, manuscripts, media, captions, mappings and rendering/CSS. Ignore checkpoint-only commits and record-only Art Director maintenance commits when determining relevant changes. If relevant source and outcome are unchanged, do not write another checkpoint, change timestamps or add Issue comments.",
+  "next_run": "Compare against last_attempt_commit for same blocked revision; suppress repeated writes/comments if unchanged. Never advance last_successful_commit until responsive review completes. Fixture unchanged completed digest remains suppressed.",
   "source_inventory_git_blobs": {
     "art-library/catalog.json": "bee7dea83885643fdf53b0a067b98965054abe6c",
     "assets/publication.css": "a7fd92383d7ec6cee4977a625a07e701fd8416c8",
@@ -159,8 +159,7 @@
   "checked_source_commit": "fad9718fc58313eb98e262517e53f43c955631ff",
   "review_scope": "Exact comparison f9d5071..fad9718: acceptance/provenance/status records only; no new articles/uploads/assets/captions/mappings/layout. 14 asset hashes match. This scheduled run independently inspected fixture source and six responsive frames.",
   "remaining_blockers": [
-    "Later unchanged scheduled run must demonstrate no repeated write/comment; contract suppression alone is not that evidence.",
-    "Founder-deferred CFEI source and portrait landscape-card suitability concerns remain open."
+    "New public homepage/eight article pages and PR180 selections require separate390/768/1280 card/article visual acceptance. Cloud browser exposes no viewport resize; data-URL diagnostic page rejected by URL security policy. No bypass attempted. Website/Art receiving owner should provide an approved HTTPS responsive proof or supported viewport tool. Desktop CFEI page only was viewed, not full responsive acceptance."
   ],
   "worker_acceptance": {
     "input_sha256": "450746b53c55c588ccd483d8bb9c6722e1392d96dc38ec9f2073f2a3847c1b0f",
@@ -168,5 +167,7 @@
     "status": "completed",
     "fixture_revision": 2,
     "quiet_repeat": "pending actual later run"
-  }
+  },
+  "last_attempt_commit": "03d0a3f9742bc81c76404a2dcf499362badb3fe6",
+  "last_attempt_review": "editorial/media/ART-REVIEW-2026-11-12.json"
 }

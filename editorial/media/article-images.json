@@ -50,9 +50,9 @@
       }
     },
     "cfei-vs-cfm-per-watt-field-guide": {
-      "file": "editorial/media/publisher/bfg-field/ceiling-fan.webp",
-      "alt": "Installed multi-blade ceiling fan beneath a steel roof",
-      "caption": "Installed ceiling fan photographed by Big Fan Guys; the photograph does not establish its efficiency rating.",
+      "file": "editorial/media/publisher/weekly/cfei-vs-cfm-per-watt-field-guide.webp",
+      "alt": "Several large overhead fans in an aircraft hangar",
+      "caption": "HVLS fans in an aircraft hangar. Big Fan Guys field photograph.",
       "kind": "photo",
       "credit": "Big Fan Guys",
       "presentation": {
@@ -66,10 +66,10 @@
         }
       },
       "crop_review": {
-        "reviewed": "2026-11-11",
-        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
-        "reviewer": "Art & Media Director / assistant visual review",
-        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+        "reviewed": "2026-11-12",
+        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+        "reviewer": "Weekly article worker (Art desk)",
+        "evidence": "office/weekly_article.py"
       }
     },
     "greenheck-ds-series-2026-field-report": {
@@ -142,9 +142,9 @@
       }
     },
     "vividair-gfy-ztech-taz-controls-field-guide": {
-      "file": "editorial/media/publisher/bfg-field/fan-hub.webp",
-      "alt": "Close view of a ceiling-fan motor, mount and blades",
-      "caption": "Ceiling-fan motor, mount and blades above an automotive work area. Big Fan Guys field photograph.",
+      "file": "editorial/media/publisher/weekly/vividair-gfy-ztech-taz-controls-field-guide.webp",
+      "alt": "Row of wall-mounted Go Fan Yourself fan drives with disconnects and conduit",
+      "caption": "A wall of fan drives on a Big Fan Guys install.",
       "kind": "photo",
       "credit": "Big Fan Guys",
       "presentation": {
@@ -158,16 +158,16 @@
         }
       },
       "crop_review": {
-        "reviewed": "2026-11-11",
-        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
-        "reviewer": "Art & Media Director / assistant visual review",
-        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+        "reviewed": "2026-11-12",
+        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+        "reviewer": "Weekly article worker (Art desk)",
+        "evidence": "office/weekly_article.py"
       }
     },
     "vividair-taz-72-field-guide": {
-      "file": "editorial/media/publisher/taz-72/taz-72-field-02.webp",
-      "alt": "Publisher-supplied TAZ installation photograph",
-      "caption": "TAZ field photograph supplied and identified by Big Fan Guys.",
+      "file": "editorial/media/publisher/weekly/vividair-taz-72-field-guide.webp",
+      "alt": "72-inch TAZ directional fan hung on chains above a production floor",
+      "caption": "A 72-inch TAZ on a Big Fan Guys install.",
       "kind": "photo",
       "credit": "Big Fan Guys",
       "presentation": {
@@ -181,10 +181,10 @@
         }
       },
       "crop_review": {
-        "reviewed": "2026-11-11",
-        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
-        "reviewer": "Art & Media Director / assistant visual review",
-        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+        "reviewed": "2026-11-12",
+        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+        "reviewer": "Weekly article worker (Art desk)",
+        "evidence": "office/weekly_article.py"
       },
       "body_images": [
         {

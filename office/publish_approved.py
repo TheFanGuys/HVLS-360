@@ -45,6 +45,8 @@ def publish(slug,approval_path,root=ROOT):
     digest=hashlib.sha256(body.encode("utf-8")).hexdigest()
     if approval["article_sha256"]!=digest:
         raise ValueError("Article changed after approval")
+    from release_inputs import validate
+    validate(root, slug, approval)
     output=root/"articles"/(slug+".md")
     if output.exists():
         raise ValueError("Article already published; revisions require separate review")

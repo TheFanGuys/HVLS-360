@@ -89,7 +89,7 @@ jobs:
       - name: COO synthesis and department handoffs
         if: steps.research.outputs.exit_code == '0' || steps.research.outputs.exit_code == '2'
         run: python office/coo_brief.py
-      - name: Upload private research report artifact
+      - name: Upload research report artifact (public repository)
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -130,3 +130,10 @@ jobs:
             git commit -m "Update unverified research lead index [skip ci]"
             git push
           fi
+
+      - name: Record failed run or rerun recovery on shared research Issue
+        if: always() && !cancelled()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESEARCH_OUTCOME: ${{ job.status }}
+        run: python office/research_failure.py

@@ -80,3 +80,25 @@ class SharedIssuesTests(unittest.TestCase):
    return [{"number":96,"title":"[Research pitch] Old","body":"https://example.org/a-different-story"}] if method=='GET' else {"number":97,"html_url":"https://example.org/97"}
   self.assertEqual(len(sync("owner/repo","token",[item],client)),1)
 if __name__=="__main__":unittest.main()
+
+
+class ReadOnlyDeduplicationTests(unittest.TestCase):
+ def test_missing_created_marker_never_creates_again(self):
+  calls=[]
+  item=build_items([{'working_title':'HVLS fixture','lead_url':'https://example.org/a'}])[0]
+  def client(repo,token,method,path,payload=None):
+   calls.append(method);return []
+  with self.assertRaisesRegex(RuntimeError,'refusing a second create'):
+   sync('owner/repo','token',[item],client,allow_create=False)
+  self.assertEqual(calls,['GET'])
+
+ def test_direct_verified_receipt_handles_lagging_list_without_post(self):
+  from coo_issues import verify_existing
+  item=build_items([{'working_title':'HVLS fixture','lead_url':'https://example.org/a'}])[0]
+  calls=[]
+  def client(repo,token,method,path,payload=None):
+   calls.append(method);assert method=='GET'
+   if path=='/issues/8':return {'number':8,'body':item['body'],'html_url':'https://example.org/8'}
+   return []
+  self.assertEqual(verify_existing('owner/repo','token',[item],client,receipts=[{'number':8,'key':item['key']}]),[])
+  self.assertEqual(calls,['GET','GET'])

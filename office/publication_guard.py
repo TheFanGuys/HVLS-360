@@ -29,6 +29,8 @@ def audit(root=ROOT):
         try:
             record=json.loads(approval.read_text(encoding="utf-8"))
             body=draft.read_text(encoding="utf-8")
+            from release_inputs import validate
+            validate(root, slug, record)
             expected=body.replace("publication_allowed: false","publication_allowed: true",1).replace(
                 'status: "EDITORIAL DRAFT — NOT APPROVED"','status: "APPROVED FOR PUBLICATION"',1)
             if article.read_text(encoding="utf-8")!=expected:

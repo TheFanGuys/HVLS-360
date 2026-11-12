@@ -1,5 +1,11 @@
 # HVLS 360 — durable COO handoff
 
+## Workflow & Release checkpoint — November 11, 2026
+
+Release candidate prepared for exact already-approved Air Movement manuscript: `office/release-candidates/hvls-air-movement-vs-ventilation.json`. Documentary review resolves this qualitative scope; no blanket external professional signoff is imposed or fabricated. Candidate remains held solely for final founder release authorization. Original eight text approvals unchanged. Temporary end-to-end rehearsal covers publisher, guard, HTML/canonical/JSON-LD/image, catalog/RSS/sitemap; no real approval/public article created.
+
+Repairs bind selected image bytes/captions/framing to release authorization, verify newly created Issues by explicit GET, and record research failure/rerun recovery durably on#93 with idempotent verified comments. Clearly labeled connector fixture#148 was created/read/closed and passes repeated production dedup using actual readback. Controlled Actions integration is separate from genuine reporting and next cron evidence. Expanded pipeline still has no new scheduled run or genuine new-assignment evidence; next cron November13 15:00UTC. Latest production logs retain ABB timeout warning. Report: `office/WORKFLOW-RELEASE-ACCEPTANCE-2026-11-11.md`. Category incomplete; no spending or news release.
+
 ## Content & Imagery checkpoint — November 11, 2026
 
 Finite launch edition: twelve existing manuscripts, not an invented larger archive. Canonical candidate ledger: `editorial/launch-completion-ledger.json`; readable inventory: `editorial/LAUNCH-EDITION.md`. All twelve current documentary claim scopes are resolved against primary evidence, with fresh checks distinguished from retained records. Technical register now separates documentary resolution from qualified professional signoff: twelve documentary reviews, zero professional attestations. Original eight manuscript/approval hashes are unchanged; only four new briefs await their first founder text decision. Stale frontmatter and historic checklists do not reopen approved text.

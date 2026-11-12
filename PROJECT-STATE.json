@@ -11,7 +11,7 @@
   "drafts": 12,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
-  "last_verified_python_tests": 208,
+  "last_verified_python_tests": 231,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish verified operating workflows and shared department handoffs before article fine-tuning.",
@@ -231,5 +231,26 @@
     "live_manuscript_blob": "d3161b34d449851eea679e7deb4c096498c48af0",
     "visual_result": "Viewed actual rendered phone image and tablet/desktop upper and lower source bounds/captions. Suspended housing, louvers, guard, chains and work-floor context retained; no crop; natural aspect ratio. Current saved-text refresh retains exactly one contextual image after the descriptive paragraph.",
     "physical_device_test": false
+  },
+  "workflow_release_acceptance": {
+    "status": "independent_repairs_tested_release_held_schedule_pending",
+    "checked_date": "2026-11-11",
+    "report": "office/WORKFLOW-RELEASE-ACCEPTANCE-2026-11-11.md",
+    "candidate": "office/release-candidates/hvls-air-movement-vs-ventilation.json",
+    "original_eight_text_approvals_preserved": true,
+    "expanded_scheduled_run_verified": false,
+    "genuine_new_research_issue_verified": false,
+    "connector_controlled_fixture_issue": 148,
+    "connector_fixture_readback_closed_dedup_verified": true,
+    "failure_recovery_unit_tests": true,
+    "actions_controlled_integration": "run43131023682 caught immediate-list lag causing duplicate; fail-closed read-only verification repair pending rerun",
+    "public_news_released": 0,
+    "release_authorized": false,
+    "remaining_owners": {
+      "scheduled_execution": "GitHub Actions next cron November13 15:00UTC; Workflow verifies",
+      "new_genuine_intake": "Research Lead / Workflow; requires actual relevant new source",
+      "release_decision": "Chris; exact Air Movement packet, no repeat text approval",
+      "authenticated_studio": "Website / founder device access"
+    }
   }
 }

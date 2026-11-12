@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "slug": "hvls-air-movement-vs-ventilation",
+  "status": "held_for_founder_release_authorization",
+  "article_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+  "release_inputs_sha256": "544a002add499287ddf2bf7db4d7a15dae384f608994e52222b949cea1884b31",
+  "original_text_approval": {
+    "status": "approved_exact_revision",
+    "approval_register_file": "editorial/founder-approval-register.json",
+    "approved_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+    "request_repeat_approval": false
+  },
+  "documentary_review": {
+    "register_file": "editorial/reviews/technical-review-register.json",
+    "recorded_status": "documentary_review_complete",
+    "recorded_scope": "Airflow recirculation vs outdoor-air exchange; ASHRAE 55/62.1 scope; illustration accuracy",
+    "qualified_signoff_present": false,
+    "resolution_status": "documentary_review_complete",
+    "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+    "qualified_review_requirement": "Numerical outdoor-air design, contaminant-capture substitution, code compliance or a site-specific ventilation calculation.",
+    "qualified_review_required": false
+  },
+  "source_review": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
+  "voice": {
+    "file": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
+    "manuscript_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+    "matching_revision_record_present": true,
+    "record_excerpts": [
+      "Chris reported opening the article on iPhone, editing through GitHub, tapping Commit changes, then reopening the same article in Review Studio and seeing the changed wording. Repository commits c170cbb and 84c39bf independently confirm the manuscript changes. Current blob e0d72e2c15c20f49803d63068c0b924e11873f78; SHA-256 `6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b`. This verifies the GitHub editor commit \u2192 same-iPhone Studio reopen path from user observation plus repository evidence. It does not verify Studio's token-based Save button, another physical device, or a founder editorial approval."
+    ],
+    "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+  },
+  "media": {
+    "manifest_file": "editorial/media/article-images.json",
+    "asset_file": "editorial/media/publisher/bfg-field/warehouse-hvls.webp",
+    "asset_sha256": "3258472f0f3d509d8cdef31f302348f7387901a57437aa07d3e9c3df747ebb95",
+    "asset_git_blob": "dae950271aaf3d928f854965e3669818296d951d",
+    "kind": "photo",
+    "caption": "Overhead fan above warehouse racking. Big Fan Guys field photograph; illustrative installation context.",
+    "alt": "Overhead fan above warehouse racking",
+    "presentation": {
+      "card": {
+        "fit": "cover",
+        "position": "50% 80%"
+      },
+      "lead": {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    },
+    "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+    "composition_status": "existing_current_edition_acceptance_hash_checked",
+    "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+    "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+  },
+  "metadata": {
+    "file": "office/launch-package.json",
+    "draft_checksum_matches": true,
+    "seo_title": "HVLS Air Movement vs. Ventilation",
+    "seo_description": "Understand how HVLS air movement differs from outdoor-air ventilation, with practical questions for facility specifications and project reviews.",
+    "related_story_candidates": [
+      "cfei-vs-cfm-per-watt-field-guide",
+      "vividair-taz-72-field-guide"
+    ],
+    "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+  },
+  "preview": "https://thefanguys.github.io/HVLS-360/office/preview/hvls-air-movement-vs-ventilation.html",
+  "canonical_on_authorized_release": "https://thefanguys.github.io/HVLS-360/articles/hvls-air-movement-vs-ventilation/",
+  "related_links": "No related news targets are released; omit links until a separately reviewed release adds live targets.",
+  "publication_authorized": false,
+  "approval_record_created": false,
+  "remaining_decision": "Chris explicitly authorizes publication of this exact manuscript and selected media package. No repeated text approval required."
+}

@@ -126,7 +126,7 @@
       "status": "text_approved_release_held",
       "publisher_approved": false,
       "founder_text_decision": "approved_exact_revision",
-      "founder_text_sha256": "8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1",
+      "founder_text_sha256": "ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29",
       "technical_documentary_status": "documentary_review_complete",
       "release_authorization": "not_recorded",
       "launch_ledger": "editorial/launch-completion-ledger.json"

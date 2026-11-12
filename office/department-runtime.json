@@ -326,7 +326,7 @@
     {
       "issue": 91,
       "slug": "vividair-taz-72-field-guide",
-      "input_sha256": "8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1",
+      "input_sha256": "ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29",
       "artifact_bindings_current": true,
       "research_to_draft_automatic_lineage_verified": false,
       "research_evidence": {

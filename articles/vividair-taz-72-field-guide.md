@@ -18,7 +18,7 @@ seo_description: "Review VividAir TAZ aisle-fan placement, manufacturer performa
 
 An aisle between racks needs air delivered along its length. A mezzanine may leave little room overhead. VividAir markets the TAZ directional fan for those locations, with 36-inch and 72-inch versions [1]. Before choosing one, trace the discharge path: where will the air go, and what will stand in its way?
 
-The two Big Fan Guys installation photos accompanying this draft show a cylindrical housing, protective guard, discharge louvers and chain suspension. Chris identifies the unit as a 72-inch TAZ. The nameplate is not readable in the photographs, so the exact model still needs confirmation.
+The two Big Fan Guys installation photos with this guide show a 72-inch TAZ: cylindrical housing, protective guard, discharge louvers and chain suspension. On your own site, read the nameplate to confirm the exact model before relying on any published figures.
 
 ## Read the coverage claim carefully
 

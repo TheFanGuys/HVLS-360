@@ -1,3 +1,7 @@
+## Workflow current verified checkpoint
+
+PR#152 merged; controlled real GitHub integration43131784744 passes create/readback/closed-dedup/failure-recovery. Held release PR#158 awaits final release authorization, preserving original text approval. Next actual research cron November13 15:00UTC and new genuine-source intake remain open. Read PROJECT-STATE.json workflow_release_acceptance and office/WORKFLOW-RELEASE-ACCEPTANCE-2026-11-11.md. Earlier pending-fixture notes below are historical.
+
 ## Workflow continuation — November 11, 2026
 
 Read office/WORKFLOW-RELEASE-ACCEPTANCE-2026-11-11.md and PROJECT-STATE.json workflow_release_acceptance. Held Air Movement candidate is exact-revision, preserves original text approval, and requires final release authorization only. Verify controlled integration PR run separately from actual next cron/new genuine-source intake; neither fixture nor push proves schedule. Do not reopen old blanket professional-review holds where current Content documentary evidence resolves scope.

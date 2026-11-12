@@ -30,3 +30,34 @@ Workflow & Release Engineering owns#93. Open linked failed attempt and retained 
 ## Actual Actions failure found and repaired
 
 Controlled run43131023682/job130894894000 created#153, direct readback succeeded, then immediate list omitted it and old verification created duplicate#154. Both fixtures closed; this is controlled test failure, not news. Verification now never creates: read-only mode with bounded retry; API GETs bypass cached list results. Added regression proving missing expected marker cannot POST. Separate controlled rerun pending. Local231 tests pass; seven JS suites previously passed.
+
+## Verified Workflow delivery — November 11, 2026
+
+PR #152 merged at c7275dc3f5a59ee43cb9a886832a3d523b59a6bb after four green checks. Controlled Actions run43131784744/job130897416109/artifact13905646483 created/read/deduplicated/closed fixture#157, verified labeled failure/recovery comments and repeated-recovery idempotence. Independent connector readback confirms closed state and both comments. Earlier runs43131023682/43131380689 caught lagging Issue-list reads; verification now uses direct verified receipts and never creates on a verification miss. Fixtures#153/#154/#156 closed.233 Python tests/seven JS suites and publication/catalog checks pass. No genuine new reporting assignment or next cron acceptance is inferred.
+
+Held release PR#158 targets main with exact Air Movement evidence and request; zero article/approval artifacts created. Remaining: expanded cron November13 15:00UTC (Workflow owns readback), genuinely new consequential eligible source intake (Research/Workflow), and Chris's final release authorization followed by actual live article/catalog/RSS/sitemap verification. Preserve original-eight text approvals; no repeat text decision. Category incomplete. Report office/WORKFLOW-RELEASE-ACCEPTANCE-2026-11-11.md.
+
+
+Controlled fixture evidence:
+```json
+{
+  "run_id": 43131784744,
+  "job_id": 130897416109,
+  "artifact_id": 13905646483,
+  "fixture_issue": 157,
+  "conclusion": "success",
+  "new_create_direct_readback": true,
+  "repeat_and_closed_deduplication": true,
+  "failure_recovery_comments_readback": true,
+  "fixture_closed": true,
+  "genuine_new_reporting_issue": false,
+  "scheduled_trigger": false,
+  "failed_controlled_runs": [
+    43131023682,
+    43131380689
+  ],
+  "repair": "Read-only verification supplemented by direct verified Issue receipts; stale list reads cannot cause a second create."
+}
+```
+
+Post-merge production verification: expanded push run43131926233/job130897894847 succeeded,18 leads/0 eligible briefs/0 new Issues/one manufacturer warning; result commit61b716c and Pages43132074623 succeeded. Failure/recovery step completed on clean success without creating an alert. Live held candidate JSON matches the reviewed packet and remains publication_authorized=false. This is push evidence, not November13 cron or a genuinely new lead.

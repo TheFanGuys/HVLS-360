@@ -11,11 +11,11 @@
   "drafts": 12,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
-  "last_verified_python_tests": 231,
+  "last_verified_python_tests": 233,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish verified operating workflows and shared department handoffs before article fine-tuning.",
-  "next_task": "Start each category from its handoff and current main. Website resumes preserved WIP; Agent Operations verifies the enabled Art Director task\u2019s first completed execution.",
+  "next_task": "Start each category from its handoff and current main. Website resumes preserved WIP; Agent Operations verifies the enabled Art Director task’s first completed execution.",
   "active_issues": [
     92,
     93,
@@ -62,7 +62,7 @@
   "selected_image_composition_complete": false,
   "selected_image_reviewed_stories": 12,
   "public_research_image_placements_reviewed": 6,
-  "art_media_director_owner": "Art & Media Director \u2014 assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
+  "art_media_director_owner": "Art & Media Director — assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
   "art_director_checkpoint": "editorial/media/art-director-checkpoint.json",
   "art_director_last_checked_source": "176181ae86e456f7bd369a7f3085c4df65599b8a",
   "art_director_last_outcome": "taz_integration_accepted_deferred_suitability_work_recorded",
@@ -233,7 +233,7 @@
     "physical_device_test": false
   },
   "workflow_release_acceptance": {
-    "status": "independent_repairs_tested_release_held_schedule_pending",
+    "status": "engineering_merged_controlled_chain_verified_schedule_and_release_pending",
     "checked_date": "2026-11-11",
     "report": "office/WORKFLOW-RELEASE-ACCEPTANCE-2026-11-11.md",
     "candidate": "office/release-candidates/hvls-air-movement-vs-ventilation.json",
@@ -243,7 +243,24 @@
     "connector_controlled_fixture_issue": 148,
     "connector_fixture_readback_closed_dedup_verified": true,
     "failure_recovery_unit_tests": true,
-    "actions_controlled_integration": "run43131023682 caught immediate-list lag causing duplicate; fail-closed read-only verification repair pending rerun",
+    "actions_controlled_integration": {
+      "run_id": 43131784744,
+      "job_id": 130897416109,
+      "artifact_id": 13905646483,
+      "fixture_issue": 157,
+      "conclusion": "success",
+      "new_create_direct_readback": true,
+      "repeat_and_closed_deduplication": true,
+      "failure_recovery_comments_readback": true,
+      "fixture_closed": true,
+      "genuine_new_reporting_issue": false,
+      "scheduled_trigger": false,
+      "failed_controlled_runs": [
+        43131023682,
+        43131380689
+      ],
+      "repair": "Read-only verification supplemented by direct verified Issue receipts; stale list reads cannot cause a second create."
+    },
     "public_news_released": 0,
     "release_authorized": false,
     "remaining_owners": {
@@ -251,6 +268,21 @@
       "new_genuine_intake": "Research Lead / Workflow; requires actual relevant new source",
       "release_decision": "Chris; exact Air Movement packet, no repeat text approval",
       "authenticated_studio": "Website / founder device access"
-    }
+    },
+    "engineering_pr": 152,
+    "merged_revision": "c7275dc3f5a59ee43cb9a886832a3d523b59a6bb",
+    "held_release_pr": 158,
+    "latest_production_run": {
+      "run_id": 43131926233,
+      "event": "push",
+      "conclusion": "success",
+      "job_id": 130897894847,
+      "result_commit": "61b716c26e845d960cc389f59533a279f7dcaedc",
+      "leads": 18,
+      "eligible_briefs": 0,
+      "issues_created": 0,
+      "manufacturer_source_errors": 1
+    },
+    "live_held_packet_matches": true
   }
 }

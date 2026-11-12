@@ -14,7 +14,7 @@
   "last_verified_python_tests": 205,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
-  "current_objective": "Complete four major categories in separate project chats using durable evidence-based handoffs.",
+  "current_objective": "Finish verified operating workflows and shared department handoffs before article fine-tuning.",
   "next_task": "Start each category from its handoff and current main. Website resumes preserved WIP; Agent Operations verifies the enabled Art Director task\u2019s first completed execution.",
   "active_issues": [
     92,
@@ -39,7 +39,7 @@
     "Free embedded COO accounts, backend and real execution",
     "Domain availability and actual Namecheap prices"
   ],
-  "latest_decision": "Chris requested four handoff files matching the original major areas; finish entire categories, not isolated crop work. Art Director should own ongoing imagery without routine owner supervision.",
+  "latest_decision": "Founder prioritizes operational completion; image suitability and article angles recorded for later Content/Art correction.",
   "update_requirement": "Operator updates this file and PROJECT-HANDOFF.md, DECISIONS.md and relevant GitHub Issues after meaningful work. This is an instruction, not a claim of automatic syncing.",
   "deferred_issues": [
     116
@@ -59,7 +59,7 @@
   "art_library_folder": "art-library",
   "autonomous_art_agents_running": false,
   "art_media_director_review": "editorial/media/CROP-REVIEW-2026-11-11.md",
-  "selected_image_composition_complete": true,
+  "selected_image_composition_complete": false,
   "selected_image_reviewed_stories": 12,
   "public_research_image_placements_reviewed": 6,
   "art_media_director_owner": "Art & Media Director \u2014 assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
@@ -152,5 +152,18 @@
       "metadata_audit": "passed",
       "publication_guard": "passed"
     }
+  },
+  "founder_content_feedback": {
+    "status": "recorded_deferred_until_operational_completion",
+    "image_concerns": [
+      "portrait sources in landscape cards",
+      "CFEI selected photo rejected: founder identifies impact-damaged Big Ass Fans blades"
+    ],
+    "article_concerns": [
+      "GFY/Vivid Air ordering angle",
+      "generic VFD selection angle ignores manufacturer-supplied specified drive"
+    ],
+    "owner": "Content & Imagery Lead / Art Director",
+    "changes_applied": false
   }
 }

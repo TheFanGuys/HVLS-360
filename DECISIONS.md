@@ -189,3 +189,8 @@ Specific content dependency: TAZ approved text refers to two photographs, but pr
 
 
 Content validation after rebase onto Website merge fb248da:205 Python tests and seven JavaScript suites passed; launch evidence, technical, metadata and publication audits passed. Original manuscripts and founder register unchanged.
+
+
+## Founder priority correction — November 11, 2026
+Finish the operating system and verified department-to-department handoffs before fine-tuning articles. Chris flagged portrait images in landscape cards, identified the CFEI image as a Big Ass Fans unit with impact-damaged blades and rejected it for that story, questioned the GFY/Vivid Air ordering angle, and rejected a generic choose-your-VFD framing because manufacturers supply the specified drive. Record these as pending Content & Imagery/Art corrections; do not silently rewrite approved manuscripts or request article decisions as a prerequisite for completing operations. The screenshot/model/damage identification is founder-reported; do not substitute the previous crop-only acceptance for editorial suitability.
+Operational acceptance must demonstrate shared assignment → receiving owner acknowledgment → output/review → durable GitHub writeback → visible status, including failure handling. Named roles and separate chats alone do not prove communication or autonomous execution. Use Issue #94 as the common coordination record; category leads fetch current main and their shared dependencies without making Chris relay reports. Existing zero-cost and publication controls remain.

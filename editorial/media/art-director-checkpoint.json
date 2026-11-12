@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "last_successful_commit": "f9d50719a6aad07a33a1303b033438626cc35b49",
-  "checked_at_utc": "2026-11-12T02:30:35.640168+00:00",
-  "outcome": "e4_founder_selected_illustration_responsive_accepted",
+  "last_successful_commit": "fad9718fc58313eb98e262517e53f43c955631ff",
+  "checked_at_utc": "2026-11-12T03:22:48.627200+00:00",
+  "outcome": "no_new_publication_visual_changes_fixture_recovery_accepted",
   "reviewed_image_hashes": {
     "editorial/media/publisher/bfg-field/warehouse-hvls.webp": {
       "sha256": "3258472f0f3d509d8cdef31f302348f7387901a57437aa07d3e9c3df747ebb95",
@@ -156,10 +156,17 @@
     "editorial/media/article-images.json": "766a71d9ca669a2177592ab7de7087a94f474c51"
   },
   "source_library_tree_sha": "b8cb0b118edf428ef44e51c1ac66194567451a66",
-  "checked_source_commit": "f9d50719a6aad07a33a1303b033438626cc35b49",
-  "review_scope": "Issue96 selected illustration and its actual deployed card/article/reader framing; no full-launch re-review or independent scheduled-run claim",
+  "checked_source_commit": "fad9718fc58313eb98e262517e53f43c955631ff",
+  "review_scope": "Exact comparison f9d5071..fad9718: acceptance/provenance/status records only; no new articles/uploads/assets/captions/mappings/layout. 14 asset hashes match. This scheduled run independently inspected fixture source and six responsive frames.",
   "remaining_blockers": [
-    "Independent Art recovery and unchanged-run suppression not newly verified",
-    "Founder-deferred launch image suitability corrections remain separate"
-  ]
+    "Later unchanged scheduled run must demonstrate no repeated write/comment; contract suppression alone is not that evidence.",
+    "Founder-deferred CFEI source and portrait landscape-card suitability concerns remain open."
+  ],
+  "worker_acceptance": {
+    "input_sha256": "450746b53c55c588ccd483d8bb9c6722e1392d96dc38ec9f2073f2a3847c1b0f",
+    "result_path": "office/worker-acceptance/art-director/result.json",
+    "status": "completed",
+    "fixture_revision": 2,
+    "quiet_repeat": "pending actual later run"
+  }
 }

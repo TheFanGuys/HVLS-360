@@ -64,8 +64,8 @@
   "public_research_image_placements_reviewed": 6,
   "art_media_director_owner": "Art & Media Director \u2014 assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
   "art_director_checkpoint": "editorial/media/art-director-checkpoint.json",
-  "art_director_last_checked_source": "176181ae86e456f7bd369a7f3085c4df65599b8a",
-  "art_director_last_outcome": "taz_integration_accepted_deferred_suitability_work_recorded",
+  "art_director_last_checked_source": "fad9718fc58313eb98e262517e53f43c955631ff",
+  "art_director_last_outcome": "no_new_publication_visual_changes_fixture_recovery_accepted",
   "handoff_files": [
     "office/handoffs/01-Website-and-Editing-Handoff.md",
     "office/handoffs/02-Content-and-Imagery-Handoff.md",
@@ -187,11 +187,14 @@
     "independent_failure_recovery_verified": false,
     "run_now_execution_mode": "inline_current_conversation",
     "runtime_pr": 151,
-    "remaining_dependency": "Later independent recurring run must process recovery fixture, then unchanged run must suppress output.",
+    "remaining_dependency": "Operations readback of this scheduled recovery; later unchanged scheduled run must demonstrate quiet suppression.",
     "fixture_revision": 2,
-    "fixture_status": "pending_independent_recovery_after_durable_inline_failure_readback",
+    "fixture_status": "independent_recovery_visual_review_completed_awaiting_coordinator_readback",
     "inline_recovery_review_verified": true,
-    "inline_recovery_evidence": "office/worker-acceptance/art-director/inline-recovery-review.json"
+    "inline_recovery_evidence": "office/worker-acceptance/art-director/inline-recovery-review.json",
+    "independent_recovery_visual_review_verified": true,
+    "recovery_result": "office/worker-acceptance/art-director/result.json",
+    "recovery_input_sha256": "450746b53c55c588ccd483d8bb9c6722e1392d96dc38ec9f2073f2a3847c1b0f"
   },
   "taz_second_photo_acceptance": {
     "source_revision": "176181ae86e456f7bd369a7f3085c4df65599b8a",

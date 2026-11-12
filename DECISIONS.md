@@ -259,4 +259,3 @@ PR166 merged at ce296db48b5fccbe83f9dd9c77e151cba31931de; Pages43136599967 succe
 Live queue-to-reader navigation and 390/768/1280 frames inspected: image loaded with contain in all three, effective widths375/753/1265 and no horizontal overflow. Phone typography/caption and tablet/desktop framing viewed.234 Python tests/eight JS suites pass, including current-edit/stale-review/failure coverage. These controlled edit tests are not authenticated browser saves or physical-device acceptance. Active existing Draft Production prompt now requires draft_branch in its queue entry; no schedule or authority expansion.
 
 PR163 remains open and unpublished; original twelve launch packets/eight approvals unchanged. Independent scheduled Draft Production, Art recovery/quiet repeat and authenticated Studio/two-device acceptance remain open. No additional spending.
-

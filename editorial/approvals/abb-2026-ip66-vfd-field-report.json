@@ -8,8 +8,8 @@
   "publisher_name": "Chris Fogarty",
   "approved_at_utc": "2026-11-12T10:42:58Z",
   "publisher_attestation": "I explicitly authorize publication of this article.",
-  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/abb-2026-ip66-vfd-field-report-review.md and ai-expert-abb-2026-ip66-vfd-field-report.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed.",
+  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/abb-2026-ip66-vfd-field-report-review.md and ai-expert-abb-2026-ip66-vfd-field-report.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed. Revised 2026-11-12; founder approves by merging the fix pull request. Revised 2026-11-12; founder approves by merging the fix pull request.",
   "media_rights_evidence": "Lead and inline media are Big Fan Guys field photographs owned by the founder or original HVLS 360 illustrations; see editorial/media/article-images.json and provenance files.",
-  "article_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+  "article_sha256": "5082d227061a78b2f0cf9af14d8b1d6f0339d95f09daec176980dce01243dd7d",
   "release_inputs_sha256": "ec2f953e4b7b2f479dabe175569b10b1ea6e79f0a868c054759345012da9f904"
 }

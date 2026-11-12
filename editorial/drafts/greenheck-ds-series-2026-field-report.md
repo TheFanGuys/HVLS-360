@@ -17,39 +17,39 @@ seo_description: "Examine Greenheck DS fan documentation, shipping-date manual d
 
 # Greenheck's Redesigned DS-3 and DS-6: What Changes on an HVLS Job
 
-Greenheck's current DS product pages divide installation manuals by shipping date: before January 1, 2026, and the current configuration [3][4]. Get that date into the service record. The DS fan already on a warehouse ceiling may need different instructions from the redesigned DS-3 or DS-6 on the next order.
+Greenheck now splits its DS installation manuals by ship date: before January 1, 2026, and everything after [3][4]. Write that date in the service record. The DS already hanging in a warehouse may need a different manual from the redesigned DS-3 or DS-6 on your next order.
 
-Greenheck announced the redesign in December 2025 [1][2]. Its installation and controls changes deserve closer attention than the headline airflow figures when a contractor is pricing the work.
+Greenheck announced the redesign in December 2025 [1][2]. For a contractor pricing the work, the install and controls changes matter more than the airflow headline.
 
 ## Start with the manual number
 
-Both product pages list **Model DS #487917 IOM** separately from **Model DS #483568 IOM**, marked **“Shipped prior to 1/1/26.”** The older **DS-QD supplement and VFD wiring #483972** is also identified for fans shipped before that date [3][4].
+Both product pages list Model DS #487917 IOM separately from Model DS #483568 IOM, which is marked "Shipped prior to 1/1/26." The older DS-QD supplement and VFD wiring document, #483972, is also marked for fans shipped before that date [3][4].
 
-Record the full model and serial information, then obtain the applicable installation manual and the supplied controller's instructions. Greenheck lists separate 4-speed, multispeed, keypad and touchscreen manuals. A new controller diagram should not be assumed to match an earlier fan merely because both carry the DS name. The published cutoff identifies document applicability; it does not prove that every component changed that day.
+Get the full model and serial number, then pull the matching install manual and the manual for the controller that shipped with it. Greenheck has separate manuals for its 4-speed, multispeed, keypad and touchscreen controls. Don't wire an older fan off a new controller diagram just because both say DS. The cutoff date tells you which document applies. It doesn't tell you every part changed that day.
 
-## Check what is already assembled
+## See what shows up already assembled
 
-The redesign announcement describes a factory-assembled power pack, plug-and-play wiring, a field-adjustable extension tube, and automated commissioning and diagnostic modes [1]. Greenheck says the changes can cut installation time in half. The public announcement provides no field-study sample, baseline crew size or site conditions for that claim.
+Greenheck says the redesign brings a factory-assembled power pack, plug-and-play wiring, a field-adjustable extension tube, and automatic commissioning and diagnostic modes [1]. It also says the changes can cut install time in half. The announcement doesn't say how many jobs, what crew size or what site conditions that figure came from.
 
-For an estimate, compare the supplied instructions with the building. Identify which connections arrive terminated, what the crew must supply and wire, and whether the extension arrangement meets the approved mount and clearances. Keep Greenheck's labor claim attributed to the company rather than using it as the job's labor allowance.
+For your estimate, hold the shipped instructions up against the building. Figure out which connections arrive done, what your crew supplies and wires, and whether the extension tube setup meets the approved mount and clearances. The half-time claim is Greenheck's. Don't bid labor off it.
 
-## Compare the ordered sizes
+## Compare the sizes you're actually ordering
 
-DS-3 uses three blades; DS-6 uses six. Both current U.S. ranges list **8- through 24-foot diameters**. Published maximum airflow is **209,800 cfm for DS-3** and **281,700 cfm for DS-6** [3][4]. Those are range maxima, not measurements for two equal-diameter fans running at the same speed. A 16-foot comparison needs the tables for the two 16-foot configurations.
+The DS-3 has three blades and the DS-6 has six. Both come in 8- to 24-foot diameters in the U.S. Greenheck lists maximum airflow of 209,800 cfm for the DS-3 and 281,700 cfm for the DS-6 [3][4]. Those are the top of each range, not two same-size fans at the same speed. To compare 16-footers, pull the tables for the two 16-foot configurations.
 
-Greenheck's advertised perceived cooling effects—up to **11°F for DS-3** and **15°F for DS-6**—also need their test conditions [3][4]. These are manufacturer claims. They do not mean the building's dry-bulb temperature drops by those amounts.
+Greenheck also advertises a perceived cooling effect of up to 11°F for the DS-3 and 15°F for the DS-6 [3][4]. Those are manufacturer claims, so ask for the test conditions behind them. The building's actual temperature doesn't drop that much.
 
-The company says CFEI can be up to **83% above minimum DOE requirements** [1]. At the November 2026 source check, the federal rule listed **1.00 at high speed** and **1.31 at 40% speed or the nearest higher available speed** for covered large-diameter ceiling fans [5][6]. Compare the exact model's declared rating at the corresponding operating point. A percentage above a minimum is not a competitor ranking or a prediction of comfort at the work floor.
+The company says CFEI can run up to 83% above DOE's minimum [1]. When we checked the federal rule in November 2026, the minimum for covered large-diameter fans was 1.00 at high speed and 1.31 at 40% speed, or the nearest higher available speed [5][6]. Compare the exact model's declared rating at the matching speed. "Percent above minimum" doesn't rank it against other brands or predict comfort on the floor.
 
-## Specify the controller and its sequence
+## Nail down the controller and how it behaves
 
-The announcement lists Modbus RTU, BACnet MS/TP and 0–10 VDC integrations [1]. The submittal needs to show which option the purchased package supports, whether other hardware is required, and how stop, power loss, restart and any required fire-system interface will work.
+The announcement lists Modbus RTU, BACnet MS/TP and 0–10 VDC [1]. The submittal should say which one the package you're buying supports, whether it needs extra hardware, and what happens on stop, power loss and restart, plus any fire-alarm shutdown.
 
-Commissioning access, wiring, shielding, termination and addressing belong in that review. A list of protocol names leaves too much unresolved for the electrician and integrator.
+Commissioning access, wiring, shielding, termination and addressing all belong in that same review. A list of protocol names leaves too much for the electrician and the integrator to guess.
 
-Greenheck also describes **IP66 protection**, a maximum operating temperature of **130°F (55°C)** and indoor/outdoor mounting options [1][3][4]. Verify those conditions for the exact assembly and check separate controllers, connectors and field terminations. Do not carry one component's rating across the installation.
+Greenheck also lists IP66 protection, a top operating temperature of 130°F (55°C), and indoor and outdoor mounting [1][3][4]. Check those against the exact assembly, and check separate controllers, connectors and field terminations on their own. One part's rating doesn't cover the whole install.
 
-Before assigning labor, settle the structural attachment, suspension, clearances, supply, controller and required interlocks. Retain the manufacturer's commissioning results and as-left settings with the correct manual. That record will be useful when the next service call concerns the older fan beside the new one.
+Settle the structural attachment, suspension, clearances, power supply, controller and interlocks before you assign labor. Keep the commissioning results and as-left settings with the right manual. You'll want them on the next service call for the older fan hanging next to the new one.
 
 ### Sources
 

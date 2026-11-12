@@ -8,8 +8,8 @@
   "publisher_name": "Chris Fogarty",
   "approved_at_utc": "2026-11-12T10:42:58Z",
   "publisher_attestation": "I explicitly authorize publication of this article.",
-  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/scissor-lift-planning-hvls-installations-review.md and ai-expert-scissor-lift-planning-hvls-installations.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed.",
+  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/scissor-lift-planning-hvls-installations-review.md and ai-expert-scissor-lift-planning-hvls-installations.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed. Revised 2026-11-12; founder approves by merging the fix pull request.",
   "media_rights_evidence": "Lead and inline media are Big Fan Guys field photographs owned by the founder or original HVLS 360 illustrations; see editorial/media/article-images.json and provenance files.",
-  "article_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+  "article_sha256": "28abfa805ab6a5a7410b75b53df0a01608b8212bbe74a74b9976f782497a936a",
   "release_inputs_sha256": "8012afb023faf2c9330eea94ac623942e16eafce137245063d0ceb934abd0999"
 }

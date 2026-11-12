@@ -8,8 +8,8 @@
   "publisher_name": "Chris Fogarty",
   "approved_at_utc": "2026-11-12T10:42:58Z",
   "publisher_attestation": "I explicitly authorize publication of this article.",
-  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/vividair-taz-72-field-guide-review.md and ai-expert-vividair-taz-72-field-guide.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed. Revised 2026-11-12 at founder's request to remove leftover internal draft wording; no technical claims changed. Revised 2026-11-12; founder approves by merging the fix pull request. Revised 2026-11-12; founder approves by merging the fix pull request.",
+  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/vividair-taz-72-field-guide-review.md and ai-expert-vividair-taz-72-field-guide.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed. Revised 2026-11-12 at founder's request to remove leftover internal draft wording; no technical claims changed. Revised 2026-11-12; founder approves by merging the fix pull request. Revised 2026-11-12; founder approves by merging the fix pull request. Revised 2026-11-12; founder approves by merging the fix pull request.",
   "media_rights_evidence": "Lead and inline media are Big Fan Guys field photographs owned by the founder or original HVLS 360 illustrations; see editorial/media/article-images.json and provenance files.",
-  "article_sha256": "ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29",
+  "article_sha256": "93f5730c26c051cf1e37756a1a3bccf00e7ce7b94da4fcd2d64dd4c932d3b887",
   "release_inputs_sha256": "636b39d2e2e5020153d923da4d5a87cd914586ea4e55b7085cc41147ae5753c9"
 }

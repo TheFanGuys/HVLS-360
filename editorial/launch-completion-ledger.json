@@ -96,13 +96,13 @@
       "field_relevance": "Separate occupied-zone air mixing and comfort from outdoor-air exchange before writing a facility specification.",
       "manuscript": {
         "file": "editorial/drafts/hvls-air-movement-vs-ventilation.md",
-        "sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+        "sha256": "2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da",
         "git_blob": "e0d72e2c15c20f49803d63068c0b924e11873f78",
         "body_word_count": 662
       },
       "sources_and_claim_checks": {
         "review_file": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
-        "review_sha256": "1808103d8d0fec9ace90083581b249ed6c16da5da53a9d9c2d31f7950ee6328d",
+        "review_sha256": "2bef36b094f06f91da70f697dad247b7df8c418e7487cb5cd1fb18164e0aa781",
         "primary_source_urls": [
           "https://learn.bigassfans.com/design-guide",
           "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-saving-energy-home-summer-edition",
@@ -128,10 +128,10 @@
       },
       "voice": {
         "file": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
-        "manuscript_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+        "manuscript_sha256": "2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da",
         "matching_revision_record_present": true,
         "record_excerpts": [
-          "Chris reported opening the article on iPhone, editing through GitHub, tapping Commit changes, then reopening the same article in Review Studio and seeing the changed wording. Repository commits c170cbb and 84c39bf independently confirm the manuscript changes. Current blob e0d72e2c15c20f49803d63068c0b924e11873f78; SHA-256 `6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b`. This verifies the GitHub editor commit → same-iPhone Studio reopen path from user observation plus repository evidence. It does not verify Studio's token-based Save button, another physical device, or a founder editorial approval."
+          "Chris reported opening the article on iPhone, editing through GitHub, tapping Commit changes, then reopening the same article in Review Studio and seeing the changed wording. Repository commits c170cbb and 84c39bf independently confirm the manuscript changes. Current blob e0d72e2c15c20f49803d63068c0b924e11873f78; SHA-256 `2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da`. This verifies the GitHub editor commit → same-iPhone Studio reopen path from user observation plus repository evidence. It does not verify Studio's token-based Save button, another physical device, or a founder editorial approval."
         ],
         "editor": "Editorial Director role performed by assistant; not a human independent attestation"
       },
@@ -182,7 +182,7 @@
       "founder_text_decision": {
         "status": "approved_exact_revision",
         "approval_register_file": "editorial/founder-approval-register.json",
-        "approved_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+        "approved_sha256": "2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da",
         "request_repeat_approval": false
       },
       "delivery": {
@@ -204,13 +204,13 @@
       "field_relevance": "Prevent enclosure ratings and new drive marketing from being mistaken for approval of an HVLS retrofit; identify the motor, OEM controls and environment.",
       "manuscript": {
         "file": "editorial/drafts/abb-2026-ip66-vfd-field-report.md",
-        "sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+        "sha256": "5082d227061a78b2f0cf9af14d8b1d6f0339d95f09daec176980dce01243dd7d",
         "git_blob": "39f89364c20c005328e7512104d1ff0409249a2d",
         "body_word_count": 657
       },
       "sources_and_claim_checks": {
         "review_file": "editorial/reviews/abb-2026-ip66-vfd-field-report-review.md",
-        "review_sha256": "81e40135fbc14b3f80229c19781ac94a3455dca8261ae8ceeb8c1f0677160f07",
+        "review_sha256": "89b07d5c7d82a99605d7a64b9925c2a3f0ed9e2d93d6ae7b0ea37d8cdc005b17",
         "primary_source_urls": [
           "https://new.abb.com/news/detail/136092/abb-expands-portfolio-with-new-ip66-type-4x-drives-for-demanding-environments",
           "https://new.abb.com/us/us-motion-business-area/drives-products/ach5804X",
@@ -236,10 +236,10 @@
       },
       "voice": {
         "file": "editorial/reviews/abb-2026-ip66-vfd-field-report-review.md",
-        "manuscript_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+        "manuscript_sha256": "5082d227061a78b2f0cf9af14d8b1d6f0339d95f09daec176980dce01243dd7d",
         "matching_revision_record_present": true,
         "record_excerpts": [
-          "Voice pass revision record: 55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+          "Voice pass revision record: 5082d227061a78b2f0cf9af14d8b1d6f0339d95f09daec176980dce01243dd7d (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
         ],
         "editor": "Editorial Director role performed by assistant; not a human independent attestation"
       },
@@ -290,7 +290,7 @@
       "founder_text_decision": {
         "status": "approved_exact_revision",
         "approval_register_file": "editorial/founder-approval-register.json",
-        "approved_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+        "approved_sha256": "5082d227061a78b2f0cf9af14d8b1d6f0339d95f09daec176980dce01243dd7d",
         "request_repeat_approval": false
       },
       "delivery": {
@@ -312,13 +312,13 @@
       "field_relevance": "Require comparable operating points and traceable ratings when evaluating fan submittals instead of treating airflow per watt as CFEI.",
       "manuscript": {
         "file": "editorial/drafts/cfei-vs-cfm-per-watt-field-guide.md",
-        "sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+        "sha256": "8ab811ff0ea6474ae3d70f1daf104911103e6f194c744f021953d4c9aaf179d3",
         "git_blob": "f6f44273189a16a8ab5b3fd52660d637d5bab776",
         "body_word_count": 890
       },
       "sources_and_claim_checks": {
         "review_file": "editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md",
-        "review_sha256": "e07a08e05ce72e682e0f2cc7319e45026bb411fe5af273667787d557174913bf",
+        "review_sha256": "45ae555c3510a56cfd57d59feb093e1562425ed02096fb6183b0c66044e106ec",
         "primary_source_urls": [
           "https://www.amca.org/educate/articles-and-technical-papers/amca-inmotion-articles/introducing-ceiling-fan-energy-index-cfei.html",
           "https://www.amca.org/amca-members-area/member-tool-kit/ceiling-fan-energy-index.html",
@@ -358,10 +358,10 @@
       },
       "voice": {
         "file": "editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md",
-        "manuscript_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+        "manuscript_sha256": "8ab811ff0ea6474ae3d70f1daf104911103e6f194c744f021953d4c9aaf179d3",
         "matching_revision_record_present": true,
         "record_excerpts": [
-          "Voice pass revision record: 2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+          "Voice pass revision record: 8ab811ff0ea6474ae3d70f1daf104911103e6f194c744f021953d4c9aaf179d3 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
         ],
         "editor": "Editorial Director role performed by assistant; not a human independent attestation"
       },
@@ -413,7 +413,7 @@
       "founder_text_decision": {
         "status": "approved_exact_revision",
         "approval_register_file": "editorial/founder-approval-register.json",
-        "approved_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+        "approved_sha256": "8ab811ff0ea6474ae3d70f1daf104911103e6f194c744f021953d4c9aaf179d3",
         "request_repeat_approval": false
       },
       "delivery": {
@@ -435,13 +435,13 @@
       "field_relevance": "Match shipping generation, mounting information and controls package to the DS fan being quoted or installed.",
       "manuscript": {
         "file": "editorial/drafts/greenheck-ds-series-2026-field-report.md",
-        "sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+        "sha256": "afb5e9f6902d47d16207fce389d5dccf7023d855706c9ed11b6140dac5e8a635",
         "git_blob": "45e2e7bf69dba8edd3289239ff79ffe62cacbfd5",
         "body_word_count": 796
       },
       "sources_and_claim_checks": {
         "review_file": "editorial/reviews/greenheck-ds-series-2026-field-report-review.md",
-        "review_sha256": "fc2b746767b3908f600b0684b186fbe4365a99e71f5d12c4b93bf85a0b116c6e",
+        "review_sha256": "1c6debe5af2689e9f9ec507184b66d3ac5808171149cb93ea72719e4ce0407be",
         "primary_source_urls": [
           "https://www.greenheck.com/about-us/news/2025/12/31/greenheck-redesigns-hvls-overhead-fans",
           "https://www.greenheck.com/products/fans/overhead-hvls/ds-3",
@@ -472,10 +472,10 @@
       },
       "voice": {
         "file": "editorial/reviews/greenheck-ds-series-2026-field-report-review.md",
-        "manuscript_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+        "manuscript_sha256": "afb5e9f6902d47d16207fce389d5dccf7023d855706c9ed11b6140dac5e8a635",
         "matching_revision_record_present": true,
         "record_excerpts": [
-          "Voice pass revision record: 9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+          "Voice pass revision record: afb5e9f6902d47d16207fce389d5dccf7023d855706c9ed11b6140dac5e8a635 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
         ],
         "editor": "Editorial Director role performed by assistant; not a human independent attestation"
       },
@@ -526,7 +526,7 @@
       "founder_text_decision": {
         "status": "approved_exact_revision",
         "approval_register_file": "editorial/founder-approval-register.json",
-        "approved_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+        "approved_sha256": "afb5e9f6902d47d16207fce389d5dccf7023d855706c9ed11b6140dac5e8a635",
         "request_repeat_approval": false
       },
       "delivery": {
@@ -548,13 +548,13 @@
       "field_relevance": "Plan supply variant, structural attachment, controls and shutdown coordination from the applicable Powerfoil 6 manual.",
       "manuscript": {
         "file": "editorial/drafts/powerfoil6-field-brief.md",
-        "sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+        "sha256": "82696db6689f995127015eb3a08aac9f27e43289f35b8ad6709dad4f65e53301",
         "git_blob": "8fe289ff0c787de344609638bfd1a672a25138fd",
         "body_word_count": 613
       },
       "sources_and_claim_checks": {
         "review_file": "editorial/reviews/powerfoil6-field-brief-review.md",
-        "review_sha256": "638845c13ea244efb2f18a673a9acd5cda2c5d6ff32a830508819964380e765a",
+        "review_sha256": "e2f9d5f2444b0bf5fa3a057fa480da0627b1ea75129af596d2e587397b8bbeb3",
         "primary_source_urls": [
           "https://bigassfans.com/powerfoil-6-hvls-fan/",
           "https://bigassfans.widen.net/view/pdf/7t3u2vurlm/powerfoil6-install-guide.pdf"
@@ -574,10 +574,10 @@
       },
       "voice": {
         "file": "editorial/reviews/powerfoil6-field-brief-review.md",
-        "manuscript_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+        "manuscript_sha256": "82696db6689f995127015eb3a08aac9f27e43289f35b8ad6709dad4f65e53301",
         "matching_revision_record_present": true,
         "record_excerpts": [
-          "Voice pass revision record: c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+          "Voice pass revision record: 82696db6689f995127015eb3a08aac9f27e43289f35b8ad6709dad4f65e53301 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
         ],
         "editor": "Editorial Director role performed by assistant; not a human independent attestation"
       },
@@ -628,7 +628,7 @@
       "founder_text_decision": {
         "status": "approved_exact_revision",
         "approval_register_file": "editorial/founder-approval-register.json",
-        "approved_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+        "approved_sha256": "82696db6689f995127015eb3a08aac9f27e43289f35b8ad6709dad4f65e53301",
         "request_repeat_approval": false
       },
       "delivery": {
@@ -650,13 +650,13 @@
       "field_relevance": "Check access route, platform loading, work position and component-handling sequence before renting a lift.",
       "manuscript": {
         "file": "editorial/drafts/scissor-lift-planning-hvls-installations.md",
-        "sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+        "sha256": "28abfa805ab6a5a7410b75b53df0a01608b8212bbe74a74b9976f782497a936a",
         "git_blob": "7b564de60688042ee3974436cb9e14a0d54eab31",
         "body_word_count": 600
       },
       "sources_and_claim_checks": {
         "review_file": "editorial/reviews/scissor-lift-planning-hvls-installations-review.md",
-        "review_sha256": "f221524576b9beacf77060730477d0544c749ddc1b674cabe7521bc1514c39a4",
+        "review_sha256": "c5ea84546dda717f1d667f0aaabdd690dfebfd46deeeb5450d3ad4a34938f66d",
         "primary_source_urls": [
           "https://www.osha.gov/sites/default/files/publications/OSHA3842.pdf"
         ],
@@ -671,10 +671,10 @@
       },
       "voice": {
         "file": "editorial/reviews/scissor-lift-planning-hvls-installations-review.md",
-        "manuscript_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+        "manuscript_sha256": "28abfa805ab6a5a7410b75b53df0a01608b8212bbe74a74b9976f782497a936a",
         "matching_revision_record_present": true,
         "record_excerpts": [
-          "Voice pass revision record: 582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+          "Voice pass revision record: 28abfa805ab6a5a7410b75b53df0a01608b8212bbe74a74b9976f782497a936a (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
         ],
         "editor": "Editorial Director role performed by assistant; not a human independent attestation"
       },
@@ -725,7 +725,7 @@
       "founder_text_decision": {
         "status": "approved_exact_revision",
         "approval_register_file": "editorial/founder-approval-register.json",
-        "approved_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+        "approved_sha256": "28abfa805ab6a5a7410b75b53df0a01608b8212bbe74a74b9976f782497a936a",
         "request_repeat_approval": false
       },
       "delivery": {
@@ -747,13 +747,13 @@
       "field_relevance": "Identify installed hardware and product generation before assuming a keypad, motor, drive or legacy controller is interchangeable.",
       "manuscript": {
         "file": "editorial/drafts/vividair-gfy-ztech-taz-controls-field-guide.md",
-        "sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+        "sha256": "74442072858c0b64436f22844cdc87de8e304b5092eca92e37b759afd55ef3a1",
         "git_blob": "5ccfd5784d9d1aabae314f111535fab926099d3f",
         "body_word_count": 664
       },
       "sources_and_claim_checks": {
         "review_file": "editorial/reviews/vividair-gfy-ztech-taz-controls-field-guide-review.md",
-        "review_sha256": "76893e0e7ef2aef7e70a8b97c64ab303baf91aec9fc84b48c3842df8e3a98528",
+        "review_sha256": "2adf5ac4f8946406bd50ffdee07c3dfee424615d3b111c97c1a9746c29aa78e3",
         "primary_source_urls": [
           "https://vividairmovement.com/product/taz/",
           "https://vividairmovement.com/product/z-tech/",
@@ -774,10 +774,10 @@
       },
       "voice": {
         "file": "editorial/reviews/vividair-gfy-ztech-taz-controls-field-guide-review.md",
-        "manuscript_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+        "manuscript_sha256": "74442072858c0b64436f22844cdc87de8e304b5092eca92e37b759afd55ef3a1",
         "matching_revision_record_present": true,
         "record_excerpts": [
-          "Voice pass revision record: 6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+          "Voice pass revision record: 74442072858c0b64436f22844cdc87de8e304b5092eca92e37b759afd55ef3a1 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
         ],
         "editor": "Editorial Director role performed by assistant; not a human independent attestation"
       },
@@ -828,7 +828,7 @@
       "founder_text_decision": {
         "status": "approved_exact_revision",
         "approval_register_file": "editorial/founder-approval-register.json",
-        "approved_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+        "approved_sha256": "74442072858c0b64436f22844cdc87de8e304b5092eca92e37b759afd55ef3a1",
         "request_repeat_approval": false
       },
       "delivery": {
@@ -850,13 +850,13 @@
       "field_relevance": "Distinguish directional aisle airflow from broad ceiling-fan circulation; resolve product-guide naming against the actual equipment.",
       "manuscript": {
         "file": "editorial/drafts/vividair-taz-72-field-guide.md",
-        "sha256": "ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29",
+        "sha256": "93f5730c26c051cf1e37756a1a3bccf00e7ce7b94da4fcd2d64dd4c932d3b887",
         "git_blob": "d3161b34d449851eea679e7deb4c096498c48af0",
         "body_word_count": 695
       },
       "sources_and_claim_checks": {
         "review_file": "editorial/reviews/vividair-taz-72-field-guide-review.md",
-        "review_sha256": "24e13b62078351abd26e9cc07c3667bd897e8b4a8ec65559799c38d4120ed635",
+        "review_sha256": "fe975b03140f79d4bc7d76e168dc079d360828d1ec888a7e9ad7d41caf64addf",
         "primary_source_urls": [
           "https://vividairmovement.com/product/taz/",
           "https://vividairmovement.com/wp-content/uploads/2023/01/TAZ_Installation_and_Technical_Operations_Guide_1.2023.pdf"
@@ -875,10 +875,10 @@
       },
       "voice": {
         "file": "editorial/reviews/vividair-taz-72-field-guide-review.md",
-        "manuscript_sha256": "ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29",
+        "manuscript_sha256": "93f5730c26c051cf1e37756a1a3bccf00e7ce7b94da4fcd2d64dd4c932d3b887",
         "matching_revision_record_present": true,
         "record_excerpts": [
-          "Voice pass revision record: ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+          "Voice pass revision record: 93f5730c26c051cf1e37756a1a3bccf00e7ce7b94da4fcd2d64dd4c932d3b887 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
         ],
         "editor": "Editorial Director role performed by assistant; not a human independent attestation"
       },
@@ -972,7 +972,7 @@
       "founder_text_decision": {
         "status": "approved_exact_revision",
         "approval_register_file": "editorial/founder-approval-register.json",
-        "approved_sha256": "ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29",
+        "approved_sha256": "93f5730c26c051cf1e37756a1a3bccf00e7ce7b94da4fcd2d64dd4c932d3b887",
         "request_repeat_approval": false
       },
       "delivery": {

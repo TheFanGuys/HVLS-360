@@ -50,12 +50,12 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 - Publisher approval not requested.
 
 
-Voice pass revision record: 6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+Voice pass revision record: 74442072858c0b64436f22844cdc87de8e304b5092eca92e37b759afd55ef3a1 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
 
 
 ## Current launch reconciliation — November 11, 2026
 
-Exact manuscript SHA-256: `6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+Exact manuscript SHA-256: `74442072858c0b64436f22844cdc87de8e304b5092eca92e37b759afd55ef3a1`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
 
 Technical disposition: **documentary review complete for current scope** — Manufacturer generation/documentation comparison; no interchangeability determination. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `vividair-gfy-ztech-taz-controls-field-guide`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
 

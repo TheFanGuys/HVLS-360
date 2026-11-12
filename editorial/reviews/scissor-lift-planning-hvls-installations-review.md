@@ -31,12 +31,12 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 - **Publisher approval:** Not requested.
 
 
-Voice pass revision record: 582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+Voice pass revision record: 28abfa805ab6a5a7410b75b53df0a01608b8212bbe74a74b9976f782497a936a (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
 
 
 ## Current launch reconciliation — November 11, 2026
 
-Exact manuscript SHA-256: `582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+Exact manuscript SHA-256: `28abfa805ab6a5a7410b75b53df0a01608b8212bbe74a74b9976f782497a936a`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
 
 Technical disposition: **documentary review complete for current scope** — OSHA-informed access survey and planning; no selected-machine approval. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `scissor-lift-planning-hvls-installations`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
 

@@ -8,7 +8,7 @@
     {
       "issue": 84,
       "slug": "hvls-air-movement-vs-ventilation",
-      "input_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+      "input_sha256": "2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da",
       "artifact_bindings_current": true,
       "research_to_draft_automatic_lineage_verified": false,
       "research_evidence": {
@@ -54,7 +54,7 @@
     {
       "issue": 85,
       "slug": "abb-2026-ip66-vfd-field-report",
-      "input_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+      "input_sha256": "5082d227061a78b2f0cf9af14d8b1d6f0339d95f09daec176980dce01243dd7d",
       "artifact_bindings_current": true,
       "research_to_draft_automatic_lineage_verified": false,
       "research_evidence": {
@@ -99,7 +99,7 @@
     {
       "issue": 86,
       "slug": "cfei-vs-cfm-per-watt-field-guide",
-      "input_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+      "input_sha256": "8ab811ff0ea6474ae3d70f1daf104911103e6f194c744f021953d4c9aaf179d3",
       "artifact_bindings_current": true,
       "research_to_draft_automatic_lineage_verified": false,
       "research_evidence": {
@@ -150,7 +150,7 @@
     {
       "issue": 87,
       "slug": "greenheck-ds-series-2026-field-report",
-      "input_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+      "input_sha256": "afb5e9f6902d47d16207fce389d5dccf7023d855706c9ed11b6140dac5e8a635",
       "artifact_bindings_current": true,
       "research_to_draft_automatic_lineage_verified": false,
       "research_evidence": {
@@ -196,7 +196,7 @@
     {
       "issue": 88,
       "slug": "powerfoil6-field-brief",
-      "input_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+      "input_sha256": "82696db6689f995127015eb3a08aac9f27e43289f35b8ad6709dad4f65e53301",
       "artifact_bindings_current": true,
       "research_to_draft_automatic_lineage_verified": false,
       "research_evidence": {
@@ -239,7 +239,7 @@
     {
       "issue": 89,
       "slug": "scissor-lift-planning-hvls-installations",
-      "input_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+      "input_sha256": "28abfa805ab6a5a7410b75b53df0a01608b8212bbe74a74b9976f782497a936a",
       "artifact_bindings_current": true,
       "research_to_draft_automatic_lineage_verified": false,
       "research_evidence": {
@@ -281,7 +281,7 @@
     {
       "issue": 90,
       "slug": "vividair-gfy-ztech-taz-controls-field-guide",
-      "input_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+      "input_sha256": "74442072858c0b64436f22844cdc87de8e304b5092eca92e37b759afd55ef3a1",
       "artifact_bindings_current": true,
       "research_to_draft_automatic_lineage_verified": false,
       "research_evidence": {
@@ -326,7 +326,7 @@
     {
       "issue": 91,
       "slug": "vividair-taz-72-field-guide",
-      "input_sha256": "ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29",
+      "input_sha256": "93f5730c26c051cf1e37756a1a3bccf00e7ce7b94da4fcd2d64dd4c932d3b887",
       "artifact_bindings_current": true,
       "research_to_draft_automatic_lineage_verified": false,
       "research_evidence": {

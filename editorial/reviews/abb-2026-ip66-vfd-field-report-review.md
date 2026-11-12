@@ -41,12 +41,12 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 - Final subject-matter review must confirm configuration +B063, ambient derating, UL Type 4X wording, AHJ and OEM implications before this article can proceed to publisher approval.
 
 
-Voice pass revision record: 55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+Voice pass revision record: 5082d227061a78b2f0cf9af14d8b1d6f0339d95f09daec176980dce01243dd7d (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
 
 
 ## Current launch reconciliation — November 11, 2026
 
-Exact manuscript SHA-256: `55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+Exact manuscript SHA-256: `5082d227061a78b2f0cf9af14d8b1d6f0339d95f09daec176980dce01243dd7d`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
 
 Technical disposition: **documentary review complete for current scope** — Manufacturer product announcement and exact leaflet interpretation; no HVLS retrofit design. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `abb-2026-ip66-vfd-field-report`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
 

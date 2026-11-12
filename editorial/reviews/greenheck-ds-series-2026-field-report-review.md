@@ -50,12 +50,12 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 - Remove this internal section before final publisher review, even though the renderer suppresses it as a defense in depth.
 
 
-Voice pass revision record: 9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+Voice pass revision record: afb5e9f6902d47d16207fce389d5dccf7023d855706c9ed11b6140dac5e8a635 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
 
 
 ## Current launch reconciliation — November 11, 2026
 
-Exact manuscript SHA-256: `9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+Exact manuscript SHA-256: `afb5e9f6902d47d16207fce389d5dccf7023d855706c9ed11b6140dac5e8a635`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
 
 Technical disposition: **documentary review complete for current scope** — Dated redesign report and manufacturer document/claims interpretation. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `greenheck-ds-series-2026-field-report`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
 

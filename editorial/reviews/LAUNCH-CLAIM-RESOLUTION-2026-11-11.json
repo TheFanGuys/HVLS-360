@@ -73,7 +73,7 @@
         "Conceptual diagram source review is recorded in companion review and current composition review; this report does not claim a new visual or physical-site inspection."
       ],
       "primary_review_file": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
-      "draft_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+      "draft_sha256": "2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da",
       "disposition": "documentary_review_complete",
       "qualified_review_required": false,
       "residual_dependencies": []
@@ -118,7 +118,7 @@
         "Article explicitly limits numerical data to June 2026 variant. Differing US flyer is not evidence that these are universal series specifications. Current order availability is a procurement question; article makes no orderable-SKU promise."
       ],
       "primary_review_file": "editorial/reviews/abb-2026-ip66-vfd-field-report-review.md",
-      "draft_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+      "draft_sha256": "5082d227061a78b2f0cf9af14d8b1d6f0339d95f09daec176980dce01243dd7d",
       "disposition": "documentary_review_complete",
       "qualified_review_required": false,
       "residual_dependencies": []
@@ -176,7 +176,7 @@
         "Manuscript retains its truthful November 10 as-of statement; newer documentary recheck finds same cited thresholds."
       ],
       "primary_review_file": "editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md",
-      "draft_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+      "draft_sha256": "8ab811ff0ea6474ae3d70f1daf104911103e6f194c744f021953d4c9aaf179d3",
       "disposition": "documentary_review_complete",
       "qualified_review_required": false,
       "residual_dependencies": []
@@ -245,7 +245,7 @@
         "The source URL date is not an exact day demonstrated by the visible December-only announcement. Separate 11 F DS-3 claim rests on the November 10 recorded product check; no independent cooling test is claimed."
       ],
       "primary_review_file": "editorial/reviews/greenheck-ds-series-2026-field-report-review.md",
-      "draft_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+      "draft_sha256": "afb5e9f6902d47d16207fce389d5dccf7023d855706c9ed11b6140dac5e8a635",
       "disposition": "documentary_review_complete",
       "qualified_review_required": false,
       "residual_dependencies": []
@@ -290,7 +290,7 @@
         "600 V category is reported as manual content; no orderable SKU claim. Relay summary reports manufacturer behavior without prescribing a site circuit."
       ],
       "primary_review_file": "editorial/reviews/powerfoil6-field-brief-review.md",
-      "draft_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+      "draft_sha256": "82696db6689f995127015eb3a08aac9f27e43289f35b8ad6709dad4f65e53301",
       "disposition": "documentary_review_complete",
       "qualified_review_required": false,
       "residual_dependencies": []
@@ -323,7 +323,7 @@
         "Practical survey and estimating paragraphs are editorial planning analysis. Conceptual diagram is not a lifting plan."
       ],
       "primary_review_file": "editorial/reviews/scissor-lift-planning-hvls-installations-review.md",
-      "draft_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+      "draft_sha256": "28abfa805ab6a5a7410b75b53df0a01608b8212bbe74a74b9976f782497a936a",
       "disposition": "documentary_review_complete",
       "qualified_review_required": false,
       "residual_dependencies": []
@@ -382,7 +382,7 @@
         "No model is inferred from gallery category. Brand continuity is not a legal merger claim."
       ],
       "primary_review_file": "editorial/reviews/vividair-gfy-ztech-taz-controls-field-guide-review.md",
-      "draft_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+      "draft_sha256": "74442072858c0b64436f22844cdc87de8e304b5092eca92e37b759afd55ef3a1",
       "disposition": "documentary_review_complete",
       "qualified_review_required": false,
       "residual_dependencies": []
@@ -438,7 +438,7 @@
         "Unreadable photo nameplate is a disclosed reporting limit, not an invented identity confirmation. Manufacturer nomenclature clarification remains needed for future installation advice; no external outreach authorized. Retain no customer/location inference."
       ],
       "primary_review_file": "editorial/reviews/vividair-taz-72-field-guide-review.md",
-      "draft_sha256": "ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29",
+      "draft_sha256": "93f5730c26c051cf1e37756a1a3bccf00e7ce7b94da4fcd2d64dd4c932d3b887",
       "disposition": "documentary_review_complete",
       "qualified_review_required": false,
       "residual_dependencies": []

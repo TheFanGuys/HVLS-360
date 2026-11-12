@@ -47,3 +47,6 @@ Inspect the actual subject in every selected image before use. Record card and a
 ## Four-chat completion ownership — November 12
 
 Work is split into Website & Editing, Content & Imagery, Research-to-Publication Workflow, and Agent Operations, with handoffs under office/handoffs/. Each chat owns completion of its category, not just one microtask. Use isolated branches/PRs; fetch current shared files before updating them and preserve other categories’ entries. Record concrete remaining acceptance criteria rather than recycling rough completion percentages. Art Director owns routine imagery automatically where verified task execution permits; inspect the existing automation registry and actual run results instead of creating duplicate schedules or claiming unverified autonomous execution.
+
+## Product-story image relevance
+For a story about one manufacturer/product, verify the pictured manufacturer/product and editorial relevance separately from rights and crop quality. Do not use competing branded hardware as the lead/card merely because a caption calls it context. If no suitable authorized source is established, withhold imagery and record the media blocker; do not mark the package complete.

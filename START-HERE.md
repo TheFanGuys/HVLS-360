@@ -1,5 +1,12 @@
 ## Workflow current verified checkpoint
 
+## November 12 — issue96 image acceptance withdrawn
+
+Founder correctly challenged ABB-branded hardware under an Invertek E4 headline. The assistant made that selection; it was not a separately operating Art department approval. Accurate caption, authorized rights and complete-frame geometry did not establish editorial relevance. Selection withdrawn from the current reader and media proof; source originals preserved. Draft PR163 now marks media rejected and packet blocked at61d88cec2f0c25a7381e6534038d23fcad1513e6. Manuscript SHA256 aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e unchanged.
+
+No E4 replacement with verified identity and recorded rights has been selected from current collection. Art owns sourcing/rights and actual visual review; do not use a competitor's hardware as the lead/card of a single-brand product story. Reader keeps text accessible with image withheld; no false media-complete/founder-ready status. Earlier acceptance is historical and superseded.
+
+
 ## November 12 — produced article reader verified
 
 PR166 merged at ce296db48b5fccbe83f9dd9c77e151cba31931de; Pages43136599967 succeeded. Produced Drafts now opens a full on-site reader at office/produced-draft.html?issue=96. It reads the current production branch head once and loads all six package files at that immutable commit; edited wording or supporting records flag previous reviews as outdated. GitHub editor link targets production/issue-96. Current saved draft d2e42e39a948a87b615169276e6b6f35bf362aee and unchanged manuscript SHA256 aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e were actually rendered with its complete-frame ABB-context photo.

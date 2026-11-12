@@ -1,3 +1,6 @@
+## Agent Operations continuation
+Read office/DEPARTMENT-EXECUTION-CONTRACTS.md and the Art acceptance fixture. Observe existing task/current run before starting another; never infer visual capability from its schedule. Missing-input failure must be read back before advancing fixture recovery; no approved content changes for tests.
+
 ## Content continuation — November 11, 2026
 
 Use `editorial/launch-completion-ledger.json` and `editorial/LAUNCH-EDITION.md` for current finite twelve-piece content scope. Twelve documentary claim reviews are resolved; zero professional signoffs invented. Preserve original-eight exact approvals. Remaining: Website integrates selected TAZ second photo and records responsive acceptance; Chris makes first text decisions on four newer briefs. Do not repeat blanket qualified-review or original-eight text-approval requests from older checkpoints. Read current root records and board before acting.

@@ -14,7 +14,7 @@
     "source_opened": true,
     "tool": "view_image",
     "scope": "Complete landscape source viewed. Row of drives/keypads/disconnect handles and conduit visible; open junction boxes identify in-progress context. No prominent face/private paperwork. Preserve full row and conduit; no compliance or wiring inference.",
-    "responsive_status": "accepted",
+    "responsive_status": "withdrawn_editorial_mismatch",
     "responsive_evidence": {
       "checked_at_utc": "2026-11-12T01:31:32.410069+00:00",
       "proof_url": "https://thefanguys.github.io/HVLS-360/office/production-media-proof-96.html",
@@ -49,5 +49,11 @@
       "fit": "contain",
       "position": "50% 50%"
     }
-  }
+  },
+  "selection_status": "rejected",
+  "rejection_reason": "ABB-branded competing hardware is unsuitable as lead/card for this Invertek E4 product story; accurate contextual caption does not resolve editorial mismatch.",
+  "replacement_status": "blocked",
+  "remaining_blockers": [
+    "Art: obtain and visually verify a relevant Optidrive E4 image with recorded editorial rights. Do not substitute another manufacturer."
+  ]
 }

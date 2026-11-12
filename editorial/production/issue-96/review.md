@@ -18,3 +18,7 @@ Re-read final manuscript against this hash after structural drafting. Leads with
 
 ## Media
 Viewed authorized landscape IMG5669 source. Caption explicitly identifies visible ABB branding and says E4 is not pictured. Field context only; no invented model/customer/installation compliance. Actual deployed 390/768/1280 card/article frames were subsequently opened and visually inspected. All six images loaded with complete-source contain; row of drives/conduit and caption remain visible; no horizontal overflow. Exact rendering/source evidence is recorded in media.json. No physical iPhone test claimed.
+
+## Media correction — November 12
+
+Founder correctly challenged ABB hardware beneath an Invertek E4 headline. Prior composition/rights observations remain historical, but editorial media acceptance is withdrawn. Image selection rejected; no verified E4 source with recorded rights selected. Media replacement is blocked with Art. Manuscript/claim/voice hashes unchanged.

@@ -3,7 +3,7 @@
   "delivery_key": "production-issue-96",
   "assignment_issue": 96,
   "input_commit": "626b2f15ae55515da9aa264d7c97b55d08c69986",
-  "status": "founder_review",
+  "status": "blocked",
   "publication_allowed": false,
   "execution_mode": "hosted_task_run_now_inline_current_conversation",
   "independent_scheduled_run": false,
@@ -12,11 +12,13 @@
   "artifacts": {
     "manuscript.md": "aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e",
     "sources.json": "23fa3dddc1ab66913482c913eae54e3668db95438df6fd1bb3f57cf69e18c4db",
-    "review.md": "a629febcf4c516f4f65434192e26e28857d91c6eddcd6a2ca55a0ed31964c239",
-    "media.json": "aecd2b3095dcc5897f2b3b37a9e31e602ea4c5256d6ca6158b887eef59e4a4f9",
+    "review.md": "74facd6dcb9bb2eef1f5a338bd717402336ce698b4cd301df7bab689349d7c81",
+    "media.json": "86e7cacb9fa762da05eff473f78ec978f4995db67d41785df6b24bfc7dd8dc9b",
     "metadata.json": "4a81d2a0952811d638918fae43724b0345bd03dc2d3a57062bf9393ffd66f3bb"
   },
-  "remaining_blockers": [],
+  "remaining_blockers": [
+    "Art: obtain and visually verify a relevant Optidrive E4 image with recorded editorial rights. Do not substitute another manufacturer."
+  ],
   "founder_decision": "first_text_decision_pending",
   "release_authorization": false,
   "completed_at_utc": "2026-11-12T01:31:32.410069+00:00",
@@ -27,5 +29,6 @@
     "Authorized source hash matches selected derivative",
     "Actual390/768/1280 card/article frames visually inspected; six images loaded/no overflow",
     "Initial draft GitHub Research Desk Tests passed; final evidence-head check required"
-  ]
+  ],
+  "media_acceptance": "withdrawn_editorial_mismatch"
 }

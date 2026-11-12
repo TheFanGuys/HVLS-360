@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "fixture_id": "art-recurring-acceptance-01",
+  "revision": 1,
+  "enabled": true,
+  "owner": "Agent Operations Lead",
+  "label": "ACCEPTANCE FIXTURE ONLY \u2014 never article content",
+  "publication_allowed": false,
+  "source_path": "editorial/media/publisher/taz-72/taz-72-field-02.webp",
+  "source_sha256": "5e30eb8ee728ab53a4ff891fadd2b0da1c4dd2f8e0a0ca3bf6d9c9b473e9266b",
+  "proposed_caption": "Publisher-identified 72-inch TAZ fan and surrounding installation context. Acceptance fixture only.",
+  "card": {
+    "width": 390,
+    "height": 180,
+    "fit": "cover",
+    "position": "50% 100%"
+  },
+  "article": {
+    "width": 768,
+    "height": 500,
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "failure_probe": {
+    "path": "office/worker-acceptance/art-director/intentionally-absent.webp",
+    "expected": "missing_input_blocked",
+    "do_not_create_missing_file": true
+  },
+  "output_path": "office/worker-acceptance/art-director/result.json",
+  "status": "pending_independent_worker",
+  "required_evidence": [
+    "exact input digest and source SHA256",
+    "worker run id if exposed and actual UTC start/end",
+    "actual image inspection tool and visual observations",
+    "separate card/article decision at390/768/1280 widths",
+    "corrected fixture framing if warranted",
+    "missing-input blocker routed to board94 and issue106 without advancing success",
+    "retry once only after explicit recovery phase on later run",
+    "no-change run produces no repeated writes or notifications"
+  ],
+  "recovery_phase": "failure_probe_then_review",
+  "cancelled": false
+}

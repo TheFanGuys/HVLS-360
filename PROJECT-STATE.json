@@ -162,6 +162,21 @@
     "owner": "Content & Imagery Lead / Art Director",
     "changes_applied": false
   },
+  "agent_operations": {
+    "status": "acceptance_in_progress_not_complete",
+    "contracts": "office/DEPARTMENT-EXECUTION-CONTRACTS.md",
+    "fixture": "office/worker-acceptance/art-director/fixture.json",
+    "baseline_run_verified": true,
+    "latest_observed_run_id": "9c138082-3b48-8320-b62b-b1689e7e3eca",
+    "latest_observed_run_status": "in_progress_no_current_result",
+    "visual_capability_verified": false,
+    "changed_image_verified": false,
+    "failure_recovery_verified": false,
+    "no_change_suppression_verified": false,
+    "inherited_environments": null,
+    "extra_spend_usd": 0,
+    "remaining_owner": "Agent Operations Lead"
+  },
   "taz_second_photo_acceptance": {
     "source_revision": "176181ae86e456f7bd369a7f3085c4df65599b8a",
     "pr": 147,

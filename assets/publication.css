@@ -14,3 +14,4 @@ body{background:#f5f5f1;color:#172a39;font:16px/1.65 system-ui,-apple-system,Seg
 
 /* Full-source contextual photographs; separate from lead/card framing. */
 .article-context{margin:28px 0}.article-context img{display:block;max-width:100%;height:auto;object-fit:contain}.article-context figcaption{font-size:13px;line-height:1.5;color:#64747f;margin-top:10px}
+.bfg-cta{margin:40px 0 8px;padding:20px;background:#0b1620;color:#e8eef2;border-top:4px solid #f58220;display:grid;gap:12px}.bfg-cta p{margin:0;color:#d6e1e7;font-size:16px;line-height:1.5}.bfg-cta strong{color:#fff}.bfg-cta a{justify-self:start;background:#f58220;color:#14100b;font-weight:800;text-decoration:none;padding:11px 16px}

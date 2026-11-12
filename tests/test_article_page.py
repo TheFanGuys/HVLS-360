@@ -77,7 +77,7 @@ class ArticleReleaseTests(unittest.TestCase):
         self.approve()
         output=prepare(SLUG,self.root)
         page=output.read_text(encoding="utf-8")
-        self.assertIn("https://thefanguys.github.io/HVLS-360/articles/"+SLUG+"/",page)
+        self.assertIn("https://bigfanguys.com/hvls-360/articles/"+SLUG+"/",page)
         self.assertIn('property="og:type" content="article"',page)
         self.assertIn('"datePublished":"2026-11-10"',page)
         self.assertIn("&lt;script&gt;",page)

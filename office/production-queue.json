@@ -1,8 +1,28 @@
 {
   "schema_version": 1,
-  "purpose": "Unpublished production assignments outside the frozen twelve-piece launch edition. Links point to actual draft PRs; no queue entry itself approves publication.",
+  "purpose": "Unpublished production assignments outside the frozen twelve-piece launch edition. Review PRs do not approve publication.",
   "publication_allowed": false,
   "worker_automation_id": "Automation_a726d89a5d388191bd3ff61cc57019b0",
-  "status": "configured_first_delivery_pending",
-  "items": []
+  "status": "first_pilot_visual_review_pending",
+  "items": [
+    {
+      "delivery_key": "production-issue-96",
+      "assignment_issue": 96,
+      "title": "Optidrive E4: Fault Records and USB-C Lead the Service Update",
+      "audience": "US fan-service electricians, controls technicians and facilities maintenance",
+      "status": "visual_review_pending",
+      "draft_pr": 163,
+      "draft_pr_url": "https://github.com/TheFanGuys/HVLS-360/pull/163",
+      "draft_head_sha": "d6eaf26a096b98a6dfd488a8da9c7d480e7e3621",
+      "packet_path": "editorial/production/issue-96/packet.json",
+      "manuscript_sha256": "aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e",
+      "execution_mode": "inline_requested_hosted_task",
+      "independent_scheduled_delivery": false,
+      "publication_allowed": false,
+      "remaining_blockers": [
+        "Actual responsive media proof review pending"
+      ],
+      "media_proof": "office/production-media-proof-96.html"
+    }
+  ]
 }

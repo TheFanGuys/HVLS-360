@@ -8,26 +8,35 @@
     "enabled_confirmed": true,
     "schedule": "RRULE:FREQ=HOURLY",
     "timezone": "America/Phoenix",
-    "last_observed_run_id": "9e6dbc59-fa4c-8320-a542-29bcfaab4da3",
+    "last_observed_run_id": "9c138082-3b48-8320-b62b-b1689e7e3eca",
     "last_observed_run_status": "completed",
     "completed_output_verified": true,
     "repository_checkpoint_verified": true,
-    "meaning": "Enabled hourly task; first scheduled no-change baseline completed, ten asset hashes verified and durable GitHub checkpoint/readback verified. Changed-image visual correction and failure/recovery remain unverified.",
+    "meaning": "Independent scheduled changed-layout/TAZ visual review and writeback verified by matching completed task result and exact GitHub records. Failure/recovery and no-change suppression remain open.",
     "prompt_file": "office/ART-DIRECTOR-AUTOMATION.md",
-    "completed_at_utc": "2026-11-12T00:01:26.173427Z",
+    "completed_at_utc": "2026-11-12T00:56:32.111452Z",
     "baseline_commit": "e1856bfaaffb8372512fd0812c5329a5005d0bde",
-    "changed_image_visual_execution_verified": false,
+    "changed_image_visual_execution_verified": true,
     "latest_observation": {
       "run_id": "9c138082-3b48-8320-b62b-b1689e7e3eca",
-      "recorded_status": "in_progress",
+      "recorded_status": "completed",
       "started_at_utc": "2026-11-12T00:43:20.573646Z",
-      "result_available": false,
+      "completed_at_utc": "2026-11-12T00:56:32.111452Z",
+      "result_available": true,
       "environment_selection": "inherited",
       "environments": null,
-      "meaning": "No current-result or visual-tool proof; older baseline remains last completed evidence."
+      "meaning": "Matching run/result confirms execution; environment inventory still not exposed. Actual visual scope evidenced in Art150."
     },
     "acceptance_fixture": "office/worker-acceptance/art-director/fixture.json",
-    "prompt_update_confirmed_at_utc": "2026-11-12T00:52:21.042546Z"
+    "prompt_update_confirmed_at_utc": "2026-11-12T00:52:21.042546Z",
+    "changed_layout_evidence_prs": [
+      147,
+      150
+    ],
+    "run_now_mode": "inline_current_conversation_not_independent_worker",
+    "quota_remaining": "not_exposed_by_tool; no paid fallback",
+    "independent_recovery_verified": false,
+    "no_change_suppression_verified": false
   },
   "separate_monday_brief": {
     "title": "HVLS Industry Brief",

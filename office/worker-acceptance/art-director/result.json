@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "fixture_id": "art-recurring-acceptance-01",
+  "fixture_revision": 1,
+  "input_sha256": "d398fa7fa5ea5c7e76fbb1759b2f9bd5d014e390770ab52b00e98fa0d43d5280",
+  "input_commit": "eb8e31cdf07d29b9119d34dedf9669bf0e1abe11",
+  "started_at_utc": "2026-11-12T00:57:56Z",
+  "completed_at_utc": "2026-11-12T00:58:16.639857+00:00",
+  "execution_mode": "hosted_task_run_now_inline_current_conversation",
+  "independent_recurring_run": false,
+  "run_id": null,
+  "status": "blocked",
+  "blocker": "acceptance_missing_input: intentionally-absent.webp does not exist; no image review advanced",
+  "owner": "Agent Operations Lead",
+  "publication_allowed": false,
+  "tools_observed": [
+    "GitHub connector read/write",
+    "exec_command Python runtime",
+    "view_image available, not used because admission blocked"
+  ],
+  "environment_scope": "Current conversation only; not evidence of scheduled environment inheritance",
+  "checks": [
+    "actual worker_contract.admit returned blocked",
+    "worker_contract.validate_result passed"
+  ],
+  "history": []
+}

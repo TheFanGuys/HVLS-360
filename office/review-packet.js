@@ -11,7 +11,7 @@
   }
   const result={};
   await Promise.all([
-   (async()=>{try{const map=JSON.parse(await read('editorial/media/article-images.json')),m=map.items?.[slug];if(m&&/^editorial\/media\/(?:publisher\/[a-z0-9/-]+\.webp|original\/[a-z-]+\.svg)$/.test(m.file)&&!m.file.includes('..')&&['alt','caption','credit'].every(k=>typeof m[k]==='string'))result.selectedMedia={file:m.file,alt:m.alt,caption:m.caption,credit:m.credit};}catch(e){result.selectionError=e.message;}})(),
+   (async()=>{try{const map=JSON.parse(await read('editorial/media/article-images.json')),m=map.items?.[slug];if(m&&/^editorial\/media\/(?:publisher\/[a-z0-9/-]+\.webp|original\/[a-z-]+\.svg)$/.test(m.file)&&!m.file.includes('..')&&['alt','caption','credit'].every(k=>typeof m[k]==='string'))result.selectedMedia={file:m.file,alt:m.alt,caption:m.caption,credit:m.credit};else throw Error('Missing or invalid Director-selected image');}catch(e){result.selectionError=e.message;}})(),
    (async()=>{try{result.review=await read('editorial/reviews/'+slug+'-review.md');}catch(e){result.reviewError=e.message;}})(),
    (async()=>{try{
     const registry=JSON.parse(await read('office/editorial-queue.json'));const item=registry.items?.find(x=>x.slug===slug);

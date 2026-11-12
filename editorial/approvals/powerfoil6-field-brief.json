@@ -8,8 +8,8 @@
   "publisher_name": "Chris Fogarty",
   "approved_at_utc": "2026-11-12T10:42:58Z",
   "publisher_attestation": "I explicitly authorize publication of this article.",
-  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/powerfoil6-field-brief-review.md and ai-expert-powerfoil6-field-brief.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed.",
+  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/powerfoil6-field-brief-review.md and ai-expert-powerfoil6-field-brief.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed. Revised 2026-11-12; founder approves by merging the fix pull request. Revised 2026-11-12; founder approves by merging the fix pull request.",
   "media_rights_evidence": "Lead and inline media are Big Fan Guys field photographs owned by the founder or original HVLS 360 illustrations; see editorial/media/article-images.json and provenance files.",
-  "article_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+  "article_sha256": "82696db6689f995127015eb3a08aac9f27e43289f35b8ad6709dad4f65e53301",
   "release_inputs_sha256": "64e1e80469c3f38668f0b52e551c9b01ce0cdff3fa79188ee7d539232480b13b"
 }

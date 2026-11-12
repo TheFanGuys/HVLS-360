@@ -75,7 +75,7 @@ Rules:
 Do this as a separate pass, after the draft is finished.
 
 1. Re-read `office/HOUSE-STYLE.md`.
-2. Search the draft for every banned word, phrase and structure on the list and rewrite each hit. Run `grep -n -i -E "delve|landscape|navigate|leverage|robust|seamless|crucial|essential|vital|pivotal|comprehensive|ensure|enhance|foster|streamline|utilize|facilitate|notably|moreover|furthermore|additionally|worth noting|important to note|key role|testament|game-changer|unlock|elevate|in conclusion|ultimately|—" editorial/drafts/<slug>.md` and get it to zero hits (ignore the front matter and source record).
+2. Search the draft for every banned word, phrase and structure on the list and rewrite each hit. Run `grep -n -i -E "delve|landscape|navigate|leverage|robust|seamless|crucial|essential|vital|pivotal|comprehensive|ensure|enhance|foster|streamline|utilize|facilitate|notably|moreover|furthermore|additionally|worth noting|important to note|key role|testament|game-changer|unlock|elevate\b|in conclusion|ultimately|—" editorial/drafts/<slug>.md` and get it to zero hits (ignore the front matter and source record).
 3. Count bold markers. More than one, remove them.
 4. Cut every caution after the first one that matters.
 5. Rewrite the opening so the first sentence tells the reader something useful.

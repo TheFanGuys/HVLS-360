@@ -124,7 +124,7 @@ No unresolved numerical, model-specific or code-compliance question was found wi
 
 ## Founder iPhone acceptance and updated revision — November 11
 
-Chris reported opening the article on iPhone, editing through GitHub, tapping Commit changes, then reopening the same article in Review Studio and seeing the changed wording. Repository commits c170cbb and 84c39bf independently confirm the manuscript changes. Current blob e0d72e2c15c20f49803d63068c0b924e11873f78; SHA-256 `6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b`. This verifies the GitHub editor commit → same-iPhone Studio reopen path from user observation plus repository evidence. It does not verify Studio's token-based Save button, another physical device, or a founder editorial approval.
+Chris reported opening the article on iPhone, editing through GitHub, tapping Commit changes, then reopening the same article in Review Studio and seeing the changed wording. Repository commits c170cbb and 84c39bf independently confirm the manuscript changes. Current blob e0d72e2c15c20f49803d63068c0b924e11873f78; SHA-256 `2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da`. This verifies the GitHub editor commit → same-iPhone Studio reopen path from user observation plus repository evidence. It does not verify Studio's token-based Save button, another physical device, or a founder editorial approval.
 
 Editorial Director rechecked this exact revision. Changes are capitalization of “Fan” in the opening and trailing whitespace; both are preserved. The text remains direct and specific; no voice rewrite needed. This is the current revision-specific voice record; older hashes above remain historical. Source-to-claim checks and diagram findings from the previous pass still apply because no technical claim or visual changed. SEO title/description remain applicable; launch packet checksum refreshed after reviewing this revision.
 
@@ -133,7 +133,7 @@ Technical desk recheck: no new numerical, installation, compliance or performanc
 
 ## Current launch reconciliation — November 11, 2026
 
-Exact manuscript SHA-256: `6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+Exact manuscript SHA-256: `2d7564251260b382cda5bf3c44da190f828dbebaa3d00ef8bf6b042a1f5345da`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
 
 Technical disposition: **documentary review complete for current scope** — Qualitative comfort, mixing and outdoor-air distinction; no design rates or compliance finding. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `hvls-air-movement-vs-ventilation`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
 

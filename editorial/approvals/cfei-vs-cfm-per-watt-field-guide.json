@@ -8,8 +8,8 @@
   "publisher_name": "Chris Fogarty",
   "approved_at_utc": "2026-11-12T10:42:58Z",
   "publisher_attestation": "I explicitly authorize publication of this article.",
-  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md and ai-expert-cfei-vs-cfm-per-watt-field-guide.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed. Revised 2026-11-12; founder approves by merging the fix pull request.",
+  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md and ai-expert-cfei-vs-cfm-per-watt-field-guide.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed. Revised 2026-11-12; founder approves by merging the fix pull request. Revised 2026-11-12; founder approves by merging the fix pull request.",
   "media_rights_evidence": "Lead and inline media are Big Fan Guys field photographs owned by the founder or original HVLS 360 illustrations; see editorial/media/article-images.json and provenance files.",
-  "article_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+  "article_sha256": "8ab811ff0ea6474ae3d70f1daf104911103e6f194c744f021953d4c9aaf179d3",
   "release_inputs_sha256": "b4e37d5fb2944abf11e6815fbe732b7a39572f5311541c2cc16fac997d78e5a7"
 }

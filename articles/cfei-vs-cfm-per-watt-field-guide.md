@@ -16,43 +16,43 @@ seo_description: "Compare CFEI and CFM per watt, identify the operating points b
 
 # CFEI vs. CFM per Watt: How to Read an HVLS Fan Efficiency Claim
 
-Two fan submittals can quote the same CFM per watt and still tell different stories about rated efficiency. AMCA illustrates that problem with fans whose older airflow-to-power ratings match but whose Ceiling Fan Energy Index ratings differ [1]. For a buyer comparing HVLS fans, the useful question is which model, test method and operating point sit behind each number.
+Two submittals can show the same CFM per watt and still have different efficiency ratings. AMCA's own example uses fans with matching airflow-per-watt numbers and different Ceiling Fan Energy Index scores [1]. When you compare HVLS fans, find out which model, test method and speed each number came from.
 
-## What the two numbers measure
+## What each number measures
 
-CFM per watt divides airflow by electrical input at a stated operating point. It can be useful, but speed, blade geometry and the way results are aggregated affect comparisons.
+CFM per watt is airflow divided by electrical input at one operating point. It's handy, but fan speed, blade shape and how the results get averaged all change the comparison.
 
-CFEI compares measured electrical input with the power of a defined reference fan at a corresponding test condition [1][2]. A higher index broadly indicates less input power relative to that reference. It is a different calculation from CFM/W, using the methods referenced in the federal procedure. AMCA's example explains that distinction; it is not a promise of electricity savings from any particular installation.
+CFEI compares the fan's measured input power with a defined reference fan at a matching test condition [1][2]. Higher is better: less power for the job than the reference. It's a different calculation from CFM/W, and it follows the federal test procedure. AMCA's example explains the difference. It doesn't promise a power bill on any particular job.
 
-## Confirm the product class
+## Know which class the fan falls in
 
-DOE's Appendix U defines a large-diameter ceiling fan as having a represented blade span **greater than 7 feet**, excluding belt-driven and highly decorative ceiling fans [8]. Blade span is based on the measured outermost reach of the blades. “HVLS” in a catalog does not establish the federal class.
+DOE's Appendix U calls a ceiling fan "large-diameter" when its blade span is over 7 feet, measured to the outermost reach of the blades. Belt-driven and highly decorative fans are excluded [8]. A catalog calling something "HVLS" doesn't settle the federal class.
 
-Appendix U also distinguishes other categories, including high-speed belt-driven fans that use CFEI testing. Directional circulators, floor fans, exhaust fans and air-handling units may use different procedures and metrics [3][8]. Establish the classification before comparing ratings or applying a threshold.
+Appendix U has other categories too, including high-speed belt-driven fans that also get CFEI testing. Directional fans, floor fans, exhaust fans and air handlers can fall under different procedures and metrics [3][8]. Pin down the class before you compare ratings or apply a minimum.
 
-## Ask for both rated operating points
+## Ask for both test speeds
 
-At the November 10, 2026 check, eCFR Title 10 was current through November 6. **10 CFR 430.32(s)(2)(ii)** required covered large-diameter ceiling fans to achieve at least **1.00 CFEI at high speed** and at least **1.31 at 40% speed**, or the nearest available speed not below 40% [9]. These are separate operating points.
+When we checked eCFR on November 10, 2026 (Title 10 current through November 6), 10 CFR 430.32(s)(2)(ii) required covered large-diameter fans to hit at least 1.00 CFEI at high speed and at least 1.31 at 40% speed, or the nearest available speed that isn't below 40% [9]. Those are two separate numbers, and you want both.
 
-Appendix U, section 3.5, directs testing at both points using the referenced AMCA 208-18 method. Its power measurement includes all electrical phases together and the fan's power-consuming components as defined in the procedure [8]. Dividing a catalog airflow figure by motor-nameplate watts will not reconstruct that rating for a VFD-controlled fan.
+Section 3.5 of Appendix U tests at both points using AMCA 208-18. Power is measured across all phases and includes every power-drawing part of the fan as the procedure defines it [8]. You can't rebuild that rating by dividing catalog airflow by the motor nameplate watts, especially on a VFD fan.
 
-DOE maintains the regulations hub [7]. AMCA's October 21, 2025 update describes withdrawal of a proposed tightening [3], but that history is not the authority for the thresholds above. Check the governing federal text, product applicability and exceptions when issuing the specification; local building-code obligations are a separate review.
+DOE keeps the regulations on one page [7]. AMCA's October 21, 2025 update covers a proposed tightening that was withdrawn [3]. That's history, not the rule. Check the federal text, which products it covers and its exceptions when you write the spec. Local building code is a separate check.
 
-## Put comparable data on the bid sheet
+## Make the bid sheet line up
 
-Request the exact model and blade span, blade or airfoil option, tip configuration and control package. Pair the declared CFEI with its test procedure and operating speed, then include airflow and electrical input at that point. Mark missing data as incomplete rather than filling gaps with estimates.
+Ask for the exact model and blade span, blade or airfoil option, tip style and control package. Get the declared CFEI with its test procedure and speed, plus airflow and input power at that same point. If a bidder leaves something blank, mark it incomplete. Don't fill it in with a guess.
 
-Where independent rating evidence is specified, check the scope of the product's AMCA Certified Ratings Program listing [4]. A certification mark does not establish suitability for every building.
+If the spec calls for independent ratings, check what the fan's AMCA Certified Ratings Program listing actually covers [4]. The certification mark doesn't mean the fan suits every building.
 
-Mounting height, racking, obstructions, controls and operating hours also belong in the project comparison. They affect the application even though one laboratory index cannot describe them all.
+Mounting height, racking, obstructions, controls and run hours belong in the comparison too. No lab index captures them.
 
-## Measure the installed result separately
+## Measure the installed result on its own
 
-CFEI does not tell the owner how evenly air will reach workers, how much stratification will be reduced or whether the occupied zone will feel comfortable. Set acceptance criteria for the building's actual objective, such as occupied-zone air speed or temperature distribution.
+CFEI won't tell the owner how evenly air reaches the crew, how much stratification drops, or whether the floor will feel better. Set acceptance criteria for what the building actually needs, like air speed where people work or temperature from floor to ceiling.
 
-ASHRAE Standard 55-2023 addresses thermal-comfort factors [5]. Standard 62.1, listed in its 2025 edition at the source check, addresses ventilation and acceptable indoor air quality [6]; the locally adopted edition may differ. Neither a comfort assessment nor an outdoor-air requirement is answered by a fan's CFEI score.
+ASHRAE Standard 55-2023 covers thermal comfort [5]. Standard 62.1, in its 2025 edition when we checked, covers ventilation and indoor air quality [6]. Your jurisdiction may use an older edition. A CFEI score answers neither one.
 
-Keep the rated energy comparison in the equipment submittal and the installed-performance measurements in the commissioning plan. The owner needs both to judge the purchase.
+Put the rated efficiency comparison in the equipment submittal and the installed measurements in the commissioning plan. The owner needs both to judge the purchase.
 
 ### Source record
 

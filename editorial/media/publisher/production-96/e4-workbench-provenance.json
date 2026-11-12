@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "publication_allowed": false,
+  "file": "editorial/media/publisher/production-96/e4-workbench.webp",
+  "sha256": "ab858f1504c8a1bbc381f0376b04c9527a1dcf406fc3c09a5d6c0e5da5174cc2",
+  "source_library_file": "art-library/generated/invertek-e4/e4-workbench-original.png",
+  "source_sha256": "0f39222428e299cf1eec3ab499836e16da80dc7fe3b2e353ea11d0dab2b3fa4b",
+  "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/generated/invertek-e4/e4-workbench-original.png",
+  "rights_basis": "Chris explicitly instructed use of the latest ChatGPT-generated E4 workbench illustration, generated from his supplied E4 reference. Founder-authorized editorial illustration; not a manufacturer photograph or endorsement. No blanket third-party legal clearance asserted.",
+  "caption": "Optidrive E4 product illustration.",
+  "alt": "Purple and black Optidrive E4 on a workbench beside a notebook, screwdriver and USB cable",
+  "credit": "HVLS 360",
+  "identity": "Illustrated Invertek Optidrive E4, matching the E4 reference identity; no exact SKU, dimensions, rating or installation claim.",
+  "selection_status": "selected_pending_responsive_review",
+  "visual_review": {
+    "checked_at_utc": "2026-11-12T02:26:05.194414+00:00",
+    "source_opened": true,
+    "tool": "view_image",
+    "scope": "Latest workbench source actually viewed: entire purple/black drive, display/control area, terminal areas, mounting features and heatsink retained; bench items separate from device. Product illustration, not a real installation. Fine print/QR/terminal legends are generated, not technical evidence.",
+    "responsive_status": "pending_actual_deployed_frames"
+  },
+  "presentation": {
+    "card": {
+      "fit": "contain",
+      "position": "50% 50%"
+    },
+    "lead": {
+      "fit": "contain",
+      "position": "50% 50%"
+    }
+  },
+  "provenance": {
+    "type": "ai_generated_product_illustration",
+    "reference_file": "art-library/uploads/invertek-e4/e4-reference.jpeg",
+    "reference_sha256": "ab43b97f1618796608555f9fed4b265d672160214517c6fed143c9967af2a6ba",
+    "founder_selection": "Use the latest version of the E4 and let\u2019s move one. Continue",
+    "generator": "ChatGPT image generation",
+    "job_photo_used": false,
+    "original_unchanged": true,
+    "web_derivative": "Full-frame WebP format conversion; no crop, same1536x1024",
+    "prior_abb_acceptance": "withdrawn; source retained only as historical asset"
+  }
+}

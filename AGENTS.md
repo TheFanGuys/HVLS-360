@@ -53,3 +53,6 @@ For a story about one manufacturer/product, verify the pictured manufacturer/pro
 
 ## Founder image assistance — November 12
 When Art cannot find a suitable image with verified depicted identity, editorial relevance and recorded rights after checking the shared library/new uploads, promptly tell Chris which article needs an image and the useful subject/model/view so he can supply one. Record the request once; repeat only on material change. Art still owns routine crops and continues independent work while awaiting media.
+
+## Reader-facing image presentation
+Founder reaffirmed: no repetitive warnings/cautions or AI-powered branding on publication pages. Use concise accurate captions such as Optidrive E4 product illustration. Keep generation provenance, permissions, review evidence and limitations in internal project records. Do not falsely call an illustration an actual installation photograph.

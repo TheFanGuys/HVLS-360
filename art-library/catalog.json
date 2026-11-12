@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated": "2026-11-12",
   "source": "https://bigfanguys.com/",
-  "scope": "Seventy-three website/brand source entries plus one founder-uploaded Invertek Optidrive ECO original; selection and rights status recorded per asset.",
+  "scope": "Seventy-four existing library images plus E4 reference and selected workbench illustration source; per-asset provenance and selection status recorded.",
   "processing": "Web-sized archival copies; orientation/compression and metadata stripping. Original source URLs retained. Originals remain on BigFanGuys.com.",
   "assets": [
     {
@@ -1266,6 +1266,46 @@
         "e4_suitability": "Different model. Do not use as E4 product imagery or clear issue96 request."
       },
       "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/uploads/invertek-optidrive-eco/IMG_5849.jpeg"
+    },
+    {
+      "id": "art-library/generated/invertek-e4/e4-workbench-original",
+      "category": "generated",
+      "repository_file": "art-library/generated/invertek-e4/e4-workbench-original.png",
+      "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/generated/invertek-e4/e4-workbench-original.png",
+      "original_filename": "e4-workbench-original.png",
+      "model_identification": "Invertek Optidrive E4 product reference/illustration; no exact SKU or dimensions asserted",
+      "description": "Optidrive E4 workbench product illustration \u2014 selected source",
+      "review_status": "selected_pending_responsive_review",
+      "rights_basis": "Chris explicitly instructed use of the latest ChatGPT-generated E4 workbench illustration, generated from his supplied E4 reference. Founder-authorized editorial illustration; not a manufacturer photograph or endorsement. No blanket third-party legal clearance asserted.",
+      "sha256": "0f39222428e299cf1eec3ab499836e16da80dc7fe3b2e353ea11d0dab2b3fa4b",
+      "git_blob_sha": "fec00709f5e538fc06f3bfa6f67faea7be4f970d",
+      "bytes": 2482963,
+      "tags": [
+        "Invertek",
+        "Optidrive E4",
+        "controls",
+        "VFD"
+      ]
+    },
+    {
+      "id": "art-library/uploads/invertek-e4/e4-reference",
+      "category": "product-reference",
+      "repository_file": "art-library/uploads/invertek-e4/e4-reference.jpeg",
+      "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/uploads/invertek-e4/e4-reference.jpeg",
+      "original_filename": "e4-reference.jpeg",
+      "model_identification": "Invertek Optidrive E4 product reference/illustration; no exact SKU or dimensions asserted",
+      "description": "Founder-supplied Optidrive E4 two-size product reference",
+      "review_status": "reference_not_selected",
+      "rights_basis": "Chris explicitly instructed use of the latest ChatGPT-generated E4 workbench illustration, generated from his supplied E4 reference. Founder-authorized editorial illustration; not a manufacturer photograph or endorsement. No blanket third-party legal clearance asserted.",
+      "sha256": "ab43b97f1618796608555f9fed4b265d672160214517c6fed143c9967af2a6ba",
+      "git_blob_sha": "282114907ee784af88da2af1113299758fc60696",
+      "bytes": 429992,
+      "tags": [
+        "Invertek",
+        "Optidrive E4",
+        "controls",
+        "VFD"
+      ]
     }
   ]
 }

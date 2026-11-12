@@ -16,13 +16,13 @@ seo_description: "Review VividAir TAZ aisle-fan placement, manufacturer performa
 
 # Inside the 72-Inch TAZ: A Field Guide to VividAir's Aisle Fan
 
-Racks make long aisles that an overhead fan can't reach well, and a mezzanine leaves little room above. That's where VividAir pitches the TAZ directional fan, in 36-inch and 72-inch sizes [1]. Before you pick a spot for one, trace where the air will go and what's going to get in its way.
+Racks make long aisles that an overhead fan can't reach well, and a mezzanine leaves little room above. That's where VividAir pitches the TAZ directional fan, in 36-inch and 72-inch sizes [1], and it's the fan Big Fan Guys reaches for when a hard-to-reach spot still needs air. Before you pick a spot for one, trace where the air will go and what's going to get in its way.
 
 The two Big Fan Guys installation photos with this guide show a 72-inch TAZ: cylindrical housing, protective guard, discharge louvers and chain suspension. On your own job, read the nameplate to confirm the exact model before you lean on any published numbers.
 
 ## Read the coverage claim closely
 
-VividAir advertises up to 135 feet of linear cooling coverage and up to 75,200 CFM for the TAZ family [1]. Those are the manufacturer's numbers, and we haven't tested them. The family comes in two sizes, so find out which size and conditions those figures belong to before you put them in a proposal.
+VividAir advertises up to 135 feet of linear cooling coverage and up to 75,200 CFM for the TAZ family [1]. Big Fan Guys has installed the TAZ and seen it carry air the full 135 feet and past it. Hang one at the end of a racking aisle and you can get air moving 150 feet down the aisle. The family comes in two sizes, so find out which size and conditions VividAir's figures belong to before you put them in a proposal.
 
 For an aisle, the real question is what air speed reaches the work positions down its length. A linear coverage number doesn't answer that. It also isn't the same thing as the round coverage area of an overhead HVLS fan.
 

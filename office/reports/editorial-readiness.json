@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "drafts": 17,
+  "quality_issues": 0,
+  "approved_for_publication": 0,
+  "articles": [
+    {
+      "slug": "abb-2026-ip66-vfd-field-report",
+      "title": "ABB's 2026 Outdoor-Rated Drive Expansion: What Fan Installers Should Actually Check",
+      "word_count": 557,
+      "sources": 4,
+      "images": 1,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "annual-hvls-service-checklist",
+      "title": "5 Things We Check on Every Annual HVLS Service",
+      "word_count": 267,
+      "sources": 1,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "ceiling-fans-hvac-air-distribution-research",
+      "title": "Ceiling Fans as Part of the Air-Distribution Design",
+      "word_count": 353,
+      "sources": 2,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "cfei-vs-cfm-per-watt-field-guide",
+      "title": "CFEI vs. CFM per Watt: How to Read an HVLS Fan Efficiency Claim",
+      "word_count": 629,
+      "sources": 10,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "fan-guarding-working-level",
+      "title": "Fan Guarding: The Working Level Matters",
+      "word_count": 340,
+      "sources": 2,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "greenheck-ds-series-2026-field-report",
+      "title": "Greenheck's Redesigned DS-3 and DS-6: What Changes on an HVLS Job",
+      "word_count": 645,
+      "sources": 6,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "hvls-air-movement-vs-ventilation",
+      "title": "HVLS Fans, Air Movement and Ventilation: What Facility Managers Need to Know",
+      "word_count": 545,
+      "sources": 5,
+      "images": 1,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "hvls-fans-sprinkler-interlock-field-guide",
+      "title": "HVLS Fans Under Sprinklers: Placement, Clearance and the Fire Alarm Interlock",
+      "word_count": 894,
+      "sources": 5,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "industrial-fan-heat-study-what-was-measured",
+      "title": "Factory Fan Research: Separate Comfort Results from Heat-Strain Claims",
+      "word_count": 357,
+      "sources": 2,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "one-big-fan-vs-small-fans",
+      "title": "Why One Big Fan Beats a Wall of Small Ones",
+      "word_count": 277,
+      "sources": 2,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "optidrive-e4-fan-service-guide",
+      "title": "Invertek's Optidrive E4: What the New General-Purpose Drive Is Built For",
+      "word_count": 752,
+      "sources": 7,
+      "images": 1,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "powerfoil6-field-brief",
+      "title": "Powerfoil 6: What the Installation Manual Tells Field Crews",
+      "word_count": 619,
+      "sources": 2,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "scissor-lift-osha-classification",
+      "title": "Scissor Lifts and Boom Lifts: Start with the Right OSHA Reference",
+      "word_count": 360,
+      "sources": 2,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "scissor-lift-planning-hvls-installations",
+      "title": "Before the First Blade Goes Up: Scissor Lift Planning for HVLS Installations",
+      "word_count": 590,
+      "sources": 1,
+      "images": 1,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "vividair-gfy-ztech-taz-controls-field-guide",
+      "title": "VividAir and Go Fan Yourself: The Z-Tech, TAZ and Controls Questions Installers Should Ask",
+      "word_count": 608,
+      "sources": 4,
+      "images": 1,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "vividair-taz-72-field-guide",
+      "title": "Inside the 72-Inch TAZ: A Field Guide to VividAir's Aisle Fan",
+      "word_count": 638,
+      "sources": 2,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "winter-destratification-hvls-fans",
+      "title": "Your Fans Aren't Just for Summer: Winter Destratification",
+      "word_count": 306,
+      "sources": 2,
+      "images": 0,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    }
+  ]
+}

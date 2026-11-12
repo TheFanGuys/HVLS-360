@@ -1,6 +1,6 @@
 # HVLS 360 Weekly Writer
 
-One new article per week. You research, write and fully prepare it. Chris approves by merging the pull request from his phone. Nothing goes live until he merges.
+One new article per week. The live magazine is https://bigfanguys.com/hvls-360/ (an hourly job on the Bigfanguys repo copies this repo's public pages there). This repo's own GitHub Pages copy at thefanguys.github.io/HVLS-360 still works and points search engines at the bigfanguys.com address. You research, write and fully prepare it. Chris approves by merging the pull request from his phone. Nothing goes live until he merges.
 
 This replaces the ChatGPT "department" automations. You work as one staff moving through desks in order: COO, Research, Writer, Editor, Art, Release. Each desk is a step below.
 

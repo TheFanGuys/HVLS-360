@@ -24,9 +24,9 @@ class ReferenceLibraryTests(unittest.TestCase):
     def test_library_is_discoverable(self):
         home=(ROOT/"index.html").read_text(encoding="utf-8")
         self.assertIn('href="resources/"',home)
-        self.assertIn('href="https://thefanguys.github.io/HVLS-360/resources/"',home)
-        self.assertIn("https://thefanguys.github.io/HVLS-360/resources/",(ROOT/"sitemap.xml").read_text())
-        self.assertIn('<link rel="canonical" href="https://thefanguys.github.io/HVLS-360/resources/"',self.page)
+        self.assertIn('href="https://bigfanguys.com/hvls-360/resources/"',home)
+        self.assertIn("https://bigfanguys.com/hvls-360/resources/",(ROOT/"sitemap.xml").read_text())
+        self.assertIn('<link rel="canonical" href="https://bigfanguys.com/hvls-360/resources/"',self.page)
     def test_13_official_citable_sources(self):
         self.assertGreaterEqual(self.links.cards,24)
         official={"bigassfans.com","www.greenheck.com","www.ritehite.com",

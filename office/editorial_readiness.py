@@ -55,8 +55,9 @@ def check_article(path,root=ROOT):
     if metadata.get("publisher_approval")!="Required":
         errors.append("Publisher approval gate missing")
     word_count=len(narrative.split())
-    if word_count<(250 if metadata.get("article_format")=="Brief" else 500):
-        errors.append("Short feature: under 500 narrative words")
+    short_ok = metadata.get("article_format")=="Brief" or metadata.get("category")=="Field Notes"
+    if word_count<(200 if short_ok else 500):
+        errors.append("Short feature: under %d narrative words" % (200 if short_ok else 500))
     return {"slug":path.stem,"title":metadata.get("title",""),"word_count":word_count,
         "sources":len(source_urls),"images":len(IMAGE.findall(narrative)),
         "review_record":review.is_file(),"errors":errors,

@@ -43,8 +43,8 @@ def prepare(slug, root=ROOT):
             'original_text_approval': item['founder_text_decision'],
             'documentary_review': item['technical'], 'source_review': item['sources_and_claim_checks']['review_file'],
             'voice': item['voice'], 'media': item['media'], 'metadata': item['metadata'],
-            'preview': 'https://thefanguys.github.io/HVLS-360/office/preview/'+slug+'.html',
-            'canonical_on_authorized_release': 'https://thefanguys.github.io/HVLS-360/articles/'+slug+'/',
+            'preview': 'https://bigfanguys.com/hvls-360/office/preview/'+slug+'.html',
+            'canonical_on_authorized_release': 'https://bigfanguys.com/hvls-360/articles/'+slug+'/',
             'related_links': 'No related news targets are released; omit links until a separately reviewed release adds live targets.',
             'publication_authorized': False, 'approval_record_created': False,
             'remaining_decision': 'Chris explicitly authorizes publication of this exact manuscript and selected media package. No repeated text approval required.'}

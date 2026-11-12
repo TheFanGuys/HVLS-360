@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slug": "annual-hvls-service-checklist",
+  "publisher_decision": "approved",
+  "technical_review": "complete",
+  "editorial_review": "complete",
+  "media_rights": "cleared",
+  "publisher_name": "Chris Fogarty",
+  "approved_at_utc": "2026-11-12T12:18:12Z",
+  "publisher_attestation": "I explicitly authorize publication of this article.",
+  "approval_mechanism": "Founder approves by merging the weekly release pull request. Unmerged, nothing is live.",
+  "source_review_notes": "Writer's source check: editorial/reviews/annual-hvls-service-checklist-review.md. Technical review is the founder's field review at merge; no licensed engineer sign-off claimed.",
+  "media_rights_evidence": "Lead image is a Big Fan Guys photograph or original HVLS 360 illustration: art-library/bigfanguys-com/install-service/IMG_4971.webp",
+  "article_sha256": "e82cd79516810a7bc2759dd1e2f1d0cbae113263dbe7414412f47756b8be48ba",
+  "release_inputs_sha256": "d7c5b3f324de1882ebfed28103dafa606b6f7ee852566124c9fee1295e7dcf9c"
+}

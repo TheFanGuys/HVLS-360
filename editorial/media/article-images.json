@@ -339,6 +339,75 @@
         "reviewer": "Weekly article worker (Art desk)",
         "evidence": "office/weekly_article.py"
       }
+    },
+    "one-big-fan-vs-small-fans": {
+      "file": "editorial/media/publisher/weekly/one-big-fan-vs-small-fans.webp",
+      "alt": "HVLS fan above a long warehouse aisle lined with shelving",
+      "caption": "An HVLS fan over warehouse shelving on a Big Fan Guys job.",
+      "kind": "photo",
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-12",
+        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+        "reviewer": "Weekly article worker (Art desk)",
+        "evidence": "office/weekly_article.py"
+      }
+    },
+    "winter-destratification-hvls-fans": {
+      "file": "editorial/media/publisher/weekly/winter-destratification-hvls-fans.webp",
+      "alt": "HVLS fan hung just below a steel roof deck in a tall warehouse",
+      "caption": "An HVLS fan up under the roof deck, where winter heat collects. Big Fan Guys job.",
+      "kind": "photo",
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-12",
+        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+        "reviewer": "Weekly article worker (Art desk)",
+        "evidence": "office/weekly_article.py"
+      }
+    },
+    "annual-hvls-service-checklist": {
+      "file": "editorial/media/publisher/weekly/annual-hvls-service-checklist.webp",
+      "alt": "Close-up of an HVLS fan motor and gearbox mounted above the hub and blades",
+      "caption": "An HVLS fan motor and hub on a Big Fan Guys service call.",
+      "kind": "photo",
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-12",
+        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+        "reviewer": "Weekly article worker (Art desk)",
+        "evidence": "office/weekly_article.py"
+      }
     }
   }
 }

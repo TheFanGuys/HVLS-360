@@ -25,3 +25,6 @@ Founder correctly challenged ABB hardware beneath an Invertek E4 headline. Prior
 
 ## Founder-selected E4 illustration
 Chris selected the latest E4 workbench illustration. Source actually viewed; original/reference/hash provenance in media.json. Prior ABB selection remains rejected. Exact manuscript/claim/voice bindings unchanged. Actual responsive visual acceptance pending deployment. Reader caption is Optidrive E4 product illustration; production notes stay internal.
+
+## Completed E4 composition acceptance
+Actual selected source and deployed390/768/1280 card/article frames viewed after PR172/Pages43141532224. Complete source retained with contain; six proof images loaded, no horizontal overflow. Full illustrated drive casing/controls/terminals/heatsink and bench context retained; caption readable. Actual reader also loads selected derivative and simple caption. No article text changed; original manuscript SHA256 aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e remains bound to claim/voice reviews. Detailed provenance remains internal.

@@ -3,7 +3,7 @@
   "delivery_key": "production-issue-96",
   "assignment_issue": 96,
   "input_commit": "626b2f15ae55515da9aa264d7c97b55d08c69986",
-  "status": "blocked",
+  "status": "founder_review",
   "publication_allowed": false,
   "execution_mode": "hosted_task_run_now_inline_current_conversation",
   "independent_scheduled_run": false,
@@ -12,23 +12,21 @@
   "artifacts": {
     "manuscript.md": "aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e",
     "sources.json": "23fa3dddc1ab66913482c913eae54e3668db95438df6fd1bb3f57cf69e18c4db",
-    "review.md": "ac73d37d90203e0020a5d40b72268e2a2e59501ac4764d5e4582cf53408ab995",
-    "media.json": "c60ad9af6265ef84b67873193b4c506acbd03d44300e23b7ef4edb4d6d91456c",
+    "review.md": "8271df451c50b9fb91a274bf88d305fab587724ad206879f52912d854c1e1ab9",
+    "media.json": "a0e62db7af230d806d3c3c8f2bfd680975092bd94276ffcecd89c7277305d703",
     "metadata.json": "4a81d2a0952811d638918fae43724b0345bd03dc2d3a57062bf9393ffd66f3bb"
   },
-  "remaining_blockers": [
-    "Art: actual selected illustration responsive framing acceptance pending deployment"
-  ],
+  "remaining_blockers": [],
   "founder_decision": "first_text_decision_pending",
   "release_authorization": false,
-  "completed_at_utc": "2026-11-12T01:31:32.410069+00:00",
+  "completed_at_utc": "2026-11-12T02:29:37.476107+00:00",
   "checks": [
     "Four official primary sources opened/read",
     "Numbered source citations resolve",
     "Final manuscript hash bound to voice/claim review and metadata",
     "Authorized source hash matches selected derivative",
-    "Actual390/768/1280 card/article frames visually inspected; six images loaded/no overflow",
-    "Initial draft GitHub Research Desk Tests passed; final evidence-head check required"
+    "Initial draft GitHub Research Desk Tests passed; final evidence-head check required",
+    "Selected E4 illustration: actual390/768/1280 card/article visual review complete; exact source/derivative hashes bound"
   ],
-  "media_acceptance": "pending_selected_e4_responsive_review"
+  "media_acceptance": "accepted_founder_selected_e4_illustration"
 }

@@ -3,6 +3,7 @@ title: "HVLS Fans Under Sprinklers: Placement, Clearance and the Fire Alarm Inte
 category: "Installation"
 status: "EDITORIAL DRAFT — NOT APPROVED"
 publication_allowed: false
+publisher_approval: "Required"
 primary_market: "United States"
 research_checked: "2026-11-12"
 seo_title: "HVLS Fans Under Sprinklers: NFPA 13 and the Interlock"

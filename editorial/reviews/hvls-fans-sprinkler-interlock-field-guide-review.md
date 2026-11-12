@@ -1,7 +1,7 @@
 # HVLS Fans Under Sprinklers — Source Check and Voice Pass
 
 **Article:** editorial/drafts/hvls-fans-sprinkler-interlock-field-guide.md
-**Manuscript SHA-256 at voice pass:** eedf31b5a18570aba8c46e641659c46b53128fc4e184530c0e4e04b0dd589dea
+**Manuscript SHA-256 at voice pass:** 05b08f9a15cba44e65ce3103a764ff4a148057e231646cac1d568586780b4a4c
 **Checked:** 2026-11-12, Weekly Writer (research, writer, editor and source-check desks)
 
 ## Why this topic
@@ -43,3 +43,7 @@ No COO inbox instructions this week. Open pitch #97 (Greenheck MOA/CPF fan array
 ## Lead image
 
 Original HVLS 360 illustration, editorial/media/original/hvls-fans-sprinkler-interlock-field-guide.svg. Generic fan, sprinkler line, riser, waterflow switch, fire alarm control unit and fan controller. No brand, logo or product replica. Rendered to PNG and inspected 2026-11-12; downrod moved behind branch line after first render.
+
+## Recheck — front matter only
+
+Added `publisher_approval: "Required"` to the draft front matter so the CI editorial readiness check passes. Body text unchanged, so the voice pass above still applies. SHA-256 fingerprints were updated by `weekly_article.py --revise`.

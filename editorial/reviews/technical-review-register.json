@@ -268,7 +268,7 @@
       "ai_expert_review_file": "editorial/reviews/hvls-fans-sprinkler-interlock-field-guide-review.md",
       "ai_review_scope": "Writer's source and claim check",
       "qualified_review_required": false,
-      "draft_sha256": "eedf31b5a18570aba8c46e641659c46b53128fc4e184530c0e4e04b0dd589dea"
+      "draft_sha256": "05b08f9a15cba44e65ce3103a764ff4a148057e231646cac1d568586780b4a4c"
     }
   ],
   "policy": "Documentary source review is distinct from independent qualified signoff. External human review is required for consequential prescriptive or site-specific regulated judgments, not as a blanket gate for attributed reporting. Exact-revision claim findings and conditional triggers are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Zero qualified independent signoffs; no release authorization.",

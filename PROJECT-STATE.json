@@ -77,5 +77,20 @@
   "art_director_automation_enabled": true,
   "art_director_automation_completed_run_verified": true,
   "automation_registry": "office/automation-registry.json",
-  "art_director_changed_image_run_verified": false
+  "art_director_changed_image_run_verified": false,
+  "website_editing_acceptance": {
+    "status": "implementation_tested_deployment_pending",
+    "basis_main": "7b6727cccbab925ca6f4959c36af4bf28bf9eb4a",
+    "python_tests": 201,
+    "javascript_suites": 7,
+    "manuscript_approval_bytes_unchanged": true,
+    "live_authentication": "blocked: no Studio browser credential or second physical device",
+    "features": [
+      "current committed draft preview with snapshot fallback",
+      "article Studio deep links",
+      "selected-media consistency",
+      "security/parity/error tests"
+    ],
+    "physical_iphone_test_repeated": false
+  }
 }

@@ -6,6 +6,7 @@ const content='---\nstatus: "EDITORIAL DRAFT — NOT APPROVED"\npublication_allo
  const response=value=>({ok:true,json:async()=>({sha:'one',content:Buffer.from(typeof value==='string'?value:JSON.stringify(value)).toString('base64')})});
  const transport=async(url,options)=>{
   calls.push(url);assert.equal(options.method||'GET','GET');assert.equal(options.headers.Authorization,undefined);
+  if(url.includes('article-images.json'))return response({items:{'test-article':{file:'editorial/media/publisher/bfg-field/test.webp',alt:'Motor',caption:'Selected motor',credit:'BFG'}}});
   if(url.includes('editorial/decisions/'))return {ok:false,status:404};
   if(url.includes('editorial/drafts/'))return response(content);
   if(url.includes('-review.md'))return response('# Technical review\nPending specialist review.');
@@ -21,8 +22,12 @@ const content='---\nstatus: "EDITORIAL DRAFT — NOT APPROVED"\npublication_allo
  await assert.rejects(reader.recordReview('test-article',content,'one','editorial_text_reviewed','Review'),/Connect/);
  assert.equal(calls.length,before);
  const packet=await HVLSReviewPacket.packet('test-article',transport);
+ assert.equal(packet.selectedMedia.caption,'Selected motor');
  assert.match(packet.review,/Pending specialist/);assert.deepEqual(packet.media.map(x=>x.id),['right','source-candidate']);
  const failure=await HVLSReviewPacket.packet('test-article',async()=>({ok:false,status:403}));
+ assert.match(failure.selectionError,/403/);
+ const invalid=await HVLSReviewPacket.packet('test-article',async url=>url.includes('article-images.json')?response({items:{'test-article':{file:'../../unsafe.svg',alt:'x',caption:'x',credit:'x'}}}):transport(url,{}));
+ assert.equal(invalid.selectedMedia,undefined);assert.match(invalid.selectionError,/invalid/);
  assert.match(failure.reviewError,/403/);assert.match(failure.mediaError,/403/);
  await assert.rejects(HVLSReviewPacket.packet('../escape',transport),/Invalid/);
  console.log('Public review packet: anonymous reads, writes blocked, matching records only, rejection exclusion and partial failure reporting passed.');

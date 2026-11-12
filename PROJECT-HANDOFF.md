@@ -1,5 +1,14 @@
 # HVLS 360 — durable COO handoff
 
+## November 12 — produced article reader verified
+
+PR166 merged at ce296db48b5fccbe83f9dd9c77e151cba31931de; Pages43136599967 succeeded. Produced Drafts now opens a full on-site reader at office/produced-draft.html?issue=96. It reads the current production branch head once and loads all six package files at that immutable commit; edited wording or supporting records flag previous reviews as outdated. GitHub editor link targets production/issue-96. Current saved draft d2e42e39a948a87b615169276e6b6f35bf362aee and unchanged manuscript SHA256 aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e were actually rendered with its complete-frame ABB-context photo.
+
+Live queue-to-reader navigation and 390/768/1280 frames inspected: image loaded with contain in all three, effective widths375/753/1265 and no horizontal overflow. Phone typography/caption and tablet/desktop framing viewed.234 Python tests/eight JS suites pass, including current-edit/stale-review/failure coverage. These controlled edit tests are not authenticated browser saves or physical-device acceptance. Active existing Draft Production prompt now requires draft_branch in its queue entry; no schedule or authority expansion.
+
+PR163 remains open and unpublished; original twelve launch packets/eight approvals unchanged. Independent scheduled Draft Production, Art recovery/quiet repeat and authenticated Studio/two-device acceptance remain open. No additional spending.
+
+
 ## Verified Workflow delivery — November 11, 2026
 
 PR #152 merged at c7275dc3f5a59ee43cb9a886832a3d523b59a6bb after four green checks. Controlled Actions run43131784744/job130897416109/artifact13905646483 created/read/deduplicated/closed fixture#157, verified labeled failure/recovery comments and repeated-recovery idempotence. Independent connector readback confirms closed state and both comments. Earlier runs43131023682/43131380689 caught lagging Issue-list reads; verification now uses direct verified receipts and never creates on a verification miss. Fixtures#153/#154/#156 closed.233 Python tests/seven JS suites and publication/catalog checks pass. No genuine new reporting assignment or next cron acceptance is inferred.

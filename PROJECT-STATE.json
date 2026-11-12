@@ -11,11 +11,11 @@
   "drafts": 12,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
-  "last_verified_python_tests": 233,
+  "last_verified_python_tests": 234,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish verified operating workflows and shared department handoffs before article fine-tuning.",
-  "next_task": "Read first produced draft96 from office/production-queue.html. Observe first independently scheduled Draft Production execution and quiet repeat behavior; first pilot is inline, not scheduled acceptance. Preserve original launch edition and existing approvals.",
+  "next_task": "Observe independently scheduled Draft Production output and Art recovery/quiet repeat; keep Studio authenticated/two-device acceptance distinct. Produced issue96 is ready at office/produced-draft.html?issue=96.",
   "active_issues": [
     92,
     93,
@@ -44,7 +44,7 @@
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "Workflow159 merged with independently checked integration; Art fixture160 crop corrected and actual deployed 390/768/1280 frames inspected inline. No automatic newsroom or independent recovery completion inferred.",
+  "latest_verified_change": "PR166 merged at ce296db48b5fccbe83f9dd9c77e151cba31931de; Pages43136599967 succeeded. Actual produced reader, current branch text/image, queue link and 390/768/1280 frames verified.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,
@@ -62,7 +62,7 @@
   "selected_image_composition_complete": false,
   "selected_image_reviewed_stories": 12,
   "public_research_image_placements_reviewed": 6,
-  "art_media_director_owner": "Art & Media Director — assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
+  "art_media_director_owner": "Art & Media Director \u2014 assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
   "art_director_checkpoint": "editorial/media/art-director-checkpoint.json",
   "art_director_last_checked_source": "176181ae86e456f7bd369a7f3085c4df65599b8a",
   "art_director_last_outcome": "taz_integration_accepted_deferred_suitability_work_recorded",
@@ -302,6 +302,36 @@
     "first_production_head": "d2e42e39a948a87b615169276e6b6f35bf362aee",
     "visible_queue": "office/production-queue.html",
     "execution_mode": "inline_run_now",
-    "publication_authorized": false
+    "publication_authorized": false,
+    "reader": {
+      "url": "https://thefanguys.github.io/HVLS-360/office/produced-draft.html?issue=96",
+      "pr": 166,
+      "merged_revision": "ce296db48b5fccbe83f9dd9c77e151cba31931de",
+      "pages_run": 43136599967,
+      "pages_conclusion": "success",
+      "source_branch": "production/issue-96",
+      "source_head": "d2e42e39a948a87b615169276e6b6f35bf362aee",
+      "manuscript_sha256": "aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e",
+      "deployed_reader_verified": true,
+      "current_revision_consistent_read": true,
+      "stale_review_detection_controlled_tests": true,
+      "frame_widths": [
+        390,
+        768,
+        1280
+      ],
+      "effective_widths": [
+        375,
+        753,
+        1265
+      ],
+      "horizontal_overflow_frames": 0,
+      "loaded_contain_images": 3,
+      "python_tests": 234,
+      "javascript_suites": 8,
+      "authenticated_edit_performed": false,
+      "physical_device_test": false,
+      "publication_authorized": false
+    }
   }
 }

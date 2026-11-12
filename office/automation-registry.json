@@ -72,6 +72,9 @@
     "first_production_pr": 163,
     "first_production_head": "d2e42e39a948a87b615169276e6b6f35bf362aee",
     "pilot_execution_mode": "inline_run_now_not_independent_schedule",
-    "visible_queue": "office/production-queue.html"
+    "visible_queue": "office/production-queue.html",
+    "queue_branch_field": "draft_branch",
+    "branch_prompt_update_confirmed": true,
+    "reader": "office/produced-draft.html?issue=96"
   }
 }

@@ -1,3 +1,6 @@
+## Website current checkpoint — deployed
+PR #143 merged; Pages43127958015 succeeded. Read office/WEBSITE-EDITING-ACCEPTANCE-2026-11-11.md before old WIP instructions. Independent website work is verified; only real authenticated Studio/two-device edit/review/conflict acceptance remains blocked. Do not repeat the completed founder same-iPhone GitHub-editor test.
+
 ## Website continuation — current preview repair
 Website WIP has been resumed on `fix/website-editing-acceptance`; consult PROJECT-STATE.json website_editing_acceptance and latest PR before relying on the older WIP instruction below. Direct authenticated Studio/two-device acceptance remains open; do not repeat the founder’s completed GitHub-editor/same-iPhone test.
 

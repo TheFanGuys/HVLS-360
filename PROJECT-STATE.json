@@ -79,7 +79,7 @@
   "automation_registry": "office/automation-registry.json",
   "art_director_changed_image_run_verified": false,
   "website_editing_acceptance": {
-    "status": "implementation_tested_deployment_pending",
+    "status": "deployed_independent_checks_complete_live_auth_blocked",
     "basis_main": "7b6727cccbab925ca6f4959c36af4bf28bf9eb4a",
     "python_tests": 201,
     "javascript_suites": 7,
@@ -91,6 +91,20 @@
       "selected-media consistency",
       "security/parity/error tests"
     ],
-    "physical_iphone_test_repeated": false
-  }
+    "physical_iphone_test_repeated": false,
+    "merged_revision": "fb248dad3edfb9a57751af74d285cf66ff5764d0",
+    "pr": 143,
+    "pages_run": 43127958015,
+    "pages_conclusion": "success",
+    "core_screens": 7,
+    "frame_widths": [
+      390,
+      768,
+      1280
+    ],
+    "core_screen_overflow_failures": 0,
+    "report": "office/WEBSITE-EDITING-ACCEPTANCE-2026-11-11.md",
+    "category_complete": false
+  },
+  "website_wip_status": "superseded: resumed and merged via PR143"
 }

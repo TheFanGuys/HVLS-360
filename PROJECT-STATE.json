@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish verified operating workflows and shared department handoffs before article fine-tuning.",
-  "next_task": "Start each category from its handoff and current main. Website resumes preserved WIP; Agent Operations verifies the enabled Art Director task’s first completed execution.",
+  "next_task": "Start each category from its handoff and current main. Website resumes preserved WIP; Agent Operations verifies the enabled Art Director task\u2019s first completed execution.",
   "active_issues": [
     92,
     93,
@@ -62,7 +62,7 @@
   "selected_image_composition_complete": false,
   "selected_image_reviewed_stories": 12,
   "public_research_image_placements_reviewed": 6,
-  "art_media_director_owner": "Art & Media Director — assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
+  "art_media_director_owner": "Art & Media Director \u2014 assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
   "art_director_checkpoint": "editorial/media/art-director-checkpoint.json",
   "art_director_last_checked_source": "176181ae86e456f7bd369a7f3085c4df65599b8a",
   "art_director_last_outcome": "taz_integration_accepted_deferred_suitability_work_recorded",
@@ -175,7 +175,12 @@
     "no_change_suppression_verified": false,
     "inherited_environments": null,
     "extra_spend_usd": 0,
-    "remaining_owner": "Agent Operations Lead"
+    "remaining_owner": "Agent Operations Lead",
+    "merged_framework_pr": 149,
+    "runtime_readback": "office/department-runtime.json",
+    "package_bindings_read_back": 12,
+    "automatic_end_to_end_handoffs_verified": 0,
+    "python_tests": 214
   },
   "taz_second_photo_acceptance": {
     "source_revision": "176181ae86e456f7bd369a7f3085c4df65599b8a",

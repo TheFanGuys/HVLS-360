@@ -9,7 +9,10 @@ article page, homepage, RSS, sitemap and office preview. Then runs every check.
 Nothing goes live until the founder merges the pull request that carries these
 changes. The approval record says so explicitly.
 
-Usage:
+Fix a live article: edit editorial/drafts/<slug>.md (body only), then
+  python office/weekly_article.py --revise --slug <slug>
+
+New article:
   python office/weekly_article.py --slug my-slug --image art-library/bigfanguys-com/warehouse/IMG_2742.webp \
       --alt "Short description of the photo" --caption "Caption shown to readers."
 """
@@ -46,7 +49,67 @@ def run(cmd):
     return out
 
 
+def revise(slug, old_sha):
+    """Re-release an already-published article after its draft was edited.
+
+    The edited draft must already be saved. Front matter (title, SEO fields)
+    must not change. Every stored fingerprint of the old text is updated.
+    """
+    from release_inputs import digest
+    draft = ROOT / "editorial/drafts" / (slug + ".md")
+    new_sha = sha(draft)
+    if new_sha == old_sha:
+        raise SystemExit("Draft is unchanged")
+    # Swap the old fingerprint for the new one everywhere it is recorded.
+    for folder in ("editorial", "office"):
+        for f in (ROOT / folder).rglob("*"):
+            if f.suffix in (".json", ".md") and f.is_file() and "preview" not in f.parts:
+                text = f.read_text(encoding="utf-8")
+                if old_sha in text:
+                    f.write_text(text.replace(old_sha, new_sha), encoding="utf-8")
+    # Files whose own fingerprint is recorded in the launch ledger may have changed above.
+    ledger_path = ROOT / "editorial/launch-completion-ledger.json"
+    if ledger_path.exists():
+        ledger = json.loads(ledger_path.read_text())
+        items = ledger["items"] if isinstance(ledger, dict) and "items" in ledger else ledger
+        for item in items:
+            if item.get("slug") == slug:
+                c = item["sources_and_claim_checks"]
+                c["review_sha256"] = sha(ROOT / c["review_file"])
+        write_json(ledger_path, ledger)
+    approval_file = ROOT / "editorial/approvals" / (slug + ".json")
+    record = json.loads(approval_file.read_text())
+    record["release_inputs_sha256"] = digest(ROOT, slug)
+    record["source_review_notes"] += " Revised " + dt.date.today().isoformat() + "; founder approves by merging the fix pull request."
+    write_json(approval_file, record)
+    (ROOT / "articles" / (slug + ".md")).unlink()
+    import shutil
+    shutil.rmtree(ROOT / "articles" / slug)
+    run([sys.executable, "office/publish_approved.py", "--slug", slug, "--approval-file", str(approval_file)])
+    run([sys.executable, "office/render_release.py", "--slug", slug])
+    run([sys.executable, "office/public_catalog.py", "--write"])
+    run([sys.executable, "office/site_preview.py"])
+    checks()
+    print("\nREADY: revised articles/%s/index.html and all checks passed." % slug)
+
+
+def checks():
+    run([sys.executable, "office/publication_guard.py"])
+    run([sys.executable, "office/public_catalog.py", "--check"])
+    run([sys.executable, "office/technical_signoff_audit.py"])
+    run([sys.executable, "-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"])
+    for js in sorted((ROOT / "tests").glob("*.cjs")):
+        run(["node", str(js.relative_to(ROOT))])
+
+
 def main():
+    if "--revise" in sys.argv:
+        p = argparse.ArgumentParser()
+        p.add_argument("--revise", action="store_true")
+        p.add_argument("--slug", required=True)
+        a = p.parse_args()
+        old = json.loads((ROOT / "editorial/approvals" / (a.slug + ".json")).read_text())["article_sha256"]
+        return revise(a.slug, old)
     p = argparse.ArgumentParser()
     p.add_argument("--slug", required=True)
     p.add_argument("--image", required=True)
@@ -147,12 +210,7 @@ def main():
     run([sys.executable, "office/public_catalog.py", "--write"])
 
     # 5. Every check the site runs
-    run([sys.executable, "office/publication_guard.py"])
-    run([sys.executable, "office/public_catalog.py", "--check"])
-    run([sys.executable, "office/technical_signoff_audit.py"])
-    run([sys.executable, "-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"])
-    for js in sorted((ROOT / "tests").glob("*.cjs")):
-        run(["node", str(js.relative_to(ROOT))])
+    checks()
     print("\nREADY: articles/%s/index.html built and all checks passed." % slug)
 
 

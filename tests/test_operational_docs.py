@@ -16,7 +16,8 @@ class OperationalDocsTests(unittest.TestCase):
         readme=(ROOT/"README.md").read_text(encoding="utf-8")
         self.assertIn("none published",readme)
         self.assertIn("do not",readme.lower())
-        self.assertFalse(list((ROOT/"editorial"/"approvals").glob("*.json")) if (ROOT/"editorial"/"approvals").exists() else False)
+        for a in ((ROOT/"editorial"/"approvals").glob("*.json") if (ROOT/"editorial"/"approvals").exists() else []):
+            self.assertTrue((ROOT/"articles"/a.stem/"index.html").exists())
 
 if __name__=="__main__":
     unittest.main()

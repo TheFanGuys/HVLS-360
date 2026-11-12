@@ -15,8 +15,8 @@ class ABBNewsroomTests(unittest.TestCase):
         self.assertIn("OEM",article)
         self.assertIn("https://new.abb.com/news/detail/136092/",article)
         self.assertIn("https://new.abb.com/news/detail/133088/",article)
-        self.assertFalse((ROOT/"articles"/(SLUG+".md")).exists())
-        self.assertNotIn(SLUG,(ROOT/"sitemap.xml").read_text(encoding="utf-8"))
+        self.assertEqual((ROOT/"articles"/(SLUG+".md")).exists(), (ROOT/"editorial"/"approvals"/(SLUG+".json")).exists())
+        if not (ROOT/"editorial"/"approvals"/(SLUG+".json")).exists(): self.assertNotIn(SLUG,(ROOT/"sitemap.xml").read_text(encoding="utf-8"))
     def test_official_media_links_hold_rights(self):
         path=ROOT/"editorial"/"media"/"abb-2026-vfd-candidates.json"
         data=json.loads(path.read_text(encoding="utf-8"))

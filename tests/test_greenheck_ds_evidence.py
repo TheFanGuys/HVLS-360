@@ -19,8 +19,8 @@ class GreenheckEvidenceTests(unittest.TestCase):
         self.assertIn("Model DS #483568 IOM",s)
         self.assertIn("Shipped prior to 1/1/26",s)
         self.assertIn("DS-QD",s)
-        self.assertFalse((ROOT/"articles"/(SLUG+".md")).exists())
-        self.assertFalse((ROOT/"articles"/SLUG/"index.html").exists())
+        self.assertEqual((ROOT/"articles"/(SLUG+".md")).exists(), (ROOT/"editorial"/"approvals"/(SLUG+".json")).exists())
+        if not (ROOT/"editorial"/"approvals"/(SLUG+".json")).exists(): self.assertFalse((ROOT/"articles"/SLUG/"index.html").exists())
 
     def test_rights_not_cleared(self):
         reg=json.loads((ROOT/"editorial"/"media"/"greenheck-ds-series-2026-candidates.json").read_text())

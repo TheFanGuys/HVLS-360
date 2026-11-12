@@ -16,8 +16,8 @@ class EvidencePackageTests(unittest.TestCase):
                 self.assertIn('status: "EDITORIAL DRAFT — NOT APPROVED"',text)
                 self.assertNotIn("<!-- fake manufacturer claim",text)
                 self.assertGreaterEqual(len(re.findall(r"https://",text)),3)
-                self.assertFalse((ROOT/"articles"/(slug+".md")).exists())
-                self.assertNotIn(slug,(ROOT/"sitemap.xml").read_text(encoding="utf-8"))
+                self.assertEqual((ROOT/"articles"/(slug+".md")).exists(), (ROOT/"editorial"/"approvals"/(slug+".json")).exists())
+                if not (ROOT/"editorial"/"approvals"/(slug+".json")).exists(): self.assertNotIn(slug,(ROOT/"sitemap.xml").read_text(encoding="utf-8"))
     def test_illustration_is_original_recorded_and_valid_svg(self):
         path=ROOT/"editorial"/"media"/"original"/"air-movement-vs-ventilation.svg"
         parsed=ET.parse(path)

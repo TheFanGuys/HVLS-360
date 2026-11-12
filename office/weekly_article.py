@@ -170,6 +170,7 @@ def rerelease(slugs):
 
 
 def checks():
+    run([sys.executable, "office/editorial_readiness.py"])
     run([sys.executable, "office/publication_guard.py"])
     run([sys.executable, "office/public_catalog.py", "--check"])
     run([sys.executable, "office/technical_signoff_audit.py"])

@@ -1,6 +1,6 @@
-# HVLS 360 Draft Production worker
+# HVLS 360 Draft Production — saved active task prompt
 
-This is the saved active production instruction, not evidence of completed articles. Uses existing hosted task Automation_a726d89a5d388191bd3ff61cc57019b0. One bounded assignment per run; no article release authority. First actual inline delivery is recorded in PR163 and office/production-queue.json. Independent scheduled delivery remains unverified.
+Updated November 12, 2026. Existing task Automation_a726d89a5d388191bd3ff61cc57019b0; prompt update confirmed, schedule unchanged. This saved instruction is not proof of a successful scheduled run.
 
 ## Active prompt
 
@@ -23,3 +23,5 @@ Carry out actual work:
 8. Notify Chris only with a finished review link or a material actionable blocker; don't ask for routine implementation choices. Existing article approvals never authorize this new article or its release.
 
 Finish the bounded assignment or save the exact blocker. Report actual tools and execution provenance: inline run-now is not a separately scheduled run. A configured schedule does not prove successful production; independent scheduled delivery and quiet repeat behavior need actual output/readback evidence. This worker is separate from the Monday industry briefing and the Art Director's routine monitoring.
+
+Founder image handoff: If a suitable article image cannot be found with verified depicted identity, editorial relevance and recorded usage rights after checking the shared library/new uploads, tell Chris promptly which article needs an image and exactly what subject/model/view would help so he can supply one. Record the request once with the article and Art blocker; repeat only when the need materially changes. Keep routine crop decisions with Art. Withhold unsuitable imagery, including competing branded hardware as a lead/card for a single-brand product story; a contextual caption does not cure that mismatch. Continue independent work while awaiting the image. No outreach to third parties or paid sourcing.

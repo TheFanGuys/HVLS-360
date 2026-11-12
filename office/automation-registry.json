@@ -36,7 +36,9 @@
     "run_now_mode": "inline_current_conversation_not_independent_worker",
     "quota_remaining": "not_exposed_by_tool; no paid fallback",
     "independent_recovery_verified": false,
-    "no_change_suppression_verified": false
+    "no_change_suppression_verified": false,
+    "founder_image_request_rule_confirmed": true,
+    "image_request_prompt_updated_at_utc": "2026-11-12T02:01:24.074899+00:00"
   },
   "separate_monday_brief": {
     "title": "HVLS Industry Brief",
@@ -75,6 +77,8 @@
     "visible_queue": "office/production-queue.html",
     "queue_branch_field": "draft_branch",
     "branch_prompt_update_confirmed": true,
-    "reader": "office/produced-draft.html?issue=96"
+    "reader": "office/produced-draft.html?issue=96",
+    "founder_image_request_rule_confirmed": true,
+    "image_request_prompt_updated_at_utc": "2026-11-12T02:01:24.074899+00:00"
   }
 }

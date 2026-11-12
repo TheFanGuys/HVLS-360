@@ -1,5 +1,14 @@
 ## Workflow current verified checkpoint
 
+## November 12 — ask Chris when article imagery is blocked
+
+Chris wants Art to tell him when suitable imagery cannot be sourced so he can provide it. Both existing hosted Art/Draft Production prompts were updated and confirmed, preserving schedules and authority. Prompt copies/AGENTS carry the same rule. Request the specific subject/model/view and permission information once per unchanged blocker; Art continues routine framing and independent work. No third-party messages or paid sourcing.
+
+Current actionable request delivered in chat: issue96 needs a clear Invertek Optidrive E4 photo Chris owns or can document editorial permission for. Complete product/identifying view; landscape helpful, not required. Production queue now displays that request. ABB image remains rejected/withheld; actual live reader checked after PR169/Pages43138058503, image hidden with no src. Manuscript/approval hashes unchanged.
+
+Operational readback: no newer Art independent run/result than9c138082; recovery fixture result still revision1 inline blocked, while revision2 awaits independent processing. Existing Art next_run_time is past and does not prove dispatch. Draft Production first future scheduled delivery remains November13 11:45 America/New_York; old November10 failure belongs to the former task purpose. Do not manufacture schedule/recovery success or create another automation.
+
+
 ## November 12 — issue96 image acceptance withdrawn
 
 Founder correctly challenged ABB-branded hardware under an Invertek E4 headline. The assistant made that selection; it was not a separately operating Art department approval. Accurate caption, authorized rights and complete-frame geometry did not establish editorial relevance. Selection withdrawn from the current reader and media proof; source originals preserved. Draft PR163 now marks media rejected and packet blocked at61d88cec2f0c25a7381e6534038d23fcad1513e6. Manuscript SHA256 aeddfade91731648823b7aaaf7d92ea5b4806c1d68f8a953d54cc3a23db2270e unchanged.

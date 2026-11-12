@@ -2,11 +2,11 @@
 
 A U.S.-focused industrial air movement magazine from Big Fan Guys. A fast, static, mobile-friendly publication hosted on GitHub Pages, with scheduled research and owner-controlled editorial publication.
 
-**Public site:** https://thefanguys.github.io/HVLS-360/  
-**Editorial office:** https://thefanguys.github.io/HVLS-360/office/command-center.html  
-**All-drafts review desk:** https://thefanguys.github.io/HVLS-360/office/editorial-queue.html  
-**First article review packet:** https://thefanguys.github.io/HVLS-360/office/first-article-review.html  
-**Public reference library:** https://thefanguys.github.io/HVLS-360/resources/
+**Public site:** https://bigfanguys.com/hvls-360/  
+**Editorial office:** https://bigfanguys.com/hvls-360/office/command-center.html  
+**All-drafts review desk:** https://bigfanguys.com/hvls-360/office/editorial-queue.html  
+**First article review packet:** https://bigfanguys.com/hvls-360/office/first-article-review.html  
+**Public reference library:** https://bigfanguys.com/hvls-360/resources/
 
 ## What is live
 

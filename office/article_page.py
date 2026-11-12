@@ -10,7 +10,7 @@ import pathlib
 import re
 from urllib.parse import urlsplit
 
-BASE="https://thefanguys.github.io/HVLS-360/"
+BASE="https://bigfanguys.com/hvls-360/"
 INTERNAL=(
     "editorial research notes",
     "editorial verification record",
@@ -240,13 +240,14 @@ def build_html(root,slug):
 <meta property="og:image" content="{BASE}assets/masthead.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="HVLS 360 RSS" href="{BASE}rss.xml">
 <link rel="stylesheet" href="../../assets/style.css"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{ld}</script><link rel="stylesheet" href="../../assets/publication.css?v=20261111-context-photo"></head><body>
+<script type="application/ld+json">{ld}</script><link rel="stylesheet" href="../../assets/publication.css?v=20261112-bfg"></head><body>
 <div class="top"><div class="wrap"><span>HVLS 360° / Industry Intelligence</span><span>Presented by Big Fan Guys</span></div></div>
 <header class="masthead wrap"><a href="../../" aria-label="HVLS 360 home"><img src="../../assets/masthead.png" alt="HVLS 360 Industry Intelligence" width="2048" height="896"></a></header>
 <nav class="nav" aria-label="Primary"><div class="wrap"><a href="../../">Home</a><a href="../../#departments">Industry News</a><a href="../../#departments">Technology</a><a href="../../#departments">Installation</a><a href="../../#departments">Service &amp; VFDs</a></div></nav>
 <main class="article"><p class="breadcrumbs"><a href="../../">Home</a> / {org}</p>
 <div class="eyebrow">{org}</div><h1>{heading}</h1><p class="meta">HVLS 360° Editorial Desk · {display_date}</p>
-{lead_html}<div class="article-body">{body_html}</div></main>
-<footer class="foot"><div class="wrap">© HVLS 360° · Published by Big Fan Guys · <a href="../../rss.xml">RSS</a></div></footer>
+{lead_html}<div class="article-body">{body_html}</div>
+<aside class="bfg-cta" aria-label="Big Fan Guys"><p><strong>Need HVLS fans installed, serviced or moved?</strong> Big Fan Guys installs and services big fans nationwide.</p><a href="https://bigfanguys.com/#contact">Get a free consultation</a></aside></main>
+<footer class="foot"><div class="wrap">© HVLS 360° · Published by <a href="https://bigfanguys.com/">Big Fan Guys</a> · <a href="../../rss.xml">RSS</a></div></footer>
 </body></html>
 '''

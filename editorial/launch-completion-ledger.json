@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "edition": "Launch edition 1 \u2014 twelve existing original pieces",
+  "edition": "Launch edition 1 — twelve existing original pieces",
   "reconciled_date": "2026-11-11",
   "baseline_commit": "7b6727cccbab925ca6f4959c36af4bf28bf9eb4a",
   "owner": "Content Completion Lead",
@@ -16,7 +16,7 @@
     "qualified_technical_signoffs": 0,
     "published_launch_news_items": 0,
     "documentary_reviews_complete": 12,
-    "fully_integrated_illustrated_packages": 11
+    "fully_integrated_illustrated_packages": 12
   },
   "record_authority": "Founder register governs original-eight text approvals. Technical and media evidence do not imply release authorization. Historical frontmatter/checklists may be stale; do not infer new approval requirements from them.",
   "locations": {
@@ -57,7 +57,7 @@
     {
       "issue": 96,
       "assignment": "Optidrive E4 US service reporting",
-      "verified_issue_state": "Researching \u2014 Managing Editor accepted evidence work",
+      "verified_issue_state": "Researching — Managing Editor accepted evidence work",
       "issue_read_date": "2026-11-11",
       "owner": "Research Lead",
       "launch_scope": "outside edition 1",
@@ -72,7 +72,7 @@
     {
       "issue": 97,
       "assignment": "Greenheck MOA compact fan-array retrofit scope",
-      "verified_issue_state": "Researching \u2014 Managing Editor accepted evidence work",
+      "verified_issue_state": "Researching — Managing Editor accepted evidence work",
       "issue_read_date": "2026-11-11",
       "owner": "Research Lead",
       "launch_scope": "outside edition 1",
@@ -131,7 +131,7 @@
         "manuscript_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
         "matching_revision_record_present": true,
         "record_excerpts": [
-          "Chris reported opening the article on iPhone, editing through GitHub, tapping Commit changes, then reopening the same article in Review Studio and seeing the changed wording. Repository commits c170cbb and 84c39bf independently confirm the manuscript changes. Current blob e0d72e2c15c20f49803d63068c0b924e11873f78; SHA-256 `6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b`. This verifies the GitHub editor commit \u2192 same-iPhone Studio reopen path from user observation plus repository evidence. It does not verify Studio's token-based Save button, another physical device, or a founder editorial approval."
+          "Chris reported opening the article on iPhone, editing through GitHub, tapping Commit changes, then reopening the same article in Review Studio and seeing the changed wording. Repository commits c170cbb and 84c39bf independently confirm the manuscript changes. Current blob e0d72e2c15c20f49803d63068c0b924e11873f78; SHA-256 `6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b`. This verifies the GitHub editor commit → same-iPhone Studio reopen path from user observation plus repository evidence. It does not verify Studio's token-based Save button, another physical device, or a founder editorial approval."
         ],
         "editor": "Editorial Director role performed by assistant; not a human independent attestation"
       },
@@ -221,7 +221,7 @@
           "[1] ABB, *ABB expands portfolio with new IP66 / Type 4X drives for demanding environments*, May 27, 2026: https://new.abb.com/news/detail/136092/abb-expands-portfolio-with-new-ip66-type-4x-drives-for-demanding-environments",
           "[2] ABB, *ACH580-01 IP66/Type 4X drive, 5.5 to 22 kW*, leaflet 9AKK108472A7668, REV A EN, June 17, 2026. Product landing page with documentation links: https://new.abb.com/us/us-motion-business-area/drives-products/ach5804X",
           "[3] ABB, *ABB Expands HVACR Low Voltage Drives Portfolio with New UL Type 12 and Type 4X Vertical Bypass Drives*, January 31, 2026: https://new.abb.com/news/detail/133088/expands-hvacr-VFD-portfolio-new-ul-type-12-and-type-4x-vertical-bypass-drives",
-          "[4] ABB, *ABB and NOVENCO target cooling\u2019s energy waste with a turnkey fan package*, September 29, 2026: https://new.abb.com/news/detail/139081/abb-and-novenco-target-coolings-energy-waste-with-a-turnkey-fan-package"
+          "[4] ABB, *ABB and NOVENCO target cooling’s energy waste with a turnkey fan package*, September 29, 2026: https://new.abb.com/news/detail/139081/abb-and-novenco-target-coolings-energy-waste-with-a-turnkey-fan-package"
         ],
         "recorded_research_checked": "2026-11-10",
         "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
@@ -405,9 +405,10 @@
           }
         },
         "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
-        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "composition_status": "prior_crop_review_retained_founder_rejected_story_suitability",
         "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
-        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation.",
+        "suitability_status": "replacement_deferred_until_operational_completion"
       },
       "founder_text_decision": {
         "status": "approved_exact_revision",
@@ -560,7 +561,7 @@
         ],
         "source_date_statements": [
           "[1] Big Ass Fans, *Powerfoil 6 HVLS Fan* (product page; reviewed November 10, 2026): https://bigassfans.com/powerfoil-6-hvls-fan/",
-          "[2] Big Ass Fans, *Powerfoil 6 Installation Guide*, Rev. D, November 19, 2025; pp. 1\u20134, 21\u201324 and 26\u201331 (current link recovered from the manufacturer support page on November 11, 2026): https://bigassfans.widen.net/view/pdf/7t3u2vurlm/powerfoil6-install-guide.pdf"
+          "[2] Big Ass Fans, *Powerfoil 6 Installation Guide*, Rev. D, November 19, 2025; pp. 1–4, 21–24 and 26–31 (current link recovered from the manufacturer support page on November 11, 2026): https://bigassfans.widen.net/view/pdf/7t3u2vurlm/powerfoil6-install-guide.pdf"
         ],
         "recorded_research_checked": "2026-11-11 per companion review",
         "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
@@ -925,7 +926,48 @@
         "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
         "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation.",
         "supporting_image_handoff": "editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json",
-        "illustrated_package_complete": false
+        "illustrated_package_complete": true,
+        "supporting_image_acceptance": {
+          "source_revision": "176181ae86e456f7bd369a7f3085c4df65599b8a",
+          "pr": 147,
+          "pages_run": 43130101206,
+          "proof_url": "https://thefanguys.github.io/HVLS-360/office/context-photo-proof.html?v=art-147",
+          "frame_widths": [
+            390,
+            768,
+            1280
+          ],
+          "effective_widths": [
+            375,
+            753,
+            1265
+          ],
+          "rendered_sizes": [
+            [
+              331,
+              441.328125
+            ],
+            [
+              709,
+              945.328125
+            ],
+            [
+              806,
+              1074.65625
+            ]
+          ],
+          "source_dimensions": [
+            1152,
+            1536
+          ],
+          "fit": "contain",
+          "loaded_frames": 3,
+          "horizontal_overflow_frames": 0,
+          "duplicate_context_images": 0,
+          "live_manuscript_blob": "d3161b34d449851eea679e7deb4c096498c48af0",
+          "visual_result": "Viewed actual rendered phone image and tablet/desktop upper and lower source bounds/captions. Suspended housing, louvers, guard, chains and work-floor context retained; no crop; natural aspect ratio. Current saved-text refresh retains exactly one contextual image after the descriptive paragraph.",
+          "physical_device_test": false
+        }
       },
       "founder_text_decision": {
         "status": "approved_exact_revision",
@@ -939,9 +981,7 @@
         "indexed_news_release": false,
         "release_authorization": "not_recorded",
         "release_ready": false,
-        "remaining_content_dependencies": [
-          "Website integrate selected second photograph and record actual desktop/tablet/phone visual acceptance; preserve approved text."
-        ]
+        "remaining_content_dependencies": []
       }
     },
     {
@@ -1274,7 +1314,7 @@
         ],
         "source_date_statements": [
           "[1] OSHA, 29 CFR 1910.212, General requirements for all machines: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212",
-          "[2] OSHA, Clarification of employers\u2019 use of floor fans, August 1, 1996: https://www.osha.gov/laws-regs/standardinterpretations/1996-08-01"
+          "[2] OSHA, Clarification of employers’ use of floor fans, August 1, 1996: https://www.osha.gov/laws-regs/standardinterpretations/1996-08-01"
         ],
         "recorded_research_checked": "2026-11-11 per companion review",
         "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
@@ -1357,9 +1397,9 @@
     }
   ],
   "handoff": {
-    "website": "Integrate editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json after descriptive photo paragraph; preserve approved text and inspect actual desktop/tablet/phone. Other ten selected asset bytes and prior composition evidence unchanged. Related slugs remain candidates, not phantom live URLs.",
-    "workflow": "Exact-revision content candidate manifest: all twelve documentary scopes resolved, zero qualified independent signoffs. Four new briefs await first founder text decision; TAZ second photo needs Website integration/visual acceptance. No release authorization. Do not schedule or release from this ledger.",
-    "agent_operations": "Recurring image execution/monitoring is separate from this selected-image acceptance."
+    "website": "TAZ second-photo integration and actual 390/768/1280px visual acceptance completed in PR147; exact source/geometry in TAZ-SECOND-PHOTO-HANDOFF.json. Original lead/card preserved. Website retains unrelated authenticated acceptance.",
+    "workflow": "Exact manuscript approvals preserved; TAZ integration accepted, but founder-deferred CFEI/portrait-card suitability corrections remain open. Four new briefs still lack first text decisions; no release authorization. Do not release from this ledger.",
+    "agent_operations": "Changed-selection receiving-owner acknowledgment, tested isolated PR, live responsive review and durable records completed for TAZ. This does not certify all departmental autonomous operation or failure recovery."
   },
   "acceptance": {
     "finite_scope_documented": true,
@@ -1368,20 +1408,15 @@
     "all_required_technical_questions_resolved": true,
     "all_founder_text_decisions_recorded": false,
     "release_authorization_recorded": false,
-    "all_required_illustrations_integrated": false,
+    "all_required_illustrations_integrated": true,
     "all_twelve_metadata_related_links_prepared": true,
-    "reference_library_checked_with_access_limit_recorded": true
+    "reference_library_checked_with_access_limit_recorded": true,
+    "founder_image_suitability_corrections_complete": false
   },
   "dependencies": [
     {
-      "id": "TAZ-second-image",
-      "owner": "Website & Editing lead with Art & Media visual acceptance",
-      "evidence": "editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json",
-      "minimum_completion": "Second exact selected photo rendered in article, full-frame at desktop/tablet/phone, loaded and no overflow; exact revision acceptance recorded."
-    },
-    {
       "id": "new-four-text-decisions",
-      "owner": "Chris \u2014 founder",
+      "owner": "Chris — founder",
       "issues": [
         133,
         134,
@@ -1389,6 +1424,11 @@
         136
       ],
       "minimum_completion": "First decision on four finished new briefings; original eight approvals preserved."
+    },
+    {
+      "id": "founder-deferred-image-suitability",
+      "owner": "Content & Imagery / Art Director",
+      "minimum_completion": "After operations-first work, replace founder-rejected CFEI photograph and resolve portrait-in-landscape-card concerns. Prior crop acceptance is not suitability approval."
     }
   ]
 }

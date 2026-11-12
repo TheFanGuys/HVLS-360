@@ -1,0 +1,16 @@
+/* Controlled transport/DOM tests, never a live authenticated acceptance claim. */
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),cp=require('node:child_process');
+const context={URL};vm.createContext(context);vm.runInContext(fs.readFileSync('office/preview-live.js','utf8'),context);
+const {parse,render,refresh}=context.HVLSPreviewLive;
+const raw=fs.readFileSync('editorial/drafts/hvls-air-movement-vs-ventilation.md','utf8');
+for(const bad of [raw.replace('publication_allowed: false','publication_allowed: true'),raw.replace('EDITORIAL DRAFT — NOT APPROVED','APPROVED FOR PUBLICATION'),raw.replace('title:', 'title: "one"\ntitle:'),raw.replace(/^title:.*$/m,'title: 123'),raw.replace(/^category:.*$/m,'category: ""')])assert.throws(()=>parse(bad));
+assert(!render('<script>alert(1)</script>').includes('<script>'));
+assert(!render('[x](https://user:password@example.com/)').includes('<a '));
+for(const path of ['../../../secret.svg','../../editorial/media/original/evil.svg','javascript:alert(1)','https://example.com/x.svg'])assert(!render('![x]('+path+')').includes('<img'));
+assert(!render('Visible\n\n## Internal research log\nSecret').includes('Secret'));
+const files=fs.readdirSync('editorial/drafts').filter(n=>n.endsWith('.md'));
+for(const name of files){const text=fs.readFileSync('editorial/drafts/'+name,'utf8');const d=parse(text);const expected=cp.execFileSync('python',['-c','import sys;sys.path.insert(0,"office");from article_page import render_markdown;print(render_markdown(sys.stdin.read()),end="")'],{input:d.body,encoding:'utf8'});assert.equal(render(d.body),expected,name+' renderer parity');}
+function doc(){const nodes={host:{innerHTML:'SNAPSHOT',getAttribute:()=> 'hvls-air-movement-vs-ventilation'},status:{textContent:'snapshot',dataset:{}},h:{},cat:{}};return {nodes,querySelector:s=>s==='[data-live-draft]'?nodes.host:s==='h1'?nodes.h:s==='.article>.eyebrow'?nodes.cat:null,getElementById:()=>nodes.status};}
+(async()=>{for(const read of [()=>({read:async()=>{throw Error('HTTP 403')}}),()=>({read:async()=>({sha:'bad',content:raw})}),()=>({read:async()=>({sha:'a'.repeat(40),content:raw.replace('publication_allowed: false','publication_allowed: true')})})]){const d=doc();await refresh(d,read);assert.equal(d.nodes.host.innerHTML,'SNAPSHOT');assert.match(d.nodes.status.textContent,/deployed snapshot/);assert.equal(d.nodes.status.dataset.error,'true');}
+const d=doc();await refresh(d,()=>({read:async()=>({sha:'a'.repeat(40),content:raw})}));assert.equal(d.nodes.host.innerHTML,render(parse(raw).body));assert.equal(d.nodes.h.textContent,parse(raw).fields.title);assert.equal(d.nodes.cat.textContent,parse(raw).fields.category);assert.match(d.nodes.status.textContent,/Current saved manuscript/);assert.equal(d.nodes.status.dataset.revision,'a'.repeat(40));
+console.log('Live preview security, all-draft renderer parity, revision validation and failure snapshot tests passed');})().catch(e=>{console.error(e);process.exitCode=1});

@@ -1,3 +1,6 @@
+## Website continuation — current preview repair
+Website WIP has been resumed on `fix/website-editing-acceptance`; consult PROJECT-STATE.json website_editing_acceptance and latest PR before relying on the older WIP instruction below. Direct authenticated Studio/two-device acceptance remains open; do not repeat the founder’s completed GitHub-editor/same-iPhone test.
+
 ## Current continuation — November 12: four separate workstreams
 
 Chris requested four category chats. Attach the matching file and instruct the new chat to read it and complete that category:

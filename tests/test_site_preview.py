@@ -1,9 +1,11 @@
-import json,sys,tempfile,unittest,shutil
+import json,sys,tempfile,unittest,shutil,subprocess
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'office'))
 from site_preview import build
 class PreviewTests(unittest.TestCase):
+ def test_live_preview_security_parity_and_failure_paths(self):
+  subprocess.run(["node","tests/test_preview_live.cjs"],cwd=ROOT,check=True,capture_output=True,text=True)
  def test_current_drafts_generate_only_unindexed_office_pages(self):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp)

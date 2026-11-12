@@ -118,6 +118,8 @@ Then check it the way readers will see it. Serve the repo (`cd .. && python3 -m 
 
 ## 8. Open the pull request
 
+Right before you open it, sync with the live site, because another run may have published since you started: `git fetch origin main && git merge origin/main`. If that conflicts, resolve it this way and nothing else: for `index.html`, `rss.xml` and `sitemap.xml` take main's copy (`git checkout origin/main -- index.html rss.xml sitemap.xml`); for `editorial/media/article-images.json` and `editorial/reviews/technical-review-register.json` keep every entry from both sides. Then run `python office/public_catalog.py --write` and `python office/site_preview.py`, and rerun every check from step 7 until they pass.
+
 - Branch: `weekly/<slug>`
 - Title: `New article: <headline>`
 - Body, kept short for a phone: a 2-sentence summary, the topic's reason for being timely, any claim you couldn't confirm, one question asking Chris for a field note that would make this article better (he can answer in the COO inbox), and this line: **Merge to publish. Close to reject.**

@@ -1,5 +1,12 @@
 ## Workflow current verified checkpoint
 
+## November 12 — E4 illustration selected; concise reader caption
+
+Chris instructed use of the latest E4 workbench illustration, then reaffirmed no repetitive warnings/cautions/AI branding in the publication. Use the concise reader caption Optidrive E4 product illustration; keep detailed provenance in internal project records. No real installation photograph or technical certification claimed. Do not use generated fine-print/QR/terminal details as technical evidence.
+
+Selected source art-library/generated/invertek-e4/e4-workbench-original.png, SHA2560f39222428e299cf1eec3ab499836e16da80dc7fe3b2e353ea11d0dab2b3fa4b. Founder reference archived separately; full-frame1536x1024 WebP hashab858f1504c8a1bbc381f0376b04c9527a1dcf406fc3c09a5d6c0e5da5174cc2. Original source viewed; complete drive/context retained. This resolves the request for a separate product photo by explicit founder selection of illustration. Card/lead contain; actual390/768/1280 visual acceptance remains pending deployment. Original manuscript and all approval/release artifacts unchanged.
+
+
 ## November 12 — supplied Optidrive ECO photograph added
 
 Chris supplied IMG_5849.jpeg as Invertek eco and instructed Add and continue. Original preserved unchanged at art-library/uploads/invertek-optidrive-eco/IMG_5849.jpeg, SHA2568df98899ae234fb91f264ca24280cfb7aeeabc58603f4d6460b3ae17bcf12cd4, Git blobcb6989397b1fc1b6fb085d930bb216134c0ab085,320587bytes,1320x1690. Actual source viewed with view_image; visible Optidrive ECO branding supports identity. Full enclosure/front controls, mounts and conduit context retained. Exact SKU/rating and compliance not asserted. Rights basis: founder supplied and instructed addition under standing supplied-photo permission.

@@ -8,7 +8,7 @@ class PhotoLibraryTests(unittest.TestCase):
   self.assertEqual(len({a['repository_file'] for a in catalog['assets']}),len(catalog['assets']))
   for a in catalog['assets']:
    self.assertTrue((ROOT/a['repository_file']).is_file())
-   if a['repository_file'].startswith('art-library/uploads/'):
+   if a['repository_file'].startswith(('art-library/uploads/','art-library/generated/')):
     self.assertEqual(a['source_url'],'https://github.com/TheFanGuys/HVLS-360/blob/main/'+a['repository_file'])
     self.assertTrue(a['rights_basis'])
     import hashlib

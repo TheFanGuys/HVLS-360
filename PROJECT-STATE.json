@@ -187,7 +187,9 @@
     "independent_failure_recovery_verified": false,
     "run_now_execution_mode": "inline_current_conversation",
     "runtime_pr": 151,
-    "remaining_dependency": "Later independent recurring run must process recovery fixture, then unchanged run must suppress output."
+    "remaining_dependency": "Later independent recurring run must process recovery fixture, then unchanged run must suppress output.",
+    "fixture_revision": 2,
+    "fixture_status": "pending_independent_recovery_after_durable_inline_failure_readback"
   },
   "taz_second_photo_acceptance": {
     "source_revision": "176181ae86e456f7bd369a7f3085c4df65599b8a",

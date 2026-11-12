@@ -27,7 +27,15 @@
       "reviewed_media_source_sha256": "a6011124f79cce789b4f056ecdb6a73bbd2755df5de904e26e2bfe7f9a788e4d",
       "draft_branch": "production/issue-96",
       "media_status": "withheld",
-      "media_review_outcome": "rejected_editorial_mismatch"
+      "media_review_outcome": "rejected_editorial_mismatch",
+      "image_request": {
+        "status": "requested_from_chris",
+        "subject": "Invertek Optidrive E4",
+        "needed": "Clear product photograph with E4 identity visible, or a relevant E4 installation view. Include the complete drive; a landscape view is helpful but not required.",
+        "rights": "Photo Chris took/owns, or an image explicitly permitted for HVLS 360 editorial use; retain source and permission.",
+        "requested_at_utc": "2026-11-12T02:01:24.074899+00:00",
+        "notified_in_chat": true
+      }
     }
   ]
 }

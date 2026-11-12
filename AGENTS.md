@@ -50,3 +50,6 @@ Work is split into Website & Editing, Content & Imagery, Research-to-Publication
 
 ## Product-story image relevance
 For a story about one manufacturer/product, verify the pictured manufacturer/product and editorial relevance separately from rights and crop quality. Do not use competing branded hardware as the lead/card merely because a caption calls it context. If no suitable authorized source is established, withhold imagery and record the media blocker; do not mark the package complete.
+
+## Founder image assistance — November 12
+When Art cannot find a suitable image with verified depicted identity, editorial relevance and recorded rights after checking the shared library/new uploads, promptly tell Chris which article needs an image and the useful subject/model/view so he can supply one. Record the request once; repeat only on material change. Art still owns routine crops and continues independent work while awaiting media.

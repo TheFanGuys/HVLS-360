@@ -29,6 +29,12 @@ Five evidence-backed working drafts, **none published**:
 
 See `editorial/drafts/`, `editorial/reviews/` and `editorial/media/`. Manufacturer photographs linked as candidates **are not cleared for reuse**.
 
+## Weekly articles (current workflow)
+
+A scheduled writer produces one researched article per week and opens a pull request. **Merge to publish, close to reject.** Instructions: `office/WEEKLY-WRITER.md`. Release helper: `office/weekly_article.py`.
+
+The ChatGPT department automations (Art Director, Draft Production, COO) are retired for article production.
+
 ## Publishing a reviewed article
 
 Publication does **not** occur from research or from tapping a browser-side approval button. Work in a dedicated release PR:

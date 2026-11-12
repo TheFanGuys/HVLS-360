@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slug": "hvls-fans-sprinkler-interlock-field-guide",
+  "publisher_decision": "approved",
+  "technical_review": "complete",
+  "editorial_review": "complete",
+  "media_rights": "cleared",
+  "publisher_name": "Chris Fogarty",
+  "approved_at_utc": "2026-11-12T11:20:27Z",
+  "publisher_attestation": "I explicitly authorize publication of this article.",
+  "approval_mechanism": "Founder approves by merging the weekly release pull request. Unmerged, nothing is live.",
+  "source_review_notes": "Writer's source check: editorial/reviews/hvls-fans-sprinkler-interlock-field-guide-review.md. Technical review is the founder's field review at merge; no licensed engineer sign-off claimed. Revised 2026-11-12; founder approves by merging the fix pull request.",
+  "media_rights_evidence": "Lead image is a Big Fan Guys photograph or original HVLS 360 illustration: editorial/media/original/hvls-fans-sprinkler-interlock-field-guide.svg",
+  "article_sha256": "05b08f9a15cba44e65ce3103a764ff4a148057e231646cac1d568586780b4a4c",
+  "release_inputs_sha256": "a19224e7fde0e061396672d59fe50ba2418d75b80f978e3d6ca25c3924c20b0a"
+}

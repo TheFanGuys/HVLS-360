@@ -293,6 +293,29 @@
         "reviewer": "Art & Media Director / assistant visual review",
         "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
       }
+    },
+    "hvls-fans-sprinkler-interlock-field-guide": {
+      "file": "editorial/media/original/hvls-fans-sprinkler-interlock-field-guide.svg",
+      "alt": "Diagram of an HVLS fan centered between two sprinkler heads with 3 ft clearance below the deflectors, and a waterflow switch wired through a fire alarm control unit to the fan controller",
+      "caption": "Illustration of HVLS fan placement under sprinklers and the waterflow shutdown interlock.",
+      "kind": "diagram",
+      "credit": "HVLS 360°",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-12",
+        "scope": "Card and article lead use contain; full source frame retained.",
+        "reviewer": "Weekly article worker",
+        "evidence": "office/weekly_article.py"
+      }
     }
   }
 }

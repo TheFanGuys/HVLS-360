@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="title desc">
+  <title id="title">HVLS fan placement under sprinklers and the waterflow shutdown interlock</title>
+  <desc id="desc">An HVLS fan hangs centered between two sprinkler heads with at least 3 ft between the deflectors and the fan. A waterflow switch on the sprinkler riser signals a fire alarm control unit, whose relay contact connects to the fan controller interlock terminals.</desc>
+  <rect width="1200" height="675" fill="#f4f1ea"/>
+  <!-- roof deck -->
+  <rect x="40" y="40" width="1120" height="18" fill="#6b6b6b"/>
+  <text x="50" y="32" font-size="18" fill="#333">Roof deck</text>
+  <!-- downrod -->
+  <rect x="434" y="58" width="12" height="190" fill="#3c4a57"/>
+  <!-- sprinkler branch line -->
+  <rect x="60" y="92" width="760" height="10" fill="#b23a2e"/>
+  <text x="60" y="84" font-size="18" fill="#333">Sprinkler branch line</text>
+  <!-- sprinkler heads -->
+  <g fill="#b23a2e">
+    <rect x="166" y="102" width="8" height="20"/><path d="M156 122 h28 l-6 8 h-16 z"/>
+    <rect x="696" y="102" width="8" height="20"/><path d="M686 122 h28 l-6 8 h-16 z"/>
+  </g>
+  <text x="120" y="155" font-size="17" fill="#333">Sprinkler head</text>
+  <text x="652" y="155" font-size="17" fill="#333">Sprinkler head</text>
+  <!-- deflector line -->
+  <line x1="120" y1="130" x2="760" y2="130" stroke="#555" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <!-- fan: downrod, motor, blades -->
+  <rect x="404" y="248" width="72" height="44" rx="6" fill="#3c4a57"/>
+  <rect x="150" y="286" width="580" height="12" rx="6" fill="#2f6f8f"/>
+  <text x="502" y="276" font-size="17" fill="#333">Fan motor</text>
+  <text x="150" y="326" font-size="17" fill="#333">Blades, up to 24 ft diameter</text>
+  <!-- 3 ft clearance dimension -->
+  <line x1="770" y1="130" x2="770" y2="286" stroke="#111" stroke-width="2"/>
+  <path d="M762 142 l8 -12 l8 12 z M762 274 l8 12 l8 -12 z" fill="#111"/>
+  <line x1="740" y1="286" x2="790" y2="286" stroke="#111" stroke-width="1.5"/>
+  <text x="790" y="200" font-size="20" font-weight="bold" fill="#111">3 ft minimum</text>
+  <text x="790" y="224" font-size="17" fill="#333">deflector to fan</text>
+  <!-- centered note -->
+  <line x1="170" y1="360" x2="700" y2="360" stroke="#555" stroke-width="1.5"/>
+  <line x1="170" y1="352" x2="170" y2="368" stroke="#555" stroke-width="1.5"/>
+  <line x1="700" y1="352" x2="700" y2="368" stroke="#555" stroke-width="1.5"/>
+  <line x1="440" y1="350" x2="440" y2="370" stroke="#555" stroke-width="3"/>
+  <text x="250" y="392" font-size="17" fill="#333">Centered between adjacent sprinklers</text>
+  <!-- riser + flow switch -->
+  <rect x="950" y="102" width="16" height="520" fill="#b23a2e"/>
+  <rect x="820" y="92" width="146" height="10" fill="#b23a2e"/>
+  <rect x="930" y="470" width="56" height="40" rx="4" fill="#e0b13a" stroke="#333"/>
+  <text x="996" y="486" font-size="17" fill="#333">Waterflow</text>
+  <text x="996" y="506" font-size="17" fill="#333">switch</text>
+  <text x="975" y="645" font-size="17" fill="#333">Sprinkler riser</text>
+  <!-- fire alarm control unit -->
+  <rect x="560" y="470" width="200" height="90" rx="6" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="660" y="505" font-size="18" text-anchor="middle" fill="#111">Fire alarm</text>
+  <text x="660" y="530" font-size="18" text-anchor="middle" fill="#111">control unit</text>
+  <text x="660" y="550" font-size="14" text-anchor="middle" fill="#555">with shutdown relay</text>
+  <!-- fan controller -->
+  <rect x="140" y="470" width="220" height="90" rx="6" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="250" y="505" font-size="18" text-anchor="middle" fill="#111">Fan controller</text>
+  <text x="250" y="530" font-size="18" text-anchor="middle" fill="#111">or drive</text>
+  <text x="250" y="550" font-size="14" text-anchor="middle" fill="#555">interlock terminals</text>
+  <!-- wires -->
+  <path d="M930 490 H760" stroke="#111" stroke-width="3" fill="none"/>
+  <path d="M560 515 H360" stroke="#111" stroke-width="3" fill="none" stroke-dasharray="12 6"/>
+  <path d="M250 470 V420 H440 V292" stroke="#3c4a57" stroke-width="3" fill="none"/>
+  <text x="845" y="480" font-size="15" text-anchor="middle" fill="#333">flow signal</text>
+  <text x="460" y="505" font-size="15" text-anchor="middle" fill="#333">relay contact</text>
+  <text x="460" y="590" font-size="15" text-anchor="middle" fill="#333">Check the manual: some panels stop</text>
+  <text x="460" y="610" font-size="15" text-anchor="middle" fill="#333">on a closing contact, others on an opening one</text>
+  <text x="268" y="440" font-size="15" fill="#333">fan power and control</text>
+</svg>

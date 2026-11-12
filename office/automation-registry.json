@@ -62,11 +62,16 @@
     "stale_instruction_removed": true,
     "max_assignments_per_run": 1,
     "output_queue": "office/production-queue.json",
-    "first_production_output_verified": false,
+    "first_production_output_verified": true,
     "independent_scheduled_output_verified": false,
     "additional_spend_usd": 0,
     "plan_quota_remaining": "not_exposed; stop at quota/no paid fallback",
     "environment_selection": "inherited",
-    "environments": null
+    "environments": null,
+    "first_production_issue": 96,
+    "first_production_pr": 163,
+    "first_production_head": "d2e42e39a948a87b615169276e6b6f35bf362aee",
+    "pilot_execution_mode": "inline_run_now_not_independent_schedule",
+    "visible_queue": "office/production-queue.html"
   }
 }

@@ -1,6 +1,6 @@
 # HVLS 360 Draft Production worker
 
-This is the saved active production instruction, not evidence of completed articles. Uses existing hosted task Automation_a726d89a5d388191bd3ff61cc57019b0. One bounded assignment per run; no article release authority. First delivery remains unverified.
+This is the saved active production instruction, not evidence of completed articles. Uses existing hosted task Automation_a726d89a5d388191bd3ff61cc57019b0. One bounded assignment per run; no article release authority. First actual inline delivery is recorded in PR163 and office/production-queue.json. Independent scheduled delivery remains unverified.
 
 ## Active prompt
 

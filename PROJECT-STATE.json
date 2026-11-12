@@ -15,7 +15,7 @@
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish verified operating workflows and shared department handoffs before article fine-tuning.",
-  "next_task": "Run the configured Draft Production worker on one accepted research assignment; verify source checks, actual draft/reviews/media/SEO and founder-review PR/queue writeback. Independent scheduling/dedup remains acceptance work; original twelve launch pieces unchanged.",
+  "next_task": "Read first produced draft96 from office/production-queue.html. Observe first independently scheduled Draft Production execution and quiet repeat behavior; first pilot is inline, not scheduled acceptance. Preserve original launch edition and existing approvals.",
   "active_issues": [
     92,
     93,
@@ -288,14 +288,20 @@
     "live_held_packet_matches": true
   },
   "draft_production": {
-    "status": "runtime_configured_first_output_unverified",
+    "status": "first_real_inline_draft_delivered_scheduled_delivery_unverified",
     "automation_id": "Automation_a726d89a5d388191bd3ff61cc57019b0",
     "prompt_file": "office/DRAFT-PRODUCTION-WORKER.md",
     "queue": "office/production-queue.json",
     "enabled": true,
     "next_run_time": "2026-11-13T11:45:00-05:00",
-    "first_production_output_verified": false,
+    "first_production_output_verified": true,
     "independent_scheduled_delivery_verified": false,
-    "release_authorized": false
+    "release_authorized": false,
+    "first_production_pr": 163,
+    "first_production_issue": 96,
+    "first_production_head": "d2e42e39a948a87b615169276e6b6f35bf362aee",
+    "visible_queue": "office/production-queue.html",
+    "execution_mode": "inline_run_now",
+    "publication_authorized": false
   }
 }

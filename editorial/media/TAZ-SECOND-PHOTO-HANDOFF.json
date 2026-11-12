@@ -10,7 +10,7 @@
     "height": 1536
   },
   "role": "Second contextual article photograph; not a replacement lead or card",
-  "status": "source_selection_accepted_responsive_integration_pending",
+  "status": "source_and_deployed_responsive_integration_accepted",
   "alt": "Front view of a chain-suspended black directional fan showing horizontal discharge louvers and a protective guard above a production floor.",
   "caption": "Front view of the publisher-identified TAZ, showing discharge louvers, protective guard and chain suspension. Big Fan Guys field photograph.",
   "credit": "Big Fan Guys",
@@ -35,16 +35,48 @@
     "card_use": false
   },
   "responsive_visual_review": {
-    "status": "pending Website integration",
-    "required": [
-      "Actual desktop, tablet and phone article rendering",
-      "Image loads at intended location with complete source frame and natural proportion",
-      "No horizontal overflow, clipping, unreadable caption or duplicate lead",
-      "Record rendering source revision, exact asset hash, widths and evidence before marking complete"
+    "status": "accepted",
+    "source_revision": "176181ae86e456f7bd369a7f3085c4df65599b8a",
+    "pr": 147,
+    "pages_run": 43130101206,
+    "proof_url": "https://thefanguys.github.io/HVLS-360/office/context-photo-proof.html?v=art-147",
+    "frame_widths": [
+      390,
+      768,
+      1280
     ],
-    "physical_iphone_test_claimed": false
+    "effective_widths": [
+      375,
+      753,
+      1265
+    ],
+    "rendered_sizes": [
+      [
+        331,
+        441.328125
+      ],
+      [
+        709,
+        945.328125
+      ],
+      [
+        806,
+        1074.65625
+      ]
+    ],
+    "source_dimensions": [
+      1152,
+      1536
+    ],
+    "fit": "contain",
+    "loaded_frames": 3,
+    "horizontal_overflow_frames": 0,
+    "duplicate_context_images": 0,
+    "live_manuscript_blob": "d3161b34d449851eea679e7deb4c096498c48af0",
+    "visual_result": "Viewed actual rendered phone image and tablet/desktop upper and lower source bounds/captions. Suspended housing, louvers, guard, chains and work-floor context retained; no crop; natural aspect ratio. Current saved-text refresh retains exactly one contextual image after the descriptive paragraph.",
+    "physical_device_test": false
   },
   "publication_allowed": false,
-  "handoff_owner": "Website & Editing lead; coordinate through shared board/PR",
+  "handoff_owner": "Art & Media Director completed routine visual integration; Website category retains its unrelated authenticated acceptance.",
   "approval_boundary": "This accepts source selection, routine caption and full-frame intent only. It does not change founder text approval or authorize article release."
 }

@@ -11,11 +11,11 @@
   "drafts": 12,
   "qualified_technical_signoffs": 0,
   "approved_news_articles": 0,
-  "last_verified_python_tests": 205,
+  "last_verified_python_tests": 208,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
   "current_objective": "Finish verified operating workflows and shared department handoffs before article fine-tuning.",
-  "next_task": "Start each category from its handoff and current main. Website resumes preserved WIP; Agent Operations verifies the enabled Art Director task\u2019s first completed execution.",
+  "next_task": "Start each category from its handoff and current main. Website resumes preserved WIP; Agent Operations verifies the enabled Art Director task’s first completed execution.",
   "active_issues": [
     92,
     93,
@@ -33,7 +33,7 @@
   "unverified": [
     "Studio direct authenticated Save and second physical device reopen",
     "Expanded scheduled trigger and new research Issue creation/readback",
-    "TAZ second photo integration/responsive visual acceptance and four new brief founder text decisions",
+    "Founder-deferred image suitability corrections (CFEI rejected source and portrait landscape-card concern); first decisions on four newer briefs remain separate from operations",
     "Founder-authorized end-to-end news release",
     "Branch protection administration",
     "Free embedded COO accounts, backend and real execution",
@@ -62,10 +62,10 @@
   "selected_image_composition_complete": false,
   "selected_image_reviewed_stories": 12,
   "public_research_image_placements_reviewed": 6,
-  "art_media_director_owner": "Art & Media Director \u2014 assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
+  "art_media_director_owner": "Art & Media Director — assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
   "art_director_checkpoint": "editorial/media/art-director-checkpoint.json",
-  "art_director_last_checked_source": "d88ea51e0c6c0da1c010b6456c320886d8574a8a",
-  "art_director_last_outcome": "baseline_established_no_relevant_change",
+  "art_director_last_checked_source": "176181ae86e456f7bd369a7f3085c4df65599b8a",
+  "art_director_last_outcome": "taz_integration_accepted_deferred_suitability_work_recorded",
   "handoff_files": [
     "office/handoffs/01-Website-and-Editing-Handoff.md",
     "office/handoffs/02-Content-and-Imagery-Handoff.md",
@@ -77,7 +77,7 @@
   "art_director_automation_enabled": true,
   "art_director_automation_completed_run_verified": true,
   "automation_registry": "office/automation-registry.json",
-  "art_director_changed_image_run_verified": false,
+  "art_director_changed_image_run_verified": true,
   "website_editing_acceptance": {
     "status": "deployed_independent_checks_complete_live_auth_blocked",
     "basis_main": "7b6727cccbab925ca6f4959c36af4bf28bf9eb4a",
@@ -121,13 +121,8 @@
     "reference_direct_opens": 23,
     "reference_access_limit": "OSHA 1996 interpretation direct403; official indexed text recovered",
     "existing_selected_asset_hashes_checked": 10,
-    "fully_integrated_illustrated_packages": 11,
+    "fully_integrated_illustrated_packages": 12,
     "dependencies": [
-      {
-        "owner": "Website & Editing lead / Art Director",
-        "task": "Integrate TAZ second selected photo and inspect actual desktop/tablet/phone placements",
-        "evidence": "editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json"
-      },
       {
         "owner": "Chris",
         "task": "First text decisions on four newer briefs",
@@ -151,7 +146,8 @@
       "technical_audit": "passed",
       "metadata_audit": "passed",
       "publication_guard": "passed"
-    }
+    },
+    "deferred_image_suitability": "Founder rejection of CFEI source and portrait landscape-card concern remain pending operations-first direction. Integration count is not editorial suitability clearance."
   },
   "founder_content_feedback": {
     "status": "recorded_deferred_until_operational_completion",
@@ -180,5 +176,46 @@
     "inherited_environments": null,
     "extra_spend_usd": 0,
     "remaining_owner": "Agent Operations Lead"
+  },
+  "taz_second_photo_acceptance": {
+    "source_revision": "176181ae86e456f7bd369a7f3085c4df65599b8a",
+    "pr": 147,
+    "pages_run": 43130101206,
+    "proof_url": "https://thefanguys.github.io/HVLS-360/office/context-photo-proof.html?v=art-147",
+    "frame_widths": [
+      390,
+      768,
+      1280
+    ],
+    "effective_widths": [
+      375,
+      753,
+      1265
+    ],
+    "rendered_sizes": [
+      [
+        331,
+        441.328125
+      ],
+      [
+        709,
+        945.328125
+      ],
+      [
+        806,
+        1074.65625
+      ]
+    ],
+    "source_dimensions": [
+      1152,
+      1536
+    ],
+    "fit": "contain",
+    "loaded_frames": 3,
+    "horizontal_overflow_frames": 0,
+    "duplicate_context_images": 0,
+    "live_manuscript_blob": "d3161b34d449851eea679e7deb4c096498c48af0",
+    "visual_result": "Viewed actual rendered phone image and tablet/desktop upper and lower source bounds/captions. Suspended housing, louvers, guard, chains and work-floor context retained; no crop; natural aspect ratio. Current saved-text refresh retains exactly one contextual image after the descriptive paragraph.",
+    "physical_device_test": false
   }
 }

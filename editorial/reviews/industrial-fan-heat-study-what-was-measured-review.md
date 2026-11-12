@@ -21,3 +21,12 @@ Technical disposition: **documentary review complete for current scope** — Ana
 Professional review becomes required if scope adds: Medical guidance, universal safe fan temperature, quantified productivity/savings promise or independent study conclusion beyond available announcement.
 
 Founder text: first decision on this new brief remains pending; it is outside the original-eight approval. Selected media, metadata and release holds are separate in `editorial/launch-completion-ledger.json`. No release authorization is recorded. Historical unchecked items above are superseded only where this current record explicitly resolves them.
+
+## Technical check: lead image change (2026-11-12)
+
+| Element | Source | Result |
+|---|---|---|
+| Brand on hub reads "BIG ASS FANS" | Photo IMG_4975 supplied by Chris through the Command Screen, original kept at art-library/uploads/chris-2026-11/IMG_4975.jpg | Matches the manufacturer named in the article. Caption names the brand only; no model is claimed because none is visible. |
+| Location | Same photo | Warehouse roof with joists. Not one of the Baton Rouge study sites, so the caption says "not a study site." |
+| Edit | Art desk | 4:3 crop around hub and yellow mount, pipe with printed markings cut from the top, auto-levels, light contrast and sharpening. Nothing added or removed from the scene. |
+| Replaced image | editorial/media/publisher/bfg-field/production-floor.webp | Showed a different brand's fan on a story about a Big Ass Fans study. |

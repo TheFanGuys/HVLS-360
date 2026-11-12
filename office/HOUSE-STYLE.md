@@ -39,3 +39,7 @@ Structures:
 ## Read-aloud test
 
 Before handing off, read each paragraph as if you're saying it to a guy on a lift. If you'd never say it out loud, rewrite it.
+
+## Chris's rules
+
+- Photos (Chris, November 12, 2026): every image the Art desk publishes should look like a professional publication photo. Before use, crop to a clean, level composition around the subject, cut distracting clutter at the frame edges, set exposure and white balance, and add light sharpening. Never add, remove or alter equipment, labels or anything else in the scene. If a photo can't be made to look professional that way, don't use it; ask Chris for a better one.

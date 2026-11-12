@@ -200,9 +200,9 @@
       ]
     },
     "industrial-fan-heat-study-what-was-measured": {
-      "file": "editorial/media/publisher/bfg-field/production-floor.webp",
-      "alt": "Overhead fans across an industrial production floor",
-      "caption": "Big Fan Guys production-floor photograph used for context; not a study site.",
+      "file": "editorial/media/publisher/bfg-field/big-ass-fans-hub-warehouse.webp",
+      "alt": "Big Ass Fans HVLS fan hub and blades under a steel warehouse roof",
+      "caption": "Big Ass Fans HVLS fan in a warehouse. Not a study site.",
       "kind": "photo",
       "credit": "Big Fan Guys",
       "presentation": {
@@ -216,10 +216,10 @@
         }
       },
       "crop_review": {
-        "reviewed": "2026-11-11",
-        "scope": "Card and article lead; full subject retained. Portrait photographs and diagrams use contain; article leads preserve the complete source frame.",
-        "reviewer": "Art & Media Director / assistant visual review",
-        "evidence": "editorial/media/CROP-REVIEW-2026-11-11.md"
+        "reviewed": "2026-11-12",
+        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+        "reviewer": "Weekly article worker (Art desk)",
+        "evidence": "office/weekly_article.py"
       }
     },
     "ceiling-fans-hvac-air-distribution-research": {

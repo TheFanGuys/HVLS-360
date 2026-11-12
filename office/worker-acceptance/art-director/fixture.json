@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "fixture_id": "art-recurring-acceptance-01",
-  "revision": 1,
+  "revision": 2,
   "enabled": true,
   "owner": "Agent Operations Lead",
   "label": "ACCEPTANCE FIXTURE ONLY \u2014 never article content",
@@ -27,7 +27,7 @@
     "do_not_create_missing_file": true
   },
   "output_path": "office/worker-acceptance/art-director/result.json",
-  "status": "pending_independent_worker",
+  "status": "pending_independent_recovery",
   "required_evidence": [
     "exact input digest and source SHA256",
     "worker run id if exposed and actual UTC start/end",
@@ -38,6 +38,18 @@
     "retry once only after explicit recovery phase on later run",
     "no-change run produces no repeated writes or notifications"
   ],
-  "recovery_phase": "failure_probe_then_review",
-  "cancelled": false
+  "recovery_phase": "visual_review",
+  "cancelled": false,
+  "coordinator_acknowledgment": {
+    "owner": "Agent Operations Lead",
+    "readback_at_utc": "2026-11-12T00:59:38.667212+00:00",
+    "prior_result_blob": "a9a22e9949a59088ba4726ab46e7d19fb09c36c3",
+    "prior_input_sha256": "d398fa7fa5ea5c7e76fbb1759b2f9bd5d014e390770ab52b00e98fa0d43d5280",
+    "prior_execution_mode": "inline_not_independent",
+    "failure_routes": [
+      "https://github.com/TheFanGuys/HVLS-360/issues/94#issuecomment-6811182231",
+      "https://github.com/TheFanGuys/HVLS-360/issues/106#issuecomment-6811181983"
+    ],
+    "action": "Recovery phase may now inspect existing real source; leave absent probe absent; preserve prior result history."
+  }
 }

@@ -1,3 +1,6 @@
+## Art recurring recovery checkpoint
+Completed independent run9c138082 verifies TAZ147/150 visual correction/writeback. Run-now executes inline here; its rev1 missing-input result is labeled accordingly. Operations read it back and advanced fixture to revision2/visual_review. Next independent recurring task must inspect/correct fixture, preserve prior history, and then demonstrate a quiet unchanged run. Category remains open. Do not rerun the missing probe or ask Chris for routine permission.
+
 ## Agent Operations continuation
 Read office/DEPARTMENT-EXECUTION-CONTRACTS.md and the Art acceptance fixture. Observe existing task/current run before starting another; never infer visual capability from its schedule. Missing-input failure must be read back before advancing fixture recovery; no approved content changes for tests.
 

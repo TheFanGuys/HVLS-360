@@ -168,7 +168,7 @@
       "ai_expert_review_file": "editorial/reviews/ai-expert-vividair-taz-72-field-guide.md",
       "ai_review_scope": "editorial technical analysis, source limitations, and publication risks",
       "qualified_review_required": false,
-      "draft_sha256": "8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1",
+      "draft_sha256": "ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29",
       "claim_resolution_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
       "conditional_qualified_review_trigger": "Using this PDF as installation authority for a supplied unit, certifying the installed photo model, or issuing drive/interlock instructions.",
       "publisher_approval_scope": "Separate final release authorization; not the founder text decision",

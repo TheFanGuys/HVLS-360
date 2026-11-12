@@ -40,12 +40,12 @@ Founder feedback: no specific factual changes requested; some passages still sou
 Nov 11 full-queue recheck: included the TAZ revision from PR #111 in the eight-article voice review. No additional TAZ text changes needed in this pass. All technical/media/founder holds remain.
 
 
-Voice pass revision record: 8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+Voice pass revision record: ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
 
 
 ## Current launch reconciliation — November 11, 2026
 
-Exact manuscript SHA-256: `8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+Exact manuscript SHA-256: `ee515918582eb81de67ecce9a51f87208f8a69a38bba4c1c4776a0f47dc54a29`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
 
 Technical disposition: **documentary review complete for current scope** — Directional-fan documentary briefing with openly attributed publisher photo identification. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `vividair-taz-72-field-guide`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
 

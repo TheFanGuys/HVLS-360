@@ -47,5 +47,35 @@
     "research_leads": 14,
     "editorial_briefs": 0
   },
-  "publication_allowed": false
+  "publication_allowed": false,
+  "controlled_integration": {
+    "run_id": 43131784744,
+    "job_id": 130897416109,
+    "artifact_id": 13905646483,
+    "fixture_issue": 157,
+    "conclusion": "success",
+    "new_create_direct_readback": true,
+    "repeat_and_closed_deduplication": true,
+    "failure_recovery_comments_readback": true,
+    "fixture_closed": true,
+    "genuine_new_reporting_issue": false,
+    "scheduled_trigger": false,
+    "failed_controlled_runs": [
+      43131023682,
+      43131380689
+    ],
+    "repair": "Read-only verification supplemented by direct verified Issue receipts; stale list reads cannot cause a second create."
+  },
+  "controlled_integration_scope": "Actual authenticated Actions transport with explicitly labeled reversible fixtures; not scheduled or genuinely new reporting acceptance.",
+  "post_merge_production_verification": {
+    "run_id": 43131926233,
+    "event": "push",
+    "conclusion": "success",
+    "job_id": 130897894847,
+    "result_commit": "61b716c26e845d960cc389f59533a279f7dcaedc",
+    "leads": 18,
+    "eligible_briefs": 0,
+    "issues_created": 0,
+    "manufacturer_source_errors": 1
+  }
 }

@@ -51,3 +51,19 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 
 
 Voice pass revision record: 9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+
+
+## Current launch reconciliation — November 11, 2026
+
+Exact manuscript SHA-256: `9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+
+Technical disposition: **documentary review complete for current scope** — Dated redesign report and manufacturer document/claims interpretation. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `greenheck-ds-series-2026-field-report`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
+
+- DS-3 and DS-6 URLs redirect here. Lists 487917 IOM, 483568 IOM shipped prior to 1/1/26, 483972 older supplement and separate control guides. Evidence: Documents section; live_primary_recheck.
+- DS-3 table supports 8–24 ft range and 209,800 CFM family maximum; not a same-size comparative test. Evidence: January 2026 performance table; live_primary_recheck.
+- DS-6 table supports 8–24 ft range and distinct family maximum; retains manufacturer attribution. Evidence: January 2026 performance table; live_primary_recheck.
+- Supports 55 C/IP66, 83 percent above minimum, protocol offerings and installation-time claims as manufacturer statements, without independent test baseline. Evidence: December 2025 announcement; live_primary_recheck.
+
+Professional review becomes required if scope adds: Specific structural attachment, wiring/controller selection, interlock design or independently certifying labor/comfort performance.
+
+Founder text: **approved exact revision**, preserved in `editorial/founder-approval-register.json`; do not ask for the same approval again. Selected media, metadata and release holds are separate in `editorial/launch-completion-ledger.json`. No release authorization is recorded. Historical unchecked items above are superseded only where this current record explicitly resolves them.

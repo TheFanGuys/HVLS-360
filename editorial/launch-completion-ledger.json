@@ -1,0 +1,1394 @@
+{
+  "schema_version": 1,
+  "edition": "Launch edition 1 \u2014 twelve existing original pieces",
+  "reconciled_date": "2026-11-11",
+  "baseline_commit": "7b6727cccbab925ca6f4959c36af4bf28bf9eb4a",
+  "owner": "Content Completion Lead",
+  "scope_frozen": true,
+  "scope_rule": "Finish the twelve existing manuscripts. Additional research assignments remain explicitly outside this edition until their evidence warrants a finished story; no arbitrary volume target.",
+  "release_ready": false,
+  "counts": {
+    "launch_pieces": 12,
+    "original_eight_exact_text_approvals": 8,
+    "new_briefs_awaiting_founder_decision": 4,
+    "selected_story_media_mappings": 12,
+    "reference_records": 24,
+    "qualified_technical_signoffs": 0,
+    "published_launch_news_items": 0,
+    "documentary_reviews_complete": 12,
+    "fully_integrated_illustrated_packages": 11
+  },
+  "record_authority": "Founder register governs original-eight text approvals. Technical and media evidence do not imply release authorization. Historical frontmatter/checklists may be stale; do not infer new approval requirements from them.",
+  "locations": {
+    "manuscripts": "editorial/drafts/",
+    "source_claim_voice_records": "editorial/reviews/",
+    "metadata": "office/launch-package.json",
+    "selected_media": "editorial/media/article-images.json",
+    "candidate_photos": "art-library/",
+    "public_references": "resources/research-index.json",
+    "preview": "office/preview/",
+    "research_leads": "office/research-latest.json"
+  },
+  "visibility": {
+    "public_site": "Public homepage research summaries and resources/research-index.json references. No launch news release is inferred.",
+    "preview": "office/preview/ is noindex but publicly accessible; it is not authenticated private review storage.",
+    "repository": "The GitHub repository is public. art-library/ is excluded from Pages, but directly accessible in GitHub.",
+    "candidates": "73 source images are candidates, not 73 cleared publication assets."
+  },
+  "reference_library": {
+    "file": "resources/research-index.json",
+    "sha256": "4c396c535bfa1f2b9d70153503bf94d5178e68e88b6e36db1612b0ea337cad03",
+    "count": 24,
+    "checked_dates": [
+      "2026-11-11"
+    ],
+    "scope": "Studies, laws, regulations and technical information; no manufacturer-manual listings. Source titles and summaries distinguish official overviews, interpretations, manufacturer announcements and research.",
+    "recheck_policy": "All 24 attempted in this audit: 23 official opens, one OSHA 1996 direct 403 with official indexed text recovered. Exact scope in editorial/media/LAUNCH-MEDIA-AUDIT-2026-11-11.md; preserve source/access dates."
+  },
+  "research_inventory": {
+    "file": "office/research-latest.json",
+    "generated_at": "2026-11-11T15:44:18.812093+00:00",
+    "status": "unverified_research_leads",
+    "lead_count": 18,
+    "errors": [],
+    "counting_rule": "Unverified leads, indices and source links are not finished manuscripts or a hidden archive."
+  },
+  "backlog": [
+    {
+      "issue": 96,
+      "assignment": "Optidrive E4 US service reporting",
+      "verified_issue_state": "Researching \u2014 Managing Editor accepted evidence work",
+      "issue_read_date": "2026-11-11",
+      "owner": "Research Lead",
+      "launch_scope": "outside edition 1",
+      "reason": "US order codes/listings, exact options and OEM compatibility remain unverified; diagnostic/USB-C claims do not establish a drop-in E3 replacement. Existing controls coverage supplies a useful launch entry without inventing application advice.",
+      "minimum_evidence": "Current US SKU/supply/enclosure/listing and manual revision; exact terminal/parameter/protocol comparison; scoped STO interpretation before any retrofit recommendation.",
+      "primary_sources": [
+        "https://www.invertekdrives.com/news/general-news/invertek-drives-optidrive-e4-delivers-increased-capability-without-complexity",
+        "https://www.invertekdrives.com/variable-frequency-drives/optidrive-e4"
+      ],
+      "date_context": "October 29, 2026 update; manufacturer index records initial unveiling November 25, 2025."
+    },
+    {
+      "issue": 97,
+      "assignment": "Greenheck MOA compact fan-array retrofit scope",
+      "verified_issue_state": "Researching \u2014 Managing Editor accepted evidence work",
+      "issue_read_date": "2026-11-11",
+      "owner": "Research Lead",
+      "launch_scope": "outside edition 1",
+      "reason": "A ducted air-movement follow-up with unresolved package boundaries and configuration evidence, distinct from existing DS ceiling-fan reporting. Do not pad launch with a release paraphrase.",
+      "minimum_evidence": "Exact selection/submittal, installation and control schematics; comparable airflow/pressure points; incoming power, disconnect/BAS, redundancy and access/shutdown scope before application advice.",
+      "primary_sources": [
+        "https://www.greenheck.com/about-us/news",
+        "https://www.greenheck.com/products/fans/fan-arrays/moa"
+      ],
+      "date_context": "Official release body is October 2026; misleading June 1 URL is not a verified event day."
+    }
+  ],
+  "items": [
+    {
+      "id": "HVLS-01",
+      "issue": 84,
+      "slug": "hvls-air-movement-vs-ventilation",
+      "title": "HVLS Fans, Air Movement and Ventilation: What Facility Managers Need to Know",
+      "format": "field_guide_or_documentary_analysis",
+      "audience": "Facilities managers and HVAC specifiers",
+      "field_relevance": "Separate occupied-zone air mixing and comfort from outdoor-air exchange before writing a facility specification.",
+      "manuscript": {
+        "file": "editorial/drafts/hvls-air-movement-vs-ventilation.md",
+        "sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+        "git_blob": "e0d72e2c15c20f49803d63068c0b924e11873f78",
+        "body_word_count": 662
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
+        "review_sha256": "1808103d8d0fec9ace90083581b249ed6c16da5da53a9d9c2d31f7950ee6328d",
+        "primary_source_urls": [
+          "https://learn.bigassfans.com/design-guide",
+          "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-saving-energy-home-summer-edition",
+          "https://www.epa.gov/indoor-air-quality-iaq/how-does-outdoor-air-enter-building",
+          "https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2",
+          "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy"
+        ],
+        "source_date_statements": [
+          "[4] ASHRAE, *Standard 62.1-2025, Ventilation and Acceptable Indoor Air Quality* (official overview): https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2",
+          "[5] ASHRAE, *Standard 55-2023, Thermal Environmental Conditions for Human Occupancy* (official overview): https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy"
+        ],
+        "recorded_research_checked": "2026-11-11 per companion review",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://learn.bigassfans.com/design-guide",
+          "https://www.energy.gov/articles/top-11-things-you-didnt-know-about-saving-energy-home-summer-edition",
+          "https://www.epa.gov/indoor-air-quality-iaq/how-does-outdoor-air-enter-building",
+          "https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2",
+          "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy"
+        ],
+        "secondary_source_urls": [],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
+        "manuscript_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Chris reported opening the article on iPhone, editing through GitHub, tapping Commit changes, then reopening the same article in Review Studio and seeing the changed wording. Repository commits c170cbb and 84c39bf independently confirm the manuscript changes. Current blob e0d72e2c15c20f49803d63068c0b924e11873f78; SHA-256 `6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b`. This verifies the GitHub editor commit \u2192 same-iPhone Studio reopen path from user observation plus repository evidence. It does not verify Studio's token-based Save button, another physical device, or a founder editorial approval."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "Airflow recirculation vs outdoor-air exchange; ASHRAE 55/62.1 scope; illustration accuracy",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "Numerical outdoor-air design, contaminant-capture substitution, code compliance or a site-specific ventilation calculation.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "HVLS Air Movement vs. Ventilation",
+        "seo_description": "Understand how HVLS air movement differs from outdoor-air ventilation, with practical questions for facility specifications and project reviews.",
+        "related_story_candidates": [
+          "cfei-vs-cfm-per-watt-field-guide",
+          "vividair-taz-72-field-guide"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/publisher/bfg-field/warehouse-hvls.webp",
+        "asset_sha256": "3258472f0f3d509d8cdef31f302348f7387901a57437aa07d3e9c3df747ebb95",
+        "asset_git_blob": "dae950271aaf3d928f854965e3669818296d951d",
+        "kind": "photo",
+        "caption": "Overhead fan above warehouse racking. Big Fan Guys field photograph; illustrative installation context.",
+        "alt": "Overhead fan above warehouse racking",
+        "presentation": {
+          "card": {
+            "fit": "cover",
+            "position": "50% 80%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+      },
+      "founder_text_decision": {
+        "status": "approved_exact_revision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/hvls-air-movement-vs-ventilation.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": []
+      }
+    },
+    {
+      "id": "HVLS-02",
+      "issue": 85,
+      "slug": "abb-2026-ip66-vfd-field-report",
+      "title": "ABB's 2026 Outdoor-Rated Drive Expansion: What Fan Installers Should Actually Check",
+      "format": "field_guide_or_documentary_analysis",
+      "audience": "Service electricians and controls integrators",
+      "field_relevance": "Prevent enclosure ratings and new drive marketing from being mistaken for approval of an HVLS retrofit; identify the motor, OEM controls and environment.",
+      "manuscript": {
+        "file": "editorial/drafts/abb-2026-ip66-vfd-field-report.md",
+        "sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+        "git_blob": "39f89364c20c005328e7512104d1ff0409249a2d",
+        "body_word_count": 657
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/abb-2026-ip66-vfd-field-report-review.md",
+        "review_sha256": "81e40135fbc14b3f80229c19781ac94a3455dca8261ae8ceeb8c1f0677160f07",
+        "primary_source_urls": [
+          "https://new.abb.com/news/detail/136092/abb-expands-portfolio-with-new-ip66-type-4x-drives-for-demanding-environments",
+          "https://new.abb.com/us/us-motion-business-area/drives-products/ach5804X",
+          "https://new.abb.com/news/detail/133088/expands-hvacr-VFD-portfolio-new-ul-type-12-and-type-4x-vertical-bypass-drives",
+          "https://new.abb.com/news/detail/139081/abb-and-novenco-target-coolings-energy-waste-with-a-turnkey-fan-package"
+        ],
+        "source_date_statements": [
+          "[1] ABB, *ABB expands portfolio with new IP66 / Type 4X drives for demanding environments*, May 27, 2026: https://new.abb.com/news/detail/136092/abb-expands-portfolio-with-new-ip66-type-4x-drives-for-demanding-environments",
+          "[2] ABB, *ACH580-01 IP66/Type 4X drive, 5.5 to 22 kW*, leaflet 9AKK108472A7668, REV A EN, June 17, 2026. Product landing page with documentation links: https://new.abb.com/us/us-motion-business-area/drives-products/ach5804X",
+          "[3] ABB, *ABB Expands HVACR Low Voltage Drives Portfolio with New UL Type 12 and Type 4X Vertical Bypass Drives*, January 31, 2026: https://new.abb.com/news/detail/133088/expands-hvacr-VFD-portfolio-new-ul-type-12-and-type-4x-vertical-bypass-drives",
+          "[4] ABB, *ABB and NOVENCO target cooling\u2019s energy waste with a turnkey fan package*, September 29, 2026: https://new.abb.com/news/detail/139081/abb-and-novenco-target-coolings-energy-waste-with-a-turnkey-fan-package"
+        ],
+        "recorded_research_checked": "2026-11-10",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://new.abb.com/news/detail/136092/abb-expands-portfolio-with-new-ip66-type-4x-drives-for-demanding-environments",
+          "https://new.abb.com/us/us-motion-business-area/drives-products/ach5804X",
+          "https://new.abb.com/news/detail/133088/expands-hvacr-VFD-portfolio-new-ul-type-12-and-type-4x-vertical-bypass-drives",
+          "https://new.abb.com/news/detail/139081/abb-and-novenco-target-coolings-energy-waste-with-a-turnkey-fan-package"
+        ],
+        "secondary_source_urls": [],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/abb-2026-ip66-vfd-field-report-review.md",
+        "manuscript_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Voice pass revision record: 55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "ACH580 option +B063 and ratings, derating, sun exposure, HVLS OEM compatibility",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "An actual replacement selection, bypass permissibility, motor/drive compatibility, fire-interface wiring or site safety-function acceptance.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "ABB IP66 Drives: Checks Before an HVLS Retrofit",
+        "seo_description": "Review ABB enclosure and drive-configuration claims, environmental limits and the OEM compatibility questions to settle before quoting an HVLS retrofit.",
+        "related_story_candidates": [
+          "vividair-gfy-ztech-taz-controls-field-guide",
+          "powerfoil6-field-brief"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/original/vfd-compatibility-check.svg",
+        "asset_sha256": "f6c52204f1998c18f17661bd880466c1a02e47fa9f4fd5bd34eac916b37cd2b3",
+        "asset_git_blob": "9dfb3d565971fa4ad580caff9b3d1db8d822b325",
+        "kind": "diagram",
+        "caption": "Drive-system illustration; not a photograph of an ABB product.",
+        "alt": "Diagram of drive and fan compatibility checks",
+        "presentation": {
+          "card": {
+            "fit": "contain",
+            "position": "50% 50%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+      },
+      "founder_text_decision": {
+        "status": "approved_exact_revision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/abb-2026-ip66-vfd-field-report.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": []
+      }
+    },
+    {
+      "id": "HVLS-03",
+      "issue": 86,
+      "slug": "cfei-vs-cfm-per-watt-field-guide",
+      "title": "CFEI vs. CFM per Watt: How to Read an HVLS Fan Efficiency Claim",
+      "format": "field_guide_or_documentary_analysis",
+      "audience": "Engineers, buyers and specification reviewers",
+      "field_relevance": "Require comparable operating points and traceable ratings when evaluating fan submittals instead of treating airflow per watt as CFEI.",
+      "manuscript": {
+        "file": "editorial/drafts/cfei-vs-cfm-per-watt-field-guide.md",
+        "sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+        "git_blob": "f6f44273189a16a8ab5b3fd52660d637d5bab776",
+        "body_word_count": 890
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md",
+        "review_sha256": "e07a08e05ce72e682e0f2cc7319e45026bb411fe5af273667787d557174913bf",
+        "primary_source_urls": [
+          "https://www.amca.org/educate/articles-and-technical-papers/amca-inmotion-articles/introducing-ceiling-fan-energy-index-cfei.html",
+          "https://www.amca.org/amca-members-area/member-tool-kit/ceiling-fan-energy-index.html",
+          "https://www.amca.org/advocate/energy-efficiency-and-system-performance/ldcf/",
+          "https://www.amca.org/educate/articles-and-technical-papers/amca-inmotion-articles/2025-update-on-u.s.-fan-efficiency-codes-and-regulations.html",
+          "https://www.amca.org/certify/",
+          "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy",
+          "https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2",
+          "https://www.energy.gov/cmei/buildings/ceiling-fans",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20U%20to%20Subpart%20B%20of%20Part%20430",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32"
+        ],
+        "source_date_statements": [
+          "[1] AMCA International, *Introducing Ceiling Fan Energy Index (CFEI)*, published June 4, 2024 (adapted from 2021 AMCA publication): https://www.amca.org/educate/articles-and-technical-papers/amca-inmotion-articles/introducing-ceiling-fan-energy-index-cfei.html",
+          "[3] Michael Ivanovich, AMCA International, *2025 Update on U.S. Fan-Efficiency Codes and Regulations*, published October 21, 2025: https://www.amca.org/educate/articles-and-technical-papers/amca-inmotion-articles/2025-update-on-u.s.-fan-efficiency-codes-and-regulations.html",
+          "[5] ASHRAE, *Standard 55-2023, Thermal Environmental Conditions for Human Occupancy*: https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy",
+          "[6] ASHRAE, *Standard 62.1-2025, Ventilation and Acceptable Indoor Air Quality*: https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2",
+          "[8] eCFR, *10 CFR Part 430, Subpart B, Appendix U*, especially sections 1.12, 3.5 and 5, checked November 10, 2026: https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20U%20to%20Subpart%20B%20of%20Part%20430",
+          "[9] eCFR, *10 CFR 430.32(s)(2)(ii)*, federal CFEI thresholds for large-diameter ceiling fans, checked November 10, 2026 (eCFR Title 10 current through November 6, 2026): https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32"
+        ],
+        "recorded_research_checked": "2026-11-10",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://www.amca.org/educate/articles-and-technical-papers/amca-inmotion-articles/introducing-ceiling-fan-energy-index-cfei.html",
+          "https://www.amca.org/amca-members-area/member-tool-kit/ceiling-fan-energy-index.html",
+          "https://www.amca.org/advocate/energy-efficiency-and-system-performance/ldcf/",
+          "https://www.amca.org/educate/articles-and-technical-papers/amca-inmotion-articles/2025-update-on-u.s.-fan-efficiency-codes-and-regulations.html",
+          "https://www.amca.org/certify/",
+          "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy",
+          "https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2",
+          "https://www.energy.gov/cmei/buildings/ceiling-fans",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20U%20to%20Subpart%20B%20of%20Part%20430",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32"
+        ],
+        "secondary_source_urls": [],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md",
+        "manuscript_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Voice pass revision record: 2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "LDCF definitions, Appendix U and 10 CFR requirements; comparable operating points",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "Certifying a particular model class, laboratory result, regulatory compliance, local adoption or a project energy calculation.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "CFEI vs. CFM per Watt for HVLS Fan Submittals",
+        "seo_description": "Compare CFEI and CFM per watt, identify the operating points behind fan ratings, and separate laboratory efficiency evidence from installed performance.",
+        "related_story_candidates": [
+          "hvls-air-movement-vs-ventilation",
+          "greenheck-ds-series-2026-field-report"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/publisher/bfg-field/ceiling-fan.webp",
+        "asset_sha256": "77926e6cc63eae1431b593467677119be3a524173144269753821fc6bae9f1c8",
+        "asset_git_blob": "6d4d6c9497bea16af9abce589fc779818a11359b",
+        "kind": "photo",
+        "caption": "Installed ceiling fan photographed by Big Fan Guys; the photograph does not establish its efficiency rating.",
+        "alt": "Installed multi-blade ceiling fan beneath a steel roof",
+        "presentation": {
+          "card": {
+            "fit": "contain",
+            "position": "50% 50%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+      },
+      "founder_text_decision": {
+        "status": "approved_exact_revision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/cfei-vs-cfm-per-watt-field-guide.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": []
+      }
+    },
+    {
+      "id": "HVLS-04",
+      "issue": 87,
+      "slug": "greenheck-ds-series-2026-field-report",
+      "title": "Greenheck's Redesigned DS-3 and DS-6: What Changes on an HVLS Job",
+      "format": "field_guide_or_documentary_analysis",
+      "audience": "Installers and mechanical specifiers",
+      "field_relevance": "Match shipping generation, mounting information and controls package to the DS fan being quoted or installed.",
+      "manuscript": {
+        "file": "editorial/drafts/greenheck-ds-series-2026-field-report.md",
+        "sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+        "git_blob": "45e2e7bf69dba8edd3289239ff79ffe62cacbfd5",
+        "body_word_count": 796
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/greenheck-ds-series-2026-field-report-review.md",
+        "review_sha256": "fc2b746767b3908f600b0684b186fbe4365a99e71f5d12c4b93bf85a0b116c6e",
+        "primary_source_urls": [
+          "https://www.greenheck.com/about-us/news/2025/12/31/greenheck-redesigns-hvls-overhead-fans",
+          "https://www.greenheck.com/products/fans/overhead-hvls/ds-3",
+          "https://www.greenheck.com/products/fans/overhead-hvls/ds-6",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20U%20to%20Subpart%20B%20of%20Part%20430"
+        ],
+        "source_date_statements": [
+          "[1] Greenheck, *Greenheck Redesigns HVLS Overhead Fans*, manufacturer announcement dated December 2025 (page URL dated December 31, 2025): https://www.greenheck.com/about-us/news/2025/12/31/greenheck-redesigns-hvls-overhead-fans",
+          "[2] Industrial Equipment News, *HVLS Overhead Fans*, published January 9, 2026: https://www.ien.com/new-products/product/22958169/greenheck-hvls-overhead-fans",
+          "[3] Greenheck, *DS-3 Overhead HVLS Fan*, current manufacturer product page, checked November 10, 2026: https://www.greenheck.com/products/fans/overhead-hvls/ds-3",
+          "[4] Greenheck, *DS-6 Overhead HVLS Fan*, current manufacturer product page, checked November 10, 2026: https://www.greenheck.com/products/fans/overhead-hvls/ds-6"
+        ],
+        "recorded_research_checked": "2026-11-10",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://www.greenheck.com/about-us/news/2025/12/31/greenheck-redesigns-hvls-overhead-fans",
+          "https://www.ien.com/new-products/product/22958169/greenheck-hvls-overhead-fans",
+          "https://www.greenheck.com/products/fans/overhead-hvls/ds-3",
+          "https://www.greenheck.com/products/fans/overhead-hvls/ds-6",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32",
+          "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20U%20to%20Subpart%20B%20of%20Part%20430"
+        ],
+        "secondary_source_urls": [
+          "https://www.ien.com/new-products/product/22958169/greenheck-hvls-overhead-fans"
+        ],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/greenheck-ds-series-2026-field-report-review.md",
+        "manuscript_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Voice pass revision record: 9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "DS-3/DS-6 exact manuals, mounting, controller SKUs, CFEI claims",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "Specific structural attachment, wiring/controller selection, interlock design or independently certifying labor/comfort performance.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "Greenheck DS Fans: Manuals, Controls and Submittals",
+        "seo_description": "Examine Greenheck DS fan documentation, shipping-date manual differences and controls questions that affect installation planning and submittal review.",
+        "related_story_candidates": [
+          "cfei-vs-cfm-per-watt-field-guide",
+          "scissor-lift-planning-hvls-installations"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/original/fan-system-documentation.svg",
+        "asset_sha256": "b90d00aff24c441b50c771b7ea375ba88432e1c09e4caa126792448aa46e22f2",
+        "asset_git_blob": "452242de3754308411db3f11b6163f528521545a",
+        "kind": "diagram",
+        "caption": "System-documentation illustration; not a Greenheck product photograph.",
+        "alt": "Fan system documentation diagram",
+        "presentation": {
+          "card": {
+            "fit": "contain",
+            "position": "50% 50%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+      },
+      "founder_text_decision": {
+        "status": "approved_exact_revision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/greenheck-ds-series-2026-field-report.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": []
+      }
+    },
+    {
+      "id": "HVLS-05",
+      "issue": 88,
+      "slug": "powerfoil6-field-brief",
+      "title": "Powerfoil 6: What the Installation Manual Tells Field Crews",
+      "format": "field_guide_or_documentary_analysis",
+      "audience": "HVLS installers and project electricians",
+      "field_relevance": "Plan supply variant, structural attachment, controls and shutdown coordination from the applicable Powerfoil 6 manual.",
+      "manuscript": {
+        "file": "editorial/drafts/powerfoil6-field-brief.md",
+        "sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+        "git_blob": "8fe289ff0c787de344609638bfd1a672a25138fd",
+        "body_word_count": 613
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/powerfoil6-field-brief-review.md",
+        "review_sha256": "638845c13ea244efb2f18a673a9acd5cda2c5d6ff32a830508819964380e765a",
+        "primary_source_urls": [
+          "https://bigassfans.com/powerfoil-6-hvls-fan/",
+          "https://bigassfans.widen.net/view/pdf/7t3u2vurlm/powerfoil6-install-guide.pdf"
+        ],
+        "source_date_statements": [
+          "[1] Big Ass Fans, *Powerfoil 6 HVLS Fan* (product page; reviewed November 10, 2026): https://bigassfans.com/powerfoil-6-hvls-fan/",
+          "[2] Big Ass Fans, *Powerfoil 6 Installation Guide*, Rev. D, November 19, 2025; pp. 1\u20134, 21\u201324 and 26\u201331 (current link recovered from the manufacturer support page on November 11, 2026): https://bigassfans.widen.net/view/pdf/7t3u2vurlm/powerfoil6-install-guide.pdf"
+        ],
+        "recorded_research_checked": "2026-11-11 per companion review",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://bigassfans.com/powerfoil-6-hvls-fan/",
+          "https://bigassfans.widen.net/view/pdf/7t3u2vurlm/powerfoil6-install-guide.pdf"
+        ],
+        "secondary_source_urls": [],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/powerfoil6-field-brief-review.md",
+        "manuscript_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Voice pass revision record: c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "Current install guide revision, structural mount, electrical supply, fire-relay logic",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "Project feeder/protection sizes, structural calculation, terminal wiring instruction or fire-alarm system approval.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "Powerfoil 6: Installation Planning and Manual Checks",
+        "seo_description": "Review Powerfoil 6 installation planning through its manufacturer manual: electrical variant, structural attachment, controls and shutdown coordination.",
+        "related_story_candidates": [
+          "scissor-lift-planning-hvls-installations",
+          "abb-2026-ip66-vfd-field-report"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/original/fan-system-documentation.svg",
+        "asset_sha256": "b90d00aff24c441b50c771b7ea375ba88432e1c09e4caa126792448aa46e22f2",
+        "asset_git_blob": "452242de3754308411db3f11b6163f528521545a",
+        "kind": "diagram",
+        "caption": "Installation-planning illustration; not a Powerfoil 6 product photograph.",
+        "alt": "Fan system planning and documentation diagram",
+        "presentation": {
+          "card": {
+            "fit": "contain",
+            "position": "50% 50%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+      },
+      "founder_text_decision": {
+        "status": "approved_exact_revision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/powerfoil6-field-brief.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": []
+      }
+    },
+    {
+      "id": "HVLS-06",
+      "issue": 89,
+      "slug": "scissor-lift-planning-hvls-installations",
+      "title": "Before the First Blade Goes Up: Scissor Lift Planning for HVLS Installations",
+      "format": "field_guide_or_documentary_analysis",
+      "audience": "Installation contractors and facilities teams",
+      "field_relevance": "Check access route, platform loading, work position and component-handling sequence before renting a lift.",
+      "manuscript": {
+        "file": "editorial/drafts/scissor-lift-planning-hvls-installations.md",
+        "sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+        "git_blob": "7b564de60688042ee3974436cb9e14a0d54eab31",
+        "body_word_count": 600
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/scissor-lift-planning-hvls-installations-review.md",
+        "review_sha256": "f221524576b9beacf77060730477d0544c749ddc1b674cabe7521bc1514c39a4",
+        "primary_source_urls": [
+          "https://www.osha.gov/sites/default/files/publications/OSHA3842.pdf"
+        ],
+        "source_date_statements": [],
+        "recorded_research_checked": "2026-11-10",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://www.osha.gov/sites/default/files/publications/OSHA3842.pdf"
+        ],
+        "secondary_source_urls": [],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/scissor-lift-planning-hvls-installations-review.md",
+        "manuscript_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Voice pass revision record: 582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "OSHA 3842 interpretation, access, fall protection, ground/traffic hazards and diagram",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "Approving a selected lift, floor capacity, elevated travel, lifting attachment, electrical approach distance or site fall-protection method.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "Scissor Lift Planning for HVLS Fan Installation",
+        "seo_description": "Plan HVLS installation access around lift capacity, work position, travel routes and site hazards before committing equipment and labor to the job.",
+        "related_story_candidates": [
+          "powerfoil6-field-brief",
+          "greenheck-ds-series-2026-field-report"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/original/scissor-lift-access-planning.svg",
+        "asset_sha256": "0b8b9aa036aaa496013a01d10b185d03fa5a60db21c49a7de79264c554a51036",
+        "asset_git_blob": "22c111f375d6eecafa9c12a6348435946c694c7c",
+        "kind": "diagram",
+        "caption": "Original illustration of installation access planning.",
+        "alt": "Scissor lift access planning illustration",
+        "presentation": {
+          "card": {
+            "fit": "contain",
+            "position": "50% 50%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+      },
+      "founder_text_decision": {
+        "status": "approved_exact_revision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/scissor-lift-planning-hvls-installations.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": []
+      }
+    },
+    {
+      "id": "HVLS-07",
+      "issue": 90,
+      "slug": "vividair-gfy-ztech-taz-controls-field-guide",
+      "title": "VividAir and Go Fan Yourself: The Z-Tech, TAZ and Controls Questions Installers Should Ask",
+      "format": "field_guide_or_documentary_analysis",
+      "audience": "Service technicians and controls electricians",
+      "field_relevance": "Identify installed hardware and product generation before assuming a keypad, motor, drive or legacy controller is interchangeable.",
+      "manuscript": {
+        "file": "editorial/drafts/vividair-gfy-ztech-taz-controls-field-guide.md",
+        "sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+        "git_blob": "5ccfd5784d9d1aabae314f111535fab926099d3f",
+        "body_word_count": 664
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/vividair-gfy-ztech-taz-controls-field-guide-review.md",
+        "review_sha256": "76893e0e7ef2aef7e70a8b97c64ab303baf91aec9fc84b48c3842df8e3a98528",
+        "primary_source_urls": [
+          "https://vividairmovement.com/product/taz/",
+          "https://vividairmovement.com/product/z-tech/",
+          "https://gofanyourself.com/products/z-tech-fan/",
+          "https://vividairmovement.com/products/"
+        ],
+        "source_date_statements": [],
+        "recorded_research_checked": "2026-11-10",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://vividairmovement.com/product/taz/",
+          "https://vividairmovement.com/product/z-tech/",
+          "https://gofanyourself.com/products/z-tech-fan/",
+          "https://vividairmovement.com/products/"
+        ],
+        "secondary_source_urls": [],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/vividair-gfy-ztech-taz-controls-field-guide-review.md",
+        "manuscript_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Voice pass revision record: 6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "Product generations, Navigator vs legacy ABB, TAZ vs barrel fans, model-specific docs",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "Actual installed generation, replacement compatibility, mounting, controls wiring or legal ownership/rebrand finding.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "VividAir and GFY Fan Controls: Identify the Hardware",
+        "seo_description": "Identify VividAir and legacy Go Fan Yourself product generations, controls and documentation before assuming a fan, drive or keypad is interchangeable.",
+        "related_story_candidates": [
+          "vividair-taz-72-field-guide",
+          "abb-2026-ip66-vfd-field-report"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/publisher/bfg-field/fan-hub.webp",
+        "asset_sha256": "9bd9294ad43dcf58850096efae2918487710a2dd3f36203775534c8941889fba",
+        "asset_git_blob": "6cf9e00b90e834d1260158a09cd61706d8fee786",
+        "kind": "photo",
+        "caption": "Ceiling-fan motor, mount and blades above an automotive work area. Big Fan Guys field photograph.",
+        "alt": "Close view of a ceiling-fan motor, mount and blades",
+        "presentation": {
+          "card": {
+            "fit": "contain",
+            "position": "50% 50%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+      },
+      "founder_text_decision": {
+        "status": "approved_exact_revision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/vividair-gfy-ztech-taz-controls-field-guide.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": []
+      }
+    },
+    {
+      "id": "HVLS-08",
+      "issue": 91,
+      "slug": "vividair-taz-72-field-guide",
+      "title": "Inside the 72-Inch TAZ: A Field Guide to VividAir's Aisle Fan",
+      "format": "field_guide_or_documentary_analysis",
+      "audience": "Facilities planners and fan installers",
+      "field_relevance": "Distinguish directional aisle airflow from broad ceiling-fan circulation; resolve product-guide naming against the actual equipment.",
+      "manuscript": {
+        "file": "editorial/drafts/vividair-taz-72-field-guide.md",
+        "sha256": "8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1",
+        "git_blob": "d3161b34d449851eea679e7deb4c096498c48af0",
+        "body_word_count": 695
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/vividair-taz-72-field-guide-review.md",
+        "review_sha256": "48ca58585cf1c1d66d03b482bc35116b287128e03f069cb9f294dab1751a9b96",
+        "primary_source_urls": [
+          "https://vividairmovement.com/product/taz/",
+          "https://vividairmovement.com/wp-content/uploads/2023/01/TAZ_Installation_and_Technical_Operations_Guide_1.2023.pdf"
+        ],
+        "source_date_statements": [
+          "[2] VividAir / Go Fan Yourself, *TAZ Fan Installation & Technical Operations Guide*, January 2023; linked as 72-inch on the product page, with conflicting 7ft headings in the document: https://vividairmovement.com/wp-content/uploads/2023/01/TAZ_Installation_and_Technical_Operations_Guide_1.2023.pdf"
+        ],
+        "recorded_research_checked": "2026-11-10",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://vividairmovement.com/product/taz/",
+          "https://vividairmovement.com/wp-content/uploads/2023/01/TAZ_Installation_and_Technical_Operations_Guide_1.2023.pdf"
+        ],
+        "secondary_source_urls": [],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/vividair-taz-72-field-guide-review.md",
+        "manuscript_sha256": "8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Voice pass revision record: 8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "Actual model identification, 72-inch guide, mounting and louvers, controller/interlock, two retained photos",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "Using this PDF as installation authority for a supplied unit, certifying the installed photo model, or issuing drive/interlock instructions.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "72-Inch TAZ: Airflow, Identification and Guide Checks",
+        "seo_description": "Review VividAir TAZ aisle-fan placement, manufacturer performance claims and the guide-label inconsistency to resolve against the installed equipment.",
+        "related_story_candidates": [
+          "hvls-air-movement-vs-ventilation",
+          "vividair-gfy-ztech-taz-controls-field-guide"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/publisher/taz-72/taz-72-field-02.webp",
+        "asset_sha256": "5e30eb8ee728ab53a4ff891fadd2b0da1c4dd2f8e0a0ca3bf6d9c9b473e9266b",
+        "asset_git_blob": "0867f6dd0d8cabc34adf329bc2ca2099b32b94fd",
+        "kind": "photo",
+        "caption": "TAZ field photograph supplied and identified by Big Fan Guys.",
+        "alt": "Publisher-supplied TAZ installation photograph",
+        "presentation": {
+          "card": {
+            "fit": "contain",
+            "position": "50% 50%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation.",
+        "supporting_image_handoff": "editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json",
+        "illustrated_package_complete": false
+      },
+      "founder_text_decision": {
+        "status": "approved_exact_revision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": "8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1",
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/vividair-taz-72-field-guide.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": [
+          "Website integrate selected second photograph and record actual desktop/tablet/phone visual acceptance; preserve approved text."
+        ]
+      }
+    },
+    {
+      "id": "HVLS-09",
+      "issue": 133,
+      "slug": "industrial-fan-heat-study-what-was-measured",
+      "title": "Factory Fan Research: Separate Comfort Results from Heat-Strain Claims",
+      "format": "brief",
+      "audience": "Facilities managers, worker-heat program leads and industrial fan buyers",
+      "field_relevance": "Separate manufacturer-reported comfort responses from physiological measurements and performance promises in a factory fan proposal.",
+      "manuscript": {
+        "file": "editorial/drafts/industrial-fan-heat-study-what-was-measured.md",
+        "sha256": "2a5b2e9e1336842bc373db13ea8a99a331b913fa0639712155ddd42251be3390",
+        "git_blob": "d4aeffa5d6f1b92d5c7083ec6136bb2a55216971",
+        "body_word_count": 381
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/industrial-fan-heat-study-what-was-measured-review.md",
+        "review_sha256": "4d7c78972c83da352b745c5d01cd4c2ceb44a899de90d36774d47b66a5a8c736",
+        "primary_source_urls": [
+          "https://bigassfans.com/press-release/the-heat-tax-study-shows-industrial-airflow-offsets-extreme-heat-strain-on-factory-floors/",
+          "https://www.cdc.gov/niosh/heat-stress/about/"
+        ],
+        "source_date_statements": [
+          "[1] Big Ass Fans, research announcement, September 9, 2026: https://bigassfans.com/press-release/the-heat-tax-study-shows-industrial-airflow-offsets-extreme-heat-strain-on-factory-floors/"
+        ],
+        "recorded_research_checked": "2026-11-11 per companion review",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://bigassfans.com/press-release/the-heat-tax-study-shows-industrial-airflow-offsets-extreme-heat-strain-on-factory-floors/",
+          "https://www.cdc.gov/niosh/heat-stress/about/"
+        ],
+        "secondary_source_urls": [],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/industrial-fan-heat-study-what-was-measured-review.md",
+        "manuscript_sha256": "2a5b2e9e1336842bc373db13ea8a99a331b913fa0639712155ddd42251be3390",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Voice pass: Editorial Director role, November 11, 2026, manuscript SHA-256 `2a5b2e9e1336842bc373db13ea8a99a331b913fa0639712155ddd42251be3390`. Rechecked concrete opening, short topic headings and paragraph flow; removed generic conclusion, repetitive cautions and unsupported certainty. No invented quotes or field experience."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "Source attribution, rule/study scope and project-planning analysis",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "Medical guidance, universal safe fan temperature, quantified productivity/savings promise or independent study conclusion beyond available announcement.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "Factory fan research: what was measured",
+        "seo_description": "Read the factory-fan study announcement alongside worker heat guidance, separating reported comfort, physiological measurements and manufacturer claims.",
+        "related_story_candidates": [
+          "hvls-air-movement-vs-ventilation",
+          "ceiling-fans-hvac-air-distribution-research"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/publisher/bfg-field/production-floor.webp",
+        "asset_sha256": "71f8b297ffecb4480d576ec402f8cf66d8a3040e45f429f7b2fc7b0ef672e986",
+        "asset_git_blob": "f2c66e221a23aa2762e4e029299dc50947ea4f10",
+        "kind": "photo",
+        "caption": "Big Fan Guys production-floor photograph used for context; not a study site.",
+        "alt": "Overhead fans across an industrial production floor",
+        "presentation": {
+          "card": {
+            "fit": "contain",
+            "position": "50% 50%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+      },
+      "founder_text_decision": {
+        "status": "new_brief_awaiting_founder_decision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": null,
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/industrial-fan-heat-study-what-was-measured.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": [
+          "Chris first text decision on new brief; do not infer prior-eight approval."
+        ]
+      }
+    },
+    {
+      "id": "HVLS-10",
+      "issue": 134,
+      "slug": "ceiling-fans-hvac-air-distribution-research",
+      "title": "Ceiling Fans as Part of the Air-Distribution Design",
+      "format": "brief",
+      "audience": "Mechanical engineers, HVAC specifiers and installation contractors",
+      "field_relevance": "Coordinate fan positions, supply outlets and operating modes when ceiling fans are part of the air-distribution strategy.",
+      "manuscript": {
+        "file": "editorial/drafts/ceiling-fans-hvac-air-distribution-research.md",
+        "sha256": "372d3428f5721a48c5bd38983ee32e18252062bda3e44a96e9df0b6605f073ed",
+        "git_blob": "8adc68d2976a07a3600e562bb02a8f6559a07e36",
+        "body_word_count": 378
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/ceiling-fans-hvac-air-distribution-research-review.md",
+        "review_sha256": "8707c45d49180b8a3695ce5ea736e60be1fcb09f8f45268bf5a346a34cba7544",
+        "primary_source_urls": [
+          "https://cbe.berkeley.edu/research/ceiling-fan-integrated-air-conditioning/",
+          "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy"
+        ],
+        "source_date_statements": [],
+        "recorded_research_checked": "2026-11-11 per companion review",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://cbe.berkeley.edu/research/ceiling-fan-integrated-air-conditioning/",
+          "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy"
+        ],
+        "secondary_source_urls": [],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/ceiling-fans-hvac-air-distribution-research-review.md",
+        "manuscript_sha256": "372d3428f5721a48c5bd38983ee32e18252062bda3e44a96e9df0b6605f073ed",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Voice pass: Editorial Director role, November 11, 2026, manuscript SHA-256 `372d3428f5721a48c5bd38983ee32e18252062bda3e44a96e9df0b6605f073ed`. Rechecked concrete opening, short topic headings and paragraph flow; removed generic conclusion, repetitive cautions and unsupported certainty. No invented quotes or field experience."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "Source attribution, rule/study scope and project-planning analysis",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "Numerical ventilation effectiveness, diffuser replacement design, energy/cost guarantee or selected-building compliance.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "Ceiling fans in HVAC air-distribution design",
+        "seo_description": "Explore Berkeley research on ceiling-fan-integrated air conditioning and the coordination questions it raises for mechanical designers and installers.",
+        "related_story_candidates": [
+          "hvls-air-movement-vs-ventilation",
+          "cfei-vs-cfm-per-watt-field-guide"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/publisher/bfg-field/hangar-airflow-context.webp",
+        "asset_sha256": "37e0f8571a0ee964d842ccd9d589cdfa85dce3fb1347ee5e13f7b7fb65d57d7c",
+        "asset_git_blob": "d5f951013b66deb9d68b55d8b13f2008679ddaaa",
+        "kind": "photo",
+        "caption": "Ceiling fans beneath a hangar roof. Big Fan Guys field photograph; not a photograph of the cited research facility.",
+        "alt": "Several ceiling fans beneath a hangar roof, with access equipment below",
+        "presentation": {
+          "card": {
+            "fit": "contain",
+            "position": "50% 50%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Chris authorizes BigFanGuys.com images for HVLS 360 editorial use",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+      },
+      "founder_text_decision": {
+        "status": "new_brief_awaiting_founder_decision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": null,
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/ceiling-fans-hvac-air-distribution-research.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": [
+          "Chris first text decision on new brief; do not infer prior-eight approval."
+        ]
+      }
+    },
+    {
+      "id": "HVLS-11",
+      "issue": 135,
+      "slug": "scissor-lift-osha-classification",
+      "title": "Scissor Lifts and Boom Lifts: Start with the Right OSHA Reference",
+      "format": "brief",
+      "audience": "Installation contractors, rental-equipment planners and site safety leads",
+      "field_relevance": "Identify the rented equipment class before applying OSHA construction lift/scaffold references to the access plan.",
+      "manuscript": {
+        "file": "editorial/drafts/scissor-lift-osha-classification.md",
+        "sha256": "da9acaa819672fb2246ac8edfb53399e6b9c331af25a7b27a266e2c8de71132b",
+        "git_blob": "4a1a715624a7aa063ab5e50b6a8256418725572b",
+        "body_word_count": 393
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/scissor-lift-osha-classification-review.md",
+        "review_sha256": "9374634df8d7a08f763d51310e28e6009ea3575886c232ff6fef212641f75789",
+        "primary_source_urls": [
+          "https://www.osha.gov/laws-regs/standardinterpretations/2000-08-01-0",
+          "https://www.osha.gov/etools/scaffolding/scissor-lifts/"
+        ],
+        "source_date_statements": [
+          "[1] OSHA, Scissor lifts are not aerial lifts, August 1, 2000, corrected June 2, 2005: https://www.osha.gov/laws-regs/standardinterpretations/2000-08-01-0"
+        ],
+        "recorded_research_checked": "2026-11-11 per companion review",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://www.osha.gov/laws-regs/standardinterpretations/2000-08-01-0",
+          "https://www.osha.gov/etools/scaffolding/scissor-lifts/"
+        ],
+        "secondary_source_urls": [],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/scissor-lift-osha-classification-review.md",
+        "manuscript_sha256": "da9acaa819672fb2246ac8edfb53399e6b9c331af25a7b27a266e2c8de71132b",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Voice pass: Editorial Director role, November 11, 2026, manuscript SHA-256 `da9acaa819672fb2246ac8edfb53399e6b9c331af25a7b27a266e2c8de71132b`. Rechecked concrete opening, short topic headings and paragraph flow; removed generic conclusion, repetitive cautions and unsupported certainty. No invented quotes or field experience."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "Source attribution, rule/study scope and project-planning analysis",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "Specific site or equipment fall-protection determination; generalizing construction letter to all general-industry equipment.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "Scissor lifts: the OSHA classification question",
+        "seo_description": "Find the OSHA distinction between scissor lifts and aerial lifts, then organize the access-planning questions for an HVLS installation crew.",
+        "related_story_candidates": [
+          "scissor-lift-planning-hvls-installations",
+          "powerfoil6-field-brief"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/original/scissor-lift-access-planning.svg",
+        "asset_sha256": "0b8b9aa036aaa496013a01d10b185d03fa5a60db21c49a7de79264c554a51036",
+        "asset_git_blob": "22c111f375d6eecafa9c12a6348435946c694c7c",
+        "kind": "diagram",
+        "caption": "Original scissor-lift planning illustration.",
+        "alt": "Original scissor lift work-area planning diagram",
+        "presentation": {
+          "card": {
+            "fit": "contain",
+            "position": "50% 50%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+      },
+      "founder_text_decision": {
+        "status": "new_brief_awaiting_founder_decision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": null,
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/scissor-lift-osha-classification.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": [
+          "Chris first text decision on new brief; do not infer prior-eight approval."
+        ]
+      }
+    },
+    {
+      "id": "HVLS-12",
+      "issue": 136,
+      "slug": "fan-guarding-working-level",
+      "title": "Fan Guarding: The Working Level Matters",
+      "format": "brief",
+      "audience": "Facility maintenance teams, fan installers and safety leads",
+      "field_relevance": "Record blade location and nearby working levels so the guarding assessment has an identifiable regulatory basis.",
+      "manuscript": {
+        "file": "editorial/drafts/fan-guarding-working-level.md",
+        "sha256": "d14317a48fa8c125f6759d22ac6426704db758f9b8939902e5a7d3a0cf7527a7",
+        "git_blob": "abea3cfc0ced81418e93dcae7e0439caac6f9476",
+        "body_word_count": 381
+      },
+      "sources_and_claim_checks": {
+        "review_file": "editorial/reviews/fan-guarding-working-level-review.md",
+        "review_sha256": "b0a67409a192ec17bb0f060fcb9f6a21f37fcc3e4708240b7543eb6974de3eb3",
+        "primary_source_urls": [
+          "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212",
+          "https://www.osha.gov/laws-regs/standardinterpretations/1996-08-01"
+        ],
+        "source_date_statements": [
+          "[1] OSHA, 29 CFR 1910.212, General requirements for all machines: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212",
+          "[2] OSHA, Clarification of employers\u2019 use of floor fans, August 1, 1996: https://www.osha.gov/laws-regs/standardinterpretations/1996-08-01"
+        ],
+        "recorded_research_checked": "2026-11-11 per companion review",
+        "check_scope": "Current claim-level findings and fresh versus retained retrieval modes are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Earlier source ledger retained.",
+        "cited_source_urls": [
+          "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212",
+          "https://www.osha.gov/laws-regs/standardinterpretations/1996-08-01"
+        ],
+        "secondary_source_urls": [],
+        "undated_source_policy": "Where a source has no verified publication date, retain its recorded access/check date and do not invent an event date."
+      },
+      "voice": {
+        "file": "editorial/reviews/fan-guarding-working-level-review.md",
+        "manuscript_sha256": "d14317a48fa8c125f6759d22ac6426704db758f9b8939902e5a7d3a0cf7527a7",
+        "matching_revision_record_present": true,
+        "record_excerpts": [
+          "Voice pass: Editorial Director role, November 11, 2026, manuscript SHA-256 `d14317a48fa8c125f6759d22ac6426704db758f9b8939902e5a7d3a0cf7527a7`. Rechecked concrete opening, short topic headings and paragraph flow; removed generic conclusion, repetitive cautions and unsupported certainty. No invented quotes or field experience."
+        ],
+        "editor": "Editorial Director role performed by assistant; not a human independent attestation"
+      },
+      "technical": {
+        "register_file": "editorial/reviews/technical-review-register.json",
+        "recorded_status": "documentary_review_complete",
+        "recorded_scope": "Source attribution, rule/study scope and project-planning analysis",
+        "qualified_signoff_present": false,
+        "resolution_status": "documentary_review_complete",
+        "claim_evidence_file": "editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json",
+        "qualified_review_requirement": "Certifying a particular guard design or asserting every installation above seven feet is exempt from all hazards.",
+        "qualified_review_required": false
+      },
+      "metadata": {
+        "file": "office/launch-package.json",
+        "draft_checksum_matches": true,
+        "seo_title": "Fan guarding and the working-level question",
+        "seo_description": "Read the federal fan-blade guarding provision in context and identify the placement information that belongs in a facility fan review.",
+        "related_story_candidates": [
+          "vividair-taz-72-field-guide",
+          "scissor-lift-planning-hvls-installations"
+        ],
+        "links_status": "Related-story candidates are preview/release planning slugs, not asserted live article URLs. Resolve only to released targets when publishing."
+      },
+      "media": {
+        "manifest_file": "editorial/media/article-images.json",
+        "asset_file": "editorial/media/publisher/bfg-field/elevated-install.webp",
+        "asset_sha256": "c4fc16954e8c927b861dad57279c2730cfc75cb0cb700b68df9037193be5987c",
+        "asset_git_blob": "b8709b62426bc95144352e50e71f9bb7ed4e374e",
+        "kind": "photo",
+        "caption": "Elevated view of a fan motor assembly and blades. Big Fan Guys field photograph; illustrative installation context.",
+        "alt": "Elevated view of a fan motor assembly and blades",
+        "presentation": {
+          "card": {
+            "fit": "contain",
+            "position": "50% 50%"
+          },
+          "lead": {
+            "fit": "contain",
+            "position": "50% 50%"
+          }
+        },
+        "composition_evidence": "editorial/media/CROP-REVIEW-2026-11-11.md",
+        "composition_status": "existing_current_edition_acceptance_hash_checked",
+        "rights_basis": "Publisher-authorized Big Fan Guys imagery and original HVLS 360 diagrams",
+        "technical_implications": "Current documentary claim scope resolved separately; generic imagery does not certify an installation."
+      },
+      "founder_text_decision": {
+        "status": "new_brief_awaiting_founder_decision",
+        "approval_register_file": "editorial/founder-approval-register.json",
+        "approved_sha256": null,
+        "request_repeat_approval": false
+      },
+      "delivery": {
+        "preview_file": "office/preview/fan-guarding-working-level.html",
+        "preview_exists": true,
+        "indexed_news_release": false,
+        "release_authorization": "not_recorded",
+        "release_ready": false,
+        "remaining_content_dependencies": [
+          "Chris first text decision on new brief; do not infer prior-eight approval."
+        ]
+      }
+    }
+  ],
+  "handoff": {
+    "website": "Integrate editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json after descriptive photo paragraph; preserve approved text and inspect actual desktop/tablet/phone. Other ten selected asset bytes and prior composition evidence unchanged. Related slugs remain candidates, not phantom live URLs.",
+    "workflow": "Exact-revision content candidate manifest: all twelve documentary scopes resolved, zero qualified independent signoffs. Four new briefs await first founder text decision; TAZ second photo needs Website integration/visual acceptance. No release authorization. Do not schedule or release from this ledger.",
+    "agent_operations": "Recurring image execution/monitoring is separate from this selected-image acceptance."
+  },
+  "acceptance": {
+    "finite_scope_documented": true,
+    "all_twelve_manuscripts_exist": true,
+    "exact_manuscript_source_voice_metadata_media_reconciled": true,
+    "all_required_technical_questions_resolved": true,
+    "all_founder_text_decisions_recorded": false,
+    "release_authorization_recorded": false,
+    "all_required_illustrations_integrated": false,
+    "all_twelve_metadata_related_links_prepared": true,
+    "reference_library_checked_with_access_limit_recorded": true
+  },
+  "dependencies": [
+    {
+      "id": "TAZ-second-image",
+      "owner": "Website & Editing lead with Art & Media visual acceptance",
+      "evidence": "editorial/media/TAZ-SECOND-PHOTO-HANDOFF.json",
+      "minimum_completion": "Second exact selected photo rendered in article, full-frame at desktop/tablet/phone, loaded and no overflow; exact revision acceptance recorded."
+    },
+    {
+      "id": "new-four-text-decisions",
+      "owner": "Chris \u2014 founder",
+      "issues": [
+        133,
+        134,
+        135,
+        136
+      ],
+      "minimum_completion": "First decision on four finished new briefings; original eight approvals preserved."
+    }
+  ]
+}

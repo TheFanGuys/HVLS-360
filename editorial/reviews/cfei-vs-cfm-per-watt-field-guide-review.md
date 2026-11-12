@@ -50,3 +50,18 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 
 
 Voice pass revision record: 2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+
+
+## Current launch reconciliation — November 11, 2026
+
+Exact manuscript SHA-256: `2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+
+Technical disposition: **documentary review complete for current scope** — Rating-literacy explanation and explicitly dated federal rule summary. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `cfei-vs-cfm-per-watt-field-guide`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
+
+- Rechecked 1.00 high-speed and 1.31 at 40 percent or nearest speed not below it for covered large-diameter fans. Evidence: 430.32(s)(2)(ii), title current through November 9, 2026; live_primary_recheck.
+- Confirms >7-foot class definition with exclusions and standardized large-fan testing/calculation scope; no TAZ classification inferred. Evidence: 1.12, 3.5 and 5; live_primary_recheck.
+- Illustrated identical older CFM/W ratings can accompany different CFEI values. Index is not an installed-comfort or savings guarantee. Evidence: June 4, 2024 explainer, adapted from 2021; live_primary_recheck.
+
+Professional review becomes required if scope adds: Certifying a particular model class, laboratory result, regulatory compliance, local adoption or a project energy calculation.
+
+Founder text: **approved exact revision**, preserved in `editorial/founder-approval-register.json`; do not ask for the same approval again. Selected media, metadata and release holds are separate in `editorial/launch-completion-ledger.json`. No release authorization is recorded. Historical unchecked items above are superseded only where this current record explicitly resolves them.

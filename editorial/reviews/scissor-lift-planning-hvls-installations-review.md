@@ -32,3 +32,16 @@ Founder feedback applies to all eight articles. Rewrote this manuscript around i
 
 
 Voice pass revision record: 582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+
+
+## Current launch reconciliation — November 11, 2026
+
+Exact manuscript SHA-256: `582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+
+Technical disposition: **documentary review complete for current scope** — OSHA-informed access survey and planning; no selected-machine approval. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `scissor-lift-planning-hvls-installations`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
+
+- Rechecked guardrail/work-platform behavior, stable surfaces, traffic/overhead hazards, load rating, manufacturer travel restrictions and training. Article avoids universal wind and tie-off numbers. Evidence: Hazard Alert pp 1–3; live_primary_recheck.
+
+Professional review becomes required if scope adds: Approving a selected lift, floor capacity, elevated travel, lifting attachment, electrical approach distance or site fall-protection method.
+
+Founder text: **approved exact revision**, preserved in `editorial/founder-approval-register.json`; do not ask for the same approval again. Selected media, metadata and release holds are separate in `editorial/launch-completion-ledger.json`. No release authorization is recorded. Historical unchecked items above are superseded only where this current record explicitly resolves them.

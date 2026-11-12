@@ -129,3 +129,18 @@ Chris reported opening the article on iPhone, editing through GitHub, tapping Co
 Editorial Director rechecked this exact revision. Changes are capitalization of “Fan” in the opening and trailing whitespace; both are preserved. The text remains direct and specific; no voice rewrite needed. This is the current revision-specific voice record; older hashes above remain historical. Source-to-claim checks and diagram findings from the previous pass still apply because no technical claim or visual changed. SEO title/description remain applicable; launch packet checksum refreshed after reviewing this revision.
 
 Technical desk recheck: no new numerical, installation, compliance or performance claim was introduced. The documented distinction between indoor mixing and outdoor-air exchange is unchanged. Independent reviewer identity/date/findings are still absent from the register, so that separate hold is not cleared. Next evidence needed is review of this exact text and diagram by the designated competent ventilation designer. No external contact or signoff is invented.
+
+
+## Current launch reconciliation — November 11, 2026
+
+Exact manuscript SHA-256: `6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+
+Technical disposition: **documentary review complete for current scope** — Qualitative comfort, mixing and outdoor-air distinction; no design rates or compliance finding. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `hvls-air-movement-vs-ventilation`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
+
+- Prior recorded primary check supports comfort factors and heating-season mixing; current non-JavaScript retrieval returned app shell only. Evidence: Sections 2.1 and 2.4; existing_documentary_record.
+- Standard 62.1-2025 subject is ventilation and acceptable indoor air quality; no local adoption inferred. Evidence: Public overview; live_primary_recheck.
+- Standard 55 is thermal comfort framework, not an outdoor-air calculation. Evidence: Public overview; live_primary_recheck.
+
+Professional review becomes required if scope adds: Numerical outdoor-air design, contaminant-capture substitution, code compliance or a site-specific ventilation calculation.
+
+Founder text: **approved exact revision**, preserved in `editorial/founder-approval-register.json`; do not ask for the same approval again. Selected media, metadata and release holds are separate in `editorial/launch-completion-ledger.json`. No release authorization is recorded. Historical unchecked items above are superseded only where this current record explicitly resolves them.

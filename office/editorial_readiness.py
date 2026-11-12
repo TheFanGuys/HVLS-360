@@ -77,7 +77,7 @@ def main():
     output.write_text(json.dumps(result,indent=2)+"\n",encoding="utf-8")
     print(f"Audited {result['drafts']} drafts; {result['quality_issues']} editorial issues; zero publication approvals.")
     for item in result["articles"]:
-        print(item["slug"]+": "+("; ".join(item["errors"]) if item["errors"] else "static checks passed; specialist review still required"))
+        print(item["slug"]+": "+("; ".join(item["errors"]) if item["errors"] else "static checks passed; consult exact-revision technical register"))
     if result["quality_issues"]:
         sys.exit(1)
 if __name__=="__main__":

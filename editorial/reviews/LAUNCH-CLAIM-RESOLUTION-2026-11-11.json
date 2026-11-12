@@ -1,0 +1,628 @@
+{
+  "schema_version": 1,
+  "checked": "2026-11-11",
+  "scope": "Exact current twelve-manuscript launch documentary triage; no manuscript or founder approval hashes changed",
+  "review_kind": "assistant_documentary_technical_resolution",
+  "qualified_independent_signoffs": 0,
+  "policy_basis": {
+    "paths": [
+      "AGENTS.md",
+      "editorial/reviews/technical-review-register.json",
+      "editorial/reviews/ai-expert-*.md"
+    ],
+    "decision": "Existing policy requires human professional review for prescriptive or site-specific regulated claims, not every documentary trade article. These revisions report attributed source claims and planning questions without certifying an installation. Conditional triggers below preserve that boundary.",
+    "not_a_signoff": "No licensed engineer, independent reviewer, model test, field inspection, manufacturer endorsement or publication authorization is invented."
+  },
+  "evidence_limitations": [
+    "Some source checks explicitly use existing November 10/11 companion evidence; they are not relabeled as fresh live retrieval.",
+    "Live source retrieval can expose different regional product literature. Exact revision and geography must remain attached to claims.",
+    "This report clears only stated documentary scope. It does not replace separate exact-image composition/rights records or founder release authorization."
+  ],
+  "records": [
+    {
+      "slug": "hvls-air-movement-vs-ventilation",
+      "manuscript_path": "editorial/drafts/hvls-air-movement-vs-ventilation.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "Qualitative comfort, mixing and outdoor-air distinction; no design rates or compliance finding",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "Sections 2.1 and 2.4",
+          "verification_mode": "existing_documentary_record",
+          "claim": "Prior recorded primary check supports comfort factors and heating-season mixing; current non-JavaScript retrieval returned app shell only.",
+          "source_urls": [
+            "https://learn.bigassfans.com/design-guide"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Sections 2.1 and 2.4",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        },
+        {
+          "locator": "Public overview",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Standard 62.1-2025 subject is ventilation and acceptable indoor air quality; no local adoption inferred.",
+          "source_urls": [
+            "https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Public overview",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        },
+        {
+          "locator": "Public overview",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Standard 55 is thermal comfort framework, not an outdoor-air calculation.",
+          "source_urls": [
+            "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Public overview",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "Numerical outdoor-air design, contaminant-capture substitution, code compliance or a site-specific ventilation calculation.",
+      "scope_notes": [
+        "Conceptual diagram source review is recorded in companion review and current composition review; this report does not claim a new visual or physical-site inspection."
+      ],
+      "primary_review_file": "editorial/reviews/hvls-air-movement-vs-ventilation-review.md",
+      "draft_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    },
+    {
+      "slug": "abb-2026-ip66-vfd-field-report",
+      "manuscript_path": "editorial/drafts/abb-2026-ip66-vfd-field-report.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "Manufacturer product announcement and exact leaflet interpretation; no HVLS retrofit design",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "9AKK108472A7668 Rev A EN 17.6.2026, technical data",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Confirms +B063 5.5–22 kW, 380–480 V three-phase, -20 to 50 C, keypad -15 to 50 C, derating 40–50 C, direct-sun shield requirement and optional Bluetooth panel.",
+          "source_urls": [
+            "https://library.e.abb.com/public/662bf070ce4b420293ce3cfee96a2e0e/9AKK108472A7668_en_A_ACH580-01%20IP66%20leaflet.pdf"
+          ],
+          "source_date": "2026-06-17",
+          "retrieval_date": "2026-11-11",
+          "evidence": "9AKK108472A7668 Rev A EN 17.6.2026, technical data",
+          "findings": "Supported within the attributed documentary scope; no product/site certification."
+        },
+        {
+          "locator": "US landing page and linked Flyer",
+          "verification_mode": "live_primary_recheck",
+          "claim": "US page links a different 2024 US flyer with broader power/voltage ranges and different temperature limits. It must not replace the exact 2026 leaflet cited by the article.",
+          "source_urls": [
+            "https://new.abb.com/us/us-motion-business-area/drives-products/ach5804X"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "US landing page and linked Flyer",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "An actual replacement selection, bypass permissibility, motor/drive compatibility, fire-interface wiring or site safety-function acceptance.",
+      "scope_notes": [
+        "Article explicitly limits numerical data to June 2026 variant. Differing US flyer is not evidence that these are universal series specifications. Current order availability is a procurement question; article makes no orderable-SKU promise."
+      ],
+      "primary_review_file": "editorial/reviews/abb-2026-ip66-vfd-field-report-review.md",
+      "draft_sha256": "55d42570ed13b89f69fda6a2b125856d736a6d2ee11b86994ad5c7df1cdd1072",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    },
+    {
+      "slug": "cfei-vs-cfm-per-watt-field-guide",
+      "manuscript_path": "editorial/drafts/cfei-vs-cfm-per-watt-field-guide.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "Rating-literacy explanation and explicitly dated federal rule summary",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "430.32(s)(2)(ii), title current through November 9, 2026",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Rechecked 1.00 high-speed and 1.31 at 40 percent or nearest speed not below it for covered large-diameter fans.",
+          "source_urls": [
+            "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-C/section-430.32"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "430.32(s)(2)(ii), title current through November 9, 2026",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        },
+        {
+          "locator": "1.12, 3.5 and 5",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Confirms >7-foot class definition with exclusions and standardized large-fan testing/calculation scope; no TAZ classification inferred.",
+          "source_urls": [
+            "https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430/subpart-B/appendix-Appendix%20U%20to%20Subpart%20B%20of%20Part%20430"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "1.12, 3.5 and 5",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        },
+        {
+          "locator": "June 4, 2024 explainer, adapted from 2021",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Illustrated identical older CFM/W ratings can accompany different CFEI values. Index is not an installed-comfort or savings guarantee.",
+          "source_urls": [
+            "https://www.amca.org/educate/articles-and-technical-papers/amca-inmotion-articles/introducing-ceiling-fan-energy-index-cfei.html"
+          ],
+          "source_date": "2024-06-04 (adapted from 2021)",
+          "retrieval_date": "2026-11-11",
+          "evidence": "June 4, 2024 explainer, adapted from 2021",
+          "findings": "Supported within the attributed documentary scope; no product/site certification."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "Certifying a particular model class, laboratory result, regulatory compliance, local adoption or a project energy calculation.",
+      "scope_notes": [
+        "Manuscript retains its truthful November 10 as-of statement; newer documentary recheck finds same cited thresholds."
+      ],
+      "primary_review_file": "editorial/reviews/cfei-vs-cfm-per-watt-field-guide-review.md",
+      "draft_sha256": "2dfa1ae0f5df98474be34acd3d2431cdd0a970242ad013345effae31794bb9a5",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    },
+    {
+      "slug": "greenheck-ds-series-2026-field-report",
+      "manuscript_path": "editorial/drafts/greenheck-ds-series-2026-field-report.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "Dated redesign report and manufacturer document/claims interpretation",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "Documents section",
+          "verification_mode": "live_primary_recheck",
+          "claim": "DS-3 and DS-6 URLs redirect here. Lists 487917 IOM, 483568 IOM shipped prior to 1/1/26, 483972 older supplement and separate control guides.",
+          "source_urls": [
+            "https://www.greenheck.com/products/fans/overhead-hvls/ds"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Documents section",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        },
+        {
+          "locator": "January 2026 performance table",
+          "verification_mode": "live_primary_recheck",
+          "claim": "DS-3 table supports 8–24 ft range and 209,800 CFM family maximum; not a same-size comparative test.",
+          "source_urls": [
+            "https://content.greenheck.com/public/DAMProd/Original/10024/DS3_flyer.pdf"
+          ],
+          "source_date": "2026-01",
+          "retrieval_date": "2026-11-11",
+          "evidence": "January 2026 performance table",
+          "findings": "Supported within the attributed documentary scope; no product/site certification."
+        },
+        {
+          "locator": "January 2026 performance table",
+          "verification_mode": "live_primary_recheck",
+          "claim": "DS-6 table supports 8–24 ft range and distinct family maximum; retains manufacturer attribution.",
+          "source_urls": [
+            "https://content.greenheck.com/public/DAMProd/Original/10024/DS6_flyer.pdf"
+          ],
+          "source_date": "2026-01",
+          "retrieval_date": "2026-11-11",
+          "evidence": "January 2026 performance table",
+          "findings": "Supported within the attributed documentary scope; no product/site certification."
+        },
+        {
+          "locator": "December 2025 announcement",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Supports 55 C/IP66, 83 percent above minimum, protocol offerings and installation-time claims as manufacturer statements, without independent test baseline.",
+          "source_urls": [
+            "https://www.greenheck.com/about-us/news/2025/12/31/greenheck-redesigns-hvls-overhead-fans"
+          ],
+          "source_date": "2025-12",
+          "retrieval_date": "2026-11-11",
+          "evidence": "December 2025 announcement",
+          "findings": "Supported within the attributed documentary scope; no product/site certification."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "Specific structural attachment, wiring/controller selection, interlock design or independently certifying labor/comfort performance.",
+      "scope_notes": [
+        "The source URL date is not an exact day demonstrated by the visible December-only announcement. Separate 11 F DS-3 claim rests on the November 10 recorded product check; no independent cooling test is claimed."
+      ],
+      "primary_review_file": "editorial/reviews/greenheck-ds-series-2026-field-report-review.md",
+      "draft_sha256": "9ebd69490346c425f9d72b73e76d69e35817d7bc9cf6799bedd16997621b21fe",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    },
+    {
+      "slug": "powerfoil6-field-brief",
+      "manuscript_path": "editorial/drafts/powerfoil6-field-brief.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "Manual-based installation-scope briefing, not executable wiring or structural design",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "Configurator and controls/mounting documentation",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Rechecked current voltage choices, 8–24 ft diameters, onboard VFD, OLED controller, optional 24-fan BAFCon and lubricated gearbox as manufacturer statements.",
+          "source_urls": [
+            "https://bigassfans.com/powerfoil-6-hvls-fan/"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Configurator and controls/mounting documentation",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        },
+        {
+          "locator": "Rev D November 19 2025; printed pp 1–2, 21, 23–24, 26–31",
+          "verification_mode": "live_primary_pdf_text_recheck",
+          "claim": "Recovered viewer-provided original PDF with urllib and pdftotext. Confirms 600 V manual category, mounting restrictions, two relay arrangements and annual maintenance. Text extraction rechecked; earlier companion review records diagram inspection.",
+          "source_urls": [
+            "https://bigassfans.widen.net/view/pdf/7t3u2vurlm/powerfoil6-install-guide.pdf"
+          ],
+          "source_date": "2025-11-19",
+          "retrieval_date": "2026-11-11",
+          "evidence": "Rev D November 19 2025; printed pp 1–2, 21, 23–24, 26–31",
+          "findings": "Supported within the attributed documentary scope; no product/site certification."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "Project feeder/protection sizes, structural calculation, terminal wiring instruction or fire-alarm system approval.",
+      "scope_notes": [
+        "600 V category is reported as manual content; no orderable SKU claim. Relay summary reports manufacturer behavior without prescribing a site circuit."
+      ],
+      "primary_review_file": "editorial/reviews/powerfoil6-field-brief-review.md",
+      "draft_sha256": "c8c3268e055b1a839ec13a4e8c21ca6c1521a9ef171ce89d6f7531c9a7661f36",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    },
+    {
+      "slug": "scissor-lift-planning-hvls-installations",
+      "manuscript_path": "editorial/drafts/scissor-lift-planning-hvls-installations.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "OSHA-informed access survey and planning; no selected-machine approval",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "Hazard Alert pp 1–3",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Rechecked guardrail/work-platform behavior, stable surfaces, traffic/overhead hazards, load rating, manufacturer travel restrictions and training. Article avoids universal wind and tie-off numbers.",
+          "source_urls": [
+            "https://www.osha.gov/sites/default/files/publications/OSHA3842.pdf"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Hazard Alert pp 1–3",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "Approving a selected lift, floor capacity, elevated travel, lifting attachment, electrical approach distance or site fall-protection method.",
+      "scope_notes": [
+        "Practical survey and estimating paragraphs are editorial planning analysis. Conceptual diagram is not a lifting plan."
+      ],
+      "primary_review_file": "editorial/reviews/scissor-lift-planning-hvls-installations-review.md",
+      "draft_sha256": "582bd43c6b693a90c9fbc7c3bc536a72b3b816854f9c89fb19ad1b3a7ea4683a",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    },
+    {
+      "slug": "vividair-gfy-ztech-taz-controls-field-guide",
+      "manuscript_path": "editorial/drafts/vividair-gfy-ztech-taz-controls-field-guide.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "Manufacturer generation/documentation comparison; no interchangeability determination",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "Sizes and controls sections",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Rechecked nine sizes 8–24 ft, Navigator individual/group control and Z-Chill references as manufacturer claims.",
+          "source_urls": [
+            "https://vividairmovement.com/product/z-tech/"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Sizes and controls sections",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        },
+        {
+          "locator": "Historical page",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Rechecked ABB/Dodge Quantis legacy description; does not identify installed hardware on every unit.",
+          "source_urls": [
+            "https://gofanyourself.com/products/z-tech-fan/"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Historical page",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        },
+        {
+          "locator": "Product and guide links",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Rechecked directional application, sizes and attributed family coverage/airflow claims; separate 72-inch guide link remains present.",
+          "source_urls": [
+            "https://vividairmovement.com/product/taz/"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Product and guide links",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "Actual installed generation, replacement compatibility, mounting, controls wiring or legal ownership/rebrand finding.",
+      "scope_notes": [
+        "No model is inferred from gallery category. Brand continuity is not a legal merger claim."
+      ],
+      "primary_review_file": "editorial/reviews/vividair-gfy-ztech-taz-controls-field-guide-review.md",
+      "draft_sha256": "6cff774333f494ab846e7a030c52bb526655fac928f0fcb7238bfab331ca0936",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    },
+    {
+      "slug": "vividair-taz-72-field-guide",
+      "manuscript_path": "editorial/drafts/vividair-taz-72-field-guide.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "Directional-fan documentary briefing with openly attributed publisher photo identification",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "Product specifications and technical download links",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Rechecked two sizes, directional/angled application and attributed coverage claims.",
+          "source_urls": [
+            "https://vividairmovement.com/product/taz/"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Product specifications and technical download links",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        },
+        {
+          "locator": "January 2023 linked 72-inch guide; printed p 13",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Live guide retrieved; 7ft headings and 72-model labels are documented discrepancy. Article does not resolve actual dimensions from labels.",
+          "source_urls": [
+            "https://vividairmovement.com/wp-content/uploads/2023/01/TAZ_Installation_and_Technical_Operations_Guide_1.2023.pdf"
+          ],
+          "source_date": "2023-01",
+          "retrieval_date": "2026-11-11",
+          "evidence": "January 2023 linked 72-inch guide; printed p 13",
+          "findings": "Supported within the attributed documentary scope; no product/site certification."
+        },
+        {
+          "record": "editorial/media/publisher/taz-72-rights.json",
+          "verification_mode": "existing_publisher_attestation",
+          "claim": "Publisher grants use and identifies two retained photos as 72-inch TAZ. Identification is attributed, not independently nameplate-confirmed.",
+          "source_urls": [],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "editorial/media/publisher/taz-72-rights.json",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "Using this PDF as installation authority for a supplied unit, certifying the installed photo model, or issuing drive/interlock instructions.",
+      "scope_notes": [
+        "Unreadable photo nameplate is a disclosed reporting limit, not an invented identity confirmation. Manufacturer nomenclature clarification remains needed for future installation advice; no external outreach authorized. Retain no customer/location inference."
+      ],
+      "primary_review_file": "editorial/reviews/vividair-taz-72-field-guide-review.md",
+      "draft_sha256": "8731891f0aa0efce5699b7fa893078d071d9a317a20da705166ea4618ff2eae1",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    },
+    {
+      "slug": "industrial-fan-heat-study-what-was-measured",
+      "manuscript_path": "editorial/drafts/industrial-fan-heat-study-what-was-measured.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "Analysis of manufacturer announcement, not independent replication or medical advice",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "September 9 2026 announcement; research description",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Rechecked 30 workers, two Baton Rouge facilities, spring/summer 2025 periods, surveys and differing physiological outcomes. Article distinguishes announcement date from fieldwork.",
+          "source_urls": [
+            "https://bigassfans.com/press-release/the-heat-tax-study-shows-industrial-airflow-offsets-extreme-heat-strain-on-factory-floors/"
+          ],
+          "source_date": "2026-09-09",
+          "retrieval_date": "2026-11-11",
+          "evidence": "September 9 2026 announcement; research description",
+          "findings": "Supported within the attributed documentary scope; no product/site certification."
+        },
+        {
+          "locator": "NIOSH Heat Stress and Workers",
+          "verification_mode": "existing_documentary_record",
+          "claim": "Existing November 11 source record supports engineering/administrative controls context.",
+          "source_urls": [
+            "https://www.cdc.gov/niosh/heat-stress/about/"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "NIOSH Heat Stress and Workers",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "Medical guidance, universal safe fan temperature, quantified productivity/savings promise or independent study conclusion beyond available announcement.",
+      "scope_notes": [
+        "Underlying complete study is a future depth opportunity; current text explicitly attributes its limited findings to manufacturer announcement."
+      ],
+      "primary_review_file": "editorial/reviews/industrial-fan-heat-study-what-was-measured-review.md",
+      "draft_sha256": "2a5b2e9e1336842bc373db13ea8a99a331b913fa0639712155ddd42251be3390",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    },
+    {
+      "slug": "ceiling-fans-hvac-air-distribution-research",
+      "manuscript_path": "editorial/drafts/ceiling-fans-hvac-air-distribution-research.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "Berkeley project summary and coordination implications, not project design",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "Objectives, approach and linked publication",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Rechecked supply-air/fan mixing, physical/human-subject laboratory work and comparative cost study. Linked paper is March 2020; page gives no new 2026 research event date.",
+          "source_urls": [
+            "https://cbe.berkeley.edu/research/ceiling-fan-integrated-air-conditioning/"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Objectives, approach and linked publication",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        },
+        {
+          "locator": "Public overview",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Supports comfort-factor context, without importing standard clauses or asserting project compliance.",
+          "source_urls": [
+            "https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Public overview",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "Numerical ventilation effectiveness, diffuser replacement design, energy/cost guarantee or selected-building compliance.",
+      "scope_notes": [
+        "Article makes no numerical savings claim and does not misdate research as a 2026 launch."
+      ],
+      "primary_review_file": "editorial/reviews/ceiling-fans-hvac-air-distribution-research-review.md",
+      "draft_sha256": "372d3428f5721a48c5bd38983ee32e18252062bda3e44a96e9df0b6605f073ed",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    },
+    {
+      "slug": "scissor-lift-osha-classification",
+      "manuscript_path": "editorial/drafts/scissor-lift-osha-classification.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "US construction regulatory classification summary, not equipment-specific operating approval",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "August 1 2000 interpretation, corrected June 2 2005",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Rechecked scaffold classification and distinction from 1926.453 aerial-lift category; construction scope is explicit.",
+          "source_urls": [
+            "https://www.osha.gov/laws-regs/standardinterpretations/2000-08-01-0"
+          ],
+          "source_date": "2000-08-01 (corrected 2005-06-02)",
+          "retrieval_date": "2026-11-11",
+          "evidence": "August 1 2000 interpretation, corrected June 2 2005",
+          "findings": "Supported within the attributed documentary scope; no product/site certification."
+        },
+        {
+          "locator": "Scissor-lift eTool",
+          "verification_mode": "existing_documentary_record",
+          "claim": "Existing November 11 source record supports fall protection, stabilization, positioning and training context.",
+          "source_urls": [
+            "https://www.osha.gov/etools/scaffolding/scissor-lifts/"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "Scissor-lift eTool",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "Specific site or equipment fall-protection determination; generalizing construction letter to all general-industry equipment.",
+      "scope_notes": [
+        "Letter describes a particular regulatory question and is labeled as dated interpretation, not a new regulation."
+      ],
+      "primary_review_file": "editorial/reviews/scissor-lift-osha-classification-review.md",
+      "draft_sha256": "da9acaa819672fb2246ac8edfb53399e6b9c331af25a7b27a266e2c8de71132b",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    },
+    {
+      "slug": "fan-guarding-working-level",
+      "manuscript_path": "editorial/drafts/fan-guarding-working-level.md",
+      "reviewer": "Assistant technical documentary desk",
+      "review_date": "2026-11-11",
+      "scope": "General-industry guarding source summary and survey questions, not installation certification",
+      "documentary_status": "resolved_with_stated_scope",
+      "claim_groups": [
+        {
+          "locator": "1910.212(a)(5)",
+          "verification_mode": "live_primary_recheck",
+          "claim": "Rechecked blade-periphery threshold below seven feet above floor/working level and half-inch maximum guard openings.",
+          "source_urls": [
+            "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212"
+          ],
+          "source_date": null,
+          "retrieval_date": "2026-11-11",
+          "evidence": "1910.212(a)(5)",
+          "findings": "Supported within the attributed documentary scope; no product/site certification.",
+          "source_date_note": "Undated/current primary page; retrieval/as-of date recorded separately."
+        },
+        {
+          "locator": "August 1 1996 floor-fan letter",
+          "verification_mode": "existing_documentary_record",
+          "claim": "Existing November 11 source record supplies interpretive context; article distinguishes letter from regulation.",
+          "source_urls": [
+            "https://www.osha.gov/laws-regs/standardinterpretations/1996-08-01"
+          ],
+          "source_date": "1996-08-01",
+          "retrieval_date": "2026-11-11",
+          "evidence": "August 1 1996 floor-fan letter",
+          "findings": "Supported within the attributed documentary scope; no product/site certification."
+        }
+      ],
+      "qualified_human_signoff": false,
+      "conditional_qualified_review_trigger": "Certifying a particular guard design or asserting every installation above seven feet is exempt from all hazards.",
+      "scope_notes": [
+        "Article states a maximum opening exists without reproducing its dimension; omission is not an erroneous claim. General machine-guarding duties remain broader than this one provision."
+      ],
+      "primary_review_file": "editorial/reviews/fan-guarding-working-level-review.md",
+      "draft_sha256": "d14317a48fa8c125f6759d22ac6426704db758f9b8939902e5a7d3a0cf7527a7",
+      "disposition": "documentary_review_complete",
+      "qualified_review_required": false,
+      "residual_dependencies": []
+    }
+  ]
+}

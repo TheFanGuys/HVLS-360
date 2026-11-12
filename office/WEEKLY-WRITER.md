@@ -102,6 +102,8 @@ Drawing rules:
 - `editorial/media/publisher/bfg-field/*.webp`
 - `editorial/media/original/*.svg`
 
+Lead images are always landscape. The helper crops portrait photos to 4:3 automatically. Pass `--focus 0.3` (0 = top, 1 = bottom) to say where the subject sits so the crop keeps it. Reject any photo showing damaged equipment (bent blades, broken guards), a competing brand on a general topic, or a messy, blurry or dark frame.
+
 Look at the image before choosing it. Pick one that fits the topic and doesn't misrepresent it. A photo of one brand's fan must not illustrate another brand's product. Prefer an image no published article already uses (check `editorial/media/article-images.json`). Write a short factual alt text and caption. Never use manufacturer or web photos.
 
 ## 7. Build the release
@@ -112,7 +114,7 @@ python office/weekly_article.py --slug <slug> --image <path> --alt "<alt text>" 
 
 This fills in the manifest, review register, approval record, article page, homepage, RSS and sitemap, then runs every check. It must end with `READY`. If it fails, fix the cause and run it again on a clean checkout of `main`. Don't edit tests to get around a failure.
 
-Open `articles/<slug>/index.html` and read the rendered text once for leftover draft wording or broken formatting.
+Then check it the way readers will see it. Serve the repo (`cd .. && python3 -m http.server 8765 &`) and screenshot the homepage and the new article at phone and desktop width with headless Chrome, e.g. `google-chrome --headless=new --no-sandbox --hide-scrollbars --window-size=390,2400 --screenshot=phone.png http://localhost:8765/HVLS-360/articles/<slug>/` (repeat at `1280,1600`). Look at every screenshot. Fix anything wrong: an image that's cut off, sideways, too dark, showing damage or the wrong brand, or text that overflows. Read the rendered text once for leftover draft wording or broken formatting.
 
 ## 8. Open the pull request
 

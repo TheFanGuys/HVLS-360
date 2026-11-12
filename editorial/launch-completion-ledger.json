@@ -388,12 +388,12 @@
       },
       "media": {
         "manifest_file": "editorial/media/article-images.json",
-        "asset_file": "editorial/media/publisher/bfg-field/ceiling-fan.webp",
-        "asset_sha256": "77926e6cc63eae1431b593467677119be3a524173144269753821fc6bae9f1c8",
+        "asset_file": "editorial/media/publisher/weekly/cfei-vs-cfm-per-watt-field-guide.webp",
+        "asset_sha256": "a24a4cdf45ebcccb583b1bdd16b989c7f97274e5220db887d9a37b1116308fc5",
         "asset_git_blob": "6d4d6c9497bea16af9abce589fc779818a11359b",
         "kind": "photo",
-        "caption": "Installed ceiling fan photographed by Big Fan Guys; the photograph does not establish its efficiency rating.",
-        "alt": "Installed multi-blade ceiling fan beneath a steel roof",
+        "caption": "HVLS fans in an aircraft hangar. Big Fan Guys field photograph.",
+        "alt": "Several large overhead fans in an aircraft hangar",
         "presentation": {
           "card": {
             "fit": "contain",
@@ -804,12 +804,12 @@
       },
       "media": {
         "manifest_file": "editorial/media/article-images.json",
-        "asset_file": "editorial/media/publisher/bfg-field/fan-hub.webp",
-        "asset_sha256": "9bd9294ad43dcf58850096efae2918487710a2dd3f36203775534c8941889fba",
+        "asset_file": "editorial/media/publisher/weekly/vividair-gfy-ztech-taz-controls-field-guide.webp",
+        "asset_sha256": "7dc173a7f212a155c469cbd6744e2498386b404e5d1712a6a7aa2a5d8e63b800",
         "asset_git_blob": "6cf9e00b90e834d1260158a09cd61706d8fee786",
         "kind": "photo",
-        "caption": "Ceiling-fan motor, mount and blades above an automotive work area. Big Fan Guys field photograph.",
-        "alt": "Close view of a ceiling-fan motor, mount and blades",
+        "caption": "A wall of fan drives on a Big Fan Guys install.",
+        "alt": "Row of wall-mounted Go Fan Yourself fan drives with disconnects and conduit",
         "presentation": {
           "card": {
             "fit": "contain",
@@ -905,12 +905,12 @@
       },
       "media": {
         "manifest_file": "editorial/media/article-images.json",
-        "asset_file": "editorial/media/publisher/taz-72/taz-72-field-02.webp",
-        "asset_sha256": "5e30eb8ee728ab53a4ff891fadd2b0da1c4dd2f8e0a0ca3bf6d9c9b473e9266b",
+        "asset_file": "editorial/media/publisher/weekly/vividair-taz-72-field-guide.webp",
+        "asset_sha256": "ac01292e9f88587c3ee5b8622d09a785f5e4bf41bb5d00461cca85d97fd20308",
         "asset_git_blob": "0867f6dd0d8cabc34adf329bc2ca2099b32b94fd",
         "kind": "photo",
-        "caption": "TAZ field photograph supplied and identified by Big Fan Guys.",
-        "alt": "Publisher-supplied TAZ installation photograph",
+        "caption": "A 72-inch TAZ on a Big Fan Guys install.",
+        "alt": "72-inch TAZ directional fan hung on chains above a production floor",
         "presentation": {
           "card": {
             "fit": "contain",

@@ -49,7 +49,68 @@ def run(cmd):
     return out
 
 
-def revise(slug, old_sha):
+def prepare_lead(slug, image_rel, focus):
+    """Return a site path for the lead image. Photos are always made landscape (4:3).
+
+    Portrait or square photos are cropped to 4:3; focus (0 = top, 1 = bottom)
+    says where the subject sits vertically. Landscape photos are kept whole.
+    """
+    src = ROOT / image_rel
+    if image_rel.endswith(".svg"):
+        return image_rel
+    from PIL import Image
+    im = Image.open(src)
+    w, h = im.size
+    if w >= h * 1.25 and image_rel.startswith("editorial/media/"):
+        return image_rel
+    if w < h * 1.25:
+        new_h = int(w * 3 / 4)
+        top = int(max(0, min(h - new_h, focus * h - new_h / 2)))
+        im = im.crop((0, top, w, top + new_h))
+    dest = ROOT / "editorial/media/publisher/weekly" / (slug + ".webp")
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    im.convert("RGB").save(dest, "WEBP", quality=82)
+    print("Lead image saved as %s (%dx%d)" % (dest.relative_to(ROOT), *im.size))
+    return str(dest.relative_to(ROOT))
+
+
+def set_media(slug, image_rel, alt, caption):
+    manifest_path = ROOT / "editorial/media/article-images.json"
+    manifest = json.loads(manifest_path.read_text())
+    is_photo = not image_rel.endswith(".svg")
+    entry = {
+        "file": image_rel,
+        "alt": alt,
+        "caption": caption,
+        "kind": "photo" if is_photo else "diagram",
+        "credit": "Big Fan Guys" if is_photo else "HVLS 360°",
+        "presentation": {"card": {"fit": "contain", "position": "50% 50%"},
+                         "lead": {"fit": "contain", "position": "50% 50%"}},
+        "crop_review": {"reviewed": dt.date.today().isoformat(),
+                        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+                        "reviewer": "Weekly article worker (Art desk)",
+                        "evidence": "office/weekly_article.py"},
+    }
+    old = manifest["items"].get(slug, {})
+    for key, value in old.items():  # keep inline body images and other extras
+        if key not in entry:
+            entry[key] = value
+    manifest["items"][slug] = entry
+    write_json(manifest_path, manifest)
+    # Keep the launch ledger's media binding in step for launch-edition articles.
+    ledger_path = ROOT / "editorial/launch-completion-ledger.json"
+    if ledger_path.exists():
+        ledger = json.loads(ledger_path.read_text())
+        items = ledger["items"] if isinstance(ledger, dict) and "items" in ledger else ledger
+        for item in items:
+            if item.get("slug") == slug:
+                m = item["media"]
+                m.update({"asset_file": image_rel, "asset_sha256": sha(ROOT / image_rel),
+                          "caption": caption, "alt": alt, "presentation": entry["presentation"]})
+        write_json(ledger_path, ledger)
+
+
+def revise(slug, old_sha, image=None, alt=None, caption=None, focus=0.5):
     """Re-release an already-published article after its draft was edited.
 
     The edited draft must already be saved. Front matter (title, SEO fields)
@@ -58,8 +119,10 @@ def revise(slug, old_sha):
     from release_inputs import digest
     draft = ROOT / "editorial/drafts" / (slug + ".md")
     new_sha = sha(draft)
-    if new_sha == old_sha:
-        raise SystemExit("Draft is unchanged")
+    if image:
+        set_media(slug, prepare_lead(slug, image, focus), alt, caption)
+    if new_sha == old_sha and not image:
+        raise SystemExit("Draft is unchanged and no new image given")
     # Swap the old fingerprint for the new one everywhere it is recorded.
     for folder in ("editorial", "office"):
         for f in (ROOT / folder).rglob("*"):
@@ -107,14 +170,21 @@ def main():
         p = argparse.ArgumentParser()
         p.add_argument("--revise", action="store_true")
         p.add_argument("--slug", required=True)
+        p.add_argument("--image")
+        p.add_argument("--alt")
+        p.add_argument("--caption")
+        p.add_argument("--focus", type=float, default=0.5)
         a = p.parse_args()
+        if a.image and not (a.alt and a.caption):
+            raise SystemExit("--image needs --alt and --caption")
         old = json.loads((ROOT / "editorial/approvals" / (a.slug + ".json")).read_text())["article_sha256"]
-        return revise(a.slug, old)
+        return revise(a.slug, old, a.image, a.alt, a.caption, a.focus)
     p = argparse.ArgumentParser()
     p.add_argument("--slug", required=True)
     p.add_argument("--image", required=True)
     p.add_argument("--alt", required=True)
     p.add_argument("--caption", required=True)
+    p.add_argument("--focus", type=float, default=0.5, help="Where the subject sits vertically in a portrait photo: 0 top, 1 bottom")
     a = p.parse_args()
 
     slug = a.slug
@@ -136,29 +206,8 @@ def main():
             raise SystemExit("Draft front matter missing: " + needed)
     title = re.search(r'^title:\s*"(.*)"', body, re.M).group(1)
 
-    # 1. Lead image (library photos are copied into the site's media folder)
-    if a.image.startswith("art-library/"):
-        dest = ROOT / "editorial/media/publisher/weekly" / (slug + image.suffix)
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes(image.read_bytes())
-        a.image = str(dest.relative_to(ROOT))
-    manifest_path = ROOT / "editorial/media/article-images.json"
-    manifest = json.loads(manifest_path.read_text())
-    is_photo = not a.image.endswith(".svg")
-    manifest["items"][slug] = {
-        "file": a.image,
-        "alt": a.alt,
-        "caption": a.caption,
-        "kind": "photo" if is_photo else "diagram",
-        "credit": "Big Fan Guys" if is_photo else "HVLS 360°",
-        "presentation": {"card": {"fit": "contain", "position": "50% 50%"},
-                         "lead": {"fit": "contain", "position": "50% 50%"}},
-        "crop_review": {"reviewed": dt.date.today().isoformat(),
-                        "scope": "Card and article lead use contain; full source frame retained.",
-                        "reviewer": "Weekly article worker",
-                        "evidence": "office/weekly_article.py"},
-    }
-    write_json(manifest_path, manifest)
+    # 1. Lead image (always landscape on the site)
+    set_media(slug, prepare_lead(slug, a.image, a.focus), a.alt, a.caption)
 
     # 2. Review register
     register_path = ROOT / "editorial/reviews/technical-review-register.json"

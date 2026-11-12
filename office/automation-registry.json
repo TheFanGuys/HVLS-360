@@ -44,7 +44,29 @@
     "schedule": "Monday 08:00 America/Phoenix",
     "do_not_duplicate": true
   },
-  "unrelated_automations": "Do not modify Personal Operations Brief. Do not resume the disabled one-off HVLS 360 Overnight Build with stale PR37 instructions.",
+  "unrelated_automations": "Do not modify Personal Operations Brief or the separate Monday briefing. Former disabled Overnight Build has been deliberately repurposed as Draft Production; stale PR37 instructions removed. Art task remains separate.",
   "department_contracts": "office/DEPARTMENT-EXECUTION-CONTRACTS.md",
-  "runtime_readback": "office/department-runtime.json"
+  "runtime_readback": "office/department-runtime.json",
+  "draft_production": {
+    "provider": "ChatGPT hosted automation",
+    "title": "HVLS 360 Draft Production",
+    "automation_id": "Automation_a726d89a5d388191bd3ff61cc57019b0",
+    "enabled_confirmed": true,
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261113T114500\nRRULE:FREQ=WEEKLY;BYDAY=TU,FR;BYHOUR=11;BYMINUTE=45;BYSECOND=0\nEND:VEVENT",
+    "timezone": "America/New_York",
+    "next_run_time": "2026-11-13T11:45:00-05:00",
+    "prompt_file": "office/DRAFT-PRODUCTION-WORKER.md",
+    "configured_at_utc": "2026-11-12T01:20:22.585276+00:00",
+    "reused_existing_task": true,
+    "former_title": "HVLS 360 Overnight Build",
+    "stale_instruction_removed": true,
+    "max_assignments_per_run": 1,
+    "output_queue": "office/production-queue.json",
+    "first_production_output_verified": false,
+    "independent_scheduled_output_verified": false,
+    "additional_spend_usd": 0,
+    "plan_quota_remaining": "not_exposed; stop at quota/no paid fallback",
+    "environment_selection": "inherited",
+    "environments": null
+  }
 }

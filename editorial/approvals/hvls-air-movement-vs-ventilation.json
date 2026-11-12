@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "slug": "hvls-air-movement-vs-ventilation",
+  "publisher_decision": "approved",
+  "technical_review": "complete",
+  "editorial_review": "complete",
+  "media_rights": "cleared",
+  "publisher_name": "Chris Fogarty",
+  "approved_at_utc": "2026-11-12T10:42:58Z",
+  "publisher_attestation": "I explicitly authorize publication of this article.",
+  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/hvls-air-movement-vs-ventilation-review.md and ai-expert-hvls-air-movement-vs-ventilation.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed.",
+  "media_rights_evidence": "Lead and inline media are Big Fan Guys field photographs owned by the founder or original HVLS 360 illustrations; see editorial/media/article-images.json and provenance files.",
+  "article_sha256": "6558329823c2e6521c5d030bc05acfc105b06001dfd5cb624856d921e3b0448b",
+  "release_inputs_sha256": "544a002add499287ddf2bf7db4d7a15dae384f608994e52222b949cea1884b31"
+}

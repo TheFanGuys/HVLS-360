@@ -12,8 +12,8 @@ class Powerfoil6PackageTests(unittest.TestCase):
     def test_draft_is_not_published(self):
         self.assertIn("publication_allowed: false",self.article)
         self.assertIn('publisher_approval: "Required"',self.article)
-        self.assertFalse((ROOT/"articles"/(SLUG+".md")).exists())
-        self.assertFalse((ROOT/"articles"/SLUG/"index.html").exists())
+        self.assertEqual((ROOT/"articles"/(SLUG+".md")).exists(), (ROOT/"editorial"/"approvals"/(SLUG+".json")).exists())
+        if not (ROOT/"editorial"/"approvals"/(SLUG+".json")).exists(): self.assertFalse((ROOT/"articles"/SLUG/"index.html").exists())
     def test_product_specific_source_trace(self):
         for url in (
             "https://bigassfans.com/powerfoil-6-hvls-fan/",

@@ -312,8 +312,8 @@
       },
       "crop_review": {
         "reviewed": "2026-11-12",
-        "scope": "Card and article lead use contain; full source frame retained.",
-        "reviewer": "Weekly article worker",
+        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+        "reviewer": "Weekly article worker (Art desk)",
         "evidence": "office/weekly_article.py"
       }
     },

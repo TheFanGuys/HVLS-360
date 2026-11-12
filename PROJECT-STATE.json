@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-11",
-  "evidence_baseline": "69359b06b653dba1019fae8ca1f3c7baee7dd4a2",
+  "updated": "2026-11-12",
+  "evidence_baseline": "e1856bfaaffb8372512fd0812c5329a5005d0bde",
   "checkpoint_type": "dated_operator_checkpoint_not_automatic_chat_sync",
   "repository": "TheFanGuys/HVLS-360",
   "board_issue": 94,
@@ -14,8 +14,8 @@
   "last_verified_python_tests": 200,
   "embedded_coo_operational": false,
   "continuously_running_ai_staff_verified": 0,
-  "current_objective": "Selected-image Art Director composition pass complete and deployed for the current edition.",
-  "next_task": "Complete remaining publication operations acceptance: authenticated Review Studio save/reopen and shared decision path (#92/#114), then remaining technical review work.",
+  "current_objective": "Complete four major categories in separate project chats using durable evidence-based handoffs.",
+  "next_task": "Start each category from its handoff and current main. Website resumes preserved WIP; Agent Operations verifies the enabled Art Director task\u2019s first completed execution.",
   "active_issues": [
     92,
     93,
@@ -39,12 +39,12 @@
     "Free embedded COO accounts, backend and real execution",
     "Domain availability and actual Namecheap prices"
   ],
-  "latest_decision": "Chris reaffirmed approval of all eight current articles. Recorded revision hashes in editorial/founder-approval-register.json; do not keep asking for founder article approval. Independent technical/media findings are separate and are not fabricated by this record. Public resources now focus on studies, laws, regulations and technical information; removed manufacturer manual/product-support listings. Manuals may remain internal source citations.",
+  "latest_decision": "Chris requested four handoff files matching the original major areas; finish entire categories, not isolated crop work. Art Director should own ongoing imagery without routine owner supervision.",
   "update_requirement": "Operator updates this file and PROJECT-HANDOFF.md, DECISIONS.md and relevant GitHub Issues after meaningful work. This is an instruction, not a claim of automatic syncing.",
   "deferred_issues": [
     116
   ],
-  "latest_verified_change": "PR #142 merged at69359b0; Pages43122853277 success. Art Director accepted seven selected photos across12 stories and six public research placements; corrected captions and replaced obstructed image. Live36image proof;390px phone and768px tablet magazine layouts; all12 phone and desktop article leads loaded/no overflow.200 Python tests and six JS suites pass; exact ten asset hashes verified; manuscript approvals unchanged.",
+  "latest_verified_change": "Four category handoffs prepared; unfinished website code preserved on wip/website-editing-handoff at59074a2, not merged or deployed. Main retains completed image-framing implementation and200-test acceptance. Hourly Art Director task creation/enabled status verified; first scheduled baseline completed and verified at e1856bf; changed-image execution remains open.",
   "research_execution_verified": true,
   "research_issue_creation_verified": false,
   "research_existing_assignment_linkage_verified": true,
@@ -62,8 +62,20 @@
   "selected_image_composition_complete": true,
   "selected_image_reviewed_stories": 12,
   "public_research_image_placements_reviewed": 6,
-  "art_media_director_owner": "Art & Media Director — assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
+  "art_media_director_owner": "Art & Media Director \u2014 assigned assistant execution during this session; future visual acceptance responsibility persisted in AGENTS.md",
   "art_director_checkpoint": "editorial/media/art-director-checkpoint.json",
   "art_director_last_checked_source": "d88ea51e0c6c0da1c010b6456c320886d8574a8a",
-  "art_director_last_outcome": "baseline_established_no_relevant_change"
+  "art_director_last_outcome": "baseline_established_no_relevant_change",
+  "handoff_files": [
+    "office/handoffs/01-Website-and-Editing-Handoff.md",
+    "office/handoffs/02-Content-and-Imagery-Handoff.md",
+    "office/handoffs/03-Research-to-Publication-Handoff.md",
+    "office/handoffs/04-Agent-Operations-Handoff.md"
+  ],
+  "website_wip_branch": "wip/website-editing-handoff",
+  "website_wip_sha": "59074a207fb5a3c59039c8657c99e6a2994dc5f6",
+  "art_director_automation_enabled": true,
+  "art_director_automation_completed_run_verified": true,
+  "automation_registry": "office/automation-registry.json",
+  "art_director_changed_image_run_verified": false
 }

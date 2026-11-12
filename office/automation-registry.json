@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-12",
+  "art_media_director": {
+    "provider": "ChatGPT hosted automation",
+    "title": "HVLS 360 Art Director",
+    "automation_id": "Automation_9f539606c4308191b763f0403c82a07c",
+    "enabled_confirmed": true,
+    "schedule": "RRULE:FREQ=HOURLY",
+    "timezone": "America/Phoenix",
+    "last_observed_run_id": "9e6dbc59-fa4c-8320-a542-29bcfaab4da3",
+    "last_observed_run_status": "completed",
+    "completed_output_verified": true,
+    "repository_checkpoint_verified": true,
+    "meaning": "Enabled hourly task; first scheduled no-change baseline completed, ten asset hashes verified and durable GitHub checkpoint/readback verified. Changed-image visual correction and failure/recovery remain unverified.",
+    "prompt_file": "office/ART-DIRECTOR-AUTOMATION.md",
+    "completed_at_utc": "2026-11-12T00:01:26.173427Z",
+    "baseline_commit": "e1856bfaaffb8372512fd0812c5329a5005d0bde",
+    "changed_image_visual_execution_verified": false
+  },
+  "separate_monday_brief": {
+    "title": "HVLS Industry Brief",
+    "automation_id": "6aafea2ff2d48191a0c78ecf35e90907",
+    "schedule": "Monday 08:00 America/Phoenix",
+    "do_not_duplicate": true
+  },
+  "unrelated_automations": "Do not modify Personal Operations Brief. Do not resume the disabled one-off HVLS 360 Overnight Build with stale PR37 instructions."
+}

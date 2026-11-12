@@ -43,3 +43,7 @@ Before selecting an article image, read art-library/README.md and art-library/ca
 ## Image composition acceptance — founder direction November 11
 
 Inspect the actual subject in every selected image before use. Record card and article-lead presentation separately in editorial/media/article-images.json. Review the rendered desktop, tablet and phone placements; preserve the fan, motor, blades or installation context promised by the caption. Never apply one arbitrary crop to all images. Use contain when a narrow card would cut off the subject; keep complete source frames in article leads and all diagram labels visible. Reject obstructed or poor source photographs instead of disguising the defect with a crop. New selections or layout changes require another visual composition pass. Automated checks support, but do not replace, visual review.
+
+## Four-chat completion ownership — November 12
+
+Work is split into Website & Editing, Content & Imagery, Research-to-Publication Workflow, and Agent Operations, with handoffs under office/handoffs/. Each chat owns completion of its category, not just one microtask. Use isolated branches/PRs; fetch current shared files before updating them and preserve other categories’ entries. Record concrete remaining acceptance criteria rather than recycling rough completion percentages. Art Director owns routine imagery automatically where verified task execution permits; inspect the existing automation registry and actual run results instead of creating duplicate schedules or claiming unverified autonomous execution.

@@ -1,3 +1,14 @@
+## Current continuation — November 12: four separate workstreams
+
+Chris requested four category chats. Attach the matching file and instruct the new chat to read it and complete that category:
+
+1. [Website & Editing](office/handoffs/01-Website-and-Editing-Handoff.md)
+2. [Content & Imagery](office/handoffs/02-Content-and-Imagery-Handoff.md)
+3. [Research-to-Publication Workflow](office/handoffs/03-Research-to-Publication-Handoff.md)
+4. [Agent Operations](office/handoffs/04-Agent-Operations-Handoff.md)
+
+Website WIP is preserved on `wip/website-editing-handoff`, not deployed. An hourly Art Director task is enabled; its first no-change baseline completed with verified GitHub writeback at e1856bf. Changed-image/visual execution remains unverified. Read `office/automation-registry.json` before changing schedules. Use current main and the matching handoff before any older restart prompt below. Do not repeat the founder’s original-eight text approvals or claim full completion from a crop-only task.
+
 # HVLS 360 — continue in a fresh project chat
 
 Paste this into a new chat in this project:

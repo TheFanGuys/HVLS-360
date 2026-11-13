@@ -1358,6 +1358,19 @@
       "rights_basis": "Supplied by Chris via the Command Screen, Nov 12, 2026, for HVLS 360 homepage research cards.",
       "published_derivative": "editorial/media/publisher/research/ecfr-430-32-energy-standards.webp",
       "sha256": "b2793be493e49e0f54d2dcb7e53742dc4353490ebe185ad68da25b05c162596d"
+    },
+    {
+      "id": "art-library/uploads/research-cards/osha-scissor-lift-safety",
+      "category": "research-card-graphic",
+      "repository_file": "art-library/uploads/research-cards/osha-scissor-lift-safety.jpg",
+      "source_url": "https://github.com/TheFanGuys/HVLS-360/blob/main/art-library/uploads/research-cards/osha-scissor-lift-safety.jpg",
+      "original_filename": "osha-scissor-lift-safety.jpg",
+      "model_identification": "HVLS 360 cover graphic; no specific fan or lift model asserted",
+      "description": "HVLS 360 cover graphic: 'Scissor-Lift Safety', based on OSHA's Scissor Lifts eTool, with a warehouse photo of scissor lifts under a fan.",
+      "review_status": "selected",
+      "rights_basis": "Supplied by Chris via the Command Screen, Nov 13, 2026, for the homepage OSHA scissor-lift card.",
+      "published_derivative": "editorial/media/publisher/research/osha-scissor-lift-safety.webp",
+      "sha256": "c5543773e19ebf73e4a109e0a830c419332ceda2dfbbc1e0e2a24847f870fa5d"
     }
   ]
 }

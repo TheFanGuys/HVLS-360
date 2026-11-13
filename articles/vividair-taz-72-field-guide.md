@@ -16,39 +16,41 @@ seo_description: "Review VividAir TAZ aisle-fan placement, manufacturer performa
 
 # Inside the 72-Inch TAZ: A Field Guide to VividAir's Aisle Fan
 
-Racks make long aisles that an overhead fan can't reach well, and a mezzanine leaves little room above. That's where VividAir pitches the TAZ directional fan, in 36-inch and 72-inch sizes [1], and it's the fan Big Fan Guys reaches for when a hard-to-reach spot still needs air. Before you pick a spot for one, trace where the air will go and what's going to get in its way.
+The TAZ is the fan Big Fan Guys hangs when a spot needs air and an overhead HVLS fan can't get it there: the far end of a long rack aisle, the space under a mezzanine, a corner the big fans miss. VividAir builds it in 36-inch and 72-inch sizes [1]. This guide is about the 72.
 
-The two Big Fan Guys installation photos with this guide show a 72-inch TAZ: cylindrical housing, protective guard, discharge louvers and chain suspension. On your own job, read the nameplate to confirm the exact model before you lean on any published numbers.
+The fan in these photos is a 72-inch TAZ on a Big Fan Guys job, hung on chains with the guard and discharge louvers out front. On your own job, read the nameplate and confirm the model before you lean on any published number.
 
-## Read the coverage claim closely
+## How far it throws
 
-VividAir advertises up to 135 feet of linear cooling coverage and up to 75,200 CFM for the TAZ family [1]. Big Fan Guys has installed the TAZ and seen it carry air the full 135 feet and past it. Hang one at the end of a racking aisle and you can get air moving 150 feet down the aisle. The family comes in two sizes, so find out which size and conditions VividAir's figures belong to before you put them in a proposal.
+VividAir rates the TAZ family at up to 135 feet of linear cooling coverage and up to 75,200 CFM [1]. Big Fan Guys has installed the TAZ and watched it carry air the full 135 feet and past it. Hang one at the end of a racking aisle and you can easily get air moving 150 feet down the aisle.
 
-For an aisle, the real question is what air speed reaches the work positions down its length. A linear coverage number doesn't answer that. It also isn't the same thing as the round coverage area of an overhead HVLS fan.
+The manufacturer figures cover the whole family, and the family comes in two sizes. Before a number goes in a proposal, get VividAir to tell you which size and setup it came from.
 
-VividAir says the TAZ can mount flat or angled and blow one way or in several directions [1]. Get the racking, mezzanines and other obstructions on the layout drawing before you set the fan's position and angle.
+What the picker 120 feet down the aisle feels is air speed where he's standing. A coverage figure doesn't give you that, and it doesn't line up with the circular coverage area quoted for an overhead HVLS fan.
 
-## The install guide doesn't agree with itself
+## Aim it around the racking
 
-The product page links a January 2023 document as the 72-inch Installation and Technical Operations Guide, next to a separate 36-inch guide [1][2]. Inside, the PDF uses "7ft TAZ Fan" headings, while its power requirements list GFY-TAZ-72-480 and GFY-TAZ-72-240 [2, printed p. 13].
+VividAir says the TAZ mounts flat or angled and can blow in one direction or several [1]. Put the racking, mezzanine edges and anything else in the air path on the layout before you pick a hanging point and an angle.
 
-Ask VividAir to sort that out against the unit you're installing. It doesn't mean the fan is really 84 inches, and it doesn't mean every drawing in the guide fits your unit. Keep the nameplate data and the drawings that shipped with the fan in the job file, and get the mismatch answered before you install or service off that guide.
+The install guide says the contractor and the customer should go over the layout, controller locations and supply panels together before the truck is unloaded, and check the mounting method at each location [2]. Do it on the site survey, while you can still move a fan without a crew standing around.
 
-The guide also says the contractor and customer should go over the layout, controller locations and supply panels before unloading, and check the mounting method at each spot [2]. Do that on the site survey, while there's still time to change things before the crew and equipment show up.
+## The guide's size labels don't match
 
-## Leave room to hang it and to work on it
+On the product page, the January 2023 Installation and Technical Operations Guide is linked as the 72-inch guide, next to a separate 36-inch one [1][2]. Open the PDF and the headings say "7ft TAZ Fan." The power requirements on printed page 13 list GFY-TAZ-72-480 and GFY-TAZ-72-240 [2].
 
-Fitting the housing in the aisle is only part of it. Check the structure, the specified mounting hardware and fasteners, the clearances, and whether the crew can get to it for assembly. Use the mounting details for the TAZ setup you bought. Hardware or methods from another fan line need their own check.
+That doesn't make the fan 84 inches. It does mean you can't assume every drawing in that guide matches the unit on your truck. Ask VividAir which document goes with your model, and keep the nameplate data and the drawings that shipped with the fan in the job file.
 
-The photos show why service access belongs on the drawing. Somebody will need to reach that guard and those louvers later. A clear discharge path doesn't mean the unit can be serviced safely, so check access against the maintenance instructions.
+## Hanging it and getting back to it
 
-## Match the controls to the fan
+Check the structure, the specified mounting hardware and fasteners, and your clearances against the mounting details for the TAZ setup you bought. Hardware from another fan line needs its own check.
 
-Before you troubleshoot, write down the fan model, supply voltage, motor, drive and controller, plus any tie-in to the building controls or fire alarm. Then match that gear to the wiring and operations documents that came with it.
+Plan the service call now. Somebody will have to reach that guard and those louvers later. Check that access against VividAir's maintenance instructions while the aisle is still clear.
 
-A plant with several generations of Go Fan Yourself or VividAir fans may have different controllers and wiring under the same product names. A 2023 manual helps you identify the equipment. It doesn't prove a newer unit uses the same hardware or wiring.
+## Controls and wiring
 
-Before you mobilize, lock down the size, discharge direction, mounting setup and controls paperwork. If you're the buyer, get the coverage claim tied to your actual configuration and work area. The guide's conflicting size labels are still a question for VividAir.
+Before you troubleshoot, write down the fan model, supply voltage, motor, drive and controller, and any tie-in to building controls or the fire alarm. Match that against the wiring and operations documents that came with the fan.
+
+A plant that has bought Go Fan Yourself and VividAir fans over several years can have different controllers and wiring under the same product name. The 2023 guide helps you identify the equipment. It won't tell you a newer unit is wired the same way.
 
 ### Sources
 

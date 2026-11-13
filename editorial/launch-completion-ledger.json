@@ -850,13 +850,13 @@
       "field_relevance": "Distinguish directional aisle airflow from broad ceiling-fan circulation; resolve product-guide naming against the actual equipment.",
       "manuscript": {
         "file": "editorial/drafts/vividair-taz-72-field-guide.md",
-        "sha256": "62f8f66b5ef74c3a2040cf129e28ff26ecbbd220ecdc3c8eb4f4d023bb99cb0e",
+        "sha256": "5c088ae8906341da949273b96087b4265acee8bdde864e675c185c4209753797",
         "git_blob": "d3161b34d449851eea679e7deb4c096498c48af0",
         "body_word_count": 695
       },
       "sources_and_claim_checks": {
         "review_file": "editorial/reviews/vividair-taz-72-field-guide-review.md",
-        "review_sha256": "c511fb209ea43fa7163d6d0f0571267aa940fc021f68dd9f3e95526fadcad9c0",
+        "review_sha256": "a60fd392025eeac3ed179a10ef2716f838404dab2607b0c3161b48c5d889d08b",
         "primary_source_urls": [
           "https://vividairmovement.com/product/taz/",
           "https://vividairmovement.com/wp-content/uploads/2023/01/TAZ_Installation_and_Technical_Operations_Guide_1.2023.pdf"
@@ -875,10 +875,10 @@
       },
       "voice": {
         "file": "editorial/reviews/vividair-taz-72-field-guide-review.md",
-        "manuscript_sha256": "62f8f66b5ef74c3a2040cf129e28ff26ecbbd220ecdc3c8eb4f4d023bb99cb0e",
+        "manuscript_sha256": "5c088ae8906341da949273b96087b4265acee8bdde864e675c185c4209753797",
         "matching_revision_record_present": true,
         "record_excerpts": [
-          "Voice pass revision record: 62f8f66b5ef74c3a2040cf129e28ff26ecbbd220ecdc3c8eb4f4d023bb99cb0e (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
+          "Voice pass revision record: 5c088ae8906341da949273b96087b4265acee8bdde864e675c185c4209753797 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change."
         ],
         "editor": "Editorial Director role performed by assistant; not a human independent attestation"
       },
@@ -972,7 +972,7 @@
       "founder_text_decision": {
         "status": "approved_exact_revision",
         "approval_register_file": "editorial/founder-approval-register.json",
-        "approved_sha256": "62f8f66b5ef74c3a2040cf129e28ff26ecbbd220ecdc3c8eb4f4d023bb99cb0e",
+        "approved_sha256": "5c088ae8906341da949273b96087b4265acee8bdde864e675c185c4209753797",
         "request_repeat_approval": false
       },
       "delivery": {

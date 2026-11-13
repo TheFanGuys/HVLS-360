@@ -8,8 +8,8 @@
   "publisher_name": "Chris Fogarty",
   "approved_at_utc": "2026-11-12T10:42:58Z",
   "publisher_attestation": "I explicitly authorize publication of this article.",
-  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/vividair-taz-72-field-guide-review.md and ai-expert-vividair-taz-72-field-guide.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed. Revised 2026-11-12 at founder's request to remove leftover internal draft wording; no technical claims changed. Revised 2026-11-12; founder approves by merging the fix pull request. Revised 2026-11-12; founder approves by merging the fix pull request. Revised 2026-11-12; founder approves by merging the fix pull request.",
+  "source_review_notes": "Founder approved this exact manuscript (register 2026-11-11) and on 2026-11-12 instructed publication. Documentary source/technical review: editorial/reviews/vividair-taz-72-field-guide-review.md and ai-expert-vividair-taz-72-field-guide.md. Technical review = founder field review as HVLS installer; no third-party licensed engineer sign-off claimed. Revised 2026-11-12 at founder's request to remove leftover internal draft wording; no technical claims changed. Revised 2026-11-12; founder approves by merging the fix pull request. Revised 2026-11-12; founder approves by merging the fix pull request. Revised 2026-11-12; founder approves by merging the fix pull request. Revised 2026-11-13; founder approves by merging the fix pull request.",
   "media_rights_evidence": "Lead and inline media are Big Fan Guys field photographs owned by the founder or original HVLS 360 illustrations; see editorial/media/article-images.json and provenance files.",
-  "article_sha256": "62f8f66b5ef74c3a2040cf129e28ff26ecbbd220ecdc3c8eb4f4d023bb99cb0e",
-  "release_inputs_sha256": "636b39d2e2e5020153d923da4d5a87cd914586ea4e55b7085cc41147ae5753c9"
+  "article_sha256": "5c088ae8906341da949273b96087b4265acee8bdde864e675c185c4209753797",
+  "release_inputs_sha256": "b35006174bbe4a7117306937d14db419e82851f6719cc434fce714059f5d6bca"
 }

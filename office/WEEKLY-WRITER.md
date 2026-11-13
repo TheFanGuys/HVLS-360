@@ -14,6 +14,7 @@ Route each instruction to the desk that handles it:
 - **Style rule** ("Stop bolding numbers"): add it to `office/HOUSE-STYLE.md` under a "Chris's rules" heading in this week's pull request, and follow it this week.
 - **Field note** (a real job story or tip): use it in this week's article if it fits, or in the article it names. Field notes are gold. Use them in Chris's own words where possible.
 - **Fix to a live article**: make the change on a separate branch `fix/<slug>` from `main`: edit the body of `editorial/drafts/<slug>.md` (never the front matter), run `python office/weekly_article.py --revise --slug <slug>` until it ends with `READY`, and open a separate pull request titled `Fix: <headline>` for him to merge.
+- **Take an article down**: on a branch `fix/remove-<slug>`, `git rm` `articles/<slug>.md`, `articles/<slug>/` and `editorial/approvals/<slug>.json`, keep the draft in `editorial/drafts/`, then run `python office/public_catalog.py --write` and the full checks.
 - **Anything else** (schedule changes, new site features, things you can't do from here): don't guess. Say plainly that it needs a live Claude chat and why.
 
 Then reply once in the inbox, short and phone-readable, listing each instruction and what you did with it. If there were no new instructions, don't post.
@@ -83,6 +84,8 @@ Do this as a separate pass, after the draft is finished.
 5. Rewrite the opening so the first sentence tells the reader something useful.
 6. Delete any closing paragraph that only summarizes.
 7. Read-aloud test on every paragraph.
+8. Apply Chris's November 13 rules in `office/HOUSE-STYLE.md`: cut any section about the source documents, any section with nothing concrete in it, and every "check the manual" line after the first. Passing the grep is not enough; the TAZ 72 piece passed it and was still pulled.
+9. Put the article's first two paragraphs in the pull request body.
 
 ## 5. Source check
 

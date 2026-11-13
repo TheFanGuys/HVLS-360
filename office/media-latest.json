@@ -16,6 +16,19 @@
       "draft_file": "abb-2026-ip66-vfd-field-report.md"
     },
     {
+      "subject": "Authentic HVLS fan installation for annual-hvls-service-checklist.md",
+      "manufacturer_link": null,
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "not_verified",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
+      "draft_file": "annual-hvls-service-checklist.md"
+    },
+    {
       "subject": "Authentic HVLS fan installation for ceiling-fans-hvac-air-distribution-research.md",
       "manufacturer_link": null,
       "visual_type": "authentic_editorial_hero_photo",
@@ -81,6 +94,19 @@
       "draft_file": "hvls-air-movement-vs-ventilation.md"
     },
     {
+      "subject": "Authentic HVLS fan installation for hvls-fans-sprinkler-interlock-field-guide.md",
+      "manufacturer_link": null,
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "not_verified",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
+      "draft_file": "hvls-fans-sprinkler-interlock-field-guide.md"
+    },
+    {
       "subject": "Authentic HVLS fan installation for industrial-fan-heat-study-what-was-measured.md",
       "manufacturer_link": null,
       "visual_type": "authentic_editorial_hero_photo",
@@ -92,6 +118,32 @@
       "status": "media_research_required",
       "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
       "draft_file": "industrial-fan-heat-study-what-was-measured.md"
+    },
+    {
+      "subject": "Authentic HVLS fan installation for one-big-fan-vs-small-fans.md",
+      "manufacturer_link": null,
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "not_verified",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
+      "draft_file": "one-big-fan-vs-small-fans.md"
+    },
+    {
+      "subject": "Authentic HVLS fan installation for optidrive-e4-fan-service-guide.md",
+      "manufacturer_link": null,
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "not_verified",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
+      "draft_file": "optidrive-e4-fan-service-guide.md"
     },
     {
       "subject": "Authentic HVLS fan installation for powerfoil6-field-brief.md",
@@ -157,6 +209,19 @@
       "status": "media_research_required",
       "notes": "First search BigFanGuys.com owner-authorized photographs; the publisher supplied three identified 72-inch TAZ photos separately. Verify exact model before labeling; do not substitute Patterson barrel fans. Check site/customer privacy and avoid a separate photo gallery.",
       "draft_file": "vividair-taz-72-field-guide.md"
+    },
+    {
+      "subject": "Authentic HVLS fan installation for winter-destratification-hvls-fans.md",
+      "manufacturer_link": null,
+      "visual_type": "authentic_editorial_hero_photo",
+      "image_url": null,
+      "image_rights": "not_verified",
+      "model_accuracy": "not_verified",
+      "alt_text": null,
+      "caption": null,
+      "status": "media_research_required",
+      "notes": "First check BigFanGuys.com for publisher-authorized original field photography, then verify manufacturer/model, site privacy and appropriate crop; do not build a photo gallery.",
+      "draft_file": "winter-destratification-hvls-fans.md"
     }
   ]
 }

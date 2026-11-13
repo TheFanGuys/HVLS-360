@@ -32,7 +32,7 @@ class ImageFraming(unittest.TestCase):
   for m in images:self.assertEqual(hashlib.sha256((ROOT/m['file']).read_bytes()).hexdigest(),m['sha256'])
   snapshot=(ROOT/'office/preview'/f'{slug}.html').read_text()
   self.assertEqual(snapshot.count('class="article-context"'),1)
-  self.assertLess(snapshot.index('The two Big Fan Guys installation photos'),snapshot.index('class="article-context"'))
+  self.assertLess(snapshot.index(images[0]['after_paragraph_start']),snapshot.index('class="article-context"'))
   self.assertIn('object-fit:contain;width:100%;height:auto',snapshot)
   self.assertIn('id="contextMedia"',snapshot)
  def test_missing_context_anchor_fails_instead_of_hiding_second_photo(self):

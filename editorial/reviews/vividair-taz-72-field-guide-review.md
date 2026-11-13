@@ -40,12 +40,12 @@ Founder feedback: no specific factual changes requested; some passages still sou
 Nov 11 full-queue recheck: included the TAZ revision from PR #111 in the eight-article voice review. No additional TAZ text changes needed in this pass. All technical/media/founder holds remain.
 
 
-Voice pass revision record: 62f8f66b5ef74c3a2040cf129e28ff26ecbbd220ecdc3c8eb4f4d023bb99cb0e (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
+Voice pass revision record: 5c088ae8906341da949273b96087b4265acee8bdde864e675c185c4209753797 (SHA-256), November 11, 2026. Editor: Editorial Director role performed by the assistant. Full queue reviewed under the standing all-future-articles requirement. This records the editorial pass only; founder acceptance, independent technical review and media clearance remain open. Recheck voice after any manuscript change.
 
 
 ## Current launch reconciliation — November 11, 2026
 
-Exact manuscript SHA-256: `62f8f66b5ef74c3a2040cf129e28ff26ecbbd220ecdc3c8eb4f4d023bb99cb0e`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
+Exact manuscript SHA-256: `5c088ae8906341da949273b96087b4265acee8bdde864e675c185c4209753797`. Manuscript bytes unchanged; this reconciliation does not create a new text revision. Existing separate voice pass remains matched.
 
 Technical disposition: **documentary review complete for current scope** — Directional-fan documentary briefing with openly attributed publisher photo identification. Per-claim primary evidence, dates and retrieval modes: `LAUNCH-CLAIM-RESOLUTION-2026-11-11.json`, record `vividair-taz-72-field-guide`. This supersedes blanket qualified-review holds for this documentary scope; zero professional signoffs are claimed.
 
@@ -75,3 +75,25 @@ Chris's field note (Command Screen work order sguqboe963hhl1juch02): Big Fan Guy
 | "we haven't tested them" | Superseded by field note | Removed |
 
 No drawings or image changes. Air speed at work positions remains unmeasured; the aisle air-speed paragraph stays as written.
+
+
+## Voice rewrite — November 13, 2026
+
+Chris (Command Screen work order haj1a4uy3ry0waic6qlz): the article still read as AI-written. Editor desk rewrote the full body to house style. Manuscript SHA-256 after rewrite: `5c088ae8906341da949273b96087b4265acee8bdde864e675c185c4209753797`.
+
+Changes: new opening that says what the fan is for and where Big Fan Guys uses it; Chris's 135 ft / 150 ft field note kept in his words; cut the "real question" framing, the "doesn't mean / doesn't mean" pair, the abstract "service access belongs on the drawing" line and the closing recap; concrete section heads; one mention each of nameplate check and manufacturer documents. Banned-word grep: zero hits in the body. Bold: none. Body context-photo caption shortened to "Front of the 72-inch TAZ: discharge louvers, guard and chain suspension" and its anchor moved to the new photo paragraph.
+
+### Technical check
+
+| Claim or element | Source | Change |
+|---|---|---|
+| 36-inch and 72-inch sizes | VividAir TAZ product page [1] | Unchanged |
+| Up to 135 ft linear coverage, up to 75,200 CFM (family) | [1] | Unchanged, attributed once |
+| 135 ft and beyond observed; about 150 ft down a racking aisle; hard-to-reach spots | Field note, Chris Fogarty, Nov 12, 2026 | Kept, attributed to Big Fan Guys |
+| Flat or angled mount, one or several directions | [1] | Unchanged |
+| Jan 2023 guide linked as 72-inch; "7ft TAZ Fan" headings; GFY-TAZ-72-480 / -240 on printed p. 13 | [1][2] | Unchanged |
+| Pre-unload review of layout, controller locations, supply panels; check mounting method per location | [2] | Unchanged |
+| Under-mezzanine use named in the opening | Prior text (mezzanine aisles) and field note on hard-to-reach spots | Wording only |
+| Photos show a 72-inch TAZ, chain-hung, guard and louvers | Publisher identification, editorial/media/publisher/taz-72-rights.json | Unchanged |
+
+No new facts, figures or sources added. The product page could not be reopened from this run (fetch not permitted); every claim is carried over from the November 11 live primary recheck recorded above.

@@ -43,3 +43,10 @@ Before handing off, read each paragraph as if you're saying it to a guy on a lif
 ## Chris's rules
 
 - Photos (Chris, November 12, 2026): every image the Art desk publishes should look like a professional publication photo. Before use, crop to a clean, level composition around the subject, cut distracting clutter at the frame edges, set exposure and white balance, and add light sharpening. Never add, remove or alter equipment, labels or anything else in the scene. If a photo can't be made to look professional that way, don't use it; ask Chris for a better one.
+- AI-sounding copy (Chris, November 13, 2026): Chris pulled the 72-Inch TAZ field guide because it read as AI-written. It passed the banned-word check and still failed, because the problem was what it was about, not just the words. From now on:
+  - Write about the equipment and the job, not the paperwork. No sections about a manual's labeling, a spec sheet's inconsistency or what a source "doesn't tell you." If a document problem changes what an installer does, say it in one sentence and move on.
+  - Every section must give the reader something concrete: a size, weight, height, voltage, clearance, part, step or field result. A section made of "check X against Y," "confirm with the manufacturer" or "write down the model" with nothing specific gets cut.
+  - One "check the manual / nameplate" line per article, total.
+  - Banned constructions found in that piece: "That doesn't make X. It does mean Y." / "before you lean on any published number" / "A [figure] doesn't give you that" / "It won't tell you…" / "Plan the service call now." Any sentence that tells the reader what something isn't, instead of what it is.
+  - Field guides about a product Big Fan Guys installs need Chris's field input first. Before writing, the COO sends Chris three to five short questions (where it was hung, mounting height, install time, what went wrong, what the customer noticed). No answers, no field guide: write a short product brief instead, or wait.
+  - The pull request shows the article's first two paragraphs in the body, so Chris can judge the voice on his phone before opening anything.

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T21:15:03.697616+00:00",
+  "generated_at": "2026-11-17T22:48:43.355662+00:00",
   "status": "unverified_research_leads",
   "departments": [
     {
@@ -26,12 +26,6 @@
           "discovery_url": "https://www.invertekdrives.com/news",
           "index_scope": "First 40 dated articles within 700000 bytes; not exhaustive coverage",
           "feed": "Invertek official dated news index"
-        },
-        {
-          "title": "Siemens is Germany’s Chance For Economic Growth From AI - Bismarck Brief",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZkxXRTYwd0NFR21UcGhHWUQ3WkFzQTcyWkRSdlRvU1UxUDBpR09BYnQ2Smtzek4wOW5nVm9NTVp2c1B5aXY1Njk5ZEMwcG5STzZBazYzd0M3SXJNdVdpZ1VFdTJOWGdRc2pGcXlkdnY0U0dvTTJTUUJyU2ZPcmlORGtB?oc=5",
-          "published": "Wed, 11 Nov 2026 14:03:46 GMT",
-          "feed": "Technical and regulatory discovery"
         }
       ]
     },
@@ -55,27 +49,33 @@
       "department": "Market Intelligence",
       "leads": [
         {
+          "title": "Air Cooling Fans Market To 2035: Data Center Cooling and Industrial Ventilation Drive Growth - News and Statistics - IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNalZvbGk1OWh4YVlmREN3THdFYUJQd2lEaXRfVWxTZVVPbGNEWFpaNnN5cnpEOWc2UUctQ1c3UUpzcDdZWVVJZTNqUktXblhLZGJaR0kzRmJxZnFhcktndm0zRVVGMXM5QUtKenUzYTRuOHpiVGJ4dnFUMjkxRHBOeFVvbzlidDlXWnhONkdsRmlQTVBPZjd1Um9YNXZfR3VhNmhaUDRGLV9IVGZGT01ONzlYT3FBNGJuS3VnT1VLTDRkM1BTMGZENFlOSjNWU1dtZjVsUE9USQ?oc=5",
+          "published": "Tue, 10 Nov 2026 17:01:03 GMT",
+          "feed": "Technical and regulatory discovery"
+        },
+        {
           "title": "Cooling Fans Market To 2035: Data Center Cooling Demand Drives Growth - News and Statistics - IndexBox",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObW9iemhydi04ZGYxTWlaenFuN283VzRVZmtOcTRzSHRYa2tPTDFVYnBFM1k4RTVxUDl4OG9xdmpUWUVpVndjdlRnWG1WT2lOQ01GTVQ3Q0c3d28wR2pzazEtVDNVbTRTNHNKazdTQ1dkeWl3R1VRZ2dtQWJ4ZEJYaHBRNWswZDlrbGVPYWktUTBjR19ZYmFrRzF6REhNYTJFeXVva1VzTEgzdjZmVmR3?oc=5",
           "published": "Sun, 08 Nov 2026 18:56:04 GMT",
           "feed": "Technical and regulatory discovery"
         },
         {
-          "title": "Axial Fans Market To 2035: Data Center Cooling and Efficiency Mandates Drive Growth - News and Statistics - IndexBox",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWFk2TTAtNENGc3lHeGxUdkhIX3IxMFgzNzYtdEN1WmhBNmIxMnVGdVluWnpJN1FXcUMwd2loRDJ2LUhjN0F6VXFCVXVNMTgxVy1JV3pObGtienItd1UtTmRIU3g3azlZUHhmdFhoU1ZMeGg1dV8zX3hneVlTeEdIZDROanMtX21heEROZkpUQldHRlZHRkVCcHdYNVBobHRhQjZqRWJwWEpRV2xlaENhaUplTm84QU9qMzc0MUxYbVFBSkx4UUN0SU9YOHM?oc=5",
-          "published": "Sat, 31 Oct 2026 07:00:00 GMT",
+          "title": "Fire Dampers Market To 2035: Data Center and High-Rise Demand Supports Expansion - News and Statistics - IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQUZubzZvbkJRODJER0x4RDlBSUpiQ3M0Z3hxS1BLMlQ1V1gzSlY4MjJkS2x4LXFXYzBjaUdtVmE3YnlQTGJFcVp4V3liaXRydFowSGFnbjh0MW1lV0JFeU42R0tobGVpd2RWSXV2YzFxX1JwUTl2TEEyWEQxSzNoeEJZNHE0LVVrYk1jaVBZSjhSTUFocGNlLXNKQ19oNW9EUkd4cm1UVkFKNlh0REQxTTljU2dUSmJvOTQ0dkUtYw?oc=5",
+          "published": "Sun, 15 Nov 2026 16:31:05 GMT",
           "feed": "Technical and regulatory discovery"
         },
         {
-          "title": "Samsung in talks to acquire US data center cooling firm Modine amid heated race for HVAC systems - KED Global",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ncXl5T19wa1ZhM29RUGZkazd0Y1FEelpSSUhsRzZtMXdvZjZGS1FlenpSb1BlQUNob1pISUNjVzd2RWdNYTFZUlJRdWtiWVVFZF9YS3VHMFdhUUJfc2lid3NBVURwdXpUWGt3STQwZTdSaDhPODdMa1FzRQ?oc=5",
-          "published": "Fri, 13 Nov 2026 18:00:50 GMT",
+          "title": "Kazakhstan Plans 200 Industrial Projects Worth $3.8 Billion to Expand Manufacturing - The Astana Times",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMG1xX1NtcG9icGNjaVhrX19oMWZSRDM0d3VwZUlqMkNtR05PektYWXdGTzVWeDBjbTFoRzM2YVU1THZJXzBodm1zZzFmeUd6ZjVtbGE0MGhtbkJ2X0RUb3lKRG80WlBsQlAtRzJ0dHJsbFIxaW9aTUtfWWMtNTZFNGtsd3hhNXJnV29jTVJmVlgyM011bWgwNnV6X3p4TW1hVDF3OXFCQ2pEbnFscmtfVWxlbndzZw?oc=5",
+          "published": "Tue, 17 Nov 2026 11:44:03 GMT",
           "feed": "Technical and regulatory discovery"
         },
         {
-          "title": "Samsung Electronics in talks to buy Modine to expand AI data center cooling - Chosunbiz",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zb0pVV2pYRk1JaFNpdkZQYUstcmpKUHhqbXJwRlExUmp0Zy1mSDRDNmx0ekZDMzcwRkFQTUd6Zy0zQ0NINERnOUdHZXhGajh4TFFkQmZtWU1KeF9pZXp3VG8zZmppc09lMWhVRlJycmFlbzFVa1ZFWFJR0gGOAUFVX3lxTFBFQ2RHa2VOb183UG1vWXA4SjBYa1ZFOXNBNWhPQzFHVDF4VXJnb2hBTW13emdJbWQ1cy1DUldab1Z4T3UycDhvQ1QxZjFhR2l6MktDeWt3Zy1DTDhTUVhnLXNvRXVoR1dOWHVaR1BTQ1k1X25pMHg5SXI2YnJnTjdrcmhQLU5OeXRKX05OdXc?oc=5",
-          "published": "Fri, 13 Nov 2026 01:45:00 GMT",
+          "title": "North America Compressor Oil Market to Reach 90.27 Million Liters by 2030 as Oil and Gas Investments Support Demand – Mordor Intelligence - StreetInsider",
+          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQZGo0MzZoUExBdWNwWi1jY3B0SFB6WFlPdmtxQks1alJ1Zy1BWGVoX1dGQzI1YTB2OWdhN3VWb294RkRVdWk2YUxGdU1MejJzNGRmei00dTNoUGFScURhTG0yNHlrM2thaGhpV0VKQVZZODhvT0VMSDlhLVBMRnRwWVFJeGxnT2hTTmhwVlhiTk9MUWl6NHY1RXRwMEZLU0pRQXZ0WTc2NFJuVzBJUW95NTVnbFhzQVZZQ0Q1MmNPOEZyVndYd3hWSXpiX1J3WExnWWZuZl8yNzRheDRoQW1icjRmb0Y4SWdVdWcwWlBUc25TTk4zN21oZGV1U2FhR3BnaXFia3hsdnYyZHZGbDNDU1pUSVd5TjdOMUhPN3gwN3RJblk?oc=5",
+          "published": "Tue, 17 Nov 2026 22:27:53 GMT",
           "feed": "Technical and regulatory discovery"
         }
       ]
@@ -84,10 +84,16 @@
       "department": "New Products",
       "leads": [
         {
-          "title": "Apogee HVLS Fans Provide Effective Heat Stress Solutions for Modern European Dairy Farms - openPR.com",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZlc4LUhFR0ZsVHlnVjBadXhGVktlWXVGa3ZtNmxseDQ0ZVZGQXhIZmtWX0ZYSHplN0Z1NEhvVjQyQ3pZVHFFMmlkdFhqbENRcDZtOTltWUhHNGxsZWQ1SEFELUJkcVpsZkt2aEhrNGd2dmE1ZHp6OU11Umw2dGpxdnV6cXpucjlSZGtUeHZ5YWdtT1JiTmo4?oc=5",
-          "published": "Tue, 03 Nov 2026 04:02:04 GMT",
-          "feed": "Manufacturer and industry discovery"
+          "title": "Griffon Announces Additional $400 Million Share Buyback Authorization - Quantisnow",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTlZJRmdyNlBncGwyNXV1TmdXUWRhQXRDMzZCbHRNRXAwNVNqT2p3TUhBcG9HYm4wUUdzZE43cHBOMThtcGpFYjIybFg4Ny1KaVA1MC1zLW1iQk13ZzNZRXpyYUdDTzljN2FrdmF1VGFFNjZRQmZESGtDakRIUmhFa2NDbTZiVzg0V00ybWtrbURQaDZCU2ppS2ZSYkNJWDI5cE1DTjNGUjdPcXpOUzEwYg?oc=5",
+          "published": "Tue, 17 Nov 2026 12:39:18 GMT",
+          "feed": "Technical and regulatory discovery"
+        },
+        {
+          "title": "Havells India (NSE:HAVELLS) Unveils Three Innovative Ceiling Fans Featuring Advanced BLDC Technology and AI - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONkNxUE9ITGZEX01BUXB4X1B0dnZnblNOWjRUTzdKWFV3T1VCbjFfV1cxR3drSDlWd2lnS1lheTFRSmxmNk1mUFZTY3N6cnM5TXNyZ3FDeWllRVdGVFhXRDB6X1NkaW95aWVObG9MMHVWNHRnVEhNTHl6cnZnX2h0NFh0ckc5LXUzRlZvSVdZNmJILTBNWGdrTnlDQk0zdDFvMEhwVG1EOHFQRzZPRjlycDZuNFg3TG02cFVicWVuVm11eW55dTFNU2plTFczRHFRZG5jTDdGNWRQU2ZzbWcyQXdWQnozUQ?oc=5",
+          "published": "Tue, 17 Nov 2026 05:41:00 GMT",
+          "feed": "Technical and regulatory discovery"
         }
       ]
     },
@@ -97,52 +103,27 @@
     },
     {
       "department": "Rental Industry & Jobsite Economics",
-      "leads": [
-        {
-          "title": "United Rentals stock outlook rises after record third quarter - ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcDlicUxaMExoWVd6VzRjTEp5cHBGRGhuSEhLOUFwU3oxeThydEp6YmhwN3hhSjZDQVBXd1VhZVVHUXB3SmNRMFFNSklROC1IVG16RVVsdTFiWlJmTDF4alV1SkJ2TTc1Rm1UWmc4MkN3R3hHOTdkQXpyWU00dDVvMk8zVzRYVEUzcXZyeWc0RFpnM3VWR2xaNmZTOHdQRmxHRkhuSGFPMzFjLWFDVkpfeTZkOXVVeG5iVHVSdw?oc=5",
-          "published": "Fri, 13 Nov 2026 00:14:52 GMT",
-          "feed": "Specialist discovery 1"
-        }
-      ]
+      "leads": []
     },
     {
       "department": "Construction Pipeline & Industrial Projects",
       "leads": [
         {
-          "title": "Data Centers Cannot Absorb Every Lost Clean Energy Job - Environment+Energy Leader",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVUhwZnBTTjZBSU9RUng3blAyNHZRZ0hEajZiWnlOMG1CdFZZV2c1TVRFZ05VRTNHR2xiMkFzRDJka09HYzUtNHYzNFJxMXNyM0h3MUxtWnBxenNlaWR4em1DcF9EdmVHVW1aNXJScGg1QnBXSzJHMF9XNVpWV1RxRGVKZWk0c2Z4aVVLODQ0dkNtbzVaZWZ6c3RYMzdldnZXVk5v?oc=5",
-          "published": "Fri, 13 Nov 2026 13:00:00 GMT",
+          "title": "Food and Beverage Planned Projects Drop to 2026 Low with 38 New Projects in October - Send2Press",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcm5xcDlKWllwRW1ySnVlOElEbnpiVG1PLS13V1JCVUxVVDFnVkI1NF8tSE1IOUZneFpkVk1PQmozRnhOMEdsX3pjWGRNVmN5U3d3bHZfSElaZU1hT3M4Y0k0dDdVaTMxbWVTWXFZUnpadzRIVzhSQ1ZrU1NSRkM1SWIwYl9PcEZpVDFNY01MODBlYTNtb1Z3SWlKS2JJNEZqQWgtNDJEYkhiV0tUeThvZlZpNm14MVk?oc=5",
+          "published": "Tue, 17 Nov 2026 13:00:14 GMT",
           "feed": "Specialist discovery 1"
         },
         {
-          "title": "Brunswick port leads US auto trade as Georgia draws new plants - Data Portuaria",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQczU1NDVKNFYtUG9pdXFSZUNzS3d6U1h5WklDTU1EOXl3WkwxV3RaNC1lcHhRSHFjaFoxbUZ1OEhUdnFzZnhUbGJaYnh1ckxFUEdIcjVLY0N1akM2bXlyMldINUZsenJJanlWVTdqN0h3aGdEbmNrTkw3U2VkbnM4a1loTFFfemlaUmhXLXZuaFp6RXcwbm9jWnlhSk9scDdxekJsbml4RlpTNWN4VG4zQUREQWJvWlJYMXc?oc=5",
-          "published": "Tue, 10 Nov 2026 21:10:13 GMT",
-          "feed": "Specialist discovery 1"
-        },
-        {
-          "title": "Beloved Chicago-area toy brand Magna-Tiles snaps together new Bolingbrook headquarters - Chicago Star Media",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQRlB3a2Z2M3NNZF9fTW1iT29NT1ljUEpYaHR1VlIwa214aDliWERBc01YaVVncWhxSVV2c2Z6bVJTZE1nSTZTS3NOTHRYQlBUaTIyLWRKck15UmhUMlNwcGF1ODlDcnoweXJCZl9MczVoaVFhR0UtRHl3LWo2LUdfeERyVGo5elpESlNlLVNuYUhPZDlEQkoxYkppZmlCdnJGRkRZVUt5bmFneXlsY2ZfTkFUcU1maWFtQ2VPSHdndjBxYWRPZFpvc0lETXNEVjBrVGtVUVFqQWl1VF9VLUdDQTF3WFJaTm51R2VtaTd1ZjgtNW16UVRMcTNOMTBWS2RIWkNsYg?oc=5",
-          "published": "Thu, 12 Nov 2026 13:51:00 GMT",
-          "feed": "Specialist discovery 1"
-        },
-        {
-          "title": "Top 5 Warehouse Racking Manufacturers in North America: Pallet Rack & Storage Systems Guide - EIN News",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWE9QbDBYTXlMNTB0anZRZUlUdTZacGczQ1U2SWJPRk1JYkpoS2hGQnh5V05FdVVnc1ppdmlvM1JtdFo0dnZjLTBzTndpdFZWLWN3MXl0QmpRMjhsdFB0RXhLS3RqckQ5cDM1V0hGa2ZkaVFiaTRCcm95UDhxcjBmY0N3ZU5nRHRjckc2bFpxV3h1OHEycHEwMjUzWnljcFBQZC1hWnlNbTJUMVR5T0YzZUw4V2cxUFdRT3U4bUxYb0pUWGVEMjBrNFVn?oc=5",
-          "published": "Thu, 12 Nov 2026 05:57:00 GMT",
-          "feed": "Specialist discovery 1"
-        },
-        {
-          "title": "Governor Shapiro Invests More Than $134 Million in 100 Community and Economic Development Projects across Southwestern Pennsylvania - PA Department of Community & Economic Development (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZFBZR0pWc2gzaHliYTE1OTNLeUFFb19IakdGakhocXBqUTQ3M0ZWVGt2NG1LSGZkMkl4d3ZpRjRWUk1mcTRJX0dnWi14aGZjaGs3VmdRSzVKYlFrMlpUTGZoZzQyXzBzNFVRSjgxZm9iRk1tVHZEaGZQalNWZTNqdlVOU3hiNkJIUXU3SWo5OUpmYmdIMEloRWRWbnV5Q1UtVk1BTUo4Q1BFYjFMSXVxTEdndk81djVtZDBFTWlFa3F6VDZHckVacjNQQmZIeEVkQWtyUFRDYnd1SVdNM081Z1FvWlRoMGM4YWVuU0ZSZWJoUQ?oc=5",
-          "published": "Fri, 06 Nov 2026 08:00:00 GMT",
+          "title": "Insulated Gloves Market to Reach 5.2% CAGR by 2035 on Electrical Infrastructure and Cold-Chain Logistics Demand - IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaTVacGdNNERNWjFBVVdlRkJ5WDlBM010ekJuTDRBN1VWanlwZF81aUt4RzlrTEZkR2ktam0wUGxkdVp2WWJxNThiNkx6alZ5Q3FIaW5ra0JIa0duT21CdGV4dm00WnZzVVZfakZxX0FzZEdkTkZzbWR6UGUzTlB5VDVnLW44RGUwWHJWa3gyY3ZUR3dVaHNEdFlJZkh0Zi1pYUxqRDcySTRza19xUlAxUEw4Uy1pY3dPeGcwRTdWdnFsNjJFR1BBMkRIUG0yNjNoZXVoX1ZTMA?oc=5",
+          "published": "Sun, 15 Nov 2026 17:01:06 GMT",
           "feed": "Specialist discovery 2"
         },
         {
-          "title": "BASF inaugurates US$1 billion MDI plant in Louisiana, strengthens US polyurethane supply chain - Polymerupdate",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tVFFkT3BPV0NNbjRDTjRNYmRPSHhwWGtLSkQ2YVp6TjZ3ZmJSSGZoUkl5RXA4bDF5cEFJMWViQXRwWW1IcUlBRWJKUzAza0JxM3lqcGM2UWloeU45b2ln?oc=5",
-          "published": "Fri, 13 Nov 2026 08:56:34 GMT",
+          "title": "Russia, Afghanistan Bilateral Trade & Investment: November 2026 Update - russia's pivot to asia",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR0tfVVdYU0UtdTFpczFDZUpBdDJBRjZkTDlCSW5ESzVjalo4ZjMyTzZQYjhkc3hoWWJEVkd0dnY0ZkxDaFIxTVJfZllQNUVWSEkyS3ZUOFlRV0NULTlOd2g1LXVGVDRlTjBncDU2T21QQ3RVa0JUN0tiVHdkTENtU3p3aWlZZWgwZ00zLW5SOE56Q2lVRkxKWUI0MVVQVEE?oc=5",
+          "published": "Mon, 16 Nov 2026 14:27:30 GMT",
           "feed": "Specialist discovery 2"
         }
       ]
@@ -151,33 +132,21 @@
       "department": "HVLS Installation Field Impact",
       "leads": [
         {
-          "title": "Multi-Tier Rack Supported Mezzanine: How HEDA Shelves Doubles Usable Space Without New Construction - openPR.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSEFRMXphYXR1VGxTWUpGYjdrRzZrQjJlU0ROSXpKMTd2Ulh4bnBfbUNVb3J1S01EaGY4SWNvZk5QXy02a0lkeExidE1OYktwbmJ1ZWFXRHcxbU93ZDZkYkRjZl9QbVBfbkRiTHFsdXZkLV9iY24tdEJDRnVMM2dZWDIxN2lZTjBzdjd1V1N3cWdraGt6ci1JczFNSVc?oc=5",
-          "published": "Tue, 10 Nov 2026 06:16:18 GMT",
-          "feed": "Specialist discovery 1"
-        },
-        {
-          "title": "Phase Sequence Testers Market To 2035: Renewable Energy Grid Integration Drives Growth - News and Statistics - IndexBox",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbWt0X0tETTFySnE3QnhScDNtVWhoc2xjNjhRTVA4WDFJV2M3UzliUzBjbmhRQ21Jcjl3VXZXV29FQkVSbkVVanludnNqZTBCeTdYcVlucnNrekIzd1NtdmZsTHE3aGRzX291M1pyN0dNT1o0SFRsNUYtbndiYXZKVllCNXpQOEFLTEl5aUtnRldlWUxpNlg4Z1V4R0cwTEdiNjIwd0otcFoxWDhCdzl2cDVUZGlEQXZSSVNlcQ?oc=5",
-          "published": "Fri, 13 Nov 2026 12:01:05 GMT",
-          "feed": "Specialist discovery 2"
-        },
-        {
-          "title": "Cable Conduit Systems Market to 2035: Data Center Buildouts and Industrial Automation Drive Forward Growth - IndexBox",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOemlrQlhjdzBMOWdiRHBLeUVWalZKUE9Oc2UxeHp3MkFMdkZwSzViX3haalJ1SC1PM0M0Y0l0WUZjaXdqTFd0X0tHWm9rSm5QRTA3cjE5MnBXbjJIQ0phMGlZV1l4NXJtT1R3Z3ZrLWxYMnB2V3pVU25iRFBfV1l2ZTVLXzVCbXYza3RLQ1Nfa2RRVHMxZnFCUjFIaWpyd1FKaG0tYkRtWWoxQVBGaUJxVTRCMWNLUmRNejFSZmMxc1Q1RUhkVTlZcTlPNFIxbkg3?oc=5",
-          "published": "Sun, 08 Nov 2026 22:11:03 GMT",
-          "feed": "Specialist discovery 2"
-        },
-        {
           "title": "What It Takes to Succeed: Commercial Nuclear Delivered at Scale - POWER Magazine",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTzg1eDdtLXZEbXoxbm9pdlFQMzlJeGJueUx3YVJxSGZUV1BjVVpMdEpWdVJ3V3NlQkxYWWNlcHhHY3N4a09CT1M5SDFUQTRrNzl1S3NXeGVmMENORC1vVnJuVzlhWEhWMF9JWnh0Q2FFblF2clhGZFRzVEQ0WGg1U2dwcHNiOHAwSnIxdFdPNUNVSGFOSXE2ZFlFT2tnT1ltTTc4a3AzYw?oc=5",
           "published": "Fri, 13 Nov 2026 02:38:42 GMT",
           "feed": "Specialist discovery 2"
         },
         {
-          "title": "Navigating the $150B power boom and reality gap - BIC Magazine",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zQzdGa294UWI5c05vUTZFblFFUVF3UzJFRXdOSmRMQjg5M3lIbW1UNG54cWhCbkZZVXYtYkhjcFU3SnpFdlZXeXJRT2ZLT2NhdXRWUHJ5UmxuVFlFWmZQU19CS1hJNXBDaDlxZXNUVQ?oc=5",
-          "published": "Sun, 01 Nov 2026 07:00:00 GMT",
+          "title": "Cable Conduits Market Growth Outlook to 2035: Grid Modernization and Renewables Support Expansion - News and Statistics - IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaVJnSnBxbTF6dUdHWXFyV1pxMGNWcElyU1dNZzFkM3RSNnV6Ui1zRTJfSk1YYWR2SjdpbHhoRzl6SHBsYmRGTTRtYTBTZE9oeHRreWxxTElZY3MzejJNRnZFa2JJWnVjV2NtY0kxZmlJWUlkOXI3SDRxOG0yc3ZmeUJsSllTSUJhVGJTRTdMSFVsYTJWSWVTcDlzbVZCYnQ0dnVEbG9vQ25EcE9GMFhtSm5zMGRkcVQxd2lsaWNxZFBYcGkteks2WFViMTF4d2xucU9kT3hOck9Sdw?oc=5",
+          "published": "Sat, 14 Nov 2026 14:06:04 GMT",
+          "feed": "Specialist discovery 2"
+        },
+        {
+          "title": "Ground Grid Testers Market in Asia: Size, Trends and Forecast to 2035 - IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnhldVd6ZlBWM1dGNkpzNncxYlk0RGk1LTZmSGZha0E0VmJvSG5QbzRmZ0hKbHJ4TjZvcUFqVVg4T2dNWmNjOEY3S01VNEM1QmkzSlJLdi1BaFB3MnZ4dlFiOXVudzhrbXZ4dG1tWlgtUEZBanhzSllXd3QtT3BfcTJZSk1YV00yZVpSOUZqYnFpOHBfSHlybVJmUzY5OTkzU2ZPYUpQQWs?oc=5",
+          "published": "Thu, 12 Nov 2026 08:00:00 GMT",
           "feed": "Specialist discovery 2"
         }
       ]

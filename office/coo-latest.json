@@ -4,19 +4,19 @@
     "status": "synced_unverified_leads",
     "issues_created": 0,
     "eligible_candidates": 1,
-    "run_id": "44193600371",
+    "run_id": "44826586681",
     "deduplication_check": "no_new_items_to_recheck",
     "matched_existing_count": 1
   },
-  "generated_at": "2026-11-17T22:49:36.702618+00:00",
+  "generated_at": "2026-11-20T22:10:47.454750+00:00",
   "status": "automated_operational_brief_not_autonomous_agent",
-  "research_generated_at": "2026-11-17T22:48:43.355662+00:00",
+  "research_generated_at": "2026-11-20T22:09:58.232319+00:00",
   "metrics": {
-    "research_leads": 15,
-    "editorial_briefs": 1,
+    "research_leads": 23,
+    "editorial_briefs": 2,
     "media_requests": 17,
-    "source_errors": 1,
-    "manufacturer_source_errors": 1,
+    "source_errors": 2,
+    "manufacturer_source_errors": 2,
     "approval_records": 12,
     "published_articles": 12
   },
@@ -27,7 +27,7 @@
       "owner": "Head of Research",
       "status": "needs_review",
       "task": "Screen recent research leads and verify original sources",
-      "count": 15
+      "count": 23
     },
     {
       "id": "coo-editorial",
@@ -35,7 +35,7 @@
       "owner": "Managing Editor",
       "status": "needs_review",
       "task": "Triage research briefs for relevance and assign evidence work",
-      "count": 1
+      "count": 2
     },
     {
       "id": "coo-media",
@@ -78,12 +78,12 @@
       "count": 5
     }
   ],
-  "manufacturer_discovery_generated_at": "2026-11-17T22:49:25.659341+00:00",
+  "manufacturer_discovery_generated_at": "2026-11-20T22:10:38.605008+00:00",
   "warnings": [
     "Research headlines and dates are unverified until original sources are checked.",
     "No autonomous LLM agents or publisher approval are executed by this report.",
     "This public JSON contains no unpublished article text or private review notes.",
-    "Manufacturer discovery has 1 sitemap failures; fallback URLs do not establish complete source coverage."
+    "Manufacturer discovery has 2 sitemap failures; fallback URLs do not establish complete source coverage."
   ],
   "publication_allowed": false
 }

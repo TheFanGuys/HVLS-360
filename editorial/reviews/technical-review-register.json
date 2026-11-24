@@ -333,6 +333,22 @@
       "ai_review_scope": "Writer's source and claim check",
       "qualified_review_required": false,
       "draft_sha256": "e82cd79516810a7bc2759dd1e2f1d0cbae113263dbe7414412f47756b8be48ba"
+    },
+    {
+      "slug": "hvls-fan-guy-wires-safety-cables",
+      "title": "Guy Wires and Safety Cables on HVLS Fans: What Four Manufacturers Call For",
+      "scope": "Weekly article; documentary source check by the writer",
+      "primary_review_file": "editorial/reviews/hvls-fan-guy-wires-safety-cables-review.md",
+      "technical_status": "awaiting_qualified_review",
+      "reviewer_identity": null,
+      "review_date": null,
+      "review_evidence": null,
+      "publisher_approval": "founder_merge_of_release_pr",
+      "ai_expert_review": "complete",
+      "ai_expert_review_file": "editorial/reviews/hvls-fan-guy-wires-safety-cables-review.md",
+      "ai_review_scope": "Writer's source and claim check",
+      "qualified_review_required": false,
+      "draft_sha256": "bb739a47e512737f225a05269016c3930dacb0ac93615f8b896a587f7d8e5f9d"
     }
   ],
   "policy": "Documentary source review is distinct from independent qualified signoff. External human review is required for consequential prescriptive or site-specific regulated judgments, not as a blanket gate for attributed reporting. Exact-revision claim findings and conditional triggers are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Zero qualified independent signoffs; no release authorization.",

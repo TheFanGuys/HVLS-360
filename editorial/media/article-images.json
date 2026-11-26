@@ -408,6 +408,29 @@
         "reviewer": "Weekly article worker (Art desk)",
         "evidence": "office/weekly_article.py"
       }
+    },
+    "hvls-fan-clearances-four-manufacturers": {
+      "file": "editorial/media/publisher/weekly/hvls-fan-clearances-four-manufacturers.webp",
+      "alt": "Five-blade HVLS fan hanging below the roof joists of a warehouse, with high-bay lights on either side.",
+      "caption": "An HVLS fan between the high-bay lights in a distribution warehouse.",
+      "kind": "photo",
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-25",
+        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+        "reviewer": "Weekly article worker (Art desk)",
+        "evidence": "office/weekly_article.py"
+      }
     }
   }
 }

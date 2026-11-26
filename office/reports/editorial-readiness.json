@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "drafts": 17,
+  "drafts": 18,
   "quality_issues": 0,
   "approved_for_publication": 0,
   "articles": [
@@ -76,6 +76,17 @@
       "word_count": 545,
       "sources": 5,
       "images": 1,
+      "review_record": true,
+      "errors": [],
+      "ready_for_publisher": false,
+      "status": "draft_quality_checked_not_technically_approved"
+    },
+    {
+      "slug": "hvls-fan-clearances-four-manufacturers",
+      "title": "HVLS Fan Clearances: What Four Manufacturers Want Around the Blades",
+      "word_count": 869,
+      "sources": 4,
+      "images": 0,
       "review_record": true,
       "errors": [],
       "ready_for_publisher": false,

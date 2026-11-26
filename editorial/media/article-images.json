@@ -431,6 +431,29 @@
         "reviewer": "Weekly article worker (Art desk)",
         "evidence": "office/weekly_article.py"
       }
+    },
+    "hvls-fan-vfd-motor-cable-length": {
+      "file": "editorial/media/publisher/weekly/hvls-fan-vfd-motor-cable-length.webp",
+      "alt": "Row of wall-mounted fan drive panels with disconnects and conduit",
+      "caption": "Wall-mounted fan drives, each with its own disconnect and conduit drop. Big Fan Guys installation photograph.",
+      "kind": "photo",
+      "credit": "Big Fan Guys",
+      "presentation": {
+        "card": {
+          "fit": "contain",
+          "position": "50% 50%"
+        },
+        "lead": {
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      },
+      "crop_review": {
+        "reviewed": "2026-11-17",
+        "scope": "Landscape lead; subject checked visually on phone and desktop widths.",
+        "reviewer": "Weekly article worker (Art desk)",
+        "evidence": "office/weekly_article.py"
+      }
     }
   }
 }

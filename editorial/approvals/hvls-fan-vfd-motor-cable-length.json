@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slug": "hvls-fan-vfd-motor-cable-length",
+  "publisher_decision": "approved",
+  "technical_review": "complete",
+  "editorial_review": "complete",
+  "media_rights": "cleared",
+  "publisher_name": "Chris Fogarty",
+  "approved_at_utc": "2026-11-17T16:20:34Z",
+  "publisher_attestation": "I explicitly authorize publication of this article.",
+  "approval_mechanism": "Founder approves by merging the weekly release pull request. Unmerged, nothing is live.",
+  "source_review_notes": "Writer's source check: editorial/reviews/hvls-fan-vfd-motor-cable-length-review.md. Technical review is the founder's field review at merge; no licensed engineer sign-off claimed.",
+  "media_rights_evidence": "Lead image is a Big Fan Guys photograph or original HVLS 360 illustration: art-library/bigfanguys-com/install-service/IMG_5669.webp",
+  "article_sha256": "35e893b7cd315bf74d502248c9f1854cf024ea408a0ed84c2d67fd9992188ac9",
+  "release_inputs_sha256": "954752bb2451756b8ec8ccc2411a0f52d1fb6a9b91b01cf3035490556a0258c1"
+}

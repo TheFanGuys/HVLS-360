@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slug": "hvls-fan-clearances-four-manufacturers",
+  "publisher_decision": "approved",
+  "technical_review": "complete",
+  "editorial_review": "complete",
+  "media_rights": "cleared",
+  "publisher_name": "Chris Fogarty",
+  "approved_at_utc": "2026-11-26T03:42:58Z",
+  "publisher_attestation": "I explicitly authorize publication of this article.",
+  "approval_mechanism": "Founder approves by merging the weekly release pull request. Unmerged, nothing is live.",
+  "source_review_notes": "Writer's source check: editorial/reviews/hvls-fan-clearances-four-manufacturers-review.md. Technical review is the founder's field review at merge; no licensed engineer sign-off claimed.",
+  "media_rights_evidence": "Lead image is a Big Fan Guys photograph or original HVLS 360 illustration: art-library/bigfanguys-com/warehouse/IMG_9670.webp",
+  "article_sha256": "fa2223a29d9c894c4bb57843a7815deea82abc63710a028f9b0f2ef5db417223",
+  "release_inputs_sha256": "0bd4117445a36f0913315e0b61634c4e4cce4750f32fb8df69e9145ca9615f30"
+}

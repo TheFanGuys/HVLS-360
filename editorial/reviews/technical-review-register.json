@@ -365,6 +365,22 @@
       "ai_review_scope": "Writer's source and claim check",
       "qualified_review_required": false,
       "draft_sha256": "35e893b7cd315bf74d502248c9f1854cf024ea408a0ed84c2d67fd9992188ac9"
+    },
+    {
+      "slug": "hvls-fan-clearances-four-manufacturers",
+      "title": "HVLS Fan Clearances: What Four Manufacturers Want Around the Blades",
+      "scope": "Weekly article; documentary source check by the writer",
+      "primary_review_file": "editorial/reviews/hvls-fan-clearances-four-manufacturers-review.md",
+      "technical_status": "awaiting_qualified_review",
+      "reviewer_identity": null,
+      "review_date": null,
+      "review_evidence": null,
+      "publisher_approval": "founder_merge_of_release_pr",
+      "ai_expert_review": "complete",
+      "ai_expert_review_file": "editorial/reviews/hvls-fan-clearances-four-manufacturers-review.md",
+      "ai_review_scope": "Writer's source and claim check",
+      "qualified_review_required": false,
+      "draft_sha256": "fa2223a29d9c894c4bb57843a7815deea82abc63710a028f9b0f2ef5db417223"
     }
   ],
   "policy": "Documentary source review is distinct from independent qualified signoff. External human review is required for consequential prescriptive or site-specific regulated judgments, not as a blanket gate for attributed reporting. Exact-revision claim findings and conditional triggers are recorded in editorial/reviews/LAUNCH-CLAIM-RESOLUTION-2026-11-11.json. Zero qualified independent signoffs; no release authorization.",

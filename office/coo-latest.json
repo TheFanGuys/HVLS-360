@@ -2,18 +2,18 @@
   "schema_version": 1,
   "shared_issue_sync": {
     "status": "synced_unverified_leads",
-    "issues_created": 1,
+    "issues_created": 0,
     "eligible_candidates": 1,
-    "run_id": "43508945893",
-    "deduplication_check": "created_items_rechecked_no_duplicates",
-    "matched_existing_count": 0
+    "run_id": "45512913655",
+    "deduplication_check": "no_new_items_to_recheck",
+    "matched_existing_count": 1
   },
-  "generated_at": "2026-11-13T21:15:56.078536+00:00",
+  "generated_at": "2026-11-24T23:48:40.964702+00:00",
   "status": "automated_operational_brief_not_autonomous_agent",
-  "research_generated_at": "2026-11-13T21:15:03.697616+00:00",
+  "research_generated_at": "2026-11-24T23:47:43.607150+00:00",
   "metrics": {
-    "research_leads": 20,
-    "editorial_briefs": 1,
+    "research_leads": 29,
+    "editorial_briefs": 3,
     "media_requests": 17,
     "source_errors": 1,
     "manufacturer_source_errors": 1,
@@ -27,7 +27,7 @@
       "owner": "Head of Research",
       "status": "needs_review",
       "task": "Screen recent research leads and verify original sources",
-      "count": 20
+      "count": 29
     },
     {
       "id": "coo-editorial",
@@ -35,7 +35,7 @@
       "owner": "Managing Editor",
       "status": "needs_review",
       "task": "Triage research briefs for relevance and assign evidence work",
-      "count": 1
+      "count": 3
     },
     {
       "id": "coo-media",
@@ -78,7 +78,7 @@
       "count": 5
     }
   ],
-  "manufacturer_discovery_generated_at": "2026-11-13T21:15:44.494196+00:00",
+  "manufacturer_discovery_generated_at": "2026-11-24T23:48:33.330912+00:00",
   "warnings": [
     "Research headlines and dates are unverified until original sources are checked.",
     "No autonomous LLM agents or publisher approval are executed by this report.",

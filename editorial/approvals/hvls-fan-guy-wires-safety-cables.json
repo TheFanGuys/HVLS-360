@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "slug": "hvls-fan-guy-wires-safety-cables",
+  "publisher_decision": "approved",
+  "technical_review": "complete",
+  "editorial_review": "complete",
+  "media_rights": "cleared",
+  "publisher_name": "Chris Fogarty",
+  "approved_at_utc": "2026-11-24T16:38:09Z",
+  "publisher_attestation": "I explicitly authorize publication of this article.",
+  "approval_mechanism": "Founder approves by merging the weekly release pull request. Unmerged, nothing is live.",
+  "source_review_notes": "Writer's source check: editorial/reviews/hvls-fan-guy-wires-safety-cables-review.md. Technical review is the founder's field review at merge; no licensed engineer sign-off claimed.",
+  "media_rights_evidence": "Lead image is a Big Fan Guys photograph or original HVLS 360 illustration: art-library/bigfanguys-com/warehouse/IMG_9910.webp",
+  "article_sha256": "bb739a47e512737f225a05269016c3930dacb0ac93615f8b896a587f7d8e5f9d",
+  "release_inputs_sha256": "b3be3e2219a206edfbdde6715bc5b85e12fee02af9250530980f19314a3f4247"
+}

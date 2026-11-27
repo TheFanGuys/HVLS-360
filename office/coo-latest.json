@@ -2,23 +2,23 @@
   "schema_version": 1,
   "shared_issue_sync": {
     "status": "synced_unverified_leads",
-    "issues_created": 0,
+    "issues_created": 1,
     "eligible_candidates": 1,
-    "run_id": "45512913655",
-    "deduplication_check": "no_new_items_to_recheck",
-    "matched_existing_count": 1
+    "run_id": "46081511758",
+    "deduplication_check": "created_items_rechecked_no_duplicates",
+    "matched_existing_count": 0
   },
-  "generated_at": "2026-11-24T23:48:40.964702+00:00",
+  "generated_at": "2026-11-27T23:17:02.122829+00:00",
   "status": "automated_operational_brief_not_autonomous_agent",
-  "research_generated_at": "2026-11-24T23:47:43.607150+00:00",
+  "research_generated_at": "2026-11-27T23:16:05.397560+00:00",
   "metrics": {
-    "research_leads": 29,
-    "editorial_briefs": 3,
-    "media_requests": 17,
-    "source_errors": 1,
+    "research_leads": 22,
+    "editorial_briefs": 2,
+    "media_requests": 20,
+    "source_errors": 3,
     "manufacturer_source_errors": 1,
-    "approval_records": 12,
-    "published_articles": 12
+    "approval_records": 15,
+    "published_articles": 15
   },
   "assignments": [
     {
@@ -27,7 +27,7 @@
       "owner": "Head of Research",
       "status": "needs_review",
       "task": "Screen recent research leads and verify original sources",
-      "count": 29
+      "count": 22
     },
     {
       "id": "coo-editorial",
@@ -35,7 +35,7 @@
       "owner": "Managing Editor",
       "status": "needs_review",
       "task": "Triage research briefs for relevance and assign evidence work",
-      "count": 3
+      "count": 2
     },
     {
       "id": "coo-media",
@@ -43,7 +43,7 @@
       "owner": "Head of Media & Art",
       "status": "needs_review",
       "task": "Clear image rights, model identity and article-specific media requests",
-      "count": 17
+      "count": 20
     },
     {
       "id": "coo-experts",
@@ -78,7 +78,7 @@
       "count": 5
     }
   ],
-  "manufacturer_discovery_generated_at": "2026-11-24T23:48:33.330912+00:00",
+  "manufacturer_discovery_generated_at": "2026-11-27T23:16:51.400088+00:00",
   "warnings": [
     "Research headlines and dates are unverified until original sources are checked.",
     "No autonomous LLM agents or publisher approval are executed by this report.",
